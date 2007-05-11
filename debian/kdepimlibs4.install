@@ -1,3 +1,11 @@
+usr/lib/kde4/kabc_directory.so
+usr/lib/kde4/kabc_file.so
+usr/lib/kde4/kabc_ldapkio.so
+usr/lib/kde4/kabc_net.so
+usr/lib/kde4/kabcformat_binary.so
+usr/lib/kde4/kcal_local.so
+usr/lib/kde4/kcal_localdir.so
+usr/lib/kde4/kcm_kresources.so
 
 usr/lib/libkabc.so.5
 usr/lib/libkabc.so.5.0.0

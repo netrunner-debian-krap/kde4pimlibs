@@ -47,7 +47,7 @@ Description: core shared data for KDE PIM 4 alpha applications
 Package: kdepimlibs4-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs4 (= ${Source-Version}), kdelibs5-dev
+Depends: kdepimlibs4 (= ${Source-Version}), kdelibs4-dev
 Description: development files for the KDE PIM 4 alpha core libraries
  This package contains all the headers and other related files needed
  to compile KDE PIM applications, or develop applications which use the

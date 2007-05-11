@@ -2,7 +2,9 @@ Source: kdepimlibs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
+ libboost-dev, libsasl2-dev, libldap2-dev,
+ libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1)
 Standards-Version: 3.7.2
 
 Package: kdepimlibs
@@ -54,12 +56,3 @@ Description: development files for the KDE PIM 4 alpha core libraries
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdepimlibs' packages for more information.
 
-Package: kdelibs-bin
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: binaries for all the KDE PIM 4 alpha core applications
- This package contains all the common core binaries used by all KDE PIM 4
- applications.
- .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdepimlibs' packages for more information.

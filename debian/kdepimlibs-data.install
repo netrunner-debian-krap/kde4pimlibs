@@ -408,3 +408,8 @@ usr/share/kde4/services/kresources/kabc/ldapkio.desktop
 usr/share/kde4/services/kresources/kabc/net.desktop
 usr/share/kde4/services/kresources/kabc_manager.desktop
 usr/share/kde4/services/kresources/kcal/local.desktop
+usr/share/kde4/services/kresources/kcal/localdir.desktop
+usr/share/kde4/services/kresources/kcal_manager.desktop
+
+usr/share/kde4/servicetypes/kresources_manager.desktop
+usr/share/kde4/servicetypes/kresources_plugin.desktop

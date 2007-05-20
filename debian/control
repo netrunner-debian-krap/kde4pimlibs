@@ -4,7 +4,9 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
  libboost-dev, libsasl2-dev, libldap2-dev,
- libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1)
+ libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1),
+ libbz2-dev,
+ libfam-dev,
 Standards-Version: 3.7.2
 
 Package: kdepimlibs

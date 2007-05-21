@@ -26,7 +26,7 @@ Description: core libraries from the official KDE PIM 4 alpha release
 Package: kdepimlibs4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5, kdepimlibs-data
+Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version})
 Description: core libraries for KDE PIM 4 alpha applications
  This package contains all the shared libraries used by KDE PIM 
  applications. You need these libraries and binaries to run KDE 

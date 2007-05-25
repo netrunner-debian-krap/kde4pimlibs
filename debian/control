@@ -2,17 +2,14 @@ Source: kdepimlibs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
  libboost-dev, libsasl2-dev, libldap2-dev,
- libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1),
- libbz2-dev,
- libfam-dev,
 Standards-Version: 3.7.2
 
 Package: kdepimlibs
 Section: libs
 Architecture: all
-Depends: ${shlibs:Depends}, kdepimlibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version}), kdepimlibs-bin (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdepimlibs4 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version})
 Description: core libraries from the official KDE PIM 4 alpha release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -49,7 +46,8 @@ Description: core shared data for KDE PIM 4 alpha applications
 Package: kdepimlibs4-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs4 (= ${Source-Version}), kdelibs4-dev
+Depends: kdepimlibs4 (= ${Source-Version}), kdelibs4-dev (= ${Source-Version}), 
+ libboost-dev, libsasl2-dev, libldap2-dev,
 Description: development files for the KDE PIM 4 alpha core libraries
  This package contains all the headers and other related files needed
  to compile KDE PIM applications, or develop applications which use the

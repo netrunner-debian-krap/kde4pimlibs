@@ -9,7 +9,7 @@ Standards-Version: 3.7.2
 Package: kdepimlibs
 Section: libs
 Architecture: all
-Depends: ${shlibs:Depends}, kdepimlibs4 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdepimlibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version})
 Description: core libraries from the official KDE PIM 4 alpha release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -20,7 +20,7 @@ Description: core libraries from the official KDE PIM 4 alpha release
  needed by virtually all KDE applications. It does not include
  development files.
 
-Package: kdepimlibs4
+Package: kdepimlibs5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version})
@@ -43,10 +43,10 @@ Description: core shared data for KDE PIM 4 alpha applications
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdepimlibs' packages for more information.
 
-Package: kdepimlibs4-dev
+Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs4 (= ${Source-Version}), kdelibs5-dev (= ${Source-Version}), 
+Depends: kdepimlibs5 (= ${Source-Version}), kdelibs5-dev (= ${Source-Version}), 
  libboost-dev, libsasl2-dev, libldap2-dev,
 Description: development files for the KDE PIM 4 alpha core libraries
  This package contains all the headers and other related files needed

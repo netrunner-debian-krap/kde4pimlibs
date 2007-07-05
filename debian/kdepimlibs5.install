@@ -6,6 +6,7 @@ usr/lib/kde4/kabcformat_binary.so
 usr/lib/kde4/kcal_local.so
 usr/lib/kde4/kcal_localdir.so
 usr/lib/kde4/kcm_kresources.so
+usr/lib/kde4/kcm_mailtransport.so
 
 usr/lib/libkabc.so.5
 usr/lib/libkabc.so.5.0.0
@@ -39,6 +40,9 @@ usr/lib/libktnef.so.5.0.0
 
 usr/lib/libkxmlrpcclient.so.5
 usr/lib/libkxmlrpcclient.so.5.0.0
+
+usr/lib/libmailtransport.so.5
+usr/lib/libmailtransport.so.5.0.0
 
 usr/lib/libsyndication.so.5
 usr/lib/libsyndication.so.5.0.0

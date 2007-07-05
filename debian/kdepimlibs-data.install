@@ -1,5 +1,9 @@
 usr/share/apps/kabc/countrytransl.map
 usr/share/apps/kabc/formats/binary.desktop
+
+usr/share/apps/kconf_update/mailtransports.upd
+usr/share/apps/kconf_update/migrate-transports.pl
+
 usr/share/apps/libical/zoneinfo/Africa/Abidjan.ics
 usr/share/apps/libical/zoneinfo/Africa/Accra.ics
 usr/share/apps/libical/zoneinfo/Africa/Addis_Ababa.ics
@@ -398,9 +402,11 @@ usr/share/apps/libical/zoneinfo/Pacific/Wake.ics
 usr/share/apps/libical/zoneinfo/Pacific/Wallis.ics
 usr/share/apps/libical/zoneinfo/zones.tab
 
-usr/share/autostart/kab2kabc.desktop
+usr/share/config.kcfg/mailtransport.kcfg
 usr/share/config.kcfg/pimemoticons.kcfg
 usr/share/dbus-1/interfaces/org.kde.KResourcesManager.xml
+
+usr/share/kde4/services/kcm_mailtransport.desktop
 usr/share/kde4/services/kresources.desktop
 usr/share/kde4/services/kresources/kabc/dir.desktop
 usr/share/kde4/services/kresources/kabc/file.desktop

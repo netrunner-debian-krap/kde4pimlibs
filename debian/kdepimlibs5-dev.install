@@ -22,8 +22,6 @@ usr/include/kabc/picture.h
 usr/include/kabc/plugin.h
 usr/include/kabc/resource.h
 usr/include/kabc/resourcecached.h
-usr/include/kabc/resourcefile.h
-usr/include/kabc/resourcenet.h
 usr/include/kabc/secrecy.h
 usr/include/kabc/sortmode.h
 usr/include/kabc/sound.h
@@ -106,7 +104,7 @@ usr/include/kldap/ldapserver.h
 usr/include/kldap/ldapurl.h
 usr/include/kldap/ldif.h
 usr/include/kmime/boolflags.h
-usr/include/kmime/kmime.h
+usr/include/kmime/kmime_export.h
 usr/include/kmime/kmime_charfreq.h
 usr/include/kmime/kmime_codecs.h
 usr/include/kmime/kmime_content.h
@@ -143,7 +141,6 @@ usr/include/ktnef/ktnefpropertyset.h
 usr/include/ktnef/ktnefwriter.h
 usr/include/kxmlrpcclient/client.h
 usr/include/kxmlrpcclient/kxmlrpcclient_export.h
-usr/include/kxmlrpcclient/query.h
 usr/include/mailtransport/mailtransport_export.h
 usr/include/mailtransport/sendmailjob.h
 usr/include/mailtransport/servertest.h
@@ -238,4 +235,5 @@ usr/lib/libkpimutils.so
 usr/lib/libkresources.so
 usr/lib/libktnef.so
 usr/lib/libkxmlrpcclient.so
+usr/lib/libmailtransport.so
 usr/lib/libsyndication.so

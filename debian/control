@@ -2,19 +2,20 @@ Source: kdepimlibs
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
- libboost-dev, libsasl2-dev, libldap2-dev,
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev,
+ libboost-dev, libldap2-dev, libsasl2-dev
 Standards-Version: 3.7.2
 
 Package: kdepimlibs
 Section: libs
 Architecture: all
-Depends: ${shlibs:Depends}, kdepimlibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdepimlibs5 (>= ${Source-Version}),
+ kdepimlibs-data (>= ${Source-Version})
 Description: core libraries from the official KDE PIM 4 alpha release
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
+ KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
+ environment for Unix workstations. It combines ease of use, contemporary
+ functionality, and outstanding graphical design with the technological
+ superiority of the Unix operating system.
  .
  This metapackage includes the core KDE PIM libraries, binaries, and data,
  needed by virtually all KDE applications. It does not include
@@ -23,11 +24,11 @@ Description: core libraries from the official KDE PIM 4 alpha release
 Package: kdepimlibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdelibs5 (>= ${Source-Version}),
+ kdepimlibs-data (>= ${Source-Version})
 Description: core libraries for KDE PIM 4 alpha applications
- This package contains all the shared libraries used by KDE PIM 
- applications. You need these libraries and binaries to run KDE 
- applications.
+ This package contains all the shared libraries used by KDE PIM applications.
+ You need these libraries and binaries to run KDE applications.
  .
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdepimlibs' packages for more information.
@@ -36,9 +37,9 @@ Package: kdepimlibs-data
 Section: libs
 Architecture: all
 Description: core shared data for KDE PIM 4 alpha applications
- This package contains all the architecture independent data files
- commonly used by KDE PIM applications. You need these data files to run
- KDE applications.
+ This package contains all the architecture independent data files commonly
+ used by KDE PIM applications. You need these data files to run KDE
+ applications.
  .
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdepimlibs' packages for more information.
@@ -46,13 +47,12 @@ Description: core shared data for KDE PIM 4 alpha applications
 Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs5 (= ${Source-Version}), kdelibs5-dev (= ${Source-Version}), 
- libboost-dev, libsasl2-dev, libldap2-dev,
+Depends: kdepimlibs5 (= ${Source-Version}), kdelibs5-dev (= ${Source-Version}),
+ libboost-dev, libldap2-dev, libsasl2-dev
 Description: development files for the KDE PIM 4 alpha core libraries
  This package contains all the headers and other related files needed
- to compile KDE PIM applications, or develop applications which use the
- core KDE PIM libraries.
+ to compile KDE PIM applications, or develop applications which use the core
+ KDE PIM libraries.
  .
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdepimlibs' packages for more information.
-

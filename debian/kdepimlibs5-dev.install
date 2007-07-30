@@ -33,7 +33,7 @@ usr/include/kabc/vcardformat.h
 usr/include/kabc/vcardline.h
 usr/include/kabc/vcardparser.h
 usr/include/kblog/blog.h
-usr/include/kblog/blogger.h
+usr/include/kblog/blogger1.h
 usr/include/kblog/kblog_export.h
 usr/include/kblog/metaweblog.h
 usr/include/kcal/alarm.h

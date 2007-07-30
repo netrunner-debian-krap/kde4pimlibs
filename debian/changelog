@@ -1,3 +1,11 @@
+kdepimlibs (4:3.92.0-1) experimental; urgency=low
+
+  * KDE 4, beta 1.
+  * Update *.install files.
+  * Add b-d on libgpgme11-dev
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 30 Jul 2007 03:36:02 +0200
+
 kdepimlibs (4:3.91.0-1) alioth; urgency=low
 
   * New alpha release. 

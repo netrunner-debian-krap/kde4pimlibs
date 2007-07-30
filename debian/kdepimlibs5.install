@@ -8,41 +8,41 @@ usr/lib/kde4/kcal_localdir.so
 usr/lib/kde4/kcm_kresources.so
 usr/lib/kde4/kcm_mailtransport.so
 
-usr/lib/libkabc.so.5
-usr/lib/libkabc.so.5.0.0
+usr/lib/libkabc.so.4
+usr/lib/libkabc.so.4.0.0
 
-usr/lib/libkabc_file_core.so.5
-usr/lib/libkabc_file_core.so.5.0.0
+usr/lib/libkabc_file_core.so.4
+usr/lib/libkabc_file_core.so.4.0.0
 
-usr/lib/libkblog.so.5
-usr/lib/libkblog.so.5.0.0
+usr/lib/libkblog.so.4
+usr/lib/libkblog.so.4.0.0
 
-usr/lib/libkcal.so.5
-usr/lib/libkcal.so.5.0.0
+usr/lib/libkcal.so.4
+usr/lib/libkcal.so.4.0.0
 
-usr/lib/libkimap.so.5
-usr/lib/libkimap.so.5.0.0
+usr/lib/libkimap.so.4
+usr/lib/libkimap.so.4.0.0
 
-usr/lib/libkldap.so.5
-usr/lib/libkldap.so.5.0.0
+usr/lib/libkldap.so.4
+usr/lib/libkldap.so.4.0.0
 
-usr/lib/libkmime.so.5
-usr/lib/libkmime.so.5.0.0
+usr/lib/libkmime.so.4
+usr/lib/libkmime.so.4.0.0
 
-usr/lib/libkpimutils.so.5
-usr/lib/libkpimutils.so.5.0.0
+usr/lib/libkpimutils.so.4
+usr/lib/libkpimutils.so.4.0.0
 
-usr/lib/libkresources.so.5
-usr/lib/libkresources.so.5.0.0
+usr/lib/libkresources.so.4
+usr/lib/libkresources.so.4.0.0
 
-usr/lib/libktnef.so.5
-usr/lib/libktnef.so.5.0.0
+usr/lib/libktnef.so.4
+usr/lib/libktnef.so.4.0.0
 
-usr/lib/libkxmlrpcclient.so.5
-usr/lib/libkxmlrpcclient.so.5.0.0
+usr/lib/libkxmlrpcclient.so.4
+usr/lib/libkxmlrpcclient.so.4.0.0
 
-usr/lib/libmailtransport.so.5
-usr/lib/libmailtransport.so.5.0.0
+usr/lib/libmailtransport.so.4
+usr/lib/libmailtransport.so.4.0.0
 
-usr/lib/libsyndication.so.5
-usr/lib/libsyndication.so.5.0.0
+usr/lib/libsyndication.so.4
+usr/lib/libsyndication.so.4.0.0

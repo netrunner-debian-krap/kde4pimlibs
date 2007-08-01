@@ -1,4 +1,4 @@
-kdepimlibs (4:3.92.0-1) experimental; urgency=low
+kdepimlibs (3.92.0-1) experimental; urgency=low
 
   * KDE 4, beta 1.
   * Update *.install files.

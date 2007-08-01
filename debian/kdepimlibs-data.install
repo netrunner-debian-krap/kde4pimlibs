@@ -405,6 +405,7 @@ usr/share/apps/libical/zoneinfo/zones.tab
 usr/share/config.kcfg/mailtransport.kcfg
 usr/share/config.kcfg/pimemoticons.kcfg
 usr/share/dbus-1/interfaces/org.kde.KResourcesManager.xml
+usr/share/dbus-1/interfaces/org.kde.pim.IdentityManager.xml
 
 usr/share/kde4/services/kcm_mailtransport.desktop
 usr/share/kde4/services/kresources.desktop

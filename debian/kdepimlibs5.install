@@ -29,6 +29,9 @@ usr/lib/libkldap.so.4.0.0
 usr/lib/libkmime.so.4
 usr/lib/libkmime.so.4.0.0
 
+usr/lib/libkpimidentities.so.4
+usr/lib/libkpimidentities.so.4.0.0
+
 usr/lib/libkpimutils.so.4
 usr/lib/libkpimutils.so.4.0.0
 
@@ -46,3 +49,8 @@ usr/lib/libmailtransport.so.4.0.0
 
 usr/lib/libsyndication.so.4
 usr/lib/libsyndication.so.4.0.0
+
+usr/lib/libgpgme++.so.1.0.0
+
+usr/lib/libqgpgme.so.1.0.0
+

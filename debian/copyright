@@ -1,24 +1,930 @@
-This package was debianized by Ana Beatriz Guerrero Lopez <ana@debian.org> on
+This package was debianized by the Debian Qt/KDE Maintainers on
 Fri, 11 May 2007 17:23:33 +0200.
 
-It was downloaded from <url://example.com>
+It was downloaded from ftp://ftp.kde.org
 
-Upstream Author(s): 
+Maintainers:
 
-    <put author's name and email here>
-    <likewise for another author>
-
-Copyright: 
-
-    <Copyright (C) YYYY Name OfAuthor>
-    <likewise for another author>
+kpimutils       Matt Douhan <matt@fruitsalad.org>
+kabc            Cornelius Schumacher <schumacher@kde.org>
+kblog           Christian Weilbach <christian_weilbach@web.de>
+kcal            Cornelius Schumacher <schumacher@kde.org>
+                Reinhold Kainhofer <reinhold@kainhofer.com>
+kcal/libical    Allen Winter <winter@kde.org>
+                Cornelius Schumacher <schumacher@kde.org>
+                Reinhold Kainhofer <reinhold@kainhofer.com>
+kimap           Allen Winter <winter@kde.org>
+                Tom Albers <tomalbers@kde.nl>
+                Volker Krause <vkrause@kde.org>
+kldap           Szombathelyi György <gyurco@freemail.hu>
+kleo            Marc Mutz <mutz@kde.org>
+kmime           Volker Krause <vkrause@kde.org>
+                Marc Mutz <mutz@kde.org>
+kpimidenties    Tom Albers <tomalbers@kde.nl>
+kresources      Cornelius Schumacher <schumacher@kde.org>
+                Tobias Koenig <tokoe@kde.org>
+ktnef           Michael Goffioul <goffioul@imec.be>
+kxmlrpcclient   Narayan Newton <narayannewton@gmail.com>
+mailtransport   Tom Albers <tomalbers@kde.nl>
+syndication     Frank Osterfeld <frank.osterfeld@kdemail.net>
+qgpgme          Marc Mutz <mutz@kde.org>
 
 License:
 
-    <Put the license of the package here indented by 4 spaces>
+The libraries themselves are covered by the GNU Library General Public
+License (LGPL). Any other programs (such as the examples) are covered
+by the GNU General Public License (GPL). All the gory details for the
+LGPL reside in COPYING.LIB, and for the GPL reside in COPYING.
 
-The Debian packaging is (C) 2007, Ana Beatriz Guerrero Lopez <ana@debian.org> and
+Various parts are also covered under a BSD style license, detailed in
+COPYING.BSD. Currently, code covered under such license is copyrighted by
+Theo de Raadt.
+
+When in doubt, check the individual file, they should all have license
+headings and other identifying marks.
+
+Files under cmake/
+
+cmake/CMakeLists.txt ~ unspec ~ unspec
+cmake/modules/CheckTimezone.cmake ~ unspec ~ unspec
+cmake/modules/CMakeLists.txt ~ unspec ~ unspec
+cmake/modules/FindGpgme.cmake ~ unspec ~ unspec
+cmake/modules/FindLdap.cmake ~ unspec ~ unspec
+
+Files under doc/
+
+doc/api/Doxyfile.local ~ unspec ~ unspec
+
+Files under gpgme++/
+
+    This library is licensed under the GNU Library General Public
+    License (LGPL), just as gpgme is. We feel that using a different
+    license than the one gpgme itself uses doesn't make sense.
+
+gpgme++/callbacks.cpp ~ LGPLv2 ~   Copyright (C) 2003,2004 Klarälvdalens Datakonsult AB
+gpgme++/callbacks.h ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/CMakeLists.txt ~ unspec ~ unspec
+gpgme++/config-gpgme++.h.cmake ~ unspec ~ unspec
+gpgme++/ConfigureChecks.cmake ~ unspec ~ unspec
+gpgme++/context.cpp ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/context.h ~ LGPLv2 ~   Copyright (C) 2003, 2007 Klarälvdalens Datakonsult AB
+gpgme++/context_p.h ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/data.cpp ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/data.h ~ LGPLv2 ~   Copyright (C) 2003,2004 Klarälvdalens Datakonsult AB
+gpgme++/data_p.h ~ LGPLv2 ~   Copyright (C) 2003,2004 Klarälvdalens Datakonsult AB
+gpgme++/decryptionresult.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/decryptionresult.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/encryptionresult.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/encryptionresult.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/engineinfo.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/engineinfo.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/error.h ~ LGPLv2 ~   Copyright (C) 2003, 2007 Klarälvdalens Datakonsult AB
+gpgme++/eventloopinteractor.cpp ~ LGPLv2 ~   Copyright (C) 2003,2004 Klarälvdalens Datakonsult AB
+gpgme++/eventloopinteractor.h ~ LGPLv2 ~   Copyright (C) 2003,2004 Klarälvdalens Datakonsult AB
+gpgme++/gpgme++_export.h ~ LGPLv2 ~     Copyright (C) 2007 David Faure <faure@kde.org>
+gpgme++/gpgmefw.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/importresult.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/importresult.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/interfaces/CMakeLists.txt ~ unspec ~ unspec
+gpgme++/interfaces/dataprovider.h ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/interfaces/passphraseprovider.h ~ LGPLv2 ~   Copyright (C) 2003,2004 Klarälvdalens Datakonsult AB
+gpgme++/interfaces/progressprovider.h ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/key.cpp ~ LGPLv2 ~   Copyright (C) 2003, 2005 Klarälvdalens Datakonsult AB
+gpgme++/keygenerationresult.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/keygenerationresult.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/key.h ~ LGPLv2 ~   Copyright (C) 2003, 2005 Klarälvdalens Datakonsult AB
+gpgme++/keylistresult.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/keylistresult.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/Mainpage.dox ~ unspec ~ unspec
+gpgme++/notation.h ~ LGPLv2 ~   Copyright (C) 2004, 2007 Klarälvdalens Datakonsult AB
+gpgme++/README.gpgme++ ~ LGPLv2 ~     Copyright (c) 2003, 2004 Klarälvdalens Datakonsult AB
+gpgme++/result.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/result_p.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/shared.h ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/signingresult.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/signingresult.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/trustitem.cpp ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/trustitem.h ~ LGPLv2 ~   Copyright (C) 2003 Klarälvdalens Datakonsult AB
+gpgme++/util.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/verificationresult.cpp ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+gpgme++/verificationresult.h ~ LGPLv2 ~   Copyright (C) 2004 Klarälvdalens Datakonsult AB
+
+Files under kabc/
+
+AUTHOR: Cornelius Schumacher <schumacher@kde.org>
+LICENCE: LGPL
+
+kabc/addressbook.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/addressbook.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/address.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/addresseedialog.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/addresseedialog.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/addresseehelper.cpp ~ LGPLv2 ~     Copyright (C) 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+kabc/addresseehelper.h ~ LGPLv2 ~     Copyright (C) 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+kabc/addresseelist.cpp ~ LGPLv2 ~     Copyright (c) 2002 Jost Schenck <jost@schenck.de>
+kabc/addresseelist.h ~ LGPLv2 ~     Copyright (c) 2002 Jost Schenck <jost@schenck.de>
+kabc/address.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/addresslineedit.cpp ~ LGPLv2 ~     Copyright (c) 2002 Helge Deller <deller@gmx.de>
+kabc/addresslineedit.h ~ LGPLv2 ~     Copyright (c) 2002 Helge Deller <deller@gmx.de>
+kabc/CMakeLists.txt ~ unspec ~ unspec
+kabc/countrytransl.map ~ unspec ~ unspec
+kabc/distributionlist.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/distributionlistdialog.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/distributionlistdialog.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/distributionlist.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/emailselectdialog.cpp ~ LGPLv2 ~   Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/emailselectdialog.h ~ LGPLv2 ~   Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/errorhandler.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                     Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/errorhandler.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                   Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/field.h ~ LGPLv2 ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+kabc/formatfactory.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/formatfactory.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/format.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/formats/binary.desktop ~ unspec ~ unspec
+kabc/formats/binaryformat.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/formats/binaryformat.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/formats/CMakeLists.txt ~ unspec ~ unspec
+kabc/formats/Messages.sh ~ unspec ~ unspec
+kabc/geo.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/geo.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/HACKING ~ unspec ~ unspec
+kabc/HOWTO ~ unspec ~ unspec
+kabc/kabc_export.h ~ LGPLv2 ~   Copyright (c) 2006-2007 Allen Winter <winter@kde.org>
+kabc/kabc_manager.desktop ~ unspec ~ unspec
+kabc/key.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/key.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/.krazy ~ unspec ~ unspec
+kabc/ldifconverter.cpp ~ LGPLv2 ~     Copyright (c) 2003  Helge Deller <deller@kde.org>
+kabc/ldifconverter.h ~ LGPLv2 ~     Copyright (c) 2003 Helge Deller <deller@kde.org>
+kabc/lock.cpp ~ LGPLv2 ~     Copyright (c) 2001,2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/lock.h ~ LGPLv2 ~     Copyright (c) 2001,2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/locknull.cpp ~ LGPLv2 ~     Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/locknull.h ~ LGPLv2 ~     Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/Mainpage.dox ~ unspec ~ unspec
+kabc/Messages.sh ~ unspec ~ unspec
+kabc/phonenumber.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/phonenumber.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/picture.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/picture.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/plugin.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/plugin.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/CMakeLists.txt ~ unspec ~ unspec
+kabc/plugins/dir/CMakeLists.txt ~ unspec ~ unspec
+kabc/plugins/dir/dir.desktop ~ unspec ~ unspec
+kabc/plugins/dir/Messages.sh ~ unspec ~ unspec
+kabc/plugins/dir/resourcedirconfig.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/dir/resourcedirconfig.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/dir/resourcedir.cpp ~ LGPLv2 ~     Copyright (c) 2002 - 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/dir/resourcedir.h ~ LGPLv2 ~     Copyright (c) 2002 - 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/dir/resourcedirplugin.cpp ~ LGPLv2 ~     Copyright (c) 2002 - 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/file/CMakeLists.txt ~ unspec ~ unspec
+kabc/plugins/file/file.desktop ~ unspec ~ unspec
+kabc/plugins/file/Messages.sh ~ unspec ~ unspec
+kabc/plugins/file/resourcefileconfig.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/file/resourcefileconfig.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/file/resourcefile.cpp ~ LGPLv2 ~     Copyright (c) 2001,2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/plugins/file/resourcefile.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/plugins/file/resourcefileplugin.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/plugins/ldapkio/CMakeLists.txt ~ unspec ~ unspec
+kabc/plugins/ldapkio/ldapkio.desktop ~ unspec ~ unspec
+kabc/plugins/ldapkio/Messages.sh ~ unspec ~ unspec
+kabc/plugins/ldapkio/resourceldapkioconfig.cpp ~ LGPLv2 ~     Copyright (c) 2002 - 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/ldapkio/resourceldapkioconfig.h ~ LGPLv2 ~     Copyright (c) 2002 - 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/ldapkio/resourceldapkio.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+                                                        Copyright (c) 2004 Szombathelyi György <gyurco@freemail.hu>
+kabc/plugins/ldapkio/resourceldapkio.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+                                                      Copyright (c) 2004 Szombathelyi György <gyurco@freemail.hu>
+kabc/plugins/ldapkio/resourceldapkioplugin.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/net/CMakeLists.txt ~ unspec ~ unspec
+kabc/plugins/net/Messages.sh ~ unspec ~ unspec
+kabc/plugins/net/net.desktop ~ unspec ~ unspec
+kabc/plugins/net/resourcenetconfig.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/net/resourcenetconfig.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/net/resourcenet.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/net/resourcenet.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/plugins/net/resourcenetplugin.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/README ~ unspec ~ unspec
+kabc/README.AddressFormat ~ unspec ~ unspec
+kabc/resourcecached.cpp ~ LGPLv2 ~     Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+kabc/resourcecached.h ~ LGPLv2 ~     Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+kabc/resource.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/resource.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/scripts/addressee.src.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+                                              Copyright (c) 2003 Carsten Pfeiffer <pfeiffer@kde.org>
+                                              Copyright (c) 2005 Ingo Kloecker <kloecker@kde.org>
+kabc/scripts/addressee.src.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/scripts/createisomap.pl ~ unspec ~ unspec
+kabc/scripts/doxygen-preprocess-addressee.sh ~ unspec ~ unspec
+kabc/scripts/entrylist ~ unspec ~ unspec
+kabc/scripts/field.src.cpp ~ LGPLv2 ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+kabc/scripts/makeaddressee ~ unspec ~ unspec
+kabc/secrecy.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/secrecy.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/sortmode.cpp ~ LGPLv2 ~     Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+kabc/sortmode.h ~ LGPLv2 ~     Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+kabc/sound.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/sound.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/stdaddressbook.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/stdaddressbook.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/tests/addresseetest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/addresseetest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/addresstest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/addresstest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/bigread.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/bigwrite.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/CMakeLists.txt ~ unspec ~ unspec
+kabc/tests/geotest.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/geotest.h ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/kabcargl.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/tests/keytest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/keytest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/phonenumbertest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/phonenumbertest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/picturetest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/picturetest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/secrecytest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/secrecytest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/soundtest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/soundtest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/testaddresseelist.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/testaddresslineedit.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/testkabc.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/testkabcdlg.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/tests/testlock.cpp ~ LGPLv2 ~     Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/tests/testlock.h ~ LGPLv2 ~     Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kabc/tests/timezonetest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/tests/timezonetest.h ~ LGPLv2 ~     Copyright (c) 2007 Tobias Koenig <tokoe@kde.org>
+kabc/timezone.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/timezone.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/TODO ~ unspec ~ unspec
+kabc/vcardconverter.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/vcardconverter.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+kabc/vcardformat.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/vcardformat.h ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+kabc/vcardparser/checkvcard.pl ~ unspec ~ unspec
+kabc/vcardparser/CMakeLists.txt ~ unspec ~ unspec
+kabc/vcardparser/README.testing ~ unspec ~ unspec
+kabc/vcardparser/testread2.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/vcardparser/testread.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/vcardparser/tests/vcard1.vcf ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard1.vcf.ref ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard2.vcf ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard2.vcf.ref ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard3.vcf ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard3.vcf.ref ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard4.vcf ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard4.vcf.ref ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard5.vcf ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard5.vcf.ref ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard6.vcf ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard6.vcf.ref ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard7.vcf ~ unspec ~ unspec
+kabc/vcardparser/tests/vcard7.vcf.ref ~ unspec ~ unspec
+kabc/vcardparser/testutils.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/vcardparser/testutils.h ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/vcardparser/testwrite.cpp ~ LGPLv2 ~     Copyright (c) 2007 KDE-PIM team <kde-pim@kde.org>
+kabc/vcardparser/vcard.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/vcardparser/vcard.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/vcardparser/vcardline.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/vcardparser/vcardline.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/vcardparser/vcardparser.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/vcardparser/vcardparser.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/vcardtool.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kabc/vcardtool.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+
+Files under kblog/
+
+kblog/blog.cpp ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                            Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+                            Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogger1.cpp ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                                Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+                                Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogger1.h ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                              Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/blogger1_p.cpp ~ LGPLv2 ~   Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+                                  Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogger1_p.h ~ LGPLv2 ~   Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/blog.h ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                          Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+                          Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogmedia.cpp ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                                 Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+                                 Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogmedia.h ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                               Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+                               Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blog_p.h ~ LGPLv2 ~   Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/blogpostingcomment.cpp ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogpostingcomment.h ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogpostingcomment_p.h ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogposting.cpp ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                                   Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+                                   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogposting.h ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                                 Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+                                 Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/blogposting_p.h ~ LGPLv2 ~   Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/CMakeLists.txt ~ unspec ~ unspec
+kblog/gdata.cpp ~ LGPLv2 ~     Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/gdata.h ~ LGPLv2 ~   Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/gdata_p.cpp ~ LGPLv2 ~     Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/gdata_p.h ~ LGPLv2 ~     Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/kblog_export.h ~ LGPLv2 ~   Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/livejournal.cpp ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/livejournal.h ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/livejournal_p.cpp ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/livejournal_p.h ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/Mainpage.dox ~ unspec ~ unspec
+kblog/Messages.sh ~ unspec ~ unspec
+kblog/metaweblog.cpp ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                                  Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+                                  Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/metaweblog.h ~ LGPLv2 ~   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                                Copyright (c) 2006 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/metaweblog_p.cpp ~ LGPLv2 ~   Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+                                    Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/metaweblog_p.h ~ LGPLv2 ~     Copyright (c) 2007 Christian Weilbach <christian@whiletaker.homeip.net>
+kblog/movabletype.cpp ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/movabletype.h ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/movabletype_p.cpp ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/movabletype_p.h ~ LGPLv2 ~   Copyright (c) 2007 Mike Arthur <mike@mikearthur.co.uk>
+kblog/tests/CMakeLists.txt ~ unspec ~ unspec
+kblog/tests/testblogger1.cpp ~ LGPLv2 ~   Copyright (c) 2006 Christian Weilbach <christian_weilbach@web.de>
+kblog/tests/testblogger1.h ~ LGPLv2 ~   Copyright (c) 2006 Christian Weilbach <christian_weilbach@web.de>
+kblog/tests/testgdata.cpp ~ LGPLv2 ~   Copyright (c) 2007 Christian Weilbach <christian_weilbach@web.de>
+kblog/tests/testgdata.h ~ LGPLv2 ~   Copyright (c) 2006 Christian Weilbach <christian_weilbach@web.de>
+kblog/tests/testmetaweblog.cpp ~ LGPLv2 ~   Copyright (c) 2006 Christian Weilbach <christian_weilbach@web.de>
+kblog/tests/testmetaweblog.h ~ LGPLv2 ~   Copyright (c) 2006 Christian Weilbach <christian_weilbach@web.de>
+
+Files under kimap/
+
+kimap/CMakeLists.txt ~ unspec ~ unspec
+kimap/kimap_export.h ~ LGPLv2 ~   Copyright (c) 2007 Allen Winter <winter@kde.org>
+kimap/Mainpage.dox ~ unspec ~ unspec
+kimap/rfccodecs.cpp ~ LGPLv2 ~  *   Copyright (C) 2000 s.carstens@gmx.de
+kimap/rfccodecs.h ~ LGPLv2 ~  *   Copyright (C) 2000 s.carstens@gmx.de
+kimap/tests/CMakeLists.txt ~ unspec ~ unspec
+kimap/tests/testrfccodecs.cpp ~ LGPLv2 ~    Copyright (C) 2007 Tom Albers <tomalbers@kde.nl>
+                                            Copyright (c) 2007 Allen Winter <winter@kde.org>
+kimap/tests/testrfccodecs.h ~ LGPLv2 ~     Copyright (c) 2007 Allen Winter <winter@kde.org>
+
+Files under kldap/
+
+kldap/ber.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ber.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/CMakeLists.txt ~ unspec ~ unspec
+kldap/kldap_config.h.cmake ~ unspec ~ unspec
+kldap/kldap_export.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapconfigwidget.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapconfigwidget.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapconnection.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapconnection.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapcontrol.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapcontrol.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapdefs.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapdn.cpp ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapdn.h ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapmodel.cpp ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapmodel.h ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapmodel_p.cpp ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapmodel_p.h ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapmodeltreeitem_p.cpp ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapmodeltreeitem_p.h ~ LGPLv2 ~   Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+kldap/ldapobject.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapobject.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapoperation.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapoperation.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapsearch.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapsearch.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapserver.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapserver.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapurl.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldapurl.h ~ LGPLv2 ~     Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldif.cpp ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/ldif.h ~ LGPLv2 ~   Copyright (c) 2004-2006 Szombathelyi György <gyurco@freemail.hu>
+kldap/Mainpage.dox ~ unspec ~ unspec
+kldap/Messages.sh ~ unspec ~ unspec
+kldap/tests/CMakeLists.txt ~ unspec ~ unspec
+kldap/tests/testkldap.cpp ~ LGPLv2 ~   Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+kldap/tests/testkldap.h ~ LGPLv2 ~   Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kldap/tests/testurl.txt.tmpl ~ unspec ~ unspec
+
+Files under kmime/
+
+Developers:
+* Marc Mutz <mutz@kde.org>
+  Current maintainer
+
+* Christian Thurner <cthurner@freepage.de>
+  Original author of KNode
+
+* Christian Gebauer
+  Original author
+
+Current Contributers:
+* Tom Albers <tomalbers@kde.nl>
+
+Developers, which may have contributed code:
+(please tell me)
+* Mathias Waack <mathias@atoll-net.de>
+* Dirk Mueller <mueller@kde.org>
+* Matthias Kalle Dalheimer <kalle@kde.org>
+
+Maintainers: Marc Mutz <mutz@kde.org>
+             Christian Gebauer
+             Christian Thurner
+
+License: LGPL
+
+kmime/AUTHORS ~ unspec ~ unspec
+kmime/boolflags.cpp ~ LGPLv2 ~   Copyright (c) 1999-2001 the KMime authors.
+kmime/boolflags.h ~ LGPLv2 ~     Copyright (c) 1999-2001 the KMime authors.
+kmime/CLASSTREE.bodyparts ~ unspec ~ unspec
+kmime/CLASSTREE.headers ~ unspec ~ unspec
+kmime/CMakeLists.txt ~ unspec ~ unspec
+kmime/config-kmime.h.cmake ~ unspec ~ unspec
+kmime/DESIGN.kmime ~ unspec ~ unspec
+kmime/kautodeletehash.cpp ~ LGPLv2 ~     Copyright (c) 2005 Ingo Kloecker <kloecker@kde.org>
+kmime/kautodeletehash.h ~ LGPLv2 ~     Copyright (c) 2005 Ingo Kloecker <kloecker@kde.org>
+kmime/kmime_charfreq.cpp ~ LGPLv2 ~   Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_charfreq.h ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_base64.cpp ~ LGPLv2 ~     Copyright (c) 2001 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_base64.h ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_identity.cpp ~ LGPLv2 ~     Copyright (c) 2004 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_identity.h ~ LGPLv2 ~     Copyright (c) 2004 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_qp.cpp ~ LGPLv2 ~     Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_qp.h ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_codecs.cpp ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_codecs.h ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_uuencode.cpp ~ LGPLv2 ~     Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_codec_uuencode.h ~ LGPLv2 ~     Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_content.cpp ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+                                       Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+kmime/kmime_content.h ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+                                     Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+kmime/kmime_contentindex.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+kmime/kmime_contentindex.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+kmime/kmime_content_p.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+kmime/kmime_dateformatter.cpp ~ LGPLv2 ~   Copyright (c) 2001 the KMime authors.
+kmime/kmime_dateformatter.h ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_export.h ~ LGPLv2 ~   Copyright (c) 2006 Allen Winter <winter@kde.org>
+kmime/kmime_header_parsing.cpp ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_header_parsing.h ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_headers.cpp ~ LGPLv2 ~     Copyright (c) 2001-2002 the KMime authors.
+                                       Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+kmime/kmime_headers.h ~ LGPLv2 ~     Copyright (c) 2001-2002 the KMime authors.
+                                     Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+kmime/kmime_headers_p.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+kmime/kmime_mdn.cpp ~ LGPLv2 ~     Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_mdn.h ~ LGPLv2 ~     Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_message.cpp ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_message.h ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_message_p.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+kmime/kmime_newsarticle.cpp ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_newsarticle.h ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_parsers.cpp ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_parsers.h ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_util.cpp ~ LGPLv2 ~   Copyright (c) 2001 the KMime authors.
+kmime/kmime_util.h ~ LGPLv2 ~     Copyright (c) 2001 the KMime authors.
+kmime/kmime_version.h ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/kmime_warning.h ~ LGPLv2 ~     Copyright (c) 2001-2002 Marc Mutz <mutz@kde.org>
+kmime/Mainpage.dox ~ unspec ~ unspec
+kmime/Messages.sh ~ unspec ~ unspec
+kmime/README ~ unspec ~ unspec
+kmime/tests/CMakeLists.txt ~ unspec ~ unspec
+kmime/tests/contentindextest.cpp ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/contentindextest.h ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/data/codec_base64/basic-decode.base64 ~ unspec ~ unspec
+kmime/tests/data/codec_base64/basic-decode.base64.expected ~ unspec ~ unspec
+kmime/tests/data/codec_base64/basic-encode ~ unspec ~ unspec
+kmime/tests/data/codec_base64/basic-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_base64/corrupt.base64 ~ unspec ~ unspec
+kmime/tests/data/codec_base64/corrupt.base64.expected ~ unspec ~ unspec
+kmime/tests/data/codec_base64/very_small ~ unspec ~ unspec
+kmime/tests/data/codec_base64/very_small.expected ~ unspec ~ unspec
+kmime/tests/data/codec_b/basic-decode.b ~ unspec ~ unspec
+kmime/tests/data/codec_b/basic-decode.b.expected ~ unspec ~ unspec
+kmime/tests/data/codec_b/basic-encode ~ unspec ~ unspec
+kmime/tests/data/codec_b/basic-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_b/null-decode.b ~ unspec ~ unspec
+kmime/tests/data/codec_b/null-decode.b.expected ~ unspec ~ unspec
+kmime/tests/data/codec_b/null-encode ~ unspec ~ unspec
+kmime/tests/data/codec_b/null-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_b/padding0 ~ unspec ~ unspec
+kmime/tests/data/codec_b/padding0.expected ~ unspec ~ unspec
+kmime/tests/data/codec_b/padding1 ~ unspec ~ unspec
+kmime/tests/data/codec_b/padding1.expected ~ unspec ~ unspec
+kmime/tests/data/codec_b/padding2 ~ unspec ~ unspec
+kmime/tests/data/codec_b/padding2.expected ~ unspec ~ unspec
+kmime/tests/data/codec_q/all-encoded.q ~ unspec ~ unspec
+kmime/tests/data/codec_q/all-encoded.q.expected ~ unspec ~ unspec
+kmime/tests/data/codec_q/basic-encode ~ unspec ~ unspec
+kmime/tests/data/codec_q/basic-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_q/nothing-encoded.q ~ unspec ~ unspec
+kmime/tests/data/codec_q/nothing-encoded.q.expected ~ unspec ~ unspec
+kmime/tests/data/codec_q/null-decode.q ~ unspec ~ unspec
+kmime/tests/data/codec_q/null-decode.q.expected ~ unspec ~ unspec
+kmime/tests/data/codec_q/null-encode ~ unspec ~ unspec
+kmime/tests/data/codec_q/null-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/basic-decode.quoted-printable ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/basic-decode.quoted-printable.expected ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/basic-encode ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/basic-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt2.quoted-printable ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt2.quoted-printable.expected ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt3.quoted-printable ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt3.quoted-printable.expected ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt4.quoted-printable ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt4.quoted-printable.expected ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt.quoted-printable ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/corrupt.quoted-printable.expected ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/wrap ~ unspec ~ unspec
+kmime/tests/data/codec_quoted-printable/wrap.expected ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/all-encoded.x-kmime-rfc2231 ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/all-encoded.x-kmime-rfc2231.expected ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/basic-encode ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/basic-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/nothing-encoded.x-kmime-rfc2231 ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/nothing-encoded.x-kmime-rfc2231.expected ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/null-decode.x-kmime-rfc2231 ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/null-decode.x-kmime-rfc2231.expected ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/null-encode ~ unspec ~ unspec
+kmime/tests/data/codec_x-kmime-rfc2231/null-encode.expected ~ unspec ~ unspec
+kmime/tests/data/codec_x-uuencode/basic-decode.x-uuencode ~ unspec ~ unspec
+kmime/tests/data/codec_x-uuencode/basic-decode.x-uuencode.expected ~ unspec ~ unspec
+kmime/tests/gen_decode_map.pl ~ unspec ~ unspec
+kmime/tests/headertest.cpp ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+kmime/tests/headertest.h ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+kmime/tests/kmime_content_test.cpp ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/kmime_content_test.h ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/kmime_message_test.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+kmime/tests/kmime_message_test.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+kmime/tests/kmime_util_test.cpp ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/kmime_util_test.h ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/rfc2047test.cpp ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/rfc2047test.h ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kmime/tests/run_codec_tests ~ unspec ~ unspec
+kmime/tests/test_charfreq.cpp ~ unspec ~ unspec
+kmime/tests/test_dates.cpp ~ unspec ~ unspec
+kmime/tests/test_kmime_codec.cpp ~ unspec ~ unspec
+kmime/tests/test_kmime_header_parsing.cpp ~ unspec ~ unspec
+kmime/tests/test_mdn.cpp ~ unspec ~ unspec
+kmime/TODO ~ unspec ~ unspec
+
+Files under kpimidentities/
+
+kpimidentities/CMakeLists.txt ~ unspec ~ unspec
+kpimidentities/identitycombo.cpp ~ LGPLv2 ~   Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kpimidentities/identitycombo.h ~ LGPLv2 ~   Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kpimidentities/identity.cpp ~ LGPLv2 ~     Copyright (c) 2002-2004 Marc Mutz <mutz@kde.org>
+                                           Copyright (c) 2007 Tom Albers <tomalbers@kde.nl>
+kpimidentities/identity.h ~ LGPLv2 ~     Copyright (c) 2002-2004 Marc Mutz <mutz@kde.org>
+                                         Copyright (c) 2007 Tom Albers <tomalbers@kde.nl>
+kpimidentities/identitymanager.cpp ~ LGPLv2 ~     Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kpimidentities/identitymanager.h ~ LGPLv2 ~     Copyright (c) 2002 Marc Mutz <mutz@kde.org>
+kpimidentities/kpimidentities_export.h ~ LGPLv2 ~     Copyright (C) 2007 David Faure <faure@kde.org>
+kpimidentities/Mainpage.dox ~ unspec ~ unspec
+kpimidentities/Messages.sh ~ unspec ~ unspec
+kpimidentities/org.kde.pim.IdentityManager.xml ~ unspec ~ unspec
+kpimidentities/PORT ~ unspec ~ unspec
+kpimidentities/signature.cpp ~ LGPLv2 ~     Copyright (c) 2002-2004 Marc Mutz <mutz@kde.org>
+                                            Copyright (c) 2007 Tom Albers <tomalbers@kde.nl>
+kpimidentities/signature.h ~ LGPLv2 ~     Copyright (c) 2002-2004 Marc Mutz <mutz@kde.org>
+                                          Copyright (c) 2007 Tom Albers <tomalbers@kde.nl>
+
+Files under kpimutils/
+
+kpimutils/CMakeLists.txt ~ unspec ~ unspec
+kpimutils/email.cpp ~ LGPLv2 ~   Copyright (c) 2004 Matt Douhan <matt@fruitsalad.org>
+kpimutils/email.h ~ LGPLv2 ~   Copyright (c) 2004 Matt Douhan <matt@fruitsalad.org>
+kpimutils/kfileio.cpp ~ LGPLv2 ~   Copyright (c) 2005 Tom Albers <tomalbers@kde.nl>
+                                   Copyright (c) 1997-1999 Stefan Taferner <taferner@kde.org>
+kpimutils/kfileio.h ~ LGPLv2 ~   Copyright (c) 2005 Tom Albers <tomalbers@kde.nl>
+                                 Copyright (c) 1997-1999 Stefan Taferner <taferner@kde.org>
+kpimutils/kpimutils_export.h ~ LGPLv2 ~   Copyright (c) 2006 Allen Winter <winter@kde.org>
+kpimutils/linklocator.cpp ~ LGPLv2 ~   Copyright (c) 2002 Dave Corrie <kde@davecorrie.com>
+kpimutils/linklocator.h ~ LGPLv2 ~   Copyright (c) 2002 Dave Corrie <kde@davecorrie.com>
+kpimutils/Mainpage.dox ~ unspec ~ unspec
+kpimutils/Messages.sh ~ unspec ~ unspec
+kpimutils/pimemoticons.kcfg ~ LGPLv2 ~ unspec
+kpimutils/pimemoticons.kcfgc ~ unspec ~ unspec
+kpimutils/spellingfilter.cpp ~ LGPLv2 ~  * Copyright (c) 2002 Dave Corrie <kde@davecorrie.com>
+kpimutils/spellingfilter.h ~ LGPLv2 ~  * Copyright (c) 2002 Dave Corrie <kde@davecorrie.com>
+kpimutils/tests/CMakeLists.txt ~ unspec ~ unspec
+kpimutils/tests/testemail.cpp ~ LGPLv2 ~    Copyright (C) 2004 David Faure <faure@kde.org>
+kpimutils/tests/testlinklocator.cpp ~ LGPLv2 ~   Copyright (C) 2005 Ingo Kloecker <kloecker@kde.org>
+                                                 Copyright (C) 2007 Allen Winter <winter@kde.org>
+kpimutils/tests/testlinklocator.h ~ LGPLv2 ~   Copyright (c) 2007 Allen Winter <winter@kde.org>
+
+Files under kresources/
+
+kresources/CHECKLIST ~ unspec ~ unspec
+kresources/CMakeLists.txt ~ unspec ~ unspec
+kresources/configdialog.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                           Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                           Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/configdialog.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                         Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+kresources/configpage.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                         Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                         Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/configpage.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                       Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                       Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/configwidget.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                           Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                           Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/configwidget.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                         Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+kresources/factory.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                      Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                      Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/factory.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                    Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                    Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/idmapper.cpp ~ LGPLv2 ~     Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+                                       Copyright (c) 2004 Cornelius Schumacher <schumacher@kde.org>
+kresources/idmapper.h ~ LGPLv2 ~     Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+                                     Copyright (c) 2004 Cornelius Schumacher <schumacher@kde.org>
+kresources/kcmkresources.cpp ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kresources/kcmkresources.h ~ LGPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+kresources/kresources.desktop ~ unspec ~ unspec
+kresources/kresources_export.h ~ LGPLv2 ~   Copyright (c) 2006 Allen Winter <winter@kde.org>
+kresources/kresources_manager.desktop ~ unspec ~ unspec
+kresources/kresources_plugin.desktop ~ unspec ~ unspec
+kresources/Mainpage.dox ~ unspec ~ unspec
+kresources/manager.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                    Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                    Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/managerimpl.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                          Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                          Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/managerimpl.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                        Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                        Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/Messages.sh ~ unspec ~ unspec
+kresources/org.kde.KResourcesManager.xml ~ unspec ~ unspec
+kresources/README.design ~ unspec ~ unspec
+kresources/resource.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+                                       Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                       Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/resource.h ~ LGPLv2 ~     Copyright (c) 2001-2003 Cornelius Schumacher <schumacher@kde.org>
+                                     Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+kresources/selectdialog.cpp ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                           Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                           Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/selectdialog.h ~ LGPLv2 ~     Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+                                         Copyright (c) 2002 Jan-Pascal van Best <janpascal@vanbest.org>
+                                         Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/tests/CMakeLists.txt ~ unspec ~ unspec
+kresources/tests/idmappertest.cpp ~ LGPLv2 ~     Copyright (c) 2004 Tobias Koenig <tokoe@kde.org>
+kresources/tests/idmappertest.h ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <volker.krause@rwth-aachen.de>
+kresources/tests/testresources.cpp ~ LGPLv2 ~     Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
+kresources/TODO ~ unspec ~ unspec
+
+Files under ktnef/
+
+Authors: Michael Goffioul <kdeprint@swing.be>
+         Bo Thorsen <bo@sonofthor.dk>
+
+ktnef/AUTHORS ~ unspec ~ unspec
+ktnef/CMakeLists.txt ~ unspec ~ unspec
+ktnef/formatter.cpp ~ LGPLv2 ~     Copyright (c) 2001 Cornelius Schumacher <schumacher@kde.org>
+                                   Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+                                   Copyright (c) 2005 Rafal Rzepecki <divide@users.sourceforge.net>
+ktnef/formatter.h ~ LGPLv2 ~     Copyright (c) 2001-2003 Cornelius Schumacher <schumacher@kde.org>
+                                 Copyright (c) 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
+ktnef/ktnefattach.cpp ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefattach.h ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefdefs.h ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnef_export.h ~ LGPLv2 ~   Copyright (c) 2006 Allen Winter <winter@kde.org>
+ktnef/ktnefmessage.cpp ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefmessage.h ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefparser.cpp ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefparser.h ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefproperty.cpp ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefproperty.h ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefpropertyset.cpp ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefpropertyset.h ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/ktnefwriter.cpp ~ LGPLv2 ~     Copyright (C) 2002 Bo Thorsen  <bo@sonofthor.dk>
+ktnef/ktnefwriter.h ~ LGPLv2 ~     Copyright (C) 2002 Bo Thorsen  <bo@sonofthor.dk>
+ktnef/lzfu.cpp ~ LGPLv2 ~     Copyright (C) 2003 Michael Goffioul <kdeprint@swing.be>
+ktnef/lzfu.h ~ LGPLv2 ~     Copyright (C) 2003 Michael Goffioul <kdeprint@swing.be>
+ktnef/Mainpage.dox ~ unspec ~ unspec
+ktnef/mapi.cpp ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/mapi.h ~ LGPLv2 ~     Copyright (C) 2002 Michael Goffioul <kdeprint@swing.be>
+ktnef/Messages.sh ~ unspec ~ unspec
+ktnef/tests/CMakeLists.txt ~ unspec ~ unspec
+ktnef/tests/config-ktnef-tests.h.cmake ~ unspec ~ unspec
+ktnef/tests/mapi_attach_data_obj.tnef ~ LGPLv2 ~ Fichier binaire ktnef/tests/mapi_attach_data_obj.tnef concorde
+ktnef/tests/one-file.tnef ~ unspec ~ unspec
+ktnef/tests/parsertest.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+ktnef/tests/parsertest.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+ktnef/tests/README ~ unspec ~ unspec
+ktnef/tests/two-files.tnef ~ LGPLv2 ~ unspec
+
+Files under kxmlrpcclient/
+
+kxmlrpcclient is BSD licensed.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+kxmlrpcclient/client.cpp ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                                     *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/client.h ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                                   *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/CMakeLists.txt ~ unspec ~ unspec
+kxmlrpcclient/kxmlrpcclient_export.h ~ LGPLv2 ~  *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/Mainpage.dox ~ unspec ~ unspec
+kxmlrpcclient/Messages.sh ~ unspec ~ unspec
+kxmlrpcclient/query.cpp ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                                    *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/query.h ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                                  *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/README ~ LGPLv2 ~ 1. Redistributions of source code must retain the above copyright
+                                2. Redistributions in binary form must reproduce the above copyright
+kxmlrpcclient/tests/CMakeLists.txt ~ unspec ~ unspec
+kxmlrpcclient/tests/testclient.cpp ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+kxmlrpcclient/tests/testclient.h ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+kxmlrpcclient/tests/testquery.cpp ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+kxmlrpcclient/tests/testquery.h ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+
+Files under mailtransport/
+
+mailtransport/CMakeLists.txt ~ unspec ~ unspec
+mailtransport/configmodule.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+mailtransport/configmodule.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+mailtransport/kcm_mailtransport.desktop ~ unspec ~ unspec
+mailtransport/kconf_update/CMakeLists.txt ~ unspec ~ unspec
+mailtransport/kconf_update/mailtransports.upd ~ unspec ~ unspec
+mailtransport/kconf_update/migrate-transports.pl ~ LGPLv2 ~ # Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+mailtransport/legacydecrypt.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                               Copyright (c) 1999-2005 the KNode authors. // krazy:exclude=copyright
+mailtransport/legacydecrypt.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                             Copyright (c) 1999-2005 the KNode authors. // krazy:exclude=copyright
+mailtransport/mailtransport_defs.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/mailtransport_export.h ~ LGPLv2 ~     Copyright (c) 2006 Volker Krause <vkrause@kde.org>
+mailtransport/mailtransport.kcfg ~ unspec ~ unspec
+mailtransport/Mainpage.dox ~ unspec ~ unspec
+mailtransport/Messages.sh ~ unspec ~ unspec
+mailtransport/precommandjob.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                               Copyright (c) 1996-1998 Stefan Taferner <taferner@kde.org>
+                                               Copyright (c) 2000-2002 Michael Haeckel <haeckel@kde.org>
+mailtransport/precommandjob.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                             Copyright (c) 1996-1998 Stefan Taferner <taferner@kde.org>
+                                             Copyright (c) 2000-2002 Michael Haeckel <haeckel@kde.org>
+mailtransport/sendmailjob.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                             Copyright (c) 2007 KovoKs <kovoks@kovoks.nl>
+                                             Copyright (c) 1996-1998 Stefan Taferner <taferner@kde.org>
+mailtransport/sendmailjob.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                           Copyright (c) 2007 KovoKs <kovoks@kovoks.nl>
+                                           Copyright (c) 1996-1998 Stefan Taferner <taferner@kde.org>
+mailtransport/sendmailsettings.ui ~ unspec ~ unspec
+mailtransport/servertest.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+                                            Copyright (C) 2007 KovoKs <info@kovoks.nl>
+mailtransport/servertest.h ~ LGPLv2 ~     Copyright (C) 2007 KovoKs <info@kovoks.nl>
+mailtransport/smtpjob.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                         Copyright (c) 1996-1998 Stefan Taferner <taferner@kde.org>
+mailtransport/smtpjob.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+                                       Copyright (c) 1996-1998 Stefan Taferner <taferner@kde.org>
+mailtransport/smtpsettings.ui ~ unspec ~ unspec
+mailtransport/socket.cpp ~ LGPLv2 ~     Copyright (C) 2006-2007 KovoKs <info@kovoks.nl>
+mailtransport/socket.h ~ LGPLv2 ~     Copyright (C) 2006-2007 KovoKs <info@kovoks.nl>
+mailtransport/tests/CMakeLists.txt ~ unspec ~ unspec
+mailtransport/tests/transportmgr.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/tests/transportmgr.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/TODO ~ unspec ~ unspec
+mailtransport/transportbase.kcfgc ~ unspec ~ unspec
+mailtransport/transportcombobox.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transportcombobox.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transportconfigdialog.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+                                                       Copyright (c) 2007 KovoKs <kovoks@kovoks.nl>
+                                                       Copyright (c) 2001-2002 Michael Haeckel <haeckel@kde.org>
+mailtransport/transportconfigdialog.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+                                                     Copyright (c) 2001-2002 Michael Haeckel <haeckel@kde.org>
+mailtransport/transport.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transport.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transportjob.cpp ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transportjob.h ~ LGPLv2 ~     Copyright (c) 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transportmanagementwidget.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+                                                           Copyright (C) 2001-2003 Marc Mutz <mutz@kde.org>
+mailtransport/transportmanagementwidget.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+                                                         Copyright (C) 2001-2003 Marc Mutz <mutz@kde.org>
+mailtransport/transportmanagementwidget.ui ~ unspec ~ unspec
+mailtransport/transportmanager.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transportmanager.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+mailtransport/transporttypedialog.cpp ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+                                                     Copyright (C) 2001-2003 Marc Mutz <mutz@kde.org>
+mailtransport/transporttypedialog.h ~ LGPLv2 ~     Copyright (c) 2006 - 2007 Volker Krause <vkrause@kde.org>
+                                                   Copyright (C) 2001-2003 Marc Mutz <mutz@kde.org>
+mailtransport/transporttypedialog.ui ~ unspec ~ unspec
+
+Files under qgpgme/
+
+qgpgme/CMakeLists.txt ~ unspec ~ unspec
+qgpgme/dataprovider.cpp ~ LGPLv2 ~    Copyright (C) 2004 Klar�vdalens Datakonsult AB
+qgpgme/dataprovider.h ~ LGPLv2 ~    Copyright (C) 2004 Klarälvdalens Datakonsult AB
+qgpgme/eventloopinteractor.cpp ~ LGPLv2 ~    Copyright (C) 2003 Klarälvdalens Datakonsult AB
+qgpgme/eventloopinteractor.h ~ LGPLv2 ~    Copyright (C) 2003 Klarälvdalens Datakonsult AB
+qgpgme/Mainpage.dox ~ unspec ~ unspec
+qgpgme/Messages.sh ~ unspec ~ unspec
+qgpgme/qgpgme_export.h ~ LGPLv2 ~     Copyright (C) 2007 David Faure <faure@kde.org>
+qgpgme/tests/CMakeLists.txt ~ unspec ~ unspec
+qgpgme/tests/dataprovidertest.cpp ~ LGPLv2 ~    Copyright (C) 2004 Klarälvdalens Datakonsult AB
+
+-------------------------------------------------------------------------------
+
+DIRs TODO:
+
+Files under kcal/
+
+Files under kcal/libical/
+
+John Gray <gray@agora-net.com>
+Andrea Campi <a.campi@inet.it>
+Original author May 1998-December 2001, Eric Busboom  <eric@softwarestudio.org>
+
+The code and datafiles in this distribution are licensed under the
+Mozilla Public License. See http://www.mozilla.org/NPL/MPL-1.0.html
+for a copy of the license. Alternately, you may use libical under the
+terms of the GNU Library General Public License. See
+http://www.fsf.org/copyleft/lesser.html for a copy of the LGPL.
+
+This dual license ensures that the library can be incorporated into
+both proprietary code and GPL'd programs, and will benefit from
+improvements made by programmers in both realms. I will only accept
+changes into my version of the library if they are similarly
+dual-licensed.
+
+Portions of this distribution are (C) Copyright 1996 Apple Computer,
+Inc., AT&T Corp., International Business Machines Corporation and
+Siemens Rolm Communications Inc. See src/libicalvcal/README.TXT for
+details.
+
+Portions of this distribution are Copyright (c) 1997 Theo de
+Raadt. See the header for src/libical/vsnprintf.c for the full
+copyright statement.
+
+The directory kcal/libical contains version 0.24 of libical with KDE local
+modifications to fix some bugs and let it compile in the kdepimlibs module.
+You may obtain the original distribution from
+  http://sourceforge.net/projects/freeassociation/
+
+Files under syndication/
+
+-------------------------------------------------------------------------------
+Legend:
+ - "unspec":    The file contains no specific copyright/license notice. This
+                means that the copyright holder is the KDE Development Team (as
+                listed above) and the license is GPL2, unless specified otherwise.
+ - "GPL":       The GNU General Public License, without versioning constraints.
+ - "GPLv2":     The GNU General Public License, version 2.
+ - "GPLv2h":    The GNU General Public License, version 2 or (at your
+                option) higher.
+ - "LGPLv2h":   The Lesser (or Library) GNU General Public License, version
+                2 or (at your option).
+ - "BSD"        Files under the BSD license.
+ - "GFDL1.1":   The GNU Free Documentation License, version 1.1 or (at your
+                option) higher. The listed documents use the GFDL with no
+                Invariant Sections, no Front-Cover Texts, and no Back-Cover
+                Texts.
+ - "DTD":             Permission to use, copy, modify and distribute this DTD
+            and its accompanying documentation for any purpose and without fee
+            is hereby granted in perpetuity, provided that the above copyright
+            notice and this paragraph appear in all copies.  The copyright
+            holders make no representation about the suitability of the DTD for
+            any purpose. It is provided "as is" without expressed or implied
+            warranty. 
+
+On Debian systems, you can find the complete texts of these licenses at:
+  - GPL:      /usr/share/common-licenses/GPL
+  - GPLv2:    /usr/share/common-licenses/GPL-2
+  - LGPLv2:   /usr/share/common-licenses/LGPL-2
+  - GFDL:     /usr/share/common-licenses/GFDL
+  - BSD:      /usr/share/common-licenses/BSD
+
+-------------------------------------------------------------------------------
+The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.

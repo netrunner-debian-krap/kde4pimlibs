@@ -1,0 +1,9 @@
+kdelibs 4.0 Beta 1 
+-----------------
+These packages are not *stable*. They are aimed to test purporses only, so do
+not to use them in production. 
+
+If you detect any problem in the packaging, please drop us a mail to:
+debian-qt-kde@lists.debian.org but do not report bugs to the BTS yet.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>,  Sat, 28 Jul 2007 12:39:08 +0200

@@ -482,118 +482,6 @@ kcal/kcalversion.h ~ LGPLv2h ~ Copyright (C) 2004 Reinhold Kainhofer <reinhold@k
 kcal/.krazy ~ unspec ~ unspec
 kcal/kresult.cpp ~ LGPLv2h ~ Copyright (c) 2005 Cornelius Schumacher <schumacher@kde.org>
 kcal/kresult.h ~ LGPLv2h ~ Copyright (c) 2005 Cornelius Schumacher <schumacher@kde.org>
-
-kcal/libical/AUTHORS ~ unspec ~ unspec
-kcal/libical/ChangeLog ~ unspec ~ unspec
-kcal/libical/CMakeLists.txt ~ unspec ~ unspec
-kcal/libical/config.h.cmake ~ unspec ~ unspec
-kcal/libical/COPYING ~ unspec ~ unspec
-kcal/libical/design-data/* ~ unspec ~ unspec
-kcal/libical/doc/* ~ unspec ~ unspec
-kcal/libical/examples/* ~ unspec ~ unspec
-kcal/libical/INSTALL ~ unspec ~ unspec
-kcal/libical/NEWS ~ unspec ~ unspec
-kcal/libical/README ~ unspec ~ unspec
-kcal/libical/README.zoneinfo ~ unspec ~ unspec
-kcal/libical/scripts/mkderivedcomponents.pl ~ MPLv1 ~   (C) COPYRIGHT 1999 Eric Busboom 
-kcal/libical/scripts/mkderivedparameters.pl ~ unspec ~ unspec
-kcal/libical/scripts/mkderivedproperties.pl ~ unspec ~ unspec
-kcal/libical/scripts/mkderivedvalues.pl ~ unspec ~ unspec
-kcal/libical/scripts/mkparameterrestrictions.pl ~ MPLv1 ~  (C) COPYRIGHT 1999 Graham Davison
-kcal/libical/scripts/mkrestrictionrecords.pl ~ MPLv1 ~  (C) COPYRIGHT 1999 Graham Davison
-kcal/libical/scripts/mkrestrictiontable.pl ~ unspec ~ unspec
-kcal/libical/scripts/readvaluesfile.pl ~ unspec ~ unspec
-kcal/libical/src/CMakeLists.txt ~ unspec ~ unspec
-kcal/libical/src/libical/astime.h ~ BSD ~ Copyright (c) 1986-2000, Hiram Clawson 
-kcal/libical/src/libical/caldate.c ~ BSD ~ Copyright (c) 1986-2000, Hiram Clawson 
-kcal/libical/src/libical/icalarray.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Ximian, Inc.
-kcal/libical/src/libical/icalarray.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Ximian, Inc.
-kcal/libical/src/libical/icalattach.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Andrea Campi <a.campi@inet.it>
-kcal/libical/src/libical/icalattach.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2002, Andrea Campi <a.campi@inet.it>
-kcal/libical/src/libical/icalattachimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Andrea Campi <a.campi@inet.it>
-kcal/libical/src/libical/icalcomponent.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalcomponent.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalderivedparameter.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
-kcal/libical/src/libical/icalderivedparameter.h.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
-kcal/libical/src/libical/icalderivedproperty.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom, 
-kcal/libical/src/libical/icalderivedproperty.h.in ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom
-kcal/libical/src/libical/icalderivedvalue.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
-kcal/libical/src/libical/icalderivedvalue.h.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
-kcal/libical/src/libical/icalduration.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalduration.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalenums.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalenums.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalerror.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalerror.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalmemory.c ~ LGPLv2.1 ~  (C) COPYRIGHT 1999, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalmemory.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalmime.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalmime.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalparameter.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalparameter.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalparameterimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalparser.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalparser.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalperiod.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalperiod.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalproperty.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalproperty.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalrecur.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalrecur.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalrestriction.c.in ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom, 
-kcal/libical/src/libical/icalrestriction.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icaltime.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icaltime.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icaltimezone.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Damon Chaplin
-kcal/libical/src/libical/icaltimezone.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Damon Chaplin
-kcal/libical/src/libical/icaltypes.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icaltypes.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalvalue.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalvalue.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalvalueimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/icalversion.h ~ unspec ~ unspec
-kcal/libical/src/libical/pvl.c ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/pvl.h ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libicalss/icalclassify.c ~ LGPLv2.1 ~     (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libicalss/icalclassify.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
-kcal/libical/src/libical/sspm.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>, 
-                                           Copyright (c) 1994 Gisle Hannemyr.
-kcal/libical/src/libical/sspm.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org> 
-kcal/libical/src/libical/vsnprintf.c ~ BSD ~  * Copyright (c) 1997 Theo de Raadt
-kcal/libical/TEST ~ unspec ~ unspec
-kcal/libical/THANKS ~ LGPLv2 ~ are based on the decode() routine in the mimelite program, Copyright
-kcal/libical/TODO ~ unspec ~ unspec
-kcal/libical/tzdata/* ~ unspec ~ unspec
-kcal/libical/vzic-1.3/ChangeLog ~ unspec ~ unspec
-kcal/libical/vzic-1.3/Makefile ~ unspec ~ unspec
-kcal/libical/vzic-1.3/Makefile.org ~ unspec ~ unspec
-kcal/libical/vzic-1.3/README ~ unspec ~ unspec
-kcal/libical/vzic-1.3/test-vzic.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                              Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                              Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-dump.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                              Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-dump.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                              Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-dump.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                               Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                         Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-merge.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                                Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-output.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                                Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-output.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                                Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-parse.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                               Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-parse.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                               Copyright (C) 2003 Damon Chaplin.
-kcal/libical/vzic-1.3/vzic-test.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
-                                               Copyright (C) 2003 Damon Chaplin.
-kcal/libical/zoneinfo/* ~ unspec ~ unspec
-
 kcal/listbase.h ~ LGPLv2hh ~ Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
 kcal/local.desktop ~ unspec ~ unspec
 kcal/localdir.desktop ~ unspec ~ unspec
@@ -731,11 +619,154 @@ kcal/vcalformat.h ~ LGPLv2 ~ Copyright (c) 1998 Preston Brown <pbrown@kde.org>
 kcal/versit/port.h ~ Apple ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International
 kcal/versit/readme.txt ~ unspec ~ unspec
 kcal/versit/vcc.c ~ Apple ~ (C) 1984, 1989, 1990, 2000, 2001, 2002 Free Software Foundation, Inc.
-                             (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International             
-kcal/versit/vcc.h ~ LGPLv2 ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International             
-kcal/versit/vcc.y ~ Apple ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International             
-kcal/versit/vobject.c ~ LGPLv2 ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International             
-kcal/versit/vobject.h ~ Apple ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International             
+                             (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International
+kcal/versit/vcc.h ~ LGPLv2 ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International
+kcal/versit/vcc.y ~ Apple ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International
+kcal/versit/vobject.c ~ LGPLv2 ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International
+kcal/versit/vobject.h ~ Apple ~ (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International
+
+Files under kcal/libical/
+
+John Gray <gray@agora-net.com>
+Andrea Campi <a.campi@inet.it>
+Original author May 1998-December 2001, Eric Busboom  <eric@softwarestudio.org>
+
+The code and datafiles in this distribution are licensed under the
+Mozilla Public License. See http://www.mozilla.org/NPL/MPL-1.0.html
+for a copy of the license. Alternately, you may use libical under the
+terms of the GNU Library General Public License. See
+http://www.fsf.org/copyleft/lesser.html for a copy of the LGPL.
+
+This dual license ensures that the library can be incorporated into
+both proprietary code and GPL'd programs, and will benefit from
+improvements made by programmers in both realms. I will only accept
+changes into my version of the library if they are similarly
+dual-licensed.
+
+Portions of this distribution are (C) Copyright 1996 Apple Computer,
+Inc., AT&T Corp., International Business Machines Corporation and
+Siemens Rolm Communications Inc. See src/libicalvcal/README.TXT for
+details.
+
+Portions of this distribution are Copyright (c) 1997 Theo de
+Raadt. See the header for src/libical/vsnprintf.c for the full
+copyright statement.
+
+The directory kcal/libical contains version 0.24 of libical with KDE local
+modifications to fix some bugs and let it compile in the kdepimlibs module.
+You may obtain the original distribution from
+  http://sourceforge.net/projects/freeassociation/
+
+kcal/libical/AUTHORS ~ unspec ~ unspec
+kcal/libical/ChangeLog ~ unspec ~ unspec
+kcal/libical/CMakeLists.txt ~ unspec ~ unspec
+kcal/libical/config.h.cmake ~ unspec ~ unspec
+kcal/libical/COPYING ~ unspec ~ unspec
+kcal/libical/design-data/* ~ unspec ~ unspec
+kcal/libical/doc/* ~ unspec ~ unspec
+kcal/libical/examples/* ~ unspec ~ unspec
+kcal/libical/INSTALL ~ unspec ~ unspec
+kcal/libical/NEWS ~ unspec ~ unspec
+kcal/libical/README ~ unspec ~ unspec
+kcal/libical/README.zoneinfo ~ unspec ~ unspec
+kcal/libical/scripts/mkderivedcomponents.pl ~ MPLv1 ~   (C) COPYRIGHT 1999 Eric Busboom 
+kcal/libical/scripts/mkderivedparameters.pl ~ unspec ~ unspec
+kcal/libical/scripts/mkderivedproperties.pl ~ unspec ~ unspec
+kcal/libical/scripts/mkderivedvalues.pl ~ unspec ~ unspec
+kcal/libical/scripts/mkparameterrestrictions.pl ~ MPLv1 ~  (C) COPYRIGHT 1999 Graham Davison
+kcal/libical/scripts/mkrestrictionrecords.pl ~ MPLv1 ~  (C) COPYRIGHT 1999 Graham Davison
+kcal/libical/scripts/mkrestrictiontable.pl ~ unspec ~ unspec
+kcal/libical/scripts/readvaluesfile.pl ~ unspec ~ unspec
+kcal/libical/src/CMakeLists.txt ~ unspec ~ unspec
+kcal/libical/src/libical/astime.h ~ BSD ~ Copyright (c) 1986-2000, Hiram Clawson 
+kcal/libical/src/libical/caldate.c ~ BSD ~ Copyright (c) 1986-2000, Hiram Clawson 
+kcal/libical/src/libical/icalarray.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Ximian, Inc.
+kcal/libical/src/libical/icalarray.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Ximian, Inc.
+kcal/libical/src/libical/icalattach.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Andrea Campi <a.campi@inet.it>
+kcal/libical/src/libical/icalattach.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2002, Andrea Campi <a.campi@inet.it>
+kcal/libical/src/libical/icalattachimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Andrea Campi <a.campi@inet.it>
+kcal/libical/src/libical/icalcomponent.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalcomponent.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalderivedparameter.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedparameter.h.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedproperty.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom, 
+kcal/libical/src/libical/icalderivedproperty.h.in ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedvalue.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedvalue.h.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalduration.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalduration.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalenums.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalenums.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalerror.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalerror.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmemory.c ~ LGPLv2.1 ~  (C) COPYRIGHT 1999, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmemory.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmime.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmime.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparameter.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparameter.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparameterimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparser.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparser.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalperiod.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalperiod.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalproperty.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalproperty.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalrecur.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalrecur.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalrestriction.c.in ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom, 
+kcal/libical/src/libical/icalrestriction.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltime.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltime.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltimezone.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Damon Chaplin
+kcal/libical/src/libical/icaltimezone.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Damon Chaplin
+kcal/libical/src/libical/icaltypes.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltypes.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalvalue.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalvalue.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalvalueimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalversion.h ~ unspec ~ unspec
+kcal/libical/src/libical/pvl.c ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/pvl.h ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libicalss/icalclassify.c ~ LGPLv2.1 ~     (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libicalss/icalclassify.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/sspm.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>, 
+                                           Copyright (c) 1994 Gisle Hannemyr.
+kcal/libical/src/libical/sspm.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org> 
+kcal/libical/src/libical/vsnprintf.c ~ BSD ~  * Copyright (c) 1997 Theo de Raadt
+kcal/libical/TEST ~ unspec ~ unspec
+kcal/libical/THANKS ~ LGPLv2 ~ are based on the decode() routine in the mimelite program, Copyright
+kcal/libical/TODO ~ unspec ~ unspec
+kcal/libical/tzdata/* ~ unspec ~ unspec
+kcal/libical/vzic-1.3/ChangeLog ~ unspec ~ unspec
+kcal/libical/vzic-1.3/Makefile ~ unspec ~ unspec
+kcal/libical/vzic-1.3/Makefile.org ~ unspec ~ unspec
+kcal/libical/vzic-1.3/README ~ unspec ~ unspec
+kcal/libical/vzic-1.3/test-vzic.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-dump.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-dump.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-dump.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                         Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-merge.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                                Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-output.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                                Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-output.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                                Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-parse.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-parse.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-test.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/zoneinfo/* ~ unspec ~ unspec
 
 Files under kimap/
 
@@ -1129,25 +1160,23 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-kxmlrpcclient/client.cpp ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
-                                     *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
-kxmlrpcclient/client.h ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
-                                   *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/client.cpp ~ BSD ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                                  *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/client.h ~ BSD ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                                *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
 kxmlrpcclient/CMakeLists.txt ~ unspec ~ unspec
-kxmlrpcclient/kxmlrpcclient_export.h ~ LGPLv2 ~  *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/kxmlrpcclient_export.h ~ BSD ~  *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
 kxmlrpcclient/Mainpage.dox ~ unspec ~ unspec
 kxmlrpcclient/Messages.sh ~ unspec ~ unspec
-kxmlrpcclient/query.cpp ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
-                                    *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
-kxmlrpcclient/query.h ~ LGPLv2 ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
-                                  *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
-kxmlrpcclient/README ~ LGPLv2 ~ 1. Redistributions of source code must retain the above copyright
-                                2. Redistributions in binary form must reproduce the above copyright
+kxmlrpcclient/query.cpp ~ BSD ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                                 *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
+kxmlrpcclient/query.h ~ BSD ~  *   Copyright (C) 2003 - 2004 by Frerich Raabe <raabe@kde.org>               *
+                               *   Copyright (C) 2006 by Narayan Newton <narayannewton@gmail.com>           *
 kxmlrpcclient/tests/CMakeLists.txt ~ unspec ~ unspec
-kxmlrpcclient/tests/testclient.cpp ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
-kxmlrpcclient/tests/testclient.h ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
-kxmlrpcclient/tests/testquery.cpp ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
-kxmlrpcclient/tests/testquery.h ~ LGPLv2 ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+kxmlrpcclient/tests/testclient.cpp ~ BSD ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+kxmlrpcclient/tests/testclient.h ~ BSD ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+kxmlrpcclient/tests/testquery.cpp ~ BSD ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
+kxmlrpcclient/tests/testquery.h ~ BSD ~     Copyright (c) 2006 Narayan Newton <narayannewton@gmail.com> 
 
 Files under mailtransport/
 
@@ -1233,6 +1262,80 @@ qgpgme/tests/CMakeLists.txt ~ unspec ~ unspec
 qgpgme/tests/dataprovidertest.cpp ~ LGPLv2 ~    Copyright (C) 2004 Klarälvdalens Datakonsult AB
 
 Files under syndication/
+
+The unit tests are partially based on the feedparser test suite by Mark Pilgrim.
+In these test files, the copyright holder is mentioned as 
+
+"Copyright: Mark Pilgrim (feed parser test suite)".
+
+The following copyright and license block applies:
+
+----- begin license block -----
+
+Copyright (c) 2002-2005, Mark Pilgrim
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+----- end license block -----
+
+For test cases with copyright header 
+
+"Copyright: Frank Osterfeld (libsyndication)"
+
+the following license applies:
+
+----- begin license block -----
+
+Copyright (c) 2006, Frank Osterfeld
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+----- end license block -----
+
+For all other unit tests without explicit copyright headers,
+where the content is taken from real-world feeds,
+the copyright holders are the respective feed authors.
+See the respective <copyright>, <rights> and <dc:rights> tags for details.
 
 syndication/abstractparser.cpp ~ LGPLv2 ~  * Copyright (C) 2006 Frank Osterfeld <osterfeld@kde.org>
 syndication/abstractparser.h ~ LGPLv2 ~  * Copyright (C) 2005 Frank Osterfeld <osterfeld@kde.org>
@@ -1450,24 +1553,7 @@ syndication/tests/benchmark.cpp ~ LGPLv2 ~     Copyright (C) 2006 Frank Osterfel
 syndication/tests/CMakeLists.txt ~ unspec ~ unspec
 syndication/tests/fetchFeeds.rb ~ unspec ~ unspec
 syndication/tests/getUrlsFromOPML.rb ~ unspec ~ unspec
-syndication/tests/LICENSE.UNITTESTS ~ LGPLv2 ~ In these test files, the copyright holder is mentioned as 
-"Copyright: Mark Pilgrim (feed parser test suite)".
-The following copyright and license block applies:
-Copyright (c) 2002-2005, Mark Pilgrim
-* Redistributions of source code must retain the above copyright notice,
-* Redistributions in binary form must reproduce the above copyright notice,
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-For test cases with copyright header 
-"Copyright: Frank Osterfeld (libsyndication)"
-Copyright (c) 2006, Frank Osterfeld
-* Redistributions of source code must retain the above copyright notice,
-* Redistributions in binary form must reproduce the above copyright notice,
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-For all other unit tests without explicit copyright headers,
-the copyright holders are the respective feed authors.
-See the respective <copyright>, <rights> and <dc:rights> tags for details.
+syndication/tests/LICENSE.UNITTESTS ~ unspec ~ unspec
 syndication/tests/rdf/don.antville.org.xml ~ LGPLv2 ~     <dc:rights>Copyright &#169; 2006 DonDahlmann</dc:rights>
 syndication/tests/rdf/don.antville.org.xml.expected ~ unspec ~ unspec
 syndication/tests/rdf/heise.de-newsticker.xml ~ unspec ~ unspec
@@ -1513,7 +1599,6 @@ syndication/tests/rss2/enclosure.xml.expected ~ unspec ~ unspec
 syndication/tests/rss2/feedster_search_akregator.xml ~ unspec ~ unspec
 syndication/tests/rss2/feedster_search_akregator.xml.expected ~ unspec ~ unspec
 syndication/tests/rss2/inhabitat.xml ~ LGPLv2 ~     <dc:rights>Copyright 2006</dc:rights>
-    <feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly>
 syndication/tests/rss2/inhabitat.xml.expected ~ LGPLv2 ~ copyright: #Copyright 2006#
 syndication/tests/rss2/kde-apps.rss2.xml ~ unspec ~ unspec
 syndication/tests/rss2/kde-apps.rss2.xml.expected ~ unspec ~ unspec
@@ -1553,6 +1638,7 @@ syndication/tools.cpp ~ LGPLv2 ~  * Copyright (C) 2006 Frank Osterfeld <osterfel
 syndication/tools.h ~ LGPLv2 ~  * Copyright (C) 2006 Frank Osterfeld <osterfeld@kde.org>
 
 -------------------------------------------------------------------------------
+
 Legend:
  - "unspec":    The file contains no specific copyright/license notice. This
                 means that the copyright holder is the KDE Development Team (as
@@ -1568,44 +1654,43 @@ Legend:
                 option) higher. The listed documents use the GFDL with no
                 Invariant Sections, no Front-Cover Texts, and no Back-Cover
                 Texts.
-
- - "MPL":     
- - "DTD":   Permission to use, copy, modify and distribute this DTD
+ - "MPLv1":     The Mozilla Public License, version 1.
+ - "DTD":             Permission to use, copy, modify and distribute this DTD
             and its accompanying documentation for any purpose and without fee
             is hereby granted in perpetuity, provided that the above copyright
             notice and this paragraph appear in all copies.  The copyright
             holders make no representation about the suitability of the DTD for
             any purpose. It is provided "as is" without expressed or implied
-            warranty. 
-  - "Apple": 
+            warranty.
+  - "Apple":
             For purposes of this license notice, the term Licensors shall mean,
             collectively, Apple Computer, Inc., AT&T Corp., International
             Business Machines Corporation and Siemens Rolm Communications Inc.
             The term Licensor shall mean any of the Licensors.
-            
+
             Subject to acceptance of the following conditions, permission is hereby
             granted by Licensors without the need for written agreement and without
             license or royalty fees, to use, copy, modify and distribute this
             software for any purpose.
-            
+
             The above copyright notice and the following four paragraphs must be
             reproduced in all copies of this software and any software including
             this software.
-            
+
             THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS AND NO LICENSOR SHALL HAVE
             ANY OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR
             MODIFICATIONS.
-            
+
             IN NO EVENT SHALL ANY LICENSOR BE LIABLE TO ANY PARTY FOR DIRECT,
             INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES OR LOST PROFITS ARISING OUT
             OF THE USE OF THIS SOFTWARE EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
             DAMAGE.
-            
+
             EACH LICENSOR SPECIFICALLY DISCLAIMS ANY WARRANTIES, EXPRESS OR IMPLIED,
             INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF NONINFRINGEMENT OR THE
             IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
             PURPOSE.
-            
+
             The software is provided with RESTRICTED RIGHTS.  Use, duplication, or
             disclosure by the government are subject to restrictions set forth in
             DFARS 252.227-7013 or 48 CFR 52.227-19, as applicable.
@@ -1618,5 +1703,6 @@ On Debian systems, you can find the complete texts of these licenses at:
   - BSD:      /usr/share/common-licenses/BSD
 
 -------------------------------------------------------------------------------
+
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.

@@ -1,11 +1,15 @@
 kdepimlibs (3.92.0-1) experimental; urgency=low
 
   * KDE4 beta 1, first upload to the Debian archive.
-  
+
   +++ Changes by Ana Beatriz Guerrero Lopez:
+
   * Update *.install files.
-  * Add b-d on libgpgme11-dev
+  * Add build depends on libgpgme11-dev
   * Add warning about experimental packages in README.Debian.
+  * Remove kdepimlibs epoch.
+  * Add debian/docs to kdepimlibs.
+  * Remove kdepimlibs meta package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Aug 2007 13:47:49 +0200
 

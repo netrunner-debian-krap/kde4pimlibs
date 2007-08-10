@@ -7,6 +7,9 @@ kdepimlibs (3.92.0-1) experimental; urgency=low
   * Update *.install files.
   * Add build depends on libgpgme11-dev
   * Add warning about experimental packages in README.Debian.
+
+  +++ Changes by Fathi Boudra:
+
   * Remove kdepimlibs epoch.
   * Add debian/docs to kdepimlibs.
   * Remove kdepimlibs meta package.

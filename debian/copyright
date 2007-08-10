@@ -483,9 +483,116 @@ kcal/.krazy ~ unspec ~ unspec
 kcal/kresult.cpp ~ LGPLv2h ~ Copyright (c) 2005 Cornelius Schumacher <schumacher@kde.org>
 kcal/kresult.h ~ LGPLv2h ~ Copyright (c) 2005 Cornelius Schumacher <schumacher@kde.org>
 
-
-
-kcal/libical --> TODO
+kcal/libical/AUTHORS ~ unspec ~ unspec
+kcal/libical/ChangeLog ~ unspec ~ unspec
+kcal/libical/CMakeLists.txt ~ unspec ~ unspec
+kcal/libical/config.h.cmake ~ unspec ~ unspec
+kcal/libical/COPYING ~ unspec ~ unspec
+kcal/libical/design-data/* ~ unspec ~ unspec
+kcal/libical/doc/* ~ unspec ~ unspec
+kcal/libical/examples/* ~ unspec ~ unspec
+kcal/libical/INSTALL ~ unspec ~ unspec
+kcal/libical/NEWS ~ unspec ~ unspec
+kcal/libical/README ~ unspec ~ unspec
+kcal/libical/README.zoneinfo ~ unspec ~ unspec
+kcal/libical/scripts/mkderivedcomponents.pl ~ MPLv1 ~   (C) COPYRIGHT 1999 Eric Busboom 
+kcal/libical/scripts/mkderivedparameters.pl ~ unspec ~ unspec
+kcal/libical/scripts/mkderivedproperties.pl ~ unspec ~ unspec
+kcal/libical/scripts/mkderivedvalues.pl ~ unspec ~ unspec
+kcal/libical/scripts/mkparameterrestrictions.pl ~ MPLv1 ~  (C) COPYRIGHT 1999 Graham Davison
+kcal/libical/scripts/mkrestrictionrecords.pl ~ MPLv1 ~  (C) COPYRIGHT 1999 Graham Davison
+kcal/libical/scripts/mkrestrictiontable.pl ~ unspec ~ unspec
+kcal/libical/scripts/readvaluesfile.pl ~ unspec ~ unspec
+kcal/libical/src/CMakeLists.txt ~ unspec ~ unspec
+kcal/libical/src/libical/astime.h ~ BSD ~ Copyright (c) 1986-2000, Hiram Clawson 
+kcal/libical/src/libical/caldate.c ~ BSD ~ Copyright (c) 1986-2000, Hiram Clawson 
+kcal/libical/src/libical/icalarray.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Ximian, Inc.
+kcal/libical/src/libical/icalarray.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Ximian, Inc.
+kcal/libical/src/libical/icalattach.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Andrea Campi <a.campi@inet.it>
+kcal/libical/src/libical/icalattach.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2002, Andrea Campi <a.campi@inet.it>
+kcal/libical/src/libical/icalattachimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Andrea Campi <a.campi@inet.it>
+kcal/libical/src/libical/icalcomponent.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalcomponent.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalderivedparameter.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedparameter.h.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedproperty.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom, 
+kcal/libical/src/libical/icalderivedproperty.h.in ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedvalue.c.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalderivedvalue.h.in ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom
+kcal/libical/src/libical/icalduration.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalduration.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalenums.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalenums.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalerror.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalerror.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmemory.c ~ LGPLv2.1 ~  (C) COPYRIGHT 1999, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmemory.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmime.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalmime.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparameter.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparameter.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparameterimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparser.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalparser.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalperiod.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalperiod.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalproperty.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalproperty.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalrecur.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalrecur.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalrestriction.c.in ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom, 
+kcal/libical/src/libical/icalrestriction.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltime.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltime.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltimezone.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Damon Chaplin
+kcal/libical/src/libical/icaltimezone.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2001, Damon Chaplin
+kcal/libical/src/libical/icaltypes.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icaltypes.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalvalue.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalvalue.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalvalueimpl.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/icalversion.h ~ unspec ~ unspec
+kcal/libical/src/libical/pvl.c ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/pvl.h ~ unspec ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libicalss/icalclassify.c ~ LGPLv2.1 ~     (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libicalss/icalclassify.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>
+kcal/libical/src/libical/sspm.c ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org>, 
+                                           Copyright (c) 1994 Gisle Hannemyr.
+kcal/libical/src/libical/sspm.h ~ LGPLv2.1 ~  (C) COPYRIGHT 2000, Eric Busboom <eric@softwarestudio.org> 
+kcal/libical/src/libical/vsnprintf.c ~ BSD ~  * Copyright (c) 1997 Theo de Raadt
+kcal/libical/TEST ~ unspec ~ unspec
+kcal/libical/THANKS ~ LGPLv2 ~ are based on the decode() routine in the mimelite program, Copyright
+kcal/libical/TODO ~ unspec ~ unspec
+kcal/libical/tzdata/* ~ unspec ~ unspec
+kcal/libical/vzic-1.3/ChangeLog ~ unspec ~ unspec
+kcal/libical/vzic-1.3/Makefile ~ unspec ~ unspec
+kcal/libical/vzic-1.3/Makefile.org ~ unspec ~ unspec
+kcal/libical/vzic-1.3/README ~ unspec ~ unspec
+kcal/libical/vzic-1.3/test-vzic.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-dump.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-dump.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                              Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-dump.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                         Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-merge.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                                Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-output.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                                Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-output.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                                Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-parse.c ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-parse.h ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/vzic-1.3/vzic-test.pl ~ LGPLv2h ~ Copyright (C) 2000-2001 Ximian, Inc.
+                                               Copyright (C) 2003 Damon Chaplin.
+kcal/libical/zoneinfo/* ~ unspec ~ unspec
 
 kcal/listbase.h ~ LGPLv2hh ~ Copyright (c) 2003 Cornelius Schumacher <schumacher@kde.org>
 kcal/local.desktop ~ unspec ~ unspec
@@ -1446,42 +1553,6 @@ syndication/tools.cpp ~ LGPLv2 ~  * Copyright (C) 2006 Frank Osterfeld <osterfel
 syndication/tools.h ~ LGPLv2 ~  * Copyright (C) 2006 Frank Osterfeld <osterfeld@kde.org>
 
 -------------------------------------------------------------------------------
-
-DIRs TODO:
-
-Files under kcal/libical/
-
-John Gray <gray@agora-net.com>
-Andrea Campi <a.campi@inet.it>
-Original author May 1998-December 2001, Eric Busboom  <eric@softwarestudio.org>
-
-The code and datafiles in this distribution are licensed under the
-Mozilla Public License. See http://www.mozilla.org/NPL/MPL-1.0.html
-for a copy of the license. Alternately, you may use libical under the
-terms of the GNU Library General Public License. See
-http://www.fsf.org/copyleft/lesser.html for a copy of the LGPL.
-
-This dual license ensures that the library can be incorporated into
-both proprietary code and GPL'd programs, and will benefit from
-improvements made by programmers in both realms. I will only accept
-changes into my version of the library if they are similarly
-dual-licensed.
-
-Portions of this distribution are (C) Copyright 1996 Apple Computer,
-Inc., AT&T Corp., International Business Machines Corporation and
-Siemens Rolm Communications Inc. See src/libicalvcal/README.TXT for
-details.
-
-Portions of this distribution are Copyright (c) 1997 Theo de
-Raadt. See the header for src/libical/vsnprintf.c for the full
-copyright statement.
-
-The directory kcal/libical contains version 0.24 of libical with KDE local
-modifications to fix some bugs and let it compile in the kdepimlibs module.
-You may obtain the original distribution from
-  http://sourceforge.net/projects/freeassociation/
-
--------------------------------------------------------------------------------
 Legend:
  - "unspec":    The file contains no specific copyright/license notice. This
                 means that the copyright holder is the KDE Development Team (as
@@ -1497,7 +1568,9 @@ Legend:
                 option) higher. The listed documents use the GFDL with no
                 Invariant Sections, no Front-Cover Texts, and no Back-Cover
                 Texts.
- - "DTD":             Permission to use, copy, modify and distribute this DTD
+
+ - "MPL":     
+ - "DTD":   Permission to use, copy, modify and distribute this DTD
             and its accompanying documentation for any purpose and without fee
             is hereby granted in perpetuity, provided that the above copyright
             notice and this paragraph appear in all copies.  The copyright

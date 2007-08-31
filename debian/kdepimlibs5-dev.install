@@ -5,6 +5,7 @@ usr/include/gpgme++/encryptionresult.h
 usr/include/gpgme++/engineinfo.h
 usr/include/gpgme++/error.h
 usr/include/gpgme++/eventloopinteractor.h
+usr/include/gpgme++/global.h
 usr/include/gpgme++/gpgme++_export.h
 usr/include/gpgme++/gpgmefw.h
 usr/include/gpgme++/importresult.h
@@ -274,10 +275,12 @@ usr/lib/libmailtransport.so
 usr/lib/libsyndication.so
 
 usr/lib/libgpgme++.so
-
 usr/lib/libqgpgme.so
+usr/lib/libgpgme++-pth.so
+usr/lib/libgpgme++-pthread.so
 
 usr/share/kde4/apps/cmake/modules/CheckTimezone.cmake
 usr/share/kde4/apps/cmake/modules/FindGpgme.cmake
 usr/share/kde4/apps/cmake/modules/FindLdap.cmake
+usr/share/kde4/apps/cmake/modules/FindQGpgme.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsDependencies.cmake

@@ -1,7 +1,6 @@
 kdepimlibs (3.93.0-1) experimental; urgency=low
 
   * New upstream release. 
-  * Add b-d on libpth-dev (temp workaround for 440265)
   * Update *.install files.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 31 Aug 2007 10:15:11 +0200

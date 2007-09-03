@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 4:3.92.0-1),
- libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev, libpth-dev
+ libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev
 Standards-Version: 3.7.2
 
 Package: kdepimlibs5
@@ -34,7 +34,7 @@ Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
 Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dev, libboost-dev,
- libgpgme11-dev, libldap2-dev, libsasl2-dev, libpth-dev
+ libgpgme11-dev, libldap2-dev, libsasl2-dev
 Conflicts: libkleopatra1-dev
 Description: development files for the KDE PIM 4 beta1 core libraries
  This package contains all the headers and other related files needed

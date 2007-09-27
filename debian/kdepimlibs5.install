@@ -7,6 +7,13 @@ usr/lib/kde4/kcal_local.so
 usr/lib/kde4/kcal_localdir.so
 usr/lib/kde4/kcm_kresources.so
 usr/lib/kde4/kcm_mailtransport.so
+usr/lib/kde4/kio_imap4.so
+usr/lib/kde4/kio_ldap.so
+usr/lib/kde4/kio_mbox.so
+usr/lib/kde4/kio_nntp.so
+usr/lib/kde4/kio_pop3.so
+usr/lib/kde4/kio_sieve.so
+usr/lib/kde4/kio_smtp.so
 
 usr/lib/libkabc.so.4
 usr/lib/libkabc.so.4.0.0

@@ -48,6 +48,7 @@ usr/include/kabc/phonenumber.h
 usr/include/kabc/picture.h
 usr/include/kabc/plugin.h
 usr/include/kabc/resource.h
+usr/include/kabc/resourceabc.h
 usr/include/kabc/resourcecached.h
 usr/include/kabc/secrecy.h
 usr/include/kabc/sortmode.h
@@ -62,13 +63,14 @@ usr/include/kabc/vcardparser.h
 usr/include/kblog/blog.h
 usr/include/kblog/blogger1.h
 usr/include/kblog/blogmedia.h
-usr/include/kblog/blogposting.h
-usr/include/kblog/blogpostingcomment.h
+usr/include/kblog/blogpost.h
+usr/include/kblog/blogcomment.h
 usr/include/kblog/gdata.h
 usr/include/kblog/kblog_export.h
 usr/include/kblog/livejournal.h
 usr/include/kblog/metaweblog.h
 usr/include/kblog/movabletype.h
+usr/include/kblog/wordpressbuggy.h
 usr/include/kcal/alarm.h
 usr/include/kcal/attachment.h
 usr/include/kcal/attendee.h
@@ -279,8 +281,12 @@ usr/lib/libqgpgme.so
 usr/lib/libgpgme++-pth.so
 usr/lib/libgpgme++-pthread.so
 
+usr/lib/Gpgmepp/GpgmeppConfig.cmake
+usr/lib/Gpgmepp/GpgmeppLibraryDepends.cmake
+
 usr/share/kde4/apps/cmake/modules/CheckTimezone.cmake
 usr/share/kde4/apps/cmake/modules/FindGpgme.cmake
 usr/share/kde4/apps/cmake/modules/FindLdap.cmake
 usr/share/kde4/apps/cmake/modules/FindQGpgme.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsDependencies.cmake
+

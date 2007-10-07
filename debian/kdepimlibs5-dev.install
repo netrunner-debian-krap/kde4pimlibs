@@ -67,7 +67,6 @@ usr/include/kblog/blogpost.h
 usr/include/kblog/blogcomment.h
 usr/include/kblog/gdata.h
 usr/include/kblog/kblog_export.h
-usr/include/kblog/livejournal.h
 usr/include/kblog/metaweblog.h
 usr/include/kblog/movabletype.h
 usr/include/kblog/wordpressbuggy.h

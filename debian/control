@@ -32,8 +32,8 @@ Description: core shared data for KDE PIM 4 beta1 applications
 Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dev, libboost-dev,
- libgpgme11-dev, libldap2-dev, libsasl2-dev
+Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dev (>= 4:3.94.0-1),
+ libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev
 Conflicts: libkleopatra1-dev
 Description: development files for the KDE PIM 4 beta1 core libraries
  This package contains all the headers and other related files needed

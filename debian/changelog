@@ -6,7 +6,12 @@ kdepimlibs (3.94.0-1) experimental; urgency=low
 
   * Update *.install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Oct 2007 23:11:33 +0200
+  +++ Changes by Fathi Boudra:
+
+  * Remove libkleopatra1 conflict with kdepimlibs5. They contains
+    libraries with different soname and can be coinstallable.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Oct 2007 00:25:23 +0200
 
 kdepimlibs (3.93.0-1) experimental; urgency=low
 

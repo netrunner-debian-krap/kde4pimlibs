@@ -1,12 +1,12 @@
-kdepimlibs (3.94.0-1) UNRELEASED; urgency=low
+kdepimlibs (3.94.0-1) experimental; urgency=low
 
-  * KDE4 beta 3
+  * KDE4 beta 3.
 
   +++ Changes by Armin Berres:
 
-  * Update *.install files
+  * Update *.install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Oct 2007 21:38:29 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Oct 2007 23:11:33 +0200
 
 kdepimlibs (3.93.0-1) experimental; urgency=low
 

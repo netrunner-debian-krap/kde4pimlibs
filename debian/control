@@ -42,3 +42,13 @@ Description: development files for the KDE PIM 4 beta1 core libraries
  .
  This package is part of KDE, and a component of the KDE libraries module.
  See the 'kde' and 'kdepimlibs' packages for more information.
+
+Package: kdepimlibs-dbg
+Section: libdevel
+Architecture: any
+Priority: extra
+Depends: kdepimlibs5 (= ${binary:Version}), qt-x11-free-dbg, libc6-dbg [amd64]
+Description: debugging symbols for kdepimlibs
+ This package contains the debugging symbols associated with kdepimlibs.
+ They will automatically be used by gdb for debugging kdepimlibs-related
+ issues.

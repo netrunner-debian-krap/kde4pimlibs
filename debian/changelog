@@ -1,8 +1,12 @@
 kdepimlibs (3.94.0-2) experimental; urgency=low
 
-  * Add debug package. 
+  * svn branch pull to r726760.
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 18 Oct 2007 00:38:38 +0200
+  +++ Changes by Armin Berres:
+
+  * Add debug package.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 22:29:40 +0200
 
 kdepimlibs (3.94.0-1) experimental; urgency=low
 

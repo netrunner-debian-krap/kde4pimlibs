@@ -1,3 +1,9 @@
+kdepimlibs (3.94.0-3) experimental; urgency=low
+
+  * Build depend on kdelibs5-dev >= 4:3.94.0-3.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sat, 20 Oct 2007 13:12:03 +0200
+
 kdepimlibs (3.94.0-2) experimental; urgency=low
 
   * svn branch pull to r726760.

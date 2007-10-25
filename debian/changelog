@@ -1,10 +1,18 @@
 kdepimlibs (3.94.0-3) experimental; urgency=low
 
+  +++ Changes by Fathi Boudra:
+
+  * svn branch pull to r729270.
+
+  +++ Changes by Armin Berres:
+
   * Build depend on kdelibs5-dev >= 4:3.94.0-2.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sat, 20 Oct 2007 14:19:59 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 14:19:59 +0200
 
 kdepimlibs (3.94.0-2) experimental; urgency=low
+
+  +++ Changes by Fathi Boudra:
 
   * svn branch pull to r726760.
 

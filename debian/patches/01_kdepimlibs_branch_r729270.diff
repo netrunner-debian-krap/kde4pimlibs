@@ -108,6 +108,21 @@
  
  ########### install files ###############
  
+--- a/kpimidentities/signature.cpp
++++ b/kpimidentities/signature.cpp
+@@ -189,10 +189,10 @@
+     mType = Inlined;
+   } else if ( sigType == sigTypeFileValue ) {
+     mType = FromFile;
+-    mUrl = config.readPathEntry( sigFileKey );
++    mUrl = config.readPathEntry( sigFileKey, QString() );
+   } else if ( sigType == sigTypeCommandValue ) {
+     mType = FromCommand;
+-    mUrl = config.readPathEntry( sigCommandKey );
++    mUrl = config.readPathEntry( sigCommandKey, QString() );
+   } else {
+     mType = Disabled;
+   }
 --- a/kpimidentities/CMakeLists.txt
 +++ b/kpimidentities/CMakeLists.txt
 @@ -10,7 +10,11 @@
@@ -326,9 +341,27 @@
  Comment[nl]=KDE-hulpbronnen instellen
  Comment[pt]=Configurar os Recursos do KDE
  Comment[sv]=Anpassa KDE-resurser
+--- a/kresources/Mainpage.dox
++++ b/kresources/Mainpage.dox
+@@ -56,7 +56,7 @@
+     : Resource( config )
+ {
+   if ( config ) {
+-    mLocation = config->readPathEntry( "Location" );
++    mLocation = config->readPathEntry( "Location", QString() );
+     mPassword = KStringHandler::obscure( config->readEntry( "Password" ) );
+   } else {
+     mLocation = ""; // Or some sensible default
 --- a/kresources/kresources_plugin.desktop
 +++ b/kresources/kresources_plugin.desktop
-@@ -11,6 +11,7 @@
+@@ -5,12 +5,13 @@
+ Comment=KResource Framework Plugin
+ Comment[ca]=Connector del marc de treball pel KResource
+ Comment[de]=Modul für KResource-Framework
+-Comment[el]=Εφαρμογίδιο πλαισίου εργασίας του KResource
++Comment[el]=Μικροεφαρμογή πλαισίου εργασίας του KResource
+ Comment[es]=Extensión de estructura KResource
+ Comment[ga]=Breiseán Creatlaí KResource
  Comment[hu]=Modul a KResource keretrendszerhez
  Comment[ja]=K リソース・フレームワーク・プラグイン
  Comment[lt]=KResource struktūros priedas
@@ -382,6 +415,28 @@
  
  install( FILES
          boolflags.h
+--- a/kcal/resourcelocaldir.cpp
++++ b/kcal/resourcelocaldir.cpp
+@@ -66,7 +66,7 @@
+ 
+ void ResourceLocalDir::readConfig( const KConfigGroup &group )
+ {
+-  QString url = group.readPathEntry( "CalendarURL" );
++  QString url = group.readPathEntry( "CalendarURL", QString() );
+   d->mURL = KUrl( url );
+ }
+ 
+--- a/kcal/resourcelocal.cpp
++++ b/kcal/resourcelocal.cpp
+@@ -67,7 +67,7 @@
+   : ResourceCached( group ), d( new ResourceLocal::Private() )
+ {
+   d->mLock = 0;
+-  QString url = group.readPathEntry( "CalendarURL" );
++  QString url = group.readPathEntry( "CalendarURL", QString() );
+   d->mURL = KUrl( url );
+ 
+   QString format = group.readEntry( "Format" );
 --- a/kcal/localdir.desktop
 +++ b/kcal/localdir.desktop
 @@ -2,6 +2,7 @@
@@ -426,24 +481,28 @@
  Name[de]=Kalender in lokaler Datei
  Name[el]=Ημερολόγιο σε τοπικό αρχείο
  Name[es]=Calendario en archivo local
-@@ -10,6 +11,7 @@
+@@ -9,7 +10,8 @@
+ Name[ga]=Féilire i gComhad Logánta
  Name[hu]=Helyi naptárfájl
  Name[ja]=ローカルファイルのカレンダー
- Name[lt]=Kalendorius vietinėje byloje
+-Name[lt]=Kalendorius vietinėje byloje
++Name[lt]=Kalendorius vietiniame faile
 +Name[nds]=Kalenner in en lokale Datei
  Name[nl]=Agenda in lokaal bestand
  Name[pa]=ਲੋਕਲ ਫਾਇਲ 'ਚ ਕੈਲੰਡਰ
  Name[pt]=Calendário num Ficheiro Local
 --- a/kcal/kcal_manager.desktop
 +++ b/kcal/kcal_manager.desktop
-@@ -12,6 +12,7 @@
+@@ -12,7 +12,9 @@
  Name[hu]=Naptár
  Name[ja]=カレンダー
  Name[lt]=Kalendorius
 +Name[nds]=Kalenner
  Name[nl]=Agenda
++Name[oc]=Calendièr
  Name[pa]=ਕੈਲੰਡਰ
  Name[pt]=Calendário
+ Name[sv]=Kalender
 --- a/kcal/libical/README.zoneinfo
 +++ b/kcal/libical/README.zoneinfo
 @@ -4,9 +4,9 @@
@@ -5349,6 +5408,24 @@
    tmpStr += "</tr></table><br>";
  
    return tmpStr;
+@@ -342,7 +342,7 @@
+   if ( event->categories().count() > 0 ) {
+     tmpStr += "<tr>";
+     tmpStr += "<td align=\"right\"><b>";
+-    tmpStr += i18np( "1 category", "%1 categories", event->categories().count() )+ "</b></td>";
++    tmpStr += i18np( "1&nbsp;category", "%1&nbsp;categories", event->categories().count() )+ "</b></td>";
+     tmpStr += "<td>" + event->categoriesStr() + "</td>";
+     tmpStr += "</tr>";
+   }
+@@ -364,7 +364,7 @@
+   if ( attachmentCount > 0 ) {
+     tmpStr += "<tr>";
+     tmpStr += "<td align=\"right\"><b>";
+-    tmpStr += i18np( "1 attachment", "%1 attachments", attachmentCount )+ "</b></td>";
++    tmpStr += i18np( "1&nbsp;attachment", "%1&nbsp;attachments", attachmentCount )+ "</b></td>";
+     tmpStr += "<td>" + eventViewerFormatAttachments( event ) + "</td>";
+     tmpStr += "</tr>";
+   }
 @@ -428,10 +428,10 @@
  
    QString tmpStr;
@@ -5392,6 +5469,66 @@
  
    InvitationBodyVisitor bodyVisitor;
    if ( !bodyVisitor.act( incBase, msg ) ) {
+--- a/kioslave/imap4/imapparser.cpp
++++ b/kioslave/imap4/imapparser.cpp
+@@ -270,7 +270,9 @@
+   while ( true )
+   {
+     //read the next line
+-    while (parseLoop() == 0);
++    while (parseLoop() == 0) {
++      ;
++    }
+     if ( cmd->isComplete() ) break;
+ 
+     if (!continuation.isEmpty())
+--- a/kioslave/imap4/imap4.cpp
++++ b/kioslave/imap4/imap4.cpp
+@@ -313,7 +313,7 @@
+         cmd = sendCommand (imapCommand::clientFetch (aSequence, mySection));
+         do
+         {
+-          while (!parseLoop ());
++          while (!parseLoop ()) {}
+         }
+         while (!cmd->isComplete ());
+         completeQueue.removeAll (cmd);
+@@ -332,7 +332,7 @@
+       aUpper = aSection.toUpper();
+       do
+       {
+-        while (!(res = parseLoop()));
++        while (!(res = parseLoop())) {}
+         if (res == -1) break;
+ 
+         mailHeader *lastone = 0;
+@@ -594,7 +594,7 @@
+         imapCache *cache;
+         do
+         {
+-          while (!parseLoop ());
++          while (!parseLoop ()) {}
+ 
+           cache = getLastHandled ();
+ 
+@@ -825,7 +825,7 @@
+ 
+     imapCommand *cmd =
+       sendCommand (imapCommand::clientAppend (aBox, aSection, length));
+-    while (!parseLoop ());
++    while (!parseLoop ()) {}
+ 
+     // see if server is waiting
+     if (!cmd->isComplete () && !getContinuation ().isEmpty ())
+@@ -1935,7 +1935,7 @@
+     imapCommand *cmd;
+ 
+     unhandled.clear ();
+-    if (!alreadyConnected) while (!parseLoop ());    //get greeting
++    if (!alreadyConnected) while (!parseLoop ()) {}   //get greeting
+     QString greeting;
+     if (!unhandled.isEmpty()) greeting = unhandled.first().trimmed();
+     unhandled.clear ();       //get rid of it
 --- a/kioslave/sieve/sieve.protocol
 +++ b/kioslave/sieve/sieve.protocol
 @@ -19,6 +19,7 @@
@@ -5402,6 +5539,17 @@
  Description[pt]=Um 'ioslave' para o protocolo de filtragem de correio Sieve
  Description[sv]=En I/O-slav för brevfiltreringsprotokollet Sieve
  Description[x-test]=xxAn ioslave for the Sieve mail filtering protocolxx
+--- a/gpgme++/context.cpp
++++ b/gpgme++/context.cpp
+@@ -480,7 +480,7 @@
+   std::vector<Key> Context::signingKeys() const {
+     std::vector<Key> result;
+     gpgme_key_t key;
+-    for ( unsigned int i = 0 ; key = gpgme_signers_enum( d->ctx, i ) ; ++i )
++    for ( unsigned int i = 0 ; ( key = gpgme_signers_enum( d->ctx, i ) ) ; ++i )
+       result.push_back( Key( key, false ) );
+     return result;
+   }
 --- a/gpgme++/CMakeLists.txt
 +++ b/gpgme++/CMakeLists.txt
 @@ -38,7 +38,11 @@
@@ -5469,15 +5617,897 @@
  endif ( GPGME_PTH_FOUND )
  
  
+--- a/kldap/ldapmodeltreeitem_p.cpp
++++ /dev/null
+@@ -1,97 +0,0 @@
+-/*
+-  This file is part of libkldap.
+-  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+-
+-  This library is free software; you can redistribute it and/or
+-  modify it under the terms of the GNU Library General  Public
+-  License as published by the Free Software Foundation; either
+-  version 2 of the License, or (at your option) any later version.
+-
+-  This library is distributed in the hope that it will be useful,
+-  but WITHOUT ANY WARRANTY; without even the implied warranty of
+-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+-  Library General Public License for more details.
+-
+-  You should have received a copy of the GNU Library General Public License
+-  along with this library; see the file COPYING.LIB.  If not, write to
+-  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+-  Boston, MA 02110-1301, USA.
+-*/
+-
+-#include "ldapmodeltreeitem_p.h"
+-
+-#include <kdebug.h>
+-
+-using namespace KLDAP;
+-
+-LdapModelTreeItem::LdapModelTreeItem( LdapModelTreeItem *parent, const LdapObject &data )
+-  : m_childItems(),
+-    m_parent( parent ),
+-    m_itemData( data ),
+-    m_isPopulated( false )
+-{
+-  kDebug(5322) << "LdapModelTreeItem::LdapModelTreeItem() : Object =" << data.toString();
+-  if ( m_parent ) {
+-    m_parent->appendChild( this );
+-  }
+-}
+-
+-LdapModelTreeItem::~LdapModelTreeItem()
+-{
+-  qDeleteAll( m_childItems );
+-}
+-
+-void LdapModelTreeItem::appendChild( LdapModelTreeItem *pItem )
+-{
+-  m_childItems.append( pItem );
+-  setPopulated( true );
+-}
+-
+-LdapModelTreeItem *LdapModelTreeItem::child( int row )
+-{
+-  return m_childItems.value( row );
+-}
+-
+-LdapModelTreeItem *LdapModelTreeItem::parent()
+-{
+-  return m_parent;
+-}
+-
+-int LdapModelTreeItem::childCount() const
+-{
+-  return m_childItems.count();
+-}
+-
+-int LdapModelTreeItem::columnCount() const
+-{
+-  return 1;
+-}
+-
+-const LdapObject &LdapModelTreeItem::data() const
+-{
+-  return m_itemData;
+-}
+-
+-int LdapModelTreeItem::row() const
+-{
+-  if ( m_parent ) {
+-    return m_parent->m_childItems.indexOf( const_cast<LdapModelTreeItem*>( this ) );
+-  }
+-  return 0;
+-}
+-
+-LdapObject &LdapModelTreeItem::ldapObject()
+-{
+-  return m_itemData;
+-}
+-
+-const LdapObject &LdapModelTreeItem::ldapObject() const
+-{
+-  return m_itemData;
+-}
+-
+-void LdapModelTreeItem::setLdapObject( const LdapObject &object )
+-{
+-  kDebug(5322) << "LdapModelTreeItem::setLdapObject() : Object =" << object.toString();
+-  m_itemData = object;
+-}
+--- a/kldap/ldapmodeltreeitem_p.h
++++ /dev/null
+@@ -1,66 +0,0 @@
+-/*
+-  This file is part of libkldap.
+-  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
+-
+-  This library is free software; you can redistribute it and/or
+-  modify it under the terms of the GNU Library General  Public
+-  License as published by the Free Software Foundation; either
+-  version 2 of the License, or (at your option) any later version.
+-
+-  This library is distributed in the hope that it will be useful,
+-  but WITHOUT ANY WARRANTY; without even the implied warranty of
+-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+-  Library General Public License for more details.
+-
+-  You should have received a copy of the GNU Library General Public License
+-  along with this library; see the file COPYING.LIB.  If not, write to
+-  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+-  Boston, MA 02110-1301, USA.
+-*/
+-
+-#ifndef KLDAP_LDAPMODELTREEITEM_P_H
+-#define KLDAP_LDAPMODELTREEITEM_P_H
+-
+-#include <QtCore/QList>
+-#include <QtCore/QVariant>
+-
+-#include "ldapobject.h"
+-#include "kldap_export.h"
+-
+-namespace KLDAP {
+-
+-/**
+- * @internal
+- */
+-class LdapModelTreeItem
+-{
+-  public:
+-    explicit LdapModelTreeItem( LdapModelTreeItem *parent = 0,
+-                                const LdapObject &data = LdapObject() );
+-    ~LdapModelTreeItem();
+-
+-    void appendChild( LdapModelTreeItem *pItem );
+-    LdapModelTreeItem *child( int row );
+-    LdapModelTreeItem *parent();
+-    int childCount() const;
+-    int columnCount() const;
+-    const LdapObject &data() const;
+-    int row() const;
+-
+-    LdapObject &ldapObject();
+-    const LdapObject &ldapObject() const;
+-    void setLdapObject( const LdapObject &object );
+-
+-    void setPopulated( bool b ) { m_isPopulated = b; }
+-    bool isPopulated() const { return m_isPopulated; }
+-
+-  private:
+-    QList<LdapModelTreeItem*> m_childItems;
+-    LdapModelTreeItem *m_parent;
+-    LdapObject m_itemData;
+-    bool m_isPopulated;
+-};
+-
+-}
+-
+-#endif
+--- a/kldap/ldapconnection.cpp
++++ b/kldap/ldapconnection.cpp
+@@ -249,6 +249,7 @@
+   }
+ 
+   int version = d->mServer.version();
++  int timeout = d->mServer.timeout();
+ 
+   url = d->mServer.security() == LdapServer::SSL ? "ldaps" : "ldap";
+   url += "://";
+@@ -277,6 +278,19 @@
+     return ret;
+   }
+ 
++#if defined(LDAP_OPT_TIMEOUT)
++  kDebug(5322) << "setting timeout to:" << timeout;
++
++  if ( timeout ) {
++    if ( setOption( LDAP_OPT_TIMEOUT, &timeout ) != LDAP_OPT_SUCCESS ) {
++      ret = ldapErrorCode();
++      d->mConnectionError = i18n("Cannot set timeout to %1 seconds.", timeout );
++      close();
++      return ret;
++    }
++  }
++#endif
++
+   //FIXME: accessing to certificate handling would be good
+   kDebug(5322) << "setting security to:" << d->mServer.security();
+   if ( d->mServer.security() == LdapServer::TLS ) {
+--- a/kldap/ldapmodel.h
++++ b/kldap/ldapmodel.h
+@@ -29,26 +29,179 @@
+ 
+ namespace KLDAP {
+ 
++/**
++ * A ModelView interface to an LDAP tree. At present the model is read only. Editing is
++ * planned for a future release.
++ *
++ * This class is best used in conjunction with an LdapStructureProxyModel object for
++ * displaying the structure of an LDAP tree, and with LdapAttributeProxyModel for
++ * displaying the attributes of particular objects within the tree.
++ *
++ * \author Sean Harmer <sh@theharmers.co.uk>
++ */
+ class KLDAP_EXPORT LdapModel : public QAbstractItemModel
+ {
+   Q_OBJECT
+   public:
++    enum Roles {
++      NodeTypeRole = Qt::UserRole + 1
++    };
++
++    enum LdapDataType {
++      DistinguishedName = 0,
++      Attribute
++    };
++
++    /**
++     * Constructs an LdapModel. You should set a connection for the model to use with
++     * setConnection(). Clients of this class should connect a slot to the ready() signal
++     * before setting this model onto a view.
++     *
++     * \see setConnection()
++     * \see ready()
++     */
+     explicit LdapModel( QObject *parent = 0 );
++    /**
++     * Constructs an LdapModel. Clients of this class should connect a slot to the ready()
++     * signal before setting this model onto a view.
++     *
++     * \see setConnection()
++     * \see ready()
++     */
+     explicit LdapModel( LdapConnection &connection, QObject *parent = 0 );
+     virtual ~LdapModel();
+ 
++    /**
++     * Set the connection that the model should use.
++     *
++     * \see LdapConnection
++     * \see LdapUrl
++     */
+     void setConnection( LdapConnection &connection );
+ 
++    //
++    // Implement the usual QAbstractItemModel interface
++    //
++    /**
++     * Reimplemented from QAbstractItemModel::index().
++     */
+     virtual QModelIndex index( int row, int col, const QModelIndex &parent ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::parent().
++     */
+     virtual QModelIndex parent( const QModelIndex &child ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::data().
++     */
+     virtual QVariant data( const QModelIndex &index, int role ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::setData(). This is a placeholder for when
++     * LdapModel beomes writeable and always returns false.
++     */
++    virtual bool setData( const QModelIndex &index,
++                          const QVariant &value,
++                          int role = Qt::EditRole );
++    /**
++     * Reimplemented from QAbstractItemModel::headerData().
++     */
+     virtual QVariant headerData( int section, Qt::Orientation orientation, int role ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::flags().
++     */
+     virtual Qt::ItemFlags flags( const QModelIndex &index ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::columnCount().
++     */
+     virtual int columnCount( const QModelIndex &parent ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::rowCount().
++     */
+     virtual int rowCount( const QModelIndex &parent ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::hasChildren().
++     */
+     virtual bool hasChildren( const QModelIndex &parent ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::canFetchMore().
++     */
+     virtual bool canFetchMore( const QModelIndex &parent ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::fetchMore().
++     */
+     virtual void fetchMore( const QModelIndex &parent );
++    /**
++     * Reimplemented from QAbstractItemModel::insertRows(). This is a placeholder for when
++     * LdapModel beomes writeable and always returns false.
++     */
++    virtual bool insertRows( int row, int count,
++                             const QModelIndex &parent = QModelIndex() );
++    /**
++     * Reimplemented from QAbstractItemModel::removeRows(). This is a placeholder for when
++     * LdapModel beomes writeable and always returns false.
++     */
++    virtual bool removeRows( int row, int count,
++                             const QModelIndex &parent = QModelIndex() );
++    /**
++     * Reimplemented from QAbstractItemModel::removeRows(). The default implementation
++     * does nothing.
++     */
++    virtual void sort( int column, Qt::SortOrder order = Qt::AscendingOrder );
++
++    //
++    // Drag and drop support
++    //
++    /**
++     * Reimplemented from QAbstractItemModel::supportedDropActions(). The default
++     * implementation returns Qt::MoveAction.
++     */
++    virtual Qt::DropActions supportedDropActions() const;
++    /**
++     * Reimplemented from QAbstractItemModel::mimedata(). This is a placeholder for when
++     * LdapModel beomes writeable and always returns 0.
++     */
++    virtual QMimeData *mimeData( const QModelIndexList &indexes ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::dropMimedata(). This is a placeholder for when
++     * LdapModel beomes writeable and always returns false.
++     */
++    virtual bool dropMimeData( const QMimeData *data, Qt::DropAction action,
++                               int row, int column, const QModelIndex &parent );
++
++    //
++    // Other public utility functions
++    //
++    /**
++     * Checks to see if the item referenced by \p parent has any children of
++     * the type \p type. If the item has not been populated by fetchMore() yet,
++     * then this function returns true.
++     *
++     * \see fetchMore()
++     * \param parent Index to the item to query.
++     * \param type The type of child item to search for.
++     */
++    bool hasChildrenOfType( const QModelIndex &parent, LdapDataType type ) const;
++
++  public Q_SLOTS:
++    /**
++     * Reimplemented from QAbstractItemModel::revert(). This is a placeholder for when
++     * LdapModel beomes writeable. This implementation does nothing.
++     */
++    virtual void revert();
++    /**
++     * Reimplemented from QAbstractItemModel::revert(). This is a placeholder for when
++     * LdapModel beomes writeable. This implementation does nothing and returns false.
++     */
++    virtual bool submit();
++
++  Q_SIGNALS:
++    /**
++     * The ready() signal is emitted when the model is ready for use by other components.
++     * When the model is first created and a connection is set, the model queries the
++     * LDAP server for its base DN and automatically creates items down to that level.
++     * This requires the event loop to be running. This signal indicates that this process
++     * has completed and the model can now be set onto views or queried directly from code.
++     */
++    void ready();
+ 
+   private:
+     class LdapModelPrivate;
+--- a/kldap/ldapserver.cpp
++++ b/kldap/ldapserver.cpp
+@@ -36,7 +36,7 @@
+     QString mPassword;
+     QString mMech;
+     QString mFilter;
+-    int mTimeLimit, mSizeLimit, mVersion, mPageSize;
++    int mTimeLimit, mSizeLimit, mVersion, mPageSize, mTimeout;
+     Security mSecurity;
+     Auth mAuth;
+     LdapUrl::Scope mScope;
+@@ -85,6 +85,7 @@
+   d->mSecurity = None;
+   d->mAuth = Anonymous;
+   d->mVersion = 3;
++  d->mTimeout = 0;
+   d->mSizeLimit = d->mTimeLimit = d->mPageSize = 0;
+ }
+ 
+@@ -168,6 +169,11 @@
+   return d->mMech;
+ }
+ 
++int LdapServer::timeout() const
++{
++  return d->mTimeout;
++}
++
+ void LdapServer::setHost( const QString &host )
+ {
+   d->mHost = host;
+@@ -248,6 +254,11 @@
+   d->mMech = mech;
+ }
+ 
++void LdapServer::setTimeout( int timeout )
++{
++  d->mTimeout = timeout;
++}
++
+ void LdapServer::setUrl( const LdapUrl &url )
+ {
+   bool critical;
+@@ -304,6 +315,12 @@
+     d->mVersion = 3;
+   }
+ 
++  if ( url.hasExtension("x-timeout") ) {
++    d->mTimeout = url.extension( "x-timeout", critical ).toInt();
++  } else {
++    d->mTimeout = 0;
++  }
++
+   if ( url.hasExtension("x-timelimit") ) {
+     d->mTimeLimit = url.extension( "x-timelimit", critical ).toInt();
+   } else {
+@@ -349,6 +366,9 @@
+   if ( d->mVersion == 2 ) {
+     url.setExtension( "x-version", d->mVersion );
+   }
++  if ( d->mTimeout ) {
++    url.setExtension( "x-timeout", d->mTimeout );
++  }
+   if ( d->mTimeLimit != 0 ) {
+     url.setExtension( "x-timelimit", d->mTimeLimit );
+   }
+--- a/kldap/ldapmodel_p.cpp
++++ b/kldap/ldapmodel_p.cpp
+@@ -19,7 +19,7 @@
+ */
+ 
+ #include "ldapmodel_p.h"
+-#include "ldapmodeltreeitem_p.h"
++#include "ldapmodelnode_p.h"
+ #include "ldapsearch.h"
+ 
+ #include <kdebug.h>
+@@ -28,7 +28,7 @@
+ 
+ LdapModel::LdapModelPrivate::LdapModelPrivate( LdapModel *parent )
+   : m_parent( parent ),
+-    m_root( new LdapModelTreeItem ),
++    m_root( new LdapModelDNNode ),
+     m_search( new LdapSearch ),
+     m_searchResultObjects(),
+     m_baseDN(),
+@@ -39,7 +39,7 @@
+ 
+ LdapModel::LdapModelPrivate::LdapModelPrivate( LdapModel *parent, LdapConnection &connection )
+   : m_parent( parent ),
+-    m_root( new LdapModelTreeItem ),
++    m_root( new LdapModelDNNode ),
+     m_search( new LdapSearch( connection ) ),
+     m_searchResultObjects(),
+     m_baseDN(),
+@@ -73,22 +73,22 @@
+   return m_search->search( searchBase, scope, filter, attributes, pagesize );
+ }
+ 
+-void LdapModel::LdapModelPrivate::setSearchType( SearchType t, LdapModelTreeItem *item )
++void LdapModel::LdapModelPrivate::setSearchType( SearchType t, LdapModelDNNode *item )
+ {
+-  kDebug(5322) << "LdapModel::LdapModelPrivate::setSearchType() : item =" << item;
++  //kDebug(5322) << "LdapModel::LdapModelPrivate::setSearchType() : item =" << item;
+   m_searchType = t;
+   m_searchItem = item;
+ }
+ 
+ void LdapModel::LdapModelPrivate::recreateRootItem()
+ {
+-  kDebug(5322) << "LdapModel::LdapModelPrivate::recreateRootItem()";
++  //kDebug(5322) << "LdapModel::LdapModelPrivate::recreateRootItem()";
+   if ( m_root ) {
+     delete m_root;
+     m_root = 0;
+   }
+-  m_root = new LdapModelTreeItem;
+-  kDebug(5322) << "&m_root =" << &m_root;
++  m_root = new LdapModelDNNode;
++  //kDebug(5322) << "&m_root =" << &m_root;
+ }
+ 
+ void LdapModel::LdapModelPrivate::createConnections()
+@@ -101,19 +101,20 @@
+ 
+ void LdapModel::LdapModelPrivate::populateRootToBaseDN()
+ {
+-  kDebug(5322) << "LdapModel::LdapModelPrivate::populateRootToBaseDN()";
++  //kDebug(5322) << "LdapModel::LdapModelPrivate::populateRootToBaseDN()";
+ 
+   if ( baseDN().isEmpty() ) {
+     // Query the server for the base DN
+-    setSearchType( LdapModelPrivate::NamingContexts, rootItem() );
++    //kDebug(5322) << "Searching for the baseDN";
++    setSearchType( LdapModelPrivate::NamingContexts, rootNode() );
+     search( LdapDN(), LdapUrl::Base, QString(), QStringList() << "namingContexts" );
+     return;
+   }
+ 
+   // Start a search for the details of the baseDN object
++  //kDebug(5322) << "Searching for attributes of the baseDN";
+   searchResults().clear();
+-  LdapModelTreeItem *searchItem = rootItem();
+-  setSearchType( LdapModelPrivate::BaseDN, searchItem );
++  setSearchType( LdapModelPrivate::BaseDN, rootNode() );
+   search( baseDN(), LdapUrl::Base, QString(), QStringList() << "dn" << "objectClass" );
+ }
+ 
+@@ -130,7 +131,7 @@
+     if ( !searchResults().isEmpty() &&
+          searchResults().at( 0 ).hasAttribute( "namingContexts" ) ) {
+       baseDN = searchResults().at( 0 ).value( "namingContexts" );
+-      kDebug(5322) << "Found baseDN =" << baseDN;
++      //kDebug(5322) << "Found baseDN =" << baseDN;
+     }
+     setBaseDN( LdapDN( baseDN ) );
+ 
+@@ -144,8 +145,8 @@
+   }
+   case LdapModelPrivate::BaseDN:
+   {
+-    kDebug(5322) << "Found details of the baseDN object."
+-                 << "Creating objects down to this level.";
++    //kDebug(5322) << "Found details of the baseDN object."
++    //             << "Creating objects down to this level.";
+ 
+     // Get the baseDN LdapObject
+     LdapObject baseDNObj = searchResults().at( 0 );
+@@ -154,49 +155,54 @@
+     int depth = baseDNObj.dn().depth();
+ 
+     // Create items that represent objects down to the baseDN
+-    LdapModelTreeItem *parent = rootItem();
+-    LdapModelTreeItem *item = 0;
++    LdapModelDNNode *parent = rootNode();
++    LdapModelDNNode *item = 0;
+     for ( int i = 0; i < depth; i++ ) {
+       QString dn = baseDN().toString( i );
+       kDebug(5322) << "Creating item for DN :" << dn;
+-      LdapObject obj( dn );
+-      item = new LdapModelTreeItem( parent, obj );
++
++      //LdapObject obj( dn );
++      item = new LdapModelDNNode( parent, LdapDN( dn ) );
+       parent = item;
+     }
+ 
+     // Store the search result
+-    item->setLdapObject( searchResults().at( 0 ) );
++    item->setLdapObject( baseDNObj );
+ 
+     // Flag that we are no longer searching
+     setSearchType( LdapModelPrivate::NotSearching );
+     //emit( layoutChanged() );
+ 
++    // Let the world know we are ready for action
++    emit m_parent->ready();
++
+     break;
+   }
+   case LdapModelPrivate::ChildObjects:
+   {
+-    kDebug(5322) << "Found" << searchResults().size() << "child objects";
++    //kDebug(5322) << "Found" << searchResults().size() << "child objects";
+ 
+-    // Create an index for the soon-to-be-a-parent item
+-    LdapModelTreeItem *parentItem = searchItem();
+-    int r = parentItem->row();
+-    QModelIndex parentIndex = m_parent->createIndex( r, 0, parentItem );
+-
+-    m_parent->beginInsertRows( parentIndex, 0, searchResults().size() );
+-    for ( int i = 0; i < searchResults().size(); i++ ) {
+-      LdapObject itemData = searchResults().at( i );
+-      LdapModelTreeItem *item = new LdapModelTreeItem( parentItem, itemData );
+-      if ( !item ) {
+-        kDebug(5322) << "Could not create LdapModelTreeItem";
++    if ( searchResults().size() != 0 )
++    {
++      // Create an index for the soon-to-be-a-parent item
++      LdapModelDNNode *parentNode = searchItem();
++      int r = parentNode->row();
++      QModelIndex parentIndex = m_parent->createIndex( r, 0, parentNode );
++
++      m_parent->beginInsertRows( parentIndex, 0, searchResults().size() );
++      for ( int i = 0; i < searchResults().size(); i++ ) {
++        LdapObject object = searchResults().at( i );
++        LdapModelDNNode *item = new LdapModelDNNode( parentNode, object.dn() );
++        item->setLdapObject( object );
+       }
++
++      m_parent->endInsertRows();
++      emit m_parent->layoutChanged();
+     }
+ 
+     // Flag that we are no longer searching
+     setSearchType( LdapModelPrivate::NotSearching );
+ 
+-    m_parent->endInsertRows();
+-    emit m_parent->layoutChanged();
+-
+     break;
+   }
+   default:
+@@ -207,7 +213,7 @@
+ void LdapModel::LdapModelPrivate::gotSearchData( KLDAP::LdapSearch *search, const KLDAP::LdapObject &obj )
+ {
+   Q_UNUSED( search );
+-  kDebug(5322) << "LdapModel::LdapModelPrivate::gotSearchData()";
++  //kDebug(5322) << "LdapModel::LdapModelPrivate::gotSearchData()";
+   //kDebug(5322) << "Object:";
+   //kDebug(5322) << obj.toString();
+   searchResults().append( obj );
+--- /dev/null
++++ b/kldap/ldapstructureproxymodel.h
+@@ -0,0 +1,98 @@
++/*
++  This file is part of libkldap.
++  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
++
++  This library is free software; you can redistribute it and/or
++  modify it under the terms of the GNU Library General  Public
++  License as published by the Free Software Foundation; either
++  version 2 of the License, or (at your option) any later version.
++
++  This library is distributed in the hope that it will be useful,
++  but WITHOUT ANY WARRANTY; without even the implied warranty of
++  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++  Library General Public License for more details.
++
++  You should have received a copy of the GNU Library General Public License
++  along with this library; see the file COPYING.LIB.  If not, write to
++  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++  Boston, MA 02110-1301, USA.
++*/
++
++#ifndef KLDAP_LDAPSTRUCTUREPROXYMODEL_H
++#define KLDAP_LDAPSTRUCTUREPROXYMODEL_H
++
++#include <QtGui/QSortFilterProxyModel>
++
++#include "kldap_export.h"
++
++namespace KLDAP {
++
++class KLDAP_EXPORT LdapStructureProxyModel : public QSortFilterProxyModel
++{
++  Q_OBJECT
++  public:
++    explicit LdapStructureProxyModel( QObject *parent = 0 );
++    ~LdapStructureProxyModel();
++
++    virtual QVariant data( const QModelIndex &index, int role ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::setData(). This is a placeholder for when
++     * LdapStructureProxyModel beomes writeable and always returns false.
++     */
++    virtual bool setData( const QModelIndex &index,
++                          const QVariant &value,
++                          int role = Qt::EditRole );
++    virtual bool filterAcceptsRow( int sourceRow, const QModelIndex& sourceParent ) const;
++    virtual QVariant headerData( int section, Qt::Orientation orientation, int role ) const;
++    virtual int columnCount( const QModelIndex &parent ) const;
++    virtual Qt::ItemFlags flags( const QModelIndex &index ) const;
++    virtual bool hasChildren( const QModelIndex &parent ) const;
++
++    virtual QModelIndex mapFromSource ( const QModelIndex & sourceIndex ) const;
++    virtual QModelIndex mapToSource ( const QModelIndex & proxyIndex ) const;
++
++    /**
++     * Reimplemented from QAbstractItemModel::insertRows(). This is a placeholder for when
++     * LdapStructureProxyModel beomes writeable and always returns false.
++     */
++    virtual bool insertRows( int row, int count,
++                             const QModelIndex &parent = QModelIndex() );
++    /**
++     * Reimplemented from QAbstractItemModel::removeRows(). This is a placeholder for when
++     * LdapStructureProxyModel beomes writeable and always returns false.
++     */
++    virtual bool removeRows( int row, int count,
++                             const QModelIndex &parent = QModelIndex() );
++    /**
++     * Reimplemented from QAbstractItemModel::removeRows(). The default implementation
++     * does nothing.
++     */
++    virtual void sort( int column, Qt::SortOrder order = Qt::AscendingOrder );
++
++    //
++    // Drag and drop support
++    //
++    /**
++     * Reimplemented from QAbstractItemModel::supportedDropActions(). The default
++     * implementation returns Qt::MoveAction.
++     */
++    virtual Qt::DropActions supportedDropActions() const;
++    /**
++     * Reimplemented from QAbstractItemModel::mimedata(). This is a placeholder for when
++     * LdapStructureProxyModel beomes writeable and always returns 0.
++     */
++    virtual QMimeData *mimeData( const QModelIndexList &indexes ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::dropMimedata(). This is a placeholder for when
++     * LdapStructureProxyModel beomes writeable and always returns false.
++     */
++    virtual bool dropMimeData( const QMimeData *data, Qt::DropAction action,
++                               int row, int column, const QModelIndex &parent );
++
++  private:
++    class LdapStructureProxyModelPrivate;
++    LdapStructureProxyModelPrivate *const m_d;
++};
++
++}
++#endif
+--- /dev/null
++++ b/kldap/ldapmodelnode_p.h
+@@ -0,0 +1,122 @@
++/*
++  This file is part of libkldap.
++  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
++
++  This library is free software; you can redistribute it and/or
++  modify it under the terms of the GNU Library General  Public
++  License as published by the Free Software Foundation; either
++  version 2 of the License, or (at your option) any later version.
++
++  This library is distributed in the hope that it will be useful,
++  but WITHOUT ANY WARRANTY; without even the implied warranty of
++  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++  Library General Public License for more details.
++
++  You should have received a copy of the GNU Library General Public License
++  along with this library; see the file COPYING.LIB.  If not, write to
++  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++  Boston, MA 02110-1301, USA.
++*/
++
++#ifndef KLDAP_LDAPMODELTREEITEM_P_H
++#define KLDAP_LDAPMODELTREEITEM_P_H
++
++#include <QByteArray>
++#include <QString>
++#include <QtCore/QList>
++#include <QtCore/QVariant>
++
++#include "ldapdn.h"
++#include "ldapobject.h"
++#include "kldap_export.h"
++
++namespace KLDAP {
++
++class LdapModelDNNode;
++
++/**
++ * @internal
++ */
++class LdapModelNode
++{
++  public:
++    explicit LdapModelNode( LdapModelDNNode *parent = 0 );
++    virtual ~LdapModelNode();
++
++    enum NodeType {
++      DN,
++      Attr
++    };
++
++    virtual NodeType nodeType() const = 0;
++
++    LdapModelDNNode *parent();
++    int columnCount() const { return 2; }
++    int row() const;
++
++    void setPopulated( bool b ) { m_isPopulated = b; }
++    bool isPopulated() const { return m_isPopulated; }
++
++  private:
++    LdapModelDNNode *m_parent;
++    bool m_isPopulated;
++};
++
++
++/**
++ * @internal
++ */
++class LdapModelDNNode : public LdapModelNode
++{
++  public:
++    explicit LdapModelDNNode( LdapModelDNNode *parent = 0,
++                              const LdapDN &dn = LdapDN() );
++    ~LdapModelDNNode();
++
++    LdapModelNode::NodeType nodeType() const { return LdapModelNode::DN; }
++
++    void appendChild( LdapModelNode *pItem );
++    LdapModelNode *child( int row );
++    int childCount() const { return m_childItems.size(); }
++    const QList<LdapModelNode*>& children() const { return m_childItems; }
++
++    const LdapDN &dn() const { return m_dn; }
++
++    /**
++     * Creates child LdapModelAttrNode object to store \p object's attributes
++     * and adds them as children of this node.
++     *
++     * \param The LdapObject to store in this node.
++     */
++    void setLdapObject( const LdapObject &object );
++
++  private:
++    QList<LdapModelNode*> m_childItems;
++    LdapDN m_dn;
++};
++
++
++/**
++ * @internal
++ */
++class LdapModelAttrNode : public LdapModelNode
++{
++  public:
++    explicit LdapModelAttrNode( LdapModelDNNode *parent = 0,
++                                const QString &attrName = QString(),
++                                const QByteArray &attrData = QByteArray() );
++    ~LdapModelAttrNode();
++
++    LdapModelNode::NodeType nodeType() const { return LdapModelNode::Attr; }
++
++    const QString &attributeName() { return m_attrName; }
++    const QByteArray &attributeData() { return m_attrData; }
++
++  private:
++    QString m_attrName;
++    QByteArray m_attrData;
++};
++
++}
++
++#endif
 --- a/kldap/CMakeLists.txt
 +++ b/kldap/CMakeLists.txt
-@@ -68,8 +68,11 @@
+@@ -44,7 +44,7 @@
+ ########### next target ###############
+ 
+ 
+-set(kldap_LIB_SRCS 
++set(kldap_LIB_SRCS
+    ber.cpp
+    ldif.cpp
+    ldapurl.cpp
+@@ -56,9 +56,11 @@
+    ldapsearch.cpp
+    ldapconfigwidget.cpp
+    ldapdn.cpp
+-   ldapmodeltreeitem_p.cpp
++   ldapmodelnode_p.cpp
+    ldapmodel.cpp
+-   ldapmodel_p.cpp )
++   ldapmodel_p.cpp
++   ldapstructureproxymodel.cpp
++   ldapattributeproxymodel.cpp)
+ 
+ 
+ kde4_add_library(kldap SHARED ${kldap_LIB_SRCS})
+@@ -68,12 +70,16 @@
  target_link_libraries(kldap ${KDE4_KIO_LIBS} ${kldap_EXTRA_LIBS} )
  
  set_target_properties(kldap PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
 -install(TARGETS kldap DESTINATION ${LIB_INSTALL_DIR})
 -
-+install(TARGETS kldap 
++install(TARGETS kldap
 +    RUNTIME DESTINATION ${BIN_INSTALL_DIR}
 +    LIBRARY DESTINATION ${LIB_INSTALL_DIR}
 +    ARCHIVE DESTINATION ${LIB_INSTALL_DIR}
@@ -5485,6 +6515,1010 @@
  
  ########### install files ###############
  
+-install( FILES ber.h kldap_export.h ldapdefs.h ldif.h ldapurl.h ldapserver.h ldapobject.h 
+-  ldapconnection.h ldapoperation.h 
++install( FILES ber.h kldap_export.h ldapdefs.h ldif.h ldapurl.h ldapserver.h ldapobject.h
++  ldapconnection.h ldapoperation.h
+   ldapconfigwidget.h ldapcontrol.h ldapsearch.h
+-  ldapdn.h ldapmodel.h DESTINATION ${INCLUDE_INSTALL_DIR}/kldap)
++  ldapdn.h ldapmodel.h ldapstructureproxymodel.h ldapattributeproxymodel.h
++  DESTINATION ${INCLUDE_INSTALL_DIR}/kldap)
+--- /dev/null
++++ b/kldap/ldapattributeproxymodel.h
+@@ -0,0 +1,98 @@
++/*
++  This file is part of libkldap.
++  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
++
++  This library is free software; you can redistribute it and/or
++  modify it under the terms of the GNU Library General  Public
++  License as published by the Free Software Foundation; either
++  version 2 of the License, or (at your option) any later version.
++
++  This library is distributed in the hope that it will be useful,
++  but WITHOUT ANY WARRANTY; without even the implied warranty of
++  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++  Library General Public License for more details.
++
++  You should have received a copy of the GNU Library General Public License
++  along with this library; see the file COPYING.LIB.  If not, write to
++  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++  Boston, MA 02110-1301, USA.
++*/
++
++#ifndef KLDAP_LDAPATTRIBUTEPROXYMODEL_H
++#define KLDAP_LDAPATTRIBUTEPROXYMODEL_H
++
++#include <QtGui/QSortFilterProxyModel>
++
++#include "kldap_export.h"
++
++namespace KLDAP {
++
++class KLDAP_EXPORT LdapAttributeProxyModel : public QSortFilterProxyModel
++{
++  Q_OBJECT
++  public:
++    explicit LdapAttributeProxyModel( QObject *parent = 0 );
++    ~LdapAttributeProxyModel();
++
++    virtual QVariant data( const QModelIndex &index, int role ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::setData(). This is a placeholder for when
++     * LdapAttributeProxyModel beomes writeable and always returns false.
++     */
++    virtual bool setData( const QModelIndex &index,
++                          const QVariant &value,
++                          int role = Qt::EditRole );
++    virtual bool filterAcceptsRow( int sourceRow, const QModelIndex& sourceParent ) const;
++    virtual QVariant headerData( int section, Qt::Orientation orientation, int role ) const;
++    virtual int columnCount( const QModelIndex &parent ) const;
++    virtual Qt::ItemFlags flags( const QModelIndex &index ) const;
++    virtual bool hasChildren( const QModelIndex &parent ) const;
++
++    virtual QModelIndex mapFromSource ( const QModelIndex & sourceIndex ) const;
++    virtual QModelIndex mapToSource ( const QModelIndex & proxyIndex ) const;
++
++    /**
++     * Reimplemented from QAbstractItemModel::insertRows(). This is a placeholder for when
++     * LdapAttributeProxyModel beomes writeable and always returns false.
++     */
++    virtual bool insertRows( int row, int count,
++                             const QModelIndex &parent = QModelIndex() );
++    /**
++     * Reimplemented from QAbstractItemModel::removeRows(). This is a placeholder for when
++     * LdapAttributeProxyModel beomes writeable and always returns false.
++     */
++    virtual bool removeRows( int row, int count,
++                             const QModelIndex &parent = QModelIndex() );
++    /**
++     * Reimplemented from QAbstractItemModel::removeRows(). The default implementation
++     * does nothing.
++     */
++    virtual void sort( int column, Qt::SortOrder order = Qt::AscendingOrder );
++
++    //
++    // Drag and drop support
++    //
++    /**
++     * Reimplemented from QAbstractItemModel::supportedDropActions(). The default
++     * implementation returns Qt::MoveAction.
++     */
++    virtual Qt::DropActions supportedDropActions() const;
++    /**
++     * Reimplemented from QAbstractItemModel::mimedata(). This is a placeholder for when
++     * LdapAttributeProxyModel beomes writeable and always returns 0.
++     */
++    virtual QMimeData *mimeData( const QModelIndexList &indexes ) const;
++    /**
++     * Reimplemented from QAbstractItemModel::dropMimedata(). This is a placeholder for when
++     * LdapAttributeProxyModel beomes writeable and always returns false.
++     */
++    virtual bool dropMimeData( const QMimeData *data, Qt::DropAction action,
++                               int row, int column, const QModelIndex &parent );
++
++  private:
++    class LdapAttributeProxyModelPrivate;
++    LdapAttributeProxyModelPrivate *const m_d;
++};
++
++}
++#endif
+--- a/kldap/ldapmodel.cpp
++++ b/kldap/ldapmodel.cpp
+@@ -20,10 +20,11 @@
+ 
+ #include "ldapmodel.h"
+ #include "ldapmodel_p.h"
+-#include "ldapmodeltreeitem_p.h"
++#include "ldapmodelnode_p.h"
+ #include "ldapsearch.h"
+ 
+ #include <kdebug.h>
++#include <klocale.h>
+ 
+ using namespace KLDAP;
+ 
+@@ -60,68 +61,94 @@
+   m_d->populateRootToBaseDN();
+ }
+ 
+-QModelIndex LdapModel::index( int row, int col, const QModelIndex &parent ) const
+-{
+-  LdapModelTreeItem *parentItem;
+-  if ( !parent.isValid() ) {
+-    parentItem = m_d->rootItem();
+-  } else {
+-    parentItem = static_cast<LdapModelTreeItem*>( parent.internalPointer() );
+-  }
+-
+-  LdapModelTreeItem *childItem = parentItem->child( row );
+-  if ( childItem ) {
+-    return createIndex( row, col, childItem );
+-  } else {
+-    return QModelIndex();
+-  }
+-}
+-
+ QModelIndex LdapModel::parent( const QModelIndex &child ) const
+ {
+   if ( !child.isValid() ) {
+     return QModelIndex();
+   }
+ 
+-  LdapModelTreeItem *childItem = static_cast<LdapModelTreeItem*>( child.internalPointer() );
+-  LdapModelTreeItem *parentItem = childItem->parent();
++  LdapModelNode *childItem = static_cast<LdapModelNode*>( child.internalPointer() );
++  LdapModelDNNode *parentItem = childItem->parent();
+ 
+-  if ( parentItem == m_d->rootItem() ) {
++  if ( parentItem == m_d->rootNode() ) {
+     return QModelIndex();
+   }
+ 
+   return createIndex( parentItem->row(), 0, parentItem );
+ }
+ 
++QModelIndex LdapModel::index( int row, int col, const QModelIndex &parent ) const
++{
++  // Retrieve a pointer to the parent item
++  LdapModelDNNode *parentItem;
++  if ( !parent.isValid() ) {
++    parentItem = m_d->rootNode();
++  } else {
++    parentItem = static_cast<LdapModelDNNode*>( parent.internalPointer() );
++  }
++
++  LdapModelNode *childItem = parentItem->child( row );
++  if ( childItem ) {
++    return createIndex( row, col, childItem );
++  }
++  kDebug(5322) << "Could not create valid index for row =" << row << ", col =" << col;
++  return QModelIndex();
++}
++
+ QVariant LdapModel::data( const QModelIndex &index, int role ) const
+ {
+   if ( !index.isValid() ) {
+     return QVariant();
+   }
+ 
+-  LdapModelTreeItem *item = static_cast<LdapModelTreeItem*>( index.internalPointer() );
+-
+   if ( role == Qt::DisplayRole ) {
+-    kDebug(5322) << "***** LdapModel::data(): rdn =" << item->data().dn().rdnString();
+-    return item->data().dn().rdnString();
+-  } else if ( role == Qt::ToolTipRole ) {
+-    /** \TODO Make the tooltips look nicer - perhaps themeable? */
+-    kDebug(5322) << "***** LdapModel::data(): Object =" << item->data().toString();
+-    return item->data().toString();
++    // This is what gets displayed by the view delegates.
++    LdapModelNode *node = static_cast<LdapModelNode*>( index.internalPointer() );
++    if ( node->nodeType() == LdapModelNode::DN ) {
++      LdapModelDNNode* dn = static_cast<LdapModelDNNode*>( node );
++      if ( index.column() == 0 ) {
++        return dn->dn().rdnString();
++      } else {
++        return QVariant();
++      }
++    } else {
++      LdapModelAttrNode* attr = static_cast<LdapModelAttrNode*>( node );
++      if ( index.column() == 0 ) {
++        return QVariant( attr->attributeName() );
++      } else {
++        return QVariant( QString( attr->attributeData().constData() ) );
++      }
++    }
++  } else if ( role == NodeTypeRole ) {
++    LdapModelNode* node = static_cast<LdapModelNode*>( index.internalPointer() );
++    return QVariant( int( node->nodeType() ) );
+   }
+ 
+-  /** \TODO Include support for nice decorative icons dependent upon
++  /** \todo Include support for nice decorative icons dependent upon
+       the objectClass + other role data. */
++  /** \todo Include support for other roles as needed */
+ 
+   return QVariant();
+ }
+ 
+-QVariant LdapModel::headerData( int /*section*/, Qt::Orientation orientation, int role ) const
++bool LdapModel::setData( const QModelIndex &index,
++                         const QVariant &value,
++                         int role )
++{
++  Q_UNUSED( index );
++  Q_UNUSED( value );
++  Q_UNUSED( role );
++  return false;
++}
++
++QVariant LdapModel::headerData( int section, Qt::Orientation orientation, int role ) const
+ {
+   if ( orientation == Qt::Horizontal && role == Qt::DisplayRole ) {
+-    /** @TODO Hmm, what to do here? Override in proxymodels perhaps as
+-        could be "DN" or "Attribute". */
+-    return QString( "Distinguished Name" );
++    if ( section == 0 ) {
++      return QString( i18n( "Attribute" ) );
++    } else {
++      return QString( i18n( "Value" ) );
++    }
+   }
+ 
+   return QVariant();
+@@ -134,67 +161,158 @@
+     return Qt::ItemIsEnabled;
+   }
+ 
+-  return Qt::ItemIsEnabled | Qt::ItemIsSelectable;
++  return Qt::ItemFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
+ }
+ 
+ int LdapModel::columnCount( const QModelIndex &parent ) const
+ {
+-  LdapModelTreeItem *parentItem =
+-    parent.isValid() ? static_cast<LdapModelTreeItem*>( parent.internalPointer() ) : m_d->rootItem();
+-  return parentItem->columnCount();
++  LdapModelDNNode *parentNode =
++    parent.isValid() ? static_cast<LdapModelDNNode*>( parent.internalPointer() ) : m_d->rootNode();
++  return parentNode->columnCount();
+ }
+ 
+ int LdapModel::rowCount( const QModelIndex &parent ) const
+ {
+-  kDebug(5322) << "LdapModel::rowCount";
+   if ( parent.column() > 0 ) {
+     return 0;
+   }
+ 
+-  const LdapModelTreeItem *item =
+-    parent.isValid() ? static_cast<LdapModelTreeItem*>( parent.internalPointer() ) : m_d->rootItem();
+-  kDebug(5322) << "Parent (" << item->ldapObject().dn().toString() << ") has"
+-               << item->childCount() << "children";
+-  return item->childCount();
++  const LdapModelDNNode *parentNode =
++    parent.isValid() ? static_cast<LdapModelDNNode*>( parent.internalPointer() ) : m_d->rootNode();
++  return parentNode->childCount();
+ }
+ 
+ bool LdapModel::hasChildren( const QModelIndex &parent ) const
+ {
+-  // We always return true. This means that the branch expansion symbol will
+-  // always be drawn. However, once the user clicks on it, rowCount() will
+-  // get called and the view will not draw the expander if the item has no
+-  // children.
+-  const LdapModelTreeItem *item =
+-    parent.isValid() ? static_cast<LdapModelTreeItem*>( parent.internalPointer() ) : m_d->rootItem();
+-  if ( !parent.isValid() || item->isPopulated() ) {
+-    return item->childCount() > 0;
++  // We return true unless the item has been populated and we are able to do a definitive test
++  const LdapModelNode *node = parent.isValid()
++    ? static_cast<const LdapModelNode*>( parent.internalPointer() )
++    : m_d->rootNode();
++
++  if ( node->nodeType() != LdapModelNode::DN )
++    return false;
++
++  const LdapModelDNNode* parentNode = static_cast<const LdapModelDNNode*>( node );
++  if ( !parent.isValid() || parentNode->isPopulated() ) {
++    return parentNode->childCount() > 0;
+   }
+   return true;
+ }
+ 
+ bool LdapModel::canFetchMore( const QModelIndex &parent ) const
+ {
+-  const LdapModelTreeItem *item =
+-    parent.isValid() ? static_cast<LdapModelTreeItem*>( parent.internalPointer() ) : m_d->rootItem();
+-  kDebug(5322) << "LdapModel::canFetchMore() :" << !item->isPopulated();
+-  return !item->isPopulated();
++  const LdapModelDNNode *parentNode =
++    parent.isValid() ? static_cast<LdapModelDNNode*>( parent.internalPointer() ) : m_d->rootNode();
++  return !parentNode->isPopulated();
+ }
+ 
+ void LdapModel::fetchMore( const QModelIndex &parent )
+ {
+-  /** @TODO This should be altered to search for all attributes we can
+-      filter out those not required with a proxy model */
+-  kDebug(5322) << "LdapModel::fetchMore()";
+-
+-  LdapModelTreeItem *parentItem =
+-    parent.isValid() ? static_cast<LdapModelTreeItem*>( parent.internalPointer() ) : m_d->rootItem();
++  LdapModelDNNode *parentNode =
++    parent.isValid() ? static_cast<LdapModelDNNode*>( parent.internalPointer() ) : m_d->rootNode();
+ 
+   // Search for the immediate children of parentItem.
+   m_d->searchResults().clear();
+-  m_d->setSearchType( LdapModelPrivate::ChildObjects, parentItem );
+-  m_d->search( parentItem->data().dn(), LdapUrl::One, QString(),
+-               QStringList() << "dn" << "objectClass" );
+-  parentItem->setPopulated( true );
++  m_d->setSearchType( LdapModelPrivate::ChildObjects, parentNode );
++  m_d->search( parentNode->dn(),  // DN to search from
++               LdapUrl::One,      // What to search
++               QString() );       // Attributes to retrieve
++  parentNode->setPopulated( true );
++}
++
++bool LdapModel::insertRows( int row, int count,
++                            const QModelIndex &parent )
++{
++  Q_UNUSED( row );
++  Q_UNUSED( count );
++  Q_UNUSED( parent );
++  return false;
++}
++
++bool LdapModel::removeRows( int row, int count,
++                            const QModelIndex &parent )
++{
++  Q_UNUSED( row );
++  Q_UNUSED( count );
++  Q_UNUSED( parent );
++  return false;
++}
++
++void LdapModel::sort( int column, Qt::SortOrder order )
++{
++  Q_UNUSED( column );
++  Q_UNUSED( order );
++}
++
++Qt::DropActions LdapModel::supportedDropActions() const
++{
++  return Qt::MoveAction;
++}
++
++QMimeData *LdapModel::mimeData( const QModelIndexList &indexes ) const
++{
++  Q_UNUSED( indexes );
++  return 0;
++}
++
++bool LdapModel::dropMimeData( const QMimeData *data, Qt::DropAction action,
++                              int row, int column, const QModelIndex &parent )
++{
++  /** \todo Implement drag and drop for LdapModel */
++  Q_UNUSED( data );
++  Q_UNUSED( action );
++  Q_UNUSED( row );
++  Q_UNUSED( column );
++  Q_UNUSED( parent );
++  return false;
++}
++
++bool LdapModel::hasChildrenOfType( const QModelIndex &parent, LdapDataType type ) const
++{
++  // Map from LdapDataType to our internal NodeType
++  LdapModelNode::NodeType nodeType;
++  switch ( type ) {
++    case Attribute:
++      nodeType = LdapModelNode::Attr;
++      break;
++
++    case DistinguishedName:
++    default:
++      nodeType = LdapModelNode::DN;
++      break;
++  }
++
++  const LdapModelNode *node = parent.isValid()
++    ? static_cast<const LdapModelNode*>( parent.internalPointer() )
++    : m_d->rootNode();
++
++  const LdapModelDNNode* parentNode = static_cast<const LdapModelDNNode*>( node );
++  if ( !parent.isValid() || parentNode->isPopulated() ) {
++    // Check to see if the parent has any children of the specified type
++    const QList<LdapModelNode*>& children = parentNode->children();
++    foreach ( LdapModelNode *child, children ) {
++      if ( child->nodeType() == nodeType ) {
++        return true;
++      }
++    }
++
++    // Either there are no children or only children of a different type
++    return false;
++  }
++
++  // If the node is not populated or is the root node (invalid), then return
++  // true to be on the safe side.
++  return true;
++}
++
++void LdapModel::revert()
++{
++
++}
++
++bool LdapModel::submit()
++{
++  return false;
+ }
+ 
+ #include "ldapmodel.moc"
+--- a/kldap/ldapserver.h
++++ b/kldap/ldapserver.h
+@@ -66,6 +66,7 @@
+     Security security() const;
+     Auth auth() const;
+     QString mech() const;
++    int timeout() const;
+ 
+     LdapUrl::Scope scope() const;
+     int timeLimit() const;
+@@ -84,6 +85,7 @@
+     void setSecurity( Security security );
+     void setAuth( Auth auth );
+     void setMech( const QString &mech );
++    void setTimeout( int timeout );
+ 
+     void setScope( LdapUrl::Scope scope );
+     void setTimeLimit( int timelimit );
+@@ -96,7 +98,7 @@
+      * The URL extensions which are supported:
+      * Standard: bindname
+      * KLDAP extensions: x-tls, x-version, x-sasl, x-mech, x-realm,
+-     * x-sizelimit, x-timelimit, x-pagesize
++     * x-sizelimit, x-timelimit, x-pagesize, x-timeout
+      */
+     LdapUrl url() const;
+     /**
+--- /dev/null
++++ b/kldap/ldapstructureproxymodel.cpp
+@@ -0,0 +1,170 @@
++/*
++  This file is part of libkldap.
++  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
++
++  This library is free software; you can redistribute it and/or
++  modify it under the terms of the GNU Library General  Public
++  License as published by the Free Software Foundation; either
++  version 2 of the License, or (at your option) any later version.
++
++  This library is distributed in the hope that it will be useful,
++  but WITHOUT ANY WARRANTY; without even the implied warranty of
++  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++  Library General Public License for more details.
++
++  You should have received a copy of the GNU Library General Public License
++  along with this library; see the file COPYING.LIB.  If not, write to
++  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++  Boston, MA 02110-1301, USA.
++*/
++
++#include "ldapstructureproxymodel.h"
++#include "ldapmodel.h"
++#include "ldapmodelnode_p.h"
++
++#include <kdebug.h>
++#include <klocale.h>
++
++using namespace KLDAP;
++
++class LdapStructureProxyModel::LdapStructureProxyModelPrivate
++{
++  public:
++    LdapStructureProxyModelPrivate();
++
++};
++
++LdapStructureProxyModel::LdapStructureProxyModelPrivate::LdapStructureProxyModelPrivate()
++{
++
++}
++
++LdapStructureProxyModel::LdapStructureProxyModel( QObject *parent )
++  : QSortFilterProxyModel( parent ),
++    m_d( new LdapStructureProxyModelPrivate() )
++{
++
++}
++
++LdapStructureProxyModel::~LdapStructureProxyModel()
++{
++  delete m_d;
++}
++
++QVariant LdapStructureProxyModel::data( const QModelIndex &index,
++                                        int role ) const
++{
++  // Included just in case we decide to do any special presentation of the data
++  // at some other point throughout the 4.x series.
++  return sourceModel()->data( mapToSource( index ), role );
++}
++
++bool LdapStructureProxyModel::setData( const QModelIndex &index,
++                                       const QVariant &value,
++                                       int role )
++{
++  Q_UNUSED( index );
++  Q_UNUSED( value );
++  Q_UNUSED( role );
++  return false;
++}
++
++bool LdapStructureProxyModel::filterAcceptsRow( int sourceRow,
++                                                const QModelIndex& sourceParent ) const
++{
++  QModelIndex idx = sourceModel()->index( sourceRow, 0, sourceParent );
++  LdapModelNode::NodeType nodeType =
++    static_cast<LdapModelNode::NodeType>(
++      sourceModel()->data( idx, LdapModel::NodeTypeRole ).toUInt() );
++  return ( nodeType == LdapModelNode::DN );
++}
++
++QVariant LdapStructureProxyModel::headerData( int /*section*/,
++                                              Qt::Orientation orientation,
++                                              int role ) const
++{
++  if ( orientation == Qt::Horizontal && role == Qt::DisplayRole ) {
++    return QString( i18n( "Distinguished Name" ) );
++  }
++
++  return QVariant();
++}
++
++int LdapStructureProxyModel::columnCount( const QModelIndex &/*parent*/ ) const
++{
++  // No need for more than one column just to show the structure
++  return 1;
++}
++
++Qt::ItemFlags LdapStructureProxyModel::flags( const QModelIndex &index ) const
++{
++  // Included so as not to break BC in case we wish to use this later in 4.x
++  return sourceModel()->flags( mapToSource( index ) );
++}
++
++bool LdapStructureProxyModel::hasChildren( const QModelIndex &parent ) const
++{
++  // We need to handle this carefully bacause of the filtering out of attributes
++  // and the lazy population approach.
++  LdapModel *model = static_cast<LdapModel*>( sourceModel() );
++  return model->hasChildrenOfType( mapToSource( parent ), LdapModel::DistinguishedName );
++}
++
++QModelIndex LdapStructureProxyModel::mapFromSource( const QModelIndex &sourceIndex ) const
++{
++  return QSortFilterProxyModel::mapFromSource( sourceIndex );
++}
++
++QModelIndex LdapStructureProxyModel::mapToSource( const QModelIndex &proxyIndex ) const
++{
++  return QSortFilterProxyModel::mapToSource( proxyIndex );
++}
++
++bool LdapStructureProxyModel::insertRows( int row, int count,
++                                          const QModelIndex &parent )
++{
++  Q_UNUSED( row );
++  Q_UNUSED( count );
++  Q_UNUSED( parent );
++  return false;
++}
++
++bool LdapStructureProxyModel::removeRows( int row, int count,
++                                          const QModelIndex &parent )
++{
++  Q_UNUSED( row );
++  Q_UNUSED( count );
++  Q_UNUSED( parent );
++  return false;
++}
++
++void LdapStructureProxyModel::sort( int column, Qt::SortOrder order )
++{
++  Q_UNUSED( column );
++  Q_UNUSED( order );
++}
++
++Qt::DropActions LdapStructureProxyModel::supportedDropActions() const
++{
++  return Qt::MoveAction;
++}
++
++QMimeData *LdapStructureProxyModel::mimeData( const QModelIndexList &indexes ) const
++{
++  Q_UNUSED( indexes );
++  return 0;
++}
++
++bool LdapStructureProxyModel::dropMimeData( const QMimeData *data, Qt::DropAction action,
++                                            int row, int column, const QModelIndex &parent )
++{
++  /** \todo Implement drag and drop for LdapModel */
++  Q_UNUSED( data );
++  Q_UNUSED( action );
++  Q_UNUSED( row );
++  Q_UNUSED( column );
++  Q_UNUSED( parent );
++  return false;
++}
++
++#include "ldapstructureproxymodel.moc"
+--- a/kldap/ldapmodel_p.h
++++ b/kldap/ldapmodel_p.h
+@@ -28,7 +28,7 @@
+ 
+ namespace KLDAP {
+ 
+-class LdapModelTreeItem;
++class LdapModelDNNode;
+ class LdapSearch;
+ 
+ /**
+@@ -57,7 +57,7 @@
+                  const QStringList &attributes = QStringList(),
+                  int pagesize = 0 );
+ 
+-    LdapModelTreeItem *rootItem() { return m_root; }
++    LdapModelDNNode *rootNode() { return m_root; }
+     LdapSearch *search() { return m_search; }
+ 
+     LdapObjects &searchResults() { return m_searchResultObjects; }
+@@ -69,10 +69,10 @@
+     LdapDN &baseDN() { return m_baseDN; }
+     const LdapDN &baseDN() const { return m_baseDN; }
+ 
+-    void setSearchType( SearchType t, LdapModelTreeItem *item = 0 );
++    void setSearchType( SearchType t, LdapModelDNNode *item = 0 );
+ 
+     SearchType searchType() { return m_searchType; }
+-    LdapModelTreeItem *searchItem() { return m_searchItem; }
++    LdapModelDNNode *searchItem() { return m_searchItem; }
+ 
+     void createConnections();
+     void populateRootToBaseDN();
+@@ -81,12 +81,12 @@
+ 
+   private:
+     LdapModel *m_parent;
+-    LdapModelTreeItem *m_root;
++    LdapModelDNNode *m_root;
+     LdapSearch *m_search;
+     LdapObjects m_searchResultObjects;
+     LdapDN m_baseDN;
+     SearchType m_searchType;
+-    LdapModelTreeItem *m_searchItem;
++    LdapModelDNNode *m_searchItem;
+ };
+ 
+ }
+--- /dev/null
++++ b/kldap/ldapmodelnode_p.cpp
+@@ -0,0 +1,134 @@
++/*
++  This file is part of libkldap.
++  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
++
++  This library is free software; you can redistribute it and/or
++  modify it under the terms of the GNU Library General  Public
++  License as published by the Free Software Foundation; either
++  version 2 of the License, or (at your option) any later version.
++
++  This library is distributed in the hope that it will be useful,
++  but WITHOUT ANY WARRANTY; without even the implied warranty of
++  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++  Library General Public License for more details.
++
++  You should have received a copy of the GNU Library General Public License
++  along with this library; see the file COPYING.LIB.  If not, write to
++  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++  Boston, MA 02110-1301, USA.
++*/
++
++#include "ldapmodelnode_p.h"
++
++#include <kdebug.h>
++
++using namespace KLDAP;
++
++LdapModelNode::LdapModelNode( LdapModelDNNode *parent )
++  : m_parent( parent ),
++    m_isPopulated( false )
++{
++  if ( m_parent ) {
++    m_parent->appendChild( this );
++  }
++}
++
++LdapModelNode::~LdapModelNode()
++{
++
++}
++
++LdapModelDNNode *LdapModelNode::parent()
++{
++  return m_parent;
++}
++
++int LdapModelNode::row() const
++{
++  if ( m_parent ) {
++    return m_parent->children().indexOf( const_cast<LdapModelNode*>( this ) );
++  }
++  return 0;
++}
++
++
++//
++// LdapModelDNNode imlpementation
++//
++
++LdapModelDNNode::LdapModelDNNode( LdapModelDNNode *parent,
++                                  const LdapDN &dn )
++  : LdapModelNode( parent ),
++    m_childItems(),
++    m_dn( dn )
++{
++  kDebug(5322) << "Creating LdapModelDNNode: DN =" << m_dn.toString();
++}
++
++LdapModelDNNode::~LdapModelDNNode()
++{
++  qDeleteAll( m_childItems );
++}
++
++void LdapModelDNNode::appendChild( LdapModelNode *pItem )
++{
++  m_childItems.append( pItem );
++  setPopulated( true );
++}
++
++LdapModelNode *LdapModelDNNode::child( int row )
++{
++  return m_childItems.value( row );
++}
++
++void LdapModelDNNode::setLdapObject( const LdapObject &object )
++{
++  // Remember whether this item is populated or not
++  bool populated = isPopulated();
++
++  const LdapAttrMap &attrs = object.attributes();
++  /*
++  int attributeCount = 0;
++  for ( LdapAttrMap::ConstIterator it = attrs.begin(); it != attrs.end(); ++it ) {
++    attributeCount += (*it).size();
++  }
++
++  for ( int i = 0; i < attributeCount; i++ )
++  {
++    LdapModelNode* node = new LdapModelAttrNode( this, QString::number( i ) );
++    Q_UNUSED( node );
++  }
++  */
++
++  for ( LdapAttrMap::ConstIterator it = attrs.begin(); it != attrs.end(); ++it ) {
++    QString attr = it.key();
++    for ( LdapAttrValue::ConstIterator it2 = (*it).begin(); it2 != (*it).end(); ++it2 ) {
++      LdapModelNode* node = new LdapModelAttrNode( this, attr, *it2 );
++      Q_UNUSED( node );
++    }
++  }
++
++  // Reset the populated flag so that we don't stop the model querying for children
++  setPopulated( populated );
++}
++
++
++//
++// LdapModelAttrNode imlpementation
++//
++
++LdapModelAttrNode::LdapModelAttrNode( LdapModelDNNode *parent,
++                                      const QString &attrName,
++                                      const QByteArray &attrData )
++  : LdapModelNode( parent ),
++    m_attrName( attrName ),
++    m_attrData( attrData )
++{
++  kDebug(5322) << "Creating LdapModelAttrNode: Name =" << m_attrName
++               << " Data =" << m_attrData;
++}
++
++LdapModelAttrNode::~LdapModelAttrNode()
++{
++
++}
+--- /dev/null
++++ b/kldap/ldapattributeproxymodel.cpp
+@@ -0,0 +1,173 @@
++/*
++  This file is part of libkldap.
++  Copyright (c) 2006 Sean Harmer <sh@theharmers.co.uk>
++
++  This library is free software; you can redistribute it and/or
++  modify it under the terms of the GNU Library General  Public
++  License as published by the Free Software Foundation; either
++  version 2 of the License, or (at your option) any later version.
++
++  This library is distributed in the hope that it will be useful,
++  but WITHOUT ANY WARRANTY; without even the implied warranty of
++  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++  Library General Public License for more details.
++
++  You should have received a copy of the GNU Library General Public License
++  along with this library; see the file COPYING.LIB.  If not, write to
++  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++  Boston, MA 02110-1301, USA.
++*/
++
++#include "ldapattributeproxymodel.h"
++#include "ldapmodel.h"
++#include "ldapmodelnode_p.h"
++
++#include <kdebug.h>
++#include <klocale.h>
++
++using namespace KLDAP;
++
++class LdapAttributeProxyModel::LdapAttributeProxyModelPrivate
++{
++  public:
++    LdapAttributeProxyModelPrivate();
++
++};
++
++LdapAttributeProxyModel::LdapAttributeProxyModelPrivate::LdapAttributeProxyModelPrivate()
++{
++
++}
++
++LdapAttributeProxyModel::LdapAttributeProxyModel( QObject *parent )
++  : QSortFilterProxyModel( parent ),
++    m_d( new LdapAttributeProxyModelPrivate() )
++{
++
++}
++
++LdapAttributeProxyModel::~LdapAttributeProxyModel()
++{
++  delete m_d;
++}
++
++QVariant LdapAttributeProxyModel::data( const QModelIndex &index,
++                                        int role ) const
++{
++  // Included just in case we decide to do any special presentation of the data
++  // at some other point throughout the 4.x series.
++  return sourceModel()->data( mapToSource( index ), role );
++}
++
++bool LdapAttributeProxyModel::setData( const QModelIndex &index,
++                                       const QVariant &value,
++                                       int role )
++{
++  Q_UNUSED( index );
++  Q_UNUSED( value );
++  Q_UNUSED( role );
++  return false;
++}
++
++bool LdapAttributeProxyModel::filterAcceptsRow( int sourceRow,
++                                                const QModelIndex& sourceParent ) const
++{
++  QModelIndex idx = sourceModel()->index( sourceRow, 0, sourceParent );
++  LdapModelNode::NodeType nodeType =
++    static_cast<LdapModelNode::NodeType>(
++      sourceModel()->data( idx, LdapModel::NodeTypeRole ).toUInt() );
++  return ( nodeType == LdapModelNode::Attr );
++}
++
++QVariant LdapAttributeProxyModel::headerData( int section,
++                                              Qt::Orientation orientation,
++                                              int role ) const
++{
++  if ( orientation == Qt::Horizontal && role == Qt::DisplayRole ) {
++    if ( section == 0 ) {
++      return QVariant( QString( i18n( "Attribute" ) ) );
++    } else if ( section == 1 ) {
++      return QVariant( QString( i18n( "Value" ) ) );
++    }
++  }
++
++  return QVariant();
++}
++
++int LdapAttributeProxyModel::columnCount( const QModelIndex &/*parent*/ ) const
++{
++  return 2;
++}
++
++Qt::ItemFlags LdapAttributeProxyModel::flags( const QModelIndex &index ) const
++{
++  // Included so as not to break BC in case we wish to use this later in 4.x
++  return sourceModel()->flags( mapToSource( index ) );
++}
++
++bool LdapAttributeProxyModel::hasChildren( const QModelIndex &parent ) const
++{
++  // We need to handle this carefully bacause of the filtering out of attributes
++  // and the lazy population approach.
++  LdapModel *model = static_cast<LdapModel*>( sourceModel() );
++  return model->hasChildrenOfType( mapToSource( parent ), LdapModel::Attribute );
++}
++
++QModelIndex LdapAttributeProxyModel::mapFromSource( const QModelIndex &sourceIndex ) const
++{
++  return QSortFilterProxyModel::mapFromSource( sourceIndex );
++}
++
++QModelIndex LdapAttributeProxyModel::mapToSource( const QModelIndex &proxyIndex ) const
++{
++  return QSortFilterProxyModel::mapToSource( proxyIndex );
++}
++
++bool LdapAttributeProxyModel::insertRows( int row, int count,
++                                          const QModelIndex &parent )
++{
++  Q_UNUSED( row );
++  Q_UNUSED( count );
++  Q_UNUSED( parent );
++  return false;
++}
++
++bool LdapAttributeProxyModel::removeRows( int row, int count,
++                                          const QModelIndex &parent )
++{
++  Q_UNUSED( row );
++  Q_UNUSED( count );
++  Q_UNUSED( parent );
++  return false;
++}
++
++void LdapAttributeProxyModel::sort( int column, Qt::SortOrder order )
++{
++  Q_UNUSED( column );
++  Q_UNUSED( order );
++}
++
++Qt::DropActions LdapAttributeProxyModel::supportedDropActions() const
++{
++  return Qt::MoveAction;
++}
++
++QMimeData *LdapAttributeProxyModel::mimeData( const QModelIndexList &indexes ) const
++{
++  Q_UNUSED( indexes );
++  return 0;
++}
++
++bool LdapAttributeProxyModel::dropMimeData( const QMimeData *data, Qt::DropAction action,
++                                            int row, int column, const QModelIndex &parent )
++{
++  /** \todo Implement drag and drop for LdapModel */
++  Q_UNUSED( data );
++  Q_UNUSED( action );
++  Q_UNUSED( row );
++  Q_UNUSED( column );
++  Q_UNUSED( parent );
++  return false;
++}
++
++#include "ldapattributeproxymodel.moc"
 --- a/kblog/CMakeLists.txt
 +++ b/kblog/CMakeLists.txt
 @@ -26,7 +26,11 @@
@@ -5500,6 +7534,24 @@
  
  ########### install files ##############
  
+--- a/kblog/gdata.cpp
++++ b/kblog/gdata.cpp
+@@ -235,13 +235,10 @@
+   KIO::TransferJob *job = KIO::http_post(
+       KUrl( "http://www.blogger.com/feeds/" + blogId() + "/posts/default/"+post->postId() ),
+       postData, KIO::HideProgressInfo );
+-  d->mModifyPostMap[ job ] = post;
+ 
+-  if ( !job ) {
+-    kWarning() << "Unable to create KIO job for http://www.blogger.com/feeds/"
+-        << blogId() <<"/posts/default/" << post->postId();
+-  }
++  Q_ASSERT( job );
+ 
++  d->mModifyPostMap[ job ] = post;
+ 
+   job->addMetaData( "content-type", "Content-Type: application/atom+xml; charset=utf-8" );
+   job->addMetaData( "ConnectTimeout", "50" );
 --- a/mailtransport/kcm_mailtransport.desktop
 +++ b/mailtransport/kcm_mailtransport.desktop
 @@ -15,6 +15,7 @@
@@ -5543,14 +7595,18 @@
 +
 --- a/kabc/plugins/file/file.desktop
 +++ b/kabc/plugins/file/file.desktop
-@@ -11,6 +11,7 @@
+@@ -10,8 +10,10 @@
+ Name[ga]=Comhad
  Name[hu]=Fájl
  Name[ja]=ファイル
- Name[lt]=Byla
+-Name[lt]=Byla
++Name[lt]=Failas
 +Name[nds]=Datei
  Name[nl]=Bestand
++Name[oc]=Fichièr
  Name[pa]=ਫਾਇਲ
  Name[pt]=Ficheiro
+ Name[sv]=Fil
 --- a/kabc/plugins/file/resourcefileplugin.cpp
 +++ b/kabc/plugins/file/resourcefileplugin.cpp
 @@ -23,10 +23,6 @@
@@ -5912,16 +7968,29 @@
 +};
 +
 +K_EXPORT_PLUGIN(ResourceLDAPKIOFactory)
+--- a/kabc/plugins/net/resourcenet.cpp
++++ b/kabc/plugins/net/resourcenet.cpp
+@@ -61,7 +61,7 @@
+     mTempFile( 0 ),
+     d( new ResourceNetPrivate )
+ {
+-  init( KUrl( group.readPathEntry( "NetUrl" ) ), group.readEntry( "NetFormat" ) );
++  init( KUrl( group.readPathEntry( "NetUrl", QString() ) ), group.readEntry( "NetFormat" ) );
+ }
+ 
+ ResourceNet::ResourceNet( const KUrl &url, const QString &format )
 --- a/kabc/plugins/net/net.desktop
 +++ b/kabc/plugins/net/net.desktop
-@@ -11,6 +11,7 @@
+@@ -11,7 +11,9 @@
  Name[hu]=Hálózat
  Name[ja]=ネットワーク
  Name[lt]=Tinklas
 +Name[nds]=Nettwark
  Name[nl]=Netwerk
++Name[oc]=Ret
  Name[pa]=ਨੈੱਟਵਰ
  Name[pt]=Rede
+ Name[sv]=Nätverk
 --- a/kabc/plugins/net/resourcenetplugin.cpp
 +++ b/kabc/plugins/net/resourcenetplugin.cpp
 @@ -23,10 +23,6 @@
@@ -5940,14 +8009,16 @@
 +K_EXPORT_PLUGIN(ResourceNetFactory)
 --- a/kabc/plugins/dir/dir.desktop
 +++ b/kabc/plugins/dir/dir.desktop
-@@ -11,6 +11,7 @@
+@@ -11,7 +11,9 @@
  Name[hu]=Könyvtár
  Name[ja]=ディレクトリ
  Name[lt]=Aplankas
 +Name[nds]=Orner
  Name[nl]=Map
++Name[oc]=Repertòri
  Name[pa]=ਡਾਇਰੈਕਟਰੀ
  Name[pt]=Pasta
+ Name[sv]=Katalog
 --- a/kabc/plugins/dir/resourcedirplugin.cpp
 +++ b/kabc/plugins/dir/resourcedirplugin.cpp
 @@ -23,10 +23,7 @@
@@ -5967,14 +8038,27 @@
 +
 --- a/kabc/kabc_manager.desktop
 +++ b/kabc/kabc_manager.desktop
-@@ -12,6 +12,7 @@
+@@ -12,7 +12,9 @@
  Name[hu]=Partnerek
  Name[ja]=コンタクト
  Name[lt]=Kontaktai
 +Name[nds]=Kontakten
  Name[nl]=Contactpersonen
++Name[oc]=Contactes
  Name[pa]=ਸੰਪਰਕ
  Name[pt]=Contactos
+ Name[sv]=Kontakter
+--- a/kabc/formatfactory.cpp
++++ b/kabc/formatfactory.cpp
+@@ -101,7 +101,7 @@
+                                        KStandardDirs::Recursive |
+                                        KStandardDirs::NoDuplicates );
+   for ( QStringList::ConstIterator it = list.begin(); it != list.end(); ++it ) {
+-    KConfig config( *it, KConfig::OnlyLocal );
++    KConfig config( *it, KConfig::SimpleConfig );
+ 
+     if ( !config.hasGroup( "Misc" ) || !config.hasGroup( "Plugin" ) ) {
+       continue;
 --- a/kabc/CMakeLists.txt
 +++ b/kabc/CMakeLists.txt
 @@ -88,7 +88,11 @@
@@ -5992,14 +8076,16 @@
  
 --- a/kabc/formats/binary.desktop
 +++ b/kabc/formats/binary.desktop
-@@ -11,6 +11,7 @@
+@@ -11,7 +11,9 @@
  Name[hu]=Bináris
  Name[ja]=バイナリ
  Name[lt]=Dvejetainis
 +Name[nds]=Bineer
  Name[nl]=Binair
++Name[oc]=Binari
  Name[pa]=ਬਾਈਨਰੀ
  Name[pt]=Binário
+ Name[sv]=Binär
 --- a/ktnef/CMakeLists.txt
 +++ b/ktnef/CMakeLists.txt
 @@ -28,8 +28,11 @@

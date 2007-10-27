@@ -1,12 +1,10 @@
-kdepimlibs (3.94.0-3) experimental; urgency=low
+kdepimlibs (3.95.0-1) experimental; urgency=low
 
-  +++ Changes by Fathi Boudra:
-
-  * svn branch pull to r729270.
+  * New upstream release: KDE4 beta 4.
 
   +++ Changes by Armin Berres:
 
-  * Build depend on kdelibs5-dev >= 4:3.94.0-3.
+  * Build depend on kdelibs5-dev >= 4:3.95.0-1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2007 17:38:30 +0200
 

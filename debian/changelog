@@ -5,8 +5,9 @@ kdepimlibs (3.95.0-1) experimental; urgency=low
   +++ Changes by Armin Berres:
 
   * Build depend on kdelibs5-dev >= 4:3.95.0-1.
+  * Update kdepimlibs5-dev.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Oct 2007 17:38:30 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Oct 2007 16:11:45 +0100
 
 kdepimlibs (3.94.0-2) experimental; urgency=low
 

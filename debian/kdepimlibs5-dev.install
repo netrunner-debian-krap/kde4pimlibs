@@ -125,6 +125,7 @@ usr/include/kimap/kimap_export.h
 usr/include/kimap/rfccodecs.h
 usr/include/kldap/ber.h
 usr/include/kldap/kldap_export.h
+usr/include/kldap/ldapattributeproxymodel.h
 usr/include/kldap/ldapconfigwidget.h
 usr/include/kldap/ldapconnection.h
 usr/include/kldap/ldapcontrol.h
@@ -135,6 +136,7 @@ usr/include/kldap/ldapobject.h
 usr/include/kldap/ldapoperation.h
 usr/include/kldap/ldapsearch.h
 usr/include/kldap/ldapserver.h
+usr/include/kldap/ldapstructureproxymodel.h
 usr/include/kldap/ldapurl.h
 usr/include/kldap/ldif.h
 usr/include/kmime/boolflags.h

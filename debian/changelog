@@ -1,3 +1,13 @@
+kdepimlibs (3.95.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Build depend on kdelibs5-dev >= 4:3.95.2-1.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Nov 2007 23:26:06 +0100
+
 kdepimlibs (3.95.0-1) experimental; urgency=low
 
   * New upstream release: KDE4 beta 4.
@@ -8,7 +18,7 @@ kdepimlibs (3.95.0-1) experimental; urgency=low
   * Update kdepimlibs5-dev.install.
 
   +++ Changes by Sune Vuorela
-  
+
   * More leet shlibs hacking. Preprocess the kdelibs5 shlibs file and sed it a
     bit.
 

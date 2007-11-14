@@ -1,3 +1,10 @@
+kdepimlibs (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Build depend on kdelibs5-dev >= 4:3.96.0-1.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 14 Nov 2007 19:36:31 +0100
+
 kdepimlibs (3.95.2-1) experimental; urgency=low
 
   * New upstream release.

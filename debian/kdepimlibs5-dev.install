@@ -282,8 +282,8 @@ usr/lib/libqgpgme.so
 usr/lib/libgpgme++-pth.so
 usr/lib/libgpgme++-pthread.so
 
-usr/lib/Gpgmepp/GpgmeppConfig.cmake
-usr/lib/Gpgmepp/GpgmeppLibraryDepends.cmake
+usr/lib/gpgmepp/GpgmeppConfig.cmake
+usr/lib/gpgmepp/GpgmeppLibraryDepends.cmake
 
 usr/share/kde4/apps/cmake/modules/CheckTimezone.cmake
 usr/share/kde4/apps/cmake/modules/FindGpgme.cmake

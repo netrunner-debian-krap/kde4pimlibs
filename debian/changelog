@@ -1,3 +1,14 @@
+kdepimlibs (4:3.97.0-1) experimental; urgency=low
+
+  * New upstream release:
+    - Build depend on kdelibs5-dev >= 4:3.97.0.
+    - Update *.install files.
+  * Update Standards-Version to 3.7.3.
+  * Update descriptions, remove referencies to beta status.
+  * Remove README about beta packages, they are supposed to be stable now.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Dec 2007 02:41:02 +0100
+
 kdepimlibs (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.

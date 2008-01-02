@@ -1,6 +1,6 @@
-kdepimlibs (4:3.98.0~svn755919-1) UNRELEASED; urgency=low
+kdepimlibs (4:3.98.0~svn755919-1) experimental; urgency=low
 
-  * New svn snapshot release.
+  * New svn snapshot release to revision 755919.
 
  -- Fathi Boudra <fabo@debian.org>  Wed, 02 Jan 2008 15:31:21 +0100
 

@@ -1,6 +1,7 @@
 kdepimlibs (4:4.0.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump build-depends to >=4.0.0-1.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Jan 2008 07:35:45 +0100
 

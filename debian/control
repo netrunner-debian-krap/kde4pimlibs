@@ -6,6 +6,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 4:4.0.0-1),
  libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev
 Standards-Version: 3.7.3
+Homepage: http://pim.kde.org/
 
 Package: kdepimlibs5
 Section: libs

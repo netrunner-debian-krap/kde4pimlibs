@@ -13,22 +13,18 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdepimlibs-data (>= ${binary:Version})
 Description: core libraries for KDE PIM 4 applications
- This package contains all the shared libraries used by KDE PIM applications.
- You need these libraries and binaries to run KDE applications.
+ This package contains PIM shared libraries needed to run KDE 4 applications.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdepimlibs' packages for more information.
+ This package is part of the KDE 4 PIM libraries module.
 
 Package: kdepimlibs-data
 Section: libs
 Architecture: all
 Description: core shared data for KDE PIM 4 applications
- This package contains all the architecture independent data files commonly
- used by KDE PIM applications. You need these data files to run KDE
- applications.
+ This package contains architecture-independent PIM data files needed to run
+ KDE 4 applications.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdepimlibs' packages for more information.
+ This package is part of the KDE 4 PIM libraries module.
 
 Package: kdepimlibs5-dev
 Section: libdevel
@@ -37,18 +33,16 @@ Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1),
  libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev
 Conflicts: libkleopatra1-dev
 Description: development files for the KDE PIM 4 core libraries
- This package contains all the headers and other related files needed
- to compile KDE PIM applications, or develop applications which use the core
- KDE PIM libraries.
+ This package contains headers and other related files needed to build KDE 4
+ applications that use the KDE PIM libraries.
  .
- This package is part of KDE, and a component of the KDE libraries module.
- See the 'kde' and 'kdepimlibs' packages for more information.
+ This package is part of the KDE 4 PIM libraries module.
 
 Package: kdepimlibs-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdepimlibs5 (= ${binary:Version}), kdelibs-dbg (>=${source:Version}), libc6-dbg [amd64]
+Depends: kdepimlibs5 (= ${binary:Version}), kdelibs-dbg (>=${binary:Version}), libc6-dbg [amd64]
 Description: debugging symbols for kdepimlibs
  This package contains the debugging symbols associated with kdepimlibs.
  They will automatically be used by gdb for debugging kdepimlibs-related

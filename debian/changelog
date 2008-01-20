@@ -1,4 +1,4 @@
-kdepimlibs (4:4.0.0-3) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.0-3) unstable; urgency=low
 
   * Depend on kdelibs5-dbg, kdelibs-dbg has been renamed. 
 

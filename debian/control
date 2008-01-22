@@ -13,7 +13,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdepimlibs
 Package: kdepimlibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdepimlibs-data (>= ${binary:Version})
+Depends: ${shlibs:Depends}, kdepimlibs-data (>= ${source:Version})
 Description: core libraries for KDE PIM 4 applications
  This package contains PIM shared libraries needed to run KDE 4 applications.
  .

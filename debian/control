@@ -7,6 +7,8 @@ Build-Depends: cdbs, debhelper (>= 6), quilt, cmake, kdelibs5-dev (>= 4:4.0.0-1)
  libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev
 Standards-Version: 3.7.3
 Homepage: http://pim.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdepimlibs
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdepimlibs
 
 Package: kdepimlibs5
 Section: libs
@@ -29,7 +31,7 @@ Description: core shared data for KDE PIM 4 applications
 Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dev (>= ${binary:Version}),
+Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1),
  libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev
 Conflicts: libkleopatra1-dev
 Description: development files for the KDE PIM 4 core libraries

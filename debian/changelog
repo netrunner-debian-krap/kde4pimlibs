@@ -1,8 +1,10 @@
-kdepimlibs (4:4.0.0-4) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.0-4) unstable; urgency=low
 
-  * ... 
+  * Add Vcs-Browser and Vcs-Svn fields.
+  * kdepimlibs5-dev depends on kdelibs5-dev >= 4:4.0.0-1 instead of
+    ${binary:Version}.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 20 Jan 2008 18:27:18 +0100
+ -- Fathi Boudra <fabo@debian.org>  Tue, 22 Jan 2008 12:23:06 +0100
 
 kdepimlibs (4:4.0.0-3) unstable; urgency=low
 

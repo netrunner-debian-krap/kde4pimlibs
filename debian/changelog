@@ -2,6 +2,7 @@ kdepimlibs (4:4.0.1-2) UNRELEASED; urgency=low
 
   * Use a more obvious way to remove the dependency on kdebase-runtime. Build
     depend on kdelibs5 >= 4:4.0.1-2 to make this possible.
+  * Version shlibs according to the upstream release.
 
  -- Armin Berres <trigger+debian@space-based.de>  Wed, 06 Feb 2008 16:24:43 +0000
 

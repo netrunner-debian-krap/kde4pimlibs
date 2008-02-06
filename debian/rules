@@ -2,9 +2,7 @@
 
 THIS_SHOULD_GO_TO_UNSTABLE := 1
 
+# get rid of the dependency on kdebase-runtime
+DEB_DH_SHLIBDEPS_ARGS_kdepimlibs5 = -- -xkdebase-runtime
+
 include debian/cdbs/kde.mk
-
-# Generate shlibs local files, to get rid of the dependency on kdebase-runtime
-common-binary-fixup-arch ::
-	sed 's/).*/)/' /var/lib/dpkg/info/kdelibs5.shlibs > debian/shlibs.local ;\
-

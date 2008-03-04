@@ -1,10 +1,10 @@
-kdepimlibs (4:4.0.2-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.2-1) unstable; urgency=low
 
   * New upstream release.
   * Use a more obvious way to remove the dependency on kdebase-runtime. 
   * Version shlibs according to the upstream release.
 
- -- Armin Berres <trigger+debian@space-based.de>  Wed, 06 Feb 2008 16:24:43 +0000
+ -- Armin Berres <trigger+debian@space-based.de>  Tue, 04 Mar 2008 14:37:26 +0100
 
 kdepimlibs (4:4.0.1-1) unstable; urgency=low
 

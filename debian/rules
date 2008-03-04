@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 THIS_SHOULD_GO_TO_UNSTABLE := 1
-UPSTREAMVERSION := 4:4.0.1-1
+UPSTREAMVERSION := 4:4.0.2-1
 
 DEB_DH_MAKESHLIBS_ARGS_kdepimlibs5 := -V'kdepimlibs5 (>= $(UPSTREAMVERSION))'
 

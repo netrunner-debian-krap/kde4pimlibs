@@ -1,10 +1,15 @@
 kdepimlibs (4:4.0.2-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Update build-depends to >= 4:4.0.2 and use ${source:Upstream-Version}
+      in the -dev package.
+
+  +++ Changes by Armin Berres:
+  
   * Use a more obvious way to remove the dependency on kdebase-runtime. 
   * Version shlibs according to the upstream release.
 
- -- Armin Berres <trigger+debian@space-based.de>  Tue, 04 Mar 2008 14:37:26 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 21:12:02 +0100
 
 kdepimlibs (4:4.0.1-1) unstable; urgency=low
 

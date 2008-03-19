@@ -1,3 +1,10 @@
+kdepimlibs (4:4.0.2-2) unstable; urgency=low
+
+  * Add prune-nonfree script to remember prune the non-free IETF RFC/I-D
+    documents with every new upstream release. (Closes: #463936) 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 19 Mar 2008 20:32:09 +0100
+
 kdepimlibs (4:4.0.2-1) unstable; urgency=low
 
   * New upstream release:

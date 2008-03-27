@@ -1,9 +1,11 @@
-kdepimlibs (4:4.0.2-2) unstable; urgency=low
+kdepimlibs (4:4.0.66+svn790535-1) experimental; urgency=low
 
+  * First KDE 4.1 snapshot packaged, this is going to experimental.
+  * Update installed files.
   * Add prune-nonfree script to remember prune the non-free IETF RFC/I-D
-    documents with every new upstream release. (Closes: #463936) 
+    documents with every new upstream release. (Closes: #463936)
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 19 Mar 2008 20:32:09 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 27 Mar 2008 09:46:15 +0100
 
 kdepimlibs (4:4.0.2-1) unstable; urgency=low
 

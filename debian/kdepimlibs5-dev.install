@@ -1,9 +1,11 @@
 usr/include/akonadi/agentbase.h
 usr/include/akonadi/agentfilterproxymodel.h
 usr/include/akonadi/agentinstancecreatejob.h
+usr/include/akonadi/agentinstance.h
 usr/include/akonadi/agentinstancemodel.h
 usr/include/akonadi/agentinstancewidget.h
 usr/include/akonadi/agentmanager.h
+usr/include/akonadi/agenttype.h
 usr/include/akonadi/agenttypemodel.h
 usr/include/akonadi/agenttypewidget.h
 usr/include/akonadi/akonadi_export.h

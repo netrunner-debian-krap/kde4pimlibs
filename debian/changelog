@@ -1,4 +1,4 @@
-kdepimlibs (4:4.0.66+svn790535-1) experimental; urgency=low
+kdepimlibs (4:4.0.66+svn791114-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged, this is going to experimental.
   * Update installed files.

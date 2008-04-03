@@ -1,6 +1,7 @@
 usr/share/apps/akonadi-kde/kcfg2dbus.xsl
+usr/share/dbus-1/interfaces/org.kde.Akonadi.Agent.Control.xml
 usr/share/dbus-1/interfaces/org.kde.Akonadi.AgentManager.xml
-usr/share/dbus-1/interfaces/org.kde.Akonadi.Agent.xml
+usr/share/dbus-1/interfaces/org.kde.Akonadi.Agent.Status.xml
 usr/share/dbus-1/interfaces/org.kde.Akonadi.NotificationManager.xml
 usr/share/dbus-1/interfaces/org.kde.Akonadi.Resource.xml
 usr/share/dbus-1/interfaces/org.kde.Akonadi.Tracer.xml

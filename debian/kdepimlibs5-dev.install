@@ -21,7 +21,6 @@ usr/include/akonadi/collectionfilterproxymodel.h
 usr/include/akonadi/collection.h
 usr/include/akonadi/collectionmodel.h
 usr/include/akonadi/collectionmodifyjob.h
-usr/include/akonadi/collectionpathresolver.h
 usr/include/akonadi/collectionpropertiesdialog.h
 usr/include/akonadi/collectionpropertiespage.h
 usr/include/akonadi/collectionstatisticsdelegate.h
@@ -35,6 +34,7 @@ usr/include/akonadi/itemcopyjob.h
 usr/include/akonadi/itemcreatejob.h
 usr/include/akonadi/itemdeletejob.h
 usr/include/akonadi/itemfetchjob.h
+usr/include/akonadi/itemfetchscope.h
 usr/include/akonadi/item.h
 usr/include/akonadi/itemmodel.h
 usr/include/akonadi/itemmodifyjob.h
@@ -47,9 +47,12 @@ usr/include/akonadi/itemview.h
 usr/include/akonadi/job.h
 usr/include/akonadi/kmime/akonadi-kmime_export.h
 usr/include/akonadi/kmime/messagemodel.h
+usr/include/akonadi/kmime/messageparts.h
 usr/include/akonadi/kmime/messagethreaderproxymodel.h
+usr/include/akonadi/kmime/messagethreadingattribute.h
 usr/include/akonadi/monitor.h
 usr/include/akonadi/private/akonadiprotocolinternals_export.h
+usr/include/akonadi/private/collectionpathresolver_p.h
 usr/include/akonadi/private/imapparser_p.h
 usr/include/akonadi/private/imapset_p.h
 usr/include/akonadi/private/notificationmessage_p.h
@@ -58,7 +61,6 @@ usr/include/akonadi/private/xdgbasedirs_p.h
 usr/include/akonadi/resourcebase.h
 usr/include/akonadi/searchcreatejob.h
 usr/include/akonadi/session.h
-usr/include/akonadi/shareddatapointer.h
 usr/include/akonadi/standardactionmanager.h
 usr/include/akonadi/transactionjobs.h
 usr/include/akonadi/transactionsequence.h
@@ -352,7 +354,6 @@ usr/lib/libmailtransport.so
 usr/lib/libqgpgme.so
 usr/lib/libsyndication.so
 usr/share/kde4/apps/cmake/modules/CheckTimezone.cmake
-usr/share/kde4/apps/cmake/modules/FindAkonadi.cmake
 usr/share/kde4/apps/cmake/modules/FindGpgme.cmake
 usr/share/kde4/apps/cmake/modules/FindLdap.cmake
 usr/share/kde4/apps/cmake/modules/FindLibical.cmake

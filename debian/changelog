@@ -1,3 +1,11 @@
+kdepimlibs (4:4.0.68-1) experimental; urgency=low
+
+  * New upstream snapshot:
+    - Update installed files.
+    - Bump build depends version.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Apr 2008 22:43:29 +0200
+
 kdepimlibs (4:4.0.66+svn791114-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged, this is going to experimental.

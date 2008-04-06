@@ -1,4 +1,4 @@
-kdepimlibs (4:4.0.68-1) experimental; urgency=low
+kdepimlibs (4:4.0.68+svn794174-1) experimental; urgency=low
 
   * New upstream snapshot:
     - Update installed files.

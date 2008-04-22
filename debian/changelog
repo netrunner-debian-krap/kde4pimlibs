@@ -1,3 +1,9 @@
+kdepimlibs (4:4.0.70+svn799089-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 21 Apr 2008 16:28:35 +0200
+
 kdepimlibs (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot:

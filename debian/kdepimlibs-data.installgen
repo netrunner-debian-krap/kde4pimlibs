@@ -1,0 +1,4 @@
+depends last
+
+mime:text/.*
+dst:usr/share

@@ -18,11 +18,9 @@ usr/lib/libakonadi-kde.so.4
 usr/lib/libakonadi-kde.so.4.1.0
 usr/lib/libakonadi-kmime.so.4
 usr/lib/libakonadi-kmime.so.4.1.0
-usr/lib/libakonadiprotocolinternals.so.4
-usr/lib/libakonadiprotocolinternals.so.4.1.0
-usr/lib/libgpgme++-pthread.so.1.1.0
-usr/lib/libgpgme++-pth.so.1.1.0
-usr/lib/libgpgme++.so.1.1.0
+usr/lib/libgpgme++-pthread.so.1.2.0
+usr/lib/libgpgme++-pth.so.1.2.0
+usr/lib/libgpgme++.so.1.2.0
 usr/lib/libkabc_file_core.so.4
 usr/lib/libkabc_file_core.so.4.1.0
 usr/lib/libkabc.so.4

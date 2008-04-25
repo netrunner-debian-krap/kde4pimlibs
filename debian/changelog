@@ -1,8 +1,28 @@
-kdepimlibs (4:4.0.70+svn799089-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.71+svn801124-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream snapshot.
+  * New upstream development snapshot:
+    - The latest upstream commit is r801124 by pino
+    - Date: Fri, 25 Apr 2008 21:12:06 -0000
 
- -- Fathi Boudra <fabo@debian.org>  Mon, 21 Apr 2008 16:28:35 +0200
+  +++ Changes by Modestas Vainius:
+
+  * Build-depend on libakonadi-dev.
+  * Add 01_fix_target_link_libraries.diff to add missing references to
+    QtNetwork, QtDBus, QtXml libraries. Also cleanup interim dependences a
+    bit.
+  * Update install files.
+  * Add installgen files.
+  * Add 97_use_imported_targets_with_cmake26.diff which enables use of
+    install(EXPORT) instead of EXPORT_LIBRARY_DEPENDENCIES with cmake 2.6.
+    The patch is not complete since apparently the dependency file is
+    not used anyway (fortunately).
+  * kdepimlibs5-dev: drop version from kdelibs5-dev dependency. It does not
+    add any real value as a proper dependecy is already enforced via
+    kdelibs5-dev = kdelibs5 -> kdepimlibs5 = kdepimlibs5-dev chain. What's
+    more, it is unnecesarily painful to deal with (esp. with regard to
+    snapshots).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 00:16:37 +0300
 
 kdepimlibs (4:4.0.68+svn794641-1) experimental; urgency=low
 

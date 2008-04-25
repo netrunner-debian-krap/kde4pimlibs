@@ -1,10 +1,4 @@
 usr/share/apps/akonadi-kde/kcfg2dbus.xsl
-usr/share/dbus-1/interfaces/org.kde.Akonadi.Agent.Control.xml
-usr/share/dbus-1/interfaces/org.kde.Akonadi.AgentManager.xml
-usr/share/dbus-1/interfaces/org.kde.Akonadi.Agent.Status.xml
-usr/share/dbus-1/interfaces/org.kde.Akonadi.NotificationManager.xml
-usr/share/dbus-1/interfaces/org.kde.Akonadi.Resource.xml
-usr/share/dbus-1/interfaces/org.kde.Akonadi.Tracer.xml
 usr/share/dbus-1/interfaces/org.kde.KResourcesManager.xml
 usr/share/dbus-1/interfaces/org.kde.pim.IdentityManager.xml
 usr/share/kde4/apps/kabc/countrytransl.map
@@ -100,8 +94,8 @@ usr/share/kde4/apps/libical/zoneinfo/America/Costa_Rica.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Cuiaba.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Curacao.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Danmarkshavn.ics
-usr/share/kde4/apps/libical/zoneinfo/America/Dawson_Creek.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Dawson.ics
+usr/share/kde4/apps/libical/zoneinfo/America/Dawson_Creek.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Denver.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Detroit.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Dominica.ics
@@ -289,8 +283,8 @@ usr/share/kde4/apps/libical/zoneinfo/Atlantic/Jan_Mayen.ics
 usr/share/kde4/apps/libical/zoneinfo/Atlantic/Madeira.ics
 usr/share/kde4/apps/libical/zoneinfo/Atlantic/Reykjavik.ics
 usr/share/kde4/apps/libical/zoneinfo/Atlantic/South_Georgia.ics
-usr/share/kde4/apps/libical/zoneinfo/Atlantic/Stanley.ics
 usr/share/kde4/apps/libical/zoneinfo/Atlantic/St_Helena.ics
+usr/share/kde4/apps/libical/zoneinfo/Atlantic/Stanley.ics
 usr/share/kde4/apps/libical/zoneinfo/Australia/Adelaide.ics
 usr/share/kde4/apps/libical/zoneinfo/Australia/Brisbane.ics
 usr/share/kde4/apps/libical/zoneinfo/Australia/Broken_Hill.ics
@@ -418,8 +412,8 @@ usr/share/kde4/services/kresources.desktop
 usr/share/kde4/services/kresources/kabc/dir.desktop
 usr/share/kde4/services/kresources/kabc/file.desktop
 usr/share/kde4/services/kresources/kabc/ldapkio.desktop
-usr/share/kde4/services/kresources/kabc_manager.desktop
 usr/share/kde4/services/kresources/kabc/net.desktop
+usr/share/kde4/services/kresources/kabc_manager.desktop
 usr/share/kde4/services/kresources/kcal/local.desktop
 usr/share/kde4/services/kresources/kcal/localdir.desktop
 usr/share/kde4/services/kresources/kcal_manager.desktop

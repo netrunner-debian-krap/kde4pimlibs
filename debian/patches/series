@@ -1,0 +1,2 @@
+01_fix_target_link_libraries.diff
+97_use_imported_targets_with_cmake26.diff

@@ -1,8 +1,6 @@
-kdepimlibs (4:4.0.71+svn801858-1~pre1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.72-1) experimental; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r801858 by winterz
-    - Date: Mon, 28 Apr 2008 11:50:04 -0000
+  * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
@@ -21,7 +19,7 @@ kdepimlibs (4:4.0.71+svn801858-1~pre1) UNRELEASED; urgency=low
     more, it is unnecesarily painful to deal with (esp. with regard to
     snapshots).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Apr 2008 14:55:39 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 20:25:44 +0200
 
 kdepimlibs (4:4.0.68+svn794641-1) experimental; urgency=low
 

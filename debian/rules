@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-UPSTREAMVERSION := 4:4.0.72
+UPSTREAMVERSION := 4:4.0.73
 
 DEB_DH_MAKESHLIBS_ARGS_kdepimlibs5 := -V'kdepimlibs5 (>= $(UPSTREAMVERSION))'
 

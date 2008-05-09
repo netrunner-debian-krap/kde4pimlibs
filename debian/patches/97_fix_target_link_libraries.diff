@@ -1,5 +1,5 @@
---- kdepimlibs-4.0.71+svn800950.orig/kioslave/smtp/CMakeLists.txt	2008-03-23 13:43:41.000000000 +0200
-+++ kdepimlibs-4.0.71+svn800950/kioslave/smtp/CMakeLists.txt	2008-04-25 22:05:52.000000000 +0300
+--- a/kioslave/smtp/CMakeLists.txt
++++ b/kioslave/smtp/CMakeLists.txt
 @@ -32,7 +32,7 @@
  kde4_add_plugin(kio_smtp ${kio_smtp_PART_SRCS})
  
@@ -9,8 +9,8 @@
  
  install(TARGETS kio_smtp  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdepimlibs-4.0.71+svn800950.orig/kpimidentities/CMakeLists.txt	2008-03-23 13:42:49.000000000 +0200
-+++ kdepimlibs-4.0.71+svn800950/kpimidentities/CMakeLists.txt	2008-04-25 20:42:09.000000000 +0300
+--- a/kpimidentities/CMakeLists.txt
++++ b/kpimidentities/CMakeLists.txt
 @@ -6,7 +6,7 @@
  
  kde4_add_library(kpimidentities SHARED ${kpimidentities_LIB_SRCS})
@@ -20,8 +20,8 @@
  
  set_target_properties(kpimidentities PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kpimidentities ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/kresources/CMakeLists.txt	2008-03-23 13:42:57.000000000 +0200
-+++ kdepimlibs-4.0.71+svn800950/kresources/CMakeLists.txt	2008-04-25 21:47:16.000000000 +0300
+--- a/kresources/CMakeLists.txt
++++ b/kresources/CMakeLists.txt
 @@ -24,7 +24,8 @@
  
  kde4_add_library(kresources SHARED ${kresources_LIB_SRCS})
@@ -41,8 +41,8 @@
  
  install(TARGETS kcm_kresources  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdepimlibs-4.0.71+svn800950.orig/kxmlrpcclient/CMakeLists.txt	2008-03-23 13:42:45.000000000 +0200
-+++ kdepimlibs-4.0.71+svn800950/kxmlrpcclient/CMakeLists.txt	2008-04-25 22:15:44.000000000 +0300
+--- a/kxmlrpcclient/CMakeLists.txt
++++ b/kxmlrpcclient/CMakeLists.txt
 @@ -10,7 +10,8 @@
  
  kde4_add_library(kxmlrpcclient SHARED ${kxmlrpcclient_LIB_SRCS})
@@ -53,8 +53,8 @@
  
  set_target_properties(kxmlrpcclient PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kxmlrpcclient ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/mailtransport/CMakeLists.txt	2008-03-23 13:44:05.000000000 +0200
-+++ kdepimlibs-4.0.71+svn800950/mailtransport/CMakeLists.txt	2008-04-25 22:04:59.000000000 +0300
+--- a/mailtransport/CMakeLists.txt
++++ b/mailtransport/CMakeLists.txt
 @@ -31,7 +31,8 @@
  kde4_add_kcfg_files(mailtransport_lib_srcs transportbase.kcfgc)
  
@@ -65,8 +65,8 @@
  set_target_properties(mailtransport PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  
  install(TARGETS mailtransport ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/syndication/CMakeLists.txt	2008-03-23 13:42:55.000000000 +0200
-+++ kdepimlibs-4.0.71+svn800950/syndication/CMakeLists.txt	2008-04-25 22:18:31.000000000 +0300
+--- a/syndication/CMakeLists.txt
++++ b/syndication/CMakeLists.txt
 @@ -117,7 +117,8 @@
  
  kde4_add_library(syndication SHARED ${syndication_LIB_SRCS})
@@ -77,8 +77,8 @@
  
  set_target_properties(syndication PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS syndication ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/kioslave/imap4/CMakeLists.txt	2008-03-23 13:43:47.000000000 +0200
-+++ kdepimlibs-4.0.71+svn800950/kioslave/imap4/CMakeLists.txt	2008-04-25 22:13:46.000000000 +0300
+--- a/kioslave/imap4/CMakeLists.txt
++++ b/kioslave/imap4/CMakeLists.txt
 @@ -32,7 +32,7 @@
  
  kde4_add_plugin(kio_imap4 ${kio_imap4_PART_SRCS})
@@ -88,8 +88,8 @@
  if (SASL2_FOUND)
  	target_link_libraries(kio_imap4 ${SASL2_LIBRARIES} )
  endif(SASL2_FOUND)
---- kdepimlibs-4.0.71+svn800950.orig/akonadi/CMakeLists.txt	2008-04-25 16:42:47.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/akonadi/CMakeLists.txt	2008-04-25 20:42:09.000000000 +0300
+--- a/akonadi/CMakeLists.txt
++++ b/akonadi/CMakeLists.txt
 @@ -112,7 +112,8 @@
  
  kde4_add_library( akonadi-kde SHARED ${akonadikde_LIB_SRC} )
@@ -100,8 +100,8 @@
  set_target_properties( akonadi-kde PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install( TARGETS akonadi-kde  ${INSTALL_TARGETS_DEFAULT_ARGS} )
  
---- kdepimlibs-4.0.71+svn800950.orig/akonadi/kmime/CMakeLists.txt	2008-04-25 16:42:45.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/akonadi/kmime/CMakeLists.txt	2008-04-25 20:42:09.000000000 +0300
+--- a/akonadi/kmime/CMakeLists.txt
++++ b/akonadi/kmime/CMakeLists.txt
 @@ -17,7 +17,7 @@
  
  kde4_add_library( akonadi-kmime SHARED ${kmimeakonadi_LIB_SRC} )
@@ -111,8 +111,8 @@
  set_target_properties( akonadi-kmime PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS akonadi-kmime ${INSTALL_TARGETS_DEFAULT_ARGS})
  
---- kdepimlibs-4.0.71+svn800950.orig/kabc/CMakeLists.txt	2008-04-25 20:54:45.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kabc/CMakeLists.txt	2008-04-25 21:25:16.000000000 +0300
+--- a/kabc/CMakeLists.txt
++++ b/kabc/CMakeLists.txt
 @@ -85,7 +85,8 @@
  
  kde4_add_library(kabc SHARED ${kabc_LIB_SRCS})
@@ -123,8 +123,8 @@
  
  set_target_properties(kabc PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kabc ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/kabc/plugins/dir/CMakeLists.txt	2008-04-25 21:56:22.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kabc/plugins/dir/CMakeLists.txt	2008-04-25 21:56:43.000000000 +0300
+--- a/kabc/plugins/dir/CMakeLists.txt
++++ b/kabc/plugins/dir/CMakeLists.txt
 @@ -9,7 +9,7 @@
  
  kde4_add_plugin(kabc_directory ${kabc_directory_SRCS})
@@ -134,8 +134,8 @@
  
  install(TARGETS kabc_directory  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdepimlibs-4.0.71+svn800950.orig/kabc/plugins/file/CMakeLists.txt	2008-04-25 21:10:21.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kabc/plugins/file/CMakeLists.txt	2008-04-25 21:46:44.000000000 +0300
+--- a/kabc/plugins/file/CMakeLists.txt
++++ b/kabc/plugins/file/CMakeLists.txt
 @@ -9,7 +9,8 @@
  
  kde4_add_library(kabc_file_core SHARED ${kabc_file_core_SRCS})
@@ -155,8 +155,8 @@
  
  
  install(TARGETS kabc_file  DESTINATION ${PLUGIN_INSTALL_DIR} )
---- kdepimlibs-4.0.71+svn800950.orig/kabc/plugins/net/CMakeLists.txt	2008-04-25 21:57:30.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kabc/plugins/net/CMakeLists.txt	2008-04-25 21:58:03.000000000 +0300
+--- a/kabc/plugins/net/CMakeLists.txt
++++ b/kabc/plugins/net/CMakeLists.txt
 @@ -9,7 +9,7 @@
  
  kde4_add_plugin(kabc_net ${kabc_net_SRCS})
@@ -166,8 +166,8 @@
  
  
  install(TARGETS kabc_net  DESTINATION ${PLUGIN_INSTALL_DIR} )
---- kdepimlibs-4.0.71+svn800950.orig/kcal/CMakeLists.txt	2008-04-25 21:12:04.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kcal/CMakeLists.txt	2008-04-25 22:21:17.000000000 +0300
+--- a/kcal/CMakeLists.txt
++++ b/kcal/CMakeLists.txt
 @@ -259,6 +259,7 @@
  kde4_add_library(kcal SHARED ${kcal_LIB_SRCS})
  
@@ -176,8 +176,8 @@
  
  set_target_properties(kcal PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS kcal ${INSTALL_TARGETS_DEFAULT_ARGS} COMPONENT Devel)
---- kdepimlibs-4.0.71+svn800950.orig/kioslave/ldap/CMakeLists.txt	2008-04-25 20:52:24.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kioslave/ldap/CMakeLists.txt	2008-04-25 22:08:22.000000000 +0300
+--- a/kioslave/ldap/CMakeLists.txt
++++ b/kioslave/ldap/CMakeLists.txt
 @@ -3,7 +3,7 @@
  
  kde4_add_plugin(kio_ldap ${kio_ldap_PART_SRCS})
@@ -187,8 +187,8 @@
  
  install(TARGETS kio_ldap  DESTINATION ${PLUGIN_INSTALL_DIR})
  
---- kdepimlibs-4.0.71+svn800950.orig/kioslave/nntp/CMakeLists.txt	2008-04-25 22:10:52.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kioslave/nntp/CMakeLists.txt	2008-04-25 22:11:06.000000000 +0300
+--- a/kioslave/nntp/CMakeLists.txt
++++ b/kioslave/nntp/CMakeLists.txt
 @@ -10,7 +10,7 @@
  kde4_add_plugin(kio_nntp ${kio_nntp_PART_SRCS})
  
@@ -198,8 +198,8 @@
  
  install(TARGETS kio_nntp  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdepimlibs-4.0.71+svn800950.orig/kioslave/pop3/CMakeLists.txt	2008-04-25 22:09:54.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kioslave/pop3/CMakeLists.txt	2008-04-25 22:10:25.000000000 +0300
+--- a/kioslave/pop3/CMakeLists.txt
++++ b/kioslave/pop3/CMakeLists.txt
 @@ -23,7 +23,7 @@
  kde4_add_plugin(kio_pop3 ${kio_pop3_PART_SRCS})
  
@@ -209,8 +209,8 @@
  
  install(TARGETS kio_pop3  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdepimlibs-4.0.71+svn800950.orig/kioslave/sieve/CMakeLists.txt	2008-04-25 22:11:31.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kioslave/sieve/CMakeLists.txt	2008-04-25 22:11:46.000000000 +0300
+--- a/kioslave/sieve/CMakeLists.txt
++++ b/kioslave/sieve/CMakeLists.txt
 @@ -12,7 +12,7 @@
  
  
@@ -220,8 +220,8 @@
  
  install(TARGETS kio_sieve  DESTINATION ${PLUGIN_INSTALL_DIR})
  
---- kdepimlibs-4.0.71+svn800950.orig/kldap/CMakeLists.txt	2008-04-25 20:52:44.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kldap/CMakeLists.txt	2008-04-25 22:03:52.000000000 +0300
+--- a/kldap/CMakeLists.txt
++++ b/kldap/CMakeLists.txt
 @@ -69,7 +69,8 @@
  
  include_directories( ${kldap_EXTRA_INCLUDES} )
@@ -232,8 +232,8 @@
  
  set_target_properties(kldap PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS kldap ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/kpimutils/CMakeLists.txt	2008-04-25 21:13:50.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kpimutils/CMakeLists.txt	2008-04-25 21:14:52.000000000 +0300
+--- a/kpimutils/CMakeLists.txt
++++ b/kpimutils/CMakeLists.txt
 @@ -15,6 +15,7 @@
  kde4_add_library(kpimutils SHARED ${kpimutils_LIB_SRCS})
  
@@ -242,8 +242,8 @@
  
  set_target_properties(kpimutils PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kpimutils ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/ktnef/CMakeLists.txt	2008-04-25 21:36:34.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/ktnef/CMakeLists.txt	2008-04-25 22:24:43.000000000 +0300
+--- a/ktnef/CMakeLists.txt
++++ b/ktnef/CMakeLists.txt
 @@ -27,7 +27,7 @@
  
  kde4_add_library(ktnef SHARED ${ktnef_LIB_SRCS})
@@ -253,8 +253,8 @@
  
  set_target_properties(ktnef PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS ktnef ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdepimlibs-4.0.71+svn800950.orig/kioslave/mbox/CMakeLists.txt	2008-04-25 22:27:57.000000000 +0300
-+++ kdepimlibs-4.0.71+svn800950/kioslave/mbox/CMakeLists.txt	2008-04-25 22:28:13.000000000 +0300
+--- a/kioslave/mbox/CMakeLists.txt
++++ b/kioslave/mbox/CMakeLists.txt
 @@ -16,7 +16,7 @@
  
  

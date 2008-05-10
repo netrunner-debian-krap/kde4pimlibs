@@ -5,8 +5,12 @@ kdepimlibs (4:4.0.73-1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Build depend on akonadi >= 0.80.0+svn804999.
+  * Revert my previous change which made kdelibs5-dev dep of the
+    kdepimlibs5-dev package unversioned. Instead use a special substvar
+    (handled by debian/cdbs/dh_sameversiondeps) which versions kdelibs5-dev
+    in the same way as kdelibs5 dependency is versioned for kdepimlibs5.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2008 21:31:13 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 19:32:49 +0300
 
 kdepimlibs (4:4.0.72-1) experimental; urgency=low
 

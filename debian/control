@@ -32,7 +32,7 @@ Description: core shared data for KDE PIM 4 applications
 Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dev
+Depends: kdepimlibs5 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:kdepimlibs5-Depends-kdelibs5}
  libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev
 Conflicts: libkleopatra1-dev
 Description: development files for the KDE 4 PIM libraries

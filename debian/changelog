@@ -1,6 +1,8 @@
-kdepimlibs (4:4.0.73-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.73+svn806192-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream development snapshot:
+    - The latest upstream commit is r806192 by winterz
+    - Date: Sat, 10 May 2008 18:44:24 -0000
 
   +++ Changes by Modestas Vainius:
 
@@ -10,7 +12,7 @@ kdepimlibs (4:4.0.73-1) UNRELEASED; urgency=low
     (handled by debian/cdbs/dh_sameversiondeps) which versions kdelibs5-dev
     in the same way as kdelibs5 dependency is versioned for kdepimlibs5.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 19:32:49 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 21:48:16 +0300
 
 kdepimlibs (4:4.0.72-1) experimental; urgency=low
 

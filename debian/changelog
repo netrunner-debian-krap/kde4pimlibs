@@ -1,4 +1,4 @@
-kdepimlibs (4:4.0.73+svn806192-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.73+svn806192-1) experimental; urgency=low
 
   * New upstream development snapshot:
     - The latest upstream commit is r806192 by winterz

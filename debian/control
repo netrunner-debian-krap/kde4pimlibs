@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0), kdelibs5-dev (>= 4:4.0.73+svn806390),
- libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev, libakonadi-dev (>= 0.80.0+svn804999)
+ libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev, libakonadi-dev (>= 0.80.0+svn807399)
 Standards-Version: 3.7.3
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdepimlibs

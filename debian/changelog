@@ -1,10 +1,11 @@
-kdepimlibs (4:4.0.74-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.
   * Update install files.
   * Build depend on akonadi >= 0.80.0+svn807399.
+  * Update UPSTREAMVERSION in debian/rules to 4:4.0.74.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 May 2008 12:06:23 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2008 18:58:00 +0200
 
 kdepimlibs (4:4.0.73+svn806192-1) experimental; urgency=low
 

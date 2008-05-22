@@ -2,6 +2,8 @@
 
 UPSTREAMVERSION := 4:4.0.74
 
+DEB_CMAKE_EXTRA_FLAGS += -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on
+
 DEB_DH_MAKESHLIBS_ARGS_kdepimlibs5 := -V'kdepimlibs5 (>= $(UPSTREAMVERSION))'
 
 # get rid of the dependency on kdebase-runtime

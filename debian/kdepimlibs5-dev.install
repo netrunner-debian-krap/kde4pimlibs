@@ -74,6 +74,7 @@ usr/include/gpgme++/gpgme++_export.h
 usr/include/gpgme++/gpgmefw.h
 usr/include/gpgme++/gpgsetexpirytimeeditinteractor.h
 usr/include/gpgme++/gpgsetownertrusteditinteractor.h
+usr/include/gpgme++/gpgsignkeyeditinteractor.h
 usr/include/gpgme++/importresult.h
 usr/include/gpgme++/interfaces/dataprovider.h
 usr/include/gpgme++/interfaces/passphraseprovider.h

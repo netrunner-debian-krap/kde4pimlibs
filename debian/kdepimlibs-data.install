@@ -404,7 +404,6 @@ usr/share/kde4/apps/libical/zoneinfo/Pacific/Wake.ics
 usr/share/kde4/apps/libical/zoneinfo/Pacific/Wallis.ics
 usr/share/kde4/apps/libical/zoneinfo/zones.tab
 usr/share/kde4/config.kcfg/mailtransport.kcfg
-usr/share/kde4/config.kcfg/pimemoticons.kcfg
 usr/share/kde4/services/imap4.protocol
 usr/share/kde4/services/imaps.protocol
 usr/share/kde4/services/kcm_mailtransport.desktop

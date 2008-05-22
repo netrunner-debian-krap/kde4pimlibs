@@ -1,3 +1,13 @@
+kdepimlibs (4:4.0.80-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Disable 97 patch (will be removed later).
+    Pass -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on to cmake which enables
+    equivalent functionality.
+  * Update install files.
+
+ -- Fathi Boudra <fabo@debian.org>  Thu, 22 May 2008 16:29:15 +0200
+
 kdepimlibs (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.

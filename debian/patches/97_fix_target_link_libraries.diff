@@ -15,7 +15,7 @@
  
  kde4_add_library(kpimidentities SHARED ${kpimidentities_LIB_SRCS})
  
--target_link_libraries(kpimidentities ${QT_AND_KDECORE_LIBS}  kpimutils ${KDE4_KIO_LIBS})
+-target_link_libraries(kpimidentities ${QT_AND_KDECORE_LIBS}  kpimutils ${KDE4_KIO_LIBS} )
 +target_link_libraries(kpimidentities ${QT_AND_KDECORE_LIBS}  kpimutils ${KDE4_KIO_LIBS} ${QT_QTDBUS_LIBRARY} )
  
  set_target_properties(kpimidentities PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
@@ -90,7 +90,7 @@
  endif(SASL2_FOUND)
 --- a/akonadi/CMakeLists.txt
 +++ b/akonadi/CMakeLists.txt
-@@ -112,7 +112,8 @@
+@@ -113,7 +113,8 @@
  
  kde4_add_library( akonadi-kde SHARED ${akonadikde_LIB_SRC} )
  
@@ -234,10 +234,10 @@
  install(TARGETS kldap ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kpimutils/CMakeLists.txt
 +++ b/kpimutils/CMakeLists.txt
-@@ -15,6 +15,7 @@
+@@ -13,6 +13,7 @@
  kde4_add_library(kpimutils SHARED ${kpimutils_LIB_SRCS})
  
- target_link_libraries(kpimutils ${KDE4_KDEUI_LIBS} kmime)
+ target_link_libraries(kpimutils ${KDE4_KDEUI_LIBS} ${KDE4_KUTILS_LIBRARY} kmime)
 +set_target_properties(kpimutils PROPERTIES LINK_INTERFACE_LIBRARIES "")
  
  set_target_properties(kpimutils PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )

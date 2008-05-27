@@ -2,10 +2,10 @@ kdepimlibs (4:4.0.80-2) UNRELEASED; urgency=low
 
   +++ Changes by Modestas Vainius:
 
-  * Bump kdelibs5-dev build dependencies to 4.0.80, bump akonadi build
-    dependency to 0.81.0. Bump shlibs.
+  * Bump kdelibs5-dev build dependency to 4.0.80, bump akonadi build
+    dependency to 0.81.0 (Closes: #483114). Bump shlibs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 11:54:57 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:05:02 +0300
 
 kdepimlibs (4:4.0.80-1) experimental; urgency=low
 

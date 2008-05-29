@@ -69,6 +69,7 @@ usr/share/kde4/apps/libical/zoneinfo/America/Argentina/La_Rioja.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Argentina/Mendoza.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Argentina/Rio_Gallegos.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Argentina/San_Juan.ics
+usr/share/kde4/apps/libical/zoneinfo/America/Argentina/San_Luis.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Argentina/Tucuman.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Argentina/Ushuaia.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Aruba.ics
@@ -135,6 +136,7 @@ usr/share/kde4/apps/libical/zoneinfo/America/Los_Angeles.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Maceio.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Managua.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Manaus.ics
+usr/share/kde4/apps/libical/zoneinfo/America/Marigot.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Martinique.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Mazatlan.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Menominee.ics
@@ -170,6 +172,7 @@ usr/share/kde4/apps/libical/zoneinfo/America/Santo_Domingo.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Sao_Paulo.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Scoresbysund.ics
 usr/share/kde4/apps/libical/zoneinfo/America/Shiprock.ics
+usr/share/kde4/apps/libical/zoneinfo/America/St_Barthelemy.ics
 usr/share/kde4/apps/libical/zoneinfo/America/St_Johns.ics
 usr/share/kde4/apps/libical/zoneinfo/America/St_Kitts.ics
 usr/share/kde4/apps/libical/zoneinfo/America/St_Lucia.ics
@@ -223,6 +226,7 @@ usr/share/kde4/apps/libical/zoneinfo/Asia/Dubai.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Dushanbe.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Gaza.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Harbin.ics
+usr/share/kde4/apps/libical/zoneinfo/Asia/Ho_Chi_Minh.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Hong_Kong.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Hovd.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Irkutsk.ics
@@ -235,6 +239,7 @@ usr/share/kde4/apps/libical/zoneinfo/Asia/Kamchatka.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Karachi.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Kashgar.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Katmandu.ics
+usr/share/kde4/apps/libical/zoneinfo/Asia/Kolkata.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Krasnoyarsk.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Kuala_Lumpur.ics
 usr/share/kde4/apps/libical/zoneinfo/Asia/Kuching.ics

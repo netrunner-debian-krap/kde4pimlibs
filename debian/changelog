@@ -1,11 +1,17 @@
-kdepimlibs (4:4.0.80-2) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.81+svn813143-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r813143 by scripty
+    - Date: Thu, 29 May 2008 09:11:45 -0000
+  * Update install files:
+    - kdepimlibs-data.install: 5 new file(s) added;
 
   +++ Changes by Modestas Vainius:
 
-  * Bump kdelibs5-dev build dependency to 4.0.80, bump akonadi build
+  * Bump kdelibs5-dev build dependency to 4.0.81, bump akonadi build
     dependency to 0.81.0 (Closes: #483114). Bump shlibs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:05:02 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 12:28:50 +0300
 
 kdepimlibs (4:4.0.80-1) experimental; urgency=low
 

@@ -55,7 +55,7 @@
  install(TARGETS kxmlrpcclient ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/mailtransport/CMakeLists.txt
 +++ b/mailtransport/CMakeLists.txt
-@@ -31,7 +31,8 @@
+@@ -29,7 +29,8 @@
  kde4_add_kcfg_files(mailtransport_lib_srcs transportbase.kcfgc)
  
  kde4_add_library(mailtransport SHARED ${mailtransport_lib_srcs})

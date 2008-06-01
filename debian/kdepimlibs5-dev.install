@@ -258,7 +258,6 @@ usr/include/mailtransport/transportconfigdialog.h
 usr/include/mailtransport/transportjob.h
 usr/include/mailtransport/transportmanagementwidget.h
 usr/include/mailtransport/transportmanager.h
-usr/include/mailtransport/transporttypedialog.h
 usr/include/qgpgme/dataprovider.h
 usr/include/qgpgme/eventloopinteractor.h
 usr/include/qgpgme/qgpgme_export.h

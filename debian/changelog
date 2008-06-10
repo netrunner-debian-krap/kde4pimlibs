@@ -1,9 +1,6 @@
 kdepimlibs (4:4.0.81+svn818565-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r818565 by vkrause
-    - Date: Mon, 09 Jun 2008 12:26:30 -0000
-
+  * New upstream development snapshot.
   * Update install files:
     - kdepimlibs-data.install: 5 new file(s) added;
     - kdepimlibs-dev.install: 1 file(s) removed;

@@ -1,4 +1,4 @@
-kdepimlibs (4:4.0.81+svn818565-1~pre1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.82+svn818565-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
   * Update install files:
@@ -7,11 +7,12 @@ kdepimlibs (4:4.0.81+svn818565-1~pre1) UNRELEASED; urgency=low
 
   +++ Changes by Modestas Vainius:
 
-  * Bump kdelibs5-dev build dependency to 4.0.81, bump akonadi build
+  * Bump kdelibs5-dev build dependency to 4.0.82, bump akonadi build
     dependency to 0.81.0 (Closes: #483114). Bump shlibs.
   * Refresh 97_fix_target_link_libraries.diff.
+  * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jun 2008 15:51:42 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 21:14:00 +0300
 
 kdepimlibs (4:4.0.80-1) experimental; urgency=low
 

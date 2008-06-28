@@ -1,3 +1,13 @@
+kdepimlibs (4:4.0.84-1) experimental; urgency=low
+
+  * New upstream snapshot
+  * Soname-bump in kdepimlibs, but we are in experimental, so just close our
+    eyes.
+  * Have the kio slaves depend on libsasl2-modules, thanks to  
+    Jos Ewert for investigating. (Closes: #488263)
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 09:30:52 +0200
+
 kdepimlibs (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream development snapshot.

@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.4.5), kdelibs5-dev (>= 4:4.0.82),
- libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev, libakonadi-dev (>= 0.81.0)
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.4.5), kdelibs5-dev (>= 4:4.0.84),
+ libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev, libakonadi-dev (>= 0.82.0)
 Standards-Version: 3.7.3
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdepimlibs
@@ -14,7 +14,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdepimlibs
 Package: kdepimlibs5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, kdepimlibs-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, kdepimlibs-data (>= ${source:Version}), libsasl2-modules
 Description: core libraries for KDE PIM 4 applications
  This package contains Personal Information Management libraries needed to run
  KDE 4 applications.

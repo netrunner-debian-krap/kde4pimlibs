@@ -70,6 +70,7 @@ usr/include/gpgme++/error.h
 usr/include/gpgme++/eventloopinteractor.h
 usr/include/gpgme++/exception.h
 usr/include/gpgme++/global.h
+usr/include/gpgme++/gpgadduserideditinteractor.h
 usr/include/gpgme++/gpgme++_export.h
 usr/include/gpgme++/gpgmefw.h
 usr/include/gpgme++/gpgsetexpirytimeeditinteractor.h

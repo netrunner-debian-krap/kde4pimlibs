@@ -1,10 +1,10 @@
-kdepimlibs (4:4.0.84+svn828328-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.84+svn828328-1) unstable; urgency=low
 
   * New upstream development snapshot.
   * Remove 97_fix_target_link_libraries.diff, no needed now.
   * Update installed files.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Jul 2008 16:19:39 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Jul 2008 18:54:18 +0200
 
 kdepimlibs (4:4.0.84-1) experimental; urgency=low
 

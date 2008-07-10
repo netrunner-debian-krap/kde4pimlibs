@@ -1,6 +1,7 @@
-kdepimlibs (4:4.0.85+svn829409-0) UNRELEASED; urgency=low
+kdepimlibs (4:4.0.98-0) UNRELEASED; urgency=low
 
-  * New development snapshot.
+  * New upstream release, Release Candidate 1.
+  * Update UPSTREAMVERSION and build-depends to 4.0.98.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 07 Jul 2008 14:43:52 +0200
 

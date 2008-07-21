@@ -1,4 +1,4 @@
-usr/share/apps/akonadi-kde/kcfg2dbus.xsl
+usr/share/kde4/apps/akonadi-kde/kcfg2dbus.xsl
 usr/share/dbus-1/interfaces/org.kde.KResourcesManager.xml
 usr/share/dbus-1/interfaces/org.kde.pim.IdentityManager.xml
 usr/share/kde4/apps/kabc/countrytransl.map

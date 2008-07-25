@@ -1,8 +1,9 @@
-kdepimlibs (4:4.1.0-0r2) UNRELEASED; urgency=low
-
-  +++ Changes by Ana Beatriz Guerrero Lopez:
+kdepimlibs (4:4.1.0-1) unstable; urgency=low
 
   * New upstream release.
+  
+   +++ Changes by Ana Beatriz Guerrero Lopez:
+
   * Update kdepimlibs-data.install.
   * Update UPSTREAMVERSION to 4:4.1.0 in debian/rules.
   * Update build depends.

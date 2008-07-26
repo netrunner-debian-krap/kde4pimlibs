@@ -1,6 +1,0 @@
-The Debian KDE packages are built with the KDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT
-option, which alters how CMake (the build system used by KDE) links to the KDE
-libraries. This may cause KDE4 software to fail to build from source.
-
-Please read http://pkg-kde.alioth.debian.org/experimental_linking.html before
-reporting bugs on build errors.

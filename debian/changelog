@@ -1,11 +1,11 @@
-kdepimlibs (4:4.1.1-0) experimental; urgency=low
+kdepimlibs (4:4.1.1-0) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  +++ Changes by Sune Vuorela
+  +++ Changes by Sune Vuorela:
 
   * Let us try to not write the library dependencies.
-  * Kill some dependencies of the -dev package
+  * Kill some dependencies of the -dev package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2008 00:35:48 +0200
 

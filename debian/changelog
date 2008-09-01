@@ -4,7 +4,8 @@ kdepimlibs (4:4.1.1-1) experimental; urgency=low
 
   +++ Changes by Sune Vuorela:
 
-  * Let us try to not write the library dependencies.
+  * Don't write the library dependencies to the pimlibs dependencies cmake
+    file. This trims some more recursive linking.
   * Kill some dependencies of the -dev package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Sep 2008 00:25:01 +0200

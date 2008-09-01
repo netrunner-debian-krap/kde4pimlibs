@@ -1,4 +1,4 @@
-kdepimlibs (4:4.1.1-0) UNRELEASED; urgency=low
+kdepimlibs (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -7,7 +7,7 @@ kdepimlibs (4:4.1.1-0) UNRELEASED; urgency=low
   * Let us try to not write the library dependencies.
   * Kill some dependencies of the -dev package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2008 00:35:48 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Sep 2008 00:25:01 +0200
 
 kdepimlibs (4:4.1.0-1) unstable; urgency=low
 

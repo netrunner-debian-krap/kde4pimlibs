@@ -1,3 +1,11 @@
+kdepimlibs (4:4.1.1-2) experimental; urgency=low
+
+  +++ Changes by Sune Vuorela:
+
+  * Pull crash fix from upstream, pushed out via kde-packager.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Sep 2008 21:58:53 +0200
+
 kdepimlibs (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.

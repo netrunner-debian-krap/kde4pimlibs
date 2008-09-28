@@ -1,10 +1,10 @@
-kdepimlibs (4:4.1.2-0) UNRELEASED; urgency=low
+kdepimlibs (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
-  * Remove 01_r856767_incidence_formatter_crash_fix.diff merged uptream.
+  * Remove patch 01_r856767_incidence_formatter_crash_fix.diff, merged uptream.
   * Update UPSTREAMVERSION to 4:4.1.2 in debian/rules.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:00:27 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 28 Sep 2008 14:48:21 +0200
 
 kdepimlibs (4:4.1.1-2) experimental; urgency=low
 

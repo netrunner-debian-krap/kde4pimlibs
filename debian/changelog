@@ -1,10 +1,18 @@
-kdepimlibs (4:4.1.3-2) UNRELEASED; urgency=low
+kdepimlibs (4:4.1.73+svn885201-0r1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot.
+  * Update install files.
 
   +++ Changes by Modestas Vainius:
 
-  * Build depend on kdelibs5-dev >= 4.1.3-2.
+  * Build depend on kdelibs5-dev >= 4.1.73.
+  * Build depend on libical-dev >= 0.33.
+  * Remove build depend on cmake. It will be pulled in by kdelibs5-dev.
+  * Update install files.
+  * Bump shlibs with each new upstream version.
+  * Bump Standards-Version to 3.8.0: add README.source.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Nov 2008 22:15:58 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Nov 2008 03:09:55 +0200
 
 kdepimlibs (4:4.1.3-1) experimental; urgency=low
 

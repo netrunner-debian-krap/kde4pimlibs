@@ -1,3 +1,4 @@
 dst:.*\.cmake$
 dst:usr/include
 dst:usr/lib/.*so$ link:
+dst:usr/share/dbus-1/interfaces

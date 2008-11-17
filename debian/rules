@@ -1,10 +1,10 @@
 #!/usr/bin/make -f
 
-UPSTREAMVERSION := 4:4.1.3
+#UPSTREAMVERSION := 4:4.1.3
 
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on
 
-DEB_DH_MAKESHLIBS_ARGS_kdepimlibs5 := -V'kdepimlibs5 (>= $(UPSTREAMVERSION))'
+DEB_DH_MAKESHLIBS_ARGS_kdepimlibs5 := -V$(if $(UPSTREAMVERSION),'kdepimlibs5 (>= $(UPSTREAMVERSION))',)
 
 # get rid of the dependency on kdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_ALL:=-- -xkdebase-runtime

@@ -1,3 +1,0 @@
-mime:application/x-sharedlib.* ! link:
-mime:application/x-sharedlib.* link: dst:usr/lib/.*\.so\.
-mime:application/x-executable.*

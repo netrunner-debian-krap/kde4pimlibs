@@ -9,6 +9,6 @@ mime:application/x-sharedlib.* ! link:
 mime:application/x-sharedlib.* link: dst:usr/lib/.*\.so\.
 mime:application/x-executable.*
 
-[kdepimlibs5-data]
+[kdepimlibs-data]
 mime:text/.*
 dst:usr/share

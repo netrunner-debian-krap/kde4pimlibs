@@ -1,4 +1,4 @@
-kdepimlibs (4:4.1.80+svn889879-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.1.81+svn891624-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -14,7 +14,11 @@ kdepimlibs (4:4.1.80+svn889879-0r1) UNRELEASED; urgency=low
   * Replaces akonadi-kde << 4:4.1.66: due to libakonadi-kabc.so.4.
   * Switch to new installgen format.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 15:26:48 +0200
+  +++ Changes by George Kiagiadakis:
+
+  * Drop patch 02_no_dependency_file.diff as it is obsolete as of r891439.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Dec 2008 13:59:24 +0000
 
 kdepimlibs (4:4.1.3-1) experimental; urgency=low
 

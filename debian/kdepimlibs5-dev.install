@@ -369,3 +369,6 @@ usr/share/kde4/apps/cmake/modules/FindLdap.cmake
 usr/share/kde4/apps/cmake/modules/FindLibical.cmake
 usr/share/kde4/apps/cmake/modules/FindQGpgme.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsDependencies.cmake
+usr/share/kde4/apps/cmake/modules/KDEPimLibsInformation.cmake
+usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargets-debian.cmake
+usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargets.cmake

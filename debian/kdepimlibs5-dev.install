@@ -372,3 +372,5 @@ usr/share/kde4/apps/cmake/modules/KDEPimLibsDependencies.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsInformation.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargets-debian.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargets.cmake
+usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargetsWithPrefix-debian.cmake
+usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargetsWithPrefix.cmake

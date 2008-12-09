@@ -337,6 +337,9 @@ usr/include/syndication/specificitem.h
 usr/include/syndication/specificitemvisitor.h
 usr/include/syndication/syndication.h
 usr/include/syndication/tools.h
+usr/lib/KdepimLibs/cmake/KDEPimLibsLibraryTargetsWithPrefix-debian.cmake
+usr/lib/KdepimLibs/cmake/KDEPimLibsLibraryTargetsWithPrefix.cmake
+usr/lib/KdepimLibs/cmake/KdepimLibsConfig.cmake
 usr/lib/gpgmepp/GpgmeppConfig.cmake
 usr/lib/gpgmepp/GpgmeppLibraryDepends.cmake
 usr/lib/libakonadi-kabc.so
@@ -370,7 +373,3 @@ usr/share/kde4/apps/cmake/modules/FindLibical.cmake
 usr/share/kde4/apps/cmake/modules/FindQGpgme.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsDependencies.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsInformation.cmake
-usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargets-debian.cmake
-usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargets.cmake
-usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargetsWithPrefix-debian.cmake
-usr/share/kde4/apps/cmake/modules/KDEPimLibsLibraryTargetsWithPrefix.cmake

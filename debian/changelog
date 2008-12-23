@@ -1,10 +1,10 @@
-kdepimlibs (4:4.1.85+svn898618-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.1.86+svn900842-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
-  * Build depend on kdelibs5-dev >= 4:4.1.82+svn894637.
+  * Build depend on kdelibs5-dev >= 4:4.1.86+svn900830.
   * Build depend on libical-dev >= 0.33.
   * Build depend on Akonadi (>= 1.0.80). Our 1.0.0 is unusable.
   * Remove build depend on cmake. It will be pulled in by kdelibs5-dev.
@@ -18,7 +18,7 @@ kdepimlibs (4:4.1.85+svn898618-0r1) UNRELEASED; urgency=low
 
   * Drop patch 02_no_dependency_file.diff as it is obsolete as of r891439.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Dec 2008 03:38:53 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Dec 2008 22:41:36 +0200
 
 kdepimlibs (4:4.1.3-1) experimental; urgency=low
 

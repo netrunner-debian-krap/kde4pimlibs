@@ -1,5 +1,3 @@
-
-/usr/lib/libqgpgme.so.1
 usr/lib/kde4/kabc_directory.so
 usr/lib/kde4/kabc_file.so
 usr/lib/kde4/kabc_ldapkio.so
@@ -54,6 +52,7 @@ usr/lib/libkxmlrpcclient.so.4
 usr/lib/libkxmlrpcclient.so.4.2.0
 usr/lib/libmailtransport.so.4
 usr/lib/libmailtransport.so.4.2.0
+usr/lib/libqgpgme.so.1
 usr/lib/libqgpgme.so.1.0.1
 usr/lib/libsyndication.so.4
 usr/lib/libsyndication.so.4.2.0

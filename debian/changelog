@@ -1,10 +1,10 @@
-kdepimlibs (4:4.1.86+svn904717-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.1.87+svn905183-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Modestas Vainius:
 
-  * Build depend on kdelibs5-dev >= 4:4.1.86+svn900830.
+  * Build depend on kdelibs5-dev >= 4:4.1.87.
   * Build depend on libical-dev >= 0.33.
   * Build depend on Akonadi (>= 1.0.80). Our 1.0.0 is unusable.
   * Remove build depend on cmake. It will be pulled in by kdelibs5-dev.

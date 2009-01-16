@@ -99,8 +99,6 @@ usr/include/kabc/addressee.h
 usr/include/kabc/addresseedialog.h
 usr/include/kabc/addresseelist.h
 usr/include/kabc/addresslineedit.h
-usr/include/kabc/contactgroup.h
-usr/include/kabc/contactgrouptool.h
 usr/include/kabc/distributionlist.h
 usr/include/kabc/distributionlistdialog.h
 usr/include/kabc/emailselectdialog.h

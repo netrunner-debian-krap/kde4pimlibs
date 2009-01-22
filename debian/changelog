@@ -21,6 +21,8 @@ kdepimlibs (4:4.2.0-0r1) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update docs, README.libical has been removed by upstream.
+  * Remove prune-nonfree script, all the non-ree documentation is not longer
+    distributed in the tarball.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 02:28:08 +0100
 

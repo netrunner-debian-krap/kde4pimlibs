@@ -13,6 +13,8 @@ kdepimlibs (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.0: add README.source.
   * Replaces akonadi-kde << 4:4.1.80: due to libakonadi-kabc.so.4.
   * Switch to new installgen format.
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
 
   +++ Changes by George Kiagiadakis:
 
@@ -24,7 +26,7 @@ kdepimlibs (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Remove prune-nonfree script, all the non-ree documentation is not longer
     distributed in the tarball.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 02:28:08 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:34:27 +0200
 
 kdepimlibs (4:4.1.3-1) experimental; urgency=low
 

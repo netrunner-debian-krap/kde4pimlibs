@@ -1,4 +1,4 @@
-kdepimlibs (4:4.2.0-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.2.0-1) experimental; urgency=low
 
   [ Debian Qt/KDE Maintainers ]
   * New upstream release.

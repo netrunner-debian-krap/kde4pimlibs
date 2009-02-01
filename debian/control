@@ -36,6 +36,7 @@ Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
 Depends: kdepimlibs5 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev},
+Replaces: kdepimlibs-data (<< 4:4.1.80)
 Conflicts: libkleopatra1-dev
 Description: development files for the KDE 4 PIM libraries
  This package contains development files for building software that uses

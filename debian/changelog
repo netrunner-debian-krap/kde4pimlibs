@@ -1,10 +1,10 @@
-kdepimlibs (4:4.2.0-2) experimental; urgency=low
+kdepimlibs (4:4.2.0-2) UNRELEASED; urgency=low
 
   +++ Changes by Modestas Vainius:
 
   * kdepimlibs5-dev replaces kdepimlibs-data from 4.1 (Closes: #513718).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 03:21:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 03:23:09 +0200
 
 kdepimlibs (4:4.2.0-1) experimental; urgency=low
 

@@ -1,11 +1,13 @@
-kdepimlibs (4:4.2.1-2) UNRELEASED; urgency=low
+kdepimlibs (4:4.2.1-2) unstable; urgency=low
+
+  * Upload to unstable.
 
   +++ Changes by Modestas Vainius:
 
   * Rename kdepimlibs5-dev.presubj kdepimlibs5-dev.bug-presubj. Use
     dh_bugfiles and build depend on debhelper 7.2.3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Mar 2009 22:23:04 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2009 19:38:22 +0100
 
 kdepimlibs (4:4.2.1-1) experimental; urgency=low
 

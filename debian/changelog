@@ -2,9 +2,9 @@ kdepimlibs (4:4.2.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update installed files, cmake files changed from usr/lib/cmake/KdepimLibs-4.2.0 
-    to usr/lib/cmake/KdepimLibs-4.2.2
+    to usr/lib/cmake/KdepimLibs-4.2.*
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 06:28:11 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 12:45:16 +0300
 
 kdepimlibs (4:4.2.1-2) unstable; urgency=low
 

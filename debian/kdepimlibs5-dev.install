@@ -333,10 +333,10 @@ usr/include/syndication/specificitem.h
 usr/include/syndication/specificitemvisitor.h
 usr/include/syndication/syndication.h
 usr/include/syndication/tools.h
-usr/lib/cmake/KdepimLibs-4.2.0/KDEPimLibsLibraryTargetsWithPrefix-debian.cmake
-usr/lib/cmake/KdepimLibs-4.2.0/KDEPimLibsLibraryTargetsWithPrefix.cmake
-usr/lib/cmake/KdepimLibs-4.2.0/KdepimLibsConfig.cmake
-usr/lib/cmake/KdepimLibs-4.2.0/KdepimLibsConfigVersion.cmake
+usr/lib/cmake/KdepimLibs-4.2.2/KDEPimLibsLibraryTargetsWithPrefix-debian.cmake
+usr/lib/cmake/KdepimLibs-4.2.2/KDEPimLibsLibraryTargetsWithPrefix.cmake
+usr/lib/cmake/KdepimLibs-4.2.2/KdepimLibsConfig.cmake
+usr/lib/cmake/KdepimLibs-4.2.2/KdepimLibsConfigVersion.cmake
 usr/lib/gpgmepp/GpgmeppConfig.cmake
 usr/lib/gpgmepp/GpgmeppLibraryDepends.cmake
 usr/lib/libakonadi-kabc.so

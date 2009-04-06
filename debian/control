@@ -43,7 +43,7 @@ Description: development files for the KDE 4 PIM libraries
  the KDE 4 Personal Information Management libraries.
 
 Package: kdepimlibs-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dbg, libc6-dbg [amd64]

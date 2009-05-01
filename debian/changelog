@@ -1,8 +1,16 @@
-kdepimlibs (4:4.2.2-2) UNRELEASED; urgency=low
+kdepimlibs (4:4.2.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
 
   * Fix sections.
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 23:29:26 +0200
+  +++ Changes by Fathi Boudra:
+
+  * Bump Standards-Version to 3.8.1. No changes needed.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2009 13:45:19 +0200
 
 kdepimlibs (4:4.2.2-1) unstable; urgency=low
 

@@ -1,10 +1,11 @@
-kdepimlibs (4:4.2.3-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.2.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
+  * bump build-deps and stuff
 
   +++ Changes by Fathi Boudra:
 

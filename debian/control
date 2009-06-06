@@ -3,10 +3,11 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
- Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
+ Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>,
+ George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.2.4), libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev,
- libakonadi-dev (>= 1.1.1), libical-dev (>= 0.33)
+ kdelibs5-dev (>= 4:4.2.90), libboost-dev, libgpgme11-dev, libldap2-dev, libsasl2-dev,
+ libakonadi-dev (>= 1.1.90), libical-dev (>= 0.42)
 Standards-Version: 3.8.1
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdepimlibs
@@ -16,7 +17,8 @@ Package: kdepimlibs5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, kdepimlibs-data (>= ${source:Version}), libsasl2-modules
-Replaces: akonadi-kde (<< 4:4.1.80)
+Replaces: akonadi-kde (<< 4:4.1.80), libkholidays4 (<< 4:4.2.90)
+Conflicts: libkholidays4 (<< 4:4.2.90)
 Description: core libraries for KDE PIM 4 applications
  This package contains Personal Information Management libraries needed to run
  KDE 4 applications.
@@ -26,6 +28,7 @@ Description: core libraries for KDE PIM 4 applications
 Package: kdepimlibs-data
 Section: libs
 Architecture: all
+Replaces: libkholidays4 (<< 4:4.2.90)
 Description: core shared data for KDE PIM 4 applications
  This package contains architecture-independent Personal Information Management
  data files needed to run KDE 4 applications.

@@ -98,3 +98,4 @@ usr/share/kde4/services/smtp.protocol
 usr/share/kde4/services/smtps.protocol
 usr/share/kde4/servicetypes/kresources_manager.desktop
 usr/share/kde4/servicetypes/kresources_plugin.desktop
+usr/share/mime/packages/kdepimlibs-mime.xml

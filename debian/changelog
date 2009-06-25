@@ -1,18 +1,18 @@
-kdepimlibs (4:4.2.90+svn977733-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.2.95+svn986622-0r1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
 
   +++ Changes by George Kiagiadakis:
 
-  * Bump build-dependency on kdelibs5-dev to version 4.2.90.
-  * Bump build-dependency on libakonadi-dev to version 1.1.90.
+  * Bump build-dependency on kdelibs5-dev to version 4.2.95.
+  * Bump build-dependency on libakonadi-dev to version 1.1.95.
   * Bump build-dependency on libical-dev to version 0.42.
   * Update installed files.
   * Add replaces and conflicts against libkholidays4 (<< 4.2.90)
     as it was moved upstream from kdepim to kdepimlibs.
   * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jun 2009 12:45:16 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Jun 2009 13:21:31 +0300
 
 kdepimlibs (4:4.2.4-1) unstable; urgency=low
 

@@ -1,4 +1,4 @@
-kdepimlibs (4:4.2.95+svn986622-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.2.95-0r1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
 
@@ -13,7 +13,7 @@ kdepimlibs (4:4.2.95+svn986622-0r1) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Add build dependency on libboost-graph-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Jun 2009 12:18:48 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 12:46:25 +0300
 
 kdepimlibs (4:4.2.4-1) unstable; urgency=low
 

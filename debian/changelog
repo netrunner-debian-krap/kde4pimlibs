@@ -1,3 +1,10 @@
+kdepimlibs (4:4.2.98-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Update installed files.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 16:52:22 +0200
+
 kdepimlibs (4:4.2.96-1) experimental; urgency=low
 
   * New upstream release candidate.

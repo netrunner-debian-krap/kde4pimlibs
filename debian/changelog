@@ -1,9 +1,17 @@
-kdepimlibs (4:4.3.0-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.3.0-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
+  
+  +++ Changes by Fathi Boudra:
+  
   * Update installed files.
 
- -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 16:52:22 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build depends to >= 4.3.0.
+  * Update packaging copyright in debian/copyright.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2009 13:45:19 +0200
 
 kdepimlibs (4:4.2.96-1) experimental; urgency=low
 

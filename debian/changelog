@@ -319,7 +319,7 @@ kdepimlibs (4:4.0.0-3) unstable; urgency=low
 
   * Depend on kdelibs5-dbg, kdelibs-dbg has been renamed. 
 
- -- Armin Berres <trigger+debian@space-based.de>  Sun, 20 Jan 2008 13:33:55 +0100
+ -- Armin Berres <armin+debian@space-based.de>  Sun, 20 Jan 2008 13:33:55 +0100
 
 kdepimlibs (4:4.0.0-2) unstable; urgency=low
 
@@ -357,7 +357,7 @@ kdepimlibs (4:3.98.0~svn753247-1) experimental; urgency=low
     - Build depend on kdelibs5-dev >= 4:3.98.0~svn753247.
   * Remove extra LDFLAGS. Included via CDBS now.
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 27 Dec 2007 01:12:54 +0100
+ -- Armin Berres <armin+debian@space-based.de>  Thu, 27 Dec 2007 01:12:54 +0100
 
 kdepimlibs (4:3.97.0-1) experimental; urgency=low
 

@@ -1,3 +1,15 @@
+kdepimlibs (4:4.3.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump Standards-Version to 3.8.3, no changes needed.
+  * Bump KDE build dependencies to 4.3.1.
+  * Update install files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2009 15:27:12 +0300
+
 kdepimlibs (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.

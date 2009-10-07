@@ -1,3 +1,10 @@
+kdepimlibs (4:4.3.2-2) UNRELEASED; urgency=low
+
+  * Remove build depend on libboost-python-dev, it should be fixed now in
+    boost's side.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 07 Oct 2009 21:19:10 +0200
+
 kdepimlibs (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.

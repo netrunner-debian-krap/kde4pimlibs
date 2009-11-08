@@ -9,9 +9,9 @@ kdepimlibs (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   +++ Changes by Lukasz Janyst:
 
-  * Update build dep's version numbers in debian/control
+  * Bump build depends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Nov 2009 22:40:37 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Nov 2009 22:40:37 +0100
 
 kdepimlibs (4:4.3.2-1) unstable; urgency=low
 

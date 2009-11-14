@@ -6,6 +6,7 @@ kdepimlibs (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Remove build depend on libboost-python-dev, it should be fixed now in
     boost's side.
+  * Remove myself from Uploaders.
 
   +++ Changes by Lukasz Janyst:
 

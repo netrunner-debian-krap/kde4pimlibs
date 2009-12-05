@@ -1,4 +1,4 @@
-kdepimlibs (4:4.3.4-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.3.4-0r2) UNRELEASED; urgency=low
 
   * New upstream release
 
@@ -11,6 +11,10 @@ kdepimlibs (4:4.3.4-0r1) UNRELEASED; urgency=low
   +++ Changes by Lukasz Janyst:
 
   * Bump build depends.
+
+  +++ Changes by Modestas Vainius:
+
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:52 +0200
 

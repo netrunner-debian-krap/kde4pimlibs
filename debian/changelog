@@ -1,9 +1,14 @@
-kdepimlibs (4:4.3.4-2) UNRELEASED; urgency=low
+kdepimlibs (4:4.3.4-3) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 16:57:12 +0200
+  [ Fathi Boudra ]
+  * Add IMAP4 kioslave cpu eater patch: Properly check errors during
+    authentication to avoid falling into an infinite loop.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jan 2010 11:18:43 +0100
 
 kdepimlibs (4:4.3.4-1) unstable; urgency=low
 

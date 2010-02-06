@@ -5,6 +5,7 @@ usr/lib/kde4/kabc_net.so
 usr/lib/kde4/kabcformat_binary.so
 usr/lib/kde4/kcal_local.so
 usr/lib/kde4/kcal_localdir.so
+usr/lib/kde4/kcm_akonadicontact_actions.so
 usr/lib/kde4/kcm_kresources.so
 usr/lib/kde4/kcm_mailtransport.so
 usr/lib/kde4/kio_imap4.so
@@ -14,8 +15,12 @@ usr/lib/kde4/kio_nntp.so
 usr/lib/kde4/kio_pop3.so
 usr/lib/kde4/kio_sieve.so
 usr/lib/kde4/kio_smtp.so
+usr/lib/libakonadi-contact.so.4
+usr/lib/libakonadi-contact.so.4.4.0
 usr/lib/libakonadi-kabc.so.4
 usr/lib/libakonadi-kabc.so.4.4.0
+usr/lib/libakonadi-kcal.so.4
+usr/lib/libakonadi-kcal.so.4.4.0
 usr/lib/libakonadi-kde.so.4
 usr/lib/libakonadi-kde.so.4.4.0
 usr/lib/libakonadi-kmime.so.4
@@ -42,6 +47,8 @@ usr/lib/libkldap.so.4
 usr/lib/libkldap.so.4.4.0
 usr/lib/libkmime.so.4
 usr/lib/libkmime.so.4.4.0
+usr/lib/libkontactinterface.so.4
+usr/lib/libkontactinterface.so.4.4.0
 usr/lib/libkpimidentities.so.4
 usr/lib/libkpimidentities.so.4.4.0
 usr/lib/libkpimtextedit.so.4

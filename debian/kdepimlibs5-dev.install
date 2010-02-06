@@ -55,7 +55,6 @@ usr/include/KDE/Akonadi/SearchCreateJob
 usr/include/KDE/Akonadi/ServerManager
 usr/include/KDE/Akonadi/Session
 usr/include/KDE/Akonadi/StandardActionManager
-usr/include/KDE/Akonadi/TransactionJobs
 usr/include/KDE/Akonadi/TransactionSequence
 usr/include/KDE/Akonadi/UnlinkJob
 usr/include/KDE/KABC/Address
@@ -123,7 +122,6 @@ usr/include/KDE/KCal/FreeBusyCache
 usr/include/KDE/KCal/FreeBusyPeriod
 usr/include/KDE/KCal/FreeBusyUrlStore
 usr/include/KDE/KCal/HtmlExport
-usr/include/KDE/KCal/HtmlExportSettings
 usr/include/KDE/KCal/ICalDrag
 usr/include/KDE/KCal/ICalFormat
 usr/include/KDE/KCal/ICalTimeZones
@@ -132,7 +130,6 @@ usr/include/KDE/KCal/Incidence
 usr/include/KDE/KCal/IncidenceBase
 usr/include/KDE/KCal/IncidenceFormatter
 usr/include/KDE/KCal/Journal
-usr/include/KDE/KCal/KCalVersion
 usr/include/KDE/KCal/KResult
 usr/include/KDE/KCal/ListBase
 usr/include/KDE/KCal/Period
@@ -141,7 +138,6 @@ usr/include/KDE/KCal/QtopiaFormat
 usr/include/KDE/KCal/Recurrence
 usr/include/KDE/KCal/RecurrenceRule
 usr/include/KDE/KCal/ResourceCached
-usr/include/KDE/KCal/ResourceCachedConfig
 usr/include/KDE/KCal/ResourceCalendar
 usr/include/KDE/KCal/ResourceLocal
 usr/include/KDE/KCal/ResourceLocalConfig
@@ -162,7 +158,6 @@ usr/include/KDE/KLDAP/LdapConfigWidget
 usr/include/KDE/KLDAP/LdapConnection
 usr/include/KDE/KLDAP/LdapControl
 usr/include/KDE/KLDAP/LdapDN
-usr/include/KDE/KLDAP/LdapDefs
 usr/include/KDE/KLDAP/LdapModel
 usr/include/KDE/KLDAP/LdapObject
 usr/include/KDE/KLDAP/LdapOperation
@@ -182,7 +177,6 @@ usr/include/KDE/KPIMUtils/Email
 usr/include/KDE/KPIMUtils/KFileIO
 usr/include/KDE/KPIMUtils/LinkLocator
 usr/include/KDE/KPIMUtils/SpellingFilter
-usr/include/KDE/KPIMUtils/SuperTrait
 usr/include/KDE/KResources/ConfigDialog
 usr/include/KDE/KResources/ConfigPage
 usr/include/KDE/KResources/ConfigWidget

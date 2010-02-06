@@ -1,3 +1,13 @@
+kdepimlibs (4:4.4.0-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Bump kdelibs5-dev build-dependency to >= 4:4.4.0.
+  * Bump libakonadi-dev build-dependency to >= 1.3.0.
+  * Drop patch 01_imap4_kioslave_cpu_eater.diff. Included upstream.
+  * Update installed files.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Sat, 06 Feb 2010 23:26:17 +0200
+
 kdepimlibs (4:4.3.4-2) unstable; urgency=low
 
   [ Modestas Vainius ]

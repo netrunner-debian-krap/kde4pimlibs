@@ -1,12 +1,12 @@
 #!/usr/bin/make -f
 
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+
 #UPSTREAMVERSION := 4:4.1.3
 
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT=on
 
-DEB_DH_MAKESHLIBS_ARGS_kdepimlibs5 := -V$(if $(UPSTREAMVERSION),'kdepimlibs5 (>= $(UPSTREAMVERSION))',)
+$(foreach p,$(filter lib%, $(DEB_ARCH_PACKAGES)),$(eval DEB_DH_MAKESHLIBS_ARGS_$(p) := -V$(if $(UPSTREAMVERSION),'$(p) (>= $(UPSTREAMVERSION))',)))
 
 # get rid of the dependency on kdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_ALL:=-- -xkdebase-runtime
-
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk

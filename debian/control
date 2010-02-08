@@ -15,41 +15,414 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdepimlibs
 
 Package: kdepimlibs5
 Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, kdepimlibs-data (>= ${source:Version}), libsasl2-modules
-Replaces: akonadi-kde (<< 4:4.1.80), libkholidays4 (<< 4:4.2.90), kdepim-runtime (<< 4:4.4.0)
-Conflicts: libkholidays4 (<< 4:4.2.90)
-Description: core libraries for KDE PIM 4 applications
- This package contains Personal Information Management libraries needed to run
- KDE 4 applications.
- .
- This package is part of the KDE 4 PIM libraries module.
-
-Package: kdepimlibs-data
-Section: libs
 Architecture: all
-Replaces: libkholidays4 (<< 4:4.2.90), libkontactinterfaces4
-Description: core shared data for KDE PIM 4 applications
- This package contains architecture-independent Personal Information Management
- data files needed to run KDE 4 applications.
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ kdepimlibs-kio-plugins (= ${binary:Version}),
+ libakonadi-kabc4 (= ${binary:Version}),
+ libakonadi-kde4 (= ${binary:Version}),
+ libakonadi-kmime4 (= ${binary:Version}),
+ libgpgme++2 (= ${binary:Version}),
+ libkabc4 (= ${binary:Version}),
+ libkblog4 (= ${binary:Version}),
+ libkcal4 (= ${binary:Version}),
+ libkholidays4 (= ${binary:Version}),
+ libkimap4 (= ${binary:Version}),
+ libkldap4 (= ${binary:Version}),
+ libkmime4 (= ${binary:Version}),
+ libkpimidentities4 (= ${binary:Version}),
+ libkpimtextedit4 (= ${binary:Version}),
+ libkpimutils4 (= ${binary:Version}),
+ libkresources4 (= ${binary:Version}),
+ libktnef4 (= ${binary:Version}),
+ libkxmlrpcclient4 (= ${binary:Version}),
+ libmailtransport4 (= ${binary:Version}),
+ libmicroblog4 (= ${binary:Version}),
+ libqgpgme1 (= ${binary:Version}),
+ libsyndication4 (= ${binary:Version})
+Description: the KDE Development Platform PIM libraries (transitional package)
+ This is a dummy package to ease transition to the new library packages.
  .
- This package is part of the KDE 4 PIM libraries module.
+ This package is part of the KDE Development Platform PIM libraries module.
 
 Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
-Depends: kdepimlibs5 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev},
+Depends: ${sameVersionDep:kdelibs5-dev:libakonadi-kde4},
+ libakonadi-contact4 (= ${binary:Version}),
+ libakonadi-kabc4 (= ${binary:Version}),
+ libakonadi-kcal4 (= ${binary:Version}),
+ libakonadi-kde4 (= ${binary:Version}),
+ libakonadi-kmime4 (= ${binary:Version}),
+ libgpgme++2 (= ${binary:Version}),
+ libkabc4 (= ${binary:Version}),
+ libkblog4 (= ${binary:Version}),
+ libkcal4 (= ${binary:Version}),
+ libkholidays4 (= ${binary:Version}),
+ libkimap4 (= ${binary:Version}),
+ libkldap4 (= ${binary:Version}),
+ libkmime4 (= ${binary:Version}),
+ libkontactinterface4 (= ${binary:Version}),
+ libkpimidentities4 (= ${binary:Version}),
+ libkpimtextedit4 (= ${binary:Version}),
+ libkpimutils4 (= ${binary:Version}),
+ libkresources4 (= ${binary:Version}),
+ libktnef4 (= ${binary:Version}),
+ libkxmlrpcclient4 (= ${binary:Version}),
+ libmailtransport4 (= ${binary:Version}),
+ libmicroblog4 (= ${binary:Version}),
+ libqgpgme1 (= ${binary:Version}),
+ libsyndication4 (= ${binary:Version})
 Replaces: kdepimlibs-data (<< 4:4.1.80)
 Conflicts: libkleopatra1-dev
-Description: development files for the KDE 4 PIM libraries
+Description: development files for the KDE Development Platform PIM libraries
  This package contains development files for building software that uses
- the KDE 4 Personal Information Management libraries.
+ the KDE Development Platform Personal Information Management libraries.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: kdepimlibs-kio-plugins
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsasl2-modules
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: kio slaves used by KDE PIM applications
+ This package contains the imap4, ldap, mbox, nntp, pop3, sieve and smtp kio
+ slaves.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libakonadi-contact4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepim-runtime (<< 4:4.4.0)
+Description: library for using the Akonadi PIM data server
+ This is the client access library for using the Akonadi PIM data server.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libakonadi-kabc4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), akonadi-kde (<< 4:4.1.80)
+Description: library for using the Akonadi PIM data server
+ This is the client access library for using the Akonadi PIM data server.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libakonadi-kcal4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepim-runtime (<< 4:4.4.0), akonadi-kde (<< 4:4.1.80)
+Description: library for using the Akonadi PIM data server
+ This is the client access library for using the Akonadi PIM data server.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libakonadi-kde4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: library for using the Akonadi PIM data server
+ This is the client access library for using the Akonadi PIM data server.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libakonadi-kmime4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: library for using the Akonadi PIM data server
+ This is the client access library for using the Akonadi PIM data server.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libgpgme++2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: c++ wrapper library for gpgme
+ GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
+ (GnuPG Made Easy) library.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkabc4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: library for handling address book data
+ This library provides an API for address book data. It includes features
+ such as:
+  * Value based interface, addressbook entry data is implicitly shared.
+  * Address book entries are identified by a unique id.
+  * vCard backend (RFC 2425 / RFC 2426).
+  * Locking mechanism to support concurrent access to the address book by
+    multiple processes.
+  * Notification on change of addressbook by other process.
+  * Dialog for selecting address book entries, supports mouse and keyboard
+    selection, supports automatic name completion.
+  * GUI client for viewing, modifying address book data. This is aimed at
+    developers not end users.
+  * Tool for converting data, written with libkab, to libkabc format.
+  * Multiple backends (resources) for storing entries e.g. LDAP
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkblog4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: client-side support library for web application remote blogging APIs
+ KBlog is a library for calling functions on Blogger 1.0, MetaWeblog,
+ MovableType and GData compatible blogs. It calls the APIs using KXmlRpcClient
+ and Syndication. It supports asynchronous sending and fetching of posts and,
+ if supported on the server, multimedia files. Almost every modern blogging web
+ application that provides an XML data interface supports one of the APIs
+ mentioned above.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkcal4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: library for handling calendar data
+ This library provides access to and handling of calendar data. It supports
+ the standard formats iCalendar and vCalendar and the group scheduling
+ standard iTIP.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkholidays4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: holidays calculation library
+ This library provides a C++ API that determines holiday and other special
+ events for a geographical region.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkimap4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for handling IMAP data
+ This library provides an API for handling data received from IMAP services.
+ IMAP (Internet Message Access Protocol) is one of the two most prevalent
+ Internet standard protocols for e-mail retrieval.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkldap4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for accessing LDAP
+ This is a library for accessing LDAP with a convenient Qt style C++ API.
+ LDAP (Lightweight Directory Access Protocol) is an application protocol
+ for querying and modifying directory services running over TCP/IP.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkmime4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for handling MIME data
+ This library provides an API for handling MIME data. MIME (Multipurpose
+ Internet Mail Extensions) is an Internet Standard that extends the format
+ of e-mail to support text in character sets other than US-ASCII, non-text
+ attachments, multi-part message bodies, and header information in non-ASCII
+ character sets.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkontactinterface4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libkontactinterfaces4
+Replaces: kontact (<< 4:4.1.80), libkontactinterfaces4
+Description: Kontact interface library
+ This library provides the glue necessary for application "Parts" to be
+ embedded as a Kontact component (or plugin).
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkpimidentities4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for managing user identities
+ This library provides an API for managing user identities.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkpimtextedit4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library that provides a textedit with PIM-specific features
+ KPIMTextedit provides a textedit with PIM-specific features. It also provides
+ so-called rich text builders which can convert the formatted text in the text
+ edit to all kinds of markup, like HTML or BBCODE.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkpimutils4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for dealing with email addresses
+ This library contains utility functions for dealing with email addresses.
+ This includes parsing, splitting and munging email addresses represented
+ as strings (e.g. in email headers); some additional functions handle
+ non-latin1 upper- and lower-case conversions.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkresources4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: the KDE Resource framework library
+ This library provides a framework for managing resources of different types,
+ organized in families. The Resource framework is for example used for
+ addressbook resources in libkabc and for calendar resources in libkcal.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libktnef4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for handling TNEF data
+ Ktnef is a library for handling data in the TNEF format (Transport Neutral
+ Encapsulation Format, a proprietary format of e-mail attachment used by
+ Microsoft Outlook and Microsoft Exchange Server). The API permits access
+ to the actual attachments, the message properties (TNEF/MAPI), and allows
+ one to view/extract message formatted text in Rich Text Format.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkxmlrpcclient4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: simple XML-RPC client library
+ This library contains simple XML-RPC client support. It is used mainly by the
+ egroupware module of kdepim, but is a complete client and is quite easy to use.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libmailtransport4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Conflicts: kdepimlibs-data
+Description: mail transport service library
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package also contains a KDE control module which can be embedded
+ into your application to provide mail transport configuration.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libmicroblog4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for using the Microblog Akonadi Resource
+ Microblog is a library that provides some helper functions for using
+ the Microblog Akonadi Resource.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libqgpgme1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: library for GpgME++ integration with Qt
+ QGpgME is a library that provides GpgME++ integration with QEventLoop
+ and some Qt datatypes (e.g. QByteArray).
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libsyndication4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0)
+Description: parser library for RSS and Atom feeds
+ Syndication is a parser library for RSS and Atom feeds. It offers a unified,
+ format-agnostic view on the parsed feed, so that the using application does
+ not need to distinguish between feed formats.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
 
 Package: kdepimlibs-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdepimlibs5 (= ${binary:Version}), kdelibs5-dbg, libc6-dbg [amd64]
-Description: debugging symbols for the KDE 4 PIM libraries
+Depends: kdelibs5-dbg, libc6-dbg [amd64],
+ libakonadi-contact4 (= ${binary:Version}),
+ libakonadi-kabc4 (= ${binary:Version}),
+ libakonadi-kcal4 (= ${binary:Version}),
+ libakonadi-kde4 (= ${binary:Version}),
+ libakonadi-kmime4 (= ${binary:Version}),
+ libgpgme++2 (= ${binary:Version}),
+ libkabc4 (= ${binary:Version}),
+ libkblog4 (= ${binary:Version}),
+ libkcal4 (= ${binary:Version}),
+ libkholidays4 (= ${binary:Version}),
+ libkimap4 (= ${binary:Version}),
+ libkldap4 (= ${binary:Version}),
+ libkmime4 (= ${binary:Version}),
+ libkontactinterface4 (= ${binary:Version}),
+ libkpimidentities4 (= ${binary:Version}),
+ libkpimtextedit4 (= ${binary:Version}),
+ libkpimutils4 (= ${binary:Version}),
+ libkresources4 (= ${binary:Version}),
+ libktnef4 (= ${binary:Version}),
+ libkxmlrpcclient4 (= ${binary:Version}),
+ libmailtransport4 (= ${binary:Version}),
+ libmicroblog4 (= ${binary:Version}),
+ libqgpgme1 (= ${binary:Version}),
+ libsyndication4 (= ${binary:Version})
+Description: debugging symbols for the KDE Development Platform PIM libraries
  This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 PIM libraries module.
+ binaries included in the KDE Development Platform PIM libraries module.

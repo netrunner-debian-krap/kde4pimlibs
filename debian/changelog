@@ -1,6 +1,8 @@
 kdepimlibs (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+ 
+  [ George Kiagiadakis ]
   * Bump kdelibs5-dev build-dependency to >= 4:4.4.0.
   * Bump libakonadi-dev build-dependency to >= 1.3.0.
   * Drop patch 01_imap4_kioslave_cpu_eater.diff. Included upstream.
@@ -9,10 +11,14 @@ kdepimlibs (4:4.4.0-0r1) UNRELEASED; urgency=low
     kdepimlibs5 a transitional package and kill kdepimlibs-data.
   * Adjust descriptions to match KDE's new branding.
 
+  [ Pino Toscano ]
+  * Add patch 01_hurd_support.diff to hopefully fix (even if not in the most
+    elegant way) the compilation on GNU/Hurd.
+
   * TODO: find out what else needs to depend on the kioslaves
     apart from the transitional package.
 
- -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Mon, 08 Feb 2010 12:47:40 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Feb 2010 15:16:59 +0100
 
 kdepimlibs (4:4.3.4-2) unstable; urgency=low
 

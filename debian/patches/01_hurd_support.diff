@@ -1,0 +1,26 @@
+--- a/kholidays/parseholiday.c
++++ b/kholidays/parseholiday.c
+@@ -170,6 +170,10 @@
+ 
+ #include <limits.h>
+ 
++#ifndef PATH_MAX
++# define PATH_MAX 1024
++#endif
++
+ /*** Macro definitions and constants ***/
+ /*
+  * Before you mail and complain that the following macro is incorrect,
+--- a/kholidays/parseholiday.y
++++ b/kholidays/parseholiday.y
+@@ -49,6 +49,10 @@
+ 
+ #include <limits.h>
+ 
++#ifndef PATH_MAX
++# define PATH_MAX 1024
++#endif
++
+ /*** Macro definitions and constants ***/
+ /*
+  * Before you mail and complain that the following macro is incorrect,

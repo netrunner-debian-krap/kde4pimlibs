@@ -15,10 +15,13 @@ kdepimlibs (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Add patch 01_hurd_support.diff to hopefully fix (even if not in the most
     elegant way) the compilation on GNU/Hurd.
 
+  [ Changes by Ana Beatriz Guerrero Lopez ]
+  * Add build depends on shared-mime-info.
+
   * TODO: find out what else needs to depend on the kioslaves
     apart from the transitional package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Feb 2010 15:16:59 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Feb 2010 23:58:23 +0100
 
 kdepimlibs (4:4.3.4-2) unstable; urgency=low
 

@@ -431,7 +431,6 @@ Legend:
             DFARS 252.227-7013 or 48 CFR 52.227-19, as applicable.
 
 On Debian systems, you can find the complete texts of these licenses at:
-  - GPL:      /usr/share/common-licenses/GPL
   - GPLv2:    /usr/share/common-licenses/GPL-2
   - LGPLv2:   /usr/share/common-licenses/LGPL-2
   - GFDL:     /usr/share/common-licenses/GFDL
@@ -873,5 +872,5 @@ On Debian systems, you can find the complete texts of these licenses at:
 
 -------------------------------------------------------------------------------
 
-The Debian packaging is Copyright (C) 2007-2009, Debian Qt/KDE Maintainers and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+The Debian packaging is Copyright (C) 2007-2010, Debian Qt/KDE Maintainers and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL-2'.

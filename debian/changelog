@@ -32,6 +32,8 @@ kdepimlibs (4:4.4.0-0r2) UNRELEASED; urgency=low
   * Clean up debian/rules a bit.
   * Drop obsolete kdepimlibs5-dev presubj.
   * Add ${perl:Depends} subst to libmailtransport4 Depends.
+  * Remove unused reference to versionless GPL from debian/copyright.
+  * Bump packaging copyright years.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Feb 2010 23:58:23 +0100
 

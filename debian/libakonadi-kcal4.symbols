@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libakonadi-kcal.so.4 libakonadi-kcal4 #MINVER#
+* Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi24IncidenceMimeTypeVisitor12todoMimeTypeEv@Base 4:4.4.0
  _ZN7Akonadi24IncidenceMimeTypeVisitor13eventMimeTypeEv@Base 4:4.4.0
  _ZN7Akonadi24IncidenceMimeTypeVisitor15journalMimeTypeEv@Base 4:4.4.0

@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libgpgme++-pth.so.2 libgpgme++2 #MINVER#
+* Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC1Ev@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC2EP18_gpgme_engine_info@Base 4:4.3.4
@@ -721,6 +722,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZTVN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTVN5GpgME9TrustItemE@Base 4:4.3.4
 libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
+* Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC1Ev@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC2EP18_gpgme_engine_info@Base 4:4.3.4
@@ -1442,6 +1444,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTVN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTVN5GpgME9TrustItemE@Base 4:4.3.4
 libgpgme++.so.2 libgpgme++2 #MINVER#
+* Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC1Ev@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC2EP18_gpgme_engine_info@Base 4:4.3.4

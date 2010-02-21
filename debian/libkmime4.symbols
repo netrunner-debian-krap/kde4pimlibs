@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libkmime.so.4 libkmime4 #MINVER#
+* Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN5KMime12ContentIndexE@Base 4:4.3.4
  _ZN5KMime11NewsArticle10followUpToEb@Base 4:4.3.4
  _ZN5KMime11NewsArticle10newsgroupsEb@Base 4:4.3.4

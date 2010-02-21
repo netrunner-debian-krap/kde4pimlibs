@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libkontactinterface.so.4 libkontactinterface4 #MINVER#
+* Build-Depends-Package: kdepimlibs5-dev
  _ZN16KontactInterface16UniqueAppHandler11newInstanceERK10QByteArrayS3_@Base 4:4.4.0
  _ZN16KontactInterface16UniqueAppHandler11newInstanceEv@Base 4:4.4.0
  _ZN16KontactInterface16UniqueAppHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0

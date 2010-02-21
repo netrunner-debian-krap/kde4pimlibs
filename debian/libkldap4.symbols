@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkldap.so.4 libkldap4 #MINVER#
+* Build-Depends-Package: kdepimlibs5-dev
  _ZN5KLDAP10LdapObject13setAttributesERK4QMapI7QString5QListI10QByteArrayEE@Base 4:4.3.4
  _ZN5KLDAP10LdapObject5clearEv@Base 4:4.3.4
  _ZN5KLDAP10LdapObject5setDnERK7QString@Base 4:4.3.4

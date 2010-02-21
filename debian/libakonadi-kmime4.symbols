@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
 libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi11MessagePart4BodyE@Base 4:4.3.4
@@ -109,7 +109,6 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#
  _ZNK7Akonadi25MessageThreadingAttribute5cloneEv@Base 4:4.3.4
  _ZNK7Akonadi32SpecialMailCollectionsRequestJob10metaObjectEv@Base 4:4.4.0
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN5boost10shared_ptrIN5KMime7MessageEEEEET_v@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZNK7Akonadi6Entity9attributeINS_25MessageThreadingAttributeEEEPT_v@Base 4:4.3.4
  _ZTIN7Akonadi12MessageModelE@Base 4:4.3.4
  _ZTIN7Akonadi16AddressAttributeE@Base 4:4.4.0
  _ZTIN7Akonadi22MessageFolderAttributeE@Base 4:4.4.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.0 i386
 libkresources.so.4 libkresources4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KRES10ConfigPage10slotRemoveEv@Base 4:4.3.4
@@ -134,8 +134,6 @@ libkresources.so.4 libkresources4 #MINVER#
  _ZN4KRES8ResourceD0Ev@Base 4:4.3.4
  _ZN4KRES8ResourceD1Ev@Base 4:4.3.4
  _ZN4KRES8ResourceD2Ev@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !hppa)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:4.3.4
  _ZNK4KRES10ConfigPage10metaObjectEv@Base 4:4.3.4
  _ZNK4KRES11ManagerImpl10metaObjectEv@Base 4:4.3.4
  _ZNK4KRES12ConfigDialog10metaObjectEv@Base 4:4.3.4

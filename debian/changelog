@@ -1,4 +1,4 @@
-kdepimlibs (4:4.4.0-0r3) UNRELEASED; urgency=low
+kdepimlibs (4:4.4.0-0r4) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -40,6 +40,7 @@ kdepimlibs (4:4.4.0-0r3) UNRELEASED; urgency=low
   * Add ${perl:Depends} subst to libmailtransport4 Depends.
   * Remove unused reference to versionless GPL from debian/copyright.
   * Bump packaging copyright years.
+  * Add lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Feb 2010 23:58:23 +0100
 

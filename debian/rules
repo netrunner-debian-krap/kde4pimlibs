@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-DEB_DH_MAKESHLIBS_ARGS_ALL = -V
+DEB_DH_MAKESHLIBS_ARGS_ALL = -V -- -c0
 
 # Get rid of the dependency on kdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_ALL:=-- -xkdebase-runtime

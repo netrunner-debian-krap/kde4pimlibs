@@ -41,6 +41,7 @@ kdepimlibs (4:4.4.0-0r4) UNRELEASED; urgency=low
   * Remove unused reference to versionless GPL from debian/copyright.
   * Bump packaging copyright years.
   * Add lintian overrides.
+  * Drop obsolete README.Debian.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Feb 2010 23:58:23 +0100
 

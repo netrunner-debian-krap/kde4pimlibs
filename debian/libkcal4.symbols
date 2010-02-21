@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libkcal.so.4 libkcal4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  Parse_MIME@Base 4:4.3.4
@@ -38,6 +38,7 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal10DndFactory15createDropEventEPK9QMimeData@Base 4:4.3.4
  _ZN4KCal10DndFactory18createDropCalendarEP10QDropEvent@Base 4:4.3.4
  _ZN4KCal10DndFactory18createDropCalendarEPK9QMimeData@Base 4:4.3.4
+ _ZN4KCal10DndFactory18createDropCalendarEPK9QMimeDataRKN9KDateTime4SpecE@Base 4:4.4.0
  _ZN4KCal10DndFactoryC1EPNS_8CalendarE@Base 4:4.3.4
  _ZN4KCal10DndFactoryC2EPNS_8CalendarE@Base 4:4.3.4
  _ZN4KCal10DndFactoryD1Ev@Base 4:4.3.4
@@ -639,6 +640,7 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal17CalendarResources18dialogParentWidgetEv@Base 4:4.3.4
  _ZN4KCal17CalendarResources18rawJournalsForDateERK5QDate@Base 4:4.3.4
  _ZN4KCal17CalendarResources18signalErrorMessageERK7QString@Base 4:4.3.4
+ _ZN4KCal17CalendarResources19endAddingIncidencesEv@Base 4:4.4.0
  _ZN4KCal17CalendarResources19signalResourceAddedEPNS_16ResourceCalendarE@Base 4:4.3.4
  _ZN4KCal17CalendarResources20AskDestinationPolicy11destinationEPNS_9IncidenceE@Base 4:4.3.4
  _ZN4KCal17CalendarResources20AskDestinationPolicyC1EPN4KRES7ManagerINS_16ResourceCalendarEEEP7QWidget@Base 4:4.3.4
@@ -649,6 +651,7 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal17CalendarResources20decrementChangeCountEPNS_16ResourceCalendarE@Base 4:4.3.4
  _ZN4KCal17CalendarResources20hasCalendarResourcesEv@Base 4:4.3.4
  _ZN4KCal17CalendarResources20incrementChangeCountEPNS_16ResourceCalendarE@Base 4:4.3.4
+ _ZN4KCal17CalendarResources21beginAddingIncidencesEv@Base 4:4.4.0
  _ZN4KCal17CalendarResources21setDialogParentWidgetEP7QWidget@Base 4:4.3.4
  _ZN4KCal17CalendarResources21signalResourceDeletedEPNS_16ResourceCalendarE@Base 4:4.3.4
  _ZN4KCal17CalendarResources22signalResourceModifiedEPNS_16ResourceCalendarE@Base 4:4.3.4
@@ -728,14 +731,17 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal18ICalTimeZoneSourceD1Ev@Base 4:4.3.4
  _ZN4KCal18ICalTimeZoneSourceD2Ev@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter10toolTipStrEPNS_13IncidenceBaseEbN9KDateTime4SpecE@Base 4:4.3.4
+ _ZN4KCal18IncidenceFormatter10toolTipStrEPNS_8CalendarEPNS_13IncidenceBaseERK5QDatebN9KDateTime4SpecE@Base 4:4.4.0
  _ZN4KCal18IncidenceFormatter11mailBodyStrEPNS_13IncidenceBaseEN9KDateTime4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter12dateToStringERK9KDateTimebRKNS1_4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter12timeToStringERK9KDateTimebRKNS1_4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter13toolTipStringEPNS_13IncidenceBaseEb@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter14mailBodyStringEPNS_13IncidenceBaseE@Base 4:4.3.4
+ _ZN4KCal18IncidenceFormatter14resourceStringEPNS_8CalendarEPNS_9IncidenceE@Base 4:4.4.0
  _ZN4KCal18IncidenceFormatter16dateTimeToStringERK9KDateTimebbRKNS1_4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter16recurrenceStringEPNS_9IncidenceE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter19extensiveDisplayStrEPNS_13IncidenceBaseEN9KDateTime4SpecE@Base 4:4.3.4
+ _ZN4KCal18IncidenceFormatter19extensiveDisplayStrEPNS_8CalendarEPNS_13IncidenceBaseERK5QDateN9KDateTime4SpecE@Base 4:4.4.0
  _ZN4KCal18IncidenceFormatter20formatICalInvitationE7QStringPNS_8CalendarEPNS_25InvitationFormatterHelperE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter22extensiveDisplayStringEPNS_13IncidenceBaseE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter26formatICalInvitationNoHtmlE7QStringPNS_8CalendarEPNS_25InvitationFormatterHelperE@Base 4:4.3.4
@@ -910,6 +916,8 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal8Attendee10statusNameENS0_8PartStatE@Base 4:4.3.4
  _ZN4KCal8Attendee11setDelegateERK7QString@Base 4:4.3.4
  _ZN4KCal8Attendee12setDelegatorERK7QString@Base 4:4.3.4
+ _ZN4KCal8Attendee16customPropertiesEv@Base 4:4.4.0
+ _ZN4KCal8Attendee17setCustomPropertyERK10QByteArrayRK7QString@Base 4:4.4.0
  _ZN4KCal8Attendee6setUidERK7QString@Base 4:4.3.4
  _ZN4KCal8Attendee7setRSVPEb@Base 4:4.3.4
  _ZN4KCal8Attendee7setRoleENS0_4RoleE@Base 4:4.3.4
@@ -943,7 +951,9 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal8Calendar13rawIncidencesEv@Base 4:4.3.4
  _ZN4KCal8Calendar13setTimeZoneIdERK7QString@Base 4:4.3.4
  _ZN4KCal8Calendar14calendarLoadedEv@Base 4:4.3.4
+ _ZN4KCal8Calendar14endBatchAddingEv@Base 4:4.4.0
  _ZN4KCal8Calendar14setupRelationsEPNS_9IncidenceE@Base 4:4.3.4
+ _ZN4KCal8Calendar15batchAddingEndsEv@Base 4:4.4.0
  _ZN4KCal8Calendar15calendarChangedEv@Base 4:4.3.4
  _ZN4KCal8Calendar15deleteIncidenceEPNS_9IncidenceE@Base 4:4.3.4
  _ZN4KCal8Calendar15removeRelationsEPNS_9IncidenceE@Base 4:4.3.4
@@ -951,9 +961,11 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal8Calendar16CalendarObserver22calendarIncidenceAddedEPNS_9IncidenceE@Base 4:4.3.4
  _ZN4KCal8Calendar16CalendarObserver24calendarIncidenceChangedEPNS_9IncidenceE@Base 4:4.3.4
  _ZN4KCal8Calendar16CalendarObserver24calendarIncidenceDeletedEPNS_9IncidenceE@Base 4:4.3.4
+ _ZN4KCal8Calendar16beginBatchAddingEv@Base 4:4.4.0
  _ZN4KCal8Calendar16incidenceUpdatedEPNS_13IncidenceBaseE@Base 4:4.3.4
  _ZN4KCal8Calendar16registerObserverEPNS0_16CalendarObserverE@Base 4:4.3.4
  _ZN4KCal8Calendar16staticMetaObjectE@Base 4:4.3.4
+ _ZN4KCal8Calendar17batchAddingBeginsEv@Base 4:4.4.0
  _ZN4KCal8Calendar18mergeIncidenceListERKNS_8ListBaseINS_5EventEEERKNS1_INS_4TodoEEERKNS1_INS_7JournalEEE@Base 4:4.3.4
  _ZN4KCal8Calendar18unregisterObserverEPNS0_16CalendarObserverE@Base 4:4.3.4
  _ZN4KCal8Calendar19setObserversEnabledEb@Base 4:4.3.4
@@ -1011,6 +1023,7 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal8FreeBusy10shiftTimesERKN9KDateTime4SpecES4_@Base 4:4.3.4
  _ZN4KCal8FreeBusy5mergeEPS0_@Base 4:4.3.4
  _ZN4KCal8FreeBusy7Private14addLocalPeriodEPS0_RK9KDateTimeS5_@Base 4:4.3.4
+ _ZN4KCal8FreeBusy7Private4initERKNS_8ListBaseINS_5EventEEERK9KDateTimeS9_@Base 4:4.4.0
  _ZN4KCal8FreeBusy7Private4initERKS1_@Base 4:4.3.4
  _ZN4KCal8FreeBusy8setDtEndERK9KDateTime@Base 4:4.3.4
  _ZN4KCal8FreeBusy8sortListEv@Base 4:4.3.4
@@ -1020,12 +1033,14 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal8FreeBusyC1ERK5QListINS_14FreeBusyPeriodEE@Base 4:4.3.4
  _ZN4KCal8FreeBusyC1ERK5QListINS_6PeriodEE@Base 4:4.3.4
  _ZN4KCal8FreeBusyC1ERK9KDateTimeS3_@Base 4:4.3.4
+ _ZN4KCal8FreeBusyC1ERKNS_8ListBaseINS_5EventEEERK9KDateTimeS8_@Base 4:4.4.0
  _ZN4KCal8FreeBusyC1ERKS0_@Base 4:4.3.4
  _ZN4KCal8FreeBusyC1Ev@Base 4:4.3.4
  _ZN4KCal8FreeBusyC2EPNS_8CalendarERK9KDateTimeS5_@Base 4:4.3.4
  _ZN4KCal8FreeBusyC2ERK5QListINS_14FreeBusyPeriodEE@Base 4:4.3.4
  _ZN4KCal8FreeBusyC2ERK5QListINS_6PeriodEE@Base 4:4.3.4
  _ZN4KCal8FreeBusyC2ERK9KDateTimeS3_@Base 4:4.3.4
+ _ZN4KCal8FreeBusyC2ERKNS_8ListBaseINS_5EventEEERK9KDateTimeS8_@Base 4:4.4.0
  _ZN4KCal8FreeBusyC2ERKS0_@Base 4:4.3.4
  _ZN4KCal8FreeBusyC2Ev@Base 4:4.3.4
  _ZN4KCal8FreeBusyD0Ev@Base 4:4.3.4
@@ -1069,6 +1084,10 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal9CalFormatD0Ev@Base 4:4.3.4
  _ZN4KCal9CalFormatD1Ev@Base 4:4.3.4
  _ZN4KCal9CalFormatD2Ev@Base 4:4.3.4
+ _ZN4KCal9CalHelper14usingGroupwareEPNS_8CalendarE@Base 4:4.4.0
+ _ZN4KCal9CalHelper18isMyKolabIncidenceEPNS_8CalendarEPNS_9IncidenceE@Base 4:4.4.0
+ _ZN4KCal9CalHelper21isMyCalendarIncidenceEPNS_8CalendarEPNS_9IncidenceE@Base 4:4.4.0
+ _ZN4KCal9CalHelper28findMyCalendarIncidenceByUidEPNS_8CalendarERK7QString@Base 4:4.4.0
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEE5visitEPNS_4TodoE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEE5visitEPNS_5EventE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEE5visitEPNS_7JournalE@Base 4:4.3.4
@@ -1138,13 +1157,16 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZN4KCal9Scheduler10methodNameENS_10iTIPMethodE@Base 4:4.3.4
  _ZN4KCal9Scheduler11acceptReplyEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusENS_10iTIPMethodE@Base 4:4.3.4
  _ZN4KCal9Scheduler12acceptCancelEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusE@Base 4:4.3.4
+ _ZN4KCal9Scheduler12acceptCancelEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusERK7QString@Base 4:4.4.0
  _ZN4KCal9Scheduler13acceptCounterEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusE@Base 4:4.3.4
  _ZN4KCal9Scheduler13acceptPublishEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusENS_10iTIPMethodE@Base 4:4.3.4
  _ZN4KCal9Scheduler13acceptRefreshEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusE@Base 4:4.3.4
  _ZN4KCal9Scheduler13acceptRequestEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusE@Base 4:4.3.4
+ _ZN4KCal9Scheduler13acceptRequestEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusERK7QString@Base 4:4.4.0
  _ZN4KCal9Scheduler14acceptFreeBusyEPNS_13IncidenceBaseENS_10iTIPMethodE@Base 4:4.3.4
  _ZN4KCal9Scheduler16setFreeBusyCacheEPNS_13FreeBusyCacheE@Base 4:4.3.4
  _ZN4KCal9Scheduler17acceptTransactionEPNS_13IncidenceBaseENS_10iTIPMethodENS_15ScheduleMessage6StatusE@Base 4:4.3.4
+ _ZN4KCal9Scheduler17acceptTransactionEPNS_13IncidenceBaseENS_10iTIPMethodENS_15ScheduleMessage6StatusERK7QString@Base 4:4.4.0
  _ZN4KCal9Scheduler17deleteTransactionEPNS_13IncidenceBaseE@Base 4:4.3.4
  _ZN4KCal9Scheduler20acceptDeclineCounterEPNS_13IncidenceBaseENS_15ScheduleMessage6StatusE@Base 4:4.3.4
  _ZN4KCal9Scheduler20translatedMethodNameENS_10iTIPMethodE@Base 4:4.3.4
@@ -1339,11 +1361,14 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZNK4KCal4Todo10dtStartStrEbbRKN9KDateTime4SpecE@Base 4:4.3.4
  _ZNK4KCal4Todo10hasDueDateEv@Base 4:4.3.4
  _ZNK4KCal4Todo11isCompletedEv@Base 4:4.3.4
+ _ZNK4KCal4Todo11isOpenEndedEv@Base 4:4.4.0
  _ZNK4KCal4Todo12completedStrEb@Base 4:4.3.4
  _ZNK4KCal4Todo12dtDueDateStrEbRKN9KDateTime4SpecE@Base 4:4.3.4
  _ZNK4KCal4Todo12dtDueTimeStrEbRKN9KDateTime4SpecE@Base 4:4.3.4
  _ZNK4KCal4Todo12dtRecurrenceEv@Base 4:4.3.4
  _ZNK4KCal4Todo12hasStartDateEv@Base 4:4.3.4
+ _ZNK4KCal4Todo12isInProgressEb@Base 4:4.4.0
+ _ZNK4KCal4Todo12isNotStartedEb@Base 4:4.4.0
  _ZNK4KCal4Todo14dtStartDateStrEbRKN9KDateTime4SpecE@Base 4:4.3.4
  _ZNK4KCal4Todo14dtStartDateStrEbbRKN9KDateTime4SpecE@Base 4:4.3.4
  _ZNK4KCal4Todo14dtStartTimeStrEbRKN9KDateTime4SpecE@Base 4:4.3.4
@@ -1419,6 +1444,7 @@ libkcal.so.4 libkcal4 #MINVER#
  _ZNK4KCal7KResult7isErrorEv@Base 4:4.3.4
  _ZNK4KCal7KResult7messageEv@Base 4:4.3.4
  _ZNK4KCal7KResultcvbEv@Base 4:4.3.4
+ _ZNK4KCal8Attendee16customPropertiesEv@Base 4:4.4.0
  _ZNK4KCal8Attendee3uidEv@Base 4:4.3.4
  _ZNK4KCal8Attendee4RSVPEv@Base 4:4.3.4
  _ZNK4KCal8Attendee4roleEv@Base 4:4.3.4

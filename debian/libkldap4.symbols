@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libkldap.so.4 libkldap4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KLDAP10LdapObject13setAttributesERK4QMapI7QString5QListI10QByteArrayEE@Base 4:4.3.4
@@ -74,6 +74,7 @@ libkldap.so.4 libkldap4 #MINVER#
  _ZN5KLDAP11LdapControl10setControlERK7QStringRK10QByteArrayb@Base 4:4.3.4
  _ZN5KLDAP11LdapControl11setCriticalEb@Base 4:4.3.4
  _ZN5KLDAP11LdapControl17createPageControlEiRK10QByteArray@Base 4:4.3.4
+ _ZN5KLDAP11LdapControl6insertER5QListIS0_ERKS0_@Base 4:4.4.0
  _ZN5KLDAP11LdapControl6setOidERK7QString@Base 4:4.3.4
  _ZN5KLDAP11LdapControl8setValueERK10QByteArray@Base 4:4.3.4
  _ZN5KLDAP11LdapControlC1ER7QStringR10QByteArrayb@Base 4:4.3.4

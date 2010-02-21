@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.0 amd64
 libkpimidentities.so.4 libkpimidentities4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN14KPIMIdentities13IdentityCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -8,6 +8,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities13IdentityCombo15identityChangedEj@Base 4:4.3.4
  _ZN14KPIMIdentities13IdentityCombo15slotEmitChangedEi@Base 4:4.3.4
  _ZN14KPIMIdentities13IdentityCombo16staticMetaObjectE@Base 4:4.3.4
+ _ZN14KPIMIdentities13IdentityCombo17slotUpdateTooltipEj@Base 4:4.4.0
  _ZN14KPIMIdentities13IdentityCombo18setCurrentIdentityERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities13IdentityCombo18setCurrentIdentityERKNS_8IdentityE@Base 4:4.3.4
  _ZN14KPIMIdentities13IdentityCombo18setCurrentIdentityEj@Base 4:4.3.4
@@ -55,10 +56,15 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities21SignatureConfigurator12setSignatureERKNS_9SignatureE@Base 4:4.3.4
  _ZN14KPIMIdentities21SignatureConfigurator13setCommandURLERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities21SignatureConfigurator13setInlineTextERK7QString@Base 4:4.3.4
+ _ZN14KPIMIdentities21SignatureConfigurator16setImageLocationERK7QString@Base 4:4.4.0
+ _ZN14KPIMIdentities21SignatureConfigurator16setImageLocationERKNS_8IdentityE@Base 4:4.4.0
  _ZN14KPIMIdentities21SignatureConfigurator16setSignatureTypeENS_9Signature4TypeE@Base 4:4.3.4
  _ZN14KPIMIdentities21SignatureConfigurator16staticMetaObjectE@Base 4:4.3.4
  _ZN14KPIMIdentities21SignatureConfigurator19setSignatureEnabledEb@Base 4:4.3.4
  _ZN14KPIMIdentities21SignatureConfigurator20slotEnableEditButtonERK7QString@Base 4:4.3.4
+ _ZN14KPIMIdentities21SignatureConfigurator7Private4initEv@Base 4:4.4.0
+ _ZN14KPIMIdentities21SignatureConfigurator7PrivateC1EPS0_@Base 4:4.4.0
+ _ZN14KPIMIdentities21SignatureConfigurator7PrivateC2EPS0_@Base 4:4.4.0
  _ZN14KPIMIdentities21SignatureConfigurator8slotEditEv@Base 4:4.3.4
  _ZN14KPIMIdentities21SignatureConfiguratorC1EP7QWidget@Base 4:4.3.4
  _ZN14KPIMIdentities21SignatureConfiguratorC2EP7QWidget@Base 4:4.3.4
@@ -101,19 +107,27 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities8IdentityC2ERK7QStringS3_S3_S3_S3_@Base 4:4.3.4
  _ZN14KPIMIdentities8IdentityD1Ev@Base 4:4.3.4
  _ZN14KPIMIdentities8IdentityD2Ev@Base 4:4.3.4
+ _ZN14KPIMIdentities9Signature10assignFromERKS0_@Base 4:4.4.0
  _ZN14KPIMIdentities9Signature10readConfigERK12KConfigGroup@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature14setInlinedHtmlEb@Base 4:4.3.4
+ _ZN14KPIMIdentities9Signature16setImageLocationERK7QString@Base 4:4.4.0
  _ZN14KPIMIdentities9Signature18insertIntoTextEditEP13KRichTextEditNS0_9PlacementEb@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature32insertPlainSignatureIntoTextEditERK7QStringP13KRichTextEditNS0_9PlacementEb@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature6setUrlERK7QStringb@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature7setTextERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature7setTypeENS0_4TypeE@Base 4:4.3.4
+ _ZN14KPIMIdentities9Signature8addImageERK6QImageRK7QString@Base 4:4.4.0
  _ZN14KPIMIdentities9SignatureC1ERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities9SignatureC1ERK7QStringb@Base 4:4.3.4
+ _ZN14KPIMIdentities9SignatureC1ERKS0_@Base 4:4.4.0
  _ZN14KPIMIdentities9SignatureC1Ev@Base 4:4.3.4
  _ZN14KPIMIdentities9SignatureC2ERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities9SignatureC2ERK7QStringb@Base 4:4.3.4
+ _ZN14KPIMIdentities9SignatureC2ERKS0_@Base 4:4.4.0
  _ZN14KPIMIdentities9SignatureC2Ev@Base 4:4.3.4
+ _ZN14KPIMIdentities9SignatureD1Ev@Base 4:4.4.0
+ _ZN14KPIMIdentities9SignatureD2Ev@Base 4:4.4.0
+ _ZN14KPIMIdentities9SignatureaSERKS0_@Base 4:4.4.0
  _ZN14KPIMIdentitieslsER11QDataStreamRKNS_8IdentityE@Base 4:4.3.4
  _ZN14KPIMIdentitieslsER11QDataStreamRKNS_9SignatureE@Base 4:4.3.4
  _ZN14KPIMIdentitiesrsER11QDataStreamRNS_8IdentityE@Base 4:4.3.4
@@ -184,11 +198,15 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities8IdentityleERKS0_@Base 4:4.3.4
  _ZNK14KPIMIdentities8IdentityltERKS0_@Base 4:4.3.4
  _ZNK14KPIMIdentities8IdentityneERKS0_@Base 4:4.3.4
+ _ZNK14KPIMIdentities9Signature10saveImagesEv@Base 4:4.4.0
+ _ZNK14KPIMIdentities9Signature11toPlainTextEv@Base 4:4.4.0
  _ZNK14KPIMIdentities9Signature11writeConfigER12KConfigGroup@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature12textFromFileEPb@Base 4:4.3.4
+ _ZNK14KPIMIdentities9Signature13cleanupImagesEv@Base 4:4.4.0
  _ZNK14KPIMIdentities9Signature13isInlinedHtmlEv@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature13withSeparatorEPb@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature15textFromCommandEPb@Base 4:4.3.4
+ _ZNK14KPIMIdentities9Signature18insertIntoTextEditENS0_9PlacementE6QFlagsINS0_13AddedTextFlagEEPN12KPIMTextEdit8TextEditE@Base 4:4.4.0
  _ZNK14KPIMIdentities9Signature3urlEv@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature4textEv@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature4typeEv@Base 4:4.3.4

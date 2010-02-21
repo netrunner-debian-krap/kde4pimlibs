@@ -4,7 +4,6 @@ kdepimlibs (4:4.4.0-0r3) UNRELEASED; urgency=low
 
   * TODO: find out what else needs to depend on the kioslaves
     apart from the transitional package.
-  * TODO: symbol files.
 
   [ George Kiagiadakis ]
   * Bump kdelibs5-dev build-dependency to >= 4:4.4.0.

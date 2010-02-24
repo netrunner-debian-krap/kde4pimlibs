@@ -32,7 +32,8 @@ kdepimlibs (4:4.4.1~svn1095361-0r1) UNRELEASED; urgency=low
     - symbol files for new libraries are based on the 4:4.4.0 packages on
       amd64/i386;
     - add "Build-Depends-Package: kdepimlibs5-dev" field to all symbols files;
-    - instruct dpkg-gensymbols not to fail if some symbols get lost (via -c0).
+    - instruct dpkg-gensymbols not to fail if some symbols get lost (via -c0);
+    - add build dependency on dpkg-dev 1.15.5.
   * Build depend on pkg-kde-tools 0.6.4: needed for symbols files and
     library-packages.mk.
   * Clean up debian/rules a bit.

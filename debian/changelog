@@ -178,7 +178,6 @@ kdepimlibs (4:4.2.1-1) experimental; urgency=low
 
 kdepimlibs (4:4.2.0-1) experimental; urgency=low
 
-  [ Debian Qt/KDE Maintainers ]
   * New upstream release.
 
   +++ Changes by Modestas Vainius:

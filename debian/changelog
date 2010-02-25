@@ -1,6 +1,6 @@
 kdepimlibs (4:4.4.1~svn1095361-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
 
   * TODO: find out what else needs to depend on the kioslaves
     apart from the transitional package.

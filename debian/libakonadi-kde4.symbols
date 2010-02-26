@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1~ i386
+# SymbolsHelper-Confirmed: 4:4.4.1 i386
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4

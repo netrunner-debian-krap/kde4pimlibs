@@ -44,7 +44,7 @@ kdepimlibs (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Add lintian overrides.
   * Drop obsolete README.Debian.
   * Add build dependency on cmake.
-  * Add build dependency on kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint.
+  * Add build dependency on kde-sc-dev-latest (>= 4:4.4.1) | kde-sc-dev-maint.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Feb 2010 23:58:23 +0100
 

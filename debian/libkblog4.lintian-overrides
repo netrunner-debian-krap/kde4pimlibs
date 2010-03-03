@@ -1,0 +1,2 @@
+libkblog4: shlibs-declares-dependency-on-other-package
+libkblog4: symbols-declares-dependency-on-other-package kdepim-runtime*

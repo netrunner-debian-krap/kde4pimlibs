@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 
-DEB_DH_MAKESHLIBS_ARGS_ALL = -V -u-c0
+DEB_DH_MAKESHLIBS_ARGS_ALL = -u-c0
 
-# Get rid of the dependency on kdebase-runtime
-DEB_DH_SHLIBDEPS_ARGS_ALL:=-- -xkdebase-runtime
+# Get rid of the dependency on kde{base,pim}-runtime
+DEB_DH_SHLIBDEPS_ARGS_ALL:=-- -xkdebase-runtime -xkdepim-runtime -xkdepimlibs-kio-plugins
 
 DEB_KDE43_LIBRARY_PACKAGES = libakonadi-kabc4 libakonadi-kde4 libakonadi-kmime4 libgpgme++2 \
  libkabc4 libkblog4 libkcal4 libkholidays4 libkimap4 libkldap4 libkmime4 libkpimidentities4 \
@@ -16,3 +16,16 @@ DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
 
+# Inject kdepimlibs-kio-plugins and kdepim-runtime via shlibs as well. Get
+# packages from symbol files
+# Must go below library-packages.mk include due to DEB_LIBRARY_PACKAGES usage
+UPSTREAMVERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //' | sed 's/^\(.*\)-.*/\1/')
+DEB_LIBRARIES_WITH_KDEPIM_RUNTIME := $(shell grep -l 'kdepim-runtime' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
+DEB_LIBRARIES_WITH_KIO_PLUGINS := $(shell grep -l 'kdepimlibs-kio-plugins' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
+comma = ,
+
+$(foreach pkg,$(DEB_LIBRARY_PACKAGES), $(eval \
+    DEB_DH_MAKESHLIBS_ARGS_$(pkg) += -V'$(pkg) (>= $(UPSTREAMVERSION)) \
+        $(if $(filter $(pkg),$(DEB_LIBRARIES_WITH_KDEPIM_RUNTIME)),$(comma) kdepim-runtime,) \
+        $(if $(filter $(pkg),$(DEB_LIBRARIES_WITH_KIO_PLUGINS)),$(comma) kdepimlibs-kio-plugins,)' \
+))

@@ -1,0 +1,2 @@
+libakonadi-kmime4: shlibs-declares-dependency-on-other-package
+libakonadi-kmime4: symbols-declares-dependency-on-other-package kdepim-runtime*

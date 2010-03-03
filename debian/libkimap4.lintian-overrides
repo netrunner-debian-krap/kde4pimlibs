@@ -1,0 +1,2 @@
+libkimap4: shlibs-declares-dependency-on-other-package
+libkimap4: symbols-declares-dependency-on-other-package kdepim-runtime*

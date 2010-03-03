@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
-libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#
+libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi11MessagePart4BodyE@Base 4:4.3.4
  _ZN7Akonadi11MessagePart6HeaderE@Base 4:4.3.4

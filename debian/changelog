@@ -1,6 +1,8 @@
 kdepimlibs (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
+    - bavarian holiday region doesn't exist anymore. (Closes: #505965)
+      see http://websvn.kde.org/?view=revision&revision=1082408 commit.
 
   [ George Kiagiadakis ]
   * Bump kdelibs5-dev build-dependency to >= 4:4.4.

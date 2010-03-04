@@ -12,6 +12,7 @@ kdepimlibs (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Split all libraries into separate library packages, make
     kdepimlibs5 a transitional package and kill kdepimlibs-data.
   * Adjust descriptions to match KDE's new branding.
+  * Update copyright file.
 
   [ Pino Toscano ]
   * Add patch 01_hurd_support.diff to hopefully fix (even if not in the most

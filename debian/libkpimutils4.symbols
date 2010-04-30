@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.3 amd64
 libkpimutils.so.4 libkpimutils4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KPIMUtils11LinkLocator12pngToDataUrlERK7QString@Base 4:4.3.4
@@ -30,6 +30,8 @@ libkpimutils.so.4 libkpimutils4 #MINVER#
  _ZN9KPIMUtils14SpellingFilterD1Ev@Base 4:4.3.4
  _ZN9KPIMUtils14SpellingFilterD2Ev@Base 4:4.3.4
  _ZN9KPIMUtils14isValidAddressERK7QString@Base 4:4.3.4
+ _ZN9KPIMUtils15decodeMailtoUrlERK4KUrl@Base 4:4.4.3
+ _ZN9KPIMUtils15encodeMailtoUrlERK7QString@Base 4:4.4.3
  _ZN9KPIMUtils16kByteArrayToFileERK10QByteArrayRK7QStringbbb@Base 4:4.3.4
  _ZN9KPIMUtils16kFileToByteArrayERK7QStringbb@Base 4:4.3.4
  _ZN9KPIMUtils16splitAddressListERK7QString@Base 4:4.3.4

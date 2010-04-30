@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.4.3 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi13ContactEditor11loadContactERKNS_4ItemE@Base 4:4.4.0
@@ -130,6 +130,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi21ContactGroupSearchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi21ContactGroupSearchJob11qt_metacastEPKc@Base 4:4.4.0
  _ZN7Akonadi21ContactGroupSearchJob16staticMetaObjectE@Base 4:4.4.0
+ _ZN7Akonadi21ContactGroupSearchJob8setLimitEi@Base 4:4.4.3
  _ZN7Akonadi21ContactGroupSearchJob8setQueryENS0_9CriterionERK7QString@Base 4:4.4.0
  _ZN7Akonadi21ContactGroupSearchJobC1EP7QObject@Base 4:4.4.0
  _ZN7Akonadi21ContactGroupSearchJobC2EP7QObject@Base 4:4.4.0

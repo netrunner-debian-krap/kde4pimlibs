@@ -1,4 +1,4 @@
-kdepimlibs (4:4.4.3-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.4.3-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -6,6 +6,7 @@ kdepimlibs (4:4.4.3-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4.4.3.
   * Confirm symbols files for 4.4.2 on ia64 kfreebsd-amd64 kfreebsd-i386
     powerpc s390 sparc.
+  * Update symbol files for 4.4.3 on amd64.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:07 +0300
 

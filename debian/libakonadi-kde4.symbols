@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.3 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -206,6 +206,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi13ItemSearchJob11qt_metacastEPKc@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob13itemsReceivedERK5QListINS_4ItemEE@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob13setFetchScopeERKNS_14ItemFetchScopeE@Base 4:4.4.0
+ _ZN7Akonadi13ItemSearchJob16akonadiItemIdUriEv@Base 4:4.4.3
  _ZN7Akonadi13ItemSearchJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob16staticMetaObjectE@Base 4:4.4.0
  _ZN7Akonadi13ItemSearchJob7doStartEv@Base 4:4.4.0

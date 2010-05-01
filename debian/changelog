@@ -7,6 +7,15 @@ kdepimlibs (4:4.4.3-0r2) UNRELEASED; urgency=low
   * Confirm symbols files for 4.4.2 on ia64 kfreebsd-amd64 kfreebsd-i386
     powerpc s390 sparc.
   * Update symbol files for 4.4.3 on amd64.
+  * Steal a couple of patches from Kubuntu (to workaround annoying bugs):
+    - 02_increase_fail_timeout.diff - give more time (60 seconds) for akonadi
+      server to start. Current timeout (10 seconds) was not enough on many
+      machines. To make things worse, kdepimlibs would just call exit() after
+      showing error detection dialog causing unexpected termination of the
+      application.
+    - 03_hide_akonadi_progressbar.diff - hide akonadi start/stop progress bar
+      as it is already done in KDE trunk. It was not a real progress bar anyway
+      and just confused users.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:07 +0300
 

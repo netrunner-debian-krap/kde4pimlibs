@@ -1,4 +1,4 @@
-kdepimlibs (4:4.4.3-0r2) UNRELEASED; urgency=low
+kdepimlibs (4:4.4.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -16,8 +16,9 @@ kdepimlibs (4:4.4.3-0r2) UNRELEASED; urgency=low
     - 03_hide_akonadi_progressbar.diff - hide akonadi start/stop progress bar
       as it is already done in KDE trunk. It was not a real progress bar anyway
       and just confused users.
+  * Release KDE SC 4.4.3 to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:07 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 23:57:54 +0300
 
 kdepimlibs (4:4.4.2-1) experimental; urgency=low
 

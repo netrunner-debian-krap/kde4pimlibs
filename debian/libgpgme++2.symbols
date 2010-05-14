@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libgpgme++-pth.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -644,10 +644,13 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 4:4.3.4
@@ -672,7 +675,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS9_ERKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-i386)_ZNSt8auto_ptrIN5GpgME14EditInteractorEED1Ev@Base 4:4.4.2
+#MISSING: 4:4.4.3# (optional=templinst|arch=kfreebsd-i386)_ZNSt8auto_ptrIN5GpgME14EditInteractorEED1Ev@Base 4:4.4.2
  (optional=templinst)_ZNSt8auto_ptrIN5GpgME17AssuanTransactionEED1Ev@Base 4:4.4.0
  (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
@@ -1362,10 +1365,13 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 4:4.3.4
@@ -1390,7 +1396,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS9_ERKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-i386)_ZNSt8auto_ptrIN5GpgME14EditInteractorEED1Ev@Base 4:4.4.2
+#MISSING: 4:4.4.3# (optional=templinst|arch=kfreebsd-i386)_ZNSt8auto_ptrIN5GpgME14EditInteractorEED1Ev@Base 4:4.4.2
  (optional=templinst)_ZNSt8auto_ptrIN5GpgME17AssuanTransactionEED1Ev@Base 4:4.4.0
  (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
@@ -2080,10 +2086,13 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|arch=armel)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 4:4.3.4
@@ -2108,7 +2117,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS9_ERKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-i386)_ZNSt8auto_ptrIN5GpgME14EditInteractorEED1Ev@Base 4:4.4.2
+#MISSING: 4:4.4.3# (optional=templinst|arch=kfreebsd-i386)_ZNSt8auto_ptrIN5GpgME14EditInteractorEED1Ev@Base 4:4.4.2
  (optional=templinst)_ZNSt8auto_ptrIN5GpgME17AssuanTransactionEED1Ev@Base 4:4.4.0
  (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0

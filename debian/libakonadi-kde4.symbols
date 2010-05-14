@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 amd64
+# SymbolsHelper-Confirmed: 4:4.4.3 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -971,7 +971,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi6Entity19setParentCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi6Entity5setIdEx@Base 4:4.3.4
  _ZN7Akonadi6Entity6d_funcEv@Base 4:4.3.4
- (optional=templinst|arch=!hppa)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.3.4
+ (optional=templinst)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.3.4
  (optional=templinst)_ZN7Akonadi6Entity9attributeINS_26SpecialCollectionAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.4.0
  _ZN7Akonadi6EntityC1EPNS_13EntityPrivateE@Base 4:4.3.4
  _ZN7Akonadi6EntityC1ERKS0_@Base 4:4.3.4
@@ -1579,7 +1579,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZSt22__final_insertion_sortIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.3.4
  (optional=templinst)_ZSt22__final_insertion_sortIPN7Akonadi11PluginEntryEEvT_S3_@Base 4:4.4.0
  (optional=templinst)_ZSt22__uninitialized_move_aIPN5boost6detail12adj_list_genINS0_14adjacency_listINS0_4vecSES4_NS0_9directedSENS0_11no_propertyES6_S6_NS0_5listSEEES4_S4_S5_S6_S6_S6_S7_E6config13stored_vertexESC_SaISB_EET0_T_SF_SE_RT1_@Base 4:4.3.4
- (optional=templinst|arch=sparc)_ZSt24__uninitialized_fill_n_aIPN5boost6detail12adj_list_genINS0_14adjacency_listINS0_4vecSES4_NS0_9directedSENS0_11no_propertyES6_S6_NS0_5listSEEES4_S4_S5_S6_S6_S6_S7_E6config13stored_vertexEjSB_SB_EvT_T0_RKT1_RSaIT2_E@Base 4:4.4.2
+ (optional=templinst|arch=armel sparc)_ZSt24__uninitialized_fill_n_aIPN5boost6detail12adj_list_genINS0_14adjacency_listINS0_4vecSES4_NS0_9directedSENS0_11no_propertyES6_S6_NS0_5listSEEES4_S4_S5_S6_S6_S6_S7_E6config13stored_vertexEjSB_SB_EvT_T0_RKT1_RSaIT2_E@Base 4:4.4.2
  (optional=templinst)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi10CollectionEE8iteratorES2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_T1_@Base 4:4.4.0
  (optional=templinst)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi4ItemEE8iteratorES2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_T1_@Base 4:4.3.4
  (optional=templinst)_ZSt25__unguarded_linear_insertIPN7Akonadi11PluginEntryES1_EvT_T0_@Base 4:4.4.0

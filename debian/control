@@ -177,7 +177,7 @@ Description: holidays calculation library
 Package: libkimap4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsasl2-modules
 Replaces: kdepimlibs5 (<< 4:4.4.0)
 Description: library for handling IMAP data
  This library provides an API for handling data received from IMAP services.

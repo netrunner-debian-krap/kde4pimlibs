@@ -6,6 +6,8 @@ kdepimlibs (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Confirm symbol files on armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386
     mips mipsel powerpc s390 sparc.
   * KIMAP needs sasl modules for authentication. Thanks to Volker Krause.
+  * Bump pkg-kde-tools build dependency to (>= 0.9) for HTML_INSTALL_DIR
+    switch and 3.0 (quilt) source format support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:20 +0300
 

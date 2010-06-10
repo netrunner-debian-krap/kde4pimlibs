@@ -3,6 +3,7 @@ Description: preliminary GNU/Hurd support
  Adds "support" for GNU/Hurd by defining PATH_MAX where needed.
  Not forwarded, better fixes should be done upstream.
 Forwarded: no
+Fixed-For: 4.5.0
 --- a/kholidays/parseholiday.c
 +++ b/kholidays/parseholiday.c
 @@ -170,6 +170,10 @@

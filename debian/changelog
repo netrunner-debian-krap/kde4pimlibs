@@ -165,9 +165,9 @@ kdepimlibs (4:4.3.1-1) unstable; urgency=low
 kdepimlibs (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Fathi Boudra:
-  
+
   * Update installed files.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
@@ -213,7 +213,7 @@ kdepimlibs (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release
   * Bump build dependencies.
-  * Update installed files, cmake files changed from usr/lib/cmake/KdepimLibs-4.2.0 
+  * Update installed files, cmake files changed from usr/lib/cmake/KdepimLibs-4.2.0
     to usr/lib/cmake/KdepimLibs-4.2.*
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 05 Apr 2009 01:06:28 +0200
@@ -327,7 +327,7 @@ kdepimlibs (4:4.1.1-1) experimental; urgency=low
 kdepimlibs (4:4.1.0-1) unstable; urgency=low
 
   * New upstream release.
-  
+
    +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update kdepimlibs-data.install.
@@ -360,7 +360,7 @@ kdepimlibs (4:4.0.84-1) experimental; urgency=low
   * New upstream snapshot
   * Soname-bump in kdepimlibs, but we are in experimental, so just close our
     eyes.
-  * Have the kio slaves depend on libsasl2-modules, thanks to  
+  * Have the kio slaves depend on libsasl2-modules, thanks to
     Jos Ewert for investigating. (Closes: #488263)
 
  -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 09:30:52 +0200
@@ -458,8 +458,8 @@ kdepimlibs (4:4.0.2-1) unstable; urgency=low
       in the -dev package.
 
   +++ Changes by Armin Berres:
-  
-  * Use a more obvious way to remove the dependency on kdebase-runtime. 
+
+  * Use a more obvious way to remove the dependency on kdebase-runtime.
   * Version shlibs according to the upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 21:12:02 +0100
@@ -490,7 +490,7 @@ kdepimlibs (4:4.0.0-4) unstable; urgency=low
 
 kdepimlibs (4:4.0.0-3) unstable; urgency=low
 
-  * Depend on kdelibs5-dbg, kdelibs-dbg has been renamed. 
+  * Depend on kdelibs5-dbg, kdelibs-dbg has been renamed.
 
  -- Armin Berres <armin+debian@space-based.de>  Sun, 20 Jan 2008 13:33:55 +0100
 
@@ -597,7 +597,7 @@ kdepimlibs (3.94.0-1) experimental; urgency=low
 
 kdepimlibs (3.93.0-1) experimental; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
   * Update *.install files.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 31 Aug 2007 10:15:11 +0200

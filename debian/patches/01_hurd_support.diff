@@ -4,8 +4,8 @@ Description: preliminary GNU/Hurd support
  Not forwarded, better fixes should be done upstream.
 Forwarded: no
 Fixed-For: 4.5.0
---- a/kholidays/parseholiday.c
-+++ b/kholidays/parseholiday.c
+--- a/kholidays/parsers/plan1/parseholiday.c
++++ b/kholidays/parsers/plan1/parseholiday.c
 @@ -170,6 +170,10 @@
  
  #include <limits.h>
@@ -17,8 +17,8 @@ Fixed-For: 4.5.0
  /*** Macro definitions and constants ***/
  /*
   * Before you mail and complain that the following macro is incorrect,
---- a/kholidays/parseholiday.y
-+++ b/kholidays/parseholiday.y
+--- a/kholidays/parsers/plan1/parseholiday.y
++++ b/kholidays/parsers/plan1/parseholiday.y
 @@ -49,6 +49,10 @@
  
  #include <limits.h>

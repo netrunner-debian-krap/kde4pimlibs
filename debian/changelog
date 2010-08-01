@@ -11,6 +11,7 @@ kdepimlibs (4:4.5.0-0r1) UNRELEASED; urgency=low
   * Remove patch 01_hurd_support.diff, no longer needed.
   * Remove patch 02_increase_fail_timeout.diff, no longer needed.
   * Update installed files.
+  * Update symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
 

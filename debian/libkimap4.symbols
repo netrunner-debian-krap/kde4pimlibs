@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KIMAP10AclJobBase10setMailBoxERK7QString@Base 4:4.3.4
@@ -140,6 +140,31 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP14GetMetaDataJobD0Ev@Base 4:4.3.4
  _ZN5KIMAP14GetMetaDataJobD1Ev@Base 4:4.3.4
  _ZN5KIMAP14GetMetaDataJobD2Ev@Base 4:4.3.4
+ _ZN5KIMAP14SessionPrivate11doStartNextEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate11qt_metacastEPKc@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate11sendCommandERK10QByteArrayS3_@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate11socketErrorEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate12jobDestroyedEP7QObject@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate14handleSslErrorERK15KSslErrorUiData@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate15onSocketTimeoutEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate15socketConnectedEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate15stopSocketTimerEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate16responseReceivedERKNS_7MessageE@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate16setSocketTimeoutEi@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate16startSocketTimerEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate16staticMetaObjectE@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate18restartSocketTimerEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate18socketDisconnectedEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate27encryptionNegotiationResultEb@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate29onEncryptionNegotiationResultEbN10KTcpSocket10SslVersionE@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate6addJobEPNS_3JobE@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate7jobDoneEP4KJob@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate8sendDataERK10QByteArray@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate8startSslERKN10KTcpSocket10SslVersionE@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivate9startNextEv@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivateC1EPNS_7SessionE@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivateC2EPNS_7SessionE@Base 4:4.5.0
  _ZN5KIMAP14SetMetaDataJob11addMetaDataERK10QByteArrayS3_@Base 4:4.3.4
  _ZN5KIMAP14SetMetaDataJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5KIMAP14SetMetaDataJob11qt_metacastEPKc@Base 4:4.3.4
@@ -299,10 +324,13 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP7ListJobD0Ev@Base 4:4.3.4
  _ZN5KIMAP7ListJobD1Ev@Base 4:4.3.4
  _ZN5KIMAP7ListJobD2Ev@Base 4:4.3.4
+ _ZN5KIMAP7Session10setUiProxyEN5boost10shared_ptrINS_14SessionUiProxyEEE@Base 4:4.5.0
  _ZN5KIMAP7Session10setUiProxyEPNS_14SessionUiProxyE@Base 4:4.3.4
  _ZN5KIMAP7Session11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5KIMAP7Session11qt_metacastEPKc@Base 4:4.3.4
+ _ZN5KIMAP7Session14connectionLostEv@Base 4:4.5.0
  _ZN5KIMAP7Session16staticMetaObjectE@Base 4:4.3.4
+ _ZN5KIMAP7Session19jobQueueSizeChangedEi@Base 4:4.5.0
  _ZN5KIMAP7SessionC1ERK7QStringtP7QObject@Base 4:4.3.4
  _ZN5KIMAP7SessionC2ERK7QStringtP7QObject@Base 4:4.3.4
  _ZN5KIMAP7SessionD0Ev@Base 4:4.3.4
@@ -500,6 +528,9 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZNK5KIMAP14GetMetaDataJob10metaObjectEv@Base 4:4.3.4
  _ZNK5KIMAP14GetMetaDataJob11allMetaDataERK7QString@Base 4:4.3.4
  _ZNK5KIMAP14GetMetaDataJob8metaDataERK7QStringRK10QByteArrayS6_@Base 4:4.3.4
+ _ZNK5KIMAP14SessionPrivate10metaObjectEv@Base 4:4.5.0
+ _ZNK5KIMAP14SessionPrivate13socketTimeoutEv@Base 4:4.5.0
+ _ZNK5KIMAP14SessionPrivate20negotiatedEncryptionEv@Base 4:4.5.0
  _ZNK5KIMAP14SetMetaDataJob10metaObjectEv@Base 4:4.3.4
  _ZNK5KIMAP14SetMetaDataJob14metaDataErrorsEv@Base 4:4.3.4
  _ZNK5KIMAP14UnsubscribeJob10metaObjectEv@Base 4:4.3.4
@@ -539,7 +570,9 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZNK5KIMAP7ListJob5flagsEv@Base 4:4.3.4
  _ZNK5KIMAP7ListJob9mailBoxesEv@Base 4:4.3.4
  _ZNK5KIMAP7Session10metaObjectEv@Base 4:4.3.4
+ _ZNK5KIMAP7Session12jobQueueSizeEv@Base 4:4.5.0
  _ZNK5KIMAP7Session14serverGreetingEv@Base 4:4.4.0
+ _ZNK5KIMAP7Session15selectedMailBoxEv@Base 4:4.5.0
  _ZNK5KIMAP7Session4portEv@Base 4:4.3.4
  _ZNK5KIMAP7Session5stateEv@Base 4:4.3.4
  _ZNK5KIMAP7Session8hostNameEv@Base 4:4.3.4
@@ -605,6 +638,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZTIN5KIMAP12SubscribeJobE@Base 4:4.3.4
  _ZTIN5KIMAP13ListRightsJobE@Base 4:4.3.4
  _ZTIN5KIMAP14GetMetaDataJobE@Base 4:4.3.4
+ _ZTIN5KIMAP14SessionPrivateE@Base 4:4.5.0
  _ZTIN5KIMAP14SetMetaDataJobE@Base 4:4.3.4
  _ZTIN5KIMAP14UnsubscribeJobE@Base 4:4.3.4
  _ZTIN5KIMAP15CapabilitiesJobE@Base 4:4.3.4
@@ -639,6 +673,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZTSN5KIMAP12SubscribeJobE@Base 4:4.3.4
  _ZTSN5KIMAP13ListRightsJobE@Base 4:4.3.4
  _ZTSN5KIMAP14GetMetaDataJobE@Base 4:4.3.4
+ _ZTSN5KIMAP14SessionPrivateE@Base 4:4.5.0
  _ZTSN5KIMAP14SetMetaDataJobE@Base 4:4.3.4
  _ZTSN5KIMAP14UnsubscribeJobE@Base 4:4.3.4
  _ZTSN5KIMAP15CapabilitiesJobE@Base 4:4.3.4
@@ -673,6 +708,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZTVN5KIMAP12SubscribeJobE@Base 4:4.3.4
  _ZTVN5KIMAP13ListRightsJobE@Base 4:4.3.4
  _ZTVN5KIMAP14GetMetaDataJobE@Base 4:4.3.4
+ _ZTVN5KIMAP14SessionPrivateE@Base 4:4.5.0
  _ZTVN5KIMAP14SetMetaDataJobE@Base 4:4.3.4
  _ZTVN5KIMAP14UnsubscribeJobE@Base 4:4.3.4
  _ZTVN5KIMAP15CapabilitiesJobE@Base 4:4.3.4

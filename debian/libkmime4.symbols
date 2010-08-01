@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkmime.so.4 libkmime4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN5KMime12ContentIndexE@Base 4:4.3.4
@@ -67,6 +67,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime13HeaderParsing18parseParameterListERPKcS2_R4QMapI7QStringS5_Eb@Base 4:4.3.4
  _ZN5KMime13HeaderParsing21parseRawParameterListERPKcS2_R4QMapI7QStringNS_5Types14QStringOrQPairEEb@Base 4:4.3.4
  _ZN5KMime13HeaderParsing24parseGenericQuotedStringERPKcS2_R7QStringbcc@Base 4:4.3.4
+ _ZN5KMime13HeaderParsing29parseParameterListWithCharsetERPKcS2_R4QMapI7QStringS5_ER10QByteArrayb@Base 4:4.5.0
  _ZN5KMime13HeaderParsing7eatCFWSERPKcS2_b@Base 4:4.3.4
  _ZN5KMime13HeaderParsing9parseAtomERPKcS2_R5QPairIS2_iEb@Base 4:4.3.4
  _ZN5KMime13HeaderParsing9parseAtomERPKcS2_R7QStringb@Base 4:4.3.4
@@ -81,8 +82,15 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime17multiPartBoundaryEv@Base 4:4.3.4
  _ZN5KMime19decodeRFC2047StringERK10QByteArray@Base 4:4.3.4
  _ZN5KMime19decodeRFC2047StringERK10QByteArrayRS0_S2_b@Base 4:4.3.4
+ _ZN5KMime19decodeRFC2231StringERK10QByteArray@Base 4:4.5.0
+ _ZN5KMime19decodeRFC2231StringERK10QByteArrayRS0_S2_b@Base 4:4.5.0
  _ZN5KMime19encodeRFC2047StringERK7QStringRK10QByteArraybb@Base 4:4.3.4
+ _ZN5KMime19encodeRFC2231StringERK7QStringRK10QByteArray@Base 4:4.5.0
+ _ZN5KMime20fallbackCharEncodingEv@Base 4:4.5.0
  _ZN5KMime22removeBidiControlCharsERK7QString@Base 4:4.4.0
+ _ZN5KMime23setFallbackCharEncodingERK7QString@Base 4:4.5.0
+ _ZN5KMime28useOutlookAttachmentEncodingEv@Base 4:4.5.0
+ _ZN5KMime31setUseOutlookAttachmentEncodingEb@Base 4:4.5.0
  _ZN5KMime3MDN14descriptionForENS0_15DispositionTypeERK5QListINS0_19DispositionModifierEE@Base 4:4.3.4
  _ZN5KMime3MDN34dispositionNotificationBodyContentERK7QStringRK10QByteArrayS6_NS0_15DispositionTypeENS0_10ActionModeENS0_11SendingModeERK5QListINS0_19DispositionModifierEES3_@Base 4:4.3.4
  _ZN5KMime5Codec12cleanupCodecEv@Base 4:4.3.4
@@ -677,6 +685,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7MessageD0Ev@Base 4:4.3.4
  _ZN5KMime7MessageD1Ev@Base 4:4.3.4
  _ZN5KMime7MessageD2Ev@Base 4:4.3.4
+ _ZN5KMime8CRLFtoLFEPKc@Base 4:4.5.0
  _ZN5KMime8CRLFtoLFERK10QByteArray@Base 4:4.3.4
  (subst)_ZN5KMime8CharFreq5countEPKc{size_t}@Base 4:4.3.4
  (subst)_ZN5KMime8CharFreqC1EPKc{size_t}@Base 4:4.3.4
@@ -687,6 +696,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime9BoolFlags3getEj@Base 4:4.3.4
  _ZN5KMime9BoolFlags3setEjb@Base 4:4.3.4
  _ZN5KMime9addQuotesER10QByteArrayb@Base 4:4.3.4
+ _ZN5KMime9addQuotesER7QStringb@Base 4:4.5.0
  _ZN5KMime9isUsAsciiERK7QString@Base 4:4.3.4
  _ZNK5KMime11Base64Codec11makeDecoderEb@Base 4:4.3.4
  _ZNK5KMime11Base64Codec11makeEncoderEb@Base 4:4.3.4
@@ -726,6 +736,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZNK5KMime5Codec6encodeERPKcS2_RPcS2_b@Base 4:4.3.4
  _ZNK5KMime5Types7Mailbox10hasAddressEv@Base 4:4.3.4
  _ZNK5KMime5Types7Mailbox12as7BitStringERK10QByteArray@Base 4:4.3.4
+ _ZNK5KMime5Types7Mailbox13prettyAddressENS1_7QuotingE@Base 4:4.5.0
  _ZNK5KMime5Types7Mailbox13prettyAddressEv@Base 4:4.3.4
  _ZNK5KMime5Types7Mailbox4nameEv@Base 4:4.3.4
  _ZNK5KMime5Types7Mailbox7addressEv@Base 4:4.3.4
@@ -738,6 +749,8 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZNK5KMime7Content10isTopLevelEv@Base 4:4.3.4
  _ZNK5KMime7Content10rawHeadersEPKc@Base 4:4.3.4
  _ZNK5KMime7Content11storageSizeEv@Base 4:4.3.4
+ _ZNK5KMime7Content13bodyAsMessageEv@Base 4:4.5.0
+ _ZNK5KMime7Content13bodyIsMessageEv@Base 4:4.5.0
  _ZNK5KMime7Content14defaultCharsetEv@Base 4:4.3.4
  _ZNK5KMime7Content15indexForContentEPS0_@Base 4:4.3.4
  _ZNK5KMime7Content19forceDefaultCharsetEv@Base 4:4.3.4
@@ -859,6 +872,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZNK5KMime7Headers8Generics11MailboxList9mailboxesEv@Base 4:4.3.4
  _ZNK5KMime7Headers8Generics11SingleIdent10identifierEv@Base 4:4.3.4
  _ZNK5KMime7Headers8Generics12Parametrized12as7BitStringEb@Base 4:4.3.4
+ _ZNK5KMime7Headers8Generics12Parametrized12hasParameterERK7QString@Base 4:4.5.0
  _ZNK5KMime7Headers8Generics12Parametrized7isEmptyEv@Base 4:4.3.4
  _ZNK5KMime7Headers8Generics12Parametrized9parameterERK7QString@Base 4:4.3.4
  _ZNK5KMime7Headers8Generics12Unstructured12as7BitStringEb@Base 4:4.3.4

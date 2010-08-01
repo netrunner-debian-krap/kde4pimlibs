@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  Parse_MIME@Base 4:4.3.4
@@ -29,6 +29,8 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal10DndFactory10createDragEPNS_9IncidenceEP7QWidget@Base 4:4.3.4
  _ZN4KCal10DndFactory12cutIncidenceEPNS_9IncidenceE@Base 4:4.3.4
  _ZN4KCal10DndFactory13copyIncidenceEPNS_9IncidenceE@Base 4:4.3.4
+ _ZN4KCal10DndFactory13cutIncidencesERKNS_8ListBaseINS_9IncidenceEEE@Base 4:4.5.0
+ _ZN4KCal10DndFactory14copyIncidencesERKNS_8ListBaseINS_9IncidenceEEE@Base 4:4.5.0
  _ZN4KCal10DndFactory14createDropTodoEP10QDropEvent@Base 4:4.3.4
  _ZN4KCal10DndFactory14createDropTodoEPK9QMimeData@Base 4:4.3.4
  _ZN4KCal10DndFactory14createMimeDataEPNS_9IncidenceE@Base 4:4.3.4
@@ -36,6 +38,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal10DndFactory14pasteIncidenceERK5QDatePK5QTime@Base 4:4.3.4
  _ZN4KCal10DndFactory15createDropEventEP10QDropEvent@Base 4:4.3.4
  _ZN4KCal10DndFactory15createDropEventEPK9QMimeData@Base 4:4.3.4
+ _ZN4KCal10DndFactory15pasteIncidencesERK5QDatePK5QTime@Base 4:4.5.0
  _ZN4KCal10DndFactory18createDropCalendarEP10QDropEvent@Base 4:4.3.4
  _ZN4KCal10DndFactory18createDropCalendarEPK9QMimeData@Base 4:4.3.4
  _ZN4KCal10DndFactory18createDropCalendarEPK9QMimeDataRKN9KDateTime4SpecE@Base 4:4.4.0
@@ -136,6 +139,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal10RecurrenceD0Ev@Base 4:4.3.4
  _ZN4KCal10RecurrenceD1Ev@Base 4:4.3.4
  _ZN4KCal10RecurrenceD2Ev@Base 4:4.3.4
+ _ZN4KCal10RecurrenceaSERKS0_@Base 4:4.5.0
  _ZN4KCal10VCalFormat10ISOToQDateERK7QString@Base 4:4.3.4
  _ZN4KCal10VCalFormat10dayFromNumEi@Base 4:4.3.4
  _ZN4KCal10VCalFormat10fromStringEPNS_8CalendarERK7QString@Base 4:4.3.4
@@ -480,6 +484,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal15ScheduleMessageD1Ev@Base 4:4.3.4
  _ZN4KCal15ScheduleMessageD2Ev@Base 4:4.3.4
  _ZN4KCal16CustomProperties17setCustomPropertyERK10QByteArrayS3_RK7QString@Base 4:4.3.4
+ _ZN4KCal16CustomProperties18customPropertyNameERK10QByteArrayS3_@Base 4:4.5.0
  _ZN4KCal16CustomProperties19setCustomPropertiesERK4QMapI10QByteArray7QStringE@Base 4:4.3.4
  _ZN4KCal16CustomProperties20removeCustomPropertyERK10QByteArrayS3_@Base 4:4.3.4
  _ZN4KCal16CustomProperties23setNonKDECustomPropertyERK10QByteArrayRK7QString@Base 4:4.3.4
@@ -732,19 +737,24 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal18ICalTimeZoneSourceD2Ev@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter10toolTipStrEPNS_13IncidenceBaseEbN9KDateTime4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter10toolTipStrEPNS_8CalendarEPNS_13IncidenceBaseERK5QDatebN9KDateTime4SpecE@Base 4:4.4.0
+ _ZN4KCal18IncidenceFormatter10toolTipStrERK7QStringPNS_13IncidenceBaseERK5QDatebN9KDateTime4SpecE@Base 4:4.5.0
  _ZN4KCal18IncidenceFormatter11mailBodyStrEPNS_13IncidenceBaseEN9KDateTime4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter12dateToStringERK9KDateTimebRKNS1_4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter12timeToStringERK9KDateTimebRKNS1_4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter13toolTipStringEPNS_13IncidenceBaseEb@Base 4:4.3.4
+ _ZN4KCal18IncidenceFormatter14durationStringEPNS_9IncidenceE@Base 4:4.5.0
  _ZN4KCal18IncidenceFormatter14mailBodyStringEPNS_13IncidenceBaseE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter14resourceStringEPNS_8CalendarEPNS_9IncidenceE@Base 4:4.4.0
  _ZN4KCal18IncidenceFormatter16dateTimeToStringERK9KDateTimebbRKNS1_4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter16recurrenceStringEPNS_9IncidenceE@Base 4:4.3.4
+ _ZN4KCal18IncidenceFormatter18reminderStringListEPNS_9IncidenceEb@Base 4:4.5.0
  _ZN4KCal18IncidenceFormatter19extensiveDisplayStrEPNS_13IncidenceBaseEN9KDateTime4SpecE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter19extensiveDisplayStrEPNS_8CalendarEPNS_13IncidenceBaseERK5QDateN9KDateTime4SpecE@Base 4:4.4.0
+ _ZN4KCal18IncidenceFormatter19extensiveDisplayStrERK7QStringPNS_13IncidenceBaseERK5QDateN9KDateTime4SpecE@Base 4:4.5.0
  _ZN4KCal18IncidenceFormatter20formatICalInvitationE7QStringPNS_8CalendarEPNS_25InvitationFormatterHelperE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter22extensiveDisplayStringEPNS_13IncidenceBaseE@Base 4:4.3.4
  _ZN4KCal18IncidenceFormatter26formatICalInvitationNoHtmlE7QStringPNS_8CalendarEPNS_25InvitationFormatterHelperE@Base 4:4.3.4
+ _ZN4KCal18IncidenceFormatter26formatICalInvitationNoHtmlERK7QStringPNS_8CalendarEPNS_25InvitationFormatterHelperES3_@Base 4:4.5.0
  _ZN4KCal19ICalTimeZoneBackendC1EPNS_18ICalTimeZoneSourceERK7QStringS5_ffS5_@Base 4:4.3.4
  _ZN4KCal19ICalTimeZoneBackendC1ERK9KTimeZoneRK5QDate@Base 4:4.3.4
  _ZN4KCal19ICalTimeZoneBackendC1Ev@Base 4:4.3.4
@@ -852,6 +862,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal5AlarmD0Ev@Base 4:4.3.4
  _ZN4KCal5AlarmD1Ev@Base 4:4.3.4
  _ZN4KCal5AlarmD2Ev@Base 4:4.3.4
+ _ZN4KCal5AlarmaSERKS0_@Base 4:4.5.0
  _ZN4KCal5Event10shiftTimesERKN9KDateTime4SpecES4_@Base 4:4.3.4
  _ZN4KCal5Event11setDurationERKNS_8DurationE@Base 4:4.3.4
  _ZN4KCal5Event13setHasEndDateEb@Base 4:4.3.4
@@ -944,6 +955,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal8Calendar11setTimeSpecERKN9KDateTime4SpecE@Base 4:4.3.4
  _ZN4KCal8Calendar12addIncidenceEPNS_9IncidenceE@Base 4:4.3.4
  _ZN4KCal8Calendar12appendAlarmsERNS_8ListBaseINS_5AlarmEEEPNS_9IncidenceERK9KDateTimeS9_@Base 4:4.3.4
+ _ZN4KCal8Calendar12isAncestorOfEPNS_9IncidenceES2_@Base 4:4.5.0
  _ZN4KCal8Calendar12setProductIdERK7QString@Base 4:4.3.4
  _ZN4KCal8Calendar12sortJournalsEPNS_8ListBaseINS_7JournalEEENS_16JournalSortFieldENS_13SortDirectionE@Base 4:4.3.4
  _ZN4KCal8Calendar13calendarSavedEv@Base 4:4.3.4
@@ -966,6 +978,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal8Calendar16registerObserverEPNS0_16CalendarObserverE@Base 4:4.3.4
  _ZN4KCal8Calendar16staticMetaObjectE@Base 4:4.3.4
  _ZN4KCal8Calendar17batchAddingBeginsEv@Base 4:4.4.0
+ _ZN4KCal8Calendar17sortEventsForDateEPNS_8ListBaseINS_5EventEEERK5QDateRKN9KDateTime4SpecENS_14EventSortFieldENS_13SortDirectionE@Base 4:4.5.0
  _ZN4KCal8Calendar18mergeIncidenceListERKNS_8ListBaseINS_5EventEEERKNS1_INS_4TodoEEERKNS1_INS_7JournalEEE@Base 4:4.3.4
  _ZN4KCal8Calendar18unregisterObserverEPNS0_16CalendarObserverE@Base 4:4.3.4
  _ZN4KCal8Calendar19setObserversEnabledEb@Base 4:4.3.4
@@ -1126,6 +1139,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal9Incidence13addAttachmentEPNS_10AttachmentE@Base 4:4.3.4
  _ZN4KCal9Incidence13setCategoriesERK11QStringList@Base 4:4.3.4
  _ZN4KCal9Incidence13setCategoriesERK7QString@Base 4:4.3.4
+ _ZN4KCal9Incidence14clearTempFilesEv@Base 4:4.5.0
  _ZN4KCal9Incidence14removeRelationEPS0_@Base 4:4.3.4
  _ZN4KCal9Incidence14setDescriptionERK7QString@Base 4:4.3.4
  _ZN4KCal9Incidence14setDescriptionERK7QStringb@Base 4:4.3.4
@@ -1511,6 +1525,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZNK4KCal9Incidence17descriptionIsRichEv@Base 4:4.3.4
  _ZNK4KCal9Incidence21startDateTimesForDateERK5QDateRKN9KDateTime4SpecE@Base 4:4.3.4
  _ZNK4KCal9Incidence25startDateTimesForDateTimeERK9KDateTime@Base 4:4.3.4
+ _ZNK4KCal9Incidence25writeAttachmentToTempFileEPNS_10AttachmentE@Base 4:4.5.0
  _ZNK4KCal9Incidence5dtEndEv@Base 4:4.3.4
  _ZNK4KCal9Incidence6alarmsEv@Base 4:4.3.4
  _ZNK4KCal9Incidence6hasGeoEv@Base 4:4.3.4

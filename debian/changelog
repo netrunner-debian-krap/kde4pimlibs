@@ -7,7 +7,8 @@ kdepimlibs (4:4.5.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
-  * Refresh patches.
+  * Refresh patch 03_hide_akonadi_progressbar.diff.
+  * Remove patch 01_hurd_support.diff, no longer needed.
   * Remove patch 02_increase_fail_timeout.diff, no longer needed.
   * Update installed files.
 

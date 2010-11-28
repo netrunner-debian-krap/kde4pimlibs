@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio-plugins
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN13MailTransport10ServerTest11progressBarEv@Base 4:4.3.4
@@ -11,6 +11,8 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport10ServerTest15normalProtocolsEv@Base 4:4.3.4
  _ZN13MailTransport10ServerTest15secureProtocolsEv@Base 4:4.3.4
  _ZN13MailTransport10ServerTest15setFakeHostnameERK7QString@Base 4:4.3.4
+ _ZN13MailTransport10ServerTest16isNormalPossibleEv@Base 4:4.5.0
+ _ZN13MailTransport10ServerTest16isSecurePossibleEv@Base 4:4.5.0
  _ZN13MailTransport10ServerTest16staticMetaObjectE@Base 4:4.3.4
  _ZN13MailTransport10ServerTest4portENS_13TransportBase14EnumEncryption4typeE@Base 4:4.3.4
  _ZN13MailTransport10ServerTest5startEv@Base 4:4.3.4
@@ -141,6 +143,7 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport18TransportAttributeD2Ev@Base 4:4.4.0
  _ZN13MailTransport19DispatcherInterface16dispatchManuallyEv@Base 4:4.4.0
  _ZN13MailTransport19DispatcherInterface16retryDispatchingEv@Base 4:4.4.0
+ _ZN13MailTransport19DispatcherInterface23dispatchManualTransportEi@Base 4:4.5.0
  _ZN13MailTransport19DispatcherInterfaceC1Ev@Base 4:4.4.0
  _ZN13MailTransport19DispatcherInterfaceC2Ev@Base 4:4.4.0
  _ZN13MailTransport21DispatchModeAttribute11deserializeERK10QByteArray@Base 4:4.4.0
@@ -229,6 +232,7 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport9Transport16setTransportTypeERKNS_13TransportTypeE@Base 4:4.4.0
  _ZN13MailTransport9Transport16staticMetaObjectE@Base 4:4.3.4
  _ZN13MailTransport9Transport19updatePasswordStateEv@Base 4:4.3.4
+ _ZN13MailTransport9Transport24authenticationTypeStringEi@Base 4:4.5.0
  _ZN13MailTransport9Transport8passwordEv@Base 4:4.3.4
  _ZN13MailTransport9TransportC1ERK7QString@Base 4:4.3.4
  _ZN13MailTransport9TransportC2ERK7QString@Base 4:4.3.4

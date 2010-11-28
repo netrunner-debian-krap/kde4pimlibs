@@ -1,9 +1,13 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi11MessagePart4BodyE@Base 4:4.3.4
  _ZN7Akonadi11MessagePart6HeaderE@Base 4:4.3.4
  _ZN7Akonadi11MessagePart8EnvelopeE@Base 4:4.3.4
+ _ZN7Akonadi12MessageFlags4SeenE@Base 4:4.5.0
+ _ZN7Akonadi12MessageFlags7DeletedE@Base 4:4.5.0
+ _ZN7Akonadi12MessageFlags7FlaggedE@Base 4:4.5.0
+ _ZN7Akonadi12MessageFlags8AnsweredE@Base 4:4.5.0
  _ZN7Akonadi12MessageModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi12MessageModel11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi12MessageModel16staticMetaObjectE@Base 4:4.3.4

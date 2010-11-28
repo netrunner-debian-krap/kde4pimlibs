@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkholidays.so.4 libkholidays4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 4:4.3.4
@@ -7,9 +7,17 @@ libkholidays.so.4 libkholidays4 #MINVER#
  _ZN9KHolidays12AstroSeasons10seasonNameENS0_6SeasonE@Base 4:4.3.4
  _ZN9KHolidays12AstroSeasons12seasonAtDateERK5QDate@Base 4:4.3.4
  _ZN9KHolidays12AstroSeasons16seasonNameAtDateERK5QDate@Base 4:4.3.4
+ _ZN9KHolidays13HolidayRegion11countryCodeERK7QString@Base 4:4.5.0
+ _ZN9KHolidays13HolidayRegion11descriptionERK7QString@Base 4:4.5.0
+ _ZN9KHolidays13HolidayRegion11regionCodesEv@Base 4:4.5.0
+ _ZN9KHolidays13HolidayRegion12languageCodeERK7QString@Base 4:4.5.0
+ _ZN9KHolidays13HolidayRegion4nameERK7QString@Base 4:4.5.0
+ _ZN9KHolidays13HolidayRegion7isValidERK7QString@Base 4:4.5.0
  _ZN9KHolidays13HolidayRegion9locationsEv@Base 4:4.3.4
  _ZN9KHolidays13HolidayRegionC1ERK7QString@Base 4:4.3.4
+ _ZN9KHolidays13HolidayRegionC1ERK9QFileInfo@Base 4:4.5.0
  _ZN9KHolidays13HolidayRegionC2ERK7QString@Base 4:4.3.4
+ _ZN9KHolidays13HolidayRegionC2ERK9QFileInfo@Base 4:4.5.0
  _ZN9KHolidays13HolidayRegionD1Ev@Base 4:4.3.4
  _ZN9KHolidays13HolidayRegionD2Ev@Base 4:4.3.4
  _ZN9KHolidays6Zodiac10signSymbolENS0_11ZodiacSignsE@Base 4:4.3.4
@@ -28,42 +36,62 @@ libkholidays.so.4 libkholidays4 #MINVER#
  _ZN9KHolidays7HolidayD1Ev@Base 4:4.3.4
  _ZN9KHolidays7HolidayD2Ev@Base 4:4.3.4
  _ZN9KHolidays7HolidayaSERKS0_@Base 4:4.3.4
+ _ZNK9KHolidays13HolidayRegion10regionCodeEv@Base 4:4.5.0
+ _ZNK9KHolidays13HolidayRegion11countryCodeEv@Base 4:4.5.0
+ _ZNK9KHolidays13HolidayRegion11descriptionEv@Base 4:4.5.0
+ _ZNK9KHolidays13HolidayRegion12languageCodeEv@Base 4:4.5.0
+ _ZNK9KHolidays13HolidayRegion4nameEv@Base 4:4.5.0
  _ZNK9KHolidays13HolidayRegion7isValidEv@Base 4:4.3.4
  _ZNK9KHolidays13HolidayRegion8holidaysERK5QDate@Base 4:4.3.4
+ _ZNK9KHolidays13HolidayRegion8holidaysERK5QDateS3_@Base 4:4.5.0
+ _ZNK9KHolidays13HolidayRegion8holidaysEiRK7QString@Base 4:4.5.0
  _ZNK9KHolidays13HolidayRegion8locationEv@Base 4:4.3.4
  _ZNK9KHolidays13HolidayRegion9isHolidayERK5QDate@Base 4:4.3.4
  _ZNK9KHolidays6Zodiac10signAtDateERK5QDate@Base 4:4.3.4
  _ZNK9KHolidays6Zodiac14signNameAtDateERK5QDate@Base 4:4.3.4
+ _ZNK9KHolidays7Holiday4dateEv@Base 4:4.5.0
  _ZNK9KHolidays7Holiday4textEv@Base 4:4.3.4
  _ZNK9KHolidays7Holiday7dayTypeEv@Base 4:4.3.4
  _ZNK9KHolidays7Holiday9shortTextEv@Base 4:4.3.4
- holidays@Base 4:4.3.4
- kcal_create_buffer@Base 4:4.3.4
- kcal_delete_buffer@Base 4:4.3.4
- kcal_flush_buffer@Base 4:4.3.4
- kcal_init_buffer@Base 4:4.3.4
- kcal_load_buffer_state@Base 4:4.3.4
- kcal_scan_buffer@Base 4:4.3.4
- kcal_scan_bytes@Base 4:4.3.4
- kcal_scan_string@Base 4:4.3.4
- kcal_switch_to_buffer@Base 4:4.3.4
- kcalchar@Base 4:4.3.4
- kcalin@Base 4:4.3.4
- kcalleng@Base 4:4.3.4
- kcallex@Base 4:4.3.4
- kcallineno@Base 4:4.3.4
- kcallval@Base 4:4.3.4
- kcalnerrs@Base 4:4.3.4
- kcalout@Base 4:4.3.4
- kcalparse@Base 4:4.3.4
- kcalrestart@Base 4:4.3.4
- kcaltext@Base 4:4.3.4
- monthbegin@Base 4:4.3.4
- monthlen@Base 4:4.3.4
- parse_holidays@Base 4:4.3.4
- parse_year@Base 4:4.3.4
- progname@Base 4:4.3.4
- yacc_daycolor@Base 4:4.3.4
- yacc_small@Base 4:4.3.4
- yacc_string@Base 4:4.3.4
- yacc_stringcolor@Base 4:4.3.4
+ _ZNK9KHolidays7HolidaygtERKS0_@Base 4:4.5.0
+ _ZNK9KHolidays7HolidayltERKS0_@Base 4:4.5.0
+ (optional=templinst)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EplEl@Base 4:4.5.0
+ (optional=templinst)_ZNKSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EplEl@Base 4:4.5.0
+ (optional=templinst)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS2_PS3_EpLEl@Base 4:4.5.0
+ (optional=templinst)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EpLEl@Base 4:4.5.0
+ (optional=templinst)_ZNSt15_Deque_iteratorIN9KHolidays8locationERKS1_PS2_EpLEl@Base 4:4.5.0
+ (optional=templinst)_ZNSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EpLEl@Base 4:4.5.0
+ (optional=templinst)_ZNSt15_Deque_iteratorIiRKiPS0_EpLEl@Base 4:4.5.0
+ (optional=templinst)_ZNSt15_Deque_iteratorIiRiPiEpLEl@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE13_M_insert_auxISt15_Deque_iteratorIS2_RKS2_PS7_EEEvS6_IS2_RS2_PS2_ET_SE_m@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_reallocate_mapEmb@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE19_M_range_insert_auxISt15_Deque_iteratorIS2_RKS2_PS7_EEEvS6_IS2_RS2_PS2_ET_SE_St20forward_iterator_tag@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE23_M_new_elements_at_backEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE24_M_new_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE27_M_reserve_elements_at_backEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE28_M_reserve_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EEaSERKS4_@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE13_M_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_m@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE17_M_reallocate_mapEmb@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE19_M_range_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_St20forward_iterator_tag@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE23_M_new_elements_at_backEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE24_M_new_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE27_M_reserve_elements_at_backEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE28_M_reserve_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EEaSERKS3_@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEE13_M_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_m@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEE17_M_reallocate_mapEmb@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEE19_M_range_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_St20forward_iterator_tag@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEE23_M_new_elements_at_backEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEE24_M_new_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEE27_M_reserve_elements_at_backEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEE28_M_reserve_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIiSaIiEEaSERKS1_@Base 4:4.5.0
+ (optional=templinst)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS3_PS4_ES0_IS3_RS3_PS3_ES3_ET0_T_SC_SB_RSaIT1_E@Base 4:4.5.0
+ (optional=templinst)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIiRKiPS1_ES0_IiRiPiEiET0_T_S9_S8_RSaIT1_E@Base 4:4.5.0
+ (optional=templinst)_ZSt4copyISt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS3_PS4_ES0_IS3_RS3_PS3_EET0_T_SC_SB_@Base 4:4.5.0
+ (optional=templinst)_ZSt4copyISt15_Deque_iteratorIN9KHolidays8locationERKS2_PS3_ES0_IS2_RS2_PS2_EET0_T_SB_SA_@Base 4:4.5.0
+ (optional=templinst)_ZSt4copyISt15_Deque_iteratorIiRKiPS1_ES0_IiRiPiEET0_T_S9_S8_@Base 4:4.5.0
+ (optional=templinst)_ZStmiIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_ENSt15_Deque_iteratorIT_T0_T1_E15difference_typeERKS9_SC_@Base 4:4.5.0
+ (optional=templinst)_ZStmiIN9KHolidays8locationERS1_PS1_ENSt15_Deque_iteratorIT_T0_T1_E15difference_typeERKS8_SB_@Base 4:4.5.0
+ (optional=templinst)_ZStmiIiRiPiENSt15_Deque_iteratorIT_T0_T1_E15difference_typeERKS6_S9_@Base 4:4.5.0

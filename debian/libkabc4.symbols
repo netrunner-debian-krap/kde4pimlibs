@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -71,6 +71,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC11AddressBookD0Ev@Base 4:4.3.4
  _ZN4KABC11AddressBookD1Ev@Base 4:4.3.4
  _ZN4KABC11AddressBookD2Ev@Base 4:4.3.4
+ _ZN4KABC11PhoneNumber13typeFlagLabelENS0_8TypeFlagE@Base 4:4.5.0
  _ZN4KABC11PhoneNumber5setIdERK7QString@Base 4:4.3.4
  _ZN4KABC11PhoneNumber7setTypeE6QFlagsINS0_8TypeFlagEE@Base 4:4.3.4
  _ZN4KABC11PhoneNumber8typeListEv@Base 4:4.3.4
@@ -768,6 +769,11 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9AddresseeD1Ev@Base 4:4.3.4
  _ZN4KABC9AddresseeD2Ev@Base 4:4.3.4
  _ZN4KABC9AddresseeaSERKS0_@Base 4:4.3.4
+ _ZN4KABC9VCardDrag12fromMimeDataEPK9QMimeDataR10QByteArray@Base 4:4.5.0
+ _ZN4KABC9VCardDrag12fromMimeDataEPK9QMimeDataRNS_13AddresseeListE@Base 4:4.5.0
+ _ZN4KABC9VCardDrag16populateMimeDataEP9QMimeDataRK10QByteArray@Base 4:4.5.0
+ _ZN4KABC9VCardDrag16populateMimeDataEP9QMimeDataRKNS_13AddresseeListE@Base 4:4.5.0
+ _ZN4KABC9VCardDrag9canDecodeEPK9QMimeData@Base 4:4.5.0
  _ZN4KABC9VCardToolC1Ev@Base 4:4.3.4
  _ZN4KABC9VCardToolC2Ev@Base 4:4.3.4
  _ZN4KABC9VCardToolD1Ev@Base 4:4.3.4

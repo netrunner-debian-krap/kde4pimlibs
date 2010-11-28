@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libgpgme++-pth.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -8,6 +8,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME10engineInfoENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME10engineInfoENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME10hasFeatureEm@Base 4:4.3.4
+ _ZN5GpgME10hasFeatureEmm@Base 4:4.5.0
  _ZN5GpgME11checkEngineENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME11checkEngineENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME12AssuanResult4initEP13gpgme_context@Base 4:4.4.0
@@ -62,6 +63,13 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME14EditInteractorD0Ev@Base 4:4.3.4
  _ZN5GpgME14EditInteractorD1Ev@Base 4:4.3.4
  _ZN5GpgME14EditInteractorD2Ev@Base 4:4.3.4
+ _ZN5GpgME14VfsMountResult4initEP13gpgme_context@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1EP13gpgme_contextRKNS_5ErrorES5_@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1ERKNS_5ErrorE@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1Ev@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2EP13gpgme_contextRKNS_5ErrorES5_@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2ERKNS_5ErrorE@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2Ev@Base 4:4.5.0
  _ZN5GpgME16CreatedSignatureC1ERKN5boost10shared_ptrINS_13SigningResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME16CreatedSignatureC1Ev@Base 4:4.3.4
  _ZN5GpgME16CreatedSignatureC2ERKN5boost10shared_ptrINS_13SigningResult7PrivateEEEj@Base 4:4.3.4
@@ -247,6 +255,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context11generateKeyEPKcRNS_4DataE@Base 4:4.3.4
  _ZN5GpgME7Context11getAuditLogERNS_4DataEj@Base 4:4.3.4
  _ZN5GpgME7Context11setTextModeEb@Base 4:4.3.4
+ _ZN5GpgME7Context11startPasswdERKNS_3KeyE@Base 4:4.5.0
  _ZN5GpgME7Context12startEditingERKNS_3KeyESt8auto_ptrINS_14EditInteractorEERNS_4DataE@Base 4:4.3.4
  _ZN5GpgME7Context12startSigningERKNS_4DataERS1_NS_13SignatureModeE@Base 4:4.3.4
  _ZN5GpgME7Context13addSigningKeyERKNS_3KeyE@Base 4:4.3.4
@@ -306,6 +315,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context4pollEv@Base 4:4.3.4
  _ZN5GpgME7Context4signERKNS_4DataERS1_NS_13SignatureModeE@Base 4:4.3.4
  _ZN5GpgME7Context4waitEv@Base 4:4.3.4
+ _ZN5GpgME7Context6passwdERKNS_3KeyE@Base 4:4.5.0
  _ZN5GpgME7Context7PrivateC1EP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME7Context7PrivateC2EP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME7Context7PrivateD1Ev@Base 4:4.3.4
@@ -314,7 +324,9 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context7encryptERKSt6vectorINS_3KeyESaIS2_EERKNS_4DataERS7_NS0_15EncryptionFlagsE@Base 4:4.3.4
  _ZN5GpgME7Context7nextKeyERNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME7Context8cardEditERKNS_3KeyESt8auto_ptrINS_14EditInteractorEERNS_4DataE@Base 4:4.3.4
+ _ZN5GpgME7Context8mountVFSEPKcS2_@Base 4:4.5.0
  _ZN5GpgME7Context8setArmorEb@Base 4:4.3.4
+ _ZN5GpgME7Context9createVFSEPKcRKSt6vectorINS_3KeyESaIS4_EE@Base 4:4.5.0
  _ZN5GpgME7Context9deleteKeyERKNS_3KeyEb@Base 4:4.3.4
  _ZN5GpgME7Context9setLocaleEiPKc@Base 4:4.3.4
  _ZN5GpgME7ContextC1EP13gpgme_context@Base 4:4.3.4
@@ -329,6 +341,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME8NotationC2ERKN5boost10shared_ptrINS_18VerificationResult7PrivateEEEjj@Base 4:4.3.4
  _ZN5GpgME8NotationC2Ev@Base 4:4.3.4
  _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSs@Base 4:4.3.4
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSsNS0_7OptionsE@Base 4:4.5.0
  _ZN5GpgME9ExceptionD0Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD1Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD2Ev@Base 4:4.3.4
@@ -355,6 +368,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgMElsERSoNS_9Signature9PKAStatusE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_12AssuanResultE@Base 4:4.4.0
  _ZN5GpgMElsERSoRKNS_13SigningResultE@Base 4:4.3.4
+ _ZN5GpgMElsERSoRKNS_14VfsMountResultE@Base 4:4.5.0
  _ZN5GpgMElsERSoRKNS_16CreatedSignatureE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_16DecryptionResult9RecipientE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_16DecryptionResultE@Base 4:4.3.4
@@ -399,6 +413,8 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME14EditInteractor15needsNoResponseEj@Base 4:4.3.4
  _ZNK5GpgME14EditInteractor5stateEv@Base 4:4.3.4
  _ZNK5GpgME14EditInteractor9lastErrorEv@Base 4:4.3.4
+ _ZNK5GpgME14VfsMountResult6isNullEv@Base 4:4.5.0
+ _ZNK5GpgME14VfsMountResult8mountDirEv@Base 4:4.5.0
  _ZNK5GpgME16CreatedSignature11fingerprintEv@Base 4:4.3.4
  _ZNK5GpgME16CreatedSignature12creationTimeEv@Base 4:4.3.4
  _ZNK5GpgME16CreatedSignature13hashAlgorithmEv@Base 4:4.3.4
@@ -475,6 +491,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME3Key11isQualifiedEv@Base 4:4.3.4
  _ZNK5GpgME3Key11keyListModeEv@Base 4:4.3.4
  _ZNK5GpgME3Key12issuerSerialEv@Base 4:4.3.4
+ _ZNK5GpgME3Key13canReallySignEv@Base 4:4.5.0
  _ZNK5GpgME3Key15canAuthenticateEv@Base 4:4.3.4
  _ZNK5GpgME3Key16protocolAsStringEv@Base 4:4.3.4
  _ZNK5GpgME3Key18ownerTrustAsStringEv@Base 4:4.3.4
@@ -728,6 +745,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME10engineInfoENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME10engineInfoENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME10hasFeatureEm@Base 4:4.3.4
+ _ZN5GpgME10hasFeatureEmm@Base 4:4.5.0
  _ZN5GpgME11checkEngineENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME11checkEngineENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME12AssuanResult4initEP13gpgme_context@Base 4:4.4.0
@@ -782,6 +800,13 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME14EditInteractorD0Ev@Base 4:4.3.4
  _ZN5GpgME14EditInteractorD1Ev@Base 4:4.3.4
  _ZN5GpgME14EditInteractorD2Ev@Base 4:4.3.4
+ _ZN5GpgME14VfsMountResult4initEP13gpgme_context@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1EP13gpgme_contextRKNS_5ErrorES5_@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1ERKNS_5ErrorE@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1Ev@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2EP13gpgme_contextRKNS_5ErrorES5_@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2ERKNS_5ErrorE@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2Ev@Base 4:4.5.0
  _ZN5GpgME16CreatedSignatureC1ERKN5boost10shared_ptrINS_13SigningResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME16CreatedSignatureC1Ev@Base 4:4.3.4
  _ZN5GpgME16CreatedSignatureC2ERKN5boost10shared_ptrINS_13SigningResult7PrivateEEEj@Base 4:4.3.4
@@ -967,6 +992,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context11generateKeyEPKcRNS_4DataE@Base 4:4.3.4
  _ZN5GpgME7Context11getAuditLogERNS_4DataEj@Base 4:4.3.4
  _ZN5GpgME7Context11setTextModeEb@Base 4:4.3.4
+ _ZN5GpgME7Context11startPasswdERKNS_3KeyE@Base 4:4.5.0
  _ZN5GpgME7Context12startEditingERKNS_3KeyESt8auto_ptrINS_14EditInteractorEERNS_4DataE@Base 4:4.3.4
  _ZN5GpgME7Context12startSigningERKNS_4DataERS1_NS_13SignatureModeE@Base 4:4.3.4
  _ZN5GpgME7Context13addSigningKeyERKNS_3KeyE@Base 4:4.3.4
@@ -1026,6 +1052,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context4pollEv@Base 4:4.3.4
  _ZN5GpgME7Context4signERKNS_4DataERS1_NS_13SignatureModeE@Base 4:4.3.4
  _ZN5GpgME7Context4waitEv@Base 4:4.3.4
+ _ZN5GpgME7Context6passwdERKNS_3KeyE@Base 4:4.5.0
  _ZN5GpgME7Context7PrivateC1EP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME7Context7PrivateC2EP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME7Context7PrivateD1Ev@Base 4:4.3.4
@@ -1034,7 +1061,9 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context7encryptERKSt6vectorINS_3KeyESaIS2_EERKNS_4DataERS7_NS0_15EncryptionFlagsE@Base 4:4.3.4
  _ZN5GpgME7Context7nextKeyERNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME7Context8cardEditERKNS_3KeyESt8auto_ptrINS_14EditInteractorEERNS_4DataE@Base 4:4.3.4
+ _ZN5GpgME7Context8mountVFSEPKcS2_@Base 4:4.5.0
  _ZN5GpgME7Context8setArmorEb@Base 4:4.3.4
+ _ZN5GpgME7Context9createVFSEPKcRKSt6vectorINS_3KeyESaIS4_EE@Base 4:4.5.0
  _ZN5GpgME7Context9deleteKeyERKNS_3KeyEb@Base 4:4.3.4
  _ZN5GpgME7Context9setLocaleEiPKc@Base 4:4.3.4
  _ZN5GpgME7ContextC1EP13gpgme_context@Base 4:4.3.4
@@ -1049,6 +1078,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME8NotationC2ERKN5boost10shared_ptrINS_18VerificationResult7PrivateEEEjj@Base 4:4.3.4
  _ZN5GpgME8NotationC2Ev@Base 4:4.3.4
  _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSs@Base 4:4.3.4
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSsNS0_7OptionsE@Base 4:4.5.0
  _ZN5GpgME9ExceptionD0Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD1Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD2Ev@Base 4:4.3.4
@@ -1075,6 +1105,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgMElsERSoNS_9Signature9PKAStatusE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_12AssuanResultE@Base 4:4.4.0
  _ZN5GpgMElsERSoRKNS_13SigningResultE@Base 4:4.3.4
+ _ZN5GpgMElsERSoRKNS_14VfsMountResultE@Base 4:4.5.0
  _ZN5GpgMElsERSoRKNS_16CreatedSignatureE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_16DecryptionResult9RecipientE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_16DecryptionResultE@Base 4:4.3.4
@@ -1119,6 +1150,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME14EditInteractor15needsNoResponseEj@Base 4:4.3.4
  _ZNK5GpgME14EditInteractor5stateEv@Base 4:4.3.4
  _ZNK5GpgME14EditInteractor9lastErrorEv@Base 4:4.3.4
+ _ZNK5GpgME14VfsMountResult6isNullEv@Base 4:4.5.0
+ _ZNK5GpgME14VfsMountResult8mountDirEv@Base 4:4.5.0
  _ZNK5GpgME16CreatedSignature11fingerprintEv@Base 4:4.3.4
  _ZNK5GpgME16CreatedSignature12creationTimeEv@Base 4:4.3.4
  _ZNK5GpgME16CreatedSignature13hashAlgorithmEv@Base 4:4.3.4
@@ -1195,6 +1228,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME3Key11isQualifiedEv@Base 4:4.3.4
  _ZNK5GpgME3Key11keyListModeEv@Base 4:4.3.4
  _ZNK5GpgME3Key12issuerSerialEv@Base 4:4.3.4
+ _ZNK5GpgME3Key13canReallySignEv@Base 4:4.5.0
  _ZNK5GpgME3Key15canAuthenticateEv@Base 4:4.3.4
  _ZNK5GpgME3Key16protocolAsStringEv@Base 4:4.3.4
  _ZNK5GpgME3Key18ownerTrustAsStringEv@Base 4:4.3.4
@@ -1448,6 +1482,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME10engineInfoENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME10engineInfoENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME10hasFeatureEm@Base 4:4.3.4
+ _ZN5GpgME10hasFeatureEmm@Base 4:4.5.0
  _ZN5GpgME11checkEngineENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME11checkEngineENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME12AssuanResult4initEP13gpgme_context@Base 4:4.4.0
@@ -1502,6 +1537,13 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME14EditInteractorD0Ev@Base 4:4.3.4
  _ZN5GpgME14EditInteractorD1Ev@Base 4:4.3.4
  _ZN5GpgME14EditInteractorD2Ev@Base 4:4.3.4
+ _ZN5GpgME14VfsMountResult4initEP13gpgme_context@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1EP13gpgme_contextRKNS_5ErrorES5_@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1ERKNS_5ErrorE@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC1Ev@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2EP13gpgme_contextRKNS_5ErrorES5_@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2ERKNS_5ErrorE@Base 4:4.5.0
+ _ZN5GpgME14VfsMountResultC2Ev@Base 4:4.5.0
  _ZN5GpgME16CreatedSignatureC1ERKN5boost10shared_ptrINS_13SigningResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME16CreatedSignatureC1Ev@Base 4:4.3.4
  _ZN5GpgME16CreatedSignatureC2ERKN5boost10shared_ptrINS_13SigningResult7PrivateEEEj@Base 4:4.3.4
@@ -1687,6 +1729,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context11generateKeyEPKcRNS_4DataE@Base 4:4.3.4
  _ZN5GpgME7Context11getAuditLogERNS_4DataEj@Base 4:4.3.4
  _ZN5GpgME7Context11setTextModeEb@Base 4:4.3.4
+ _ZN5GpgME7Context11startPasswdERKNS_3KeyE@Base 4:4.5.0
  _ZN5GpgME7Context12startEditingERKNS_3KeyESt8auto_ptrINS_14EditInteractorEERNS_4DataE@Base 4:4.3.4
  _ZN5GpgME7Context12startSigningERKNS_4DataERS1_NS_13SignatureModeE@Base 4:4.3.4
  _ZN5GpgME7Context13addSigningKeyERKNS_3KeyE@Base 4:4.3.4
@@ -1746,6 +1789,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context4pollEv@Base 4:4.3.4
  _ZN5GpgME7Context4signERKNS_4DataERS1_NS_13SignatureModeE@Base 4:4.3.4
  _ZN5GpgME7Context4waitEv@Base 4:4.3.4
+ _ZN5GpgME7Context6passwdERKNS_3KeyE@Base 4:4.5.0
  _ZN5GpgME7Context7PrivateC1EP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME7Context7PrivateC2EP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME7Context7PrivateD1Ev@Base 4:4.3.4
@@ -1754,7 +1798,9 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME7Context7encryptERKSt6vectorINS_3KeyESaIS2_EERKNS_4DataERS7_NS0_15EncryptionFlagsE@Base 4:4.3.4
  _ZN5GpgME7Context7nextKeyERNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME7Context8cardEditERKNS_3KeyESt8auto_ptrINS_14EditInteractorEERNS_4DataE@Base 4:4.3.4
+ _ZN5GpgME7Context8mountVFSEPKcS2_@Base 4:4.5.0
  _ZN5GpgME7Context8setArmorEb@Base 4:4.3.4
+ _ZN5GpgME7Context9createVFSEPKcRKSt6vectorINS_3KeyESaIS4_EE@Base 4:4.5.0
  _ZN5GpgME7Context9deleteKeyERKNS_3KeyEb@Base 4:4.3.4
  _ZN5GpgME7Context9setLocaleEiPKc@Base 4:4.3.4
  _ZN5GpgME7ContextC1EP13gpgme_context@Base 4:4.3.4
@@ -1769,6 +1815,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME8NotationC2ERKN5boost10shared_ptrINS_18VerificationResult7PrivateEEEjj@Base 4:4.3.4
  _ZN5GpgME8NotationC2Ev@Base 4:4.3.4
  _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSs@Base 4:4.3.4
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSsNS0_7OptionsE@Base 4:4.5.0
  _ZN5GpgME9ExceptionD0Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD1Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD2Ev@Base 4:4.3.4
@@ -1795,6 +1842,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgMElsERSoNS_9Signature9PKAStatusE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_12AssuanResultE@Base 4:4.4.0
  _ZN5GpgMElsERSoRKNS_13SigningResultE@Base 4:4.3.4
+ _ZN5GpgMElsERSoRKNS_14VfsMountResultE@Base 4:4.5.0
  _ZN5GpgMElsERSoRKNS_16CreatedSignatureE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_16DecryptionResult9RecipientE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_16DecryptionResultE@Base 4:4.3.4
@@ -1839,6 +1887,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME14EditInteractor15needsNoResponseEj@Base 4:4.3.4
  _ZNK5GpgME14EditInteractor5stateEv@Base 4:4.3.4
  _ZNK5GpgME14EditInteractor9lastErrorEv@Base 4:4.3.4
+ _ZNK5GpgME14VfsMountResult6isNullEv@Base 4:4.5.0
+ _ZNK5GpgME14VfsMountResult8mountDirEv@Base 4:4.5.0
  _ZNK5GpgME16CreatedSignature11fingerprintEv@Base 4:4.3.4
  _ZNK5GpgME16CreatedSignature12creationTimeEv@Base 4:4.3.4
  _ZNK5GpgME16CreatedSignature13hashAlgorithmEv@Base 4:4.3.4
@@ -1915,6 +1965,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME3Key11isQualifiedEv@Base 4:4.3.4
  _ZNK5GpgME3Key11keyListModeEv@Base 4:4.3.4
  _ZNK5GpgME3Key12issuerSerialEv@Base 4:4.3.4
+ _ZNK5GpgME3Key13canReallySignEv@Base 4:4.5.0
  _ZNK5GpgME3Key15canAuthenticateEv@Base 4:4.3.4
  _ZNK5GpgME3Key16protocolAsStringEv@Base 4:4.3.4
  _ZNK5GpgME3Key18ownerTrustAsStringEv@Base 4:4.3.4

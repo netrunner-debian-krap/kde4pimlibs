@@ -1,6 +1,9 @@
 kdepimlibs (4:4.4.5-2) UNRELEASED; urgency=low
 
   * Point debian/control Vcs fields to the new Git repository.
+  * Fix POP3 mailcheck aborting because of internal memory errors. The bug was
+    a cause of POP3 mails not getting deleted from POP3 servers.
+    (Closes: #600907)
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:37 +0300
 

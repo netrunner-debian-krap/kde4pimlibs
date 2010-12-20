@@ -16,6 +16,7 @@ kdepimlibs (4:4.5.86-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Remove 04_backport_fix_abnormal_pop3_aborting.diff, no longer needed.
   * Add xsltproc to Build-Depends.
+  * Bump versioned build depend on libakonadi-dev, now (>= 1.4.52).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
 

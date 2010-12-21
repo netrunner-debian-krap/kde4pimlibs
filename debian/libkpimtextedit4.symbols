@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN12KPIMTextEdit21EMailQuoteHighlighter13highlightTextERK7QStringRK6QColorS6_S6_@Base 4:4.4.0
@@ -14,6 +14,7 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZN12KPIMTextEdit21EMailQuoteHighlighterD1Ev@Base 4:4.3.4
  _ZN12KPIMTextEdit21EMailQuoteHighlighterD2Ev@Base 4:4.3.4
  _ZN12KPIMTextEdit8TextEdit11eventFilterEP7QObjectP6QEvent@Base 4:4.3.4
+ _ZN12KPIMTextEdit8TextEdit11insertImageERK6QImageRK9QFileInfo@Base 4:4.5.86
  _ZN12KPIMTextEdit8TextEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN12KPIMTextEdit8TextEdit11qt_metacastEPKc@Base 4:4.3.4
  _ZN12KPIMTextEdit8TextEdit13createActionsEP17KActionCollection@Base 4:4.3.4
@@ -49,6 +50,7 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZNK12KPIMTextEdit8TextEdit16isFormattingUsedEv@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit16toCleanPlainTextEv@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit18toWrappedPlainTextEv@Base 4:4.3.4
+ _ZNK12KPIMTextEdit8TextEdit20isEnableImageActionsEv@Base 4:4.5.86
  _ZNK12KPIMTextEdit8TextEdit21canInsertFromMimeDataEPK9QMimeData@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit22isSpellCheckingEnabledEv@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit25shouldBlockBeSpellCheckedERK7QString@Base 4:4.3.4

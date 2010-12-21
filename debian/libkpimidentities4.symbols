@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkpimidentities.so.4 libkpimidentities4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN14KPIMIdentities13IdentityCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -84,6 +84,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities8Identity12setVCardFileERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity13setDictionaryERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity14setReplyToAddrERK7QString@Base 4:4.3.4
+ _ZN14KPIMIdentities8Identity15setEmailAliasesERK11QStringList@Base 4:4.5.86
  _ZN14KPIMIdentities8Identity15setIdentityNameERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity15setOrganizationERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity15setXFaceEnabledEb@Base 4:4.3.4
@@ -93,6 +94,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities8Identity18setSMIMESigningKeyERK10QByteArray@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity19setPGPEncryptionKeyERK10QByteArray@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity21setSMIMEEncryptionKeyERK10QByteArray@Base 4:4.3.4
+ _ZN14KPIMIdentities8Identity22setPrimaryEmailAddressERK7QString@Base 4:4.5.86
  _ZN14KPIMIdentities8Identity22setSignatureInlineTextERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity31setPreferredCryptoMessageFormatERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity4nullEv@Base 4:4.3.4
@@ -162,6 +164,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities8Identity10dictionaryEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity11replyToAddrEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity11writeConfigER12KConfigGroup@Base 4:4.3.4
+ _ZNK14KPIMIdentities8Identity12emailAliasesEv@Base 4:4.5.86
  _ZNK14KPIMIdentities8Identity12identityNameEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity12organizationEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity13fullEmailAddrEv@Base 4:4.3.4
@@ -176,6 +179,8 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities8Identity17signatureIsInlineEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity18signatureIsCommandEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity18smimeEncryptionKeyEv@Base 4:4.3.4
+ _ZNK14KPIMIdentities8Identity19matchesEmailAddressERK7QString@Base 4:4.5.86
+ _ZNK14KPIMIdentities8Identity19primaryEmailAddressEv@Base 4:4.5.86
  _ZNK14KPIMIdentities8Identity19signatureInlineTextEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity20signatureIsPlainFileEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity22signatureIsInlinedHtmlEv@Base 4:4.3.4

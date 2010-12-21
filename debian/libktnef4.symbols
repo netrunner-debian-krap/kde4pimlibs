@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libktnef.so.4 libktnef4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KTnef11KTNEFAttach10setMimeTagERK7QString@Base 4:4.3.4
@@ -83,6 +83,7 @@ libktnef.so.4 libktnef4 #MINVER#
  _ZN5KTnef16KTNEFPropertySetD1Ev@Base 4:4.3.4
  _ZN5KTnef16KTNEFPropertySetD2Ev@Base 4:4.3.4
  _ZN5KTnef20formatTNEFInvitationERK10QByteArrayPN4KCal8CalendarEPNS3_25InvitationFormatterHelperE@Base 4:4.3.4
+ _ZN5KTnef20formatTNEFInvitationERK10QByteArrayRK14QSharedPointerIN8KCalCore14MemoryCalendarEEPN9KCalUtils25InvitationFormatterHelperE@Base 4:4.5.86
  _ZNK5KTnef11KTNEFAttach10checkStateEi@Base 4:4.3.4
  _ZNK5KTnef11KTNEFAttach10dataParsedEv@Base 4:4.3.4
  _ZNK5KTnef11KTNEFAttach10infoParsedEv@Base 4:4.3.4

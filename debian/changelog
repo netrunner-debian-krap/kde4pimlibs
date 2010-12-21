@@ -20,6 +20,7 @@ kdepimlibs (4:4.5.86-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Add packages libkcalcore4, libkcalutils4, libkmbox4 and 
     libakonadi-calendar4. TODO: Add proper descriptions.
+  * Update symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
 

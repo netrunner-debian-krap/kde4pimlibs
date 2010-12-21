@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KIMAP10AclJobBase10setMailBoxERK7QString@Base 4:4.3.4
@@ -165,6 +165,9 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP14SessionPrivate9startNextEv@Base 4:4.5.0
  _ZN5KIMAP14SessionPrivateC1EPNS_7SessionE@Base 4:4.5.0
  _ZN5KIMAP14SessionPrivateC2EPNS_7SessionE@Base 4:4.5.0
+ _ZN5KIMAP14SessionPrivateD0Ev@Base 4:4.5.86
+ _ZN5KIMAP14SessionPrivateD1Ev@Base 4:4.5.86
+ _ZN5KIMAP14SessionPrivateD2Ev@Base 4:4.5.86
  _ZN5KIMAP14SetMetaDataJob11addMetaDataERK10QByteArrayS3_@Base 4:4.3.4
  _ZN5KIMAP14SetMetaDataJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5KIMAP14SetMetaDataJob11qt_metacastEPKc@Base 4:4.3.4
@@ -224,6 +227,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP16ImapStreamParser10hasLiteralEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser10readNumberEPb@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser10readStringEv@Base 4:4.3.4
+ _ZN5KIMAP16ImapStreamParser10trimBufferEv@Base 4:4.5.86
  _ZN5KIMAP16ImapStreamParser12atCommandEndEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser14readUtf8StringEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser15hasResponseCodeEv@Base 4:4.3.4
@@ -235,13 +239,16 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP16ImapStreamParser18stripLeadingSpacesEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser19readUntilCommandEndEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser21readParenthesizedListEv@Base 4:4.3.4
- _ZN5KIMAP16ImapStreamParser24sendContinuationResponseEv@Base 4:4.3.4
+#MISSING: 4:4.5.86# _ZN5KIMAP16ImapStreamParser24sendContinuationResponseEv@Base 4:4.3.4
+ _ZN5KIMAP16ImapStreamParser24sendContinuationResponseEx@Base 4:4.5.86
  _ZN5KIMAP16ImapStreamParser7hasListEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser7setDataERK10QByteArray@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser9atListEndEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser9hasStringEv@Base 4:4.3.4
- _ZN5KIMAP16ImapStreamParserC1EP9QIODevice@Base 4:4.3.4
- _ZN5KIMAP16ImapStreamParserC2EP9QIODevice@Base 4:4.3.4
+#MISSING: 4:4.5.86# _ZN5KIMAP16ImapStreamParserC1EP9QIODevice@Base 4:4.3.4
+ _ZN5KIMAP16ImapStreamParserC1EP9QIODeviceb@Base 4:4.5.86
+#MISSING: 4:4.5.86# _ZN5KIMAP16ImapStreamParserC2EP9QIODevice@Base 4:4.3.4
+ _ZN5KIMAP16ImapStreamParserC2EP9QIODeviceb@Base 4:4.5.86
  _ZN5KIMAP16ImapStreamParserD1Ev@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParserD2Ev@Base 4:4.3.4
  _ZN5KIMAP19decodeRFC2047StringERK7QString@Base 4:4.3.4
@@ -256,7 +263,9 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP20encodeImapFolderNameERK10QByteArray@Base 4:4.3.4
  _ZN5KIMAP20encodeImapFolderNameERK7QString@Base 4:4.3.4
  _ZN5KIMAP3Acl14rightsToStringE6QFlagsINS0_5RightEE@Base 4:4.3.4
+ _ZN5KIMAP3Acl16normalizedRightsE6QFlagsINS0_5RightEE@Base 4:4.5.86
  _ZN5KIMAP3Acl16rightsFromStringERK10QByteArray@Base 4:4.3.4
+ _ZN5KIMAP3Acl18denormalizedRightsE6QFlagsINS0_5RightEE@Base 4:4.5.86
  _ZN5KIMAP3Job11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5KIMAP3Job11qt_metacastEPKc@Base 4:4.3.4
  _ZN5KIMAP3Job14connectionLostEv@Base 4:4.3.4
@@ -324,6 +333,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP7ListJobD0Ev@Base 4:4.3.4
  _ZN5KIMAP7ListJobD1Ev@Base 4:4.3.4
  _ZN5KIMAP7ListJobD2Ev@Base 4:4.3.4
+ _ZN5KIMAP7Session10setTimeoutEi@Base 4:4.5.86
  _ZN5KIMAP7Session10setUiProxyEN5boost10shared_ptrINS_14SessionUiProxyEEE@Base 4:4.5.0
  _ZN5KIMAP7Session10setUiProxyEPNS_14SessionUiProxyE@Base 4:4.3.4
  _ZN5KIMAP7Session11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -331,6 +341,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP7Session14connectionLostEv@Base 4:4.5.0
  _ZN5KIMAP7Session16staticMetaObjectE@Base 4:4.3.4
  _ZN5KIMAP7Session19jobQueueSizeChangedEi@Base 4:4.5.0
+ _ZN5KIMAP7Session5closeEv@Base 4:4.5.86
  _ZN5KIMAP7SessionC1ERK7QStringtP7QObject@Base 4:4.3.4
  _ZN5KIMAP7SessionC2ERK7QStringtP7QObject@Base 4:4.3.4
  _ZN5KIMAP7SessionD0Ev@Base 4:4.3.4
@@ -616,6 +627,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZNK5KIMAP9SearchJob10isUidBasedEv@Base 4:4.3.4
  _ZNK5KIMAP9SearchJob10metaObjectEv@Base 4:4.3.4
  _ZNK5KIMAP9SearchJob7charsetEv@Base 4:4.3.4
+ _ZNK5KIMAP9SearchJob7resultsEv@Base 4:4.5.86
  _ZNK5KIMAP9SelectJob10metaObjectEv@Base 4:4.3.4
  _ZNK5KIMAP9SelectJob11recentCountEv@Base 4:4.3.4
  _ZNK5KIMAP9SelectJob11uidValidityEv@Base 4:4.3.4

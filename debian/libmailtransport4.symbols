@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio-plugins
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN13MailTransport10ServerTest11progressBarEv@Base 4:4.3.4
@@ -87,6 +87,7 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport15MessageQueueJob16addressAttributeEv@Base 4:4.4.0
  _ZN13MailTransport15MessageQueueJob16staticMetaObjectE@Base 4:4.4.0
  _ZN13MailTransport15MessageQueueJob18transportAttributeEv@Base 4:4.4.0
+ _ZN13MailTransport15MessageQueueJob19sentActionAttributeEv@Base 4:4.5.86
  _ZN13MailTransport15MessageQueueJob21dispatchModeAttributeEv@Base 4:4.4.0
  _ZN13MailTransport15MessageQueueJob22sentBehaviourAttributeEv@Base 4:4.4.0
  _ZN13MailTransport15MessageQueueJob5startEv@Base 4:4.4.0
@@ -146,6 +147,22 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport19DispatcherInterface23dispatchManualTransportEi@Base 4:4.5.0
  _ZN13MailTransport19DispatcherInterfaceC1Ev@Base 4:4.4.0
  _ZN13MailTransport19DispatcherInterfaceC2Ev@Base 4:4.4.0
+ _ZN13MailTransport19SentActionAttribute11deserializeERK10QByteArray@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionC1ENS1_4TypeERK8QVariant@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionC1ERKS1_@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionC1Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionC2ENS1_4TypeERK8QVariant@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionC2ERKS1_@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionC2Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionD1Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionD2Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute6ActionaSERKS1_@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttribute9addActionENS0_6Action4TypeERK8QVariant@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttributeC1Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttributeC2Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttributeD0Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttributeD1Ev@Base 4:4.5.86
+ _ZN13MailTransport19SentActionAttributeD2Ev@Base 4:4.5.86
  _ZN13MailTransport21DispatchModeAttribute11deserializeERK10QByteArray@Base 4:4.4.0
  _ZN13MailTransport21DispatchModeAttribute12setSendAfterERK9QDateTime@Base 4:4.4.0
  _ZN13MailTransport21DispatchModeAttribute15setDispatchModeENS0_12DispatchModeE@Base 4:4.4.0
@@ -257,7 +274,8 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN7Akonadi15FilterActionJobD0Ev@Base 4:4.4.0
  _ZN7Akonadi15FilterActionJobD1Ev@Base 4:4.4.0
  _ZN7Akonadi15FilterActionJobD2Ev@Base 4:4.4.0
- (optional=templinst)_ZN7Akonadi4Item10setPayloadIN5boost10shared_ptrIN5KMime7MessageEEEEEvRKT_@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN7Akonadi4Item10setPayloadIN5boost10shared_ptrIN5KMime7MessageEEEEEvRKT_@Base 4:4.4.0
+ (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENS2_12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKSA_@Base 4:4.5.86
  _ZNK13MailTransport10ServerTest10metaObjectEv@Base 4:4.3.4
  _ZNK13MailTransport10ServerTest12capabilitiesEv@Base 4:4.3.4
  _ZNK13MailTransport11SendmailJob10metaObjectEv@Base 4:4.3.4
@@ -300,6 +318,13 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZNK13MailTransport18TransportAttribute5cloneEv@Base 4:4.4.0
  _ZNK13MailTransport18TransportAttribute9transportEv@Base 4:4.4.0
  _ZNK13MailTransport19DispatcherInterface18dispatcherInstanceEv@Base 4:4.4.0
+ _ZNK13MailTransport19SentActionAttribute10serializedEv@Base 4:4.5.86
+ _ZNK13MailTransport19SentActionAttribute4typeEv@Base 4:4.5.86
+ _ZNK13MailTransport19SentActionAttribute5cloneEv@Base 4:4.5.86
+ _ZNK13MailTransport19SentActionAttribute6Action4typeEv@Base 4:4.5.86
+ _ZNK13MailTransport19SentActionAttribute6Action5valueEv@Base 4:4.5.86
+ _ZNK13MailTransport19SentActionAttribute6ActioneqERKS1_@Base 4:4.5.86
+ _ZNK13MailTransport19SentActionAttribute7actionsEv@Base 4:4.5.86
  _ZNK13MailTransport21DispatchModeAttribute10serializedEv@Base 4:4.4.0
  _ZNK13MailTransport21DispatchModeAttribute12dispatchModeEv@Base 4:4.4.0
  _ZNK13MailTransport21DispatchModeAttribute4typeEv@Base 4:4.4.0
@@ -332,6 +357,7 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZTIN13MailTransport16TransportManagerE@Base 4:4.3.4
  _ZTIN13MailTransport17TransportComboBoxE@Base 4:4.3.4
  _ZTIN13MailTransport18TransportAttributeE@Base 4:4.4.0
+ _ZTIN13MailTransport19SentActionAttributeE@Base 4:4.5.86
  _ZTIN13MailTransport21DispatchModeAttributeE@Base 4:4.4.0
  _ZTIN13MailTransport21TransportConfigDialogE@Base 4:4.3.4
  _ZTIN13MailTransport22SentBehaviourAttributeE@Base 4:4.4.0
@@ -351,6 +377,7 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZTSN13MailTransport16TransportManagerE@Base 4:4.3.4
  _ZTSN13MailTransport17TransportComboBoxE@Base 4:4.3.4
  _ZTSN13MailTransport18TransportAttributeE@Base 4:4.4.0
+ _ZTSN13MailTransport19SentActionAttributeE@Base 4:4.5.86
  _ZTSN13MailTransport21DispatchModeAttributeE@Base 4:4.4.0
  _ZTSN13MailTransport21TransportConfigDialogE@Base 4:4.3.4
  _ZTSN13MailTransport22SentBehaviourAttributeE@Base 4:4.4.0
@@ -370,6 +397,7 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZTVN13MailTransport16TransportManagerE@Base 4:4.3.4
  _ZTVN13MailTransport17TransportComboBoxE@Base 4:4.3.4
  _ZTVN13MailTransport18TransportAttributeE@Base 4:4.4.0
+ _ZTVN13MailTransport19SentActionAttributeE@Base 4:4.5.86
  _ZTVN13MailTransport21DispatchModeAttributeE@Base 4:4.4.0
  _ZTVN13MailTransport21TransportConfigDialogE@Base 4:4.3.4
  _ZTVN13MailTransport22SentBehaviourAttributeE@Base 4:4.4.0

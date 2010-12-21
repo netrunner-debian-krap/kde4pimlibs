@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libgpgme++-pth.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -30,6 +30,22 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME12ImportResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME12ImportResultC2Ev@Base 4:4.3.4
  _ZN5GpgME12getQIODeviceEi@Base 4:4.3.4
+ _ZN5GpgME13Configuration6Option11setNewValueERKNS0_8ArgumentE@Base 4:4.5.86
+ _ZN5GpgME13Configuration6Option18resetToActiveValueEv@Base 4:4.5.86
+ _ZN5GpgME13Configuration6Option19resetToDefaultValueEv@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC1ERKN5boost10shared_ptrI15gpgme_conf_compEEP14gpgme_conf_optP14gpgme_conf_argb@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC1ERKS1_@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC2ERKN5boost10shared_ptrI15gpgme_conf_compEEP14gpgme_conf_optP14gpgme_conf_argb@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC2ERKS1_@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentD1Ev@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentD2Ev@Base 4:4.5.86
+ _ZN5GpgME13Configuration9Component4loadERNS_5ErrorE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_4FlagE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_4TypeE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_5LevelE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_6OptionE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_8ArgumentE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_9ComponentE@Base 4:4.5.86
  _ZN5GpgME13KeyListResult4initEP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME13KeyListResult6detachEv@Base 4:4.3.4
  _ZN5GpgME13KeyListResult9mergeWithERKS0_@Base 4:4.3.4
@@ -228,6 +244,12 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME4DataC2ERKNS0_4NullE@Base 4:4.3.4
  _ZN5GpgME4DataC2Ei@Base 4:4.3.4
  _ZN5GpgME4DataC2Ev@Base 4:4.3.4
+ _ZN5GpgME5Error14hasSystemErrorEv@Base 4:4.5.86
+ _ZN5GpgME5Error14setSystemErrorE14gpg_err_code_t@Base 4:4.5.86
+ _ZN5GpgME5Error15fromSystemErrorEj@Base 4:4.5.86
+ _ZN5GpgME5Error8fromCodeEjj@Base 4:4.5.86
+ _ZN5GpgME5Error8setErrnoEi@Base 4:4.5.86
+ _ZN5GpgME5Error9fromErrnoEij@Base 4:4.5.86
  _ZN5GpgME6ImportC1ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME6ImportC1Ev@Base 4:4.3.4
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
@@ -403,6 +425,51 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME12ImportResult6importEj@Base 4:4.3.4
  _ZNK5GpgME12ImportResult6isNullEv@Base 4:4.3.4
  _ZNK5GpgME12ImportResult7importsEv@Base 4:4.3.4
+ _ZNK5GpgME13Configuration6Option11activeValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option11descriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12argumentNameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12currentValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12defaultValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option13alternateTypeEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option15noArgumentValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option17createIntArgumentEi@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18createNoneArgumentEb@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18createUIntArgumentEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18defaultDescriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentEPKc@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentERKSs@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option21createIntListArgumentERKSt6vectorIiSaIiEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option21noArgumentDescriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option22createNoneListArgumentEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option22createUIntListArgumentERKSt6vectorIjSaIjEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorIPKcSaIS4_EE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorISsSaISsEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option3setEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option4nameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option4typeEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5dirtyEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5flagsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5levelEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option6parentEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option8newValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument10uintValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument11numElementsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument11stringValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument12stringValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument16numberOfTimesSetEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument6parentEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument8intValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9boolValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9intValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9uintValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component10numOptionsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component11descriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component11programNameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component4nameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component4saveEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component6optionEPKc@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component6optionEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component7optionsEv@Base 4:4.5.86
  _ZNK5GpgME13KeyListResult11isTruncatedEv@Base 4:4.3.4
  _ZNK5GpgME13KeyListResult6isNullEv@Base 4:4.3.4
  _ZNK5GpgME13SigningResult16createdSignatureEj@Base 4:4.3.4
@@ -515,6 +582,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME5Error10isCanceledEv@Base 4:4.3.4
  _ZNK5GpgME5Error4codeEv@Base 4:4.3.4
  _ZNK5GpgME5Error6sourceEv@Base 4:4.3.4
+ _ZNK5GpgME5Error7toErrnoEv@Base 4:4.5.86
  _ZNK5GpgME5Error8asStringEv@Base 4:4.3.4
  _ZNK5GpgME5Error8sourceIDEv@Base 4:4.3.4
  _ZNK5GpgME6Import11fingerprintEv@Base 4:4.3.4
@@ -642,6 +710,9 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.3.4
  (optional=templinst)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEEixERSA_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorI16_gpgme_recipientSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS2_S4_EEmRKS2_@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 4:4.3.4
@@ -687,6 +758,8 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EED1Ev@Base 4:4.4.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
@@ -767,6 +840,22 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME12ImportResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME12ImportResultC2Ev@Base 4:4.3.4
  _ZN5GpgME12getQIODeviceEi@Base 4:4.3.4
+ _ZN5GpgME13Configuration6Option11setNewValueERKNS0_8ArgumentE@Base 4:4.5.86
+ _ZN5GpgME13Configuration6Option18resetToActiveValueEv@Base 4:4.5.86
+ _ZN5GpgME13Configuration6Option19resetToDefaultValueEv@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC1ERKN5boost10shared_ptrI15gpgme_conf_compEEP14gpgme_conf_optP14gpgme_conf_argb@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC1ERKS1_@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC2ERKN5boost10shared_ptrI15gpgme_conf_compEEP14gpgme_conf_optP14gpgme_conf_argb@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC2ERKS1_@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentD1Ev@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentD2Ev@Base 4:4.5.86
+ _ZN5GpgME13Configuration9Component4loadERNS_5ErrorE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_4FlagE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_4TypeE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_5LevelE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_6OptionE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_8ArgumentE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_9ComponentE@Base 4:4.5.86
  _ZN5GpgME13KeyListResult4initEP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME13KeyListResult6detachEv@Base 4:4.3.4
  _ZN5GpgME13KeyListResult9mergeWithERKS0_@Base 4:4.3.4
@@ -965,6 +1054,12 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME4DataC2ERKNS0_4NullE@Base 4:4.3.4
  _ZN5GpgME4DataC2Ei@Base 4:4.3.4
  _ZN5GpgME4DataC2Ev@Base 4:4.3.4
+ _ZN5GpgME5Error14hasSystemErrorEv@Base 4:4.5.86
+ _ZN5GpgME5Error14setSystemErrorE14gpg_err_code_t@Base 4:4.5.86
+ _ZN5GpgME5Error15fromSystemErrorEj@Base 4:4.5.86
+ _ZN5GpgME5Error8fromCodeEjj@Base 4:4.5.86
+ _ZN5GpgME5Error8setErrnoEi@Base 4:4.5.86
+ _ZN5GpgME5Error9fromErrnoEij@Base 4:4.5.86
  _ZN5GpgME6ImportC1ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME6ImportC1Ev@Base 4:4.3.4
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
@@ -1140,6 +1235,51 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME12ImportResult6importEj@Base 4:4.3.4
  _ZNK5GpgME12ImportResult6isNullEv@Base 4:4.3.4
  _ZNK5GpgME12ImportResult7importsEv@Base 4:4.3.4
+ _ZNK5GpgME13Configuration6Option11activeValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option11descriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12argumentNameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12currentValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12defaultValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option13alternateTypeEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option15noArgumentValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option17createIntArgumentEi@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18createNoneArgumentEb@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18createUIntArgumentEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18defaultDescriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentEPKc@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentERKSs@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option21createIntListArgumentERKSt6vectorIiSaIiEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option21noArgumentDescriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option22createNoneListArgumentEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option22createUIntListArgumentERKSt6vectorIjSaIjEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorIPKcSaIS4_EE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorISsSaISsEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option3setEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option4nameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option4typeEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5dirtyEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5flagsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5levelEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option6parentEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option8newValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument10uintValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument11numElementsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument11stringValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument12stringValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument16numberOfTimesSetEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument6parentEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument8intValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9boolValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9intValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9uintValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component10numOptionsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component11descriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component11programNameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component4nameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component4saveEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component6optionEPKc@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component6optionEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component7optionsEv@Base 4:4.5.86
  _ZNK5GpgME13KeyListResult11isTruncatedEv@Base 4:4.3.4
  _ZNK5GpgME13KeyListResult6isNullEv@Base 4:4.3.4
  _ZNK5GpgME13SigningResult16createdSignatureEj@Base 4:4.3.4
@@ -1252,6 +1392,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME5Error10isCanceledEv@Base 4:4.3.4
  _ZNK5GpgME5Error4codeEv@Base 4:4.3.4
  _ZNK5GpgME5Error6sourceEv@Base 4:4.3.4
+ _ZNK5GpgME5Error7toErrnoEv@Base 4:4.5.86
  _ZNK5GpgME5Error8asStringEv@Base 4:4.3.4
  _ZNK5GpgME5Error8sourceIDEv@Base 4:4.3.4
  _ZNK5GpgME6Import11fingerprintEv@Base 4:4.3.4
@@ -1379,6 +1520,9 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.3.4
  (optional=templinst)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEEixERSA_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorI16_gpgme_recipientSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS2_S4_EEmRKS2_@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 4:4.3.4
@@ -1424,6 +1568,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EED1Ev@Base 4:4.4.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
@@ -1504,6 +1650,22 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME12ImportResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME12ImportResultC2Ev@Base 4:4.3.4
  _ZN5GpgME12getQIODeviceEi@Base 4:4.3.4
+ _ZN5GpgME13Configuration6Option11setNewValueERKNS0_8ArgumentE@Base 4:4.5.86
+ _ZN5GpgME13Configuration6Option18resetToActiveValueEv@Base 4:4.5.86
+ _ZN5GpgME13Configuration6Option19resetToDefaultValueEv@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC1ERKN5boost10shared_ptrI15gpgme_conf_compEEP14gpgme_conf_optP14gpgme_conf_argb@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC1ERKS1_@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC2ERKN5boost10shared_ptrI15gpgme_conf_compEEP14gpgme_conf_optP14gpgme_conf_argb@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentC2ERKS1_@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentD1Ev@Base 4:4.5.86
+ _ZN5GpgME13Configuration8ArgumentD2Ev@Base 4:4.5.86
+ _ZN5GpgME13Configuration9Component4loadERNS_5ErrorE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_4FlagE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_4TypeE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoNS0_5LevelE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_6OptionE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_8ArgumentE@Base 4:4.5.86
+ _ZN5GpgME13ConfigurationlsERSoRKNS0_9ComponentE@Base 4:4.5.86
  _ZN5GpgME13KeyListResult4initEP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME13KeyListResult6detachEv@Base 4:4.3.4
  _ZN5GpgME13KeyListResult9mergeWithERKS0_@Base 4:4.3.4
@@ -1702,6 +1864,12 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME4DataC2ERKNS0_4NullE@Base 4:4.3.4
  _ZN5GpgME4DataC2Ei@Base 4:4.3.4
  _ZN5GpgME4DataC2Ev@Base 4:4.3.4
+ _ZN5GpgME5Error14hasSystemErrorEv@Base 4:4.5.86
+ _ZN5GpgME5Error14setSystemErrorE14gpg_err_code_t@Base 4:4.5.86
+ _ZN5GpgME5Error15fromSystemErrorEj@Base 4:4.5.86
+ _ZN5GpgME5Error8fromCodeEjj@Base 4:4.5.86
+ _ZN5GpgME5Error8setErrnoEi@Base 4:4.5.86
+ _ZN5GpgME5Error9fromErrnoEij@Base 4:4.5.86
  _ZN5GpgME6ImportC1ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME6ImportC1Ev@Base 4:4.3.4
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
@@ -1877,6 +2045,51 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME12ImportResult6importEj@Base 4:4.3.4
  _ZNK5GpgME12ImportResult6isNullEv@Base 4:4.3.4
  _ZNK5GpgME12ImportResult7importsEv@Base 4:4.3.4
+ _ZNK5GpgME13Configuration6Option11activeValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option11descriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12argumentNameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12currentValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option12defaultValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option13alternateTypeEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option15noArgumentValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option17createIntArgumentEi@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18createNoneArgumentEb@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18createUIntArgumentEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option18defaultDescriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentEPKc@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentERKSs@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option21createIntListArgumentERKSt6vectorIiSaIiEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option21noArgumentDescriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option22createNoneListArgumentEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option22createUIntListArgumentERKSt6vectorIjSaIjEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorIPKcSaIS4_EE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorISsSaISsEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option3setEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option4nameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option4typeEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5dirtyEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5flagsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option5levelEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option6parentEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option8newValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument10uintValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument11numElementsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument11stringValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument12stringValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument16numberOfTimesSetEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument6parentEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument8intValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9boolValueEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9intValuesEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration8Argument9uintValueEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component10numOptionsEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component11descriptionEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component11programNameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component4nameEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component4saveEv@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component6optionEPKc@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component6optionEj@Base 4:4.5.86
+ _ZNK5GpgME13Configuration9Component7optionsEv@Base 4:4.5.86
  _ZNK5GpgME13KeyListResult11isTruncatedEv@Base 4:4.3.4
  _ZNK5GpgME13KeyListResult6isNullEv@Base 4:4.3.4
  _ZNK5GpgME13SigningResult16createdSignatureEj@Base 4:4.3.4
@@ -1989,6 +2202,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME5Error10isCanceledEv@Base 4:4.3.4
  _ZNK5GpgME5Error4codeEv@Base 4:4.3.4
  _ZNK5GpgME5Error6sourceEv@Base 4:4.3.4
+ _ZNK5GpgME5Error7toErrnoEv@Base 4:4.5.86
  _ZNK5GpgME5Error8asStringEv@Base 4:4.3.4
  _ZNK5GpgME5Error8sourceIDEv@Base 4:4.3.4
  _ZNK5GpgME6Import11fingerprintEv@Base 4:4.3.4
@@ -2116,6 +2330,9 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.3.4
  (optional=templinst)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEEixERSA_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorI16_gpgme_recipientSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS2_S4_EEmRKS2_@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 4:4.3.4
@@ -2161,6 +2378,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EED1Ev@Base 4:4.4.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi@Base 4:4.5.86
+ (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKS9_@Base 4:4.3.4
  (optional=templinst)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4

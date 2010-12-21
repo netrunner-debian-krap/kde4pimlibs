@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkmime.so.4 libkmime4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN5KMime12ContentIndexE@Base 4:4.3.4
@@ -20,6 +20,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime11NewsArticleD0Ev@Base 4:4.3.4
  _ZN5KMime11NewsArticleD1Ev@Base 4:4.3.4
  _ZN5KMime11NewsArticleD2Ev@Base 4:4.3.4
+ _ZN5KMime11isEncryptedEPNS_7MessageE@Base 4:4.5.86
  _ZN5KMime11removeQuotsER10QByteArray@Base 4:4.3.4
  _ZN5KMime11removeQuotsER7QString@Base 4:4.3.4
  _ZN5KMime12ContentIndex3popEv@Base 4:4.3.4
@@ -33,6 +34,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime12ContentIndexD1Ev@Base 4:4.3.4
  _ZN5KMime12ContentIndexD2Ev@Base 4:4.3.4
  _ZN5KMime12ContentIndexaSERKS0_@Base 4:4.3.4
+ _ZN5KMime12isInvitationEPNS_7ContentE@Base 4:4.5.86
  _ZN5KMime12unfoldHeaderERK10QByteArray@Base 4:4.3.4
  _ZN5KMime12uniqueStringEv@Base 4:4.3.4
  _ZN5KMime13DateFormatter10formatDateENS0_10FormatTypeElRK7QStringbb@Base 4:4.3.4
@@ -65,6 +67,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime13HeaderParsing16parseEncodedWordERPKcS2_R7QStringR10QByteArrayS7_RKS6_b@Base 4:4.3.4
  _ZN5KMime13HeaderParsing18extractFirstHeaderER10QByteArray@Base 4:4.4.0
  _ZN5KMime13HeaderParsing18parseParameterListERPKcS2_R4QMapI7QStringS5_Eb@Base 4:4.3.4
+ _ZN5KMime13HeaderParsing20extractHeaderAndBodyERK10QByteArrayRS1_S4_@Base 4:4.5.86
  _ZN5KMime13HeaderParsing21parseRawParameterListERPKcS2_R4QMapI7QStringNS_5Types14QStringOrQPairEEb@Base 4:4.3.4
  _ZN5KMime13HeaderParsing24parseGenericQuotedStringERPKcS2_R7QStringbcc@Base 4:4.3.4
  _ZN5KMime13HeaderParsing29parseParameterListWithCharsetERPKcS2_R4QMapI7QStringS5_ER10QByteArrayb@Base 4:4.5.0
@@ -74,6 +77,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime13HeaderParsing9parseTimeERPKcS2_RiS4_S4_RlRbb@Base 4:4.3.4
  _ZN5KMime13cachedCharsetERK10QByteArray@Base 4:4.3.4
  _ZN5KMime13extractHeaderERK10QByteArrayS2_@Base 4:4.3.4
+ _ZN5KMime13hasAttachmentEPNS_7ContentE@Base 4:4.5.86
  _ZN5KMime14cachedLanguageERK10QByteArray@Base 4:4.3.4
  _ZN5KMime14extractHeadersERK10QByteArrayS2_@Base 4:4.3.4
  _ZN5KMime15nameForEncodingENS_7Headers15contentEncodingE@Base 4:4.4.0
@@ -112,6 +116,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Content11attachmentsEb@Base 4:4.3.4
  _ZN5KMime7Content11contentTypeEb@Base 4:4.3.4
  _ZN5KMime7Content11decodedTextEbb@Base 4:4.3.4
+ _ZN5KMime7Content11encodedBodyEv@Base 4:4.5.86
  _ZN5KMime7Content11textContentEv@Base 4:4.3.4
  _ZN5KMime7Content12appendHeaderEPNS_7Headers4BaseE@Base 4:4.4.0
  _ZN5KMime7Content12headerByTypeEPKc@Base 4:4.3.4
@@ -136,31 +141,31 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Content4sizeEv@Base 4:4.3.4
  _ZN5KMime7Content5clearEv@Base 4:4.3.4
  _ZN5KMime7Content5parseEv@Base 4:4.3.4
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10FollowUpToEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10NewsgroupsEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10ReferencesEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10SupersedesEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10FollowUpToEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10NewsgroupsEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10ReferencesEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10SupersedesEEEPT_b@Base 4:4.4.0
  (optional=templinst)_ZN5KMime7Content6headerINS_7Headers11ContentTypeEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers12MailCopiesToEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers12OrganizationEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers15ContentLocationEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers18ContentDescriptionEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers18ContentDispositionEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers23ContentTransferEncodingEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers2CcEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers2ToEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers3BccEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers6SenderEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7ControlEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7ReplyToEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7SubjectEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9ContentIDEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9InReplyToEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9MessageIDEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9UserAgentEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers12MailCopiesToEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers12OrganizationEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers15ContentLocationEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers18ContentDescriptionEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers18ContentDispositionEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers23ContentTransferEncodingEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers2CcEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers2ToEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers3BccEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers6SenderEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7ControlEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7ReplyToEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7SubjectEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9ContentIDEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9InReplyToEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9MessageIDEEEPT_b@Base 4:4.4.0
+#MISSING: 4:4.5.86# (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9UserAgentEEEPT_b@Base 4:4.4.0
  _ZN5KMime7Content7setBodyERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content7setHeadERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content8assembleEv@Base 4:4.3.4
@@ -183,6 +188,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7ContentD0Ev@Base 4:4.3.4
  _ZN5KMime7ContentD1Ev@Base 4:4.3.4
  _ZN5KMime7ContentD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers10FollowUpTo10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers10FollowUpToC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers10FollowUpToC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers10FollowUpToC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -192,6 +198,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers10FollowUpToD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers10FollowUpToD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers10FollowUpToD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers10Newsgroups10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers10Newsgroups17fromUnicodeStringERK7QStringRK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers10Newsgroups5clearEv@Base 4:4.3.4
  _ZN5KMime7Headers10Newsgroups5parseERPKcS3_b@Base 4:4.3.4
@@ -205,6 +212,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers10NewsgroupsD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers10NewsgroupsD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers10NewsgroupsD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers10References10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers10ReferencesC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers10ReferencesC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers10ReferencesC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -214,6 +222,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers10ReferencesD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers10ReferencesD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers10ReferencesD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers10ReturnPath10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers10ReturnPath5clearEv@Base 4:4.3.4
  _ZN5KMime7Headers10ReturnPath5parseERPKcS3_b@Base 4:4.3.4
  _ZN5KMime7Headers10ReturnPathC1EPNS_7ContentE@Base 4:4.3.4
@@ -225,6 +234,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers10ReturnPathD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers10ReturnPathD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers10ReturnPathD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers10Supersedes10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers10SupersedesC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers10SupersedesC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers10SupersedesC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -235,6 +245,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers10SupersedesD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers10SupersedesD2Ev@Base 4:4.3.4
  _ZN5KMime7Headers11ContentType10setCharsetERK10QByteArray@Base 4:4.3.4
+ _ZN5KMime7Headers11ContentType10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers11ContentType11setBoundaryERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers11ContentType11setCategoryENS0_15contentCategoryE@Base 4:4.3.4
  _ZN5KMime7Headers11ContentType11setMimeTypeERK10QByteArray@Base 4:4.3.4
@@ -252,6 +263,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers11ContentTypeD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers11ContentTypeD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers11ContentTypeD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers11MIMEVersion10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers11MIMEVersionC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers11MIMEVersionC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers11MIMEVersionC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -261,6 +273,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers11MIMEVersionD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers11MIMEVersionD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers11MIMEVersionD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers12MailCopiesTo10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers12MailCopiesTo12setNeverCopyEv@Base 4:4.3.4
  _ZN5KMime7Headers12MailCopiesTo13setAlwaysCopyEv@Base 4:4.3.4
  _ZN5KMime7Headers12MailCopiesTo5clearEv@Base 4:4.3.4
@@ -274,6 +287,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers12MailCopiesToD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers12MailCopiesToD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers12MailCopiesToD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers12Organization10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers12OrganizationC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers12OrganizationC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers12OrganizationC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -283,6 +297,8 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers12OrganizationD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers12OrganizationD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers12OrganizationD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers12createHeaderERK10QByteArray@Base 4:4.5.86
+ _ZN5KMime7Headers15ContentLocation10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers15ContentLocationC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers15ContentLocationC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers15ContentLocationC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -292,6 +308,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers15ContentLocationD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers15ContentLocationD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers15ContentLocationD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers18ContentDescription10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers18ContentDescriptionC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers18ContentDescriptionC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers18ContentDescriptionC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -301,6 +318,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers18ContentDescriptionD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers18ContentDescriptionD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers18ContentDescriptionD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers18ContentDisposition10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers18ContentDisposition11setFilenameERK7QString@Base 4:4.3.4
  _ZN5KMime7Headers18ContentDisposition14setDispositionENS0_18contentDispositionE@Base 4:4.3.4
  _ZN5KMime7Headers18ContentDisposition5clearEv@Base 4:4.3.4
@@ -315,6 +333,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers18ContentDispositionD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers18ContentDispositionD2Ev@Base 4:4.3.4
  _ZN5KMime7Headers23ContentTransferEncoding10setDecodedEb@Base 4:4.3.4
+ _ZN5KMime7Headers23ContentTransferEncoding10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers23ContentTransferEncoding11setEncodingENS0_15contentEncodingE@Base 4:4.3.4
  _ZN5KMime7Headers23ContentTransferEncoding5clearEv@Base 4:4.3.4
  _ZN5KMime7Headers23ContentTransferEncoding5parseERPKcS3_b@Base 4:4.3.4
@@ -327,6 +346,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers23ContentTransferEncodingD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers23ContentTransferEncodingD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers23ContentTransferEncodingD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers2Cc10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers2CcC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers2CcC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers2CcC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -336,6 +356,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers2CcD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers2CcD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers2CcD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers2To10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers2ToC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers2ToC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers2ToC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -345,6 +366,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers2ToD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers2ToD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers2ToD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers3Bcc10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers3BccC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers3BccC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers3BccC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -363,6 +385,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers4BaseD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers4BaseD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers4BaseD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers4Date10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers4Date11setDateTimeERK9KDateTime@Base 4:4.3.4
  _ZN5KMime7Headers4Date5clearEv@Base 4:4.3.4
  _ZN5KMime7Headers4Date5parseERPKcS3_b@Base 4:4.3.4
@@ -375,6 +398,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers4DateD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers4DateD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers4DateD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers4From10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers4FromC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers4FromC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers4FromC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -384,6 +408,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers4FromD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers4FromD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers4FromD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers5Lines10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers5Lines16setNumberOfLinesEi@Base 4:4.3.4
  _ZN5KMime7Headers5Lines5clearEv@Base 4:4.3.4
  _ZN5KMime7Headers5Lines5parseERPKcS3_b@Base 4:4.3.4
@@ -396,6 +421,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers5LinesD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers5LinesD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers5LinesD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers6Sender10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers6SenderC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers6SenderC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers6SenderC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -405,6 +431,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers6SenderD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers6SenderD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers6SenderD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers7Control10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers7Control5clearEv@Base 4:4.3.4
  _ZN5KMime7Headers7Control5parseERPKcS3_b@Base 4:4.3.4
  _ZN5KMime7Headers7Control9setCancelERK10QByteArray@Base 4:4.3.4
@@ -432,6 +459,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers7GenericD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers7GenericD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers7GenericD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers7ReplyTo10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers7ReplyToC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers7ReplyToC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers7ReplyToC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -441,6 +469,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers7ReplyToD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers7ReplyToD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers7ReplyToD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers7Subject10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers7SubjectC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers7SubjectC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers7SubjectC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -607,6 +636,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers8Generics7DotAtomD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers8Generics7DotAtomD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers8Generics7DotAtomD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers8Keywords10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers8KeywordsC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers8KeywordsC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers8KeywordsC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -616,6 +646,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers8KeywordsD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers8KeywordsD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers8KeywordsD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers9ContentID10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers9ContentID5parseERPKcS3_b@Base 4:4.4.0
  _ZN5KMime7Headers9ContentIDC1EPNS0_16ContentIDPrivateEPNS_7ContentE@Base 4:4.4.0
  _ZN5KMime7Headers9ContentIDC1EPNS_7ContentE@Base 4:4.3.4
@@ -628,6 +659,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers9ContentIDD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers9ContentIDD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers9ContentIDD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers9InReplyTo10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers9InReplyToC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers9InReplyToC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers9InReplyToC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -637,6 +669,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers9InReplyToD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers9InReplyToD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers9InReplyToD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers9MessageID10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers9MessageID8generateERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers9MessageIDC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers9MessageIDC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
@@ -647,6 +680,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Headers9MessageIDD0Ev@Base 4:4.3.4
  _ZN5KMime7Headers9MessageIDD1Ev@Base 4:4.3.4
  _ZN5KMime7Headers9MessageIDD2Ev@Base 4:4.3.4
+ _ZN5KMime7Headers9UserAgent10staticTypeEv@Base 4:4.5.86
  _ZN5KMime7Headers9UserAgentC1EPNS_7ContentE@Base 4:4.3.4
  _ZN5KMime7Headers9UserAgentC1EPNS_7ContentERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Headers9UserAgentC1EPNS_7ContentERK7QStringRK10QByteArray@Base 4:4.3.4
@@ -693,6 +727,7 @@ libkmime.so.4 libkmime4 #MINVER#
  (subst)_ZN5KMime8CharFreqC2EPKc{size_t}@Base 4:4.3.4
  _ZN5KMime8CharFreqC2ERK10QByteArray@Base 4:4.3.4
  _ZN5KMime8LFtoCRLFERK10QByteArray@Base 4:4.3.4
+ _ZN5KMime8isSignedEPNS_7MessageE@Base 4:4.5.86
  _ZN5KMime9BoolFlags3getEj@Base 4:4.3.4
  _ZN5KMime9BoolFlags3setEjb@Base 4:4.3.4
  _ZN5KMime9addQuotesER10QByteArrayb@Base 4:4.3.4

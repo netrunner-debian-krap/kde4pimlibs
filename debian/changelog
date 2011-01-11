@@ -9,7 +9,7 @@ kdepimlibs (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Remove patch 02_increase_fail_timeout.diff, no longer needed.
   * Update installed files.
   * Update symbol files.
-  * Bump build dependency on kdelibs5-dev to version 4:4.5.
+  * Bump build dependency on kdelibs5-dev to version 4:4.5.80.
   * Bump build dependency on libakonadi-dev to version 1.3.80.
   * Add build dependencies on shared-desktop-ontologies and libsoprano-dev.
 

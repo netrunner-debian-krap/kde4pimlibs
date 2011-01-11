@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.5.95 amd64
 libkpimidentities.so.4 libkpimidentities4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN14KPIMIdentities13IdentityCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -30,6 +30,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities15IdentityManager16staticMetaObjectE@Base 4:4.3.4
  _ZN14KPIMIdentities15IdentityManager17identitiesChangedERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities15IdentityManager20newFromControlCenterERK7QString@Base 4:4.3.4
+ _ZN14KPIMIdentities15IdentityManager20removeIdentityForcedERK7QString@Base 4:4.5.95
  _ZN14KPIMIdentities15IdentityManager21createDefaultIdentityEv@Base 4:4.3.4
  _ZN14KPIMIdentities15IdentityManager21modifyIdentityForNameERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities15IdentityManager21modifyIdentityForUoidEj@Base 4:4.3.4

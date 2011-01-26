@@ -21,6 +21,7 @@ kdepimlibs (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Add packages libkcalcore4, libkcalutils4, libkmbox4 and 
     libakonadi-calendar4. TODO: Add proper descriptions.
   * Update symbol files.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
 

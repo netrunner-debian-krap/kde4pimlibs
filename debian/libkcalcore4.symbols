@@ -353,8 +353,6 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore18ICalTimeZoneSource5parseEP13_icaltimezone@Base 4:4.5.86
  _ZN8KCalCore18ICalTimeZoneSource5parseEP18icalcomponent_impl@Base 4:4.5.86
  _ZN8KCalCore18ICalTimeZoneSource5parseEP18icalcomponent_implRNS_13ICalTimeZonesE@Base 4:4.5.86
-#MISSING: 4:4.5.95# _ZN8KCalCore18ICalTimeZoneSource5parseEPNS_11_MSTimeZoneE@Base 4:4.5.86
-#MISSING: 4:4.5.95# _ZN8KCalCore18ICalTimeZoneSource5parseEPNS_11_MSTimeZoneERNS_13ICalTimeZonesE@Base 4:4.5.86
  _ZN8KCalCore18ICalTimeZoneSource5parseERK7QStringRK11QStringList@Base 4:4.5.86
  _ZN8KCalCore18ICalTimeZoneSource5parseERK7QStringRK11QStringListRNS_13ICalTimeZonesE@Base 4:4.5.86
  _ZN8KCalCore18ICalTimeZoneSource5parseERK7QStringRNS_13ICalTimeZonesE@Base 4:4.5.86

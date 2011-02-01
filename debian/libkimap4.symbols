@@ -239,15 +239,12 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP16ImapStreamParser18stripLeadingSpacesEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser19readUntilCommandEndEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser21readParenthesizedListEv@Base 4:4.3.4
-#MISSING: 4:4.5.86# _ZN5KIMAP16ImapStreamParser24sendContinuationResponseEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser24sendContinuationResponseEx@Base 4:4.5.86
  _ZN5KIMAP16ImapStreamParser7hasListEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser7setDataERK10QByteArray@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser9atListEndEv@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParser9hasStringEv@Base 4:4.3.4
-#MISSING: 4:4.5.86# _ZN5KIMAP16ImapStreamParserC1EP9QIODevice@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParserC1EP9QIODeviceb@Base 4:4.5.86
-#MISSING: 4:4.5.86# _ZN5KIMAP16ImapStreamParserC2EP9QIODevice@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParserC2EP9QIODeviceb@Base 4:4.5.86
  _ZN5KIMAP16ImapStreamParserD1Ev@Base 4:4.3.4
  _ZN5KIMAP16ImapStreamParserD2Ev@Base 4:4.3.4

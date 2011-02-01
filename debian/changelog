@@ -1,14 +1,14 @@
 kdepimlibs (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update installed files.
+  * Update symbol files.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
   * Refresh patch 03_hide_akonadi_progressbar.diff.
   * Remove patch 01_hurd_support.diff, no longer needed.
   * Remove patch 02_increase_fail_timeout.diff, no longer needed.
-  * Update installed files.
-  * Update symbol files.
   * Bump build dependency on kdelibs5-dev to version 4:4.6.
   * Bump build dependency on libakonadi-dev to version 1.5.0.
   * Add build dependencies on shared-desktop-ontologies and libsoprano-dev.
@@ -16,11 +16,8 @@ kdepimlibs (4:4.6.0-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Remove 04_backport_fix_abnormal_pop3_aborting.diff, no longer needed.
   * Add xsltproc to Build-Depends.
-  * Bump versioned build depend on libakonadi-dev, now (>= 1.4.52).
-  * Update installed files.
   * Add packages libkcalcore4, libkcalutils4, libkmbox4 and 
     libakonadi-calendar4. TODO: Add proper descriptions.
-  * Update symbol files.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300

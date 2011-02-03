@@ -232,8 +232,9 @@ Package: libkmbox4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: library for ...
- This is a library for ...
+Description: library for handling mbox mailboxes
+ This is a library for handling mailboxes in mbox format, using a Qt/KMime C++
+ API.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 

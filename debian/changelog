@@ -1,6 +1,7 @@
 kdepimlibs (4:4.6.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - uses memmove() in kio_imap (Closes: #610728)
   * Update installed files.
   * Update symbol files.
 

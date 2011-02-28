@@ -19,7 +19,7 @@ kdepimlibs (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Add xsltproc to Build-Depends.
   * Add packages libkcalcore4, libkcalutils4, libkmbox4 and 
     libakonadi-calendar4. TODO: Add proper descriptions.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump S-V to 3.9.1: add breaks next to replaces and replace conflicts with
     breaks where needed.
 

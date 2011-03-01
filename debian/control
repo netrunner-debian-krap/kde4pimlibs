@@ -3,7 +3,8 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
- Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>
+ Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>,
+ José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.6.1),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7.2.3), pkg-kde-tools (>= 0.9), dpkg-dev (>= 1.15.5),
  kdelibs5-dev (>= 4:4.6), libgpgme11-dev, libldap2-dev, libsasl2-dev,

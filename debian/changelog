@@ -23,6 +23,7 @@ kdepimlibs (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump S-V to 3.9.1: add breaks next to replaces and replace conflicts with
     breaks where needed.
   * Remove starting articles from short desciptions.
+  * Add myself to Uploaders.
 
   [ Pino Toscano ]
   * Add build dependencies:

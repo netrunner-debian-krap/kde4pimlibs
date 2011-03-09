@@ -18,7 +18,7 @@ kdepimlibs (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Remove 04_backport_fix_abnormal_pop3_aborting.diff, no longer needed.
   * Add xsltproc to Build-Depends.
   * Add packages libkcalcore4, libkcalutils4, libkmbox4 and 
-    libakonadi-calendar4. TODO: Add proper descriptions.
+    libakonadi-calendar4.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump S-V to 3.9.1: add breaks next to replaces and replace conflicts with
     breaks where needed.
@@ -30,6 +30,7 @@ kdepimlibs (4:4.6.1-0r1) UNRELEASED; urgency=low
     - uuid-dev
   * Tighten the shared-desktop-ontologies build-dendency to the version
     required upstream.
+  * Improve some descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
 

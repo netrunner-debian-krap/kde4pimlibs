@@ -167,6 +167,9 @@ Description: library for handling calendar data
  the standard formats iCalendar and vCalendar and the group scheduling
  standard iTIP.
  .
+ This library integrates with the deprecated KResource framework, and its use
+ is discouraged in favour of KCalCore and KCalUtils.
+ .
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libkcalcore4
@@ -184,10 +187,9 @@ Package: libkcalutils4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: library for handling calendar data
- This library provides access to and handling of calendar data. It supports
- the standard formats iCalendar and vCalendar and the group scheduling
- standard iTIP.
+Description: library with utility functions for the handling of calendar data
+ This library provides a set of utility functions that help applications access
+ and use calendar data via the KCalCore library.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
@@ -243,8 +245,9 @@ Package: libakonadi-calendar4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: library for ...
- This is a library for ...
+Description: library providing calendar helpers for Akonadi items
+ This library offers helper functions for integrate the use of Akonadi calendar
+ items in applications.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 

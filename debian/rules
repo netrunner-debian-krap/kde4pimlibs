@@ -1,26 +1,33 @@
 #!/usr/bin/make -f
 
-DEB_DH_MAKESHLIBS_ARGS_ALL = -u-c0
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+libpkgs_addsubst_allLibraries = kdepimlibs5-dev kdepimlibs-dbg
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 # Get rid of the dependency on kde{base,pim}-runtime
-DEB_DH_SHLIBDEPS_ARGS_ALL:=-- -xkdebase-runtime -xkdepim-runtime -xkdepimlibs-kio-plugins
+override_dh_shlibdeps:
+	$(overriden_command) -- -xkdebase-runtime -xkdepim-runtime -xkdepimlibs-kio-plugins
 
-DEB_ALL_LIBRARIES_SUBST_PACKAGES = kdepimlibs5-dev kdepimlibs-dbg
-DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
-
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
-include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
+override_dh_strip:
+	$(overriden_command) --dbg-package=kdepimlibs-dbg
 
 # Inject kdepimlibs-kio-plugins and kdepim-runtime via shlibs as well. Get
 # packages from symbol files
-# Must go below library-packages.mk include due to DEB_LIBRARY_PACKAGES usage
+# Must go below library-packages.mk include due to $(libpkgs_...) usage
 UPSTREAMVERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //' | sed 's/^\(.*\)-.*/\1/')
-DEB_LIBRARIES_WITH_KDEPIM_RUNTIME := $(shell grep -l 'kdepim-runtime' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
-DEB_LIBRARIES_WITH_KIO_PLUGINS := $(shell grep -l 'kdepimlibs-kio-plugins' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
+libs_with_kdepim_runtime := $(shell grep -l 'kdepim-runtime' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
+libs_with_kio_plugins := $(shell grep -l 'kdepimlibs-kio-plugins' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
 comma = ,
+define dh_makeshlibs_with_extra_shlibs
+$(overriden_command) -p$1 -V'$1 (>= $(UPSTREAMVERSION))\
+    $(and $(filter $1,$(libs_with_kdepim_runtime)),$(comma) kdepim-runtime)\
+    $(and $(filter $1,$(libs_with_kio_plugins)),$(comma) kdepimlibs-kio-plugins)'\
+    -- -c0
 
-$(foreach pkg,$(DEB_LIBRARY_PACKAGES), $(eval \
-    DEB_DH_MAKESHLIBS_ARGS_$(pkg) += -V'$(pkg) (>= $(UPSTREAMVERSION)) \
-        $(if $(filter $(pkg),$(DEB_LIBRARIES_WITH_KDEPIM_RUNTIME)),$(comma) kdepim-runtime,) \
-        $(if $(filter $(pkg),$(DEB_LIBRARIES_WITH_KIO_PLUGINS)),$(comma) kdepimlibs-kio-plugins,)' \
-))
+endef
+
+override_dh_makeshlibs:
+	$(foreach p,$(filter $(libs_with_kdepim_runtime) $(libs_with_kio_plugins),$(libpkgs_all_packages)),\
+        $(call dh_makeshlibs_with_extra_shlibs,$p))
+	$(overriden_command) -V --remaining-packages -- -c0

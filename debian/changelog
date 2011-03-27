@@ -1,4 +1,4 @@
-kdepimlibs (4:4.6.1-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.6.1-0r2) UNRELEASED; urgency=low
 
   * New upstream release:
     - uses memmove() in kio_imap (Closes: #610728)

@@ -35,6 +35,7 @@ kdepimlibs (4:4.6.1-0r2) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Drop kdepimlibs5 transitional package.
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
+  * Disable testsuite.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
 

@@ -1,4 +1,4 @@
-kdepimlibs (4:4.6.1-0r2) UNRELEASED; urgency=low
+kdepimlibs (4:4.6.1-0r3) UNRELEASED; urgency=low
 
   * New upstream release:
     - uses memmove() in kio_imap (Closes: #610728)
@@ -38,7 +38,7 @@ kdepimlibs (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Disable testsuite.
   * Remove a deprecated link to the BSD license from debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Mar 2011 21:48:40 +0300
 
 kdepimlibs (4:4.4.5-2) unstable; urgency=low
 

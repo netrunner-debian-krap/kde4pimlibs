@@ -16,15 +16,6 @@ Homepage: http://pim.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepimlibs.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepimlibs.git
 
-Package: kdepimlibs5
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${kde43Libraries}, kdepimlibs-kio-plugins (= ${binary:Version})
-Description: KDE Development Platform PIM libraries (transitional package)
- This is a dummy package to ease transition to the new library packages.
- .
- This package is part of the KDE Development Platform PIM libraries module.
-
 Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any

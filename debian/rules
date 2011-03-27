@@ -5,12 +5,7 @@ DEB_DH_MAKESHLIBS_ARGS_ALL = -u-c0
 # Get rid of the dependency on kde{base,pim}-runtime
 DEB_DH_SHLIBDEPS_ARGS_ALL:=-- -xkdebase-runtime -xkdepim-runtime -xkdepimlibs-kio-plugins
 
-DEB_KDE43_LIBRARY_PACKAGES = libakonadi-kabc4 libakonadi-kde4 libakonadi-kmime4 libgpgme++2 \
- libkabc4 libkblog4 libkcal4 libkholidays4 libkimap4 libkldap4 libkmime4 libkpimidentities4 \
- libkpimtextedit4 libkpimutils4 libkresources4 libktnef4 libkxmlrpcclient4 libmailtransport4 \
- libmicroblog4 libqgpgme1 libsyndication4
 DEB_ALL_LIBRARIES_SUBST_PACKAGES = kdepimlibs5-dev kdepimlibs-dbg
-DEB_KDE43_LIBRARIES_SUBST_PACKAGES = kdepimlibs5
 DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk

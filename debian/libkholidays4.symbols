@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64 i386
 libkholidays.so.4 libkholidays4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 4:4.3.4
@@ -105,42 +105,42 @@ libkholidays.so.4 libkholidays4 #MINVER#
  _ZNK9KHolidays7Holiday9shortTextEv@Base 4:4.3.4
  _ZNK9KHolidays7HolidaygtERKS0_@Base 4:4.5.0
  _ZNK9KHolidays7HolidayltERKS0_@Base 4:4.5.0
- (optional=templinst)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EixEl@Base 4:4.6.1
- (optional=templinst)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_initialize_mapEm@Base 4:4.6.1
+ (optional=templinst|subst)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EixE{ssize_t}@Base 4:4.6.1
+ (optional=templinst|subst)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_initialize_mapE{size_t}@Base 4:4.6.1
  (optional=templinst)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EED1Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EED2Ev@Base 4:4.6.1
- (optional=templinst)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EE17_M_initialize_mapEm@Base 4:4.6.1
+ (optional=templinst|subst)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EE17_M_initialize_mapE{size_t}@Base 4:4.6.1
  (optional=templinst)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EED1Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EED2Ev@Base 4:4.6.1
- (optional=templinst)_ZNSt11_Deque_baseIiSaIiEE17_M_initialize_mapEm@Base 4:4.6.1
+ (optional=templinst|subst)_ZNSt11_Deque_baseIiSaIiEE17_M_initialize_mapE{size_t}@Base 4:4.6.1
  (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED1Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED2Ev@Base 4:4.6.1
- (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE13_M_insert_auxISt15_Deque_iteratorIS2_RKS2_PS7_EEEvS6_IS2_RS2_PS2_ET_SE_m@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE13_M_insert_auxISt15_Deque_iteratorIS2_RKS2_PS7_EEEvS6_IS2_RS2_PS2_ET_SE_{size_t}@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE16_M_pop_front_auxEv@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_push_front_auxERKS2_@Base 4:4.6.1
- (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_reallocate_mapEmb@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE18_M_fill_initializeERKS2_@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE19_M_range_insert_auxISt15_Deque_iteratorIS2_RKS2_PS7_EEEvS6_IS2_RS2_PS2_ET_SE_St20forward_iterator_tag@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE23_M_new_elements_at_backEm@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE24_M_new_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EEaSERKS4_@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE13_M_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_m@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE13_M_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_{size_t}@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE16_M_pop_front_auxEv@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE17_M_push_front_auxERKS1_@Base 4:4.6.1
- (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE17_M_reallocate_mapEmb@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE18_M_fill_initializeERKS1_@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE19_M_range_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_St20forward_iterator_tag@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE23_M_new_elements_at_backEm@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE24_M_new_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EEaSERKS3_@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIiSaIiEE13_M_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_m@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIiSaIiEE13_M_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_{size_t}@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIiSaIiEE16_M_pop_front_auxEv@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIiSaIiEE17_M_push_front_auxERKi@Base 4:4.6.1
- (optional=templinst)_ZNSt5dequeIiSaIiEE17_M_reallocate_mapEmb@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIiSaIiEE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIiSaIiEE18_M_fill_initializeERKi@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIiSaIiEE19_M_range_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_St20forward_iterator_tag@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIiSaIiEE23_M_new_elements_at_backEm@Base 4:4.5.0
- (optional=templinst)_ZNSt5dequeIiSaIiEE24_M_new_elements_at_frontEm@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIiSaIiEE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
+ (optional=templinst|subst)_ZNSt5dequeIiSaIiEE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIiSaIiEEaSERKS1_@Base 4:4.5.0
  (optional=templinst)_ZSt13copy_backwardIN9KHolidays17HolidayParserPlan13semantic_typeEESt15_Deque_iteratorIT_RS4_PS4_ES3_IS4_RKS4_PS8_ESB_S7_@Base 4:4.6.1
  (optional=templinst)_ZSt13copy_backwardIN9KHolidays8locationEESt15_Deque_iteratorIT_RS3_PS3_ES2_IS3_RKS3_PS7_ESA_S6_@Base 4:4.6.1

@@ -9,10 +9,10 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 # Get rid of the dependency on kde{base,pim}-runtime
 override_dh_shlibdeps:
-	$(overriden_command) -- -xkdebase-runtime -xkdepim-runtime -xkdepimlibs-kio-plugins
+	$(overridden_command) -- -xkdebase-runtime -xkdepim-runtime -xkdepimlibs-kio-plugins
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdepimlibs-dbg
+	$(overridden_command) --dbg-package=kdepimlibs-dbg
 
 # Inject kdepimlibs-kio-plugins and kdepim-runtime via shlibs as well. Get
 # packages from symbol files
@@ -22,7 +22,7 @@ libs_with_kdepim_runtime := $(shell grep -l 'kdepim-runtime' debian/*.symbols | 
 libs_with_kio_plugins := $(shell grep -l 'kdepimlibs-kio-plugins' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
 comma = ,
 define dh_makeshlibs_with_extra_shlibs
-$(overriden_command) -p$1 -V'$1 (>= $(UPSTREAMVERSION))\
+$(overridden_command) -p$1 -V'$1 (>= $(UPSTREAMVERSION))\
     $(and $(filter $1,$(libs_with_kdepim_runtime)),$(comma) kdepim-runtime)\
     $(and $(filter $1,$(libs_with_kio_plugins)),$(comma) kdepimlibs-kio-plugins)'\
     -- -c0
@@ -32,4 +32,4 @@ endef
 override_dh_makeshlibs:
 	$(foreach p,$(filter $(libs_with_kdepim_runtime) $(libs_with_kio_plugins),$(libpkgs_all_packages)),\
         $(call dh_makeshlibs_with_extra_shlibs,$p))
-	$(overriden_command) -V --remaining-packages -- -c0
+	$(overridden_command) -V --remaining-packages -- -c0

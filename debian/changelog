@@ -37,6 +37,7 @@ kdepimlibs (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Disable testsuite.
   * Remove a deprecated link to the BSD license from debian/copyright.
+  * Stop caring about shlibs. They are not used since libraries have symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Mar 2011 21:48:40 +0300
 

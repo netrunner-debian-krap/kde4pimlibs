@@ -13,23 +13,3 @@ override_dh_shlibdeps:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdepimlibs-dbg
-
-# Inject kdepimlibs-kio-plugins and kdepim-runtime via shlibs as well. Get
-# packages from symbol files
-# Must go below library-packages.mk include due to $(libpkgs_...) usage
-UPSTREAMVERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //' | sed 's/^\(.*\)-.*/\1/')
-libs_with_kdepim_runtime := $(shell grep -l 'kdepim-runtime' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
-libs_with_kio_plugins := $(shell grep -l 'kdepimlibs-kio-plugins' debian/*.symbols | awk '-F[./]' '{ print $$2 }')
-comma = ,
-define dh_makeshlibs_with_extra_shlibs
-$(overridden_command) -p$1 -V'$1 (>= $(UPSTREAMVERSION))\
-    $(and $(filter $1,$(libs_with_kdepim_runtime)),$(comma) kdepim-runtime)\
-    $(and $(filter $1,$(libs_with_kio_plugins)),$(comma) kdepimlibs-kio-plugins)'\
-    -- -c0
-
-endef
-
-override_dh_makeshlibs:
-	$(foreach p,$(filter $(libs_with_kdepim_runtime) $(libs_with_kio_plugins),$(libpkgs_all_packages)),\
-        $(call dh_makeshlibs_with_extra_shlibs,$p))
-	$(overridden_command) -V --remaining-packages -- -c0

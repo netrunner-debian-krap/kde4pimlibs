@@ -1,2 +1,1 @@
-libmicroblog4: shlibs-declares-dependency-on-other-package
 libmicroblog4: symbols-declares-dependency-on-other-package kdepim-runtime*

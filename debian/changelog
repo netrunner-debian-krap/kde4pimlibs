@@ -38,6 +38,8 @@ kdepimlibs (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Disable testsuite.
   * Remove a deprecated link to the BSD license from debian/copyright.
   * Stop caring about shlibs. They are not used since libraries have symbol files.
+  * Drop no longer unused lintian-overrides
+    (shlibs-declares-dependency-on-other-package due to above).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Mar 2011 21:48:40 +0300
 

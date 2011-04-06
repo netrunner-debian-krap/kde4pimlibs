@@ -1,2 +1,1 @@
-libkresources4: shlibs-declares-dependency-on-other-package
 libkresources4: symbols-declares-dependency-on-other-package kdepim-runtime*

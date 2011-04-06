@@ -1,2 +1,1 @@
-libkcal4: shlibs-declares-dependency-on-other-package
 libkcal4: symbols-declares-dependency-on-other-package kdepim-runtime*

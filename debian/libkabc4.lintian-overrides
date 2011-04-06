@@ -1,2 +1,1 @@
-libkabc4: shlibs-declares-dependency-on-other-package
 libkabc4: symbols-declares-dependency-on-other-package kdepim-runtime*

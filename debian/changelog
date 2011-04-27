@@ -1,4 +1,4 @@
-kdepimlibs (4:4.6.2-0r2) UNRELEASED; urgency=low
+kdepimlibs (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
     - uses memmove() in kio_imap (Closes: #610728)
@@ -42,7 +42,7 @@ kdepimlibs (4:4.6.2-0r2) UNRELEASED; urgency=low
   * Drop no longer unused lintian-overrides
     (shlibs-declares-dependency-on-other-package due to above).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2011 15:41:20 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:44 +0300
 
 kdepimlibs (4:4.4.5-2) unstable; urgency=low
 

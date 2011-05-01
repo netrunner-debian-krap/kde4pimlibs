@@ -1,3 +1,8 @@
+kdepimlibs (4:4.4.5-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2011 23:39:22 +0200
+
 kdepimlibs (4:4.4.5-2) unstable; urgency=low
 
   * Point debian/control Vcs fields to the new Git repository.

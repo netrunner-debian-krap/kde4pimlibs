@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -798,8 +798,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABCrsER11QDataStreamRNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_8TimeZoneE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_9AddresseeE@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.3.4
- (optional=templinst|arch=armel hppa sparc)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.2
+ (optional=templinst|arch=hppa sparc)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.2
  _ZNK4KABC11AddressBook10findByNameERK7QString@Base 4:4.3.4
  _ZNK4KABC11AddressBook10identifierEv@Base 4:4.3.4
  _ZNK4KABC11AddressBook10metaObjectEv@Base 4:4.3.4

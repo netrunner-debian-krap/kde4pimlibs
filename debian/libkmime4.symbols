@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
 libkmime.so.4 libkmime4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN5KMime12ContentIndexE@Base 4:4.3.4
@@ -141,32 +141,32 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Content4sizeEv@Base 4:4.3.4
  _ZN5KMime7Content5clearEv@Base 4:4.3.4
  _ZN5KMime7Content5parseEv@Base 4:4.3.4
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10FollowUpToEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10NewsgroupsEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10ReferencesEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers10SupersedesEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers10FollowUpToEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers10NewsgroupsEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers10ReferencesEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers10SupersedesEEEPT_b@Base 4:4.6.1
  (optional=templinst)_ZN5KMime7Content6headerINS_7Headers11ContentTypeEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers11MIMEVersionEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers12MailCopiesToEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers12OrganizationEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers15ContentLocationEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers18ContentDescriptionEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers18ContentDispositionEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers23ContentTransferEncodingEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers2CcEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers2ToEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers3BccEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers6SenderEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7ControlEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7ReplyToEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers7SubjectEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9ContentIDEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9InReplyToEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9MessageIDEEEPT_b@Base 4:4.6.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers9UserAgentEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers11MIMEVersionEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers12MailCopiesToEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers12OrganizationEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers15ContentLocationEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers18ContentDescriptionEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers18ContentDispositionEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers23ContentTransferEncodingEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers2CcEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers2ToEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers3BccEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers6SenderEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers7ControlEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers7ReplyToEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers7SubjectEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers9ContentIDEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers9InReplyToEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers9MessageIDEEEPT_b@Base 4:4.6.1
+ (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZN5KMime7Content6headerINS_7Headers9UserAgentEEEPT_b@Base 4:4.6.1
  _ZN5KMime7Content7setBodyERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content7setHeadERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content8assembleEv@Base 4:4.3.4

@@ -1,4 +1,4 @@
-kdepimlibs (4:4.4.5-3) UNRELEASED; urgency=medium
+kdepimlibs (4:4.4.5-3) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Backport an upstream commit to fix a memcpy() misuse in the IMAP kioslave,
@@ -7,7 +7,7 @@ kdepimlibs (4:4.4.5-3) UNRELEASED; urgency=medium
   [ Modestas Vainius ]
   * Urgency=medium as #610728 may trigger crashes.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2011 23:39:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 May 2011 02:56:02 +0300
 
 kdepimlibs (4:4.4.5-2) unstable; urgency=low
 

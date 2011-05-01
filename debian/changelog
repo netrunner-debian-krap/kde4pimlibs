@@ -1,5 +1,8 @@
 kdepimlibs (4:4.4.5-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport an upstream commit to fix a memcpy() misuse in the IMAP kioslave,
+    which will be noticed with glibc 2.13. (Closes: #610728)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2011 23:39:22 +0200
 

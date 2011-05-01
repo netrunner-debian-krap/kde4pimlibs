@@ -2,3 +2,4 @@
 02_increase_fail_timeout.diff
 03_hide_akonadi_progressbar.diff
 04_backport_fix_abnormal_pop3_aborting.diff
+05_backport_imap4_memmove.diff

@@ -1,8 +1,14 @@
-kdepimlibs (4:4.6.2-2) UNRELEASED; urgency=low
+kdepimlibs (4:4.6.3-0r0) UNRELEASED; urgency=low
 
+  * New upstream release.
+
+  [ Modestas Vainius ]
   * Confirm symbol files on more debian arches.
   * Merge 4:4.4.5-3 changes:
     - Drop 05_backport_imap4_memmove.diff, stolen from upstream.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:37:51 +0300
 

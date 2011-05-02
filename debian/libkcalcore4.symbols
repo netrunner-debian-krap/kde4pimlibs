@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkcalcore.so.4 libkcalcore4 #MINVER#
  Parse_MIME@Base 4:4.5.86
  Parse_MIME_FromFile@Base 4:4.5.86
@@ -1118,7 +1118,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore9Incidence9relatedToENS0_7RelTypeE@Base 4:4.5.86
  _ZNK8KCalCore9Incidence9resourcesEv@Base 4:4.5.86
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt6__findIP14QSharedPointerIN8KCalCore9IncidenceEES3_ET_S5_S5_RKT0_St26random_access_iterator_tag@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt6removeIP14QSharedPointerIN8KCalCore9IncidenceEES3_ET_S5_S5_RKT0_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt6removeIP14QSharedPointerIN8KCalCore9IncidenceEES3_ET_S5_S5_RKT0_@Base 4:4.6.1
  _ZTIN8KCalCore10CalStorageE@Base 4:4.5.86
  _ZTIN8KCalCore10ICalFormatE@Base 4:4.5.86
  _ZTIN8KCalCore10Recurrence18RecurrenceObserverE@Base 4:4.5.86

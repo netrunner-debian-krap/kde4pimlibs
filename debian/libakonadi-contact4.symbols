@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -366,7 +366,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.5.86
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.6.1
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC12ContactGroupEEET_v@Base 4:4.4.0
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC9AddresseeEEET_v@Base 4:4.4.0
  _ZTIN7Akonadi13ContactEditorE@Base 4:4.4.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.0 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio-plugins
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN13MailTransport10ServerTest11progressBarEv@Base 4:4.3.4
@@ -274,6 +274,8 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN7Akonadi15FilterActionJobD0Ev@Base 4:4.4.0
  _ZN7Akonadi15FilterActionJobD1Ev@Base 4:4.4.0
  _ZN7Akonadi15FilterActionJobD2Ev@Base 4:4.4.0
+ (optional=templinst)_ZN7Akonadi16AttributeFactory17registerAttributeIN13MailTransport14ErrorAttributeEEEvv@Base 4:4.6.3
+ (optional=templinst)_ZN7Akonadi16AttributeFactory17registerAttributeIN13MailTransport22SentBehaviourAttributeEEEvv@Base 4:4.6.3
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENS2_12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKSA_@Base 4:4.5.86
  _ZNK13MailTransport10ServerTest10metaObjectEv@Base 4:4.3.4
  _ZNK13MailTransport10ServerTest12capabilitiesEv@Base 4:4.3.4

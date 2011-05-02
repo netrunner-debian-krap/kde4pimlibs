@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -481,6 +481,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi16AgentFactoryBaseC2EPKcP7QObject@Base 4:4.5.86
  _ZN7Akonadi16AttributeFactory15createAttributeERK10QByteArray@Base 4:4.3.4
  _ZN7Akonadi16AttributeFactory17registerAttributeEPNS_9AttributeE@Base 4:4.3.4
+ (optional=templinst)_ZN7Akonadi16AttributeFactory17registerAttributeINS_26SpecialCollectionAttributeEEEvv@Base 4:4.6.3
  _ZN7Akonadi16AttributeFactory4selfEv@Base 4:4.3.4
  _ZN7Akonadi16AttributeFactoryC1Ev@Base 4:4.3.4
  _ZN7Akonadi16AttributeFactoryC2Ev@Base 4:4.3.4
@@ -1175,7 +1176,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi6Entity19setParentCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi6Entity5setIdEx@Base 4:4.3.4
  _ZN7Akonadi6Entity6d_funcEv@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !i386 !kfreebsd-amd64)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
+ (optional=templinst|arch=!i386 !kfreebsd-amd64)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
  (optional=templinst|arch=ia64 mips s390 sparc)_ZN7Akonadi6Entity9attributeINS_26SpecialCollectionAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
  _ZN7Akonadi6EntityC1EPNS_13EntityPrivateE@Base 4:4.3.4
  _ZN7Akonadi6EntityC1ERKS0_@Base 4:4.3.4
@@ -1764,8 +1765,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZNK7Akonadi4Item5flagsEv@Base 4:4.3.4
  _ZNK7Akonadi4Item6d_funcEv@Base 4:4.3.4
  _ZNK7Akonadi4Item7hasFlagERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK7Akonadi4Item7payloadI10QByteArrayEET_v@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK7Akonadi4Item7payloadISsEET_v@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK7Akonadi4Item7payloadI10QByteArrayEET_v@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK7Akonadi4Item7payloadISsEET_v@Base 4:4.6.1
  _ZNK7Akonadi4Item8mimeTypeEv@Base 4:4.3.4
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
@@ -1833,9 +1834,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZNK7Akonadi9ItemModel8rowCountERK11QModelIndex@Base 4:4.3.4
  _ZNK7Akonadi9ItemModel9mimeTypesEv@Base 4:4.3.4
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 4:4.3.4
- (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZNSt10_List_baseIN5boost9list_edgeI{size_t}NS0_11no_propertyEEESaIS3_EE8_M_clearEv@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt12_Destroy_auxILb0EE9__destroyIPN5boost6detail12adj_list_genINS2_14adjacency_listINS2_4vecSES6_NS2_9directedSENS2_11no_propertyES8_S8_NS2_5listSEEES6_S6_S7_S8_S8_S8_S9_E6config13stored_vertexEEEvT_SF_@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt12_Destroy_auxILb0EE9__destroyIPN7Akonadi13MimeTypeEntryEEEvT_S5_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZNSt10_List_baseIN5boost9list_edgeI{size_t}NS0_11no_propertyEEESaIS3_EE8_M_clearEv@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt12_Destroy_auxILb0EE9__destroyIPN5boost6detail12adj_list_genINS2_14adjacency_listINS2_4vecSES6_NS2_9directedSENS2_11no_propertyES8_S8_NS2_5listSEEES6_S6_S7_S8_S8_S8_S9_E6config13stored_vertexEEEvT_SF_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt12_Destroy_auxILb0EE9__destroyIPN7Akonadi13MimeTypeEntryEEEvT_S5_@Base 4:4.6.1
  (optional=templinst|arch=armel)_ZNSt12_Destroy_auxILb0EE9__destroyIPN7Akonadi7_detail12TypedPayloadEEEvT_S6_@Base 4:4.6.2
  (optional=templinst|subst)_ZNSt6vectorIN5boost6detail12adj_list_genINS0_14adjacency_listINS0_4vecSES4_NS0_9directedSENS0_11no_propertyES6_S6_NS0_5listSEEES4_S4_S5_S6_S6_S6_S7_E6config13stored_vertexESaISB_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPSB_SD_EE{size_t}RKSB_@Base 4:4.3.4
  (optional=templinst|subst)_ZNSt6vectorIN5boost6detail4sep_I{size_t}NS0_11no_propertyEEESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
@@ -1850,8 +1851,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt6vectorIN7Akonadi7_detail12TypedPayloadESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst|subst|arch=!alpha !amd64 !ia64 !kfreebsd-amd64)_ZNSt6vectorISt4pairI{size_t}S0_IN5boost6detail13out_edge_iterIN9__gnu_cxx17__normal_iteratorIPNS2_4sep_I{size_t}NS1_11no_propertyEEES_IS8_SaIS8_EEEE{size_t}NS2_14edge_desc_implINS1_12directed_tagE{size_t}EEiEESG_EESaISI_EE13_M_insert_auxENS5_IPSI_SK_EERKSI_@Base 4:4.3.4
  (optional=templinst|subst|arch=alpha amd64 ia64 kfreebsd-amd64)_ZNSt6vectorISt4pairI{size_t}S0_IN5boost6detail13out_edge_iterIN9__gnu_cxx17__normal_iteratorIPNS2_4sep_I{size_t}NS1_11no_propertyEEES_IS8_SaIS8_EEEE{size_t}NS2_14edge_desc_implINS1_12directed_tagE{size_t}EElEESG_EESaISI_EE13_M_insert_auxENS5_IPSI_SK_EERKSI_@Base 4:4.3.4
- (optional=templinst|subst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorISt4pairI{size_t}S0_IN5boost6detail13out_edge_iterIN9__gnu_cxx17__normal_iteratorIPNS2_4sep_I{size_t}NS1_11no_propertyEEES_IS8_SaIS8_EEEE{size_t}NS2_14edge_desc_implINS1_12directed_tagE{size_t}EE{ssize_t}EESG_EESaISI_EED1Ev@Base 4:4.6.1
- (optional=templinst|subst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorISt4pairI{size_t}S0_IN5boost6detail13out_edge_iterIN9__gnu_cxx17__normal_iteratorIPNS2_4sep_I{size_t}NS1_11no_propertyEEES_IS8_SaIS8_EEEE{size_t}NS2_14edge_desc_implINS1_12directed_tagE{size_t}EE{ssize_t}EESG_EESaISI_EED2Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|subst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorISt4pairI{size_t}S0_IN5boost6detail13out_edge_iterIN9__gnu_cxx17__normal_iteratorIPNS2_4sep_I{size_t}NS1_11no_propertyEEES_IS8_SaIS8_EEEE{size_t}NS2_14edge_desc_implINS1_12directed_tagE{size_t}EE{ssize_t}EESG_EESaISI_EED1Ev@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|subst|arch=amd64 i386 kfreebsd-amd64 powerpc)_ZNSt6vectorISt4pairI{size_t}S0_IN5boost6detail13out_edge_iterIN9__gnu_cxx17__normal_iteratorIPNS2_4sep_I{size_t}NS1_11no_propertyEEES_IS8_SaIS8_EEEE{size_t}NS2_14edge_desc_implINS1_12directed_tagE{size_t}EE{ssize_t}EESG_EESaISI_EED2Ev@Base 4:4.6.1
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt8auto_ptrIN7Akonadi11PayloadBaseEED1Ev@Base 4:4.6.2
  (optional=templinst)_ZNSt8auto_ptrIN7Akonadi9Exception7PrivateEED1Ev@Base 4:4.5.86
  (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt8auto_ptrIN7Akonadi9Exception7PrivateEED2Ev@Base 4:4.6.1
@@ -1885,7 +1886,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  (optional=templinst|arch=ia64 mips s390 sparc)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi4ItemEE8iteratorES2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_T1_@Base 4:4.6.2
  (optional=templinst)_ZSt6__findIPK10QByteArrayS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.5.86
  (optional=templinst)_ZSt6__findIPK7QStringS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.5.86
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt8count_ifIN9__gnu_cxx17__normal_iteratorIPN7Akonadi7_detail12TypedPayloadESt6vectorIS4_SaIS4_EEEENS3_28BySharedPointerAndMetaTypeIDEENSt15iterator_traitsIT_E15difference_typeESC_SC_T0_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt8count_ifIN9__gnu_cxx17__normal_iteratorIPN7Akonadi7_detail12TypedPayloadESt6vectorIS4_SaIS4_EEEENS3_28BySharedPointerAndMetaTypeIDEENSt15iterator_traitsIT_E15difference_typeESC_SC_T0_@Base 4:4.6.1
  (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi10CollectionEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_NS1_6EntityEEENSC_INS5_3argILi1EEEEEEEEEEEET_SL_SL_T0_St26random_access_iterator_tag@Base 4:4.4.0
  (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi10CollectionEE14const_iteratorEN5boost3_bi6bind_tIbNS6_11logical_notENS6_5list1INS7_IbPFbRKS2_ENS9_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.4.0
  (optional=templinst)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_NS1_6EntityEEENSC_INS5_3argILi1EEEEEEEEEEEET_SL_SL_T0_St26random_access_iterator_tag@Base 4:4.4.0
@@ -1894,8 +1895,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPN7Akonadi7_detail12TypedPayloadESt6vectorIS4_SaIS4_EEEENS3_28BySharedPointerAndMetaTypeIDEET_SB_SB_T0_St26random_access_iterator_tag@Base 4:4.5.86
  (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.4.0
  (optional=templinst)_ZSt9make_heapIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.3.4
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt9sort_heapIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.6.1
- (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt9sort_heapIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt9sort_heapIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZSt9sort_heapIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.6.1
  _ZTIN7Akonadi11ItemCopyJobE@Base 4:4.3.4
  _ZTIN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
  _ZTIN7Akonadi11ItemMonitorE@Base 4:4.3.4
@@ -1994,7 +1995,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZTIN7Akonadi9ExceptionE@Base 4:4.3.4
  _ZTIN7Akonadi9ItemModelE@Base 4:4.3.4
  _ZTIN7Akonadi9UnlinkJobE@Base 4:4.3.4
- _ZTISt16invalid_argument@Base 4:4.3.4
+#MISSING: 4:4.6.3# _ZTISt16invalid_argument@Base 4:4.3.4
  _ZTSN7Akonadi11ItemCopyJobE@Base 4:4.3.4
  _ZTSN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
  _ZTSN7Akonadi11ItemMonitorE@Base 4:4.3.4
@@ -2093,7 +2094,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZTSN7Akonadi9ExceptionE@Base 4:4.3.4
  _ZTSN7Akonadi9ItemModelE@Base 4:4.3.4
  _ZTSN7Akonadi9UnlinkJobE@Base 4:4.3.4
- _ZTSSt16invalid_argument@Base 4:4.3.4
+#MISSING: 4:4.6.3# _ZTSSt16invalid_argument@Base 4:4.3.4
  _ZTVN7Akonadi11ItemCopyJobE@Base 4:4.3.4
  _ZTVN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
  _ZTVN7Akonadi11ItemMonitorE@Base 4:4.3.4
@@ -2192,7 +2193,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZTVN7Akonadi9ExceptionE@Base 4:4.3.4
  _ZTVN7Akonadi9ItemModelE@Base 4:4.3.4
  _ZTVN7Akonadi9UnlinkJobE@Base 4:4.3.4
- _ZTVSt16invalid_argument@Base 4:4.3.4
+#MISSING: 4:4.6.3# _ZTVSt16invalid_argument@Base 4:4.3.4
  _Zls6QDebugRKN7Akonadi10CollectionE@Base 4:4.3.4
  _Zls6QDebugRKN7Akonadi11CachePolicyE@Base 4:4.3.4
  _Zls6QDebugRKN7Akonadi20CollectionStatisticsE@Base 4:4.3.4

@@ -1,4 +1,4 @@
-kdepimlibs (4:4.6.3-0r0) UNRELEASED; urgency=low
+kdepimlibs (4:4.6.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kdepimlibs (4:4.6.3-0r0) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.2; no changes needed.
   * Update symbols files.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:37:51 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 May 2011 23:08:47 +0200
 
 kdepimlibs (4:4.6.2-1) experimental; urgency=low
 

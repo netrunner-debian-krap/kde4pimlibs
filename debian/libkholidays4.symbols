@@ -105,20 +105,13 @@ libkholidays.so.4 libkholidays4 #MINVER#
  _ZNK9KHolidays7Holiday9shortTextEv@Base 4:4.3.4
  _ZNK9KHolidays7HolidaygtERKS0_@Base 4:4.5.0
  _ZNK9KHolidays7HolidayltERKS0_@Base 4:4.5.0
-#MISSING: 4:4.6.3# (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EixE{ssize_t}@Base 4:4.6.1
  (optional=templinst|arch=mips s390 sparc)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EplEi@Base 4:4.6.2
  (optional=templinst|arch=ia64)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EplEl@Base 4:4.6.2
  (optional=templinst|arch=mips s390 sparc)_ZNKSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EplEi@Base 4:4.6.2
  (optional=templinst|arch=ia64)_ZNKSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EplEl@Base 4:4.6.2
  (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_initialize_mapE{size_t}@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EED1Ev@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EE17_M_initialize_mapE{size_t}@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EED1Ev@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst|subst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIiSaIiEE17_M_initialize_mapE{size_t}@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIiSaIiEED1Ev@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt11_Deque_baseIiSaIiEED2Ev@Base 4:4.6.1
  (optional=templinst|arch=mips s390 sparc)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS2_PS3_EpLEi@Base 4:4.6.2
  (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS2_PS3_EpLEl@Base 4:4.6.2
  (optional=templinst|arch=mips s390 sparc)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EpLEi@Base 4:4.6.2
@@ -132,10 +125,7 @@ libkholidays.so.4 libkholidays4 #MINVER#
  (optional=templinst|arch=mips s390 sparc)_ZNSt15_Deque_iteratorIiRiPiEpLEi@Base 4:4.6.2
  (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIiRiPiEpLEl@Base 4:4.6.2
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE13_M_insert_auxISt15_Deque_iteratorIS2_RKS2_PS7_EEEvS6_IS2_RS2_PS2_ET_SE_{size_t}@Base 4:4.5.0
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE16_M_pop_front_auxEv@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_push_front_auxERKS2_@Base 4:4.6.1
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE18_M_fill_initializeERKS2_@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE19_M_range_insert_auxISt15_Deque_iteratorIS2_RKS2_PS7_EEEvS6_IS2_RS2_PS2_ET_SE_St20forward_iterator_tag@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0
@@ -143,10 +133,7 @@ libkholidays.so.4 libkholidays4 #MINVER#
  (optional=templinst|arch=ia64 mips s390 sparc|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE28_M_reserve_elements_at_frontE{size_t}@Base 4:4.6.2
  (optional=templinst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EEaSERKS4_@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE13_M_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_{size_t}@Base 4:4.5.0
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE16_M_pop_front_auxEv@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE17_M_push_front_auxERKS1_@Base 4:4.6.1
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE18_M_fill_initializeERKS1_@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE19_M_range_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_St20forward_iterator_tag@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0
@@ -154,10 +141,7 @@ libkholidays.so.4 libkholidays4 #MINVER#
  (optional=templinst|arch=ia64 mips s390 sparc|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE28_M_reserve_elements_at_frontE{size_t}@Base 4:4.6.2
  (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EEaSERKS3_@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE13_M_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_{size_t}@Base 4:4.5.0
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIiSaIiEE16_M_pop_front_auxEv@Base 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIiSaIiEE17_M_push_front_auxERKi@Base 4:4.6.1
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNSt5dequeIiSaIiEE18_M_fill_initializeERKi@Base 4:4.6.1
  (optional=templinst)_ZNSt5dequeIiSaIiEE19_M_range_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_St20forward_iterator_tag@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0

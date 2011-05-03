@@ -223,7 +223,6 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadIN5boost10shared_ptrIN5KMime7MessageEEEEEbv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item10tryToCloneIN5boost10shared_ptrIN5KMime7MessageEEEEENS2_9enable_ifINS_8Internal17is_shared_pointerIT_EEbE4typeEPSA_PKi@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENS2_12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:4.5.86
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !mips !s390 !sparc)_ZNK7Akonadi4Item14hasPayloadImplIN5boost10shared_ptrIN5KMime7MessageEEEEENS2_12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.6.1
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN5boost10shared_ptrIN5KMime7MessageEEEEET_v@Base 4:4.3.4
  _ZTIN7Akonadi12MessageModelE@Base 4:4.3.4
  _ZTIN7Akonadi16AddressAttributeE@Base 4:4.4.0

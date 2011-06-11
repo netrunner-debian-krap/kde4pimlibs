@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi11MessagePart4BodyE@Base 4:4.3.4
@@ -84,7 +84,7 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  _ZN7Akonadi16AddressAttributeD0Ev@Base 4:4.4.0
  _ZN7Akonadi16AddressAttributeD1Ev@Base 4:4.4.0
  _ZN7Akonadi16AddressAttributeD2Ev@Base 4:4.4.0
- (optional=templinst)_ZN7Akonadi16AttributeFactory17registerAttributeINS_16AddressAttributeEEEvv@Base 4:4.6.3
+ (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN7Akonadi16AttributeFactory17registerAttributeINS_16AddressAttributeEEEvv@Base 4:4.6.3
  _ZN7Akonadi22MessageFolderAttribute11deserializeERK10QByteArray@Base 4:4.4.0
  _ZN7Akonadi22MessageFolderAttribute17setOutboundFolderEb@Base 4:4.4.0
  _ZN7Akonadi22MessageFolderAttributeC1ERKS0_@Base 4:4.4.0

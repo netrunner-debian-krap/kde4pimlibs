@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN12KPIMTextEdit21EMailQuoteHighlighter13highlightTextERK7QStringRK6QColorS6_S6_@Base 4:4.4.0
@@ -55,7 +55,7 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZNK12KPIMTextEdit8TextEdit22isSpellCheckingEnabledEv@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit25shouldBlockBeSpellCheckedERK7QString@Base 4:4.3.4
  (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED1Ev@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED2Ev@Base 4:4.6.2
+ (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED2Ev@Base 4:4.6.2
  _ZTIN12KPIMTextEdit21EMailQuoteHighlighterE@Base 4:4.3.4
  _ZTIN12KPIMTextEdit8TextEditE@Base 4:4.3.4
  _ZTSN12KPIMTextEdit21EMailQuoteHighlighterE@Base 4:4.3.4

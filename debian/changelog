@@ -1,3 +1,9 @@
+kdepimlibs (4:4.6.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jun 2011 13:46:14 +0300
+
 kdepimlibs (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release.

@@ -1,4 +1,4 @@
-kdepimlibs (4:4.6.4-0r2) UNRELEASED; urgency=low
+kdepimlibs (4:4.6.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -8,7 +8,7 @@ kdepimlibs (4:4.6.4-0r2) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jun 2011 19:56:58 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jun 2011 13:05:00 +0300
 
 kdepimlibs (4:4.6.3-1) unstable; urgency=low
 

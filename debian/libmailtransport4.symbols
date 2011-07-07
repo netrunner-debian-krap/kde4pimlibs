@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio-plugins
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN13MailTransport10ServerTest11progressBarEv@Base 4:4.3.4
@@ -256,6 +256,8 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport9TransportD0Ev@Base 4:4.3.4
  _ZN13MailTransport9TransportD1Ev@Base 4:4.3.4
  _ZN13MailTransport9TransportD2Ev@Base 4:4.3.4
+ _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
+ _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
  _ZN7Akonadi12FilterActionD0Ev@Base 4:4.4.0
  _ZN7Akonadi12FilterActionD1Ev@Base 4:4.4.0
  _ZN7Akonadi12FilterActionD2Ev@Base 4:4.4.0

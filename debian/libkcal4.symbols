@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  Parse_MIME@Base 4:4.3.4
@@ -585,6 +585,9 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal16ResourceLocalDir7Private25updateIncidenceInCalendarERK7QString@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDir7Private27deleteIncidenceFromCalendarERK7QString@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDir7Private4initEv@Base 4:4.3.4
+ _ZN4KCal16ResourceLocalDir7PrivateD0Ev@Base 4:4.6.5
+ _ZN4KCal16ResourceLocalDir7PrivateD1Ev@Base 4:4.6.5
+ _ZN4KCal16ResourceLocalDir7PrivateD2Ev@Base 4:4.6.5
  _ZN4KCal16ResourceLocalDirC1ERK12KConfigGroup@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDirC1ERK7QString@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDirC1Ev@Base 4:4.3.4
@@ -1105,10 +1108,16 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEE5visitEPNS_5EventE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEE5visitEPNS_7JournalE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEE5visitEPNS_8FreeBusyE@Base 4:4.3.4
+ (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEED0Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEED1Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_16ResourceCalendarEED2Ev@Base 4:4.6.5
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_8CalendarEE5visitEPNS_4TodoE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_8CalendarEE5visitEPNS_5EventE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_8CalendarEE5visitEPNS_7JournalE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_8CalendarEE5visitEPNS_8FreeBusyE@Base 4:4.3.4
+ (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_8CalendarEED0Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_8CalendarEED1Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence10AddVisitorINS_8CalendarEED2Ev@Base 4:4.6.5
  _ZN4KCal9Incidence10setCreatedERK9KDateTime@Base 4:4.3.4
  _ZN4KCal9Incidence10setDtStartERK9KDateTime@Base 4:4.3.4
  _ZN4KCal9Incidence10setSecrecyENS0_7SecrecyE@Base 4:4.3.4
@@ -1132,10 +1141,16 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_16ResourceCalendarEE5visitEPNS_5EventE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_16ResourceCalendarEE5visitEPNS_7JournalE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_16ResourceCalendarEE5visitEPNS_8FreeBusyE@Base 4:4.3.4
+ (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_16ResourceCalendarEED0Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_16ResourceCalendarEED1Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_16ResourceCalendarEED2Ev@Base 4:4.6.5
  (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_8CalendarEE5visitEPNS_4TodoE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_8CalendarEE5visitEPNS_5EventE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_8CalendarEE5visitEPNS_7JournalE@Base 4:4.3.4
  (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_8CalendarEE5visitEPNS_8FreeBusyE@Base 4:4.3.4
+ (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_8CalendarEED0Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_8CalendarEED1Ev@Base 4:4.6.5
+ (optional=templinst)_ZN4KCal9Incidence13DeleteVisitorINS_8CalendarEED2Ev@Base 4:4.6.5
  _ZN4KCal9Incidence13addAttachmentEPNS_10AttachmentE@Base 4:4.3.4
  _ZN4KCal9Incidence13setCategoriesERK11QStringList@Base 4:4.3.4
  _ZN4KCal9Incidence13setCategoriesERK7QString@Base 4:4.3.4

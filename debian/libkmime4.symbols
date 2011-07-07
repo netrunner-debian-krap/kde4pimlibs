@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkmime.so.4 libkmime4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN5KMime12ContentIndexE@Base 4:4.3.4
@@ -102,12 +102,18 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime5Codec12codecForNameERK10QByteArray@Base 4:4.3.4
  _ZN5KMime5Codec14fillDictionaryEv@Base 4:4.3.4
  _ZN5KMime5Codec3allE@Base 4:4.3.4
+ _ZN5KMime5Types7AddressD1Ev@Base 4:4.6.5
+ _ZN5KMime5Types7AddressD2Ev@Base 4:4.6.5
  _ZN5KMime5Types7Mailbox10setAddressERK10QByteArray@Base 4:4.3.4
  _ZN5KMime5Types7Mailbox10setAddressERKNS0_8AddrSpecE@Base 4:4.3.4
  _ZN5KMime5Types7Mailbox14from7BitStringERK10QByteArray@Base 4:4.3.4
  _ZN5KMime5Types7Mailbox15setNameFrom7BitERK10QByteArrayS4_@Base 4:4.3.4
  _ZN5KMime5Types7Mailbox17fromUnicodeStringERK7QString@Base 4:4.3.4
  _ZN5KMime5Types7Mailbox7setNameERK7QString@Base 4:4.3.4
+ _ZN5KMime5Types7MailboxD1Ev@Base 4:4.6.5
+ _ZN5KMime5Types7MailboxD2Ev@Base 4:4.6.5
+ _ZN5KMime5Types8AddrSpecD1Ev@Base 4:4.6.5
+ _ZN5KMime5Types8AddrSpecD2Ev@Base 4:4.6.5
  _ZN5KMime7Content10addContentEPS0_b@Base 4:4.3.4
  _ZN5KMime7Content10decodeTextEv@Base 4:4.3.4
  _ZN5KMime7Content10nextHeaderER10QByteArray@Base 4:4.3.4

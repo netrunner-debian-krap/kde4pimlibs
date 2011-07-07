@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi11MessagePart4BodyE@Base 4:4.3.4
@@ -101,6 +101,9 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  _ZN7Akonadi22SpecialMailCollections4selfEv@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollectionsC1EPNS_29SpecialMailCollectionsPrivateE@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollectionsC2EPNS_29SpecialMailCollectionsPrivateE@Base 4:4.4.0
+ _ZN7Akonadi22SpecialMailCollectionsD0Ev@Base 4:4.6.5
+ _ZN7Akonadi22SpecialMailCollectionsD1Ev@Base 4:4.6.5
+ _ZN7Akonadi22SpecialMailCollectionsD2Ev@Base 4:4.6.5
  _ZN7Akonadi25MessageThreaderProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi25MessageThreaderProxyModel11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi25MessageThreaderProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:4.3.4

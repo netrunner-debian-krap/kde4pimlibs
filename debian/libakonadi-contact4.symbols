@@ -1,8 +1,14 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
  _ZGVZN7Akonadi18ContactGroupViewer7PrivateC1EPS0_E11groupPixmap@Base 4:4.5.0
+ _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
+ _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
+ _ZN4KUrl4ListD1Ev@Base 4:4.6.5
+ _ZN4KUrl4ListD2Ev@Base 4:4.6.5
+ _ZN5KMime5Types7MailboxD1Ev@Base 4:4.6.5
+ _ZN5KMime5Types7MailboxD2Ev@Base 4:4.6.5
  _ZN7Akonadi13ContactEditor11loadContactERKNS_4ItemE@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacastEPKc@Base 4:4.4.0
@@ -230,6 +236,9 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi25RecentContactsCollections4selfEv@Base 4:4.4.0
  _ZN7Akonadi25RecentContactsCollectionsC1EPNS_32RecentContactsCollectionsPrivateE@Base 4:4.4.0
  _ZN7Akonadi25RecentContactsCollectionsC2EPNS_32RecentContactsCollectionsPrivateE@Base 4:4.4.0
+ _ZN7Akonadi25RecentContactsCollectionsD0Ev@Base 4:4.6.5
+ _ZN7Akonadi25RecentContactsCollectionsD1Ev@Base 4:4.6.5
+ _ZN7Akonadi25RecentContactsCollectionsD2Ev@Base 4:4.6.5
  _ZN7Akonadi27EmailAddressSelectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionDialog11qt_metacastEPKc@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionDialog16staticMetaObjectE@Base 4:4.5.0

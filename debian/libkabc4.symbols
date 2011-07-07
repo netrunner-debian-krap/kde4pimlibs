@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -359,6 +359,9 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC15AddresseeHelper8addToSetERK11QStringListR4QSetI7QStringE@Base 4:4.3.4
  _ZN4KABC15AddresseeHelperC1Ev@Base 4:4.3.4
  _ZN4KABC15AddresseeHelperC2Ev@Base 4:4.3.4
+ _ZN4KABC15AddresseeHelperD0Ev@Base 4:4.6.5
+ _ZN4KABC15AddresseeHelperD1Ev@Base 4:4.6.5
+ _ZN4KABC15AddresseeHelperD2Ev@Base 4:4.6.5
  _ZN4KABC15GuiErrorHandler5errorERK7QString@Base 4:4.3.4
  _ZN4KABC15GuiErrorHandlerC1EP7QWidget@Base 4:4.3.4
  _ZN4KABC15GuiErrorHandlerC2EP7QWidget@Base 4:4.3.4
@@ -514,6 +517,9 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC5SoundD1Ev@Base 4:4.3.4
  _ZN4KABC5SoundD2Ev@Base 4:4.3.4
  _ZN4KABC5SoundaSERKS0_@Base 4:4.3.4
+ _ZN4KABC6FormatD0Ev@Base 4:4.6.5
+ _ZN4KABC6FormatD1Ev@Base 4:4.6.5
+ _ZN4KABC6FormatD2Ev@Base 4:4.6.5
  _ZN4KABC6Plugin12setNameLabelERK7QString@Base 4:4.3.4
  _ZN4KABC6Plugin19setDescriptionLabelERK7QString@Base 4:4.3.4
  _ZN4KABC6Plugin7setTypeERK7QString@Base 4:4.3.4
@@ -1166,6 +1172,9 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZN4KABC18ResourceFileConfig20checkFilePermissionsERK7QString@Base 4:4.3.4
  _ZN4KABC18ResourceFileConfigC1EP7QWidget@Base 4:4.3.4
  _ZN4KABC18ResourceFileConfigC2EP7QWidget@Base 4:4.3.4
+ _ZN4KABC18ResourceFileConfigD0Ev@Base 4:4.6.5
+ _ZN4KABC18ResourceFileConfigD1Ev@Base 4:4.6.5
+ _ZN4KABC18ResourceFileConfigD2Ev@Base 4:4.6.5
  _ZNK4KABC12ResourceFile10metaObjectEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile6formatEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile8fileNameEv@Base 4:4.3.4
@@ -1176,3 +1185,4 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZTSN4KABC18ResourceFileConfigE@Base 4:4.3.4
  _ZTVN4KABC12ResourceFileE@Base 4:4.3.4
  _ZTVN4KABC18ResourceFileConfigE@Base 4:4.3.4
+ (c++)"non-virtual thunk to KABC::ResourceFileConfig::~ResourceFileConfig()@Base" 4:4.6.5

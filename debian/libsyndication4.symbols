@@ -1,10 +1,13 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libsyndication.so.4 libsyndication4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN11Syndication10PersonImplC1ERK7QStringS3_S3_@Base 4:4.3.4
  _ZN11Syndication10PersonImplC1Ev@Base 4:4.3.4
  _ZN11Syndication10PersonImplC2ERK7QStringS3_S3_@Base 4:4.3.4
  _ZN11Syndication10PersonImplC2Ev@Base 4:4.3.4
+ _ZN11Syndication10PersonImplD0Ev@Base 4:4.6.5
+ _ZN11Syndication10PersonImplD1Ev@Base 4:4.6.5
+ _ZN11Syndication10PersonImplD2Ev@Base 4:4.6.5
  _ZN11Syndication12SpecificItemD0Ev@Base 4:4.3.4
  _ZN11Syndication12SpecificItemD1Ev@Base 4:4.3.4
  _ZN11Syndication12SpecificItemD2Ev@Base 4:4.3.4
@@ -139,12 +142,16 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication3RDF11NodeVisitorD1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF11NodeVisitorD2Ev@Base 4:4.3.4
  _ZN11Syndication3RDF12ContentVocab19ContentVocabPrivate5sSelfE@Base 4:4.3.4
+ _ZN11Syndication3RDF12ContentVocab19ContentVocabPrivateD1Ev@Base 4:4.6.5
+ _ZN11Syndication3RDF12ContentVocab19ContentVocabPrivateD2Ev@Base 4:4.6.5
  _ZN11Syndication3RDF12ContentVocab4selfEv@Base 4:4.3.4
  _ZN11Syndication3RDF12ContentVocabC1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF12ContentVocabC2Ev@Base 4:4.3.4
  _ZN11Syndication3RDF12ContentVocabD1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF12ContentVocabD2Ev@Base 4:4.3.4
  _ZN11Syndication3RDF15DublinCoreVocab22DublinCoreVocabPrivate5sSelfE@Base 4:4.3.4
+ _ZN11Syndication3RDF15DublinCoreVocab22DublinCoreVocabPrivateD1Ev@Base 4:4.6.5
+ _ZN11Syndication3RDF15DublinCoreVocab22DublinCoreVocabPrivateD2Ev@Base 4:4.6.5
  _ZN11Syndication3RDF15DublinCoreVocab4selfEv@Base 4:4.3.4
  _ZN11Syndication3RDF15DublinCoreVocabC1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF15DublinCoreVocabC2Ev@Base 4:4.3.4
@@ -168,6 +175,8 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication3RDF15SyndicationInfoD1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF15SyndicationInfoD2Ev@Base 4:4.3.4
  _ZN11Syndication3RDF16SyndicationVocab23SyndicationVocabPrivate5sSelfE@Base 4:4.3.4
+ _ZN11Syndication3RDF16SyndicationVocab23SyndicationVocabPrivateD1Ev@Base 4:4.6.5
+ _ZN11Syndication3RDF16SyndicationVocab23SyndicationVocabPrivateD2Ev@Base 4:4.6.5
  _ZN11Syndication3RDF16SyndicationVocab4selfEv@Base 4:4.3.4
  _ZN11Syndication3RDF16SyndicationVocabC1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF16SyndicationVocabC2Ev@Base 4:4.3.4
@@ -196,6 +205,9 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication3RDF5ImageD0Ev@Base 4:4.3.4
  _ZN11Syndication3RDF5ImageD1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF5ImageD2Ev@Base 4:4.3.4
+ _ZN11Syndication3RDF5Model12ModelPrivate18AddToHashesVisitorD0Ev@Base 4:4.6.5
+ _ZN11Syndication3RDF5Model12ModelPrivate18AddToHashesVisitorD1Ev@Base 4:4.6.5
+ _ZN11Syndication3RDF5Model12ModelPrivate18AddToHashesVisitorD2Ev@Base 4:4.6.5
  _ZN11Syndication3RDF5Model12ModelPrivate9idCounterE@Base 4:4.3.4
  _ZN11Syndication3RDF5Model12addStatementEN5boost10shared_ptrINS0_8ResourceEEENS3_INS0_8PropertyEEENS3_INS0_4NodeEEE@Base 4:4.3.4
  _ZN11Syndication3RDF5Model13createLiteralERK7QString@Base 4:4.3.4
@@ -257,6 +269,8 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication3RDF8PropertyD2Ev@Base 4:4.3.4
  _ZN11Syndication3RDF8RDFVocab12namespaceURIEv@Base 4:4.3.4
  _ZN11Syndication3RDF8RDFVocab15RDFVocabPrivate5sSelfE@Base 4:4.3.4
+ _ZN11Syndication3RDF8RDFVocab15RDFVocabPrivateD1Ev@Base 4:4.6.5
+ _ZN11Syndication3RDF8RDFVocab15RDFVocabPrivateD2Ev@Base 4:4.6.5
  _ZN11Syndication3RDF8RDFVocab2liEv@Base 4:4.3.4
  _ZN11Syndication3RDF8RDFVocab3seqEv@Base 4:4.3.4
  _ZN11Syndication3RDF8RDFVocab4selfEv@Base 4:4.3.4
@@ -266,6 +280,8 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication3RDF8RDFVocabD1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF8RDFVocabD2Ev@Base 4:4.3.4
  _ZN11Syndication3RDF8RSSVocab15RSSVocabPrivate5sSelfE@Base 4:4.3.4
+ _ZN11Syndication3RDF8RSSVocab15RSSVocabPrivateD1Ev@Base 4:4.6.5
+ _ZN11Syndication3RDF8RSSVocab15RSSVocabPrivateD2Ev@Base 4:4.6.5
  _ZN11Syndication3RDF8RSSVocab4selfEv@Base 4:4.3.4
  _ZN11Syndication3RDF8RSSVocabC1Ev@Base 4:4.3.4
  _ZN11Syndication3RDF8RSSVocabC2Ev@Base 4:4.3.4
@@ -318,22 +334,34 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication4Atom12FeedDocumentC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom12FeedDocumentC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom12FeedDocumentC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom12FeedDocumentD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom12FeedDocumentD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom12FeedDocumentD2Ev@Base 4:4.6.5
  _ZN11Syndication4Atom13EntryDocument6acceptEPNS_15DocumentVisitorE@Base 4:4.3.4
  _ZN11Syndication4Atom13EntryDocumentC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom13EntryDocumentC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom13EntryDocumentC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom13EntryDocumentC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom13EntryDocumentD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom13EntryDocumentD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom13EntryDocumentD2Ev@Base 4:4.6.5
  _ZN11Syndication4Atom14atom1NamespaceEv@Base 4:4.3.4
  _ZN11Syndication4Atom16atom0_3NamespaceEv@Base 4:4.3.4
  _ZN11Syndication4Atom4LinkC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom4LinkC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom4LinkC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom4LinkC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom4LinkD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom4LinkD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom4LinkD2Ev@Base 4:4.6.5
  _ZN11Syndication4Atom5Entry6acceptEPNS_19SpecificItemVisitorE@Base 4:4.3.4
  _ZN11Syndication4Atom5EntryC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom5EntryC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom5EntryC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom5EntryC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom5EntryD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom5EntryD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom5EntryD2Ev@Base 4:4.6.5
  _ZN11Syndication4Atom6Parser13ParserPrivate11convertNodeER12QDomDocumentRK8QDomNodeRK5QHashI7QStringS9_E@Base 4:4.3.4
  _ZN11Syndication4Atom6Parser13ParserPrivate14convertAtom0_3ERK12QDomDocument@Base 4:4.3.4
  _ZN11Syndication4Atom6ParserC1ERKS1_@Base 4:4.3.4
@@ -348,10 +376,16 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication4Atom6PersonC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom6PersonC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom6PersonC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom6PersonD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom6PersonD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom6PersonD2Ev@Base 4:4.6.5
  _ZN11Syndication4Atom6SourceC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom6SourceC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom6SourceC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom6SourceC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom6SourceD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom6SourceD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom6SourceD2Ev@Base 4:4.6.5
  _ZN11Syndication4Atom7Content15mapTypeToFormatERK7QStringS4_@Base 4:4.3.4
  _ZN11Syndication4Atom7ContentC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom7ContentC1ERKS1_@Base 4:4.3.4
@@ -367,10 +401,16 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication4Atom8CategoryC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom8CategoryC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom8CategoryC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom8CategoryD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom8CategoryD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom8CategoryD2Ev@Base 4:4.6.5
  _ZN11Syndication4Atom9GeneratorC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom9GeneratorC1Ev@Base 4:4.3.4
  _ZN11Syndication4Atom9GeneratorC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4Atom9GeneratorC2Ev@Base 4:4.3.4
+ _ZN11Syndication4Atom9GeneratorD0Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom9GeneratorD1Ev@Base 4:4.6.5
+ _ZN11Syndication4Atom9GeneratorD2Ev@Base 4:4.6.5
  _ZN11Syndication4FeedD0Ev@Base 4:4.3.4
  _ZN11Syndication4FeedD1Ev@Base 4:4.3.4
  _ZN11Syndication4FeedD2Ev@Base 4:4.3.4
@@ -392,10 +432,16 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication4RSS25CloudC1Ev@Base 4:4.3.4
  _ZN11Syndication4RSS25CloudC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS25CloudC2Ev@Base 4:4.3.4
+ _ZN11Syndication4RSS25CloudD0Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS25CloudD1Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS25CloudD2Ev@Base 4:4.6.5
  _ZN11Syndication4RSS25ImageC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS25ImageC1Ev@Base 4:4.3.4
  _ZN11Syndication4RSS25ImageC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS25ImageC2Ev@Base 4:4.3.4
+ _ZN11Syndication4RSS25ImageD0Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS25ImageD1Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS25ImageD2Ev@Base 4:4.6.5
  _ZN11Syndication4RSS26ParserC1ERKS1_@Base 4:4.3.4
  _ZN11Syndication4RSS26ParserC1Ev@Base 4:4.3.4
  _ZN11Syndication4RSS26ParserC2ERKS1_@Base 4:4.3.4
@@ -408,10 +454,16 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication4RSS26SourceC1Ev@Base 4:4.3.4
  _ZN11Syndication4RSS26SourceC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS26SourceC2Ev@Base 4:4.3.4
+ _ZN11Syndication4RSS26SourceD0Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS26SourceD1Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS26SourceD2Ev@Base 4:4.6.5
  _ZN11Syndication4RSS28CategoryC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS28CategoryC1Ev@Base 4:4.3.4
  _ZN11Syndication4RSS28CategoryC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS28CategoryC2Ev@Base 4:4.3.4
+ _ZN11Syndication4RSS28CategoryD0Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS28CategoryD1Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS28CategoryD2Ev@Base 4:4.6.5
  _ZN11Syndication4RSS28Document6acceptEPNS_15DocumentVisitorE@Base 4:4.3.4
  _ZN11Syndication4RSS28Document7fromXMLERK12QDomDocument@Base 4:4.3.4
  _ZN11Syndication4RSS28DocumentC1ERK11QDomElement@Base 4:4.3.4
@@ -428,10 +480,16 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication4RSS29EnclosureC1Ev@Base 4:4.3.4
  _ZN11Syndication4RSS29EnclosureC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS29EnclosureC2Ev@Base 4:4.3.4
+ _ZN11Syndication4RSS29EnclosureD0Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS29EnclosureD1Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS29EnclosureD2Ev@Base 4:4.6.5
  _ZN11Syndication4RSS29TextInputC1ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS29TextInputC1Ev@Base 4:4.3.4
  _ZN11Syndication4RSS29TextInputC2ERK11QDomElement@Base 4:4.3.4
  _ZN11Syndication4RSS29TextInputC2Ev@Base 4:4.3.4
+ _ZN11Syndication4RSS29TextInputD0Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS29TextInputD1Ev@Base 4:4.6.5
+ _ZN11Syndication4RSS29TextInputD2Ev@Base 4:4.6.5
  _ZN11Syndication5ImageD0Ev@Base 4:4.3.4
  _ZN11Syndication5ImageD1Ev@Base 4:4.3.4
  _ZN11Syndication5ImageD2Ev@Base 4:4.3.4
@@ -990,6 +1048,9 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTVN11Syndication8CategoryE@Base 4:4.3.4
  _ZTVN11Syndication9EnclosureE@Base 4:4.3.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Syndication::Atom::Entry::~Entry()@Base" 4:4.6.5
+ (c++)"non-virtual thunk to Syndication::Atom::EntryDocument::~EntryDocument()@Base" 4:4.6.5
+ (c++)"non-virtual thunk to Syndication::Atom::FeedDocument::~FeedDocument()@Base" 4:4.6.5
  (c++)"non-virtual thunk to Syndication::RDF::Document::~Document()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::RDF::Item::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::RDF::Item::~Item()@Base" 4:4.3.4

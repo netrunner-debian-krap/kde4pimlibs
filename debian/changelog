@@ -4,6 +4,7 @@ kdepimlibs (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
+  * Update symbols files.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 04 Jul 2011 02:23:55 +0200
 

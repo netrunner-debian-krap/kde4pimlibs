@@ -1,8 +1,10 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
  _Z5qHashRKN7Akonadi6EntityE@Base 4:4.3.4
+ _ZN4KUrl4ListD1Ev@Base 4:4.6.5
+ _ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN7Akonadi10Collection11setResourceERK7QString@Base 4:4.3.4
  _ZN7Akonadi10Collection13setStatisticsERKNS_20CollectionStatisticsE@Base 4:4.3.4
  _ZN7Akonadi10Collection14setCachePolicyERKNS_11CachePolicyE@Base 4:4.3.4
@@ -245,6 +247,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi13ServerManager9isRunningEv@Base 4:4.3.4
  _ZN7Akonadi13ServerManagerC1EPNS_20ServerManagerPrivateE@Base 4:4.3.4
  _ZN7Akonadi13ServerManagerC2EPNS_20ServerManagerPrivateE@Base 4:4.3.4
+ _ZN7Akonadi13ServerManagerD0Ev@Base 4:4.6.5
+ _ZN7Akonadi13ServerManagerD1Ev@Base 4:4.6.5
+ _ZN7Akonadi13ServerManagerD2Ev@Base 4:4.6.5
  _ZN7Akonadi14AgentTypeModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi14AgentTypeModel11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi14AgentTypeModel16staticMetaObjectE@Base 4:4.3.4
@@ -479,6 +484,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi16AgentFactoryBase16staticMetaObjectE@Base 4:4.5.86
  _ZN7Akonadi16AgentFactoryBaseC1EPKcP7QObject@Base 4:4.5.86
  _ZN7Akonadi16AgentFactoryBaseC2EPKcP7QObject@Base 4:4.5.86
+ _ZN7Akonadi16AgentFactoryBaseD0Ev@Base 4:4.6.5
+ _ZN7Akonadi16AgentFactoryBaseD1Ev@Base 4:4.6.5
+ _ZN7Akonadi16AgentFactoryBaseD2Ev@Base 4:4.6.5
  _ZN7Akonadi16AttributeFactory15createAttributeERK10QByteArray@Base 4:4.3.4
  _ZN7Akonadi16AttributeFactory17registerAttributeEPNS_9AttributeE@Base 4:4.3.4
  (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN7Akonadi16AttributeFactory17registerAttributeINS_26SpecialCollectionAttributeEEEvv@Base 4:4.6.3
@@ -548,6 +556,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi17CollectionMoveJob7doStartEv@Base 4:4.3.4
  _ZN7Akonadi17CollectionMoveJobC1ERKNS_10CollectionES3_P7QObject@Base 4:4.3.4
  _ZN7Akonadi17CollectionMoveJobC2ERKNS_10CollectionES3_P7QObject@Base 4:4.3.4
+ _ZN7Akonadi17CollectionMoveJobD0Ev@Base 4:4.6.5
+ _ZN7Akonadi17CollectionMoveJobD1Ev@Base 4:4.6.5
+ _ZN7Akonadi17CollectionMoveJobD2Ev@Base 4:4.6.5
  _ZN7Akonadi17ETMViewStateSaver11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN7Akonadi17ETMViewStateSaver11qt_metacastEPKc@Base 4:4.5.86
  _ZN7Akonadi17ETMViewStateSaver11selectItemsERK5QListINS_4ItemEE@Base 4:4.5.86
@@ -557,6 +568,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi17ETMViewStateSaver17selectCollectionsERK5QListIxE@Base 4:4.5.86
  _ZN7Akonadi17ETMViewStateSaverC1EP7QObject@Base 4:4.5.86
  _ZN7Akonadi17ETMViewStateSaverC2EP7QObject@Base 4:4.5.86
+ _ZN7Akonadi17ETMViewStateSaverD0Ev@Base 4:4.6.5
+ _ZN7Akonadi17ETMViewStateSaverD1Ev@Base 4:4.6.5
+ _ZN7Akonadi17ETMViewStateSaverD2Ev@Base 4:4.6.5
  _ZN7Akonadi18AgentActionManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN7Akonadi18AgentActionManager11qt_metacastEPKc@Base 4:4.5.86
  _ZN7Akonadi18AgentActionManager12createActionENS0_4TypeE@Base 4:4.5.86
@@ -867,6 +881,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi21StandardActionManager27setCollectionSelectionModelEP19QItemSelectionModel@Base 4:4.3.4
  _ZN7Akonadi21StandardActionManager27setFavoriteCollectionsModelEPNS_24FavoriteCollectionsModelE@Base 4:4.4.0
  _ZN7Akonadi21StandardActionManager32setCollectionPropertiesPageNamesERK11QStringList@Base 4:4.5.86
+ _ZN7Akonadi21StandardActionManager7Private16ContextTextEntryD1Ev@Base 4:4.6.5
+ _ZN7Akonadi21StandardActionManager7Private16ContextTextEntryD2Ev@Base 4:4.6.5
  _ZN7Akonadi21StandardActionManagerC1EP17KActionCollectionP7QWidget@Base 4:4.3.4
  _ZN7Akonadi21StandardActionManagerC2EP17KActionCollectionP7QWidget@Base 4:4.3.4
  _ZN7Akonadi21StandardActionManagerD0Ev@Base 4:4.3.4
@@ -998,6 +1014,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi25CollectionStatisticsModel16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi25CollectionStatisticsModelC1EP7QObject@Base 4:4.3.4
  _ZN7Akonadi25CollectionStatisticsModelC2EP7QObject@Base 4:4.3.4
+ _ZN7Akonadi25CollectionStatisticsModelD0Ev@Base 4:4.6.5
+ _ZN7Akonadi25CollectionStatisticsModelD1Ev@Base 4:4.6.5
+ _ZN7Akonadi25CollectionStatisticsModelD2Ev@Base 4:4.6.5
  _ZN7Akonadi25EntityMimeTypeFilterModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi25EntityMimeTypeFilterModel11qt_metacastEPKc@Base 4:4.4.0
  _ZN7Akonadi25EntityMimeTypeFilterModel12clearFiltersEv@Base 4:4.4.0
@@ -1326,6 +1345,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi9AgentBase10ObserverV215collectionMovedERKNS_10CollectionES4_S4_@Base 4:4.4.0
  _ZN7Akonadi9AgentBase10ObserverV217collectionChangedERKNS_10CollectionERK4QSetI10QByteArrayE@Base 4:4.4.0
  _ZN7Akonadi9AgentBase10ObserverV29itemMovedERKNS_4ItemERKNS_10CollectionES7_@Base 4:4.4.0
+ _ZN7Akonadi9AgentBase10ObserverV2D0Ev@Base 4:4.6.5
+ _ZN7Akonadi9AgentBase10ObserverV2D1Ev@Base 4:4.6.5
+ _ZN7Akonadi9AgentBase10ObserverV2D2Ev@Base 4:4.6.5
  _ZN7Akonadi9AgentBase11aboutToQuitEv@Base 4:4.3.4
  _ZN7Akonadi9AgentBase11doSetOnlineEb@Base 4:4.3.4
  _ZN7Akonadi9AgentBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4

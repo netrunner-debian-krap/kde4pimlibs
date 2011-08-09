@@ -6,6 +6,7 @@ kdepimlibs (4:4.7.0-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.7.0.
   * Bump build dependency on libakonadi-dev to version 1.5.52.
   * Update installed files.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Aug 2011 16:43:40 +0200
 

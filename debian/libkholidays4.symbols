@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.0 amd64
 libkholidays.so.4 libkholidays4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 4:4.3.4
@@ -27,6 +27,7 @@ libkholidays.so.4 libkholidays4 #MINVER#
  _ZN9KHolidays21HolidayRegionSelector11qt_metacastEPKc@Base 4:4.5.86
  _ZN9KHolidays21HolidayRegionSelector14clearSelectionEv@Base 4:4.5.86
  _ZN9KHolidays21HolidayRegionSelector15setSearchHiddenEb@Base 4:4.5.86
+ _ZN9KHolidays21HolidayRegionSelector16selectionChangedEv@Base 4:4.7.0
  _ZN9KHolidays21HolidayRegionSelector16setSelectionModeEN17QAbstractItemView13SelectionModeE@Base 4:4.5.86
  _ZN9KHolidays21HolidayRegionSelector16staticMetaObjectE@Base 4:4.5.86
  _ZN9KHolidays21HolidayRegionSelector17setLanguageFilterERK11QStringList@Base 4:4.5.86

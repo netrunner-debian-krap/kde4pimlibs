@@ -654,13 +654,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi18SubscriptionDialog11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialog16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialog4initERK11QStringList@Base 4:4.7.0
-#MISSING: 4:4.7.0# _ZN7Akonadi18SubscriptionDialog4initERK7QString@Base 4:4.5.86
  _ZN7Akonadi18SubscriptionDialogC1EP7QWidget@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogC1ERK11QStringListP7QWidget@Base 4:4.7.0
-#MISSING: 4:4.7.0# _ZN7Akonadi18SubscriptionDialogC1ERK7QStringP7QWidget@Base 4:4.5.86
  _ZN7Akonadi18SubscriptionDialogC2EP7QWidget@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogC2ERK11QStringListP7QWidget@Base 4:4.7.0
-#MISSING: 4:4.7.0# _ZN7Akonadi18SubscriptionDialogC2ERK7QStringP7QWidget@Base 4:4.5.86
  _ZN7Akonadi18SubscriptionDialogD0Ev@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogD1Ev@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogD2Ev@Base 4:4.3.4

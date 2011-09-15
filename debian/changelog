@@ -6,6 +6,7 @@ kdepimlibs (4:4.7.1-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.7.1.
   * Bump build dependency on kdelibs5-dev to version 4:4.7.
   * Bump build dependency on libakonadi-dev to version 1.5.52.
+  * Add libprison-dev to Build-Depends.
   * Update installed files.
   * Update symbols files.
 

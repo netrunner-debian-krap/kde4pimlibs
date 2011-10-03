@@ -1,9 +1,9 @@
-kdepimlibs (4:4.7.1-0r1) UNRELEASED; urgency=low
+kdepimlibs (4:4.7.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.7.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
   * Bump build dependency on kdelibs5-dev to version 4:4.7.
   * Bump build dependency on libakonadi-dev to version 1.5.52.
   * Add libprison-dev to Build-Depends.

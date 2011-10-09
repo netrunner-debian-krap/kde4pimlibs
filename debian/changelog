@@ -1,4 +1,4 @@
-kdepimlibs (4:4.7.2-0r0) UNRELEASED; urgency=low
+kdepimlibs (4:4.7.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -9,6 +9,7 @@ kdepimlibs (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Add libprison-dev to Build-Depends.
   * Update installed files.
   * Update symbols files.
+  * Exclude kde-runtime from dh_shlibdeps results.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Aug 2011 16:43:40 +0200
 

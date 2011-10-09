@@ -9,7 +9,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 # Get rid of the dependency on kde{base,pim}-runtime
 override_dh_shlibdeps:
-	$(overridden_command) -- -xkdebase-runtime -xkdepim-runtime -xkdepimlibs-kio-plugins
+	$(overridden_command) -- -xkdebase-runtime -xkde-runtime \
+		-xkdepim-runtime -xkdepimlibs-kio-plugins
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdepimlibs-dbg

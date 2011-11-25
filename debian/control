@@ -20,7 +20,8 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepimlibs.git
 Package: kdepimlibs5-dev
 Section: libdevel
 Architecture: any
-Depends: ${sameVersionDep:kdelibs5-dev:libakonadi-kde4}, ${allLibraries}
+Depends: ${sameVersionDep:kdelibs5-dev:libakonadi-kde4}, ${allLibraries},
+ ${misc:Depends}
 Replaces: kdepimlibs-data (<< 4:4.1.80), libkleopatra1-dev
 Breaks: kdepimlibs-data (<< 4:4.1.80), libkleopatra1-dev
 Description: development files for the KDE Development Platform PIM libraries
@@ -407,7 +408,7 @@ Package: kdepimlibs-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdelibs5-dbg, ${allLibraries}, libc6-dbg [amd64]
+Depends: ${misc:Depends}, kdelibs5-dbg, ${allLibraries}, libc6-dbg [amd64]
 Recommends: kdepimlibs-kio-plugins (= ${binary:Version})
 Description: debugging symbols for the KDE Development Platform PIM libraries
  This package contains debugging files used to investigate problems with

@@ -4,6 +4,7 @@ kdepimlibs (4:4.7.4-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build depend to 0.8.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 01:01:48 +0100
 

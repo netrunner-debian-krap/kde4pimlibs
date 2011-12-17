@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libsyndication.so.4 libsyndication4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN11Syndication10PersonImplC1ERK7QStringS3_S3_@Base 4:4.3.4
@@ -92,7 +92,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication15resolveEntitiesERK7QString@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED0Ev@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN11Syndication16ParserCollectionINS_4FeedEED2Ev@Base 4:4.6.1
+ (optional=templinst|arch=!hurd-i386 !ia64)_ZN11Syndication16ParserCollectionINS_4FeedEED2Ev@Base 4:4.6.1
  _ZN11Syndication16SpecificDocumentD0Ev@Base 4:4.3.4
  _ZN11Syndication16SpecificDocumentD1Ev@Base 4:4.3.4
  _ZN11Syndication16SpecificDocumentD2Ev@Base 4:4.3.4
@@ -112,11 +112,11 @@ libsyndication.so.4 libsyndication4 #MINVER#
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEE12changeMapperERK7QStringPNS_6MapperIS1_EE@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEE14registerParserEPNS_14AbstractParserEPNS_6MapperIS1_EE@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEE5parseERKNS_14DocumentSourceERK7QString@Base 4:4.3.4
- (optional=templinst|arch=armel mips mipsel sparc)_ZN11Syndication20ParserCollectionImplINS_4FeedEEC1Ev@Base 4:4.6.3
+ (optional=templinst|arch=armel mips mipsel)_ZN11Syndication20ParserCollectionImplINS_4FeedEEC1Ev@Base 4:4.6.3
  (optional=templinst|arch=armel mips mipsel)_ZN11Syndication20ParserCollectionImplINS_4FeedEEC2Ev@Base 4:4.6.3
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEED0Ev@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN11Syndication20ParserCollectionImplINS_4FeedEED2Ev@Base 4:4.6.1
+ (optional=templinst|arch=!hurd-i386 !ia64)_ZN11Syndication20ParserCollectionImplINS_4FeedEED2Ev@Base 4:4.6.1
  _ZN11Syndication20stringContainsMarkupERK7QString@Base 4:4.3.4
  _ZN11Syndication23escapeSpecialCharactersERK7QString@Base 4:4.3.4
  _ZN11Syndication3RDF10DublinCoreC1EN5boost10shared_ptrINS0_8ResourceEEE@Base 4:4.3.4
@@ -512,7 +512,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication6LoaderD2Ev@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED0Ev@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN11Syndication6MapperINS_4FeedEED2Ev@Base 4:4.6.1
+ (optional=templinst|arch=!hurd-i386 !ia64)_ZN11Syndication6MapperINS_4FeedEED2Ev@Base 4:4.6.1
  _ZN11Syndication6PersonD0Ev@Base 4:4.3.4
  _ZN11Syndication6PersonD1Ev@Base 4:4.3.4
  _ZN11Syndication6PersonD2Ev@Base 4:4.3.4

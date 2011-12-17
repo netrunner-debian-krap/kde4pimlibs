@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkldap.so.4 libkldap4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KLDAP10LdapObject13setAttributesERK4QMapI7QString5QListI10QByteArrayEE@Base 4:4.3.4
@@ -115,6 +115,8 @@ libkldap.so.4 libkldap4 #MINVER#
  _ZN5KLDAP13LdapOperation7compareERKNS_6LdapDNERK7QStringRK10QByteArray@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation8modify_sERKNS_6LdapDNERK5QListINS0_5ModOpEE@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation8rename_sERKNS_6LdapDNERK7QStringS6_b@Base 4:4.3.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KLDAP13LdapOperation9SASL_DataD1Ev@Base 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KLDAP13LdapOperation9SASL_DataD2Ev@Base 4:4.7.2
  _ZN5KLDAP13LdapOperation9compare_sERKNS_6LdapDNERK7QStringRK10QByteArray@Base 4:4.3.4
  _ZN5KLDAP13LdapOperationC1ERNS_14LdapConnectionE@Base 4:4.3.4
  _ZN5KLDAP13LdapOperationC1Ev@Base 4:4.3.4

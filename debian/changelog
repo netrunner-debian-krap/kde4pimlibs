@@ -5,6 +5,8 @@ kdepimlibs (4:4.7.4-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build depend to 0.8.
   * Confirm symbols files on more achitectures with the 4.7.2 build logs.
+  * Add kio_imap_append.diff, it fixes the arguments for the IMAP APPEND
+    command (Closes: #651654).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 01:01:48 +0100
 

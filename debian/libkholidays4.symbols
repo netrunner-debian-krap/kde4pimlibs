@@ -163,7 +163,6 @@ libkholidays.so.4 libkholidays4 #MINVER#
  (optional=templinst|arch=!hurd-i386 !ia64)_ZSt13copy_backwardIN9KHolidays8locationEESt15_Deque_iteratorIT_RS3_PS3_ES2_IS3_RKS3_PS7_ESA_S6_@Base 4:4.6.1
  (optional=templinst|arch=!hurd-i386 !ia64)_ZSt13copy_backwardIiESt15_Deque_iteratorIT_RS1_PS1_ES0_IS1_RKS1_PS5_ES8_S4_@Base 4:4.6.1
  (optional=templinst|arch=hurd-i386 ia64)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS3_PS4_ES0_IS3_RS3_PS3_ES3_ET0_T_SC_SB_RSaIT1_E@Base 4:4.6.2
-#MISSING: 4:4.7.2# (optional=templinst|arch=sparc)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIN9KHolidays8locationERKS2_PS3_ES0_IS2_RS2_PS2_ES2_ET0_T_SB_SA_RSaIT1_E@Base 4:4.6.2
  (optional=templinst|arch=hurd-i386 ia64)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIiRKiPS1_ES0_IiRiPiEiET0_T_S9_S8_RSaIT1_E@Base 4:4.6.2
  (optional=templinst|arch=!hurd-i386 !ia64)_ZSt4copyIN9KHolidays17HolidayParserPlan13semantic_typeEESt15_Deque_iteratorIT_RS4_PS4_ES3_IS4_RKS4_PS8_ESB_S7_@Base 4:4.6.1
  (optional=templinst|arch=!hurd-i386 !ia64)_ZSt4copyIN9KHolidays8locationEESt15_Deque_iteratorIT_RS3_PS3_ES2_IS3_RKS3_PS7_ESA_S6_@Base 4:4.6.1

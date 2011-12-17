@@ -804,8 +804,6 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
  (optional=templinst|subst)_ZSt16__introsort_loopIPc{ssize_t}EvT_S1_T0_@Base 4:4.4.0
-#MISSING: 4:4.7.2# (optional=templinst|arch=sparc)_ZSt22__uninitialized_move_aIPN5GpgME13Configuration9ComponentES3_SaIS2_EET0_T_S6_S5_RT1_@Base 4:4.6.2
-#MISSING: 4:4.7.2# (optional=templinst|arch=sparc|subst)_ZSt24__uninitialized_fill_n_aIPN5GpgME13Configuration9ComponentE{size_t}S2_S2_EvT_T0_RKT1_RSaIT2_E@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME13Configuration9ComponentEEvT_S4_@Base 4:4.6.3
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME16CreatedSignatureEEvT_S3_@Base 4:4.6.3
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME16InvalidRecipientEEvT_S3_@Base 4:4.6.3
@@ -1662,8 +1660,6 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
  (optional=templinst|subst)_ZSt16__introsort_loopIPc{ssize_t}EvT_S1_T0_@Base 4:4.4.0
-#MISSING: 4:4.7.2# (optional=templinst|arch=sparc)_ZSt22__uninitialized_move_aIPN5GpgME13Configuration9ComponentES3_SaIS2_EET0_T_S6_S5_RT1_@Base 4:4.6.2
-#MISSING: 4:4.7.2# (optional=templinst|arch=sparc|subst)_ZSt24__uninitialized_fill_n_aIPN5GpgME13Configuration9ComponentE{size_t}S2_S2_EvT_T0_RKT1_RSaIT2_E@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME13Configuration9ComponentEEvT_S4_@Base 4:4.6.3
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME16CreatedSignatureEEvT_S3_@Base 4:4.6.3
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME16InvalidRecipientEEvT_S3_@Base 4:4.6.3
@@ -2520,8 +2516,6 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
  (optional=templinst|subst)_ZSt16__introsort_loopIPc{ssize_t}EvT_S1_T0_@Base 4:4.4.0
-#MISSING: 4:4.7.2# (optional=templinst|arch=sparc)_ZSt22__uninitialized_move_aIPN5GpgME13Configuration9ComponentES3_SaIS2_EET0_T_S6_S5_RT1_@Base 4:4.6.2
-#MISSING: 4:4.7.2# (optional=templinst|arch=sparc|subst)_ZSt24__uninitialized_fill_n_aIPN5GpgME13Configuration9ComponentE{size_t}S2_S2_EvT_T0_RKT1_RSaIT2_E@Base 4:4.6.2
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME13Configuration9ComponentEEvT_S4_@Base 4:4.6.3
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME16CreatedSignatureEEvT_S3_@Base 4:4.6.3
  (optional=templinst|arch=armel)_ZSt8_DestroyIPN5GpgME16InvalidRecipientEEvT_S3_@Base 4:4.6.3

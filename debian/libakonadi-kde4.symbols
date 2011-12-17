@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -400,6 +400,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi15CachePolicyPage4saveERNS_10CollectionE@Base 4:4.5.86
  _ZN7Akonadi15CachePolicyPage7Private21slotCacheValueChangedEi@Base 4:4.5.86
  _ZN7Akonadi15CachePolicyPage7Private24slotIntervalValueChangedEi@Base 4:4.5.86
+ _ZN7Akonadi15CachePolicyPage7Private36slotRetrievalOptionsGroupBoxDisabledEb@Base 4:4.7.4
  _ZN7Akonadi15CachePolicyPageC1EP7QWidgetNS0_7GuiModeE@Base 4:4.5.86
  _ZN7Akonadi15CachePolicyPageC2EP7QWidgetNS0_7GuiModeE@Base 4:4.5.86
  _ZN7Akonadi15CachePolicyPageD0Ev@Base 4:4.5.86

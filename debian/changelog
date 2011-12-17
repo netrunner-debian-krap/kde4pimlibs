@@ -1,4 +1,4 @@
-kdepimlibs (4:4.7.4-0r2) UNRELEASED; urgency=low
+kdepimlibs (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ kdepimlibs (4:4.7.4-0r2) UNRELEASED; urgency=low
   * Add kio_imap_append.diff, it fixes the arguments for the IMAP APPEND
     command (Closes: #651654).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 01:01:48 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Dec 2011 23:21:50 +0100
 
 kdepimlibs (4:4.7.2-1) experimental; urgency=low
 

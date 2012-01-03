@@ -97,6 +97,17 @@ Description: library for using the Akonadi PIM data server
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
+Package: libakonadi-notes4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Breaks: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Description: library for using the Akonadi PIM data server
+ This is the client access library for using the Akonadi PIM data server.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
 Package: libgpgme++2
 Section: libs
 Architecture: any
@@ -146,6 +157,17 @@ Description: client-side support library for web application remote blogging API
  if supported on the server, multimedia files. Almost every modern blogging web
  application that provides an XML data interface supports one of the APIs
  mentioned above.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
+Package: libkalarmcal2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Breaks: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
+Description: library for handling kalarm calendar data
+ This library provides access to and handling of kalarm calendar data.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 

@@ -57,6 +57,7 @@ usr/include/KDE/Akonadi/Contact/StandardContactActionManager
 usr/include/KDE/Akonadi/Contact/StandardContactFormatter
 usr/include/KDE/Akonadi/Contact/StandardContactGroupFormatter
 usr/include/KDE/Akonadi/Control
+usr/include/KDE/Akonadi/ETMViewStateSaver
 usr/include/KDE/Akonadi/Entity
 usr/include/KDE/Akonadi/EntityDisplayAttribute
 usr/include/KDE/Akonadi/EntityListView
@@ -79,6 +80,7 @@ usr/include/KDE/Akonadi/ItemSerializerPlugin
 usr/include/KDE/Akonadi/ItemSync
 usr/include/KDE/Akonadi/ItemView
 usr/include/KDE/Akonadi/Job
+usr/include/KDE/Akonadi/KCal/FreeBusyProviderBase
 usr/include/KDE/Akonadi/KCal/IncidenceMimeTypeVisitor
 usr/include/KDE/Akonadi/KMime/AddressAttribute
 usr/include/KDE/Akonadi/KMime/MessageFolderAttribute
@@ -88,6 +90,7 @@ usr/include/KDE/Akonadi/KMime/MessageThreadingAttribute
 usr/include/KDE/Akonadi/KMime/SpecialMailCollections
 usr/include/KDE/Akonadi/KMime/SpecialMailCollectionsRequestJob
 usr/include/KDE/Akonadi/LinkJob
+usr/include/KDE/Akonadi/MimeTypeChecker
 usr/include/KDE/Akonadi/Monitor
 usr/include/KDE/Akonadi/PreprocessorBase
 usr/include/KDE/Akonadi/ResourceBase
@@ -135,6 +138,15 @@ usr/include/KDE/KABC/TimeZone
 usr/include/KDE/KABC/VCardConverter
 usr/include/KDE/KABC/VCardDrag
 usr/include/KDE/KABC/VCardFormat
+usr/include/KDE/KAlarmCal/AlarmText
+usr/include/KDE/KAlarmCal/CollectionAttribute
+usr/include/KDE/KAlarmCal/CompatibilityAttribute
+usr/include/KDE/KAlarmCal/DateTime
+usr/include/KDE/KAlarmCal/EventAttribute
+usr/include/KDE/KAlarmCal/KAAlarm
+usr/include/KDE/KAlarmCal/KAEvent
+usr/include/KDE/KAlarmCal/KARecurrence
+usr/include/KDE/KAlarmCal/Repetition
 usr/include/KDE/KBlog/Blog
 usr/include/KDE/KBlog/BlogComment
 usr/include/KDE/KBlog/BlogMedia
@@ -402,6 +414,7 @@ usr/include/akonadi/attributefactory.h
 usr/include/akonadi/cachepolicy.h
 usr/include/akonadi/cachepolicypage.h
 usr/include/akonadi/calendar/akonadi-calendar_export.h
+usr/include/akonadi/calendar/freebusyproviderbase.h
 usr/include/akonadi/calendar/standardcalendaractionmanager.h
 usr/include/akonadi/changerecorder.h
 usr/include/akonadi/collection.h
@@ -425,6 +438,7 @@ usr/include/akonadi/collectionstatistics.h
 usr/include/akonadi/collectionstatisticsdelegate.h
 usr/include/akonadi/collectionstatisticsjob.h
 usr/include/akonadi/collectionstatisticsmodel.h
+usr/include/akonadi/collectionutils_p.h
 usr/include/akonadi/collectionview.h
 usr/include/akonadi/contact/abstractcontactformatter.h
 usr/include/akonadi/contact/abstractcontactgroupformatter.h
@@ -455,6 +469,7 @@ usr/include/akonadi/control.h
 usr/include/akonadi/dbusconnectionpool.h
 usr/include/akonadi/differencesalgorithminterface.h
 usr/include/akonadi/entity.h
+usr/include/akonadi/entitydeletedattribute.h
 usr/include/akonadi/entitydisplayattribute.h
 usr/include/akonadi/entityhiddenattribute.h
 usr/include/akonadi/entitylistview.h
@@ -487,6 +502,7 @@ usr/include/akonadi/job.h
 usr/include/akonadi/kabc/akonadi-kabc_export.h
 usr/include/akonadi/kabc/contactparts.h
 usr/include/akonadi/kcal/akonadi-kcal_export.h
+usr/include/akonadi/kcal/freebusyproviderbase.h
 usr/include/akonadi/kcal/incidencemimetypevisitor.h
 usr/include/akonadi/kmime/addressattribute.h
 usr/include/akonadi/kmime/akonadi-kmime_export.h
@@ -503,6 +519,8 @@ usr/include/akonadi/kmime/standardmailactionmanager.h
 usr/include/akonadi/linkjob.h
 usr/include/akonadi/mimetypechecker.h
 usr/include/akonadi/monitor.h
+usr/include/akonadi/notes/akonadi-notes_export.h
+usr/include/akonadi/notes/noteutils.h
 usr/include/akonadi/partfetcher.h
 usr/include/akonadi/persistentsearchattribute.h
 usr/include/akonadi/preprocessorbase.h
@@ -525,6 +543,10 @@ usr/include/akonadi/statisticsproxymodel.h
 usr/include/akonadi/transactionjobs.h
 usr/include/akonadi/transactionsequence.h
 usr/include/akonadi/transportresourcebase.h
+usr/include/akonadi/trashfilterproxymodel.h
+usr/include/akonadi/trashjob.h
+usr/include/akonadi/trashrestorejob.h
+usr/include/akonadi/trashsettings.h
 usr/include/akonadi/unlinkjob.h
 usr/include/gpgme++/assuanresult.h
 usr/include/gpgme++/configuration.h
@@ -599,6 +621,18 @@ usr/include/kabc/vcarddrag.h
 usr/include/kabc/vcardformat.h
 usr/include/kabc/vcardline.h
 usr/include/kabc/vcardparser.h
+usr/include/kalarmcal/alarmtext.h
+usr/include/kalarmcal/collectionattribute.h
+usr/include/kalarmcal/compatibilityattribute.h
+usr/include/kalarmcal/datetime.h
+usr/include/kalarmcal/eventattribute.h
+usr/include/kalarmcal/identities.h
+usr/include/kalarmcal/kacalendar.h
+usr/include/kalarmcal/kaevent.h
+usr/include/kalarmcal/kalarmcal_export.h
+usr/include/kalarmcal/karecurrence.h
+usr/include/kalarmcal/repetition.h
+usr/include/kalarmcal/version.h
 usr/include/kblog/blog.h
 usr/include/kblog/blogcomment.h
 usr/include/kblog/blogger1.h
@@ -938,11 +972,13 @@ usr/lib/libakonadi-kabc.so
 usr/lib/libakonadi-kcal.so
 usr/lib/libakonadi-kde.so
 usr/lib/libakonadi-kmime.so
+usr/lib/libakonadi-notes.so
 usr/lib/libgpgme++-pth.so
 usr/lib/libgpgme++-pthread.so
 usr/lib/libgpgme++.so
 usr/lib/libkabc.so
 usr/lib/libkabc_file_core.so
+usr/lib/libkalarmcal.so
 usr/lib/libkblog.so
 usr/lib/libkcal.so
 usr/lib/libkcalcore.so

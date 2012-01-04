@@ -6,6 +6,7 @@ kdepimlibs (4:4.7.95-0r0) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Add libakonadi-notes4 and libkalarmcal4 package.
   * Update installed files.
+  * Remove kio_imap_append.diff, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jan 2012 17:53:14 +0100
 

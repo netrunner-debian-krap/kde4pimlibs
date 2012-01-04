@@ -101,8 +101,6 @@ Package: libakonadi-notes4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
-Breaks: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
 Description: library for using the Akonadi PIM data server
  This is the client access library for using the Akonadi PIM data server.
  .
@@ -164,8 +162,6 @@ Package: libkalarmcal2
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
-Breaks: kdepimlibs5 (<< 4:4.4.0), kdepimlibs-data
 Description: library for handling kalarm calendar data
  This library provides access to and handling of kalarm calendar data.
  .

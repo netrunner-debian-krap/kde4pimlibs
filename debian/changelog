@@ -2,9 +2,9 @@ kdepimlibs (4:4.7.95-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  [ Eshat Cakar]
+  [ Eshat Cakar ]
   * Add myself to uploaders.
-  * Add libakonadi-notes4 and libkalarmcal4 package.
+  * Add libakonadi-notes4 and libkalarmcal2 packages.
   * Update installed files.
   * Remove kio_imap_append.diff, applied upstream.
 

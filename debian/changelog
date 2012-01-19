@@ -1,5 +1,7 @@
 kdepimlibs (4:4.7.4-2) UNRELEASED; urgency=low
 
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on more architectures.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Jan 2012 21:35:12 +0100
 

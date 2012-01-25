@@ -1,4 +1,4 @@
-kdepimlibs (4:4.7.97-0r0) UNRELEASED; urgency=low
+kdepimlibs (4:4.8.0-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -7,6 +7,7 @@ kdepimlibs (4:4.7.97-0r0) UNRELEASED; urgency=low
   * Add libakonadi-notes4 and libkalarmcal2 packages.
   * Update installed files.
   * Remove kio_imap_append.diff, applied upstream.
+  * Bump kdelibs5-dev version to 4.8.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jan 2012 17:53:14 +0100
 

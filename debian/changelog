@@ -11,6 +11,7 @@ kdepimlibs (4:4.8.1-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.1.
+  * Bump Standards-Version to 3.9.3, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:16:23 +0100
 

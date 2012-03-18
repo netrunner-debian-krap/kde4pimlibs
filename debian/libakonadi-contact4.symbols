@@ -1,14 +1,16 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
  _ZGVZN7Akonadi18ContactGroupViewer7PrivateC1EPS0_E11groupPixmap@Base 4:4.5.0
+ (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.7.4
+ (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.7.4
  _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
  _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
- (arch=!mips !mipsel !powerpc !s390)_ZN4KUrl4ListD1Ev@Base 4:4.7.2
- (arch=!mips !mipsel !powerpc !s390)_ZN4KUrl4ListD2Ev@Base 4:4.7.2
- _ZN5KMime5Types7MailboxD1Ev@Base 4:4.6.5
- _ZN5KMime5Types7MailboxD2Ev@Base 4:4.6.5
+ (arch=!armel !armhf !mips !mipsel !powerpc !s390 !s390x)_ZN4KUrl4ListD1Ev@Base 4:4.7.2
+ (arch=!armel !armhf !mips !mipsel !powerpc !s390 !s390x)_ZN4KUrl4ListD2Ev@Base 4:4.7.2
+ (arch=!ia64)_ZN5KMime5Types7MailboxD1Ev@Base 4:4.7.4
+ (arch=!ia64)_ZN5KMime5Types7MailboxD2Ev@Base 4:4.7.4
  _ZN7Akonadi13ContactEditor11loadContactERKNS_4ItemE@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacastEPKc@Base 4:4.4.0

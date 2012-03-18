@@ -11,6 +11,16 @@ kdepimlibs (4:4.8.1-0r0) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:16:23 +0100
 
+kdepimlibs (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+  * Update uploaders, remove Armin.
+
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on all architectures.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 05 Mar 2012 10:10:14 +0100
+
 kdepimlibs (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.

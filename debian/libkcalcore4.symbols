@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkcalcore.so.4 libkcalcore4 #MINVER#
  Parse_MIME@Base 4:4.5.86
  Parse_MIME_FromFile@Base 4:4.5.86
@@ -195,6 +195,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore13IncidenceBase13setFieldDirtyENS0_5FieldE@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase14clearAttendeesEv@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase14deleteAttendeeERK14QSharedPointerINS_8AttendeeEEb@Base 4:4.5.86
+ _ZN8KCalCore13IncidenceBase14setDirtyFieldsERK4QSetINS0_5FieldEE@Base 4:4.8.1
  _ZN8KCalCore13IncidenceBase14setHasDurationEb@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase15setLastModifiedERK9KDateTime@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase16registerObserverEPNS0_17IncidenceObserverE@Base 4:4.5.86

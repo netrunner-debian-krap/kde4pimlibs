@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -224,7 +224,8 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC13FormatFactoryC2Ev@Base 4:4.3.4
  _ZN4KABC13FormatFactoryD1Ev@Base 4:4.3.4
  _ZN4KABC13FormatFactoryD2Ev@Base 4:4.3.4
- _ZN4KABC13LDIFConverter12evaluatePairERNS_9AddresseeERNS_7AddressES4_R7QStringS6_@Base 4:4.3.4
+#MISSING: 4:4.8.1# _ZN4KABC13LDIFConverter12evaluatePairERNS_9AddresseeERNS_7AddressES4_R7QStringS6_@Base 4:4.3.4
+ _ZN4KABC13LDIFConverter12evaluatePairERNS_9AddresseeERNS_7AddressES4_R7QStringS6_RiS7_S7_@Base 4:4.8.1
  _ZN4KABC13LDIFConverter15LDIFToAddresseeERK7QStringRNS_13AddresseeListERK9QDateTime@Base 4:4.3.4
  _ZN4KABC13LDIFConverter15addresseeToLDIFERKNS_13AddresseeListER7QString@Base 4:4.3.4
  _ZN4KABC13LDIFConverter15addresseeToLDIFERKNS_9AddresseeER7QString@Base 4:4.3.4

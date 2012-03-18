@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libsyndication.so.4 libsyndication4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN11Syndication10PersonImplC1ERK7QStringS3_S3_@Base 4:4.3.4
@@ -935,7 +935,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTIN11Syndication6PersonE@Base 4:4.3.4
  _ZTIN11Syndication8CategoryE@Base 4:4.3.4
  _ZTIN11Syndication9EnclosureE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.8.1
  _ZTSN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTSN11Syndication12SpecificItemE@Base 4:4.3.4
  _ZTSN11Syndication13DataRetrieverE@Base 4:4.3.4
@@ -992,7 +992,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTSN11Syndication6PersonE@Base 4:4.3.4
  _ZTSN11Syndication8CategoryE@Base 4:4.3.4
  _ZTSN11Syndication9EnclosureE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.8.1
  _ZTVN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTVN11Syndication12SpecificItemE@Base 4:4.3.4
  _ZTVN11Syndication13DataRetrieverE@Base 4:4.3.4
@@ -1049,7 +1049,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTVN11Syndication6PersonE@Base 4:4.3.4
  _ZTVN11Syndication8CategoryE@Base 4:4.3.4
  _ZTVN11Syndication9EnclosureE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.8.1
  (c++)"non-virtual thunk to Syndication::Atom::Entry::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::~Entry()@Base" 4:4.6.5
  (c++)"non-virtual thunk to Syndication::Atom::EntryDocument::~EntryDocument()@Base" 4:4.6.5

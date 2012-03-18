@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libgpgme++-pth.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -781,8 +781,8 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIP20_gpgme_import_statusSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIP20_gpgme_new_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
- (optional=templinst|arch=!amd64 !armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=!amd64 !armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.3.4
@@ -825,7 +825,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZTIN5GpgME7ContextE@Base 4:4.3.4
  _ZTIN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTIN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.8.1
  _ZTSN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTSN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTSN5GpgME19EventLoopInteractorE@Base 4:4.3.4
@@ -839,7 +839,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZTSN5GpgME7ContextE@Base 4:4.3.4
  _ZTSN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTSN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.8.1
  _ZTVN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTVN5GpgME19EventLoopInteractorE@Base 4:4.3.4
@@ -853,7 +853,7 @@ libgpgme++-pth.so.2 libgpgme++2 #MINVER#
  _ZTVN5GpgME7ContextE@Base 4:4.3.4
  _ZTVN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTVN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.8.1
 libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -1636,8 +1636,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIP20_gpgme_import_statusSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIP20_gpgme_new_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
- (optional=templinst|arch=!amd64 !armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=!amd64 !armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.3.4
@@ -1680,7 +1680,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTIN5GpgME7ContextE@Base 4:4.3.4
  _ZTIN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTIN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.8.1
  _ZTSN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTSN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTSN5GpgME19EventLoopInteractorE@Base 4:4.3.4
@@ -1694,7 +1694,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTSN5GpgME7ContextE@Base 4:4.3.4
  _ZTSN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTSN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.8.1
  _ZTVN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTVN5GpgME19EventLoopInteractorE@Base 4:4.3.4
@@ -1708,7 +1708,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTVN5GpgME7ContextE@Base 4:4.3.4
  _ZTVN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTVN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.8.1
 libgpgme++.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -2491,8 +2491,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIP20_gpgme_import_statusSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIP20_gpgme_new_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
- (optional=templinst|arch=!amd64 !armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=!amd64 !armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf !powerpc !s390x)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.3.4
@@ -2535,7 +2535,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZTIN5GpgME7ContextE@Base 4:4.3.4
  _ZTIN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTIN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTIN5boost9exceptionE@Base 4:4.8.1
  _ZTSN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTSN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTSN5GpgME19EventLoopInteractorE@Base 4:4.3.4
@@ -2549,7 +2549,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZTSN5GpgME7ContextE@Base 4:4.3.4
  _ZTSN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTSN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTSN5boost9exceptionE@Base 4:4.8.1
  _ZTVN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTVN5GpgME19EventLoopInteractorE@Base 4:4.3.4
@@ -2563,4 +2563,4 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZTVN5GpgME7ContextE@Base 4:4.3.4
  _ZTVN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTVN5GpgME9TrustItemE@Base 4:4.3.4
- (arch=!amd64 !armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.7.4
+ (arch=!armhf !powerpc !s390x)_ZTVN5boost9exceptionE@Base 4:4.8.1

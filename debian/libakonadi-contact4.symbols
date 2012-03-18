@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -219,8 +219,10 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi24ContactMetaDataAttributeD2Ev@Base 4:4.4.0
  _ZN7Akonadi24ContactsFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModel11qt_metacastEPKc@Base 4:4.5.0
+ _ZN7Akonadi24ContactsFilterProxyModel14setFilterFlagsE6QFlagsINS0_10FilterFlagEE@Base 4:4.8.1
  _ZN7Akonadi24ContactsFilterProxyModel15setFilterStringERK7QString@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModel16staticMetaObjectE@Base 4:4.5.0
+ _ZN7Akonadi24ContactsFilterProxyModel28setExcludeVirtualCollectionsEb@Base 4:4.8.1
  _ZN7Akonadi24ContactsFilterProxyModelC1EP7QObject@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModelC2EP7QObject@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModelD0Ev@Base 4:4.5.0
@@ -348,6 +350,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZNK7Akonadi24ContactMetaDataAttribute8metaDataEv@Base 4:4.4.0
  _ZNK7Akonadi24ContactsFilterProxyModel10metaObjectEv@Base 4:4.5.0
  _ZNK7Akonadi24ContactsFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.5.0
+ _ZNK7Akonadi24ContactsFilterProxyModel5flagsERK11QModelIndex@Base 4:4.8.1
  _ZNK7Akonadi24ContactsFilterProxyModel8lessThanERK11QModelIndexS3_@Base 4:4.5.0
  _ZNK7Akonadi24StandardContactFormatter6toHtmlENS_24AbstractContactFormatter8HtmlFormE@Base 4:4.5.0
  _ZNK7Akonadi25RecentContactsCollections10collectionERKNS_13AgentInstanceE@Base 4:4.4.0

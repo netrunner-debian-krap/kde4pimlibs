@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.2 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -276,6 +276,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi28StandardContactActionManager18actionStateUpdatedEv@Base 4:4.5.86
  _ZN7Akonadi28StandardContactActionManager21setItemSelectionModelEP19QItemSelectionModel@Base 4:4.5.86
  _ZN7Akonadi28StandardContactActionManager27setCollectionSelectionModelEP19QItemSelectionModel@Base 4:4.5.86
+ _ZN7Akonadi28StandardContactActionManager32setCollectionPropertiesPageNamesERK11QStringList@Base 4:4.8.2
  _ZN7Akonadi28StandardContactActionManagerC1EP17KActionCollectionP7QWidget@Base 4:4.5.86
  _ZN7Akonadi28StandardContactActionManagerC2EP17KActionCollectionP7QWidget@Base 4:4.5.86
  _ZN7Akonadi28StandardContactActionManagerD0Ev@Base 4:4.5.86

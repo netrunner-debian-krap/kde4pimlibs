@@ -6,6 +6,8 @@ kdepimlibs (4:4.7.4-3) UNRELEASED; urgency=low
     upstream_Disambiguations-necessary-for-building-with-clang.patch.
     (Closes: #667220)
   * Bump Standards-Version to 3.9.3, no changes required.
+  * The rebuild also updates the libphonon.so path to the new multiarch path.
+    (Closes: #671893)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 May 2012 14:18:54 +0200
 

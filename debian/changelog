@@ -1,5 +1,7 @@
 kdepimlibs (4:4.7.4-3) UNRELEASED; urgency=low
 
+  * Team upload.
+
   [ Pino Toscano ]
   * Backport upstream commit b886894bd1afc515947c24883169d0a5107a86d5 to fix
     building with GCC 4.7; patch

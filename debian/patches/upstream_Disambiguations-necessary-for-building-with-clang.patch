@@ -1,0 +1,39 @@
+From b886894bd1afc515947c24883169d0a5107a86d5 Mon Sep 17 00:00:00 2001
+From: Till Adam <till@kdab.com>
+Date: Fri, 9 Sep 2011 20:29:39 +0200
+Subject: [PATCH] Disambiguations necessary for building with clang.
+
+---
+ kcal/listbase.h         |    2 +-
+ kmime/kautodeletehash.h |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/kcal/listbase.h b/kcal/listbase.h
+index c246cc0..80acc23 100644
+--- a/kcal/listbase.h
++++ b/kcal/listbase.h
+@@ -115,7 +115,7 @@ class ListBase : public QList<T *>
+     */
+     bool removeRef( T *t )
+     {
+-      if ( !contains( t ) ) {
++      if ( !this->contains( t ) ) {
+         return false;
+       } else {
+         if ( mAutoDelete ) {
+diff --git a/kmime/kautodeletehash.h b/kmime/kautodeletehash.h
+index 2e24c3a..67cb1dd 100644
+--- a/kmime/kautodeletehash.h
++++ b/kmime/kautodeletehash.h
+@@ -64,7 +64,7 @@ public:
+    */
+   ~KAutoDeleteHash() { while ( ! QHash<Key, T *>::isEmpty() ) {
+                          T *value = *QHash<Key, T *>::begin();
+-                         erase( QHash<Key, T *>::begin() );
++                         this->erase( QHash<Key, T *>::begin() );
+                          delete value;
+                        }
+                      }
+-- 
+1.7.10
+

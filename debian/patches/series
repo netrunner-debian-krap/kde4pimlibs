@@ -1,2 +1,3 @@
 03_hide_akonadi_progressbar.diff
 kio_imap_append.diff
+upstream_Disambiguations-necessary-for-building-with-clang.patch

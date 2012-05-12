@@ -17,6 +17,24 @@ kdepimlibs (4:4.8.2-0r0) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:16:23 +0100
 
+kdepimlibs (4:4.7.4-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Backport upstream commit b886894bd1afc515947c24883169d0a5107a86d5 to fix
+    building with GCC 4.7; patch
+    upstream_Disambiguations-necessary-for-building-with-clang.patch.
+    (Closes: #667220)
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * The rebuild also updates the libphonon.so path to the new multiarch path.
+    (Closes: #671893)
+
+  [ Modestas Vainius ]
+  * Update symbol files.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 May 2012 15:20:20 +0300
+
 kdepimlibs (4:4.7.4-2) unstable; urgency=low
 
   * Team upload. Upload to unstable.

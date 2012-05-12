@@ -11,6 +11,9 @@ kdepimlibs (4:4.7.4-3) unstable; urgency=low
   * The rebuild also updates the libphonon.so path to the new multiarch path.
     (Closes: #671893)
 
+  [ Modestas Vainius ]
+  * Update symbol files.
+
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 11 May 2012 10:32:31 -0300
 
 kdepimlibs (4:4.7.4-2) unstable; urgency=low

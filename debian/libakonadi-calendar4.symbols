@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64
 libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  _ZN7Akonadi29StandardCalendarActionManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
  _ZN7Akonadi29StandardCalendarActionManager11qt_metacastEPKc@Base 4:4.5.86
@@ -28,6 +28,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  (optional=templinst)_ZNK7Akonadi4Item10tryToCloneI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost9enable_ifINS_8Internal17is_shared_pointerIT_EEbE4typeEPSA_PKi@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore4TodoEEEEN5boost11enable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEPKi@Base 4:4.6.2
+ (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.7.4
  _ZTIN7Akonadi29StandardCalendarActionManagerE@Base 4:4.5.86
  _ZTSN7Akonadi29StandardCalendarActionManagerE@Base 4:4.5.86
  _ZTVN7Akonadi29StandardCalendarActionManagerE@Base 4:4.5.86

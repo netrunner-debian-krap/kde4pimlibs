@@ -15,6 +15,10 @@ kdepimlibs (4:4.8.2-0r0) UNRELEASED; urgency=low
   * Update symbols files.
   * Add symbols files for libakonadi-notes4 and libkalarmcal2.
 
+  [ Modestas Vainius ]
+  * Drop upstream_Disambiguations-necessary-for-building-with-clang.patch, was
+    backported from upstream.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:16:23 +0100
 
 kdepimlibs (4:4.7.4-3) unstable; urgency=low

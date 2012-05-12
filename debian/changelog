@@ -14,7 +14,7 @@ kdepimlibs (4:4.7.4-3) unstable; urgency=low
   [ Modestas Vainius ]
   * Update symbol files.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 11 May 2012 10:32:31 -0300
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 May 2012 15:20:20 +0300
 
 kdepimlibs (4:4.7.4-2) unstable; urgency=low
 

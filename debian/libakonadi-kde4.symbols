@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -1538,6 +1538,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi9UnlinkJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJobD1Ev@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJobD2Ev@Base 4:4.3.4
+ (optional=templinst)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.8.3
  _ZNK7Akonadi10Collection10statisticsEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection11cachePolicyEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection14parentRemoteIdEv@Base 4:4.3.4
@@ -1986,7 +1987,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZNSt8auto_ptrIN7Akonadi9Exception7PrivateEED2Ev@Base 4:4.6.1
  (optional=templinst|subst|arch=!amd64)_ZSt11__push_heapIN5QListIN7Akonadi10CollectionEE8iteratorE{qptrdiff}S2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.6.1
  (optional=templinst|subst|arch=!amd64)_ZSt11__push_heapIN5QListIN7Akonadi4ItemEE8iteratorE{qptrdiff}S2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.6.1
- (optional=templinst|subst|arch=amd64 armel armhf ia64 mips mipsel powerpc s390 sparc)_ZSt13__adjust_heapIN5QListIN7Akonadi10CollectionEE8iteratorE{qptrdiff}S2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.5.0
+#MISSING: 4:4.8.3# (optional=templinst|subst|arch=amd64 armel armhf ia64 mips mipsel powerpc s390 sparc)_ZSt13__adjust_heapIN5QListIN7Akonadi10CollectionEE8iteratorE{qptrdiff}S2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.5.0
  (optional=templinst|arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZSt13__adjust_heapIN5QListIN7Akonadi4ItemEE8iteratorEiS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.3.4
  (optional=templinst|arch=ia64 kfreebsd-amd64 s390x)_ZSt13__adjust_heapIN5QListIN7Akonadi4ItemEE8iteratorExS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.5.0
  (optional=templinst|arch=!amd64)_ZSt13__heap_selectIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_SO_T0_@Base 4:4.6.1

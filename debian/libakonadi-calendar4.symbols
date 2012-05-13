@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64
 libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  _ZN7Akonadi20FreeBusyProviderBase17freeBusyRetrievedERK7QStringS3_bS3_@Base 4:4.8.1
  _ZN7Akonadi20FreeBusyProviderBaseC1Ev@Base 4:4.8.1
@@ -36,6 +36,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore4TodoEEEEN5boost11enable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEPKi@Base 4:4.6.2
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.7.4
+ _ZTIN7Akonadi20FreeBusyProviderBaseE@Base 4:4.8.3
  _ZTIN7Akonadi29StandardCalendarActionManagerE@Base 4:4.5.86
  _ZTSN7Akonadi20FreeBusyProviderBaseE@Base 4:4.8.1
  _ZTSN7Akonadi29StandardCalendarActionManagerE@Base 4:4.5.86

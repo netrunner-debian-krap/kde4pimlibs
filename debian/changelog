@@ -18,6 +18,7 @@ kdepimlibs (4:4.8.3-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Drop upstream_Disambiguations-necessary-for-building-with-clang.patch, was
     backported from upstream.
+  * Remove duplicate Section: libs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:16:23 +0100
 

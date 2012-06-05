@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
 libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN12KPIMTextEdit21EMailQuoteHighlighter13highlightTextERK7QStringRK6QColorS6_S6_@Base 4:4.4.0
@@ -40,8 +40,8 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZN12KPIMTextEdit8TextEditD2Ev@Base 4:4.3.4
  _ZN12KPIMTextEdit9TextUtils18containsFormattingEPK13QTextDocument@Base 4:4.5.0
  _ZN12KPIMTextEdit9TextUtils8flowTextER7QStringRKS1_i@Base 4:4.5.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.7.2
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.7.2
+#MISSING: 4:4.8.3# (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.7.2
+#MISSING: 4:4.8.3# (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.7.2
  _ZNK12KPIMTextEdit8TextEdit10configFileEv@Base 4:4.5.0
  _ZNK12KPIMTextEdit8TextEdit10metaObjectEv@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit11quoteLengthERK7QString@Base 4:4.3.4
@@ -56,8 +56,8 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZNK12KPIMTextEdit8TextEdit21canInsertFromMimeDataEPK9QMimeData@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit22isSpellCheckingEnabledEv@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit25shouldBlockBeSpellCheckedERK7QString@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED1Ev@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED2Ev@Base 4:4.6.2
+#MISSING: 4:4.8.3# (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED1Ev@Base 4:4.3.4
+#MISSING: 4:4.8.3# (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED2Ev@Base 4:4.6.2
  _ZTIN12KPIMTextEdit21EMailQuoteHighlighterE@Base 4:4.3.4
  _ZTIN12KPIMTextEdit8TextEditE@Base 4:4.3.4
  _ZTSN12KPIMTextEdit21EMailQuoteHighlighterE@Base 4:4.3.4

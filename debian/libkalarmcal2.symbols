@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
 libkalarmcal.so.2 libkalarmcal2 #MINVER#
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN9KAlarmCal7KAEventEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS8_@Base 4:4.8.1
  _ZN9KAlarmCal10Identities12identityUoidERK7QString@Base 4:4.8.1
@@ -241,6 +241,8 @@ libkalarmcal.so.2 libkalarmcal2 #MINVER#
  _ZN9KAlarmCal7KAEvent7Private8setRecurEN8KCalCore14RecurrenceRule10PeriodTypeEiiRK5QDateNS_12KARecurrence9Feb29TypeE@Base 4:4.8.1
  _ZN9KAlarmCal7KAEvent7Private8setRecurEN8KCalCore14RecurrenceRule10PeriodTypeEiiRK9KDateTimeNS_12KARecurrence9Feb29TypeE@Base 4:4.8.1
  _ZN9KAlarmCal7KAEvent7Private8xtermURLE@Base 4:4.8.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KAlarmCal7KAEvent7Private9AlarmDataD1Ev@Base 4:4.8.3
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KAlarmCal7KAEvent7Private9AlarmDataD2Ev@Base 4:4.8.3
  _ZN9KAlarmCal7KAEvent7Private9DISP_EDITE@Base 4:4.8.1
  _ZN9KAlarmCal7KAEvent7Private9FILE_TYPEE@Base 4:4.8.1
  _ZN9KAlarmCal7KAEvent7Private9mHolidaysE@Base 4:4.8.1

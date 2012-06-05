@@ -4,6 +4,7 @@ kdepimlibs (4:4.8.4-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Add watch file.
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jun 2012 16:20:42 +0200
 

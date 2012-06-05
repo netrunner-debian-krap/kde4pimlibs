@@ -814,8 +814,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABCrsER11QDataStreamRNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_8TimeZoneE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_9AddresseeE@Base 4:4.3.4
-#MISSING: 4:4.8.3# (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.7.2
-#MISSING: 4:4.8.3# (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.7.2
  (optional=templinst|arch=s390 s390x sparc)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.7.2
  (optional=templinst|arch=hppa)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.2
  _ZNK4KABC11AddressBook10findByNameERK7QString@Base 4:4.3.4

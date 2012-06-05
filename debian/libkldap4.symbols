@@ -117,8 +117,6 @@ libkldap.so.4 libkldap4 #MINVER#
  _ZN5KLDAP13LdapOperation7compareERKNS_6LdapDNERK7QStringRK10QByteArray@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation8modify_sERKNS_6LdapDNERK5QListINS0_5ModOpEE@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation8rename_sERKNS_6LdapDNERK7QStringS6_b@Base 4:4.3.4
-#MISSING: 4:4.8.3# (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KLDAP13LdapOperation9SASL_DataD1Ev@Base 4:4.7.2
-#MISSING: 4:4.8.3# (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KLDAP13LdapOperation9SASL_DataD2Ev@Base 4:4.7.2
  _ZN5KLDAP13LdapOperation9compare_sERKNS_6LdapDNERK7QStringRK10QByteArray@Base 4:4.3.4
  _ZN5KLDAP13LdapOperationC1ERNS_14LdapConnectionE@Base 4:4.3.4
  _ZN5KLDAP13LdapOperationC1Ev@Base 4:4.3.4

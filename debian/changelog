@@ -6,6 +6,7 @@ kdepimlibs (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Add watch file.
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
   * Confirm symbols files on various architectures with 4.8.3 build logs.
+  * Add crash_when_marking_folder_read.diff.
   * Refresh 03_hide_akonadi_progressbar.diff to make it apply without any
     offset.
 

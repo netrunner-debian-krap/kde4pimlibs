@@ -1,6 +1,7 @@
-kdepimlibs (4:4.8.4-0r2) UNRELEASED; urgency=low
+kdepimlibs (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
+  * Team upload.
 
   [ José Manuel Santamaría Lema ]
   * Add watch file.
@@ -10,7 +11,7 @@ kdepimlibs (4:4.8.4-0r2) UNRELEASED; urgency=low
   * Refresh 03_hide_akonadi_progressbar.diff to make it apply without any
     offset.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jun 2012 16:20:42 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 15:21:42 +0300
 
 kdepimlibs (4:4.8.3-1) experimental; urgency=low
 

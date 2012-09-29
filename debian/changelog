@@ -1,6 +1,7 @@
 kdepimlibs (4:4.8.5-0r0) UNRELEASED; urgency=low
 
-
+  [ Lisandro Damián Nicanor Pérez meyer ]
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Sep 2012 16:51:09 -0300
 

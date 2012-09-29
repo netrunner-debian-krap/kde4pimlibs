@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.8.4 mips mipsel
 libkholidays.so.4 libkholidays4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 4:4.3.4
@@ -122,6 +122,7 @@ libkholidays.so.4 libkholidays4 #MINVER#
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EEaSERKS4_@Base 4:4.5.0
  (optional=templinst|subst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE13_M_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_{size_t}@Base 4:4.5.0
  (optional=templinst|subst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
+ (optional=templinst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE18_M_fill_initializeERKS1_@Base 4:4.8.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE19_M_range_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_St20forward_iterator_tag@Base 4:4.5.0
  (optional=templinst|subst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
  (optional=templinst|subst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0

@@ -1,5 +1,9 @@
 kdepimlibs (4:4.8.4-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream commit f142cc25b5620c2d1037cc6cd270b1cf301b5380
+    (adapted to the 4.8 codebase) to stop reading when reaching the end of
+    streams; patch upstream_b92782580756b3858f0381a5200b79688ab0b0a2.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Oct 2012 22:13:08 +0200
 

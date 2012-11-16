@@ -98,6 +98,8 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  _ZN7Akonadi22SpecialMailCollections11qt_metacastEPKc@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollections16staticMetaObjectE@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollections18registerCollectionENS0_4TypeERKNS_10CollectionE@Base 4:4.4.0
+ _ZN7Akonadi22SpecialMailCollections22slotCollectionModifiedEP4KJob@Base 4:4.9.3
+ _ZN7Akonadi22SpecialMailCollections27verifyI18nDefaultCollectionENS0_4TypeE@Base 4:4.9.3
  _ZN7Akonadi22SpecialMailCollections4selfEv@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollectionsC1EPNS_29SpecialMailCollectionsPrivateE@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollectionsC2EPNS_29SpecialMailCollectionsPrivateE@Base 4:4.4.0

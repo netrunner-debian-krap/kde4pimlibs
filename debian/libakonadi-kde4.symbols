@@ -147,6 +147,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi12ResourceBase18scheduleCustomTaskEP7QObjectPKcRK8QVariantNS0_16SchedulePriorityE@Base 4:4.4.0
  _ZN7Akonadi12ResourceBase19requestItemDeliveryExRK7QStringS3_RK11QStringList@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase20collectionsRetrievedERK5QListINS_10CollectionEE@Base 4:4.3.4
+ _ZN7Akonadi12ResourceBase21requestItemDeliveryV2ExRK7QStringS3_RK11QStringList@Base 4:4.9.3
  _ZN7Akonadi12ResourceBase21synchronizeCollectionEx@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase21synchronizeCollectionExb@Base 4:4.5.90
  _ZN7Akonadi12ResourceBase22attributesSynchronizedEx@Base 4:4.5.86
@@ -347,6 +348,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi14EntityTreeView15setXmlGuiClientEP13KXMLGUIClient@Base 4:4.4.0
  _ZN7Akonadi14EntityTreeView16contextMenuEventEP17QContextMenuEvent@Base 4:4.4.0
  _ZN7Akonadi14EntityTreeView16staticMetaObjectE@Base 4:4.4.0
+ _ZN7Akonadi14EntityTreeView19setDefaultPopupMenuERK7QString@Base 4:4.9.3
  _ZN7Akonadi14EntityTreeView22setManualSortingActiveEb@Base 4:4.8.1
  _ZN7Akonadi14EntityTreeView24setDropActionMenuEnabledEb@Base 4:4.5.0
  _ZN7Akonadi14EntityTreeView7Private11itemClickedERK11QModelIndex@Base 4:4.4.0
@@ -437,6 +439,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi15EntityTreeModel13insertColumnsEiiRK11QModelIndex@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel13removeColumnsEiiRK11QModelIndex@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel16staticMetaObjectE@Base 4:4.4.0
+ _ZN7Akonadi15EntityTreeModel17collectionFetchedEi@Base 4:4.9.3
  _ZN7Akonadi15EntityTreeModel19modelIndexesForItemEPK18QAbstractItemModelRKNS_4ItemE@Base 4:4.5.0
  _ZN7Akonadi15EntityTreeModel21setShowSystemEntitiesEb@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel22setIncludeUnsubscribedEb@Base 4:4.5.0
@@ -687,6 +690,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi18SubscriptionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialog11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialog16staticMetaObjectE@Base 4:4.3.4
+ _ZN7Akonadi18SubscriptionDialog20showHiddenCollectionEb@Base 4:4.9.3
  _ZN7Akonadi18SubscriptionDialog4initERK11QStringList@Base 4:4.7.0
  _ZN7Akonadi18SubscriptionDialogC1EP7QWidget@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogC1ERK11QStringListP7QWidget@Base 4:4.7.0
@@ -701,7 +705,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi19AgentInstanceWidget14currentChangedERKNS_13AgentInstanceES3_@Base 4:4.3.4
  _ZN7Akonadi19AgentInstanceWidget16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi19AgentInstanceWidget7Private27currentAgentInstanceChangedERK11QModelIndexS4_@Base 4:4.3.4
+ _ZN7Akonadi19AgentInstanceWidget7Private27currentAgentInstanceClickedERK11QModelIndex@Base 4:4.9.3
  _ZN7Akonadi19AgentInstanceWidget7Private33currentAgentInstanceDoubleClickedERK11QModelIndex@Base 4:4.3.4
+ _ZN7Akonadi19AgentInstanceWidget7clickedERKNS_13AgentInstanceE@Base 4:4.9.3
  _ZN7Akonadi19AgentInstanceWidgetC1EP7QWidget@Base 4:4.3.4
  _ZN7Akonadi19AgentInstanceWidgetC2EP7QWidget@Base 4:4.3.4
  _ZN7Akonadi19AgentInstanceWidgetD0Ev@Base 4:4.3.4
@@ -1148,6 +1154,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi26SpecialCollectionAttributeD2Ev@Base 4:4.4.0
  _ZN7Akonadi28CollectionStatisticsDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi28CollectionStatisticsDelegate11qt_metacastEPKc@Base 4:4.3.4
+ _ZN7Akonadi28CollectionStatisticsDelegate13updatePaletteEv@Base 4:4.9.3
  _ZN7Akonadi28CollectionStatisticsDelegate16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi28CollectionStatisticsDelegate19setUnreadCountShownEb@Base 4:4.3.4
  _ZN7Akonadi28CollectionStatisticsDelegate27setProgressAnimationEnabledEb@Base 4:4.5.0
@@ -1183,6 +1190,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi35RecursiveCollectionFilterProxyModel12clearFiltersEv@Base 4:4.5.86
  _ZN7Akonadi35RecursiveCollectionFilterProxyModel16setSearchPatternERK7QString@Base 4:4.8.1
  _ZN7Akonadi35RecursiveCollectionFilterProxyModel16staticMetaObjectE@Base 4:4.5.86
+ _ZN7Akonadi35RecursiveCollectionFilterProxyModel21setIncludeCheckedOnlyEb@Base 4:4.9.3
  _ZN7Akonadi35RecursiveCollectionFilterProxyModel33addContentMimeTypeInclusionFilterERK7QString@Base 4:4.5.86
  _ZN7Akonadi35RecursiveCollectionFilterProxyModel34addContentMimeTypeInclusionFiltersERK11QStringList@Base 4:4.5.86
  _ZN7Akonadi35RecursiveCollectionFilterProxyModel34setContentMimeTypeInclusionFiltersERK11QStringList@Base 4:4.5.86
@@ -1328,6 +1336,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi7Monitor23setCollectionFetchScopeERKNS_20CollectionFetchScopeE@Base 4:4.4.0
  _ZN7Akonadi7Monitor25fetchCollectionStatisticsEb@Base 4:4.3.4
  _ZN7Akonadi7Monitor27collectionStatisticsChangedExRKNS_20CollectionStatisticsE@Base 4:4.3.4
+ _ZN7Akonadi7Monitor35setCollectionMoveTranslationEnabledEb@Base 4:4.9.3
  _ZN7Akonadi7Monitor9itemAddedERKNS_4ItemERKNS_10CollectionE@Base 4:4.3.4
  _ZN7Akonadi7Monitor9itemMovedERKNS_4ItemERKNS_10CollectionES6_@Base 4:4.3.4
  _ZN7Akonadi7MonitorC1EP7QObject@Base 4:4.3.4

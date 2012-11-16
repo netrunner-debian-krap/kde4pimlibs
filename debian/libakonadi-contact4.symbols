@@ -72,6 +72,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi17ContactsTreeModelD2Ev@Base 4:4.5.0
  _ZN7Akonadi18ContactGroupEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi18ContactGroupEditor11qt_metacastEPKc@Base 4:4.4.0
+ _ZN7Akonadi18ContactGroupEditor16groupNameIsValidEb@Base 4:4.9.3
  _ZN7Akonadi18ContactGroupEditor16loadContactGroupERKNS_4ItemE@Base 4:4.4.0
  _ZN7Akonadi18ContactGroupEditor16saveContactGroupEv@Base 4:4.4.0
  _ZN7Akonadi18ContactGroupEditor16staticMetaObjectE@Base 4:4.4.0
@@ -226,6 +227,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi24ContactsFilterProxyModelD0Ev@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModelD1Ev@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModelD2Ev@Base 4:4.5.0
+ _ZN7Akonadi24StandardContactFormatter16setDisplayQRCodeEb@Base 4:4.9.3
  _ZN7Akonadi24StandardContactFormatterC1Ev@Base 4:4.5.0
  _ZN7Akonadi24StandardContactFormatterC2Ev@Base 4:4.5.0
  _ZN7Akonadi24StandardContactFormatterD0Ev@Base 4:4.5.0
@@ -351,6 +353,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZNK7Akonadi24ContactsFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.5.0
  _ZNK7Akonadi24ContactsFilterProxyModel5flagsERK11QModelIndex@Base 4:4.8.1
  _ZNK7Akonadi24ContactsFilterProxyModel8lessThanERK11QModelIndexS3_@Base 4:4.5.0
+ _ZNK7Akonadi24StandardContactFormatter13displayQRCodeEv@Base 4:4.9.3
  _ZNK7Akonadi24StandardContactFormatter6toHtmlENS_24AbstractContactFormatter8HtmlFormE@Base 4:4.5.0
  _ZNK7Akonadi25RecentContactsCollections10collectionERKNS_13AgentInstanceE@Base 4:4.4.0
  _ZNK7Akonadi25RecentContactsCollections10metaObjectEv@Base 4:4.4.0

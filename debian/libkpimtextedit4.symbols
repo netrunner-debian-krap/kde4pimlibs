@@ -25,6 +25,7 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZN12KPIMTextEdit8TextEdit18enableImageActionsEv@Base 4:4.3.4
  _ZN12KPIMTextEdit8TextEdit18insertFromMimeDataEPK9QMimeData@Base 4:4.3.4
  _ZN12KPIMTextEdit8TextEdit20setHighlighterColorsEPNS_21EMailQuoteHighlighterE@Base 4:4.3.4
+ _ZN12KPIMTextEdit8TextEdit21enableEmoticonActionsEv@Base 4:4.9.3
  _ZN12KPIMTextEdit8TextEdit22imageNamesToContentIdsERK10QByteArrayRK5QListI14QSharedPointerINS_13EmbeddedImageEEE@Base 4:4.3.4
  _ZN12KPIMTextEdit8TextEdit23setSpellCheckingEnabledEb@Base 4:4.3.4
  _ZN12KPIMTextEdit8TextEdit8addImageERK4KUrl@Base 4:4.3.4
@@ -53,6 +54,7 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZNK12KPIMTextEdit8TextEdit20isEnableImageActionsEv@Base 4:4.5.86
  _ZNK12KPIMTextEdit8TextEdit21canInsertFromMimeDataEPK9QMimeData@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit22isSpellCheckingEnabledEv@Base 4:4.3.4
+ _ZNK12KPIMTextEdit8TextEdit23isEnableEmoticonActionsEv@Base 4:4.9.3
  _ZNK12KPIMTextEdit8TextEdit25shouldBlockBeSpellCheckedERK7QString@Base 4:4.3.4
  _ZTIN12KPIMTextEdit21EMailQuoteHighlighterE@Base 4:4.3.4
  _ZTIN12KPIMTextEdit8TextEditE@Base 4:4.3.4

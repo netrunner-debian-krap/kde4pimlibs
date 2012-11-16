@@ -99,6 +99,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities8Identity22setSignatureInlineTextERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity31setPreferredCryptoMessageFormatERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity4nullEv@Base 4:4.3.4
+ _ZN14KPIMIdentities8Identity5setCcERK7QString@Base 4:4.9.3
  _ZN14KPIMIdentities8Identity6setBccERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity6setFccERK7QString@Base 4:4.3.4
  _ZN14KPIMIdentities8Identity7setUoidEj@Base 4:4.3.4
@@ -115,6 +116,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZN14KPIMIdentities9Signature14setInlinedHtmlEb@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature16setImageLocationERK7QString@Base 4:4.4.0
  _ZN14KPIMIdentities9Signature18insertIntoTextEditEP13KRichTextEditNS0_9PlacementEb@Base 4:4.3.4
+ _ZN14KPIMIdentities9Signature19setEnabledSignatureEb@Base 4:4.9.3
  _ZN14KPIMIdentities9Signature32insertPlainSignatureIntoTextEditERK7QStringP13KRichTextEditNS0_9PlacementEb@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature6setUrlERK7QStringb@Base 4:4.3.4
  _ZN14KPIMIdentities9Signature7setTextERK7QString@Base 4:4.3.4
@@ -175,6 +177,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities8Identity14isXFaceEnabledEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity14mailingAllowedEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity15smimeSigningKeyEv@Base 4:4.3.4
+ _ZNK14KPIMIdentities8Identity15verifyAkonadiIdERK7QString@Base 4:4.9.3
  _ZNK14KPIMIdentities8Identity16pgpEncryptionKeyEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity16useSignatureFileEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity17signatureIsInlineEv@Base 4:4.3.4
@@ -186,6 +189,7 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities8Identity20signatureIsPlainFileEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity22signatureIsInlinedHtmlEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity28preferredCryptoMessageFormatEv@Base 4:4.3.4
+ _ZNK14KPIMIdentities8Identity2ccEv@Base 4:4.9.3
  _ZNK14KPIMIdentities8Identity3bccEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity3fccEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity4uoidEv@Base 4:4.3.4
@@ -214,6 +218,9 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities9Signature13withSeparatorEPb@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature15textFromCommandEPb@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature18insertIntoTextEditENS0_9PlacementE6QFlagsINS0_13AddedTextFlagEEPN12KPIMTextEdit8TextEditE@Base 4:4.4.0
+ _ZNK14KPIMIdentities9Signature18insertIntoTextEditENS0_9PlacementE6QFlagsINS0_13AddedTextFlagEEPN12KPIMTextEdit8TextEditEb@Base 4:4.9.3
+ _ZNK14KPIMIdentities9Signature18isEnabledSignatureEv@Base 4:4.9.3
+ _ZNK14KPIMIdentities9Signature19insertSignatureTextENS0_9PlacementE6QFlagsINS0_13AddedTextFlagEEPN12KPIMTextEdit8TextEditEb@Base 4:4.9.3
  _ZNK14KPIMIdentities9Signature3urlEv@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature4textEv@Base 4:4.3.4
  _ZNK14KPIMIdentities9Signature4typeEv@Base 4:4.3.4

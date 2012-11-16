@@ -125,6 +125,8 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Content11contentTypeEb@Base 4:4.3.4
  _ZN5KMime7Content11decodedTextEbb@Base 4:4.3.4
  _ZN5KMime7Content11encodedBodyEv@Base 4:4.5.86
+ _ZN5KMime7Content11setEpilogueERK10QByteArray@Base 4:4.9.3
+ _ZN5KMime7Content11setPreambleERK10QByteArray@Base 4:4.9.3
  _ZN5KMime7Content11textContentEv@Base 4:4.3.4
  _ZN5KMime7Content12appendHeaderEPNS_7Headers4BaseE@Base 4:4.4.0
  _ZN5KMime7Content12headerByTypeEPKc@Base 4:4.3.4
@@ -779,7 +781,9 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZNK5KMime7Content6parentEv@Base 4:4.3.4
  _ZNK5KMime7Content7contentERKNS_12ContentIndexE@Base 4:4.3.4
  _ZNK5KMime7Content8contentsEv@Base 4:4.3.4
+ _ZNK5KMime7Content8epilogueEv@Base 4:4.9.3
  _ZNK5KMime7Content8isFrozenEv@Base 4:4.4.0
+ _ZNK5KMime7Content8preambleEv@Base 4:4.9.3
  _ZNK5KMime7Content8topLevelEv@Base 4:4.3.4
  _ZNK5KMime7Content9lineCountEv@Base 4:4.3.4
  _ZNK5KMime7Content9rawHeaderEPKc@Base 4:4.3.4

@@ -7,6 +7,9 @@ kdepimlibs (4:4.9.3-0r0) UNRELEASED; urgency=low
   * Bump kdelibs5-dev build dependency to 4.9.
   * Bump libakonadi-dev build dependency to 1.8.1.
 
+  [ Daniele E. Domenichelli ]
+  * Update installed files using wildcards.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Nov 2012 23:10:43 +0100
 
 kdepimlibs (4:4.8.5-0r0) UNRELEASED; urgency=low

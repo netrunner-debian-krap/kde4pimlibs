@@ -1,0 +1,1 @@
+libkmbox4: hardening-no-fortify-functions usr/lib/libkmbox.so.4.*

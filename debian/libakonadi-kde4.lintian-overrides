@@ -1,1 +1,2 @@
 libakonadi-kde4: symbols-declares-dependency-on-other-package kdepim-runtime*
+libakonadi-kde4: hardening-no-fortify-functions usr/lib/libakonadi-kde.so.4.*

@@ -1,4 +1,5 @@
 usr/include/KDE/Akonadi/AgentBase
+usr/include/KDE/Akonadi/AgentFactory
 usr/include/KDE/Akonadi/AgentFilterProxyModel
 usr/include/KDE/Akonadi/AgentInstance
 usr/include/KDE/Akonadi/AgentInstanceCreateJob
@@ -12,6 +13,8 @@ usr/include/KDE/Akonadi/AgentTypeWidget
 usr/include/KDE/Akonadi/Attribute
 usr/include/KDE/Akonadi/AttributeFactory
 usr/include/KDE/Akonadi/CachePolicy
+usr/include/KDE/Akonadi/Calendar/FreeBusyProviderBase
+usr/include/KDE/Akonadi/Calendar/StandardCalendarActionManager
 usr/include/KDE/Akonadi/ChangeRecorder
 usr/include/KDE/Akonadi/Collection
 usr/include/KDE/Akonadi/CollectionAttributesSynchronizationJob
@@ -25,6 +28,7 @@ usr/include/KDE/Akonadi/CollectionFetchScope
 usr/include/KDE/Akonadi/CollectionFilterProxyModel
 usr/include/KDE/Akonadi/CollectionModel
 usr/include/KDE/Akonadi/CollectionModifyJob
+usr/include/KDE/Akonadi/CollectionMoveJob
 usr/include/KDE/Akonadi/CollectionPropertiesDialog
 usr/include/KDE/Akonadi/CollectionPropertiesPage
 usr/include/KDE/Akonadi/CollectionRequester
@@ -60,8 +64,11 @@ usr/include/KDE/Akonadi/Control
 usr/include/KDE/Akonadi/ETMViewStateSaver
 usr/include/KDE/Akonadi/Entity
 usr/include/KDE/Akonadi/EntityDisplayAttribute
+usr/include/KDE/Akonadi/EntityHiddenAttribute
 usr/include/KDE/Akonadi/EntityListView
 usr/include/KDE/Akonadi/EntityMimeTypeFilterModel
+usr/include/KDE/Akonadi/EntityOrderProxyModel
+usr/include/KDE/Akonadi/EntityRightsFilterModel
 usr/include/KDE/Akonadi/EntityTreeModel
 usr/include/KDE/Akonadi/EntityTreeView
 usr/include/KDE/Akonadi/Exception
@@ -83,8 +90,11 @@ usr/include/KDE/Akonadi/Job
 usr/include/KDE/Akonadi/KCal/FreeBusyProviderBase
 usr/include/KDE/Akonadi/KCal/IncidenceMimeTypeVisitor
 usr/include/KDE/Akonadi/KMime/AddressAttribute
+usr/include/KDE/Akonadi/KMime/MessageFlags
 usr/include/KDE/Akonadi/KMime/MessageFolderAttribute
 usr/include/KDE/Akonadi/KMime/MessageModel
+usr/include/KDE/Akonadi/KMime/MessageParts
+usr/include/KDE/Akonadi/KMime/MessageStatus
 usr/include/KDE/Akonadi/KMime/MessageThreaderProxyModel
 usr/include/KDE/Akonadi/KMime/MessageThreadingAttribute
 usr/include/KDE/Akonadi/KMime/SpecialMailCollections
@@ -93,6 +103,8 @@ usr/include/KDE/Akonadi/LinkJob
 usr/include/KDE/Akonadi/MimeTypeChecker
 usr/include/KDE/Akonadi/Monitor
 usr/include/KDE/Akonadi/PreprocessorBase
+usr/include/KDE/Akonadi/RecursiveCollectionFilterProxyModel
+usr/include/KDE/Akonadi/RecursiveItemFetchJob
 usr/include/KDE/Akonadi/ResourceBase
 usr/include/KDE/Akonadi/SearchCreateJob
 usr/include/KDE/Akonadi/ServerManager
@@ -343,6 +355,7 @@ usr/include/KDE/KResources/Resource
 usr/include/KDE/KResources/SelectDialog
 usr/include/KDE/KTNEF/Formatter
 usr/include/KDE/KTNEF/KTNEFAttach
+usr/include/KDE/KTNEF/KTNEFDefs
 usr/include/KDE/KTNEF/KTNEFMessage
 usr/include/KDE/KTNEF/KTNEFParser
 usr/include/KDE/KTNEF/KTNEFProperty

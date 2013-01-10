@@ -2,6 +2,11 @@ kdepimlibs (4:4.9.3-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ Lisandro Damián Nicanor Pérez meyer ]
+  * Add myself to Uploaders.
+  * Confirm symbols files with 4:4.8.4's build logs.
+  * Remove crash_when_marking_folder_read.diff, already applied upstream.
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.9.3.
   * Bump kdelibs5-dev build dependency to 4.9.
@@ -15,16 +20,6 @@ kdepimlibs (4:4.9.3-0r2) UNRELEASED; urgency=low
   * Update symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Nov 2012 23:10:43 +0100
-
-kdepimlibs (4:4.8.5-0r0) UNRELEASED; urgency=low
-
-  [ Lisandro Damián Nicanor Pérez meyer ]
-  * New upstream release.
-  * Add myself to Uploaders.
-  * Confirm symbols files with 4:4.8.4's build logs.
-  * Remove crash_when_marking_folder_read.diff, already applied upstream.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Sep 2012 16:51:09 -0300
 
 kdepimlibs (4:4.8.4-1) unstable; urgency=low
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 armel hurd-i386 i386 kfreebsd-i386 mips mipsel s390x sparc
+# SymbolsHelper-Confirmed: 4:4.9.5 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -1464,6 +1464,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi9AgentBase16agentNameChangedERK7QString@Base 4:4.3.4
  _ZN7Akonadi9AgentBase16registerObserverEPNS0_8ObserverE@Base 4:4.3.4
  _ZN7Akonadi9AgentBase16staticMetaObjectE@Base 4:4.3.4
+ _ZN7Akonadi9AgentBase17setOnlineInternalEb@Base 4:4.9.5
  _ZN7Akonadi9AgentBase19reloadConfigurationEv@Base 4:4.3.4
  _ZN7Akonadi9AgentBase27configurationDialogAcceptedEv@Base 4:4.4.0
  _ZN7Akonadi9AgentBase27configurationDialogRejectedEv@Base 4:4.4.0
@@ -1915,7 +1916,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK7Akonadi6Entity12hasAttributeINS_21EntityHiddenAttributeEEEbv@Base 4:4.7.4
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4

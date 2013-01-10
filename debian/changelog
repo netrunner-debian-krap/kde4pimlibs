@@ -1,4 +1,4 @@
-kdepimlibs (4:4.9.3-0r2) UNRELEASED; urgency=low
+kdepimlibs (4:4.9.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -8,7 +8,7 @@ kdepimlibs (4:4.9.3-0r2) UNRELEASED; urgency=low
   * Remove crash_when_marking_folder_read.diff, already applied upstream.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.9.3.
+  * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
   * Bump kdelibs5-dev build dependency to 4.9.
   * Bump libakonadi-dev build dependency to 1.8.1.
   * Add dont_break_libkabc_abi.diff in order to maintain binary compatibility.

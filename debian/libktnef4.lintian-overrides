@@ -1,1 +1,1 @@
-libktnef4: hardening-no-fortify-functions usr/lib/libktnef.so.4.9.3
+libktnef4: hardening-no-fortify-functions usr/lib/libktnef.so.4.*

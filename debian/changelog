@@ -11,7 +11,6 @@ kdepimlibs (4:4.9.5-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
   * Bump kdelibs5-dev build dependency to 4.9.
   * Bump libakonadi-dev build dependency to 1.8.1.
-  * Add dont_break_libkabc_abi.diff in order to maintain binary compatibility.
   * Update some installed files.
   * Add lintian overrides for hardening-no-fortify-functions.
 

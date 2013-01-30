@@ -177,7 +177,6 @@ libkpimidentities.so.4 libkpimidentities4 #MINVER#
  _ZNK14KPIMIdentities8Identity14isXFaceEnabledEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity14mailingAllowedEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity15smimeSigningKeyEv@Base 4:4.3.4
- _ZNK14KPIMIdentities8Identity15verifyAkonadiIdERK7QString@Base 4:4.9.3
  _ZNK14KPIMIdentities8Identity16pgpEncryptionKeyEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity16useSignatureFileEv@Base 4:4.3.4
  _ZNK14KPIMIdentities8Identity17signatureIsInlineEv@Base 4:4.3.4

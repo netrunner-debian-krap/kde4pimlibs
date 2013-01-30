@@ -11,6 +11,8 @@ kdepimlibs (4:4.9.5-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
   * Bump kdelibs5-dev build dependency to 4.9.
   * Bump libakonadi-dev build dependency to 1.8.1.
+  * Add dont_verify_akonadi_id.diff, it makes kmail 4.4.10 remember identity's
+    settings of draft, templates and sent folders.
   * Update some installed files.
   * Update symbols files.
   * Add lintian overrides for hardening-no-fortify-functions.

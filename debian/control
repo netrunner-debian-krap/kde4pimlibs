@@ -9,13 +9,13 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
  José Manuel Santamaría Lema <panfaust@gmail.com>,
  Eshat Cakar <info@eshat.de>,
  Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.9.5),
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.0),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), dpkg-dev (>= 1.15.5),
- kdelibs5-dev (>= 4:4.9), libgpgme11-dev, libldap2-dev, libsasl2-dev,
+ kdelibs5-dev (>= 4:4.10), libgpgme11-dev, libldap2-dev, libsasl2-dev,
  libboost-dev, libboost-graph-dev, shared-mime-info,
- libakonadi-dev (>= 1.8.1), libical-dev (>= 0.42),
+ libakonadi-dev (>= 1.8.1), libical-dev (>= 0.42), nepomuk-core-dev (>= 4:4.10),
  shared-desktop-ontologies (>= 0.8), libsoprano-dev, xsltproc, uuid-dev,
- libprison-dev
+ libprison-dev, libqjson-dev, libxslt1-dev, libx11-dev, pkg-config
 Standards-Version: 3.9.3
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepimlibs.git

@@ -10,7 +10,7 @@ Description: Revert "Fix potential error when identity path is a string (bad con
 
 --- a/kpimidentities/identity.cpp
 +++ b/kpimidentities/identity.cpp
-@@ -428,20 +428,17 @@ QString Identity::dictionary() const
+@@ -437,20 +437,17 @@ QString Identity::dictionary() const
  
  QString Identity::templates() const
  {
@@ -34,11 +34,10 @@ Description: Revert "Fix potential error when identity path is a string (bad con
  }
  
  QString Identity::transport() const
-@@ -644,17 +641,3 @@ bool Identity::matchesEmailAddress( const QString & addr ) const
- 
+@@ -665,20 +662,6 @@ bool Identity::matchesEmailAddress( cons
    return false;
  }
--
+ 
 -QString Identity::verifyAkonadiId(const QString& str) const
 -{
 -  if(str.isEmpty())
@@ -52,11 +51,13 @@ Description: Revert "Fix potential error when identity path is a string (bad con
 -    return QString();
 -  }
 -}
-diff --git a/kpimidentities/identity.h b/kpimidentities/identity.h
-index 349ad4d..22b1f42 100644
+-
+ void Identity::setAutocorrectionLanguage(const QString& language)
+ {
+   setProperty( s_autocorrectionLanguage, language );
 --- a/kpimidentities/identity.h
 +++ b/kpimidentities/identity.h
-@@ -311,10 +311,6 @@ class KPIMIDENTITIES_EXPORT Identity
+@@ -325,10 +325,6 @@ class KPIMIDENTITIES_EXPORT Identity
        void setUoid( uint aUoid );
  
      protected:

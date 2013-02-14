@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libkcalcore.so.4 libkcalcore4 #MINVER#
  Parse_MIME@Base 4:4.5.86
  Parse_MIME_FromFile@Base 4:4.5.86
@@ -1105,6 +1105,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore9Incidence21startDateTimesForDateERK5QDateRKN9KDateTime4SpecE@Base 4:4.5.86
  _ZNK8KCalCore9Incidence25startDateTimesForDateTimeERK9KDateTime@Base 4:4.5.86
  _ZNK8KCalCore9Incidence25writeAttachmentToTempFileERK14QSharedPointerINS_10AttachmentEE@Base 4:4.5.86
+ _ZNK8KCalCore9Incidence30supportsGroupwareCommunicationEv@Base 4:4.10.0
  _ZNK8KCalCore9Incidence6alarmsEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence6equalsERKNS_13IncidenceBaseE@Base 4:4.5.86
  _ZNK8KCalCore9Incidence6hasGeoEv@Base 4:4.5.86

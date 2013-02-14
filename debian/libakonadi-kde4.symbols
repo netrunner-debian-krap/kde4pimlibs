@@ -1,10 +1,11 @@
-# SymbolsHelper-Confirmed: 4:4.9.5 amd64
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
  _Z5qHashRKN7Akonadi6EntityE@Base 4:4.3.4
  (optional=external|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.7.4
  (optional=external|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.7.4
+ _ZN7Akonadi10Collection10setVirtualEb@Base 4:4.10.0
  _ZN7Akonadi10Collection11setResourceERK7QString@Base 4:4.3.4
  _ZN7Akonadi10Collection13setStatisticsERKNS_20CollectionStatisticsE@Base 4:4.3.4
  _ZN7Akonadi10Collection14setCachePolicyERKNS_11CachePolicyE@Base 4:4.3.4
@@ -241,9 +242,14 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi13ItemSearchJobD2Ev@Base 4:4.4.0
  _ZN7Akonadi13ServerManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi13ServerManager11qt_metacastEPKc@Base 4:4.3.4
+ _ZN7Akonadi13ServerManager11serviceNameENS0_11ServiceTypeE@Base 4:4.10.0
+ _ZN7Akonadi13ServerManager12addNamespaceERK7QString@Base 4:4.10.0
  _ZN7Akonadi13ServerManager12stateChangedENS0_5StateE@Base 4:4.5.0
+ _ZN7Akonadi13ServerManager16agentServiceNameENS0_16ServiceAgentTypeERK7QString@Base 4:4.10.0
  _ZN7Akonadi13ServerManager16staticMetaObjectE@Base 4:4.3.4
+ _ZN7Akonadi13ServerManager18instanceIdentifierEv@Base 4:4.10.0
  _ZN7Akonadi13ServerManager18showSelfTestDialogEP7QWidget@Base 4:4.3.4
+ _ZN7Akonadi13ServerManager21hasInstanceIdentifierEv@Base 4:4.10.0
  _ZN7Akonadi13ServerManager4selfEv@Base 4:4.3.4
  _ZN7Akonadi13ServerManager4stopEv@Base 4:4.3.4
  _ZN7Akonadi13ServerManager5startEv@Base 4:4.3.4
@@ -440,7 +446,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi15EntityTreeModel13removeColumnsEiiRK11QModelIndex@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel16staticMetaObjectE@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel17collectionFetchedEi@Base 4:4.9.3
+ _ZN7Akonadi15EntityTreeModel19collectionPopulatedEx@Base 4:4.10.0
  _ZN7Akonadi15EntityTreeModel19modelIndexesForItemEPK18QAbstractItemModelRKNS_4ItemE@Base 4:4.5.0
+ _ZN7Akonadi15EntityTreeModel21collectionTreeFetchedERK5QListINS_10CollectionEE@Base 4:4.10.0
  _ZN7Akonadi15EntityTreeModel21setShowSystemEntitiesEb@Base 4:4.4.0
  _ZN7Akonadi15EntityTreeModel22setIncludeUnsubscribedEb@Base 4:4.5.0
  _ZN7Akonadi15EntityTreeModel23modelIndexForCollectionEPK18QAbstractItemModelRKNS_10CollectionE@Base 4:4.5.0
@@ -692,6 +700,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi18SubscriptionDialog16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialog20showHiddenCollectionEb@Base 4:4.9.3
  _ZN7Akonadi18SubscriptionDialog4initERK11QStringList@Base 4:4.7.0
+ _ZN7Akonadi18SubscriptionDialog7Private13slotSubscribeEv@Base 4:4.10.0
+ _ZN7Akonadi18SubscriptionDialog7Private15slotUnSubscribeEv@Base 4:4.10.0
  _ZN7Akonadi18SubscriptionDialogC1EP7QWidget@Base 4:4.3.4
  _ZN7Akonadi18SubscriptionDialogC1ERK11QStringListP7QWidget@Base 4:4.7.0
  _ZN7Akonadi18SubscriptionDialogC2EP7QWidget@Base 4:4.3.4
@@ -1121,6 +1131,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi26CollectionPropertiesDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi26CollectionPropertiesDialog11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi26CollectionPropertiesDialog12registerPageEPNS_31CollectionPropertiesPageFactoryE@Base 4:4.3.4
+ _ZN7Akonadi26CollectionPropertiesDialog14setCurrentPageERK7QString@Base 4:4.10.0
  _ZN7Akonadi26CollectionPropertiesDialog14useDefaultPageEb@Base 4:4.4.0
  _ZN7Akonadi26CollectionPropertiesDialog16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi26CollectionPropertiesDialog21defaultPageObjectNameENS0_11DefaultPageE@Base 4:4.7.0
@@ -1674,6 +1685,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZNK7Akonadi15EntityTreeModel21includeRootCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel22itemPopulationStrategyEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel23collectionFetchStrategyEv@Base 4:4.4.0
+ _ZNK7Akonadi15EntityTreeModel23isCollectionTreeFetchedEv@Base 4:4.10.0
  _ZNK7Akonadi15EntityTreeModel25rootCollectionDisplayNameEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel4dataERK11QModelIndexi@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel5flagsERK11QModelIndex@Base 4:4.4.0

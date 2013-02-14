@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -25,8 +25,11 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi13ContactEditor7Private13itemFetchDoneEP4KJob@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor7Private25parentCollectionFetchDoneEP4KJob@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor7Private9storeDoneEP4KJob@Base 4:4.4.0
+ _ZN7Akonadi13ContactEditor7contactEv@Base 4:4.10.0
+ _ZN7Akonadi13ContactEditorC1ENS0_4ModeENS0_11DisplayModeEP7QWidget@Base 4:4.10.0
  _ZN7Akonadi13ContactEditorC1ENS0_4ModeEP7QWidget@Base 4:4.4.0
  _ZN7Akonadi13ContactEditorC1ENS0_4ModeEPNS_27AbstractContactEditorWidgetEP7QWidget@Base 4:4.4.0
+ _ZN7Akonadi13ContactEditorC2ENS0_4ModeENS0_11DisplayModeEP7QWidget@Base 4:4.10.0
  _ZN7Akonadi13ContactEditorC2ENS0_4ModeEP7QWidget@Base 4:4.4.0
  _ZN7Akonadi13ContactEditorC2ENS0_4ModeEPNS_27AbstractContactEditorWidgetEP7QWidget@Base 4:4.4.0
  _ZN7Akonadi13ContactEditorD0Ev@Base 4:4.4.0
@@ -117,8 +120,10 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi19ContactEditorDialog13contactStoredERKNS_4ItemE@Base 4:4.4.0
  _ZN7Akonadi19ContactEditorDialog16staticMetaObjectE@Base 4:4.4.0
  _ZN7Akonadi19ContactEditorDialog21setDefaultAddressBookERKNS_10CollectionE@Base 4:4.4.0
+ _ZN7Akonadi19ContactEditorDialogC1ENS0_4ModeENS0_11DisplayModeEP7QWidget@Base 4:4.10.0
  _ZN7Akonadi19ContactEditorDialogC1ENS0_4ModeEP7QWidget@Base 4:4.4.0
  _ZN7Akonadi19ContactEditorDialogC1ENS0_4ModeEPNS_27AbstractContactEditorWidgetEP7QWidget@Base 4:4.4.0
+ _ZN7Akonadi19ContactEditorDialogC2ENS0_4ModeENS0_11DisplayModeEP7QWidget@Base 4:4.10.0
  _ZN7Akonadi19ContactEditorDialogC2ENS0_4ModeEP7QWidget@Base 4:4.4.0
  _ZN7Akonadi19ContactEditorDialogC2ENS0_4ModeEPNS_27AbstractContactEditorWidgetEP7QWidget@Base 4:4.4.0
  _ZN7Akonadi19ContactEditorDialogD0Ev@Base 4:4.4.0

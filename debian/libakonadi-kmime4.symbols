@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi11MessagePart4BodyE@Base 4:4.3.4
@@ -85,6 +85,18 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  _ZN7Akonadi16AddressAttributeD1Ev@Base 4:4.4.0
  _ZN7Akonadi16AddressAttributeD2Ev@Base 4:4.4.0
  (optional=templinst)_ZN7Akonadi16AttributeFactory17registerAttributeINS_16AddressAttributeEEEvv@Base 4:4.6.3
+ _ZN7Akonadi19RemoveDuplicatesJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJob11qt_metacastEPKc@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJob16staticMetaObjectE@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJob6doKillEv@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJob7doStartEv@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJobC1ERK5QListINS_10CollectionEEP7QObject@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJobC1ERKNS_10CollectionEP7QObject@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJobC2ERK5QListINS_10CollectionEEP7QObject@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJobC2ERKNS_10CollectionEP7QObject@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJobD0Ev@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJobD1Ev@Base 4:4.10.0
+ _ZN7Akonadi19RemoveDuplicatesJobD2Ev@Base 4:4.10.0
  _ZN7Akonadi22MessageFolderAttribute11deserializeERK10QByteArray@Base 4:4.4.0
  _ZN7Akonadi22MessageFolderAttribute17setOutboundFolderEb@Base 4:4.4.0
  _ZN7Akonadi22MessageFolderAttributeC1ERKS0_@Base 4:4.4.0
@@ -193,6 +205,7 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  _ZNK7Akonadi16AddressAttribute4fromEv@Base 4:4.4.0
  _ZNK7Akonadi16AddressAttribute4typeEv@Base 4:4.4.0
  _ZNK7Akonadi16AddressAttribute5cloneEv@Base 4:4.4.0
+ _ZNK7Akonadi19RemoveDuplicatesJob10metaObjectEv@Base 4:4.10.0
  _ZNK7Akonadi22MessageFolderAttribute10serializedEv@Base 4:4.4.0
  _ZNK7Akonadi22MessageFolderAttribute16isOutboundFolderEv@Base 4:4.4.0
  _ZNK7Akonadi22MessageFolderAttribute4typeEv@Base 4:4.4.0
@@ -234,6 +247,7 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  (optional=templinst|arch=amd64 kfreebsd-amd64)_ZNK7Akonadi6Entity9attributeINS_25MessageThreadingAttributeEEEPT_v@Base 4:4.7.4
  _ZTIN7Akonadi12MessageModelE@Base 4:4.3.4
  _ZTIN7Akonadi16AddressAttributeE@Base 4:4.4.0
+ _ZTIN7Akonadi19RemoveDuplicatesJobE@Base 4:4.10.0
  _ZTIN7Akonadi22MessageFolderAttributeE@Base 4:4.4.0
  _ZTIN7Akonadi22SpecialMailCollectionsE@Base 4:4.4.0
  _ZTIN7Akonadi25MessageThreaderProxyModelE@Base 4:4.3.4
@@ -242,6 +256,7 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  _ZTIN7Akonadi32SpecialMailCollectionsRequestJobE@Base 4:4.4.0
  _ZTSN7Akonadi12MessageModelE@Base 4:4.3.4
  _ZTSN7Akonadi16AddressAttributeE@Base 4:4.4.0
+ _ZTSN7Akonadi19RemoveDuplicatesJobE@Base 4:4.10.0
  _ZTSN7Akonadi22MessageFolderAttributeE@Base 4:4.4.0
  _ZTSN7Akonadi22SpecialMailCollectionsE@Base 4:4.4.0
  _ZTSN7Akonadi25MessageThreaderProxyModelE@Base 4:4.3.4
@@ -250,6 +265,7 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime
  _ZTSN7Akonadi32SpecialMailCollectionsRequestJobE@Base 4:4.4.0
  _ZTVN7Akonadi12MessageModelE@Base 4:4.3.4
  _ZTVN7Akonadi16AddressAttributeE@Base 4:4.4.0
+ _ZTVN7Akonadi19RemoveDuplicatesJobE@Base 4:4.10.0
  _ZTVN7Akonadi22MessageFolderAttributeE@Base 4:4.4.0
  _ZTVN7Akonadi22SpecialMailCollectionsE@Base 4:4.4.0
  _ZTVN7Akonadi25MessageThreaderProxyModelE@Base 4:4.3.4

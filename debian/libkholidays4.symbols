@@ -1,9 +1,11 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 mips mipsel
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libkholidays.so.4 libkholidays4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 4:4.3.4
  _ZN9KHolidays10LunarPhase15phaseNameAtDateERK5QDate@Base 4:4.3.4
  _ZN9KHolidays10LunarPhase9phaseNameENS0_5PhaseE@Base 4:4.3.4
+ _ZN9KHolidays10SunRiseSet10utcSunriseERK5QDatedd@Base 4:4.10.0
+ _ZN9KHolidays10SunRiseSet9utcSunsetERK5QDatedd@Base 4:4.10.0
  _ZN9KHolidays12AstroSeasons10seasonNameENS0_6SeasonE@Base 4:4.3.4
  _ZN9KHolidays12AstroSeasons12seasonAtDateERK5QDate@Base 4:4.3.4
  _ZN9KHolidays12AstroSeasons16seasonNameAtDateERK5QDate@Base 4:4.3.4

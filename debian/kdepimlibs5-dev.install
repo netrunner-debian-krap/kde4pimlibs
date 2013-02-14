@@ -61,6 +61,7 @@ usr/include/KDE/Akonadi/Contact/StandardContactActionManager
 usr/include/KDE/Akonadi/Contact/StandardContactFormatter
 usr/include/KDE/Akonadi/Contact/StandardContactGroupFormatter
 usr/include/KDE/Akonadi/Control
+usr/include/KDE/Akonadi/DBusConnectionPool
 usr/include/KDE/Akonadi/ETMViewStateSaver
 usr/include/KDE/Akonadi/Entity
 usr/include/KDE/Akonadi/EntityDisplayAttribute
@@ -97,6 +98,7 @@ usr/include/KDE/Akonadi/KMime/MessageParts
 usr/include/KDE/Akonadi/KMime/MessageStatus
 usr/include/KDE/Akonadi/KMime/MessageThreaderProxyModel
 usr/include/KDE/Akonadi/KMime/MessageThreadingAttribute
+usr/include/KDE/Akonadi/KMime/RemoveDuplicatesJob
 usr/include/KDE/Akonadi/KMime/SpecialMailCollections
 usr/include/KDE/Akonadi/KMime/SpecialMailCollectionsRequestJob
 usr/include/KDE/Akonadi/LinkJob
@@ -109,6 +111,9 @@ usr/include/KDE/Akonadi/ResourceBase
 usr/include/KDE/Akonadi/SearchCreateJob
 usr/include/KDE/Akonadi/ServerManager
 usr/include/KDE/Akonadi/Session
+usr/include/KDE/Akonadi/SocialUtils/ImageProvider
+usr/include/KDE/Akonadi/SocialUtils/SocialFeedItem
+usr/include/KDE/Akonadi/SocialUtils/SocialNetworkAttributes
 usr/include/KDE/Akonadi/StandardActionManager
 usr/include/KDE/Akonadi/TransactionBeginJob
 usr/include/KDE/Akonadi/TransactionCommitJob
@@ -339,6 +344,14 @@ usr/include/KDE/KPIMIdentities/IdentityManager
 usr/include/KDE/KPIMIdentities/Signature
 usr/include/KDE/KPIMIdentities/SignatureConfigurator
 usr/include/KDE/KPIMTextEdit/EMailQuoteHighlighter
+usr/include/KDE/KPIMTextEdit/EmoticonTextEditAction
+usr/include/KDE/KPIMTextEdit/HtmlHighlighter
+usr/include/KDE/KPIMTextEdit/InsertHtmlDialog
+usr/include/KDE/KPIMTextEdit/InsertImageDialog
+usr/include/KDE/KPIMTextEdit/InsertImageWidget
+usr/include/KDE/KPIMTextEdit/InsertTableDialog
+usr/include/KDE/KPIMTextEdit/InsertTableWidget
+usr/include/KDE/KPIMTextEdit/TableFormatDialog
 usr/include/KDE/KPIMTextEdit/TextEdit
 usr/include/KDE/KPIMUtils/Email
 usr/include/KDE/KPIMUtils/KFileIO
@@ -526,6 +539,7 @@ usr/include/akonadi/kmime/messageparts.h
 usr/include/akonadi/kmime/messagestatus.h
 usr/include/akonadi/kmime/messagethreaderproxymodel.h
 usr/include/akonadi/kmime/messagethreadingattribute.h
+usr/include/akonadi/kmime/removeduplicatesjob.h
 usr/include/akonadi/kmime/specialmailcollections.h
 usr/include/akonadi/kmime/specialmailcollectionsrequestjob.h
 usr/include/akonadi/kmime/standardmailactionmanager.h
@@ -549,6 +563,10 @@ usr/include/akonadi/searchcreatejob.h
 usr/include/akonadi/selectionproxymodel.h
 usr/include/akonadi/servermanager.h
 usr/include/akonadi/session.h
+usr/include/akonadi/socialutils/imageprovider.h
+usr/include/akonadi/socialutils/libakonadisocialutils_export.h
+usr/include/akonadi/socialutils/socialfeeditem.h
+usr/include/akonadi/socialutils/socialnetworkattributes.h
 usr/include/akonadi/specialcollections.h
 usr/include/akonadi/specialcollectionsrequestjob.h
 usr/include/akonadi/standardactionmanager.h
@@ -848,7 +866,14 @@ usr/include/kpimidentities/kpimidentities_export.h
 usr/include/kpimidentities/signature.h
 usr/include/kpimidentities/signatureconfigurator.h
 usr/include/kpimtextedit/emailquotehighlighter.h
+usr/include/kpimtextedit/emoticontexteditaction.h
+usr/include/kpimtextedit/htmlhighlighter.h
+usr/include/kpimtextedit/inserthtmldialog.h
+usr/include/kpimtextedit/insertimagedialog.h
+usr/include/kpimtextedit/insertimagewidget.h
+usr/include/kpimtextedit/inserttabledialog.h
 usr/include/kpimtextedit/kpimtextedit_export.h
+usr/include/kpimtextedit/tableformatdialog.h
 usr/include/kpimtextedit/textedit.h
 usr/include/kpimtextedit/textutils.h
 usr/include/kpimutils/email.h
@@ -986,6 +1011,7 @@ usr/lib/libakonadi-kcal.so
 usr/lib/libakonadi-kde.so
 usr/lib/libakonadi-kmime.so
 usr/lib/libakonadi-notes.so
+usr/lib/libakonadi-socialutils.so
 usr/lib/libgpgme++-pth.so
 usr/lib/libgpgme++-pthread.so
 usr/lib/libgpgme++.so
@@ -1015,9 +1041,9 @@ usr/lib/libsyndication.so
 usr/share/dbus-1/interfaces/org.kde.KResourcesManager.xml
 usr/share/dbus-1/interfaces/org.kde.pim.IdentityManager.xml
 usr/share/kde4/apps/cmake/modules/CheckTimezone.cmake
-usr/share/kde4/apps/cmake/modules/FindAkonadi.cmake
 usr/share/kde4/apps/cmake/modules/FindGpgme.cmake
 usr/share/kde4/apps/cmake/modules/FindLdap.cmake
 usr/share/kde4/apps/cmake/modules/FindLibical.cmake
 usr/share/kde4/apps/cmake/modules/FindQGpgme.cmake
+usr/share/kde4/apps/cmake/modules/FindQtOAuth.cmake
 usr/share/kde4/apps/cmake/modules/KDEPimLibsDependencies.cmake

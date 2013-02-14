@@ -1,4 +1,4 @@
-kdepimlibs (4:4.10.0-0r0) UNRELEASED; urgency=low
+kdepimlibs (4:4.10.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -28,7 +28,7 @@ kdepimlibs (4:4.10.0-0r0) UNRELEASED; urgency=low
   * Bump nepomuk-core-dev build dependecy to 4:4.10.
   * Add build dependencies on libqjson-dev, libxslt1-dev, libx11 and pkg-config.
   * New package libakonadi-socialutils4.
-  * Disable build of unit tests. 
+  * Pass -DKDE4_BUILD_TESTS=false to cmake in order to keep the tests disabled.
   * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Nov 2012 23:10:43 +0100

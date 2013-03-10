@@ -97,7 +97,6 @@ Description: library for using the Akonadi PIM data server
  This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libakonadi-socialutils4
-Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Akonadi resources for handling social feeds

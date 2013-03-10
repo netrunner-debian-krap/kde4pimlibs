@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.0 amd64
+# SymbolsHelper-Confirmed: 4:4.10.1 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -260,6 +260,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZN7Akonadi27EmailAddressSelectionDialogD2Ev@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidget11qt_metacastEPKc@Base 4:4.5.0
+ _ZN7Akonadi27EmailAddressSelectionWidget13doubleClickedEv@Base 4:4.10.1
  _ZN7Akonadi27EmailAddressSelectionWidget16staticMetaObjectE@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidget7Private4initEv@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC1EP18QAbstractItemModelP7QWidget@Base 4:4.5.0

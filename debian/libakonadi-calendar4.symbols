@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
-libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
+libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi20FreeBusyProviderBase17freeBusyRetrievedERK7QStringS3_bS3_@Base 4:4.8.1
  _ZN7Akonadi20FreeBusyProviderBaseC1Ev@Base 4:4.8.1
  _ZN7Akonadi20FreeBusyProviderBaseC2Ev@Base 4:4.8.1

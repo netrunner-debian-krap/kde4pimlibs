@@ -1,10 +1,10 @@
-kdepimlibs (4:4.10.2-2) UNRELEASED; urgency=low
+kdepimlibs (4:4.10.2-2) experimental; urgency=low
 
   * Bump the kdepim-runtime versions in the symbol
     files of the akonadi libraries.
   * Update uploaders.
 
- -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 22:19:16 +0200
+ -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 22:20:44 +0200
 
 kdepimlibs (4:4.10.2-1) experimental; urgency=low
 

@@ -1,3 +1,9 @@
+kdepimlibs (4:4.10.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 10 May 2013 22:06:54 +0200
+
 kdepimlibs (4:4.10.2-2) experimental; urgency=low
 
   * Bump the kdepim-runtime versions in the symbol

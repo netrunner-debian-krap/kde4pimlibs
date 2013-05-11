@@ -1,11 +1,11 @@
-kdepimlibs (4:4.10.3-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.10.3-1) unstable; urgency=low
 
   * New upstream release.
   * Add myself to the Uploaders field.
   * Bump debhelper buil-dep and compat to 9.
   * Bump Stantards-Version to 3.9.4.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 10 May 2013 22:06:54 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 11 May 2013 12:20:18 +0200
 
 kdepimlibs (4:4.10.2-2) experimental; urgency=low
 

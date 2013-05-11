@@ -13,6 +13,7 @@ kdepimlibs (4:4.8.4-3) UNRELEASED; urgency=low
   * Bump libakonadi-dev build dependency to 1.8.1.
   * Update vcs fields.
   * Add myself to the Uploaders field.
+  * Bump debhelper buil-dep and compat to 9.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Jun 2013 15:09:44 +0200
 

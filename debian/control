@@ -17,7 +17,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  libakonadi-dev (>= 1.8.1), libical-dev (>= 0.42),
  shared-desktop-ontologies (>= 0.8), libsoprano-dev, xsltproc, uuid-dev,
  libprison-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepimlibs.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepimlibs.git

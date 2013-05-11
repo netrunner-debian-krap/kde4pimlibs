@@ -10,7 +10,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
  Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
  Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), dpkg-dev (>= 1.15.5),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12), dpkg-dev (>= 1.15.5),
  kdelibs5-dev (>= 4:4.10), nepomuk-core-dev (>= 4:4.10),
  libgpgme11-dev, libldap2-dev, libsasl2-dev,
  libboost-dev, libboost-graph-dev, shared-mime-info,

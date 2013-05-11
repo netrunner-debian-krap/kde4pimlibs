@@ -2,6 +2,7 @@ kdepimlibs (4:4.10.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Add myself to the Uploaders field.
+  * Bump debhelper buil-dep and compat to 9.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 10 May 2013 22:06:54 +0200
 

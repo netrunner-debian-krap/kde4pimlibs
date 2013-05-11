@@ -7,7 +7,8 @@ Uploaders: Sune Vuorela <sune@debian.org>,
  Modestas Vainius <modax@debian.org>,
  George Kiagiadakis <kiagiadakis.george@gmail.com>,
  Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+ Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+ Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), dpkg-dev (>= 1.15.5),
  kdelibs5-dev (>= 4:4.10), nepomuk-core-dev (>= 4:4.10),

@@ -1,4 +1,4 @@
-kdepimlibs (4:4.10.4-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.10.4-1) experimental; urgency=low
 
   * New upstream release.
   * Add myself to the Uploaders field.
@@ -7,7 +7,7 @@ kdepimlibs (4:4.10.4-1) UNRELEASED; urgency=low
   * Dropping pth version of libgpgme++.
   * Update vcs fields.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jun 2013 16:23:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 08:13:39 +0200
 
 kdepimlibs (4:4.10.2-2) experimental; urgency=low
 

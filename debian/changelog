@@ -1,11 +1,10 @@
-kdepimlibs (4:4.8.5-0r0) UNRELEASED; urgency=low
+kdepimlibs (4:4.8.4-3) UNRELEASED; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez meyer ]
-  * New upstream release.
+  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
   * Confirm symbols files with 4:4.8.4's build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Sep 2012 16:51:09 -0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Jun 2013 15:09:44 +0200
 
 kdepimlibs (4:4.8.4-2) unstable; urgency=low
 

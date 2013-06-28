@@ -4,6 +4,12 @@ kdepimlibs (4:4.8.4-3) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * Confirm symbols files with 4:4.8.4's build logs.
 
+  [ Maximiliano Curia ]
+  * Add requestItemDeliveryV2 support to link against akonadi versions
+    greater than 1.8.1;
+    patch upstream_e1861658fe4b4ec75998c5d08b26e6fbfbe0cdf9.diff.
+    (Closes: #710647)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Jun 2013 15:09:44 +0200
 
 kdepimlibs (4:4.8.4-2) unstable; urgency=low

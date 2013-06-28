@@ -4,7 +4,6 @@ kdepimlibs (4:4.8.5-0r0) UNRELEASED; urgency=low
   * New upstream release.
   * Add myself to Uploaders.
   * Confirm symbols files with 4:4.8.4's build logs.
-  * Remove crash_when_marking_folder_read.diff, already applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Sep 2012 16:51:09 -0300
 

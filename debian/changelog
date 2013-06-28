@@ -10,6 +10,7 @@ kdepimlibs (4:4.8.4-3) UNRELEASED; urgency=low
     patch upstream_e1861658fe4b4ec75998c5d08b26e6fbfbe0cdf9.diff.
     (Closes: #710647)
   * Dropping pth version of libgpgme++.
+  * Bump libakonadi-dev build dependency to 1.8.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Jun 2013 15:09:44 +0200
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 armel hurd-i386 i386 kfreebsd-i386 mips mipsel s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -147,6 +147,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime
  _ZN7Akonadi12ResourceBase18scheduleCustomTaskEP7QObjectPKcRK8QVariantNS0_16SchedulePriorityE@Base 4:4.4.0
  _ZN7Akonadi12ResourceBase19requestItemDeliveryExRK7QStringS3_RK11QStringList@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase20collectionsRetrievedERK5QListINS_10CollectionEE@Base 4:4.3.4
+ _ZN7Akonadi12ResourceBase21requestItemDeliveryV2ExRK7QStringS3_RK11QStringList@Base 4:4.8.4
  _ZN7Akonadi12ResourceBase21synchronizeCollectionEx@Base 4:4.3.4
  _ZN7Akonadi12ResourceBase21synchronizeCollectionExb@Base 4:4.5.90
  _ZN7Akonadi12ResourceBase22attributesSynchronizedEx@Base 4:4.5.86

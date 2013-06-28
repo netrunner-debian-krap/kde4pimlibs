@@ -973,7 +973,6 @@ usr/lib/libakonadi-kcal.so
 usr/lib/libakonadi-kde.so
 usr/lib/libakonadi-kmime.so
 usr/lib/libakonadi-notes.so
-usr/lib/libgpgme++-pth.so
 usr/lib/libgpgme++-pthread.so
 usr/lib/libgpgme++.so
 usr/lib/libkabc.so

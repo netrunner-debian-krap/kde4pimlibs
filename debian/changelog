@@ -53,6 +53,18 @@ kdepimlibs (4:4.10.2-1) experimental; urgency=low
 
  -- Sune Vuorela <sune@debian.org>  Mon, 25 Mar 2013 19:31:38 +0100
 
+kdepimlibs (4:4.8.4-2) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Backport upstream commit f142cc25b5620c2d1037cc6cd270b1cf301b5380
+    (adapted to the 4.8 codebase) to stop reading when reaching the end of
+    streams; patch upstream_b92782580756b3858f0381a5200b79688ab0b0a2.diff.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 16 Dec 2012 12:19:24 -0300
+
 kdepimlibs (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.

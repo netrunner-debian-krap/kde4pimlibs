@@ -3,6 +3,7 @@ kdepimlibs (4:4.10.5-1) UNRELEASED; urgency=low
   * New upstream release.
   * Remove upstream_b92782580756b3858f0381a5200b79688ab0b0a2.diff, already
     applied upstream.
+  * Update symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Jul 2013 09:51:08 +0200
 

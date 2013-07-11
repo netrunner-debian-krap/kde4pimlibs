@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libkontactinterface.so.4 libkontactinterface4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN16KontactInterface16UniqueAppHandler10mainWidgetEv@Base 4:4.5.86
@@ -141,9 +141,9 @@ libkontactinterface.so.4 libkontactinterface4 #MINVER#
  _ZTVN16KontactInterface4CoreE@Base 4:4.4.0
  _ZTVN16KontactInterface6PluginE@Base 4:4.4.0
  _ZTVN16KontactInterface7SummaryE@Base 4:4.4.0
- (c++)"construction vtable for KParts::MainWindow-in-KontactInterface::Core@Base" 4:4.4.0
- (c++)"construction vtable for KParts::PartBase-in-KontactInterface::Core@Base" 4:4.4.0
- (c++)"construction vtable for KXmlGuiWindow-in-KontactInterface::Core@Base" 4:4.4.0
+ (optional=gccinternal|c++)"construction vtable for KParts::MainWindow-in-KontactInterface::Core@Base" 4:4.4.0
+ (optional=gccinternal|c++)"construction vtable for KParts::PartBase-in-KontactInterface::Core@Base" 4:4.4.0
+ (optional=gccinternal|c++)"construction vtable for KXmlGuiWindow-in-KontactInterface::Core@Base" 4:4.4.0
  (c++)"non-virtual thunk to KontactInterface::Core::~Core()@Base" 4:4.4.0
  (c++)"non-virtual thunk to KontactInterface::Summary::~Summary()@Base" 4:4.4.0
  (c++)"virtual thunk to KontactInterface::Core::~Core()@Base" 4:4.4.0

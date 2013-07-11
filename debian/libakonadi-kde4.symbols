@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -941,8 +941,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (arch=armel)_ZN7Akonadi21StandardActionManager7Private16ContextTextEntryC2ERKS2_@Base 4:4.7.4
  _ZN7Akonadi21StandardActionManager7Private16ContextTextEntryD1Ev@Base 4:4.6.5
  _ZN7Akonadi21StandardActionManager7Private16ContextTextEntryD2Ev@Base 4:4.6.5
- (optional=private|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN7Akonadi21StandardActionManager7PrivateD1Ev@Base 4:4.7.4
- (optional=private|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN7Akonadi21StandardActionManager7PrivateD2Ev@Base 4:4.7.4
+ (optional=private|arch=armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN7Akonadi21StandardActionManager7PrivateD1Ev@Base 4:4.7.4
+ (optional=private|arch=armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN7Akonadi21StandardActionManager7PrivateD2Ev@Base 4:4.7.4
  _ZN7Akonadi21StandardActionManagerC1EP17KActionCollectionP7QWidget@Base 4:4.3.4
  _ZN7Akonadi21StandardActionManagerC2EP17KActionCollectionP7QWidget@Base 4:4.3.4
  _ZN7Akonadi21StandardActionManagerD0Ev@Base 4:4.3.4
@@ -1560,7 +1560,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi9UnlinkJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJobD1Ev@Base 4:4.3.4
  _ZN7Akonadi9UnlinkJobD2Ev@Base 4:4.3.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.8.3
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@Base 4:4.8.3
  _ZNK7Akonadi10Collection10statisticsEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection11cachePolicyEv@Base 4:4.3.4
  _ZNK7Akonadi10Collection14parentRemoteIdEv@Base 4:4.3.4
@@ -1929,8 +1929,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK7Akonadi6Entity12hasAttributeINS_21EntityHiddenAttributeEEEbv@Base 4:4.7.4
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNK7Akonadi6Entity12hasAttributeINS_21EntityHiddenAttributeEEEbv@Base 4:4.7.4
+ (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4

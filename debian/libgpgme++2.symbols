@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -228,8 +228,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME3KeyC2ERKN5boost10shared_ptrI10_gpgme_keyEE@Base 4:4.3.4
  _ZN5GpgME3KeyC2ERKNS0_4NullE@Base 4:4.3.4
  _ZN5GpgME3KeyC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD2Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD1Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD2Ev@Base 4:4.8.3
  _ZN5GpgME4Data11setEncodingENS0_8EncodingE@Base 4:4.3.4
  _ZN5GpgME4Data11setFileNameEPKc@Base 4:4.3.4
  _ZN5GpgME4Data4nullE@Base 4:4.3.4
@@ -258,8 +258,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME4DataC2ERKNS0_4NullE@Base 4:4.3.4
  _ZN5GpgME4DataC2Ei@Base 4:4.3.4
  _ZN5GpgME4DataC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD2Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD1Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD2Ev@Base 4:4.8.3
  _ZN5GpgME5Error14hasSystemErrorEv@Base 4:4.5.86
  _ZN5GpgME5Error14setSystemErrorE14gpg_err_code_t@Base 4:4.5.86
  _ZN5GpgME5Error15fromSystemErrorEj@Base 4:4.5.86
@@ -272,8 +272,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME6ImportC1Ev@Base 4:4.3.4
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME6ImportC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD2Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD1Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD2Ev@Base 4:4.8.3
  _ZN5GpgME6SubkeyC1ERKN5boost10shared_ptrI10_gpgme_keyEEP13_gpgme_subkey@Base 4:4.3.4
  _ZN5GpgME6SubkeyC1ERKN5boost10shared_ptrI10_gpgme_keyEEj@Base 4:4.3.4
  _ZN5GpgME6SubkeyC1Ev@Base 4:4.3.4
@@ -725,16 +725,16 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME9TrustItem5keyIDEv@Base 4:4.3.4
  _ZNK5GpgME9TrustItem6isNullEv@Base 4:4.3.4
  _ZNK5GpgME9TrustItem6userIDEv@Base 4:4.3.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSs12_S_constructIN9__gnu_cxx17__normal_iteratorIPKcSsEEEEPcT_S6_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSs12_S_constructIN9__gnu_cxx17__normal_iteratorIPKcSsEEEEPcT_S6_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSsC1IPcEET_S1_RKSaIcE@Base 4:4.6.3
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSsC2IPcEET_S1_RKSaIcE@Base 4:4.6.3
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSsEEvT_S3_@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt4pairISsSsEEEvT_S5_@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS6_EEEEvT_SA_@Base 4:4.7.4
- (optional=templinst|arch=amd64)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.8.4
- (optional=templinst|arch=amd64)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.8.4
- (optional=templinst|arch=amd64)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.8.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSsEEvT_S3_@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt4pairISsSsEEEvT_S5_@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS6_EEEEvT_SA_@Base 4:4.7.4
+ (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.10.5
+ (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.10.5
+ (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.10.5
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED1Ev@Base 4:4.6.5
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED2Ev@Base 4:4.6.5
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEEixERSA_@Base 4:4.3.4
@@ -748,7 +748,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.3.4
@@ -756,34 +756,34 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 4:4.3.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EEaSERKS5_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED1Ev@Base 4:4.7.4
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED1Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
@@ -791,7 +791,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP16_gpgme_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
@@ -799,21 +799,21 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP20_gpgme_import_statusSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP20_gpgme_new_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
- (optional=templinst|arch=!armel !armhf)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=!armel !armhf)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=!amd64 !armel !armhf)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=!amd64 !armel !armhf)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
- (optional=templinst)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi@Base 4:4.5.86
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED1Ev@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.86
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED1Ev@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:4.3.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKS9_@Base 4:4.3.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
@@ -883,8 +883,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME10EngineInfoC1Ev@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC2EP18_gpgme_engine_info@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME10EngineInfoD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME10EngineInfoD2Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME10EngineInfoD1Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME10EngineInfoD2Ev@Base 4:4.8.3
  _ZN5GpgME10engineInfoENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME10engineInfoENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME10hasFeatureEm@Base 4:4.3.4
@@ -1106,8 +1106,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME3KeyC2ERKN5boost10shared_ptrI10_gpgme_keyEE@Base 4:4.3.4
  _ZN5GpgME3KeyC2ERKNS0_4NullE@Base 4:4.3.4
  _ZN5GpgME3KeyC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD2Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD1Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc)_ZN5GpgME3KeyD2Ev@Base 4:4.8.3
  _ZN5GpgME4Data11setEncodingENS0_8EncodingE@Base 4:4.3.4
  _ZN5GpgME4Data11setFileNameEPKc@Base 4:4.3.4
  _ZN5GpgME4Data4nullE@Base 4:4.3.4
@@ -1136,8 +1136,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME4DataC2ERKNS0_4NullE@Base 4:4.3.4
  _ZN5GpgME4DataC2Ei@Base 4:4.3.4
  _ZN5GpgME4DataC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD2Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD1Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME4DataD2Ev@Base 4:4.8.3
  _ZN5GpgME5Error14hasSystemErrorEv@Base 4:4.5.86
  _ZN5GpgME5Error14setSystemErrorE14gpg_err_code_t@Base 4:4.5.86
  _ZN5GpgME5Error15fromSystemErrorEj@Base 4:4.5.86
@@ -1150,8 +1150,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME6ImportC1Ev@Base 4:4.3.4
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME6ImportC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD2Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD1Ev@Base 4:4.8.3
+ (optional=gccinternal|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME6ResultD2Ev@Base 4:4.8.3
  _ZN5GpgME6SubkeyC1ERKN5boost10shared_ptrI10_gpgme_keyEEP13_gpgme_subkey@Base 4:4.3.4
  _ZN5GpgME6SubkeyC1ERKN5boost10shared_ptrI10_gpgme_keyEEj@Base 4:4.3.4
  _ZN5GpgME6SubkeyC1Ev@Base 4:4.3.4
@@ -1603,16 +1603,16 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME9TrustItem5keyIDEv@Base 4:4.3.4
  _ZNK5GpgME9TrustItem6isNullEv@Base 4:4.3.4
  _ZNK5GpgME9TrustItem6userIDEv@Base 4:4.3.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSs12_S_constructIN9__gnu_cxx17__normal_iteratorIPKcSsEEEEPcT_S6_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSs12_S_constructIN9__gnu_cxx17__normal_iteratorIPKcSsEEEEPcT_S6_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSsC1IPcEET_S1_RKSaIcE@Base 4:4.6.3
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSsC2IPcEET_S1_RKSaIcE@Base 4:4.6.3
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSsEEvT_S3_@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt4pairISsSsEEEvT_S5_@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS6_EEEEvT_SA_@Base 4:4.7.4
- (optional=templinst|arch=amd64)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.8.4
- (optional=templinst|arch=amd64)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.8.4
- (optional=templinst|arch=amd64)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.8.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSsEEvT_S3_@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt4pairISsSsEEEvT_S5_@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS6_EEEEvT_SA_@Base 4:4.7.4
+ (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.10.5
+ (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.10.5
+ (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.10.5
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED1Ev@Base 4:4.6.5
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED2Ev@Base 4:4.6.5
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEEixERSA_@Base 4:4.3.4
@@ -1626,7 +1626,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16CreatedSignatureESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.3.4
@@ -1634,34 +1634,34 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME16InvalidRecipientESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME17InvalidSigningKeyESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 4:4.3.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIN5GpgME18VerificationResult7Private4NotaESaIS3_EEaSERKS5_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED1Ev@Base 4:4.7.4
  (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIN5GpgME3KeyESaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6ImportESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED1Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6ImportESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:4.4.3
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
@@ -1669,7 +1669,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME8NotationESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
- (optional=templinst|subst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
+ (optional=templinst|subst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 4:4.6.1
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP16_gpgme_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
@@ -1677,21 +1677,21 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP20_gpgme_import_statusSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP20_gpgme_new_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
- (optional=templinst|arch=!amd64 !armel !armhf)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=!amd64 !armel !armhf)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=!armel !armhf)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
- (optional=templinst)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED2Ev@Base 4:4.6.1
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi@Base 4:4.5.86
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED1Ev@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIiSaIiEED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.86
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED1Ev@Base 4:4.7.4
- (optional=templinst|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED2Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED1Ev@Base 4:4.7.4
+ (optional=templinst|arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIjSaIjEED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:4.3.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKS9_@Base 4:4.3.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4

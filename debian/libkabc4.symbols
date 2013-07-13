@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -575,7 +575,9 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC7AddressD1Ev@Base 4:4.3.4
  _ZN4KABC7AddressD2Ev@Base 4:4.3.4
  _ZN4KABC7AddressaSERKS0_@Base 4:4.3.4
+ _ZN4KABC7Picture10setRawDataERK10QByteArrayRK7QString@Base 4:4.10.0
  _ZN4KABC7Picture6setUrlERK7QString@Base 4:4.3.4
+ _ZN4KABC7Picture6setUrlERK7QStringS3_@Base 4:4.10.0
  _ZN4KABC7Picture7setDataERK6QImage@Base 4:4.3.4
  _ZN4KABC7Picture7setTypeERK7QString@Base 4:4.3.4
  _ZN4KABC7PictureC1ERK6QImage@Base 4:4.3.4
@@ -892,8 +894,10 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC14StdAddressBook6whoAmIEv@Base 4:4.3.4
  _ZNK4KABC14VCardConverter10parseVCardERK10QByteArray@Base 4:4.3.4
  _ZNK4KABC14VCardConverter11createVCardERKNS_9AddresseeENS0_7VersionE@Base 4:4.3.4
+ _ZNK4KABC14VCardConverter11exportVCardERKNS_9AddresseeENS0_7VersionE@Base 4:4.9.3
  _ZNK4KABC14VCardConverter11parseVCardsERK10QByteArray@Base 4:4.3.4
  _ZNK4KABC14VCardConverter12createVCardsENS_13AddresseeListENS0_7VersionE@Base 4:4.3.4
+ _ZNK4KABC14VCardConverter12exportVCardsERKNS_13AddresseeListENS0_7VersionE@Base 4:4.9.3
  _ZNK4KABC15AddressLineEdit10metaObjectEv@Base 4:4.3.4
  _ZNK4KABC15AddresseeDialog10addresseesEv@Base 4:4.3.4
  _ZNK4KABC15AddresseeDialog10metaObjectEv@Base 4:4.3.4
@@ -961,6 +965,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC7Picture4dataEv@Base 4:4.3.4
  _ZNK4KABC7Picture4typeEv@Base 4:4.3.4
  _ZNK4KABC7Picture7isEmptyEv@Base 4:4.3.4
+ _ZNK4KABC7Picture7rawDataEv@Base 4:4.10.0
  _ZNK4KABC7Picture8isInternEv@Base 4:4.3.4
  _ZNK4KABC7Picture8toStringEv@Base 4:4.3.4
  _ZNK4KABC7PictureeqERKS0_@Base 4:4.3.4
@@ -1045,6 +1050,8 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9VCardTool11parseVCardsERK10QByteArray@Base 4:4.3.4
  _ZNK4KABC9VCardTool11splitStringERK5QCharRK7QString@Base 4:4.3.4
  _ZNK4KABC9VCardTool12createVCardsERKNS_13AddresseeListENS_5VCard7VersionE@Base 4:4.3.4
+ _ZNK4KABC9VCardTool12createVCardsERKNS_13AddresseeListENS_5VCard7VersionEb@Base 4:4.9.3
+ _ZNK4KABC9VCardTool12exportVCardsERKNS_13AddresseeListENS_5VCard7VersionE@Base 4:4.9.3
  _ZNK4KABC9VCardTool12parsePictureERKNS_9VCardLineE@Base 4:4.3.4
  _ZNK4KABC9VCardTool12parseSecrecyERKNS_9VCardLineE@Base 4:4.3.4
  _ZNK4KABC9VCardTool13createPictureERK7QStringRKNS_7PictureE@Base 4:4.3.4

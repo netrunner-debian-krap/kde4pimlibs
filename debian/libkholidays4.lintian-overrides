@@ -1,0 +1,1 @@
+libkholidays4: hardening-no-fortify-functions usr/lib/libkholidays.so.4.*

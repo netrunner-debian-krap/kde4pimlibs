@@ -1,23 +1,66 @@
-kdepimlibs (4:4.8.4-3) UNRELEASED; urgency=low
+kdepimlibs (4:4.10.5-1) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Add myself to Uploaders.
-  * Confirm symbols files with 4:4.8.4's build logs.
+  * New upstream release.
+  * Remove upstream_b92782580756b3858f0381a5200b79688ab0b0a2.diff, already
+    applied upstream.
+  * Update symbols.
 
-  [ Maximiliano Curia ]
-  * Add requestItemDeliveryV2 support to link against akonadi versions
-    greater than 1.8.1;
-    patch upstream_e1861658fe4b4ec75998c5d08b26e6fbfbe0cdf9.diff.
-    (Closes: #710647)
-  * Dropping pth version of libgpgme++.
-  * Bump libakonadi-dev build dependency to 1.8.1.
-  * Update vcs fields.
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Jul 2013 22:42:34 +0200
+
+kdepimlibs (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
   * Add myself to the Uploaders field.
   * Bump debhelper buil-dep and compat to 9.
-  * Bump Stantards-Version to 3.9.4, no changes needed. 
-  * Update symbols files.
+  * Bump Stantards-Version to 3.9.4.
+  * Dropping pth version of libgpgme++.
+  * Update vcs fields.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Jun 2013 15:09:44 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 08:13:39 +0200
+
+kdepimlibs (4:4.10.2-2) experimental; urgency=low
+
+  * Bump the kdepim-runtime versions in the symbol
+    files of the akonadi libraries.
+  * Update uploaders.
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 22:20:44 +0200
+
+kdepimlibs (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Lisandro Damián Nicanor Pérez meyer ]
+  * Add myself to Uploaders.
+  * Confirm symbols files with 4:4.8.4's build logs.
+  * Remove crash_when_marking_folder_read.diff, already applied upstream.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependecy to 4:4.10.1.
+  * Bump libakonadi-dev build dependency to 1.8.1.
+  * Update some installed files.
+  * Update symbols files.
+  * Add lintian overrides for hardening-no-fortify-functions.
+
+  [ Daniele E. Domenichelli ]
+  * Update installed files using wildcards.
+  * Update symbols.
+
+  [ Josep Febrer ]
+  * Update patches
+    - drop 03_hide_akonadi_progressbar.diff, no longer needed
+  * Bump kdelibs5-dev build dependency to 4:4.10.
+  * Bump nepomuk-core-dev build dependecy to 4:4.10.
+  * Add build dependencies on libqjson-dev, libxslt1-dev, libx11 and pkg-config.
+  * New package libakonadi-socialutils4.
+  * Pass -DKDE4_BUILD_TESTS=false to cmake in order to keep the tests disabled.
+  * Update installed files.
+
+  [ Sune Vuorela ]
+  * Make libkpimidentities4 break older kmail & friends
+  * Change my email address
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 25 Mar 2013 19:31:38 +0100
 
 kdepimlibs (4:4.8.4-2) unstable; urgency=low
 

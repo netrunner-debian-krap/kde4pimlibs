@@ -1,0 +1,2 @@
+kdepimlibs-kio-plugins: hardening-no-fortify-functions usr/lib/kde4/kio_imap4.so                                                                                     
+kdepimlibs-kio-plugins: hardening-no-fortify-functions usr/lib/kde4/kio_pop3.so 

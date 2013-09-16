@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio-plugins
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN13MailTransport10ServerTest11progressBarEv@Base 4:4.3.4
@@ -128,7 +128,9 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport17TransportComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN13MailTransport17TransportComboBox11qt_metacastEPKc@Base 4:4.3.4
  _ZN13MailTransport17TransportComboBox12fillComboBoxEv@Base 4:4.3.4
+ _ZN13MailTransport17TransportComboBox16setTransportListERK5QListIiE@Base 4:4.11.1
  _ZN13MailTransport17TransportComboBox16staticMetaObjectE@Base 4:4.3.4
+ _ZN13MailTransport17TransportComboBox18updateComboboxListEv@Base 4:4.11.1
  _ZN13MailTransport17TransportComboBox19setCurrentTransportEi@Base 4:4.3.4
  _ZN13MailTransport17TransportComboBoxC1EP7QWidget@Base 4:4.3.4
  _ZN13MailTransport17TransportComboBoxC2EP7QWidget@Base 4:4.3.4

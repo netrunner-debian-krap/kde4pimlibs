@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkcalcore.so.4 libkcalcore4 #MINVER#
  Parse_MIME@Base 4:4.5.86
  Parse_MIME_FromFile@Base 4:4.5.86
@@ -255,7 +255,8 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore14MemoryCalendar22deleteJournalInstancesERK14QSharedPointerINS_7JournalEE@Base 4:4.5.86
  _ZN8KCalCore14MemoryCalendar24deleteIncidenceInstancesERK14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
  _ZN8KCalCore14MemoryCalendar5closeEv@Base 4:4.5.86
- _ZN8KCalCore14MemoryCalendar7Private15insertIncidenceE14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
+ (optional=gccinternal)_ZN8KCalCore14MemoryCalendar7Private15insertIncidenceE14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
+ _ZN8KCalCore14MemoryCalendar7Private15insertIncidenceERK14QSharedPointerINS_9IncidenceEE@Base 4:4.11.1
  _ZN8KCalCore14MemoryCalendar7Private19deleteAllIncidencesENS_13IncidenceBase13IncidenceTypeE@Base 4:4.5.86
  _ZN8KCalCore14MemoryCalendar7addTodoERK14QSharedPointerINS_4TodoEE@Base 4:4.5.86
  _ZN8KCalCore14MemoryCalendar8addEventERK14QSharedPointerINS_5EventEE@Base 4:4.5.86
@@ -367,6 +368,13 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore18ICalTimeZoneSourceD0Ev@Base 4:4.5.86
  _ZN8KCalCore18ICalTimeZoneSourceD1Ev@Base 4:4.5.86
  _ZN8KCalCore18ICalTimeZoneSourceD2Ev@Base 4:4.5.86
+ _ZN8KCalCore18OccurrenceIterator4nextEv@Base 4:4.11.1
+ _ZN8KCalCore18OccurrenceIteratorC1ERKNS_8CalendarERK14QSharedPointerINS_9IncidenceEERK9KDateTimeSB_@Base 4:4.11.1
+ _ZN8KCalCore18OccurrenceIteratorC1ERKNS_8CalendarERK9KDateTimeS6_@Base 4:4.11.1
+ _ZN8KCalCore18OccurrenceIteratorC2ERKNS_8CalendarERK14QSharedPointerINS_9IncidenceEERK9KDateTimeSB_@Base 4:4.11.1
+ _ZN8KCalCore18OccurrenceIteratorC2ERKNS_8CalendarERK9KDateTimeS6_@Base 4:4.11.1
+ _ZN8KCalCore18OccurrenceIteratorD1Ev@Base 4:4.11.1
+ _ZN8KCalCore18OccurrenceIteratorD2Ev@Base 4:4.11.1
  _ZN8KCalCore19ICalTimeZoneBackend12virtual_hookEiPv@Base 4:4.5.86
  _ZN8KCalCore19ICalTimeZoneBackendC1EPNS_18ICalTimeZoneSourceERK7QStringS5_ffS5_@Base 4:4.5.86
  _ZN8KCalCore19ICalTimeZoneBackendC1ERK9KTimeZoneRK5QDate@Base 4:4.5.86
@@ -555,11 +563,13 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore8Calendar12sortJournalsERK7QVectorI14QSharedPointerINS_7JournalEEENS_16JournalSortFieldENS_13SortDirectionE@Base 4:4.5.86
  _ZN8KCalCore8Calendar12virtual_hookEiPv@Base 4:4.5.86
  _ZN8KCalCore8Calendar13doSetTimeSpecERKN9KDateTime4SpecE@Base 4:4.5.86
+ _ZN8KCalCore8Calendar13filterChangedEv@Base 4:4.11.1
  _ZN8KCalCore8Calendar13setTimeZoneIdERK7QString@Base 4:4.5.86
  _ZN8KCalCore8Calendar14deleteNotebookERK7QString@Base 4:4.5.86
  _ZN8KCalCore8Calendar14endBatchAddingEv@Base 4:4.5.86
  _ZN8KCalCore8Calendar14setupRelationsERK14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
  _ZN8KCalCore8Calendar14updateNotebookERK7QStringb@Base 4:4.5.86
+ _ZN8KCalCore8Calendar15createExceptionERK14QSharedPointerINS_9IncidenceEERK9KDateTimeb@Base 4:4.11.1
  _ZN8KCalCore8Calendar15deleteIncidenceERK14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
  _ZN8KCalCore8Calendar15removeRelationsERK14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
  _ZN8KCalCore8Calendar16CalendarObserver16calendarModifiedEbPS0_@Base 4:4.5.86
@@ -577,6 +587,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore8Calendar18mergeIncidenceListERK7QVectorI14QSharedPointerINS_5EventEEERKS1_IS2_INS_4TodoEEERKS1_IS2_INS_7JournalEEE@Base 4:4.5.86
  _ZN8KCalCore8Calendar18setDefaultNotebookERK7QString@Base 4:4.5.86
  _ZN8KCalCore8Calendar18unregisterObserverEPNS0_16CalendarObserverE@Base 4:4.5.86
+ _ZN8KCalCore8Calendar19setDeletionTrackingEb@Base 4:4.11.1
  _ZN8KCalCore8Calendar19setObserversEnabledEb@Base 4:4.5.86
  _ZN8KCalCore8Calendar20dissociateOccurrenceERK14QSharedPointerINS_9IncidenceEERK5QDateRKN9KDateTime4SpecEb@Base 4:4.5.86
  _ZN8KCalCore8Calendar20notifyIncidenceAddedERK14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
@@ -711,6 +722,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore9Incidence15setSchedulingIDERK7QStringS3_@Base 4:4.5.86
  _ZN8KCalCore9Incidence16clearAttachmentsEv@Base 4:4.5.86
  _ZN8KCalCore9Incidence16deleteAttachmentERK14QSharedPointerINS_10AttachmentEE@Base 4:4.5.86
+ _ZN8KCalCore9Incidence16setThisAndFutureEb@Base 4:4.11.1
  _ZN8KCalCore9Incidence17deleteAttachmentsERK7QString@Base 4:4.5.86
  _ZN8KCalCore9Incidence17recurrenceUpdatedEPNS_10RecurrenceE@Base 4:4.5.86
  _ZN8KCalCore9Incidence17setAltDescriptionERK7QString@Base 4:4.5.86
@@ -851,6 +863,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore14MemoryCalendar7Private9incidenceERK7QStringNS_13IncidenceBase13IncidenceTypeERK9KDateTime@Base 4:4.5.86
  _ZNK8KCalCore14MemoryCalendar7journalERK7QStringRK9KDateTime@Base 4:4.5.86
  _ZNK8KCalCore14MemoryCalendar8alarmsToERK9KDateTime@Base 4:4.5.86
+ _ZNK8KCalCore14MemoryCalendar8instanceERK7QString@Base 4:4.11.1
  _ZNK8KCalCore14MemoryCalendar8rawTodosENS_13TodoSortFieldENS_13SortDirectionE@Base 4:4.5.86
  _ZNK8KCalCore14MemoryCalendar8rawTodosERK5QDateS3_RKN9KDateTime4SpecEb@Base 4:4.5.86
  _ZNK8KCalCore14MemoryCalendar9rawEventsENS_14EventSortFieldENS_13SortDirectionE@Base 4:4.5.86
@@ -911,6 +924,9 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore16ICalTimeZoneData4cityEv@Base 4:4.5.86
  _ZNK8KCalCore16ICalTimeZoneData5cloneEv@Base 4:4.5.86
  _ZNK8KCalCore16ICalTimeZoneData9vtimezoneEv@Base 4:4.5.86
+ _ZNK8KCalCore18OccurrenceIterator19occurrenceStartDateEv@Base 4:4.11.1
+ _ZNK8KCalCore18OccurrenceIterator7hasNextEv@Base 4:4.11.1
+ _ZNK8KCalCore18OccurrenceIterator9incidenceEv@Base 4:4.11.1
  _ZNK8KCalCore19ICalTimeZoneBackend14hasTransitionsEPK9KTimeZone@Base 4:4.5.86
  _ZNK8KCalCore19ICalTimeZoneBackend4typeEv@Base 4:4.5.86
  _ZNK8KCalCore19ICalTimeZoneBackend5cloneEv@Base 4:4.5.86
@@ -1021,6 +1037,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore8Calendar14viewTimeZoneIdEv@Base 4:4.5.86
  _ZNK8KCalCore8Calendar15defaultNotebookEv@Base 4:4.5.86
  _ZNK8KCalCore8Calendar15setViewTimeSpecERKN9KDateTime4SpecE@Base 4:4.5.86
+ _ZNK8KCalCore8Calendar16deletionTrackingEv@Base 4:4.11.1
  _ZNK8KCalCore8Calendar16hasValidNotebookERK7QString@Base 4:4.5.86
  _ZNK8KCalCore8Calendar17setViewTimeZoneIdERK7QString@Base 4:4.5.86
  _ZNK8KCalCore8Calendar21appendRecurringAlarmsER7QVectorI14QSharedPointerINS_5AlarmEEERKS2_INS_9IncidenceEERK9KDateTimeSD_@Base 4:4.5.86
@@ -1093,6 +1110,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore9Incidence12schedulingIDEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence13categoriesStrEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence13summaryIsRichEv@Base 4:4.5.86
+ _ZNK8KCalCore9Incidence13thisAndFutureEv@Base 4:4.11.1
  _ZNK8KCalCore9Incidence14altDescriptionEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence14locationIsRichEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence14recurrenceTypeEv@Base 4:4.5.86
@@ -1102,6 +1120,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore9Incidence16hasEnabledAlarmsEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence17descriptionIsRichEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence17hasAltDescriptionEv@Base 4:4.5.86
+ _ZNK8KCalCore9Incidence18instanceIdentifierEv@Base 4:4.11.1
  _ZNK8KCalCore9Incidence21startDateTimesForDateERK5QDateRKN9KDateTime4SpecE@Base 4:4.5.86
  _ZNK8KCalCore9Incidence25startDateTimesForDateTimeERK9KDateTime@Base 4:4.5.86
  _ZNK8KCalCore9Incidence25writeAttachmentToTempFileERK14QSharedPointerINS_10AttachmentEE@Base 4:4.5.86

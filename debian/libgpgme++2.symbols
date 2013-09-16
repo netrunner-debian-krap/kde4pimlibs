@@ -1,12 +1,12 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC1Ev@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC2EP18_gpgme_engine_info@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME10EngineInfoD1Ev@Base 4:4.8.3
- (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN5GpgME10EngineInfoD2Ev@Base 4:4.8.3
+ (optional=gccinternal)_ZN5GpgME10EngineInfoD1Ev@Base 4:4.8.3
+ (optional=gccinternal)_ZN5GpgME10EngineInfoD2Ev@Base 4:4.8.3
  _ZN5GpgME10engineInfoENS_6EngineE@Base 4:4.3.4
  _ZN5GpgME10engineInfoENS_8ProtocolE@Base 4:4.3.4
  _ZN5GpgME10hasFeatureEm@Base 4:4.3.4
@@ -848,6 +848,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTIN5GpgME7ContextE@Base 4:4.3.4
  _ZTIN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTIN5GpgME9TrustItemE@Base 4:4.3.4
+ _ZTIN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
  _ZTSN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTSN5GpgME17AssuanTransactionE@Base 4:4.4.0
@@ -862,6 +863,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTSN5GpgME7ContextE@Base 4:4.3.4
  _ZTSN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTSN5GpgME9TrustItemE@Base 4:4.3.4
+ _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTVN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
@@ -876,6 +878,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTVN5GpgME7ContextE@Base 4:4.3.4
  _ZTVN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTVN5GpgME9TrustItemE@Base 4:4.3.4
+ _ZTVN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4
 libgpgme++.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
@@ -1677,8 +1680,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP20_gpgme_import_statusSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIP20_gpgme_new_signatureSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
- (optional=templinst|arch=!armel !armhf)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
- (optional=templinst|arch=!armel !armhf)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
+ (optional=templinst)_ZNSt6vectorIPKcSaIS1_EED1Ev@Base 4:4.7.4
+ (optional=templinst)_ZNSt6vectorIPKcSaIS1_EED2Ev@Base 4:4.7.4
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
  (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIS_IN5GpgME18VerificationResult7Private4NotaESaIS3_EESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.3.4
@@ -1726,6 +1729,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZTIN5GpgME7ContextE@Base 4:4.3.4
  _ZTIN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTIN5GpgME9TrustItemE@Base 4:4.3.4
+ _ZTIN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
  _ZTSN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTSN5GpgME17AssuanTransactionE@Base 4:4.4.0
@@ -1740,6 +1744,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZTSN5GpgME7ContextE@Base 4:4.3.4
  _ZTSN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTSN5GpgME9TrustItemE@Base 4:4.3.4
+ _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTVN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
@@ -1754,4 +1759,5 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZTVN5GpgME7ContextE@Base 4:4.3.4
  _ZTVN5GpgME9ExceptionE@Base 4:4.3.4
  _ZTVN5GpgME9TrustItemE@Base 4:4.3.4
+ _ZTVN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4

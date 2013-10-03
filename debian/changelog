@@ -1,3 +1,9 @@
+kdepimlibs (4:4.11.2-2) UNRELEASED; urgency=low
+
+  * Bump build-dependencies versions.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Oct 2013 17:21:43 +0200
+
 kdepimlibs (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.3 amd64
 libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN5KMime5Types7MailboxD1Ev@Base 4:4.11.1
  _ZN5KMime5Types7MailboxD2Ev@Base 4:4.11.1
@@ -40,6 +40,7 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi11ITIPHandler7Private21finishSendiTIPMessageENS_9Scheduler6ResultERK7QString@Base 4:4.11.1
  _ZN7Akonadi11ITIPHandler7Private24finishProcessiTIPMessageENS_9Scheduler6ResultERK7QString@Base 4:4.11.1
  _ZN7Akonadi11ITIPHandler7Private24finishPublishInformationENS_9Scheduler6ResultERK7QString@Base 4:4.11.1
+ _ZN7Akonadi11ITIPHandler7Private33onCounterProposalDelegateFinishedEbRK7QString@Base 4:4.11.3
  _ZN7Akonadi11ITIPHandler7Private8calendarEv@Base 4:4.11.1
  _ZN7Akonadi11ITIPHandler7Private8isLoadedEv@Base 4:4.11.1
  _ZN7Akonadi11ITIPHandler7PrivateC1EPS0_@Base 4:4.11.1

@@ -1,6 +1,7 @@
 kdepimlibs (4:4.11.3-2) UNRELEASED; urgency=low
 
   * Disable --as-needed for ia64 hosts. (Closes: #730157)
+  * New patch: always_reset_dosslfallback.diff. (Closes: #727808)
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 25 Nov 2013 11:51:57 +0100
 

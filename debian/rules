@@ -1,5 +1,10 @@
 #!/usr/bin/make -f
 
+DEB_HOST_ARCH:=$(shell dpkg-architecture -qDEB_HOST_ARCH)
+ifeq ($(DEB_HOST_ARCH),ia64)
+    dqk_link_with_as_needed := no
+endif
+
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_addsubst_allLibraries = kdepimlibs5-dev kdepimlibs-dbg
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)

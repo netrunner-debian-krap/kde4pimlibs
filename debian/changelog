@@ -5,6 +5,7 @@ kdepimlibs (4:4.11.5-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Update libakonadi-calendar4 extended description, thanks to Filipus
     Klutiero. (Closes: #721009)
+  * Remove always_reset_dosslfallback.diff, applied upstream.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 13 Jan 2014 18:17:37 -0300
 

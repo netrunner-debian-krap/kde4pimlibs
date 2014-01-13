@@ -253,7 +253,7 @@ Package: libakonadi-calendar4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library providing calendar helpers for Akonadi items
- This library offers helper functions for integrate the use of Akonadi calendar
+ This library offers helper functions to integrate the use of Akonadi calendar
  items in applications.
  .
  This package is part of the KDE Development Platform PIM libraries module.

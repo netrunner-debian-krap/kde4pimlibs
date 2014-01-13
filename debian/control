@@ -19,6 +19,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  shared-desktop-ontologies (>= 0.11), libsoprano-dev (>= 2.9), xsltproc,
  uuid-dev, libprison-dev, libqjson-dev, libxslt1-dev, libx11-dev, pkg-config
 Standards-Version: 3.9.4
+XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepimlibs.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepimlibs.git

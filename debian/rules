@@ -22,6 +22,3 @@ override_dh_shlibdeps:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdepimlibs-dbg
-
-override_dh_makeshlibs:
-	$(overridden_command) -- -c0

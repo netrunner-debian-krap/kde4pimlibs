@@ -1,4 +1,4 @@
-kdepimlibs (4:4.11.5-1) UNRELEASED; urgency=low
+kdepimlibs (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
   * Add autopkgtests.
@@ -9,7 +9,7 @@ kdepimlibs (4:4.11.5-1) UNRELEASED; urgency=low
   * Enable build failures on missing symbols.
   * Add abi-compliance-checker info.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 13 Jan 2014 18:17:37 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 12:38:53 -0300
 
 kdepimlibs (4:4.11.3-2) unstable; urgency=low
 

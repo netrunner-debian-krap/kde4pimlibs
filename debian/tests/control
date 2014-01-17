@@ -6,5 +6,5 @@ Depends: @, @builddeps@, build-essential,
 Restrictions: rw-build-tree
 
 Tests: acc
-Depends: @,
+Depends: @, @builddeps@,
          dh-acc, exuberant-ctags

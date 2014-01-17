@@ -7,6 +7,7 @@ kdepimlibs (4:4.11.5-1) UNRELEASED; urgency=low
     Klutiero. (Closes: #721009)
   * Remove always_reset_dosslfallback.diff, applied upstream.
   * Enable build failures on missing symbols.
+  * Add abi-compliance-checker info.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 13 Jan 2014 18:17:37 -0300
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/KDE/KontactInterface
+    /usr/include/kontactinterface
+</headers>
+
+<libs>
+    /usr/lib/libkontactinterface.so
+</libs>
+
+</descriptor>

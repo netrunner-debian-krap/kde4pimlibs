@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/KDE/Mailtransport
+    /usr/include/mailtransport
+</headers>
+
+<libs>
+    /usr/lib/libmailtransport.so
+</libs>
+
+</descriptor>

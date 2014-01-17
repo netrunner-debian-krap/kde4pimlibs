@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/KDE/Akonadi/Contact
+    /usr/include/akonadi/contact
+</headers>
+
+<libs>
+    /usr/lib/libakonadi-contact.so
+</libs>
+
+</descriptor>

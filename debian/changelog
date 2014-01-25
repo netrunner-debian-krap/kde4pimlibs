@@ -1,10 +1,9 @@
-kdepimlibs (4:4.11.5-4) UNRELEASED; urgency=medium
+kdepimlibs (4:4.11.5-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with a full build generated in a powerpc porterbox,
     and this time really (Closes: #736603).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 25 Jan 2014 15:27:57 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 25 Jan 2014 15:53:32 -0300
 
 kdepimlibs (4:4.11.5-3) unstable; urgency=medium
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 alpha armhf hppa hurd-i386 i386 ia64 mips mipsel powerpc powerpcspe ppc64 s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.11.5 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x sparc x32
 libkcalcore.so.4 libkcalcore4 #MINVER#
  Parse_MIME@Base 4:4.5.86
  Parse_MIME_FromFile@Base 4:4.5.86
@@ -131,8 +131,8 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore10VCalFormat21writeCustomPropertiesEP7VObjectRK14QSharedPointerINS_9IncidenceEE@Base 4:4.5.86
  _ZN8KCalCore10VCalFormat4loadERK14QSharedPointerINS_8CalendarEERK7QString@Base 4:4.5.86
  _ZN8KCalCore10VCalFormat4saveERK14QSharedPointerINS_8CalendarEERK7QString@Base 4:4.5.86
- (optional=private|arch=kfreebsd-amd64 kfreebsd-i386 powerpcspe)_ZN8KCalCore10VCalFormat7PrivateD1Ev@Base 4:4.7.4
- (optional=private|arch=kfreebsd-amd64 kfreebsd-i386 powerpcspe)_ZN8KCalCore10VCalFormat7PrivateD2Ev@Base 4:4.7.4
+ (optional=private|arch=powerpcspe)_ZN8KCalCore10VCalFormat7PrivateD1Ev@Base 4:4.7.4
+ (optional=private|arch=powerpcspe)_ZN8KCalCore10VCalFormat7PrivateD2Ev@Base 4:4.7.4
  _ZN8KCalCore10VCalFormat8populateEP7VObjectbRK7QString@Base 4:4.5.86
  _ZN8KCalCore10VCalFormat8toStringERK14QSharedPointerINS_8CalendarEERK7QStringb@Base 4:4.5.86
  _ZN8KCalCore10VCalFormatC1Ev@Base 4:4.5.86
@@ -1140,7 +1140,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore9Incidence9localOnlyEv@Base 4:4.5.86
  _ZNK8KCalCore9Incidence9relatedToENS0_7RelTypeE@Base 4:4.5.86
  _ZNK8KCalCore9Incidence9resourcesEv@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpcspe !ppc64 !s390x !x32)_ZSt6__findIP14QSharedPointerIN8KCalCore9IncidenceEES3_ET_S5_S5_RKT0_St26random_access_iterator_tag@Base 4:4.6.1
+ (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpcspe !ppc64 !s390x !x32)_ZSt6__findIP14QSharedPointerIN8KCalCore9IncidenceEES3_ET_S5_S5_RKT0_St26random_access_iterator_tag@Base 4:4.6.1
  _ZTIN8KCalCore10CalStorageE@Base 4:4.5.86
  _ZTIN8KCalCore10ICalFormatE@Base 4:4.5.86
  _ZTIN8KCalCore10Recurrence18RecurrenceObserverE@Base 4:4.5.86

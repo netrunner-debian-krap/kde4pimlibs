@@ -392,7 +392,6 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.5.86
- (optional=templinst|arch=powerpcspe)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.7.4
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC12ContactGroupEEET_v@Base 4:4.4.0
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC9AddresseeEEET_v@Base 4:4.4.0
  _ZTIN7Akonadi13ContactEditorE@Base 4:4.4.0

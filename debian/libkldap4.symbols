@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.11.5 kfreebsd-amd64 kfreebsd-i386
 libkldap.so.4 libkldap4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KLDAP10LdapObject13setAttributesERK4QMapI7QString5QListI10QByteArrayEE@Base 4:4.3.4
@@ -90,8 +90,6 @@ libkldap.so.4 libkldap4 #MINVER#
  _ZN5KLDAP13LdapOperation10connectionEv@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation13setConnectionERNS_14LdapConnectionE@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation13waitForResultEii@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KLDAP13LdapOperation16SASL_CredentialsD1Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN5KLDAP13LdapOperation16SASL_CredentialsD2Ev@Base 4:4.8.3
  _ZN5KLDAP13LdapOperation17setClientControlsERK5QListINS_11LdapControlEE@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation17setServerControlsERK5QListINS_11LdapControlEE@Base 4:4.3.4
  _ZN5KLDAP13LdapOperation20LdapOperationPrivate13processResultEiP7ldapmsg@Base 4:4.3.4

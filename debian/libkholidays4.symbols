@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpcspe ppc64 s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.11.5 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x sparc x32
 libkholidays.so.4 libkholidays4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 4:4.3.4
@@ -129,7 +129,7 @@ libkholidays.so.4 libkholidays4 #MINVER#
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE13_M_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_{size_t}@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
  (optional=templinst|arch=powerpcspe)_ZNSt5dequeIiSaIiEE18_M_fill_initializeERKi@Base 4:4.7.4
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpcspe !ppc64 !s390x !x32)_ZNSt5dequeIiSaIiEE19_M_range_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_St20forward_iterator_tag@Base 4:4.5.0
+ (optional=templinst|arch=!alpha !amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt5dequeIiSaIiEE19_M_range_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_St20forward_iterator_tag@Base 4:4.5.0
  (optional=templinst|subst|arch=!hppa !x32)_ZNSt5dequeIiSaIiEE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0
  (optional=templinst)_ZNSt5dequeIiSaIiEEaSERKS1_@Base 4:4.5.0

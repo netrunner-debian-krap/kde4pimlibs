@@ -1,5 +1,8 @@
 kdepimlibs (4:4.11.5-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with a full build generated in a powerpc porterbox,
+    and this time really (Closes: #736603).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 25 Jan 2014 15:27:57 -0300
 

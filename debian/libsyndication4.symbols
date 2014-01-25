@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.5 ia64 powerpc sparc
 libsyndication.so.4 libsyndication4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN11Syndication10PersonImplC1ERK7QStringS3_S3_@Base 4:4.3.4
@@ -526,6 +526,11 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication9normalizeERK7QString@Base 4:4.3.4
  _ZN11Syndication9normalizeERK7QStringbb@Base 4:4.3.4
  _ZN11Syndication9parseDateERK7QStringNS_10DateFormatE@Base 4:4.3.4
+ (optional=templinst)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEC1ERKS3_@Base 4:4.11.5
+ (optional=templinst)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEC2ERKS3_@Base 4:4.11.5
+ (optional=templinst)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEED0Ev@Base 4:4.11.5
+ (optional=templinst)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEED1Ev@Base 4:4.11.5
+ (optional=templinst)_ZN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEED2Ev@Base 4:4.11.5
  _ZNK11Syndication13DataRetriever10metaObjectEv@Base 4:4.3.4
  _ZNK11Syndication13FileRetriever10metaObjectEv@Base 4:4.3.4
  _ZNK11Syndication13FileRetriever9errorCodeEv@Base 4:4.3.4
@@ -936,6 +941,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTIN11Syndication8CategoryE@Base 4:4.3.4
  _ZTIN11Syndication9EnclosureE@Base 4:4.3.4
  _ZTIN5boost16exception_detail10clone_baseE@Base 4:4.11.1
+ _ZTIN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEE@Base 4:4.11.5
  (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
  _ZTSN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTSN11Syndication12SpecificItemE@Base 4:4.3.4
@@ -994,6 +1000,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTSN11Syndication8CategoryE@Base 4:4.3.4
  _ZTSN11Syndication9EnclosureE@Base 4:4.3.4
  _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.11.1
+ _ZTSN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEE@Base 4:4.11.5
  (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTVN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTVN11Syndication12SpecificItemE@Base 4:4.3.4
@@ -1052,6 +1059,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTVN11Syndication8CategoryE@Base 4:4.3.4
  _ZTVN11Syndication9EnclosureE@Base 4:4.3.4
  _ZTVN5boost16exception_detail10clone_baseE@Base 4:4.11.1
+ _ZTVN5boost16exception_detail19error_info_injectorINS_12bad_weak_ptrEEE@Base 4:4.11.5
  (optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::~Entry()@Base" 4:4.6.5
@@ -1063,3 +1071,4 @@ libsyndication.so.4 libsyndication4 #MINVER#
  (c++)"non-virtual thunk to Syndication::RSS2::Document::~Document()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::RSS2::Item::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::RSS2::Item::~Item()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to boost::exception_detail::error_info_injector<boost::bad_weak_ptr>::~error_info_injector()@Base" 4:4.11.5

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.0 amd64
+# SymbolsHelper-Confirmed: 4:4.11.5 hppa kfreebsd-amd64 kfreebsd-i386 s390x
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -111,8 +111,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC12ContactGroup16ContactReference12insertCustomERK7QStringS4_@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReference12removeCustomERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReference17setPreferredEmailERK7QString@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC12ContactGroup16ContactReference23ContactReferencePrivateD1Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC12ContactGroup16ContactReference23ContactReferencePrivateD2Ev@Base 4:4.8.3
  _ZN4KABC12ContactGroup16ContactReference6setUidERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReferenceC1ERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReferenceC1ERKS1_@Base 4:4.3.4
@@ -140,8 +138,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC12ContactGroup21contactGroupReferenceEj@Base 4:4.3.4
  _ZN4KABC12ContactGroup26removeAllContactReferencesEv@Base 4:4.3.4
  _ZN4KABC12ContactGroup31removeAllContactGroupReferencesEv@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC12ContactGroup4Data11DataPrivateD1Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC12ContactGroup4Data11DataPrivateD2Ev@Base 4:4.8.3
  _ZN4KABC12ContactGroup4Data12insertCustomERK7QStringS4_@Base 4:4.3.4
  _ZN4KABC12ContactGroup4Data12removeCustomERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup4Data7setNameERK7QString@Base 4:4.3.4
@@ -163,8 +159,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC12ContactGroup6removeERKNS0_16ContactReferenceE@Base 4:4.3.4
  _ZN4KABC12ContactGroup6removeERKNS0_21ContactGroupReferenceE@Base 4:4.3.4
  _ZN4KABC12ContactGroup6removeERKNS0_4DataE@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC12ContactGroup7PrivateD1Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC12ContactGroup7PrivateD2Ev@Base 4:4.8.3
  _ZN4KABC12ContactGroup7setNameERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup8mimeTypeEv@Base 4:4.3.4
  _ZN4KABC12ContactGroupC1ERK7QString@Base 4:4.3.4
@@ -459,8 +453,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC3Key13setBinaryDataERK10QByteArray@Base 4:4.3.4
  _ZN4KABC3Key19setCustomTypeStringERK7QString@Base 4:4.3.4
  _ZN4KABC3Key5setIdERK7QString@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC3Key7PrivateD1Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC3Key7PrivateD2Ev@Base 4:4.8.3
  _ZN4KABC3Key7setTypeENS0_4TypeE@Base 4:4.3.4
  _ZN4KABC3Key8typeListEv@Base 4:4.3.4
  _ZN4KABC3Key9typeLabelENS0_4TypeE@Base 4:4.3.4
@@ -558,8 +550,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC7Address18postOfficeBoxLabelEv@Base 4:4.3.4
  _ZN4KABC7Address5clearEv@Base 4:4.3.4
  _ZN4KABC7Address5setIdERK7QString@Base 4:4.3.4
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC7Address7PrivateD1Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KABC7Address7PrivateD2Ev@Base 4:4.8.3
  _ZN4KABC7Address7setTypeE6QFlagsINS0_8TypeFlagEE@Base 4:4.3.4
  _ZN4KABC7Address8setLabelERK7QString@Base 4:4.3.4
  _ZN4KABC7Address8typeListEv@Base 4:4.3.4
@@ -816,8 +806,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABCrsER11QDataStreamRNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_8TimeZoneE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_9AddresseeE@Base 4:4.3.4
- (optional=templinst|arch=s390 s390x sparc)_ZNK12KConfigGroup13readListCheckIiEE5QListIT_EPKcRKS3_@Base 4:4.7.2
- (optional=templinst|arch=hppa)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.2
  _ZNK4KABC11AddressBook10findByNameERK7QString@Base 4:4.3.4
  _ZNK4KABC11AddressBook10identifierEv@Base 4:4.3.4
  _ZNK4KABC11AddressBook10metaObjectEv@Base 4:4.3.4
@@ -1193,9 +1181,6 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZN4KABC18ResourceFileConfigD0Ev@Base 4:4.6.5
  _ZN4KABC18ResourceFileConfigD1Ev@Base 4:4.6.5
  _ZN4KABC18ResourceFileConfigD2Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRES12ConfigWidgetD0Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRES12ConfigWidgetD1Ev@Base 4:4.8.3
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KRES12ConfigWidgetD2Ev@Base 4:4.8.3
  _ZNK4KABC12ResourceFile10metaObjectEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile6formatEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile8fileNameEv@Base 4:4.3.4
@@ -1207,4 +1192,3 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZTVN4KABC12ResourceFileE@Base 4:4.3.4
  _ZTVN4KABC18ResourceFileConfigE@Base 4:4.3.4
  (c++)"non-virtual thunk to KABC::ResourceFileConfig::~ResourceFileConfig()@Base" 4:4.6.5
- (c++|arch=kfreebsd-amd64 kfreebsd-i386)"non-virtual thunk to KRES::ConfigWidget::~ConfigWidget()@Base" 4:4.8.3

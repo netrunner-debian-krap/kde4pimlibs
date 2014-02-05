@@ -5,6 +5,9 @@ kdepimlibs (4:4.12.2-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildd's logs (Closes: #737118).
 
+  [ Maximiliano Curia ]
+  * Update symbols files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 30 Jan 2014 11:21:56 -0300
 
 kdepimlibs (4:4.11.5-4) unstable; urgency=medium

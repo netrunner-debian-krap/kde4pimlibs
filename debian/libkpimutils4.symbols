@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libkpimutils.so.4 libkpimutils4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KPIMUtils11LinkLocator12pngToDataUrlERK7QString@Base 4:4.3.4
@@ -58,6 +58,19 @@ libkpimutils.so.4 libkpimutils4 #MINVER#
  _ZN9KPIMUtils19extractEmailAddressERK7QString@Base 4:4.3.4
  _ZN9KPIMUtils20isValidSimpleAddressERK7QString@Base 4:4.3.4
  _ZN9KPIMUtils20quoteNameIfNecessaryERK7QString@Base 4:4.3.4
+ _ZN9KPIMUtils22ProgressIndicatorLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabel11qt_metacastEPKc@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabel14setActiveLabelERK7QString@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabel16staticMetaObjectE@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabel4stopEv@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabel5startEv@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabelC1EP7QWidget@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabelC1ERK7QStringP7QWidget@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabelC2EP7QWidget@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabelC2ERK7QStringP7QWidget@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabelD0Ev@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabelD1Ev@Base 4:4.12.2
+ _ZN9KPIMUtils22ProgressIndicatorLabelD2Ev@Base 4:4.12.2
  _ZN9KPIMUtils23ProgressIndicatorWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
  _ZN9KPIMUtils23ProgressIndicatorWidget11qt_metacastEPKc@Base 4:4.11.1
  _ZN9KPIMUtils23ProgressIndicatorWidget16staticMetaObjectE@Base 4:4.11.1
@@ -90,14 +103,20 @@ libkpimutils.so.4 libkpimutils4 #MINVER#
  _ZNK9KPIMUtils14SpellingFilter12filteredTextEv@Base 4:4.3.4
  _ZNK9KPIMUtils14SpellingFilter12originalTextEv@Base 4:4.3.4
  _ZNK9KPIMUtils19NetworkAccessHelper10metaObjectEv@Base 4:4.5.86
+ _ZNK9KPIMUtils22ProgressIndicatorLabel10metaObjectEv@Base 4:4.12.2
  _ZNK9KPIMUtils23ProgressIndicatorWidget10metaObjectEv@Base 4:4.11.1
+ _ZNK9KPIMUtils23ProgressIndicatorWidget8isActiveEv@Base 4:4.12.2
  _ZTIN9KPIMUtils14EmailValidatorE@Base 4:4.5.86
  _ZTIN9KPIMUtils19NetworkAccessHelperE@Base 4:4.5.86
+ _ZTIN9KPIMUtils22ProgressIndicatorLabelE@Base 4:4.12.2
  _ZTIN9KPIMUtils23ProgressIndicatorWidgetE@Base 4:4.11.1
  _ZTSN9KPIMUtils14EmailValidatorE@Base 4:4.5.86
  _ZTSN9KPIMUtils19NetworkAccessHelperE@Base 4:4.5.86
+ _ZTSN9KPIMUtils22ProgressIndicatorLabelE@Base 4:4.12.2
  _ZTSN9KPIMUtils23ProgressIndicatorWidgetE@Base 4:4.11.1
  _ZTVN9KPIMUtils14EmailValidatorE@Base 4:4.5.86
  _ZTVN9KPIMUtils19NetworkAccessHelperE@Base 4:4.5.86
+ _ZTVN9KPIMUtils22ProgressIndicatorLabelE@Base 4:4.12.2
  _ZTVN9KPIMUtils23ProgressIndicatorWidgetE@Base 4:4.11.1
+ (c++)"non-virtual thunk to KPIMUtils::ProgressIndicatorLabel::~ProgressIndicatorLabel()@Base" 4:4.12.2
  (c++)"non-virtual thunk to KPIMUtils::ProgressIndicatorWidget::~ProgressIndicatorWidget()@Base" 4:4.11.1

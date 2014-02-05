@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 hppa kfreebsd-amd64 kfreebsd-i386 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -111,6 +111,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC12ContactGroup16ContactReference12insertCustomERK7QStringS4_@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReference12removeCustomERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReference17setPreferredEmailERK7QString@Base 4:4.3.4
+ _ZN4KABC12ContactGroup16ContactReference6setGidERK7QString@Base 4:4.12.2
  _ZN4KABC12ContactGroup16ContactReference6setUidERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReferenceC1ERK7QString@Base 4:4.3.4
  _ZN4KABC12ContactGroup16ContactReferenceC1ERKS1_@Base 4:4.3.4
@@ -843,6 +844,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC11ResourceABC17subresourceActiveERK7QString@Base 4:4.3.4
  _ZNK4KABC11VCardFormat11checkFormatEP5QFile@Base 4:4.3.4
  _ZNK4KABC12ContactGroup16ContactReference14preferredEmailEv@Base 4:4.3.4
+ _ZNK4KABC12ContactGroup16ContactReference3gidEv@Base 4:4.12.2
  _ZNK4KABC12ContactGroup16ContactReference3uidEv@Base 4:4.3.4
  _ZNK4KABC12ContactGroup16ContactReference6customERK7QString@Base 4:4.3.4
  _ZNK4KABC12ContactGroup16ContactReferenceeqERKS1_@Base 4:4.3.4

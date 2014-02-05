@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libkcalcore.so.4 libkcalcore4 #MINVER#
  Parse_MIME@Base 4:4.5.86
  Parse_MIME_FromFile@Base 4:4.5.86
@@ -206,9 +206,11 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore13IncidenceBase18unRegisterObserverEPNS0_17IncidenceObserverE@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase20customPropertyUpdateEv@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase21customPropertyUpdatedEv@Base 4:4.5.86
+ _ZN8KCalCore13IncidenceBase28magicSerializationIdentifierEv@Base 4:4.12.2
  _ZN8KCalCore13IncidenceBase6acceptERNS_7VisitorE14QSharedPointerIS0_E@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase6assignERKS0_@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase6setUidERK7QString@Base 4:4.5.86
+ _ZN8KCalCore13IncidenceBase6setUrlERK4QUrl@Base 4:4.12.2
  _ZN8KCalCore13IncidenceBase6updateEv@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase7Private4initERKS1_@Base 4:4.5.86
  _ZN8KCalCore13IncidenceBase7updatedEv@Base 4:4.5.86
@@ -384,6 +386,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore19ICalTimeZoneBackendD2Ev@Base 4:4.5.86
  _ZN8KCalCore4Todo10setDtStartERK9KDateTime@Base 4:4.5.86
  _ZN8KCalCore4Todo10shiftTimesERKN9KDateTime4SpecES4_@Base 4:4.5.86
+ _ZN8KCalCore4Todo11deserializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore4Todo11setDateTimeERK9KDateTimeNS_13IncidenceBase12DateTimeRoleE@Base 4:4.5.86
  _ZN8KCalCore4Todo12setCompletedERK9KDateTime@Base 4:4.5.86
  _ZN8KCalCore4Todo12setCompletedEb@Base 4:4.5.86
@@ -398,6 +401,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore4Todo7Private4initERKS1_@Base 4:4.5.86
  _ZN8KCalCore4Todo7Private9recurTodoEPS0_@Base 4:4.5.86
  _ZN8KCalCore4Todo8setDtDueERK9KDateTimeb@Base 4:4.5.86
+ _ZN8KCalCore4Todo9serializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore4Todo9setAllDayEb@Base 4:4.5.86
  _ZN8KCalCore4TodoC1ERKS0_@Base 4:4.5.86
  _ZN8KCalCore4TodoC1Ev@Base 4:4.5.86
@@ -446,6 +450,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore5AlarmaSERKS0_@Base 4:4.5.86
  _ZN8KCalCore5Event10setDtStartERK9KDateTime@Base 4:4.5.86
  _ZN8KCalCore5Event10shiftTimesERKN9KDateTime4SpecES4_@Base 4:4.5.86
+ _ZN8KCalCore5Event11deserializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore5Event11setDateTimeERK9KDateTimeNS_13IncidenceBase12DateTimeRoleE@Base 4:4.5.86
  _ZN8KCalCore5Event11setDurationERKNS_8DurationE@Base 4:4.5.86
  _ZN8KCalCore5Event12virtual_hookEiPv@Base 4:4.5.86
@@ -455,6 +460,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore5Event6acceptERNS_7VisitorE14QSharedPointerINS_13IncidenceBaseEE@Base 4:4.5.86
  _ZN8KCalCore5Event6assignERKNS_13IncidenceBaseE@Base 4:4.5.86
  _ZN8KCalCore5Event8setDtEndERK9KDateTime@Base 4:4.5.86
+ _ZN8KCalCore5Event9serializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore5Event9setAllDayEb@Base 4:4.5.86
  _ZN8KCalCore5EventC1ERKS0_@Base 4:4.5.86
  _ZN8KCalCore5EventC1Ev@Base 4:4.5.86
@@ -508,11 +514,13 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore6PersonD1Ev@Base 4:4.5.86
  _ZN8KCalCore6PersonD2Ev@Base 4:4.5.86
  _ZN8KCalCore6PersonaSERKS0_@Base 4:4.5.86
+ _ZN8KCalCore7Journal11deserializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore7Journal11setDateTimeERK9KDateTimeNS_13IncidenceBase12DateTimeRoleE@Base 4:4.5.86
  _ZN8KCalCore7Journal12virtual_hookEiPv@Base 4:4.5.86
  _ZN8KCalCore7Journal15journalMimeTypeEv@Base 4:4.5.86
  _ZN8KCalCore7Journal6acceptERNS_7VisitorE14QSharedPointerINS_13IncidenceBaseEE@Base 4:4.5.86
  _ZN8KCalCore7Journal6assignERKNS_13IncidenceBaseE@Base 4:4.5.86
+ _ZN8KCalCore7Journal9serializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore7JournalC1Ev@Base 4:4.5.86
  _ZN8KCalCore7JournalC2Ev@Base 4:4.5.86
  _ZN8KCalCore7JournalD0Ev@Base 4:4.5.86
@@ -695,6 +703,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore9Incidence10setSummaryERK7QStringb@Base 4:4.5.86
  _ZN8KCalCore9Incidence10shiftTimesERKN9KDateTime4SpecES4_@Base 4:4.5.86
  _ZN8KCalCore9Incidence11clearAlarmsEv@Base 4:4.5.86
+ _ZN8KCalCore9Incidence11deserializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore9Incidence11removeAlarmERK14QSharedPointerINS_5AlarmEE@Base 4:4.5.86
  _ZN8KCalCore9Incidence11setLocationERK7QString@Base 4:4.5.86
  _ZN8KCalCore9Incidence11setLocationERK7QStringb@Base 4:4.5.86
@@ -727,6 +736,8 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore9Incidence8addAlarmERK14QSharedPointerINS_5AlarmEE@Base 4:4.5.86
  _ZN8KCalCore9Incidence8newAlarmEv@Base 4:4.5.86
  _ZN8KCalCore9Incidence8recreateEv@Base 4:4.5.86
+ _ZN8KCalCore9Incidence9mimeTypesEv@Base 4:4.12.2
+ _ZN8KCalCore9Incidence9serializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore9Incidence9setAllDayEb@Base 4:4.5.86
  _ZN8KCalCore9Incidence9setHasGeoEb@Base 4:4.5.86
  _ZN8KCalCore9Incidence9setStatusENS0_6StatusE@Base 4:4.5.86
@@ -737,18 +748,32 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore9IncidenceD0Ev@Base 4:4.5.86
  _ZN8KCalCore9IncidenceD1Ev@Base 4:4.5.86
  _ZN8KCalCore9IncidenceD2Ev@Base 4:4.5.86
+ _ZN8KCalCorelsER11QDataStreamPKNS_14RecurrenceRuleE@Base 4:4.12.2
+ _ZN8KCalCorelsER11QDataStreamPNS_10RecurrenceE@Base 4:4.12.2
+ _ZN8KCalCorelsER11QDataStreamRK14QSharedPointerINS_10AttachmentEE@Base 4:4.12.2
+ _ZN8KCalCorelsER11QDataStreamRK14QSharedPointerINS_13IncidenceBaseEE@Base 4:4.12.2
+ _ZN8KCalCorelsER11QDataStreamRK14QSharedPointerINS_5AlarmEE@Base 4:4.12.2
  _ZN8KCalCorelsER11QDataStreamRK14QSharedPointerINS_6PersonEE@Base 4:4.5.86
  _ZN8KCalCorelsER11QDataStreamRK14QSharedPointerINS_8AttendeeEE@Base 4:4.5.86
  _ZN8KCalCorelsER11QDataStreamRK14QSharedPointerINS_8FreeBusyEE@Base 4:4.5.86
  _ZN8KCalCorelsER11QDataStreamRKNS_14FreeBusyPeriodE@Base 4:4.5.86
+ _ZN8KCalCorelsER11QDataStreamRKNS_14RecurrenceRule7WDayPosE@Base 4:4.12.2
  _ZN8KCalCorelsER11QDataStreamRKNS_16CustomPropertiesE@Base 4:4.5.86
  _ZN8KCalCorelsER11QDataStreamRKNS_6PeriodE@Base 4:4.5.86
+ _ZN8KCalCorelsER11QDataStreamRKNS_8DurationE@Base 4:4.12.2
+ _ZN8KCalCorersER11QDataStreamPKNS_14RecurrenceRuleE@Base 4:4.12.2
+ _ZN8KCalCorersER11QDataStreamPNS_10RecurrenceE@Base 4:4.12.2
  _ZN8KCalCorersER11QDataStreamR14QSharedPointerINS_6PersonEE@Base 4:4.5.86
  _ZN8KCalCorersER11QDataStreamR14QSharedPointerINS_8AttendeeEE@Base 4:4.5.86
  _ZN8KCalCorersER11QDataStreamR14QSharedPointerINS_8FreeBusyEE@Base 4:4.5.86
+ _ZN8KCalCorersER11QDataStreamRK14QSharedPointerINS_10AttachmentEE@Base 4:4.12.2
+ _ZN8KCalCorersER11QDataStreamRK14QSharedPointerINS_13IncidenceBaseEE@Base 4:4.12.2
+ _ZN8KCalCorersER11QDataStreamRK14QSharedPointerINS_5AlarmEE@Base 4:4.12.2
  _ZN8KCalCorersER11QDataStreamRNS_14FreeBusyPeriodE@Base 4:4.5.86
+ _ZN8KCalCorersER11QDataStreamRNS_14RecurrenceRule7WDayPosE@Base 4:4.12.2
  _ZN8KCalCorersER11QDataStreamRNS_16CustomPropertiesE@Base 4:4.5.86
  _ZN8KCalCorersER11QDataStreamRNS_6PeriodE@Base 4:4.5.86
+ _ZN8KCalCorersER11QDataStreamRNS_8DurationE@Base 4:4.12.2
  _ZNK8KCalCore10Attachment10showInlineEv@Base 4:4.5.86
  _ZNK8KCalCore10Attachment11decodedDataEv@Base 4:4.5.86
  _ZNK8KCalCore10Attachment3uriEv@Base 4:4.5.86
@@ -827,6 +852,7 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore13IncidenceBase15attendeeByMailsERK11QStringListRK7QString@Base 4:4.5.86
  _ZNK8KCalCore13IncidenceBase3uidEv@Base 4:4.5.86
  _ZNK8KCalCore13IncidenceBase3uriEv@Base 4:4.5.86
+ _ZNK8KCalCore13IncidenceBase3urlEv@Base 4:4.12.2
  _ZNK8KCalCore13IncidenceBase6allDayEv@Base 4:4.5.86
  _ZNK8KCalCore13IncidenceBase6equalsERKS0_@Base 4:4.5.86
  _ZNK8KCalCore13IncidenceBase7dtStartEv@Base 4:4.5.86

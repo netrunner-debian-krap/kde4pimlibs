@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -111,6 +111,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi12AgentManagerD0Ev@Base 4:4.3.4
  _ZN7Akonadi12AgentManagerD1Ev@Base 4:4.3.4
  _ZN7Akonadi12AgentManagerD2Ev@Base 4:4.3.4
+ _ZN7Akonadi12ItemFetchJob10clearItemsEv@Base 4:4.12.2
  _ZN7Akonadi12ItemFetchJob10fetchScopeEv@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi12ItemFetchJob11qt_metacastEPKc@Base 4:4.3.4
@@ -219,6 +220,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi13ItemDeleteJobD2Ev@Base 4:4.3.4
  _ZN7Akonadi13ItemModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi13ItemModifyJob11qt_metacastEPKc@Base 4:4.3.4
+ _ZN7Akonadi13ItemModifyJob12setUpdateGidEb@Base 4:4.12.2
  _ZN7Akonadi13ItemModifyJob16doHandleResponseERK10QByteArrayS3_@Base 4:4.3.4
  _ZN7Akonadi13ItemModifyJob16setIgnorePayloadEb@Base 4:4.3.4
  _ZN7Akonadi13ItemModifyJob16staticMetaObjectE@Base 4:4.3.4
@@ -381,6 +383,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi14EntityTreeViewD0Ev@Base 4:4.4.0
  _ZN7Akonadi14EntityTreeViewD1Ev@Base 4:4.4.0
  _ZN7Akonadi14EntityTreeViewD2Ev@Base 4:4.4.0
+ _ZN7Akonadi14ItemFetchScope11setFetchGidEb@Base 4:4.12.2
  _ZN7Akonadi14ItemFetchScope12setCacheOnlyEb@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScope16fetchFullPayloadEb@Base 4:4.3.4
@@ -390,6 +393,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi14ItemFetchScope20setFetchChangedSinceERK9KDateTime@Base 4:4.11.1
  _ZN7Akonadi14ItemFetchScope24setFetchModificationTimeEb@Base 4:4.5.86
  _ZN7Akonadi14ItemFetchScope24setIgnoreRetrievalErrorsEb@Base 4:4.10.2
+ _ZN7Akonadi14ItemFetchScope28setFetchRemoteIdentificationEb@Base 4:4.12.2
  _ZN7Akonadi14ItemFetchScope33setCheckForCachedPayloadPartsOnlyEb@Base 4:4.11.1
  _ZN7Akonadi14ItemFetchScopeC1ERKS0_@Base 4:4.3.4
  _ZN7Akonadi14ItemFetchScopeC1Ev@Base 4:4.3.4
@@ -663,6 +667,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi18CollectionComboBox17setMimeTypeFilterERK11QStringList@Base 4:4.4.0
  _ZN7Akonadi18CollectionComboBox20setDefaultCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi18CollectionComboBox21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 4:4.4.0
+ _ZN7Akonadi18CollectionComboBox28setExcludeVirtualCollectionsEb@Base 4:4.12.2
  _ZN7Akonadi18CollectionComboBox7Private9activatedERK11QModelIndex@Base 4:4.4.0
  _ZN7Akonadi18CollectionComboBox7Private9activatedEi@Base 4:4.4.0
  _ZN7Akonadi18CollectionComboBoxC1EP18QAbstractItemModelP7QWidget@Base 4:4.4.0
@@ -701,6 +706,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi18SpecialCollections16staticMetaObjectE@Base 4:4.4.0
  _ZN7Akonadi18SpecialCollections18collectionsChangedERKNS_13AgentInstanceE@Base 4:4.4.0
  _ZN7Akonadi18SpecialCollections18registerCollectionERK10QByteArrayRKNS_10CollectionE@Base 4:4.4.0
+ _ZN7Akonadi18SpecialCollections20unregisterCollectionERKNS_10CollectionE@Base 4:4.12.2
+ _ZN7Akonadi18SpecialCollections22unsetSpecialCollectionERKNS_10CollectionE@Base 4:4.12.2
  _ZN7Akonadi18SpecialCollections24setSpecialCollectionTypeERK10QByteArrayRKNS_10CollectionE@Base 4:4.11.1
  _ZN7Akonadi18SpecialCollections25defaultCollectionsChangedEv@Base 4:4.4.0
  _ZN7Akonadi18SpecialCollectionsC1EP19KCoreConfigSkeletonP7QObject@Base 4:4.4.0
@@ -856,6 +863,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi20IndexPolicyAttributeD0Ev@Base 4:4.5.86
  _ZN7Akonadi20IndexPolicyAttributeD1Ev@Base 4:4.5.86
  _ZN7Akonadi20IndexPolicyAttributeD2Ev@Base 4:4.5.86
+ _ZN7Akonadi20ItemSerializerPlugin20overridePluginLookupEP7QObject@Base 4:4.12.2
  _ZN7Akonadi20ItemSerializerPluginD0Ev@Base 4:4.3.4
  _ZN7Akonadi20ItemSerializerPluginD1Ev@Base 4:4.3.4
  _ZN7Akonadi20ItemSerializerPluginD2Ev@Base 4:4.3.4
@@ -1274,6 +1282,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi4Item22setStorageCollectionIdEx@Base 4:4.3.4
  _ZN7Akonadi4Item5applyERKS0_@Base 4:4.4.0
  _ZN7Akonadi4Item6d_funcEv@Base 4:4.3.4
+ _ZN7Akonadi4Item6setGidERK7QString@Base 4:4.12.2
  _ZN7Akonadi4Item7fromUrlERK4KUrl@Base 4:4.3.4
  _ZN7Akonadi4Item7setFlagERK10QByteArray@Base 4:4.3.4
  _ZN7Akonadi4Item7setSizeEx@Base 4:4.3.4
@@ -1298,7 +1307,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi6Entity19setParentCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi6Entity5setIdEx@Base 4:4.3.4
  _ZN7Akonadi6Entity6d_funcEv@Base 4:4.3.4
- (optional=templinst|arch=!x32)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
+ (optional=templinst|arch=!amd64 !x32)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
  _ZN7Akonadi6EntityC1EPNS_13EntityPrivateE@Base 4:4.3.4
  _ZN7Akonadi6EntityC1ERKS0_@Base 4:4.3.4
  _ZN7Akonadi6EntityC2EPNS_13EntityPrivateE@Base 4:4.3.4
@@ -1655,6 +1664,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi13ItemModifyJob13ignorePayloadEv@Base 4:4.3.4
  _ZNK7Akonadi13ItemModifyJob4itemEv@Base 4:4.3.4
  _ZNK7Akonadi13ItemModifyJob5itemsEv@Base 4:4.5.86
+ _ZNK7Akonadi13ItemModifyJob9updateGidEv@Base 4:4.12.2
  _ZNK7Akonadi13ItemSearchJob10metaObjectEv@Base 4:4.4.0
  _ZNK7Akonadi13ItemSearchJob5itemsEv@Base 4:4.4.0
  _ZNK7Akonadi13ServerManager10metaObjectEv@Base 4:4.3.4
@@ -1670,8 +1680,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi14ChangeRecorder7isEmptyEv@Base 4:4.3.4
  _ZNK7Akonadi14CollectionView10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi14EntityListView10metaObjectEv@Base 4:4.4.0
+ _ZNK7Akonadi14EntityListView12xmlGuiClientEv@Base 4:4.12.2
  _ZNK7Akonadi14EntityListView23isDropActionMenuEnabledEv@Base 4:4.7.0
  _ZNK7Akonadi14EntityTreeView10metaObjectEv@Base 4:4.4.0
+ _ZNK7Akonadi14EntityTreeView12xmlGuiClientEv@Base 4:4.12.2
  _ZNK7Akonadi14EntityTreeView21isManualSortingActiveEv@Base 4:4.8.1
  _ZNK7Akonadi14EntityTreeView23isDropActionMenuEnabledEv@Base 4:4.5.0
  _ZNK7Akonadi14ItemFetchScope10attributesEv@Base 4:4.3.4
@@ -1682,8 +1694,10 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi14ItemFetchScope17fetchChangedSinceEv@Base 4:4.11.1
  _ZNK7Akonadi14ItemFetchScope21fetchModificationTimeEv@Base 4:4.5.86
  _ZNK7Akonadi14ItemFetchScope21ignoreRetrievalErrorsEv@Base 4:4.10.2
+ _ZNK7Akonadi14ItemFetchScope25fetchRemoteIdentificationEv@Base 4:4.12.2
  _ZNK7Akonadi14ItemFetchScope30checkForCachedPayloadPartsOnlyEv@Base 4:4.11.1
  _ZNK7Akonadi14ItemFetchScope7isEmptyEv@Base 4:4.3.4
+ _ZNK7Akonadi14ItemFetchScope8fetchGidEv@Base 4:4.12.2
  _ZNK7Akonadi14ItemFetchScope9cacheOnlyEv@Base 4:4.3.4
  _ZNK7Akonadi15AgentTypeDialog10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi15AgentTypeDialog21agentFilterProxyModelEv@Base 4:4.3.4
@@ -1720,6 +1734,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi15EntityTreeModel19systemEntitiesShownEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel20supportedDropActionsEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel21includeRootCollectionEv@Base 4:4.4.0
+ _ZNK7Akonadi15EntityTreeModel21isCollectionPopulatedEx@Base 4:4.12.2
  _ZNK7Akonadi15EntityTreeModel22itemPopulationStrategyEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel23collectionFetchStrategyEv@Base 4:4.4.0
  _ZNK7Akonadi15EntityTreeModel23isCollectionTreeFetchedEv@Base 4:4.10.0
@@ -1774,6 +1789,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi18CollectionComboBox14mimeTypeFilterEv@Base 4:4.4.0
  _ZNK7Akonadi18CollectionComboBox17currentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi18CollectionComboBox18accessRightsFilterEv@Base 4:4.4.0
+ _ZNK7Akonadi18CollectionComboBox25excludeVirtualCollectionsEv@Base 4:4.12.2
  _ZNK7Akonadi18CollectionFetchJob10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi18CollectionFetchJob11collectionsEv@Base 4:4.3.4
  _ZNK7Akonadi18SpecialCollections10collectionERK10QByteArrayRKNS_13AgentInstanceE@Base 4:4.4.0
@@ -1918,6 +1934,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi26CollectionFilterProxyModel10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi26CollectionFilterProxyModel15mimeTypeFiltersEv@Base 4:4.3.4
  _ZNK7Akonadi26CollectionFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.3.4
+ _ZNK7Akonadi26CollectionFilterProxyModel25excludeVirtualCollectionsEv@Base 4:4.12.2
  _ZNK7Akonadi26CollectionFilterProxyModel5flagsERK11QModelIndex@Base 4:4.4.0
  _ZNK7Akonadi26CollectionPropertiesDialog10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi26ResourceSynchronizationJob10metaObjectEv@Base 4:4.4.0
@@ -1957,6 +1974,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item21availablePayloadPartsEv@Base 4:4.4.0
  _ZNK7Akonadi4Item21throwPayloadExceptionEii@Base 4:4.5.86
  _ZNK7Akonadi4Item27availablePayloadMetaTypeIdsEv@Base 4:4.5.86
+ _ZNK7Akonadi4Item3gidEv@Base 4:4.12.2
  _ZNK7Akonadi4Item3urlENS0_7UrlTypeE@Base 4:4.3.4
  _ZNK7Akonadi4Item4sizeEv@Base 4:4.3.4
  _ZNK7Akonadi4Item5flagsEv@Base 4:4.3.4
@@ -1966,7 +1984,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-i386 !powerpc !powerpcspe !x32)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
+ (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-i386 !powerpc !powerpcspe !x32)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4
@@ -2008,6 +2026,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi9AgentType10identifierEv@Base 4:4.3.4
  _ZNK7Akonadi9AgentType11descriptionEv@Base 4:4.3.4
  _ZNK7Akonadi9AgentType12capabilitiesEv@Base 4:4.3.4
+ _ZNK7Akonadi9AgentType16customPropertiesEv@Base 4:4.12.2
  _ZNK7Akonadi9AgentType4iconEv@Base 4:4.3.4
  _ZNK7Akonadi9AgentType4nameEv@Base 4:4.3.4
  _ZNK7Akonadi9AgentType7isValidEv@Base 4:4.3.4

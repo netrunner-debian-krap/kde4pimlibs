@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.0 amd64
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KIMAP10AclJobBase10setMailBoxERK7QString@Base 4:4.3.4
@@ -298,6 +298,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP7IdleJob12mailBoxStatsEPS0_RK7QStringii@Base 4:4.4.0
  _ZN5KIMAP7IdleJob14handleResponseERKNS_7MessageE@Base 4:4.4.0
  _ZN5KIMAP7IdleJob16staticMetaObjectE@Base 4:4.4.0
+ _ZN5KIMAP7IdleJob26mailBoxMessageFlagsChangedEPS0_x@Base 4:4.12.2
  _ZN5KIMAP7IdleJob4stopEv@Base 4:4.4.0
  _ZN5KIMAP7IdleJob7doStartEv@Base 4:4.4.0
  _ZN5KIMAP7IdleJobC1EPNS_7SessionE@Base 4:4.4.0
@@ -360,6 +361,8 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP8CloseJobD0Ev@Base 4:4.3.4
  _ZN5KIMAP8CloseJobD1Ev@Base 4:4.3.4
  _ZN5KIMAP8CloseJobD2Ev@Base 4:4.3.4
+ _ZN5KIMAP8FetchJob10FetchScopeC1Ev@Base 4:4.12.2
+ _ZN5KIMAP8FetchJob10FetchScopeC2Ev@Base 4:4.12.2
  _ZN5KIMAP8FetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5KIMAP8FetchJob11qt_metacastEPKc@Base 4:4.3.4
  _ZN5KIMAP8FetchJob11setUidBasedEb@Base 4:4.3.4
@@ -496,6 +499,7 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZN5KIMAP9SelectJob14handleResponseERKNS_7MessageE@Base 4:4.3.4
  _ZN5KIMAP9SelectJob15setOpenReadOnlyEb@Base 4:4.3.4
  _ZN5KIMAP9SelectJob16staticMetaObjectE@Base 4:4.3.4
+ _ZN5KIMAP9SelectJob19setCondstoreEnabledEb@Base 4:4.12.2
  _ZN5KIMAP9SelectJob7doStartEv@Base 4:4.3.4
  _ZN5KIMAP9SelectJobC1EPNS_7SessionE@Base 4:4.3.4
  _ZN5KIMAP9SelectJobC2EPNS_7SessionE@Base 4:4.3.4
@@ -643,7 +647,9 @@ libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
  _ZNK5KIMAP9SelectJob12messageCountEv@Base 4:4.3.4
  _ZNK5KIMAP9SelectJob14isOpenReadOnlyEv@Base 4:4.3.4
  _ZNK5KIMAP9SelectJob14permanentFlagsEv@Base 4:4.3.4
+ _ZNK5KIMAP9SelectJob16condstoreEnabledEv@Base 4:4.12.2
  _ZNK5KIMAP9SelectJob16firstUnseenIndexEv@Base 4:4.3.4
+ _ZNK5KIMAP9SelectJob18highestModSequenceEv@Base 4:4.12.2
  _ZNK5KIMAP9SelectJob5flagsEv@Base 4:4.3.4
  _ZNK5KIMAP9SelectJob7mailBoxEv@Base 4:4.3.4
  _ZNK5KIMAP9SelectJob7nextUidEv@Base 4:4.3.4

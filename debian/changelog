@@ -1,12 +1,9 @@
-kdepimlibs (4:4.12.2-1) UNRELEASED; urgency=medium
+kdepimlibs (4:4.11.5-5) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildd's logs (Closes: #737118).
 
-  [ Maximiliano Curia ]
-  * New upstream release.
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 20:57:46 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 30 Jan 2014 11:21:56 -0300
 
 kdepimlibs (4:4.11.5-4) unstable; urgency=medium
 

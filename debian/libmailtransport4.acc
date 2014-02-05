@@ -10,6 +10,13 @@
     /usr/include/mailtransport
 </headers>
 
+<gcc_options>
+    -I/usr/include/mailtransport
+    -I/usr/include/akonadi
+    -I/usr/include/akonadi/kmime
+    -I/usr/include/kmime
+</gcc_options>
+
 <libs>
     /usr/lib/libmailtransport.so
 </libs>

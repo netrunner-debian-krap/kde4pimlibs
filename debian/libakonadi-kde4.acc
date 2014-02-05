@@ -39,6 +39,7 @@
     /usr/include/akonadi/collectionmodel.h
     /usr/include/akonadi/collectionmodifyjob.h
     /usr/include/akonadi/collectionmovejob.h
+    /usr/include/akonadi/collectionpathresolver_p.h
     /usr/include/akonadi/collectionpropertiesdialog.h
     /usr/include/akonadi/collectionpropertiespage.h
     /usr/include/akonadi/collectionquotaattribute.h
@@ -66,6 +67,7 @@
     /usr/include/akonadi/etmviewstatesaver.h
     /usr/include/akonadi/exception.h
     /usr/include/akonadi/favoritecollectionsmodel.h
+    /usr/include/akonadi/gidextractorinterface.h
     /usr/include/akonadi/indexpolicyattribute.h
     /usr/include/akonadi/itemcopyjob.h
     /usr/include/akonadi/itemcreatejob.h

@@ -1,3 +1,4 @@
+usr/bin/akonaditest
 usr/include/KDE/Akonadi/AgentBase
 usr/include/KDE/Akonadi/AgentFactory
 usr/include/KDE/Akonadi/AgentFilterProxyModel

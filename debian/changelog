@@ -10,6 +10,7 @@ kdepimlibs (4:4.12.2-1~) UNRELEASED; urgency=medium
   * Update acc files.
   * New binary package: libakonadi-xml4.
   * Update install files.
+  * New patch: ship_akonaditest
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 30 Jan 2014 11:21:56 -0300
 

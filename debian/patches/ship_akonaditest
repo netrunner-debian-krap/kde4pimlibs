@@ -1,0 +1,13 @@
+Index: kdepimlibs/akonadi/CMakeLists.txt
+===================================================================
+--- kdepimlibs.orig/akonadi/CMakeLists.txt	2014-02-07 13:07:06.441746876 +0100
++++ kdepimlibs/akonadi/CMakeLists.txt	2014-02-07 13:09:50.829736960 +0100
+@@ -9,6 +9,8 @@
+ 
+ if (KDE4_BUILD_TESTS)
+ add_subdirectory( tests )
++else()
++add_subdirectory( tests/testrunner )
+ endif()
+ 
+ add_definitions( ${AKONADI_DEFINITIONS} )

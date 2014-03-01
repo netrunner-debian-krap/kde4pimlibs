@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.12.3 amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -224,13 +224,6 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi24ContactGroupViewerDialogD0Ev@Base 4:4.4.0
  _ZN7Akonadi24ContactGroupViewerDialogD1Ev@Base 4:4.4.0
  _ZN7Akonadi24ContactGroupViewerDialogD2Ev@Base 4:4.4.0
- (optional=private_test)_ZN7Akonadi24ContactMetaDataAttribute11deserializeERK10QByteArray@Base 4:4.4.0
- (optional=private_test)_ZN7Akonadi24ContactMetaDataAttribute11setMetaDataERK4QMapI7QString8QVariantE@Base 4:4.4.0
- (optional=private_test)_ZN7Akonadi24ContactMetaDataAttributeC1Ev@Base 4:4.4.0
- (optional=private_test)_ZN7Akonadi24ContactMetaDataAttributeC2Ev@Base 4:4.4.0
- (optional=private_test)_ZN7Akonadi24ContactMetaDataAttributeD0Ev@Base 4:4.4.0
- (optional=private_test)_ZN7Akonadi24ContactMetaDataAttributeD1Ev@Base 4:4.4.0
- (optional=private_test)_ZN7Akonadi24ContactMetaDataAttributeD2Ev@Base 4:4.4.0
  _ZN7Akonadi24ContactsFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModel11qt_metacastEPKc@Base 4:4.5.0
  _ZN7Akonadi24ContactsFilterProxyModel14setFilterFlagsE6QFlagsINS0_10FilterFlagEE@Base 4:4.8.1
@@ -364,10 +357,6 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi24ContactGroupViewerDialog10metaObjectEv@Base 4:4.4.0
  _ZNK7Akonadi24ContactGroupViewerDialog12contactGroupEv@Base 4:4.4.0
  _ZNK7Akonadi24ContactGroupViewerDialog6viewerEv@Base 4:4.4.0
- (optional=private_test)_ZNK7Akonadi24ContactMetaDataAttribute10serializedEv@Base 4:4.4.0
- (optional=private_test)_ZNK7Akonadi24ContactMetaDataAttribute4typeEv@Base 4:4.4.0
- (optional=private_test)_ZNK7Akonadi24ContactMetaDataAttribute5cloneEv@Base 4:4.4.0
- (optional=private_test)_ZNK7Akonadi24ContactMetaDataAttribute8metaDataEv@Base 4:4.4.0
  _ZNK7Akonadi24ContactsFilterProxyModel10metaObjectEv@Base 4:4.5.0
  _ZNK7Akonadi24ContactsFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:4.5.0
  _ZNK7Akonadi24ContactsFilterProxyModel5flagsERK11QModelIndex@Base 4:4.8.1
@@ -417,7 +406,6 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTIN7Akonadi24AbstractContactFormatterE@Base 4:4.5.0
  _ZTIN7Akonadi24ContactGroupEditorDialogE@Base 4:4.4.0
  _ZTIN7Akonadi24ContactGroupViewerDialogE@Base 4:4.4.0
- (optional=private_test)_ZTIN7Akonadi24ContactMetaDataAttributeE@Base 4:4.4.0
  _ZTIN7Akonadi24ContactsFilterProxyModelE@Base 4:4.5.0
  _ZTIN7Akonadi24StandardContactFormatterE@Base 4:4.5.0
  _ZTIN7Akonadi25RecentContactsCollectionsE@Base 4:4.4.0
@@ -441,7 +429,6 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTSN7Akonadi24AbstractContactFormatterE@Base 4:4.5.0
  _ZTSN7Akonadi24ContactGroupEditorDialogE@Base 4:4.4.0
  _ZTSN7Akonadi24ContactGroupViewerDialogE@Base 4:4.4.0
- (optional=private_test)_ZTSN7Akonadi24ContactMetaDataAttributeE@Base 4:4.4.0
  _ZTSN7Akonadi24ContactsFilterProxyModelE@Base 4:4.5.0
  _ZTSN7Akonadi24StandardContactFormatterE@Base 4:4.5.0
  _ZTSN7Akonadi25RecentContactsCollectionsE@Base 4:4.4.0
@@ -465,7 +452,6 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTVN7Akonadi24AbstractContactFormatterE@Base 4:4.5.0
  _ZTVN7Akonadi24ContactGroupEditorDialogE@Base 4:4.4.0
  _ZTVN7Akonadi24ContactGroupViewerDialogE@Base 4:4.4.0
- (optional=private_test)_ZTVN7Akonadi24ContactMetaDataAttributeE@Base 4:4.4.0
  _ZTVN7Akonadi24ContactsFilterProxyModelE@Base 4:4.5.0
  _ZTVN7Akonadi24StandardContactFormatterE@Base 4:4.5.0
  _ZTVN7Akonadi25RecentContactsCollectionsE@Base 4:4.4.0

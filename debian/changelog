@@ -1,5 +1,8 @@
 kdepimlibs (4:4.12.4-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Make kdepimlibs5-dev break/replace kdepim-runtime < 4.12, since files
+    were moved from kdepim-runtime to kdepimlibs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 May 2014 01:40:59 +0200
 

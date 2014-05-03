@@ -71,8 +71,9 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kdepim-runtime (<< 4:4.4.0)
 Breaks: kdepim-runtime (<< 4:4.4.0)
-Description: library for using the Akonadi PIM data server
- This is the client access library for using the Akonadi PIM data server.
+Description: Akonadi contacts access library
+ This library provides contacts manipulation helpers using the
+ Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
@@ -81,8 +82,9 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: akonadi-kde (<< 4:4.1.80), kdepimlibs5 (<< 4:4.4.0)
 Breaks: akonadi-kde (<< 4:4.1.80), kdepimlibs5 (<< 4:4.4.0)
-Description: library for using the Akonadi PIM data server
- This is the client access library for using the Akonadi PIM data server.
+Description: Akonadi address book access library
+ This library provides address book manipulation helpers using the
+ Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
@@ -91,8 +93,9 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: akonadi-kde (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
 Breaks: akonadi-kde (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
-Description: library for using the Akonadi PIM data server
- This is the client access library for using the Akonadi PIM data server.
+Description: Akonadi calendar access library
+ This library provides calendar manipulation helpers using the
+ Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
@@ -111,8 +114,9 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
 Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Description: library for using the Akonadi PIM data server
- This is the client access library for using the Akonadi PIM data server.
+Description: Akonadi MIME handling library
+ This library provides MIME handling helpers using the
+ Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
@@ -127,8 +131,9 @@ Description: Akonadi resources for handling social feeds
 Package: libakonadi-notes4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: library for using the Akonadi PIM data server
- This is the client access library for using the Akonadi PIM data server.
+Description: Akonadi notes access library
+ This library provides notes manipulation helpers using the
+ Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
@@ -137,8 +142,8 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kdepim-runtime (<< 4:4.12.0)
 Breaks: kdepim-runtime (<< 4:4.12.0)
-Description: library for using the Akonadi PIM data server
- This is the client access library for using the Akonadi PIM data server.
+Description: Akonadi XML helper library
+ This library provides XML helpers using the Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 

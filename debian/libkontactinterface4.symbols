@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 alpha armhf hppa hurd-i386 i386 ia64 mips mipsel ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkontactinterface.so.4 libkontactinterface4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN16KontactInterface16UniqueAppHandler10mainWidgetEv@Base 4:4.5.86
@@ -55,6 +55,7 @@ libkontactinterface.so.4 libkontactinterface4 #MINVER#
  _ZN16KontactInterface6Plugin14registerClientEv@Base 4:4.4.0
  _ZN16KontactInterface6Plugin14savePropertiesER12KConfigGroup@Base 4:4.4.0
  _ZN16KontactInterface6Plugin15insertNewActionEP7KAction@Base 4:4.4.0
+ _ZN16KontactInterface6Plugin15shortcutChangedEv@Base 4:4.13.1
  _ZN16KontactInterface6Plugin16insertSyncActionEP7KAction@Base 4:4.4.0
  _ZN16KontactInterface6Plugin16processDropEventEP10QDropEvent@Base 4:4.4.0
  _ZN16KontactInterface6Plugin16setShowInSideBarEb@Base 4:4.4.0

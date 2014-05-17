@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.3 mips mipsel powerpc s390x
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN5KMime5Types7MailboxD1Ev@Base 4:4.11.1
  _ZN5KMime5Types7MailboxD2Ev@Base 4:4.11.1
@@ -37,8 +37,10 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi11ETMCalendar18collectionsRemovedERK5QListINS_10CollectionEE@Base 4:4.11.1
  _ZN7Akonadi11ETMCalendar29setCollectionFilteringEnabledEb@Base 4:4.11.1
  _ZN7Akonadi11ETMCalendarC1EP7QObject@Base 4:4.11.1
+ _ZN7Akonadi11ETMCalendarC1EPS0_P7QObject@Base 4:4.13.1
  _ZN7Akonadi11ETMCalendarC1ERK11QStringListP7QObject@Base 4:4.11.1
  _ZN7Akonadi11ETMCalendarC2EP7QObject@Base 4:4.11.1
+ _ZN7Akonadi11ETMCalendarC2EPS0_P7QObject@Base 4:4.13.1
  _ZN7Akonadi11ETMCalendarC2ERK11QStringListP7QObject@Base 4:4.11.1
  _ZN7Akonadi11ETMCalendarD0Ev@Base 4:4.11.1
  _ZN7Akonadi11ETMCalendarD1Ev@Base 4:4.11.1

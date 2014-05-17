@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
@@ -727,9 +727,10 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst|arch=alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x x32)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSsC1IPcEET_S1_RKSaIcE@Base 4:4.6.3
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSsC2IPcEET_S1_RKSaIcE@Base 4:4.6.3
- (optional=templinst|arch=!ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.10.5
- (optional=templinst|arch=!ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.10.5
- (optional=templinst|arch=!ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.10.5
+ (optional=templinst)_ZNSt12_Destroy_auxILb0EE9__destroyIPSsEEvT_S3_@Base 4:4.13.1
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.10.5
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.10.5
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.10.5
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED1Ev@Base 4:4.6.5
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED2Ev@Base 4:4.6.5
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEEixERSA_@Base 4:4.3.4
@@ -808,10 +809,10 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS9_ERKS9_@Base 4:4.3.4
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Base 4:4.3.4
- (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
+ (optional=templinst|arch=!amd64|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst|arch=alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x x32)_ZSt13binary_searchIPKccEbT_S2_RKT0_@Base 4:4.7.4
- (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
- (optional=templinst|subst)_ZSt16__introsort_loopIPc{ssize_t}EvT_S1_T0_@Base 4:4.4.0
+ (optional=templinst|arch=!amd64)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
+ (optional=templinst|arch=!amd64|subst)_ZSt16__introsort_loopIPc{ssize_t}EvT_S1_T0_@Base 4:4.4.0
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPKcSsEEN5boost9algorithm6detail10is_any_ofFIcEEET_SA_SA_T0_St26random_access_iterator_tag@Base 4:4.4.0
  _ZTIN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTIN5GpgME17AssuanTransactionE@Base 4:4.4.0
@@ -1590,9 +1591,10 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst|arch=alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x x32)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.7.4
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSsC1IPcEET_S1_RKSaIcE@Base 4:4.6.3
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSsC2IPcEET_S1_RKSaIcE@Base 4:4.6.3
- (optional=templinst|arch=!ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.10.5
- (optional=templinst|arch=!ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.10.5
- (optional=templinst|arch=!ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.10.5
+ (optional=templinst)_ZNSt12_Destroy_auxILb0EE9__destroyIPSsEEvT_S3_@Base 4:4.13.1
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.10.5
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.10.5
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.10.5
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED1Ev@Base 4:4.6.5
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEED2Ev@Base 4:4.6.5
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt3mapIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EES4_St4lessIS6_ESaISt4pairIKS6_S4_EEEixERSA_@Base 4:4.3.4
@@ -1671,10 +1673,10 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE16_M_insert_uniqueERKS9_@Base 4:4.3.4
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS9_ERKS9_@Base 4:4.3.4
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt8_Rb_treeIN5boost6tuples5tupleIN32GpgSignKeyEditInteractor_Private12SignKeyStateEjSsNS1_9null_typeES5_S5_S5_S5_S5_S5_EESt4pairIKS6_S4_ESt10_Select1stIS9_ESt4lessIS6_ESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Base 4:4.3.4
- (optional=templinst|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
+ (optional=templinst|arch=!amd64|subst)_ZSt13__adjust_heapIPc{ssize_t}cEvT_T0_S2_T1_@Base 4:4.4.0
  (optional=templinst|arch=alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390x x32)_ZSt13binary_searchIPKccEbT_S2_RKT0_@Base 4:4.7.4
- (optional=templinst)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
- (optional=templinst|subst)_ZSt16__introsort_loopIPc{ssize_t}EvT_S1_T0_@Base 4:4.4.0
+ (optional=templinst|arch=!amd64)_ZSt16__insertion_sortIPcEvT_S1_@Base 4:4.4.0
+ (optional=templinst|arch=!amd64|subst)_ZSt16__introsort_loopIPc{ssize_t}EvT_S1_T0_@Base 4:4.4.0
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPKcSsEEN5boost9algorithm6detail10is_any_ofFIcEEET_SA_SA_T0_St26random_access_iterator_tag@Base 4:4.4.0
  _ZTIN5GpgME14EditInteractorE@Base 4:4.3.4
  _ZTIN5GpgME17AssuanTransactionE@Base 4:4.4.0

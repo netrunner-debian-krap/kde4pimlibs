@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkldap.so.4 libkldap4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KLDAP10LdapObject13setAttributesERK4QMapI7QString5QListI10QByteArrayEE@Base 4:4.3.4
@@ -151,6 +151,7 @@ libkldap.so.4 libkldap4 #MINVER#
  _ZN5KLDAP16LdapConfigWidget11setSecurityENS0_8SecurityE@Base 4:4.3.4
  _ZN5KLDAP16LdapConfigWidget12setSizeLimitEi@Base 4:4.3.4
  _ZN5KLDAP16LdapConfigWidget12setTimeLimitEi@Base 4:4.3.4
+ _ZN5KLDAP16LdapConfigWidget15hostNameChangedERK7QString@Base 4:4.13.1
  _ZN5KLDAP16LdapConfigWidget16staticMetaObjectE@Base 4:4.3.4
  _ZN5KLDAP16LdapConfigWidget5setDnERKNS_6LdapDNE@Base 4:4.3.4
  _ZN5KLDAP16LdapConfigWidget6setUrlERKNS_7LdapUrlE@Base 4:4.3.4

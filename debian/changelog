@@ -9,6 +9,7 @@ kdepimlibs (4:4.13.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update build dependencies.
   * Update symbols with 4:4.12.4 build log.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 14:25:52 +0200
 

@@ -44,8 +44,12 @@ Depends: ${allLibraries},
          ${misc:Depends},
          ${sameVersionDep:kdelibs5-dev:libakonadi-kde4},
          ${shlibs:Depends}
-Replaces: kdepimlibs-data (<< 4:4.1.80), libkleopatra1-dev, kdepim-runtime (<< 4:4.12)
-Breaks: kdepimlibs-data (<< 4:4.1.80), libkleopatra1-dev, kdepim-runtime (<< 4:4.12)
+Replaces: kdepim-runtime (<< 4:4.13),
+          kdepimlibs-data (<< 4:4.1.80),
+          libkleopatra1-dev
+Breaks: kdepim-runtime (<< 4:4.13),
+        kdepimlibs-data (<< 4:4.1.80),
+        libkleopatra1-dev
 Description: development files for the KDE Development Platform PIM libraries
  This package contains development files for building software that uses
  the KDE Development Platform Personal Information Management libraries.

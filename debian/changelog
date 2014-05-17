@@ -12,6 +12,8 @@ kdepimlibs (4:4.13.1-1) UNRELEASED; urgency=medium
   * Update symbols files.
   * Update libkalarmcal2 acc file
   * New patch: sslv2_disabled.patch
+  * Update install files.
+  * Move akonadi2xml to kdepimlibs5-dev.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 14:25:52 +0200
 

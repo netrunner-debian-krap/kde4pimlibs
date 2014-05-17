@@ -10,6 +10,10 @@
     /usr/include/kalarmcal
 </headers>
 
+<gcc_options>
+    -I/usr/include/kcalcore
+</gcc_options>
+
 <libs>
     /usr/lib/libkalarmcal.so
 </libs>

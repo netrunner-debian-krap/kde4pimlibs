@@ -1,4 +1,4 @@
-kdepimlibs (4:4.13.1-1) UNRELEASED; urgency=medium
+kdepimlibs (4:4.13.1-1) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Make kdepimlibs5-dev break/replace kdepim-runtime < 4.12, since files
@@ -15,7 +15,7 @@ kdepimlibs (4:4.13.1-1) UNRELEASED; urgency=medium
   * Update install files.
   * Move akonadi2xml to kdepimlibs5-dev.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 14:25:52 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 18 May 2014 01:19:39 +0200
 
 kdepimlibs (4:4.12.4-1) unstable; urgency=medium
 

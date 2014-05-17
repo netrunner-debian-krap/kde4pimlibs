@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.3 amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 sparc
+# SymbolsHelper-Confirmed: 4:4.12.4 alpha armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -779,7 +779,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi19CollectionRequester17setMimeTypeFilterERK11QStringList@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequester21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 4:4.4.0
  _ZN7Akonadi19CollectionRequester29changeCollectionDialogOptionsE6QFlagsINS_16CollectionDialog22CollectionDialogOptionEE@Base 4:4.5.86
- (arch=amd64)_ZN7Akonadi19CollectionRequester7Private15fetchCollectionERKNS_10CollectionE@Base 4:4.12.3
+ _ZN7Akonadi19CollectionRequester7Private15fetchCollectionERKNS_10CollectionE@Base 4:4.12.4
  _ZN7Akonadi19CollectionRequester7Private17_k_slotOpenDialogEv@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequester7Private4initEv@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequesterC1EP7QWidget@Base 4:4.3.4
@@ -1985,7 +1985,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !kfreebsd-amd64 !powerpc !powerpcspe !x32)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
+ (optional=templinst|arch=!amd64 !kfreebsd-amd64 !powerpc !powerpcspe !ppc64 !x32)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4

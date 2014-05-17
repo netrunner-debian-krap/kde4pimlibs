@@ -11,6 +11,7 @@ kdepimlibs (4:4.13.1-1) UNRELEASED; urgency=medium
   * Update symbols with 4:4.12.4 build log.
   * Update symbols files.
   * Update libkalarmcal2 acc file
+  * New patch: sslv2_disabled.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 14:25:52 +0200
 

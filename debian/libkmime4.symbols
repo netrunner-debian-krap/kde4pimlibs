@@ -153,9 +153,9 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Content5clearEv@Base 4:4.3.4
  _ZN5KMime7Content5parseEv@Base 4:4.3.4
  (optional=templinst)_ZN5KMime7Content6headerINS_7Headers11ContentTypeEEEPT_b@Base 4:4.4.0
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.13.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.13.1
- (optional=templinst)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.13.1
+ (optional=templinst|arch=!amd64)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.13.1
+ (optional=templinst|arch=!amd64)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.13.1
+ (optional=templinst|arch=!amd64)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.13.1
  _ZN5KMime7Content7setBodyERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content7setHeadERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content8assembleEv@Base 4:4.3.4

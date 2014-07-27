@@ -1,16 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64
+# SymbolsHelper-Confirmed: 4:4.13.1 alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
  _Z5qHashRKN7Akonadi3TagE@Base 4:4.13.1
  _Z5qHashRKN7Akonadi6EntityE@Base 4:4.3.4
- (optional=external|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZN4KUrl4ListD1Ev@Base 4:4.7.4
- (optional=external|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZN4KUrl4ListD2Ev@Base 4:4.7.4
- (optional=templinst|arch=ia64 sparc)_ZN5boost16exception_detail19error_info_injectorINS_9not_a_dagEEC1ERKS3_@Base 4:4.11.5
- (optional=templinst|arch=ia64 sparc)_ZN5boost16exception_detail19error_info_injectorINS_9not_a_dagEEC2ERKS3_@Base 4:4.11.5
- (optional=templinst|arch=ia64 sparc)_ZN5boost16exception_detail19error_info_injectorINS_9not_a_dagEED0Ev@Base 4:4.11.5
- (optional=templinst|arch=ia64 sparc)_ZN5boost16exception_detail19error_info_injectorINS_9not_a_dagEED1Ev@Base 4:4.11.5
- (optional=templinst|arch=ia64 sparc)_ZN5boost16exception_detail19error_info_injectorINS_9not_a_dagEED2Ev@Base 4:4.11.5
  _ZN7Akonadi10Collection10setVirtualEb@Base 4:4.10.0
  _ZN7Akonadi10Collection11setResourceERK7QString@Base 4:4.3.4
  _ZN7Akonadi10Collection13setStatisticsERKNS_20CollectionStatisticsE@Base 4:4.3.4
@@ -1505,7 +1498,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi6Entity19setParentCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi6Entity5setIdEx@Base 4:4.3.4
  _ZN7Akonadi6Entity6d_funcEv@Base 4:4.3.4
- (optional=templinst|arch=!kfreebsd-amd64 !x32)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
+ (optional=templinst)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
  _ZN7Akonadi6EntityC1EPNS_13EntityPrivateE@Base 4:4.3.4
  _ZN7Akonadi6EntityC1ERKS0_@Base 4:4.3.4
  _ZN7Akonadi6EntityC2EPNS_13EntityPrivateE@Base 4:4.3.4
@@ -1624,15 +1617,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi8ItemSync18setTransactionModeENS0_15TransactionModeE@Base 4:4.5.86
  _ZN7Akonadi8ItemSync19setStreamingEnabledEb@Base 4:4.3.4
  _ZN7Akonadi8ItemSync23setIncrementalSyncItemsERK5QListINS_4ItemEES5_@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private11deleteItemsERK5QListINS_4ItemEE@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private12processItemsEv@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private15createLocalItemERKNS_4ItemE@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private17slotLocalListDoneEP4KJob@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private19slotLocalChangeDoneEP4KJob@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private19slotLocalDeleteDoneEP4KJob@Base 4:4.5.0
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private21slotTransactionResultEP4KJob@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private7executeEv@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZN7Akonadi8ItemSync7Private9checkDoneEv@Base 4:4.3.4
  _ZN7Akonadi8ItemSync7doStartEv@Base 4:4.3.4
  _ZN7Akonadi8ItemSync8rollbackEv@Base 4:4.5.0
  _ZN7Akonadi8ItemSyncC1ERKNS_10CollectionEP7QObject@Base 4:4.3.4
@@ -2299,7 +2283,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=!amd64 !kfreebsd-amd64 !powerpc !powerpcspe !ppc64 !x32)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
+ (optional=templinst|arch=!alpha !amd64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !powerpcspe !ppc64 !sparc !x32)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4
@@ -2326,7 +2310,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi7Session10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi7Session9sessionIdEv@Base 4:4.3.4
  _ZNK7Akonadi8ItemSync10metaObjectEv@Base 4:4.3.4
- (optional=private|arch=!amd64)_ZNK7Akonadi8ItemSync7Private12subjobParentEv@Base 4:4.3.4
  _ZNK7Akonadi8ItemView10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi8TagModel10headerDataEiN2Qt11OrientationEi@Base 4:4.13.1
  _ZNK7Akonadi8TagModel10metaObjectEv@Base 4:4.13.1
@@ -2377,52 +2360,13 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi9TagWidget10metaObjectEv@Base 4:4.13.1
  _ZNK7Akonadi9TagWidget9selectionEv@Base 4:4.13.1
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 4:4.3.4
- (optional=templinst|subst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN5boost6detail12adj_list_genINS0_14adjacency_listINS0_4vecSES4_NS0_9directedSENS0_11no_propertyES6_S6_NS0_5listSEEES4_S4_S5_S6_S6_S6_S7_E6config13stored_vertexESaISB_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPSB_SD_EE{size_t}RKSB_@Base 4:4.3.4
- (optional=templinst|arch=ia64 sparc|subst)_ZNSt6vectorIN5boost6detail20stored_edge_propertyI{size_t}NS0_11no_propertyEEESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.11.5
- (optional=templinst|arch=ia64 sparc|subst)_ZNSt6vectorIN5boost6detail20stored_edge_propertyI{size_t}NS0_11no_propertyEEESaIS4_EEaSERKS6_@Base 4:4.11.5
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN7Akonadi13MimeTypeEntryESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.5.86
- (optional=templinst|subst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN7Akonadi13MimeTypeEntryESaIS1_EE7reserveE{size_t}@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN7Akonadi13MimeTypeEntryESaIS1_EED1Ev@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN7Akonadi13MimeTypeEntryESaIS1_EED2Ev@Base 4:4.6.1
- (optional=templinst|subst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN7Akonadi7_detail12TypedPayloadESaIS2_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS2_S4_EE{size_t}RKS2_@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN7Akonadi7_detail12TypedPayloadESaIS2_EED1Ev@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZNSt6vectorIN7Akonadi7_detail12TypedPayloadESaIS2_EED2Ev@Base 4:4.6.1
- (optional=templinst|arch=ia64 sparc|subst)_ZNSt6vectorISt4pairI{size_t}S0_IN5boost6detail13out_edge_iterIN9__gnu_cxx17__normal_iteratorIPNS2_20stored_edge_propertyI{size_t}NS1_11no_propertyEEES_IS8_SaIS8_EEEE{size_t}NS2_14edge_desc_implINS1_12directed_tagE{size_t}EE{ssize_t}EESG_EESaISI_EE13_M_insert_auxENS5_IPSI_SK_EERKSI_@Base 4:4.11.5
  (optional=templinst)_ZNSt8auto_ptrIN7Akonadi9Exception7PrivateEED1Ev@Base 4:4.5.86
  (optional=templinst)_ZNSt8auto_ptrIN7Akonadi9Exception7PrivateEED2Ev@Base 4:4.6.1
- (optional=templinst|subst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt11__push_heapIN5QListIN7Akonadi10CollectionEE8iteratorE{qptrdiff}S2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.6.1
- (optional=templinst|subst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt11__push_heapIN5QListIN7Akonadi4ItemEE8iteratorE{qptrdiff}S2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.6.1
- (optional=templinst|arch=s390 sparc)_ZSt13__adjust_heapIN5QListIN7Akonadi10CollectionEE8iteratorEiS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.8.3
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN7Akonadi10CollectionEE8iteratorExS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.8.3
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt13__adjust_heapIN5QListIN7Akonadi4ItemEE8iteratorEiS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.3.4
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN7Akonadi4ItemEE8iteratorExS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.5.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt13__heap_selectIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_SO_T0_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt13__heap_selectIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_SO_T0_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt16__insertion_sortIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.4.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt16__insertion_sortIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.3.4
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt16__introsort_loopIN5QListIN7Akonadi10CollectionEE8iteratorEiN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_T1_@Base 4:4.4.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt16__introsort_loopIN5QListIN7Akonadi4ItemEE8iteratorEiN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_T1_@Base 4:4.3.4
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt19__move_median_firstIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_SO_T0_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt19__move_median_firstIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_SO_T0_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt21__unguarded_partitionIN5QListIN7Akonadi10CollectionEE8iteratorES2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEET_SO_SO_RKT0_T1_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt21__unguarded_partitionIN5QListIN7Akonadi4ItemEE8iteratorES2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEET_SO_SO_RKT0_T1_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt22__final_insertion_sortIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.4.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt22__final_insertion_sortIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.3.4
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt25__unguarded_linear_insertIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_@Base 4:4.6.1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt6__findIPK10QByteArrayS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt6__findIPK7QStringS0_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN5QListIN7Akonadi10CollectionEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_NS1_6EntityEEENSC_INS5_3argILi1EEEEEEEEEEEET_SL_SL_T0_St26random_access_iterator_tag@Base 4:4.4.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN5QListIN7Akonadi10CollectionEE14const_iteratorEN5boost3_bi6bind_tIbNS6_11logical_notENS6_5list1INS7_IbPFbRKS2_ENS9_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.4.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_NS1_6EntityEEENSC_INS5_3argILi1EEEEEEEEEEEET_SL_SL_T0_St26random_access_iterator_tag@Base 4:4.4.0
- (optional=templinst|arch=sparc)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS5_4_mfi4cmf0Ib7QStringEENS6_5list1INS7_ISA_NS9_ISA_S2_EENSC_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.12.3
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE14const_iteratorEN5boost3_bi6bind_tIbNS6_11logical_notENS6_5list1INS7_IbPFbRKS2_ENS9_INS5_3argILi1EEEEEEEEEEEET_SK_SK_T0_St26random_access_iterator_tag@Base 4:4.4.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_5equalENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS6_5valueIxEEEEEEET_SN_SN_T0_St26random_access_iterator_tag@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPN7Akonadi7_detail12TypedPayloadESt6vectorIS4_SaIS4_EEEENS3_28BySharedPointerAndMetaTypeIDEET_SB_SB_T0_St26random_access_iterator_tag@Base 4:4.5.86
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9make_heapIN5QListIN7Akonadi10CollectionEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.4.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390x !x32)_ZSt9make_heapIN5QListIN7Akonadi4ItemEE8iteratorEN5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_SO_T0_@Base 4:4.3.4
+ (optional=templinst|arch=armhf mipsel powerpc ppc64 s390x)_ZSt4swapIN7Akonadi3TagEEvRT_S3_@Base 4:4.13.1
+ (optional=templinst|arch=armhf mipsel powerpc ppc64 s390x)_ZSt4swapIN7Akonadi4ItemEEvRT_S3_@Base 4:4.13.1
  _ZTIN5boost16exception_detail10clone_baseE@Base 4:4.11.1
- (optional=external|arch=ia64 sparc)_ZTIN5boost16exception_detail19error_info_injectorINS_9not_a_dagEEE@Base 4:4.11.5
  (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
  _ZTIN7Akonadi11ItemCopyJobE@Base 4:4.3.4
  _ZTIN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
@@ -2544,7 +2488,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTIN7Akonadi9TagWidgetE@Base 4:4.13.1
  _ZTIN7Akonadi9UnlinkJobE@Base 4:4.3.4
  _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.11.1
- (optional=external|arch=ia64 sparc)_ZTSN5boost16exception_detail19error_info_injectorINS_9not_a_dagEEE@Base 4:4.11.5
  (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTSN7Akonadi11ItemCopyJobE@Base 4:4.3.4
  _ZTSN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
@@ -2666,7 +2609,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTSN7Akonadi9TagWidgetE@Base 4:4.13.1
  _ZTSN7Akonadi9UnlinkJobE@Base 4:4.3.4
  _ZTVN5boost16exception_detail10clone_baseE@Base 4:4.11.1
- (optional=external|arch=ia64 sparc)_ZTVN5boost16exception_detail19error_info_injectorINS_9not_a_dagEEE@Base 4:4.11.5
  (optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4
  _ZTVN7Akonadi11ItemCopyJobE@Base 4:4.3.4
  _ZTVN7Akonadi11ItemMonitor7PrivateE@Base 4:4.3.4
@@ -2808,4 +2750,3 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (c++)"non-virtual thunk to Akonadi::TagManagementDialog::~TagManagementDialog()@Base" 4:4.13.1
  (c++)"non-virtual thunk to Akonadi::TagSelectionDialog::~TagSelectionDialog()@Base" 4:4.13.1
  (c++)"non-virtual thunk to Akonadi::TagWidget::~TagWidget()@Base" 4:4.13.1
- (optional=external|c++|arch=ia64 sparc)"non-virtual thunk to boost::exception_detail::error_info_injector<boost::not_a_dag>::~error_info_injector()@Base" 4:4.11.5

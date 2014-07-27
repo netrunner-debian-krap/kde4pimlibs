@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.13.1 alpha armel hurd-i386 mips
 libsyndication.so.4 libsyndication4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN11Syndication10PersonImplC1ERK7QStringS3_S3_@Base 4:4.3.4
@@ -90,9 +90,6 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication15itunesNamespaceEv@Base 4:4.3.4
  _ZN11Syndication15plainTextToHtmlERK7QString@Base 4:4.3.4
  _ZN11Syndication15resolveEntitiesERK7QString@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED0Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication16ParserCollectionINS_4FeedEED2Ev@Base 4:4.6.1
  _ZN11Syndication16SpecificDocumentD0Ev@Base 4:4.3.4
  _ZN11Syndication16SpecificDocumentD1Ev@Base 4:4.3.4
  _ZN11Syndication16SpecificDocumentD2Ev@Base 4:4.3.4
@@ -512,9 +509,6 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication6LoaderD0Ev@Base 4:4.3.4
  _ZN11Syndication6LoaderD1Ev@Base 4:4.3.4
  _ZN11Syndication6LoaderD2Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED0Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst)_ZN11Syndication6MapperINS_4FeedEED2Ev@Base 4:4.6.1
  _ZN11Syndication6PersonD0Ev@Base 4:4.3.4
  _ZN11Syndication6PersonD1Ev@Base 4:4.3.4
  _ZN11Syndication6PersonD2Ev@Base 4:4.3.4

@@ -306,11 +306,11 @@ Description: library for handling MIME data
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
-Package: libkontactinterface4
+Package: libkontactinterface4a
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kontact (<< 4:4.1.80), libkontactinterfaces4
-Breaks: kontact (<< 4:4.1.80), libkontactinterfaces4
+Replaces: libkontactinterface4
+Breaks: libkontactinterface4
 Description: Kontact interface library
  This library provides the glue necessary for application "Parts" to be
  embedded as a Kontact component (or plugin).

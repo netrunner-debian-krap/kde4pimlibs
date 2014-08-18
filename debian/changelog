@@ -1,3 +1,9 @@
+kdepimlibs (4:4.14.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:31:51 +0200
+
 kdepimlibs (4:4.13.3-2) unstable; urgency=medium
 
   * Rename libkontactinterface4 to libkontactinterface4a, due to abi

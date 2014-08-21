@@ -1,11 +1,11 @@
-kdepimlibs (4:4.14.0-1) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Remove upstream applied patches: ship_akonaditest and ship_knut
   * Update build dependencies.
   * Update symbols file with 4:4.13.3-2 buildds logs.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:31:51 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 01:55:23 +0200
 
 kdepimlibs (4:4.13.3-2) unstable; urgency=medium
 

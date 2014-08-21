@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 armel
+# SymbolsHelper-Confirmed: 4:4.13.3 sparc
 libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio-plugins
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN13MailTransport10ServerTest11progressBarEv@Base 4:4.3.4
@@ -260,8 +260,8 @@ libmailtransport.so.4 libmailtransport4 #MINVER#, kdepim-runtime, kdepimlibs-kio
  _ZN13MailTransport9TransportD0Ev@Base 4:4.3.4
  _ZN13MailTransport9TransportD1Ev@Base 4:4.3.4
  _ZN13MailTransport9TransportD2Ev@Base 4:4.3.4
- (optional=gccinternal|arch=armel sparc)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.11.5
- (optional=gccinternal|arch=armel sparc)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.11.5
+ (optional=gccinternal|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.11.5
+ (optional=gccinternal|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.11.5
  _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
  _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
  _ZN7Akonadi12FilterActionD0Ev@Base 4:4.4.0

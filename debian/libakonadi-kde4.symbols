@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.13.3 arm64 armhf mipsel powerpc ppc64 s390x
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -2283,7 +2283,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=!alpha !amd64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !powerpcspe !ppc64 !sparc !x32)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.6.2
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4
@@ -2364,8 +2363,6 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (optional=templinst)_ZNSt8auto_ptrIN7Akonadi9Exception7PrivateEED2Ev@Base 4:4.6.1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN7Akonadi10CollectionEE8iteratorExS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.8.3
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN7Akonadi4ItemEE8iteratorExS2_N5boost3_bi6bind_tIbNS6_4lessENS6_5list2INS7_IxNS5_4_mfi4cmf0IxNS1_6EntityEEENS6_5list1INS5_3argILi1EEEEEEENS7_IxSD_NSE_INSF_ILi2EEEEEEEEEEEEvT_T0_SP_T1_T2_@Base 4:4.5.0
- (optional=templinst|arch=armhf mipsel powerpc ppc64 s390x)_ZSt4swapIN7Akonadi3TagEEvRT_S3_@Base 4:4.13.1
- (optional=templinst|arch=armhf mipsel powerpc ppc64 s390x)_ZSt4swapIN7Akonadi4ItemEEvRT_S3_@Base 4:4.13.1
  _ZTIN5boost16exception_detail10clone_baseE@Base 4:4.11.1
  (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
  _ZTIN7Akonadi11ItemCopyJobE@Base 4:4.3.4

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 amd64
+# SymbolsHelper-Confirmed: 4:4.13.3 amd64 armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc ppc64 s390x
 libkmime.so.4 libkmime4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN5KMime12ContentIndexE@Base 4:4.3.4
@@ -113,8 +113,6 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime5Types7Mailbox7setNameERK7QString@Base 4:4.3.4
  _ZN5KMime5Types7MailboxD1Ev@Base 4:4.6.5
  _ZN5KMime5Types7MailboxD2Ev@Base 4:4.6.5
- (optional=gccinternal|arch=armhf mipsel s390x)_ZN5KMime5Types8AddrSpecC1Ev@Base 4:4.11.5
- (optional=gccinternal|arch=armhf mipsel s390x)_ZN5KMime5Types8AddrSpecC2Ev@Base 4:4.11.5
  _ZN5KMime5Types8AddrSpecD1Ev@Base 4:4.6.5
  _ZN5KMime5Types8AddrSpecD2Ev@Base 4:4.6.5
  _ZN5KMime7Content10addContentEPS0_b@Base 4:4.3.4
@@ -153,9 +151,9 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Content5clearEv@Base 4:4.3.4
  _ZN5KMime7Content5parseEv@Base 4:4.3.4
  (optional=templinst)_ZN5KMime7Content6headerINS_7Headers11ContentTypeEEEPT_b@Base 4:4.4.0
- (optional=templinst|arch=!armhf !hppa !i386 !kfreebsd-amd64 !kfreebsd-i386 !mipsel !powerpc !ppc64 !s390x)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.13.1
- (optional=templinst|arch=!armhf !hppa !i386 !kfreebsd-amd64 !kfreebsd-i386 !mipsel !powerpc !ppc64 !s390x)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.13.1
- (optional=templinst|arch=!armhf !hppa !i386 !kfreebsd-amd64 !kfreebsd-i386 !mipsel !powerpc !ppc64 !s390x)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.13.1
+ (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4DateEEEPT_b@Base 4:4.13.1
+ (optional=templinst)_ZN5KMime7Content6headerINS_7Headers4FromEEEPT_b@Base 4:4.13.1
+ (optional=templinst)_ZN5KMime7Content6headerINS_7Headers5LinesEEEPT_b@Base 4:4.13.1
  _ZN5KMime7Content7setBodyERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content7setHeadERK10QByteArray@Base 4:4.3.4
  _ZN5KMime7Content8assembleEv@Base 4:4.3.4

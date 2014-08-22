@@ -4,6 +4,7 @@ kdepimlibs (4:4.14.0-1~) UNRELEASED; urgency=medium
   * Remove upstream applied patches: ship_akonaditest and ship_knut
   * Update build dependencies.
   * Update symbols file with 4:4.13.3-2 buildds logs.
+  * Update symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 01:55:23 +0200
 

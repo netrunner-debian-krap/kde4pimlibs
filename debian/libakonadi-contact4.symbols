@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 amd64 arm64 armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc ppc64 s390x
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -268,8 +268,10 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi27EmailAddressSelectionWidget7Private4initEv@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC1EP18QAbstractItemModelP7QWidget@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC1EP7QWidget@Base 4:4.5.0
+ _ZN7Akonadi27EmailAddressSelectionWidgetC1EbP18QAbstractItemModelP7QWidget@Base 4:4.14.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC2EP18QAbstractItemModelP7QWidget@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetC2EP7QWidget@Base 4:4.5.0
+ _ZN7Akonadi27EmailAddressSelectionWidgetC2EbP18QAbstractItemModelP7QWidget@Base 4:4.14.0
  _ZN7Akonadi27EmailAddressSelectionWidgetD0Ev@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetD1Ev@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionWidgetD2Ev@Base 4:4.5.0

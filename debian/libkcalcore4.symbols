@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 sparc
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libkcalcore.so.4 libkcalcore4 #MINVER#
  Parse_MIME@Base 4:4.5.86
  Parse_MIME_FromFile@Base 4:4.5.86
@@ -403,8 +403,10 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore4Todo8setDtDueERK9KDateTimeb@Base 4:4.5.86
  _ZN8KCalCore4Todo9serializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore4Todo9setAllDayEb@Base 4:4.5.86
+ _ZN8KCalCore4TodoC1ERKNS_9IncidenceE@Base 4:4.14.0
  _ZN8KCalCore4TodoC1ERKS0_@Base 4:4.5.86
  _ZN8KCalCore4TodoC1Ev@Base 4:4.5.86
+ _ZN8KCalCore4TodoC2ERKNS_9IncidenceE@Base 4:4.14.0
  _ZN8KCalCore4TodoC2ERKS0_@Base 4:4.5.86
  _ZN8KCalCore4TodoC2Ev@Base 4:4.5.86
  _ZN8KCalCore4TodoD0Ev@Base 4:4.5.86
@@ -462,8 +464,10 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore5Event8setDtEndERK9KDateTime@Base 4:4.5.86
  _ZN8KCalCore5Event9serializeER11QDataStream@Base 4:4.12.2
  _ZN8KCalCore5Event9setAllDayEb@Base 4:4.5.86
+ _ZN8KCalCore5EventC1ERKNS_9IncidenceE@Base 4:4.14.0
  _ZN8KCalCore5EventC1ERKS0_@Base 4:4.5.86
  _ZN8KCalCore5EventC1Ev@Base 4:4.5.86
+ _ZN8KCalCore5EventC2ERKNS_9IncidenceE@Base 4:4.14.0
  _ZN8KCalCore5EventC2ERKS0_@Base 4:4.5.86
  _ZN8KCalCore5EventC2Ev@Base 4:4.5.86
  _ZN8KCalCore5EventD0Ev@Base 4:4.5.86
@@ -541,8 +545,12 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZN8KCalCore8Attendee16customPropertiesEv@Base 4:4.5.86
  _ZN8KCalCore8Attendee17setCustomPropertyERK10QByteArrayRK7QString@Base 4:4.5.86
  _ZN8KCalCore8Attendee6setUidERK7QString@Base 4:4.5.86
+ _ZN8KCalCore8Attendee7Private9setCuTypeENS0_6CuTypeE@Base 4:4.14.0
+ _ZN8KCalCore8Attendee7Private9setCuTypeERK7QString@Base 4:4.14.0
  _ZN8KCalCore8Attendee7setRSVPEb@Base 4:4.5.86
  _ZN8KCalCore8Attendee7setRoleENS0_4RoleE@Base 4:4.5.86
+ _ZN8KCalCore8Attendee9setCuTypeENS0_6CuTypeE@Base 4:4.14.0
+ _ZN8KCalCore8Attendee9setCuTypeERK7QString@Base 4:4.14.0
  _ZN8KCalCore8Attendee9setStatusENS0_8PartStatE@Base 4:4.5.86
  _ZN8KCalCore8AttendeeC1ERK7QStringS3_bNS0_8PartStatENS0_4RoleES3_@Base 4:4.5.86
  _ZN8KCalCore8AttendeeC1ERKS0_@Base 4:4.5.86
@@ -1040,8 +1048,12 @@ libkcalcore.so.4 libkcalcore4 #MINVER#
  _ZNK8KCalCore8Attendee3uidEv@Base 4:4.5.86
  _ZNK8KCalCore8Attendee4RSVPEv@Base 4:4.5.86
  _ZNK8KCalCore8Attendee4roleEv@Base 4:4.5.86
+ _ZNK8KCalCore8Attendee6cuTypeEv@Base 4:4.14.0
  _ZNK8KCalCore8Attendee6statusEv@Base 4:4.5.86
+ _ZNK8KCalCore8Attendee7Private6cuTypeEv@Base 4:4.14.0
+ _ZNK8KCalCore8Attendee7Private9cuTypeStrEv@Base 4:4.14.0
  _ZNK8KCalCore8Attendee8delegateEv@Base 4:4.5.86
+ _ZNK8KCalCore8Attendee9cuTypeStrEv@Base 4:4.14.0
  _ZNK8KCalCore8Attendee9delegatorEv@Base 4:4.5.86
  _ZNK8KCalCore8AttendeeeqERKS0_@Base 4:4.5.86
  _ZNK8KCalCore8AttendeeneERKS0_@Base 4:4.5.86

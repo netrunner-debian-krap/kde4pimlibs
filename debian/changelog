@@ -1,10 +1,10 @@
-kdepimlibs (4:4.14.1-1~) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.1-1) unstable; urgency=medium
 
   * New upstream release (4.14.1).
   * Update symbols files from buildds logs (4:4.14.0-1).
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:31:09 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Sep 2014 19:01:01 +0200
 
 kdepimlibs (4:4.14.0-1) unstable; urgency=medium
 

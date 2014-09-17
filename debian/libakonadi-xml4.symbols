@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.1 amd64
 libakonadi-xml.so.4 libakonadi-xml4 #MINVER#
  _ZN7Akonadi11XmlDocument8loadFileERK7QString@Base 4:4.12.2
  _ZN7Akonadi11XmlDocumentC1ERK7QString@Base 4:4.12.2
@@ -19,11 +19,13 @@ libakonadi-xml.so.4 libakonadi-xml4 #MINVER#
  _ZN7Akonadi11XmlWriteJobD0Ev@Base 4:4.12.2
  _ZN7Akonadi11XmlWriteJobD1Ev@Base 4:4.12.2
  _ZN7Akonadi11XmlWriteJobD2Ev@Base 4:4.12.2
+ _ZN7Akonadi9XmlReader12elementToTagERK11QDomElement@Base 4:4.14.1
  _ZN7Akonadi9XmlReader13elementToItemERK11QDomElementb@Base 4:4.12.2
  _ZN7Akonadi9XmlReader14readAttributesERK11QDomElementRNS_6EntityE@Base 4:4.12.2
  _ZN7Akonadi9XmlReader15readCollectionsERK11QDomElement@Base 4:4.12.2
  _ZN7Akonadi9XmlReader18elementToAttributeERK11QDomElement@Base 4:4.12.2
  _ZN7Akonadi9XmlReader19elementToCollectionERK11QDomElement@Base 4:4.12.2
+ _ZN7Akonadi9XmlReader8readTagsERK11QDomElement@Base 4:4.14.1
  _ZN7Akonadi9XmlWriter13itemToElementERKNS_4ItemER12QDomDocument@Base 4:4.12.2
  _ZN7Akonadi9XmlWriter15writeAttributesERKNS_6EntityER11QDomElement@Base 4:4.12.2
  _ZN7Akonadi9XmlWriter15writeCollectionERKNS_10CollectionER11QDomElement@Base 4:4.12.2
@@ -39,6 +41,7 @@ libakonadi-xml.so.4 libakonadi-xml4 #MINVER#
  _ZNK7Akonadi11XmlDocument20collectionByRemoteIdERK7QString@Base 4:4.12.2
  _ZNK7Akonadi11XmlDocument21itemElementByRemoteIdERK7QString@Base 4:4.12.2
  _ZNK7Akonadi11XmlDocument27collectionElementByRemoteIdERK7QString@Base 4:4.12.2
+ _ZNK7Akonadi11XmlDocument4tagsEv@Base 4:4.14.1
  _ZNK7Akonadi11XmlDocument5itemsERKNS_10CollectionEb@Base 4:4.12.2
  _ZNK7Akonadi11XmlDocument7isValidEv@Base 4:4.12.2
  _ZNK7Akonadi11XmlDocument8documentEv@Base 4:4.12.2

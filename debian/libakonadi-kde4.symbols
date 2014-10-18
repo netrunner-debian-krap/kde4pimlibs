@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.1 amd64
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -1083,6 +1083,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi21AgentFilterProxyModel17addMimeTypeFilterERK7QString@Base 4:4.3.4
  _ZN7Akonadi21AgentFilterProxyModel19addCapabilityFilterERK7QString@Base 4:4.3.4
  _ZN7Akonadi21AgentFilterProxyModel19excludeCapabilitiesERK7QString@Base 4:4.5.86
+ _ZN7Akonadi21AgentFilterProxyModel7Private18filterAcceptRegExpERK11QModelIndexRK7QRegExp@Base 4:4.14.2
  _ZN7Akonadi21AgentFilterProxyModelC1EP7QObject@Base 4:4.3.4
  _ZN7Akonadi21AgentFilterProxyModelC2EP7QObject@Base 4:4.3.4
  _ZN7Akonadi21AgentFilterProxyModelD0Ev@Base 4:4.3.4

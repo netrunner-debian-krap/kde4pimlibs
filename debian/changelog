@@ -1,3 +1,12 @@
+kdepimlibs (4:4.14.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add new error code for ERR_SSL_FAILED to support fixing issue where
+    connection via SSL using an unknown certificate could not be rejected
+    (Closes: #769852)
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 16 Nov 2014 22:35:39 -0500
+
 kdepimlibs (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).

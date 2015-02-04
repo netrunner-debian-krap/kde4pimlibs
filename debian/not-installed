@@ -1,0 +1,4 @@
+-./usr/bin/akonadi_benchmarker
+-./usr/include/kimaptest/fakeserver.h
+-./usr/include/kimaptest/mockjob.h
+-./usr/lib/libkimaptest.a

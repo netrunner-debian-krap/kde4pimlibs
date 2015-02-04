@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/KDE/Akonadi/Calendar
+    /usr/include/akonadi/calendar
+</headers>
+
+<libs>
+    /usr/lib/libakonadi-calendar.so
+</libs>
+
+</descriptor>

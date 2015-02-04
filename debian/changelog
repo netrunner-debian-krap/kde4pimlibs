@@ -1,0 +1,2400 @@
+kdepimlibs (4:4.14.4-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Feb 2015 13:19:15 +0000
+
+kdepimlibs (4:4.14.2-0ubuntu2) vivid; urgency=medium
+
+  * No-change rebuild for new libical
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 06 Jan 2015 12:08:36 +0000
+
+kdepimlibs (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Batchpatch symbols. New symbols.
+ 
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 14:03:10 -0700
+
+kdepimlibs (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Batchpatch new symbols. 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:47:36 +0200
+
+kdepimlibs (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 12:47:34 +0200
+
+kdepimlibs (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release candidate
+  * Patched symbols libakonadi-contact4.symbols with batchpatch.
+
+  [ Jonathan Riddell ]
+  * Update symbols files
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:34:56 +0200
+
+kdepimlibs (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Add a new symbol to libakonadi-kde4.symbols
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 25 Jul 2014 07:27:26 -0700
+
+kdepimlibs (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+  * Remove ship_akonaditest patch applied upstream
+  * Remove ship_knut applied upstream
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 17 Jul 2014 14:25:54 -0700
+
+kdepimlibs (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:53:25 +0100
+
+kdepimlibs (4:4.13.1-1ubuntu2) utopic; urgency=medium
+
+  * Build-depend on libboost-graph1.55-dev, not libboost1.55-graph-dev.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 04 Jun 2014 21:09:17 -0600
+
+kdepimlibs (4:4.13.1-1ubuntu1) utopic; urgency=medium
+
+  * Merge with debian, remaining changes
+    - Add not installed
+    - Keep our symbols files
+  * Use versioned boost for Utopic
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 21 May 2014 16:42:11 +0200
+
+kdepimlibs (4:4.13.1-1) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Make kdepimlibs5-dev break/replace kdepim-runtime < 4.12, since files
+    were moved from kdepim-runtime to kdepimlibs.
+  * Slightly improve some package descriptions. (Closes: #721008)
+
+  [ Maximiliano Curia ]
+  * New upstream release.
+  * Update build dependencies.
+  * Update symbols with 4:4.12.4 build log.
+  * Update symbols files.
+  * Update libkalarmcal2 acc file
+  * New patch: sslv2_disabled.patch
+  * Update install files.
+  * Move akonadi2xml to kdepimlibs5-dev.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 18 May 2014 01:19:39 +0200
+
+kdepimlibs (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 21:53:31 +0100
+
+kdepimlibs (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:20:40 +0200
+
+kdepimlibs (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  [ Rohan Garg ]
+  * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Update symbols
+  * libakonadi-xml4 breaks/replaces kdepim-runtime << 4:4.11.80 (LP: #1262748) 
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:09:21 +0100
+
+kdepimlibs (4:4.12.90-0ubuntu2) trusty; urgency=medium
+
+  * Remove dep on nepomuk now obsolete
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 23:33:55 +0000
+
+kdepimlibs (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  [ Philip Muškovac ]
+  * fix libakonadi-xml4.install for new lib version
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Mar 2014 23:59:53 +0000
+
+kdepimlibs (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:25:17 +0200
+
+kdepimlibs (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:09 +0100
+
+kdepimlibs (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:42:13 +0100
+
+kdepimlibs (4:4.12.2-1) experimental; urgency=medium
+
+  * New upstream release.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildd's logs (Closes: #737118).
+
+  [ Maximiliano Curia ]
+  * Update symbols files.
+  * Update acc files.
+  * New binary package: libakonadi-xml4.
+  * Update install files.
+  * New patch: ship_akonaditest
+  * Add shlibs to kdelibs5-dev.
+  * New patch: ship_knut
+  * Add knut to the install files.
+  * Bump kde-sc-dev-latest build dependency.
+  * Do not install akonadi2xml cmd.
+  * New patch: add_soname_to_xsd_file
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Feb 2014 16:42:11 +0100
+
+kdepimlibs (4:4.12.2-0ubuntu2) trusty; urgency=medium
+
+  * Update symbol files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 12 Feb 2014 13:20:15 +0000
+
+kdepimlibs (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Feb 2014 23:52:19 +0000
+
+kdepimlibs (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:10:20 +0000
+
+kdepimlibs (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 16:50:28 +0000
+
+kdepimlibs (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+
+  [ Rohan Garg ]
+  * Cleanup, remove empty debian/patches
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 12:48:52 +0000
+
+kdepimlibs (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Add new symbol to libakonadi-kde4.symbols
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 17:57:40 +0100
+
+kdepimlibs (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream beta release
+    - Bump akonadi requirement to 1.10.45
+    - Update install files
+    - Update symbols
+
+  [ Philip Muškovac ]
+  * kdepimlibs-dev/-dbg breaks/replaces kdepim-runtime/-dbg (<< 4:4.11.80)
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:36:44 +0100
+
+kdepimlibs (4:4.11.5-4) unstable; urgency=medium
+
+  * Update symbols files with a full build generated in a powerpc porterbox,
+    and this time really (Closes: #736603).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 25 Jan 2014 15:53:32 -0300
+
+kdepimlibs (4:4.11.5-3) unstable; urgency=medium
+
+  * Update symbols files with buildds' log (Closes: #736603).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 25 Jan 2014 12:22:57 -0300
+
+kdepimlibs (4:4.11.5-2) unstable; urgency=medium
+
+  * Update symbols files with buildd's log (Closes: #736563).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 25 Jan 2014 00:33:53 -0300
+
+kdepimlibs (4:4.11.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add autopkgtests.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * Update libakonadi-calendar4 extended description, thanks to Filipus
+    Klutiero. (Closes: #721009)
+  * Remove always_reset_dosslfallback.diff, applied upstream.
+  * Enable build failures on missing symbols.
+  * Add abi-compliance-checker info.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 12:38:53 -0300
+
+kdepimlibs (4:4.11.3-2) unstable; urgency=low
+
+  * Disable --as-needed for ia64 hosts. (Closes: #730157)
+  * New patch: always_reset_dosslfallback.diff. (Closes: #727808)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 25 Nov 2013 15:32:42 +0100
+
+kdepimlibs (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 06 Nov 2013 18:03:07 +0100
+
+kdepimlibs (4:4.11.2-2) experimental; urgency=low
+
+  * Bump build-dependencies versions.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Oct 2013 11:02:19 +0200
+
+kdepimlibs (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update symbols files.
+  * Update build-dependencies.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:27:30 +0200
+
+kdepimlibs (4:4.11.2-0ubuntu2) trusty; urgency=low
+
+  * No change rebuild for Boost 1.54 transition.
+
+ -- Dmitrijs Ledkovs <xnox@ubuntu.com>  Wed, 23 Oct 2013 10:28:41 +0100
+
+kdepimlibs (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:20:53 +0100
+
+kdepimlibs (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 06 Sep 2013 22:20:07 +0100
+
+kdepimlibs (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 13 Aug 2013 23:49:48 +0100
+
+kdepimlibs (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:29:47 +0100
+
+kdepimlibs (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream RC release
+
+  [ Philip Muškovac ]
+  * Add new symbols for libakonadi-calendar4, libakonadi-kde4 and libkcalcore4
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:15 +0000
+
+kdepimlibs (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  [ Michał Zając ]
+  * New upstream beta release
+
+  [ Howard Chan ]
+  * Add symbols to libkalarmcal2 and
+    libakonadi-calendar4
+  * Add lintian warning overrides to
+    libkabc4 and libakonadi-kcal4.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 28 Jun 2013 18:10:55 +0100
+
+kdepimlibs (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  [ Philip Muškovac ]
+  * New upstream beta release 
+  * Update symbols 
+  * Update install files 
+  * Add nepomuk-core-dev to kdepimlibs5-dev depends as the kdepimlibs cmake
+    config file expects it to be there
+  * Add libgpgme11-dev to kdepimlibs5-dev depends. Needed by QGpgME
+
+  [ Jonathan Riddell ]
+  * Remove unused libgpgme++-pth due to libgpgme-pth disappearing
+    http://bugs.debian.org/710140
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 21 Jun 2013 02:15:01 +0100
+
+kdepimlibs (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove upstream_b92782580756b3858f0381a5200b79688ab0b0a2.diff, already
+    applied upstream.
+  * Update symbols.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Jul 2013 22:42:34 +0200
+
+kdepimlibs (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add myself to the Uploaders field.
+  * Bump debhelper buil-dep and compat to 9.
+  * Bump Stantards-Version to 3.9.4.
+  * Dropping pth version of libgpgme++.
+  * Update vcs fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 08:13:39 +0200
+
+kdepimlibs (4:4.10.4-0ubuntu2) saucy; urgency=low
+
+  * Build against libical 1.0
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Jun 2013 13:23:55 +0100
+
+kdepimlibs (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream bugfix release
+
+  [ Jonathan Riddell ]
+  * Update symbols files
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:28:32 +0100
+
+kdepimlibs (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian, remaining change:
+   - add a not-installed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 08 May 2013 16:09:00 +0000
+
+kdepimlibs (4:4.10.2-2) experimental; urgency=low
+
+  * Bump the kdepim-runtime versions in the symbol
+    files of the akonadi libraries.
+  * Update uploaders.
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 22:20:44 +0200
+
+kdepimlibs (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Lisandro Damián Nicanor Pérez meyer ]
+  * Add myself to Uploaders.
+  * Confirm symbols files with 4:4.8.4's build logs.
+  * Remove crash_when_marking_folder_read.diff, already applied upstream.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependecy to 4:4.10.1.
+  * Bump libakonadi-dev build dependency to 1.8.1.
+  * Update some installed files.
+  * Update symbols files.
+  * Add lintian overrides for hardening-no-fortify-functions.
+
+  [ Daniele E. Domenichelli ]
+  * Update installed files using wildcards.
+  * Update symbols.
+
+  [ Josep Febrer ]
+  * Update patches
+    - drop 03_hide_akonadi_progressbar.diff, no longer needed
+  * Bump kdelibs5-dev build dependency to 4:4.10.
+  * Bump nepomuk-core-dev build dependecy to 4:4.10.
+  * Add build dependencies on libqjson-dev, libxslt1-dev, libx11 and pkg-config.
+  * New package libakonadi-socialutils4.
+  * Pass -DKDE4_BUILD_TESTS=false to cmake in order to keep the tests disabled.
+  * Update installed files.
+
+  [ Sune Vuorela ]
+  * Make libkpimidentities4 break older kmail & friends
+  * Change my email address
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 25 Mar 2013 19:31:38 +0100
+
+kdepimlibs (4:4.10.2-0ubuntu2) saucy; urgency=low
+
+  * Rebuild against Boost 1.53.
+
+ -- Dmitrijs Ledkovs <dmitrij.ledkov@ubuntu.com>  Tue, 30 Apr 2013 16:53:05 +0100
+
+kdepimlibs (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  [ Philip Muškovac ]
+  * New upstream bugfix release
+
+  [ Jonathan Riddell ]
+  * Update symbols
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 14:30:38 +0200
+
+kdepimlibs (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+    - add new symbols to libmailtransport4.symbols and
+      libakonadi-contact4.symbols
+    - drop an optional symbol from libakonadi-kde4.symbols
+  * Move kdepimlibs5 transitional package to oldlibs/extra to make lintian
+    happy
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 15:42:10 +0000
+
+kdepimlibs (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 11:50:06 +0000
+
+kdepimlibs (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 15:30:41 +0000
+
+kdepimlibs (4:4.9.97-0ubuntu2) raring; urgency=low
+
+  * Make sure kdepimlibs5-dev pulls in nepomuk-core-dev
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 10 Jan 2013 17:33:09 +0530
+
+kdepimlibs (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:19:18 +0100
+
+kdepimlibs (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  [ Philip Muškovac ]
+  * Bump libakonadi-dev build-dep to >= 1.8.51
+  * Add Build-dep on libx11-dev
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+  * Add build-dep on nepomuk-core-dev
+  * Update kdepimlibs5-dev.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:09:08 +0000
+
+kdepimlibs (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream beta release
+  * Remove dont_break_libkabc_abi.diff now upstream
+  * Update kdepimlibs5-dev.install file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:50:00 +0000
+
+kdepimlibs (4:4.9.80-0ubuntu1) raring; urgency=low
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+  * Remove 03_hide_akonadi_progressbar.diff now upstream
+  * Update .symbols file
+
+  [ Scott Kitterman ]
+  * Add libqjson-dev to build-depends since it is required for 4.10
+  * Update symbols files
+  * Drop FindAkonadi.cmake from debian/kdepimlibs5-dev.install since it is no
+    longer provided by upstream
+  * Add FindQtOAuth.cmake to debian/kdepimlibs5-dev.install
+  * Document files we don't install in debian/NOT-INSTALLED
+  * Add new binary, libakonadi-socialutils4
+    - Add to debian/control
+    - Add to kdepimlibs metapackage depends
+    - Add debian/libakonadi-socialutils4.install
+    - Add debian/libakonadi-socialutils4.symbols 
+  * Update kdepimlibs5-dev.install for new headers for 4.10
+  * Add googletalkprotocol.desktop to debian/libakonadi-contact4.install
+  * Add missing symbols files for libakonadi-notes4 and libkalarmcal2
+  * Add dont_break_libkabc_abi.diff to fix ABI break - patch from José Manuel
+    Santamaría Lema
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 19 Nov 2012 17:32:30 -0500
+
+kdepimlibs (4:4.9.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release (LP: #1074747)
+    - build-depend on libakonadi-dev (>= 1.8.1)
+    - add new symbols to libakonadi-kde4.symbols
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 06 Nov 2012 22:34:01 +0100
+
+kdepimlibs (4:4.9.2-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream bugfix release
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 02 Oct 2012 15:25:10 +0100
+
+kdepimlibs (4:4.9.1-0ubuntu1) quantal; urgency=low
+
+  [ Harald Sitter ]
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * update install files 
+  * add new symbols to libakonadi-kde4.symbols and libkabc4.symbols
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:24:58 +0530
+
+kdepimlibs (4:4.9.0-0ubuntu2) quantal; urgency=low
+
+  * Build-dep on kdelibs 4.9.0a, adjust .install files to new library
+    version no
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Aug 2012 11:57:50 +0100
+
+kdepimlibs (4:4.9.0-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+  * Use direct build-depends versions rather than kde-sc-dev-latest
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jul 2012 17:13:11 +0100
+
+kdepimlibs (4:4.8.90-0ubuntu1) quantal; urgency=low
+
+  [ Felix Geyer ]
+  * New upstream beta release.
+
+  [ Jonathan Riddell ]
+  * Update symbols files
+
+ -- Felix Geyer <debfx@ubuntu.com>  Mon, 11 Jun 2012 15:37:43 +0200
+
+kdepimlibs (4:4.8.80a-0ubuntu1) quantal; urgency=low
+
+  [ Jonathan Thomas ]
+  * New upstream beta release:
+    - Update .install files for name changes
+    - Update symbols files
+
+  [ Philip Muškovac ]
+  * Merge with debian git, remaining changes:
+    - use versioned boost build-depends
+    - keep breaks/replaces
+    - keep symbol files
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 24 May 2012 21:48:49 -0400
+
+kdepimlibs (4:4.8.4-2) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Backport upstream commit f142cc25b5620c2d1037cc6cd270b1cf301b5380
+    (adapted to the 4.8 codebase) to stop reading when reaching the end of
+    streams; patch upstream_b92782580756b3858f0381a5200b79688ab0b0a2.diff.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 16 Dec 2012 12:19:24 -0300
+
+kdepimlibs (4:4.8.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Team upload.
+
+  [ José Manuel Santamaría Lema ]
+  * Add watch file.
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
+  * Confirm symbols files on various architectures with 4.8.3 build logs.
+  * Add crash_when_marking_folder_read.diff.
+  * Refresh 03_hide_akonadi_progressbar.diff to make it apply without any
+    offset.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 15:21:42 +0300
+
+kdepimlibs (4:4.8.3-1) experimental; urgency=low
+
+  * New upstream release.
+  * Team upload.
+
+  [ Eshat Cakar ]
+  * Add myself to uploaders.
+  * Add libakonadi-notes4 and libkalarmcal2 packages.
+  * Update installed files.
+  * Remove kio_imap_append.diff, applied upstream.
+  * Bump kdelibs5-dev version to 4.8.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
+  * Bump Standards-Version to 3.9.3, no changes needed.
+  * Update symbols files.
+  * Add symbols files for libakonadi-notes4 and libkalarmcal2.
+
+  [ Modestas Vainius ]
+  * Drop upstream_Disambiguations-necessary-for-building-with-clang.patch, was
+    backported from upstream.
+  * Remove duplicate Section: libs.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 26 May 2012 20:03:31 +0300
+
+kdepimlibs (4:4.8.3-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+  * Switch boost build-dep to 1.49
+  * Update symbol files for gcc 4.7
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 13 May 2012 19:20:30 +0200
+
+kdepimlibs (4:4.8.3-0r1) raring; urgency=low
+
+  * New upstream release.
+
+  [ Eshat Cakar ]
+  * Add myself to uploaders.
+  * Add libakonadi-notes4 and libkalarmcal2 packages.
+  * Update installed files.
+  * Remove kio_imap_append.diff, applied upstream.
+  * Bump kdelibs5-dev version to 4.8.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
+  * Bump Standards-Version to 3.9.3, no changes needed.
+  * Update symbols files.
+  * Add symbols files for libakonadi-notes4 and libkalarmcal2.
+
+  [ Modestas Vainius ]
+  * Drop upstream_Disambiguations-necessary-for-building-with-clang.patch, was
+    backported from upstream.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:16:23 +0100
+
+kdepimlibs (4:4.8.2-0ubuntu2) precise-proposed; urgency=low
+
+  * Rebuild for .pot generation
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Apr 2012 16:32:02 +0100
+
+kdepimlibs (4:4.8.2-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+    - Add new symbol to libakonadi-contact4.symbols 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 30 Mar 2012 19:51:53 +0200
+
+kdepimlibs (4:4.8.1-0ubuntu1) precise; urgency=low
+
+  [ Jonathan Kolberg ]
+  * New upstream release
+
+  [ Felix Geyer ]
+  * Update symbols files.
+
+ -- Jonathan Kolberg <bulldog98@kubuntu.org>  Wed, 07 Mar 2012 14:18:43 +0100
+
+kdepimlibs (4:4.8.0a-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Jan 2012 12:01:20 +0000
+
+kdepimlibs (4:4.7.97-0ubuntu1) precise; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 04 Jan 2012 13:14:55 +0000
+
+kdepimlibs (4:4.7.95-0ubuntu1) precise; urgency=low
+
+  [ Philip Muškovac ]
+  * New upstream release candidate
+    - update kdepimlibs5-dev.install
+
+  [ Felix Geyer ]
+  * Update symbols files.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 23 Dec 2011 21:35:15 +0100
+
+kdepimlibs (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * New upstream beta release
+  * Add packages libkalarmcal2 and libakonadi-notes4
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Dec 2011 14:37:07 +0000
+
+kdepimlibs (4:4.7.4-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Backport upstream commit b886894bd1afc515947c24883169d0a5107a86d5 to fix
+    building with GCC 4.7; patch
+    upstream_Disambiguations-necessary-for-building-with-clang.patch.
+    (Closes: #667220)
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * The rebuild also updates the libphonon.so path to the new multiarch path.
+    (Closes: #671893)
+
+  [ Modestas Vainius ]
+  * Update symbol files.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 May 2012 15:20:20 +0300
+
+kdepimlibs (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+  * Update uploaders, remove Armin.
+
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on all architectures.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 05 Mar 2012 10:10:14 +0100
+
+kdepimlibs (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump shared-desktop-ontologies build depend to 0.8.
+  * Confirm symbols files on more achitectures with the 4.7.2 build logs.
+  * Update symbols files for 4.7.4.
+  * Add kio_imap_append.diff, it fixes the arguments for the IMAP APPEND
+    command (Closes: #651654).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Dec 2011 23:21:50 +0100
+
+kdepimlibs (4:4.7.3-0ubuntu2) precise; urgency=low
+
+  * Merge from Debian unstable, remaining changes:
+    - Build with versioned boost build-depends
+    - Keep bumped KDE replace versions
+    - Keep kdepimlibs5 transitional package
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 14:27:58 +0000
+
+kdepimlibs (4:4.7.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
+  * Bump build dependency on kdelibs5-dev to version 4:4.7.
+  * Bump build dependency on libakonadi-dev to version 1.5.52.
+  * Add libprison-dev to Build-Depends.
+  * Update installed files.
+  * Update symbols files.
+  * Exclude kde-runtime from dh_shlibdeps results.
+
+  [ Pino Toscano ]
+  * Add ${misc:Depends} where missing.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:46:00 -0300
+
+kdepimlibs (4:4.7.2-0r1) raring; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
+  * Bump build dependency on kdelibs5-dev to version 4:4.7.
+  * Bump build dependency on libakonadi-dev to version 1.5.52.
+  * Add libprison-dev to Build-Depends.
+  * Update installed files.
+  * Update symbols files.
+  * Exclude kde-runtime from dh_shlibdeps results.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Aug 2011 16:43:40 +0200
+
+kdepimlibs (4:4.6.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
+  * Update symbols files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:59 +0300
+
+kdepimlibs (4:4.6.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Update symbol files.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jun 2011 13:05:00 +0300
+
+kdepimlibs (4:4.7.3-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 28 Oct 2011 19:32:28 +0200
+
+kdepimlibs (4:4.7.2+git111007-0ubuntu1) oneiric; urgency=low
+
+  * Upstream git snapshot from KDE 4.7 branch as of 932a05e6
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 07 Oct 2011 15:54:16 -0500
+
+kdepimlibs (4:4.7.2-0ubuntu1) oneiric; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 03 Oct 2011 03:12:26 +0200
+
+kdepimlibs (4:4.7.1+git111001-0ubuntu1) oneiric; urgency=low
+
+  * Upstream git snapshot from KDE 4.7 branch as of aef1084c
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 02 Oct 2011 00:17:54 +0530
+
+kdepimlibs (4:4.7.1+git110929-0ubuntu1) oneiric; urgency=low
+
+  * Upstream git snapshot from KDE 4.7 branch as of 62350528
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 30 Sep 2011 19:17:37 -0400
+
+kdepimlibs (4:4.7.1+git110927-0ubuntu1) oneiric; urgency=low
+
+  * Upstream git snapshot from KDE 4.7 branch as of 027da4d9
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 28 Sep 2011 00:23:26 -0400
+
+kdepimlibs (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 00:47:46 +0200
+
+kdepimlibs (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 07 Sep 2011 17:25:05 +0200
+
+kdepimlibs (4:4.7.0-0ubuntu2) oneiric; urgency=low
+
+  * Refresh symbol files.
+  * Add libprison-dev to build-deps.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 03 Aug 2011 15:52:41 +0200
+
+kdepimlibs (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  [ Harald Sitter ]
+  * Refresh symbol files
+
+  [ Philip Muškovac ]
+  * New upstrem release
+    - drop optional missing symbol from libkholidays4.symbols
+    - refresh libakonadi-kde4.symbols
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 19:53:06 +0200
+
+kdepimlibs (4:4.6.90-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release candidate
+    - Bump build-dep on libakonadi-dev
+    - update install files with new library versions
+    - update libkcal4.install
+    - refresh libakonadi-kde4.symbols, libkcalcore4.symbols,
+      libkholidays4.symbols and libkimap4.symbols
+    - exclude kde-runtime not kdebase-runtime in rules.
+    - Update Vcs links for new location
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 00:32:40 +0200
+
+kdepimlibs (4:4.6.3-1ubuntu2) oneiric; urgency=low
+
+  * Reduce breaks/replaces version on kdepim-runtime to << 4:4.4.0.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Tue, 31 May 2011 21:37:01 +0200
+
+kdepimlibs (4:4.6.3-1ubuntu1) oneiric; urgency=low
+
+  [ Philip Muškovac ]
+  * Update Vcs links as the branch is owned by kubuntu-packagers now
+
+  [ Felix Geyer ]
+  * Merge from Debian unstable, remaining changes:
+    - Build with versioned boost build-depends
+    - Keep bumped KDE replace versions
+    - Keep kdepimlibs5 transitional package
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Mon, 30 May 2011 18:52:38 +0200
+
+kdepimlibs (4:4.6.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Confirm symbol files on more debian arches.
+  * Merge 4:4.4.5-3 changes:
+    - Drop 05_backport_imap4_memmove.diff, stolen from upstream.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
+  * Bump Standards-Version to 3.9.2; no changes needed.
+  * Update symbols files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:38 +0300
+
+kdepimlibs (4:4.6.2-1) experimental; urgency=low
+
+  * New upstream release:
+    - uses memmove() in kio_imap (Closes: #610728)
+  * Update installed files.
+  * Update symbol files.
+
+  [ George Kiagiadakis ]
+  * Change my email address in uploaders.
+  * Refresh patch 03_hide_akonadi_progressbar.diff.
+  * Remove patch 01_hurd_support.diff, no longer needed.
+  * Remove patch 02_increase_fail_timeout.diff, no longer needed.
+  * Bump build dependency on kdelibs5-dev to version 4:4.6.
+  * Bump build dependency on libakonadi-dev to version 1.5.0.
+  * Add build dependencies on shared-desktop-ontologies and libsoprano-dev.
+
+  [ José Manuel Santamaría Lema ]
+  * Remove 04_backport_fix_abnormal_pop3_aborting.diff, no longer needed.
+  * Add xsltproc to Build-Depends.
+  * Add packages libkcalcore4, libkcalutils4, libkmbox4 and 
+    libakonadi-calendar4.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
+  * Bump S-V to 3.9.1: add breaks next to replaces and replace conflicts with
+    breaks where needed.
+  * Remove starting articles from short desciptions.
+  * Add myself to Uploaders.
+
+  [ Pino Toscano ]
+  * Add build dependencies:
+    - uuid-dev
+  * Tighten the shared-desktop-ontologies build-dendency to the version
+    required upstream.
+  * Improve some descriptions.
+
+  [ Modestas Vainius ]
+  * Drop kdepimlibs5 transitional package.
+  * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
+  * Disable testsuite.
+  * Remove a deprecated link to the BSD license from debian/copyright.
+  * Stop caring about shlibs. They are not used since libraries have symbol
+    files.
+  * Drop no longer unused lintian-overrides
+    (shlibs-declares-dependency-on-other-package due to above).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:44 +0300
+
+kdepimlibs (4:4.6.2-0ubuntu1) natty; urgency=low
+
+  * New upstream release.
+  * Update symbol files.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Sat, 02 Apr 2011 20:54:10 +0200
+
+kdepimlibs (4:4.6.1-0ubuntu1) natty; urgency=low
+
+  * New upstream release 
+  * Update kde-sc-dev-latest version
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 26 Feb 2011 22:08:51 +0100
+
+kdepimlibs (4:4.6.0-0ubuntu2) raring; urgency=low
+
+  * Update kde-sc-dev-latest version
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Jan 2011 11:40:31 +0000
+
+kdepimlibs (4:4.6.0-0ubuntu1) natty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jan 2011 13:00:19 +0000
+
+kdepimlibs (4:4.5.95-0ubuntu1) natty; urgency=low
+
+  * New upstream RC release
+    - Refresh patch
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 05 Jan 2011 01:47:23 -0500
+
+kdepimlibs (4:4.5.90-0ubuntu2) natty; urgency=low
+
+  * Add missing file to kdepimlibs5-dev.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Dec 2010 16:22:54 +0000
+
+kdepimlibs (4:4.5.90-0ubuntu1) natty; urgency=low
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+  * Add build-dep on libgpg-error-dev
+
+  [ Scott Kitterman ]
+  * Update symbols files with pkdkde-symbolshelper using build logs from all
+    active archs (still need to investigate missing symbols)
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 22 Dec 2010 15:26:19 +0000
+
+kdepimlibs (4:4.5.85a-0ubuntu1) natty; urgency=low
+
+  * New upstream beta release
+    - Bumped build-depend versions on kdelibs5-dev to >= 4:4.5.85
+    - Bumped version in libgpgme++2.install
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Sat, 04 Dec 2010 12:44:16 +0000
+
+kdepimlibs (4:4.5.80-0ubuntu1) natty; urgency=low
+
+  * New upstream beta release:
+    - Update various .install files
+    - Bump build-depend versions on kdelibs5-dev to >= 4:4.5.80
+    - Add xsltproc to build-depends
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Tue, 23 Nov 2010 10:06:19 -0500
+
+kdepimlibs (4:4.5.3-0ubuntu1) natty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Nov 2010 15:11:17 +0000
+
+kdepimlibs (4:4.5.2-0ubuntu1) natty; urgency=low
+
+  * Merge with Debian git remaining changes:
+    - New upstream release 4.5.2
+    - Build with versioned boost build-depends
+    - Keep bumped KDE replace versions
+    - Update symbol files
+    - Build against kdelibs5-dev 4.5.2-0ubuntu1 for libkutils4 transition
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Sat, 16 Oct 2010 04:15:21 +0200
+
+kdepimlibs (4:4.5.1-0ubuntu1) maverick; urgency=low
+
+  * New upstream release.
+  * Update symbol files.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Sun, 29 Aug 2010 22:59:31 +0200
+
+kdepimlibs (4:4.5.1-0r1) raring; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Point debian/control Vcs fields to the new Git repository.
+
+  [ George Kiagiadakis ]
+  * Change my email address in uploaders.
+  * Refresh patch 03_hide_akonadi_progressbar.diff.
+  * Remove patch 01_hurd_support.diff, no longer needed.
+  * Remove patch 02_increase_fail_timeout.diff, no longer needed.
+  * Update installed files.
+  * Update symbol files.
+  * Bump build dependency on kdelibs5-dev to version 4:4.5.
+  * Bump build dependency on libakonadi-dev to version 1.3.80.
+  * Add build dependencies on shared-desktop-ontologies and libsoprano-dev.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 10:41:56 +0300
+
+kdepimlibs (4:4.5.0b-0ubuntu1) maverick; urgency=low
+
+  * New tar from upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 04 Aug 2010 23:20:03 +0100
+
+kdepimlibs (4:4.5.0a-0ubuntu1) maverick; urgency=low
+
+  * New tar from upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Aug 2010 22:41:34 +0100
+
+kdepimlibs (4:4.5.0-0ubuntu1) maverick; urgency=low
+
+  * New upstream release
+    - Bump on build-depends
+  * Added kubuntu_04_contactsearch_speed_fix.diff, as requested on KDE Packagers
+    ML
+
+ -- Michał Zając <michal.zajac@gmail.com>  Thu, 29 Jul 2010 20:48:49 +0200
+
+kdepimlibs (4:4.4.95-0ubuntu1) maverick; urgency=low
+
+  * New upstream RC release
+    - Bump on kde-sc-dev-latest (4.4.95)
+
+ -- Michał Zając <michal.zajac@gmail.com>  Mon, 26 Jul 2010 17:24:25 +0200
+
+kdepimlibs (4:4.4.92-0ubuntu1) maverick; urgency=low
+
+  * New upstream RC release
+    - Bump kde-sc-dev-latest to 4.4.92
+    - Update symbols
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Thu, 08 Jul 2010 00:36:13 +0200
+
+kdepimlibs (4:4.4.90-0ubuntu1) maverick; urgency=low
+
+  [ Alessandro Ghersi ]
+  * New upstream release
+    - Bump kde-sc-dev-latest to 4.4.90
+    - Update kdelibs5-dev.install
+    - Update KUBUNTU-DEBIAN-DIFFERENCES
+    - Update symbols files
+    - Remove README.source
+
+  [ Harald Sitter ]
+  * Make -dev replace the lib, since /usr/lib/libkontactinterface.so was in
+    4.4.4 (PPA release) in the lib and not the -dev package.
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Sat, 19 Jun 2010 04:09:51 +0200
+
+kdepimlibs (4:4.4.85-0ubuntu1) maverick; urgency=low
+
+  * New upstream beta release:
+    - Bump kde-sc-dev-latest to 4.4.85
+    - Bump libakonadi-dev to 1.3.80
+    - Bump shared-desktop-ontologies to 0.5
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Mon, 07 Jun 2010 12:46:04 +0200
+
+kdepimlibs (4:4.4.80-0ubuntu1) maverick; urgency=low
+
+  * New upstream beta release:
+    - Switch to dpkg-source 3.0 (quilt) format
+    - Bump KDE build-depends
+    - Disable 02_increase_fail_timeout.diff
+    - Update 03_hide_akonadi_progressbar.diff
+    - Add shared-desktop-ontologies to build-depends
+    - Update various install files
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Mon, 24 May 2010 02:37:35 +0200
+
+kdepimlibs (4:4.4.5-3) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Backport an upstream commit to fix a memcpy() misuse in the IMAP kioslave,
+    which will be noticed with glibc 2.13. (Closes: #610728)
+
+  [ Modestas Vainius ]
+  * Urgency=medium as #610728 may trigger crashes.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 May 2011 02:56:02 +0300
+
+kdepimlibs (4:4.4.5-2) unstable; urgency=low
+
+  * Point debian/control Vcs fields to the new Git repository.
+  * Fix POP3 mailcheck aborting because of internal memory errors. The bug was
+    a cause of POP3 mails not getting deleted from POP3 servers.
+    (Closes: #600907)
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 28 Nov 2010 19:17:34 +0200
+
+kdepimlibs (4:4.4.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:52 +0300
+
+kdepimlibs (4:4.4.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Confirm symbol files on armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386
+    mips mipsel powerpc s390 sparc.
+  * KIMAP needs sasl modules for authentication. Thanks to Volker Krause.
+  * Bump pkg-kde-tools build dependency to (>= 0.9) for HTML_INSTALL_DIR
+    switch and 3.0 (quilt) source format support.
+  * Switch to 3.0 (quilt) source package format and original tar.bz2
+    tarballs.
+  * Replace usr/share/doc/kde4 references with usr/share/doc/kde.
+  * Drop quilt from Build-Depends, no longer needed for 3.0 (quilt).
+  * Remove debian/README.source. Patch support is part of source format
+    now.
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jun 2010 01:15:18 +0300
+
+kdepimlibs (4:4.4.3-1ubuntu1) maverick; urgency=low
+
+  * Merge with Debian Unstable, remaining changes:
+    - Build with versioned boost build-depends
+    - Use Kubuntu docpath (/usr/share/doc/kde/)
+  * Bump replaces on KDE 4:4.4.0 to 4:4.4.60 since we're doing this split a
+    major KDE version later than Debian
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Sun, 16 May 2010 16:01:00 -0400
+
+kdepimlibs (4:4.4.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Bump kde-sc-dev-latest build dependency to 4.4.3.
+  * Confirm symbols files for 4.4.2 on ia64 kfreebsd-amd64 kfreebsd-i386
+    powerpc s390 sparc.
+  * Update symbol files for 4.4.3 on amd64.
+  * Steal a couple of patches from Kubuntu (to workaround annoying bugs):
+    - 02_increase_fail_timeout.diff - give more time (60 seconds) for akonadi
+      server to start. Current timeout (10 seconds) was not enough on many
+      machines. To make things worse, kdepimlibs would just call exit() after
+      showing error detection dialog causing unexpected termination of the
+      application.
+    - 03_hide_akonadi_progressbar.diff - hide akonadi start/stop progress bar
+      as it is already done in KDE trunk. It was not a real progress bar anyway
+      and just confused users.
+  * Release KDE SC 4.4.3 to unstable.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 23:57:54 +0300
+
+kdepimlibs (4:4.4.3-0ubuntu1) lucid; urgency=low
+
+  * New upstream bugfix release
+    - Bump KDE build-depends to 4.4.3
+
+ -- Christian Mangold <neversfelde@ubuntu.com>  Fri, 30 Apr 2010 22:06:02 +0200
+
+kdepimlibs (4:4.4.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.2.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Apr 2010 16:21:31 +0300
+
+kdepimlibs (4:4.4.2-0ubuntu2) lucid; urgency=low
+
+  * Add kubuntu_01_increase_fail_timeout.patch to bump the timeout before
+    starting error detection from 10 seconds to 60, that should be enough time
+    for akonadi to start on somewhat decent hardware (I hope)
+  * Add kubuntu_02_hide_akonadi_progressbar.patch to hide start/stop progressbar
+    as done in KDE trunk and requested by ScottK LP: #562420
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 13 Apr 2010 19:35:59 +0200
+
+kdepimlibs (4:4.4.2-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump build-depends
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Sat, 27 Mar 2010 13:41:20 +0100
+
+kdepimlibs (4:4.4.1-1) experimental; urgency=low
+
+  * New upstream release:
+    - bavarian holiday region doesn't exist anymore. (Closes: #505965)
+      see http://websvn.kde.org/?view=revision&revision=1082408 commit.
+
+  [ George Kiagiadakis ]
+  * Bump kdelibs5-dev build-dependency to >= 4:4.4.
+  * Bump libakonadi-dev build-dependency to >= 1.3.0.
+  * Drop patch 01_imap4_kioslave_cpu_eater.diff. Included upstream.
+  * Update installed files.
+  * Split all libraries into separate library packages, make
+    kdepimlibs5 a transitional package and kill kdepimlibs-data.
+  * Adjust descriptions to match KDE's new branding.
+  * Update copyright file.
+
+  [ Pino Toscano ]
+  * Add patch 01_hurd_support.diff to hopefully fix (even if not in the most
+    elegant way) the compilation on GNU/Hurd.
+
+  [ Changes by Ana Beatriz Guerrero Lopez ]
+  * Add build depends on shared-mime-info.
+
+  [ Modestas Vainius ]
+  * Bump Standards-Version to 3.8.4: no changes needed.
+  * Use ${allLibraries} and ${kde43Libraries} substs provided by
+    library-packages.mk in debian/control.
+  * Use strict (=) interdependencies between local library packages.
+  * Add symbol files for split off old and new libraries:
+    - symbol files for old libraries are based on the 4:4.3.4 packages and
+      upgraded to 4:4.4.0 on amd64/i386;
+    - symbol files for new libraries are based on the 4:4.4.0 packages on
+      amd64/i386;
+    - add "Build-Depends-Package: kdepimlibs5-dev" field to all symbols files;
+    - instruct dpkg-gensymbols not to fail if some symbols get lost (via -c0);
+    - add build dependency on dpkg-dev 1.15.5.
+  * Build depend on pkg-kde-tools 0.6.4: needed for symbols files and
+    library-packages.mk.
+  * Clean up debian/rules a bit.
+  * Drop obsolete kdepimlibs5-dev presubj.
+  * Add ${perl:Depends} subst to libmailtransport4 Depends.
+  * Remove unused reference to versionless GPL from debian/copyright.
+  * Bump packaging copyright years.
+  * Add lintian overrides.
+  * Drop obsolete README.Debian.
+  * Add build dependency on cmake.
+  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Inject kdepim-runtime dependency via symbol files / shlibs of the following
+    libraries: libakonadi-*, libkabc4, libkblog4, libkcal4, libkimap4,
+    libkresources4, libmailtransport4, libmicroblog4.
+  * Inject kdepimlibs-kio-plugins dependency via symbol files / shlibs of the
+    following libraries: libmailtransport4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Mar 2010 13:22:41 +0200
+
+kdepimlibs (4:4.4.1-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump build-depends
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Fri, 26 Feb 2010 23:27:56 +0100
+
+kdepimlibs (4:4.4.0-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump build-depend versions
+
+ -- Christian Mangold <neversfelde@ubuntu.com>  Thu, 04 Feb 2010 16:00:13 +0100
+
+kdepimlibs (4:4.3.98-0ubuntu1) lucid; urgency=low
+
+  [ Christian Mangold ]
+  * New upstream release candidate
+    - Bump build dep versions
+
+  [ Alessandro Ghersi ]
+  * Bump Qt to 4.6.1
+  * Bump akonadi to 1.3.0
+
+ -- Christian Mangold <neversfelde@ubuntu.com>  Mon, 01 Feb 2010 13:06:41 +0100
+
+kdepimlibs (4:4.3.95-0ubuntu1) lucid; urgency=low
+
+  [ Jonathan Thomas ]
+  * New upstream release candidate:
+    - Bump build-depend versions
+    Fixes LP: #350902
+
+  [ Jonathan Riddell ]
+  * kdepimlibs5-dev replaces old kdepim-runtime-libs4
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Tue, 19 Jan 2010 21:23:32 -0500
+
+kdepimlibs (4:4.3.90-0ubuntu3) lucid; urgency=low
+
+  * Make the kdepimlibs-dbg package replace kdepim-dbg (<< 4:4.3.90)
+    (LP: #507589)
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 14 Jan 2010 22:18:37 -0500
+
+kdepimlibs (4:4.3.90-0ubuntu2) lucid; urgency=low
+
+  * kdepimlibs5 replaces old kdepim-runtime-libs4
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 08 Jan 2010 23:53:21 +0000
+
+kdepimlibs (4:4.3.90-0ubuntu1) lucid; urgency=low
+
+  * New upstream release candidate:
+    - Bump build-depend versions
+    - Update various .install files
+    - kdepimlibs5 replaces/conflicts libakonadi-kcal4, since the library
+      got moved back here
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Wed, 06 Jan 2010 15:15:51 -0500
+
+kdepimlibs (4:4.3.85-0ubuntu1) lucid; urgency=low
+
+  * New upstream beta release:
+    - Bump build-depend versions
+    - Update kdepimlibs-data.install and kdepimlibs5-dev.install
+    - Add -xphonon to DEB_DH_SHLIBDEPS_ARGS_ALL to prevent dep on -runtime
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 18 Dec 2009 13:31:55 -0500
+
+kdepimlibs (4:4.3.80-0ubuntu2) lucid; urgency=low
+
+  [ Jonathan Thomas ]
+  * Add Replace on libkontactinterfaces4 to kdepim-runtime-data
+    to fix upgrades from KDE 4.3
+
+  [ Alessandro Ghersi ]
+  * Add Conflict on libkontactinterfaces4 to kdepim-runtime-data
+    to fix upgrades from KDE 4.3 (LP: #494403)
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Mon, 07 Dec 2009 17:35:48 -0500
+
+kdepimlibs (4:4.3.80-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump boost to 1.40
+    - Bump kdelibs5-dev to 4.3.80
+    - Add libx11-dev to build-depends
+    - Update kdepimlibs5.install, kdepimlibs5-dev.install and
+      kdepimlibs5-data.install
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Wed, 02 Dec 2009 02:07:42 +0100
+
+kdepimlibs (4:4.3.4-2) unstable; urgency=low
+
+  [ Modestas Vainius ]
+  * Change my email address to modax@debian.org in Uploaders field.
+  * Fix Vcs-Browser URL.
+
+  [ Fathi Boudra ]
+  * Add IMAP4 kioslave cpu eater patch: Properly check errors during
+    authentication to avoid falling into an infinite loop.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jan 2010 11:18:43 +0100
+
+kdepimlibs (4:4.3.4-1) unstable; urgency=low
+
+  * New upstream release
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove build depend on libboost-python-dev, it should be fixed now in
+    boost's side.
+  * Remove myself from Uploaders.
+
+  +++ Changes by Lukasz Janyst:
+
+  * Bump build depends.
+
+  +++ Changes by Modestas Vainius:
+
+  * Update install files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Dec 2009 00:24:10 +0200
+
+kdepimlibs (4:4.3.3-0ubuntu4) lucid; urgency=low
+
+  * Add missing epoch to Qt build-depends version
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Nov 2009 13:47:00 +0000
+
+kdepimlibs (4:4.3.3-0ubuntu3) lucid; urgency=low
+
+  * Rebuild against Qt 4.6 rc 1, which is binary incompatible with 4.6
+    beta
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 24 Nov 2009 08:59:54 +0000
+
+kdepimlibs (4:4.3.3-0ubuntu2) lucid; urgency=low
+
+  * Use boost 1.38, the version currently in main
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Nov 2009 16:55:04 +0000
+
+kdepimlibs (4:4.3.3-0ubuntu1) karmic; urgency=low
+
+  * New upstream bugfix release:
+    - Bump build-depend versions
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 30 Oct 2009 19:30:37 -0400
+
+kdepimlibs (4:4.3.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add build depend on libboost-python-dev. (Closes: #549755)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Oct 2009 15:09:49 +0200
+
+kdepimlibs (4:4.3.2-0ubuntu1) karmic; urgency=low
+
+  * New upstream bugfix release:
+    - Bump build-depend versions
+    - Update kdepimlibs-data.install
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 02 Oct 2009 13:19:41 -0400
+
+kdepimlibs (4:4.3.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump Standards-Version to 3.8.3, no changes needed.
+  * Bump KDE build dependencies to 4.3.1.
+  * Update install files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2009 10:48:06 +0300
+
+kdepimlibs (4:4.3.1-0ubuntu1) karmic; urgency=low
+
+  * New upstream bugfix release:
+    - Bump build-depend versions
+  * Merge from Debian unstable, remaining changes:
+    - Build with libboost1.38-dev
+    - Use Kubuntu docpath (/usr/share/doc/kde/)
+    - Make kdepimlibs5 Replaces: kdepimlibs-data (<< 4:4.2.85)
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 28 Aug 2009 11:22:34 -0400
+
+kdepimlibs (4:4.3.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Update installed files.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build depends to >= 4.3.0.
+  * Update packaging copyright in debian/copyright.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 11:30:09 +0200
+
+kdepimlibs (4:4.3.0-0ubuntu1) karmic; urgency=low
+
+  * New upstream release:
+    - Bump build-depend versions
+  * Merge with Debian experimental, remaining changes:
+    - Build with libboost1.38-dev
+    - Use Kubuntu docpath (/usr/share/doc/kde/)
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Wed, 29 Jul 2009 14:13:36 -0400
+
+kdepimlibs (4:4.2.98-0ubuntu2) karmic; urgency=low
+
+  * Rebuild with new pkg-kde-tools to build translation templates
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 29 Jul 2009 18:12:01 +0100
+
+kdepimlibs (4:4.2.98-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+    - Bump build-depend versions
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Wed, 22 Jul 2009 05:08:06 +0200
+
+kdepimlibs (4:4.2.96-1) experimental; urgency=low
+
+  * New upstream release candidate.
+
+  +++ Changes by George Kiagiadakis:
+
+  * Bump build-dependency on kdelibs5-dev to version 4.2.95.
+  * Bump build-dependency on libakonadi-dev to version 1.1.95.
+  * Bump build-dependency on libical-dev to version 0.42.
+  * Update installed files.
+  * Add replaces and conflicts against libkholidays4 (<< 4.2.90)
+    as it was moved upstream from kdepim to kdepimlibs.
+  * Add myself to uploaders.
+  * Add build dependency on libboost-graph-dev.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 12:46:25 +0300
+
+kdepimlibs (4:4.2.96-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+    - Bump KDE versions to 4.2.96 (KDE 4.3 RC 2)
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Thu, 09 Jul 2009 13:01:18 -0400
+
+kdepimlibs (4:4.2.95a-0ubuntu2) karmic; urgency=low
+
+  * Refix soname minor version numbers for libgpgme* in kdepiblimb5.install
+    - Fix thanks to Pantelis Koukousoulas
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 01 Jul 2009 10:40:28 -0400
+
+kdepimlibs (4:4.2.95a-0ubuntu1~ppa1) karmic; urgency=low
+
+  * New tar from upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 29 Jun 2009 15:20:06 +0100
+
+kdepimlibs (4:4.2.95-0ubuntu1~ppa1) karmic; urgency=low
+
+  * New upstream release:
+    - Bump build-depend versions
+    - Update various .install files
+  * Bump Standards-Version to 3.8.2, no changes
+  * Bump build-depend on libboost1.35-dev to 1.38-dev
+  * Add build-depend on libboost-graph1.38-dev
+  * Remove now-unnecessary quilt build-depend
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 25 Jun 2009 08:40:54 -0400
+
+kdepimlibs (4:4.2.90-0ubuntu1) karmic; urgency=low
+
+  [ Jonathan Thomas ]
+  * Bump replaces: version of kdepimlibs-data for kdepimlibs5-dev to prevent
+    file conflict errors
+
+  [ Steve Stalcup ]
+  * New upstream release:
+    - bump KDE versions to 4.2.90
+  * debian/control:
+    - bump standards version to 3.8.1, no change
+  * update various .install files:
+    - kdepimlibs5-dev.install
+    - kdepimlibs5.install
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Thu, 04 Jun 2009 12:17:56 -0400
+
+kdepimlibs (4:4.2.85-0ubuntu1) karmic; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 13 May 2009 09:32:54 +0000
+
+kdepimlibs (4:4.2.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * Fix sections.
+  * bump build-deps and stuff
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump Standards-Version to 3.8.1. No changes needed.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2009 13:45:19 +0200
+
+kdepimlibs (4:4.2.2-1ubuntu1) karmic; urgency=low
+
+  * Merge with Debian, remaining changes:
+   - different .orig md5
+   - Keep kubuntu_02_fixes_sieve_support_svn_915234.diff from upstream
+   - Build with libboost1.35-dev
+   - Move doc location
+  * Remove kubuntu_01_link_interface_libraries.diff, no longer needed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 01 May 2009 15:00:46 +0000
+
+kdepimlibs (4:4.2.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump build dependencies.
+  * Update installed files, cmake files changed from usr/lib/cmake/KdepimLibs-4.2.0
+    to usr/lib/cmake/KdepimLibs-4.2.*
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 05 Apr 2009 01:06:28 +0200
+
+kdepimlibs (4:4.2.2-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+  * Bump KDE version for debian/control and debian/rules to 4.2.2
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Thu, 26 Mar 2009 21:31:43 -0400
+
+kdepimlibs (4:4.2.1-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+  +++ Changes by Modestas Vainius:
+
+  * Rename kdepimlibs5-dev.presubj kdepimlibs5-dev.bug-presubj. Use
+    dh_bugfiles and build depend on debhelper 7.2.3.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2009 19:38:22 +0100
+
+kdepimlibs (4:4.2.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Modestas Vainius:
+
+  * kdepimlibs5-dev replaces kdepimlibs-data from 4.1 (Closes: #513718).
+  * Point Debian Vcs URLs to pkg-kde/trunk (new location).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Feb 2009 22:53:35 +0200
+
+kdepimlibs (4:4.2.1-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+  * Update install files (replace 4.2.0 w/ 4.2.*)
+  * Update build-deps (kdelibs5-dev)
+  * Update rules (UPSTREAMVERSION := 4:4.2.1)
+
+ -- Roderick B. Greening <roderick.greening@gmail.com>  Fri, 27 Feb 2009 12:41:26 -0330
+
+kdepimlibs (4:4.2.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Modestas Vainius:
+
+  * Build depend on kdelibs5-dev >= 4:4.2.0.
+  * Build depend on libical-dev >= 0.33.
+  * Build depend on Akonadi (>= 1.1.1). Our 1.0.0 is unusable.
+  * Remove build depend on cmake. It will be pulled in by kdelibs5-dev.
+  * Update install files.
+  * Bump shlibs with each new upstream version.
+  * Bump Standards-Version to 3.8.0: add README.source.
+  * Replaces akonadi-kde << 4:4.1.80: due to libakonadi-kabc.so.4.
+  * Switch to new installgen format.
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
+  * Switch from internal debian/cdbs/kde.mk to pkg-kde-tools:
+    - build depend on pkg-kde-tools 0.4;
+    - remove debian/cdbs directory;
+    - replace debian/cdbs/kde.mk with
+      /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules.
+
+  +++ Changes by George Kiagiadakis:
+
+  * Drop patch 02_no_dependency_file.diff as it is obsolete as of r891439.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update docs, README.libical has been removed by upstream.
+  * Remove prune-nonfree script, all the non-ree documentation is not longer
+    distributed in the tarball.
+
+  +++ Changes by David Palacio:
+  * Copyright review & update. Changed format of copyright per file to a more
+    general per directory.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 16:42:42 -0500
+
+kdepimlibs (4:4.2.0-0ubuntu4~ppa1) jaunty; urgency=low
+
+  * Added kubuntu_02_fixes_sieve_support_svn_915234.diff:
+    - Fixes sieve support (Kolab issue #2444)
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Wed, 04 Feb 2009 14:05:27 +0100
+
+kdepimlibs (4:4.2.0-0ubuntu2) jaunty; urgency=low
+
+  * Build with libboost1.35-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 28 Jan 2009 21:48:17 +0000
+
+kdepimlibs (4:4.2.0-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+  * Change doc install paths to usr/share/doc/HTML
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Thu, 22 Jan 2009 19:23:53 +0100
+
+kdepimlibs (4:4.1.96-0ubuntu1) jaunty; urgency=low
+
+  [ Jonathan Thomas ]
+  * New upstream release:
+    - Bump build-depend versions:
+      + kdelibs5-dev to (>= 4.1.96)
+      + libakonadi-dev to (>= 1.1.0)
+    - Bump UPSTREAMVERSION in debian/rules to := 4:4.1.96
+    - Remove README.libical from debian/docs, no longer included upstream
+    - Update various debian/.install files
+
+  [ Jonathan Riddell ]
+  * Add kubuntu_01_link_interface_libraries.diff, needed to create a complete
+    KDEPimLibsLibraryTargetsWithPrefix-debian.cmake file
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 08 Jan 2009 09:43:09 -0500
+
+kdepimlibs (4:4.1.85-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+  * Install KDEPimLibsLibraryTargetsWithPrefix*.cmake in kdepimlibs5-dev, it is
+    required by KdepimLibsConfig.cmake
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Fri, 12 Dec 2008 14:42:49 +0100
+
+kdepimlibs (4:4.1.80-0ubuntu2) raring; urgency=low
+
+  [ Harald Sitter ]
+  * Change Vcs-Browser to Launchpad and replace Vcs-Svn with Vcs-Bzr
+
+  [ Jonathan Thomas ]
+  * Add conflict/replace on akonadi-kde (<< 4:4.1.80~) to kdepimlibs5, an
+    akonadi .so moved to kdepimlibs5 in KDE 4.1.80
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 04 Dec 2008 08:36:52 -0500
+
+kdepimlibs (4:4.1.80-0ubuntu1) jaunty; urgency=low
+
+  [ Jonathan Thomas ]
+  * New upstream beta release
+    - Bump build-dep versions
+    - Bump UPSTREAMVERSION in debian/rules
+  * Add libical-dev as build-dependency
+
+  [ Harald Sitter ]
+  * Add libical-dev as dependency to kdepimlibs5-dev
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 25 Nov 2008 18:13:28 +0100
+
+kdepimlibs (4:4.1.73-0ubuntu1) jaunty; urgency=low
+
+  * New upstream alpha snapshot
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 14 Nov 2008 15:19:06 +0000
+
+kdepimlibs (4:4.1.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Modestas Vainius:
+
+  * Build depend on kdelibs5-dev >= 4.1.3-2.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Jan 2009 22:15:48 +0100
+
+kdepimlibs (4:4.1.3-1) experimental; urgency=low
+
+  * New upstream.
+    - New symbols in libraries. bump shlibs and adapt file lists.
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 01 Nov 2008 11:52:36 +0100
+
+kdepimlibs (4:4.1.2-1ubuntu3) jaunty; urgency=low
+
+  * No change rebuild against new dh_sameversiondeps
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Nov 2008 16:28:39 +0000
+
+kdepimlibs (4:4.1.2-1ubuntu2) jaunty; urgency=low
+
+  [ Jonathan Thomas ]
+  * Remove 02_no_dependency_file.diff since it causes kdepimlibs5-dev not to
+    depend on kdelibs5-dev
+  * Add kabc/addressee.cpp, addressee.h and field.cpp to the build clean
+    target, as they are generated by the makeaddressee script during the build.
+
+  [ Scott Kitterman ]
+  * Add kubuntu_01_fix_knode_mem_leak.diff patch (LP: #293081)
+  * Add build-dep on libphonon-dev so it will build on Jaunty
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 09 Nov 2008 13:51:43 -0500
+
+kdepimlibs (4:4.1.2-1ubuntu1) jaunty; urgency=low
+
+  * Merge with Debian, remaining changes:
+    - Use our custom kde4.mk
+    - Keep our (>= 4:4.1.2) build-depends on kdelibs5-dev
+    - We don't use KDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT, so don't add readme.debian or
+      any relating differences
+    - Extra depends on kdepimlibs5-dev
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 06 Nov 2008 12:20:40 -0500
+
+kdepimlibs (4:4.1.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Remove patch 01_r856767_incidence_formatter_crash_fix.diff, merged uptream.
+  * Update UPSTREAMVERSION to 4:4.1.2 in debian/rules.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 28 Sep 2008 14:48:21 +0200
+
+kdepimlibs (4:4.1.2-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release.
+  * Remove kubuntu_99_fix_kcal_crash.diff, fixed upstream.
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 25 Sep 2008 13:18:26 -0400
+
+kdepimlibs (4:4.1.1-2) experimental; urgency=low
+
+  +++ Changes by Sune Vuorela:
+
+  * Pull crash fix from upstream, pushed out via kde-packager.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Sep 2008 21:58:53 +0200
+
+kdepimlibs (4:4.1.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela:
+
+  * Don't write the library dependencies to the pimlibs dependencies cmake
+    file. This trims some more recursive linking.
+  * Kill some dependencies of the -dev package.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Sep 2008 00:25:01 +0200
+
+kdepimlibs (4:4.1.1-0ubuntu3) intrepid; urgency=low
+
+  * Patch kcal crash (LP: #264370)
+
+ -- Jonathan Thomas (The man) <echidnaman@gmail.com>  Thu, 04 Sep 2008 13:09:29 -0400
+
+kdepimlibs (4:4.1.1-0ubuntu2) intrepid; urgency=low
+
+  * Rebuild against kdelibs 4:4.1.1+really4.1.1
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 02 Sep 2008 03:07:12 +0200
+
+kdepimlibs (4:4.1.1-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release
+  * Remove old debian/cdbs (official cdbs is used now)
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Fri, 29 Aug 2008 01:38:51 +0200
+
+kdepimlibs (4:4.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+   +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update kdepimlibs-data.install.
+  * Update UPSTREAMVERSION to 4:4.1.0 in debian/rules.
+  * Update build depends.
+
+  +++ Changes by Modestas Vainius:
+
+  * Adapt kdepimlibs5-dev deps to new dh_sameversiondeps syntax.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Jul 2008 00:38:02 +0300
+
+kdepimlibs (4:4.1.0-0ubuntu2) intrepid; urgency=low
+
+  * switch to kde4.mk from cdbs
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 01 Aug 2008 15:29:42 +0000
+
+kdepimlibs (4:4.1.0-0ubuntu1) intrepid; urgency=low
+
+  [ Steve Stalcup ]
+  * New upstream release 4.1 final
+    -updated the kdepimlibs-data.install file
+    -bumped build-deps on kdelibs5-dev to (>= 4:4.1.0)
+
+  [ Harald Sitter ]
+  * Revise build-dep version of akonadi and upstreamversion in debian/rules
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Fri, 25 Jul 2008 14:49:23 +0200
+
+kdepimlibs (4:4.0.98-1) unstable; urgency=low
+
+  * New upstream release, Release Candidate 1.
+  * Update UPSTREAMVERSION and build-depends to 4.0.98.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 14 Jul 2008 12:27:25 +0200
+
+kdepimlibs (4:4.0.98-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release candidate release
+  * Bump Standards-Version to 3.8.0
+  * Remove debian/patches
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Sat, 12 Jul 2008 00:18:41 +0200
+
+kdepimlibs (4:4.0.84+svn828328-1) unstable; urgency=low
+
+  * New upstream development snapshot.
+  * Remove 97_fix_target_link_libraries.diff, no needed now.
+  * Update installed files.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Jul 2008 18:54:18 +0200
+
+kdepimlibs (4:4.0.84-1) experimental; urgency=low
+
+  * New upstream snapshot
+  * Soname-bump in kdepimlibs, but we are in experimental, so just close our
+    eyes.
+  * Have the kio slaves depend on libsasl2-modules, thanks to
+    Jos Ewert for investigating. (Closes: #488263)
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 09:30:52 +0200
+
+kdepimlibs (4:4.0.83-0ubuntu1) intrepid; urgency=low
+
+  * New upstream beta release
+  * Add kubuntu_01_akonadi_trunk.diff for akonadi fixes
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Jun 2008 11:45:17 +0000
+
+kdepimlibs (4:4.0.82+svn819867-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump kdelibs5-dev build dependency to 4.0.82, bump akonadi build
+    dependency to 0.81.0 (Closes: #483114). Bump shlibs.
+  * Refresh 97_fix_target_link_libraries.diff.
+  * Add myself to Uploaders.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 00:44:42 +0200
+
+kdepimlibs (4:4.0.80-1ubuntu4) intrepid; urgency=low
+
+  * Add dh_sameversiondeps to kde.mk, fixes dependency on kdelibs5-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 10 Jun 2008 16:28:44 +0100
+
+kdepimlibs (4:4.0.80-1ubuntu3) intrepid; urgency=low
+
+  * Fix config install paths
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2008 16:13:10 +0100
+
+kdepimlibs (4:4.0.80-1ubuntu2) intrepid; urgency=low
+
+  * Update kde.mk, use /usr/share/kde4/config for settings, mark
+    packages as Kubuntu not Debian
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2008 15:50:07 +0100
+
+kdepimlibs (4:4.0.80-1ubuntu1) intrepid; urgency=low
+
+  * Merge with Debian, remove 96,97 patches
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 27 May 2008 11:02:15 +0100
+
+kdepimlibs (4:4.0.80-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Update install files.
+
+ -- Fathi Boudra <fabo@debian.org>  Thu, 22 May 2008 16:29:15 +0200
+
+kdepimlibs (4:4.0.74-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Update install files.
+  * Build depend on akonadi >= 0.80.0+svn807399.
+  * Update UPSTREAMVERSION in debian/rules to 4:4.0.74.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2008 18:58:00 +0200
+
+kdepimlibs (4:4.0.73+svn806192-1) experimental; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r806192 by winterz
+    - Date: Sat, 10 May 2008 18:44:24 -0000
+
+  +++ Changes by Modestas Vainius:
+
+  * Build depend on akonadi >= 0.80.0+svn804999.
+  * Revert my previous change which made kdelibs5-dev dep of the
+    kdepimlibs5-dev package unversioned. Instead use a special substvar
+    (handled by debian/cdbs/dh_sameversiondeps) which versions kdelibs5-dev
+    in the same way as kdelibs5 dependency is versioned for kdepimlibs5.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 21:48:16 +0300
+
+kdepimlibs (4:4.0.72-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+
+  +++ Changes by Modestas Vainius:
+
+  * Build-depend on libakonadi-dev.
+  * Add 97_fix_target_link_libraries.diff to add missing references to
+    QtNetwork, QtDBus, QtXml libraries. Also cleanup interim dependences a
+    bit.
+  * Update install files.
+  * Add installgen files.
+  * Add 96_use_imported_targets_with_cmake26.diff which enables use of
+    install(EXPORT) instead of EXPORT_LIBRARY_DEPENDENCIES with cmake 2.6.
+    The patch is not complete so it is DISABLED.
+  * kdepimlibs5-dev: drop version from kdelibs5-dev dependency. It does not
+    add any real value as a proper dependecy is already enforced via
+    kdelibs5-dev = kdelibs5 -> kdepimlibs5 = kdepimlibs5-dev chain. What's
+    more, it is unnecesarily painful to deal with (esp. with regard to
+    snapshots).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 20:25:44 +0200
+
+kdepimlibs (4:4.0.68+svn794641-1) experimental; urgency=low
+
+  * New upstream snapshot:
+    - Update installed files.
+    - Bump build depends version.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Apr 2008 22:43:29 +0200
+
+kdepimlibs (4:4.0.66+svn791114-1) experimental; urgency=low
+
+  * First KDE 4.1 snapshot packaged, this is going to experimental.
+  * Update installed files.
+  * Add prune-nonfree script to remember prune the non-free IETF RFC/I-D
+    documents with every new upstream release. (Closes: #463936)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 27 Mar 2008 09:46:15 +0100
+
+kdepimlibs (4:4.0.3-0ubuntu1) hardy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 28 Mar 2008 11:59:59 +0000
+
+kdepimlibs (4:4.0.2-1) unstable; urgency=low
+
+  * New upstream release:
+    - Update build-depends to >= 4:4.0.2 and use ${source:Upstream-Version}
+      in the -dev package.
+
+  +++ Changes by Armin Berres:
+
+  * Use a more obvious way to remove the dependency on kdebase-runtime.
+  * Version shlibs according to the upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 21:12:02 +0100
+
+kdepimlibs (4:4.0.2-0ubuntu1) hardy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2008 11:37:32 +0000
+
+kdepimlibs (4:4.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Armin Berres:
+
+  * Make kdepimlibs5 depend on the source and not the binary version of
+    kdepimlibs-data.
+  * Bump build-depends to >= 4.0.1-1.
+
+  +++ Changes by Fathi Boudra:
+
+  * Prune kdepimibs tarball. Remove non-free IETF RFC/I-D. (Closes: #463936)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Feb 2008 11:53:30 +0100
+
+kdepimlibs (4:4.0.1-0ubuntu1) hardy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 31 Jan 2008 17:38:27 +0000
+
+kdepimlibs (4:4.0.0-4) unstable; urgency=low
+
+  * Add Vcs-Browser and Vcs-Svn fields.
+  * kdepimlibs5-dev depends on kdelibs5-dev >= 4:4.0.0-1 instead of
+    ${binary:Version}.
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 22 Jan 2008 12:23:06 +0100
+
+kdepimlibs (4:4.0.0-3) unstable; urgency=low
+
+  * Depend on kdelibs5-dbg, kdelibs-dbg has been renamed.
+
+ -- Armin Berres <armin+debian@space-based.de>  Sun, 20 Jan 2008 13:33:55 +0100
+
+kdepimlibs (4:4.0.0-2) unstable; urgency=low
+
+  * Update to debhelper 6.
+  * Bump compat to 6.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 19 Jan 2008 11:02:50 +0100
+
+kdepimlibs (4:4.0.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-depends to >= 4.0.0-1.
+  * Update years in copyright.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Add Homepage: to control.
+  * Tweak package descriptions.
+  * Replace source:Version with binary:Version.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jan 2008 17:15:25 +0100
+
+kdepimlibs (4:4.0.0-0ubuntu3) hardy; urgency=low
+
+  * Rebuild against libldap2.4-2
+
+ -- Emmet Hikory <persia@ubuntu.com>  Thu, 24 Jan 2008 21:57:08 +0900
+
+kdepimlibs (4:4.0.0-0ubuntu2) hardy; urgency=low
+
+  * Fixed dependency: -dbg depends on kde4libs-dbg not kdelibs-dbg
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Sat, 12 Jan 2008 15:59:45 +0100
+
+kdepimlibs (4:4.0.0-0ubuntu1) hardy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 06 Jan 2008 18:20:36 +0000
+
+kdepimlibs (4:3.98.0~svn755919-1ubuntu1) hardy; urgency=low
+
+  * Merge with Debian, reminaing change: our kde.mk file and paths
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 03 Jan 2008 12:10:21 +0000
+
+kdepimlibs (4:3.98.0~svn755919-1) experimental; urgency=low
+
+  * New svn snapshot release to revision 755919.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 02 Jan 2008 15:31:21 +0100
+
+kdepimlibs (4:3.98.0~svn753247-1) experimental; urgency=low
+
+  * Svn snapshot of revision 753247.
+    - Build depend on kdelibs5-dev >= 4:3.98.0~svn753247.
+  * Remove extra LDFLAGS. Included via CDBS now.
+
+ -- Armin Berres <armin+debian@space-based.de>  Thu, 27 Dec 2007 01:12:54 +0100
+
+kdepimlibs (4:3.97.0-1ubuntu4) hardy; urgency=low
+
+  * Merge with Debian
+  * Remove CMAKE_SKIP_RPATH from debian/cdbs/kde.mk due to our install
+    directories
+
+ -- Richard A. Johnson <nixternal@kubuntu.org>  Mon, 24 Dec 2007 14:38:08 -0600
+
+kdepimlibs (4:3.97.0-1ubuntu3) hardy; urgency=low
+
+  * Remove shlibs.local before upload
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Dec 2007 13:56:50 +0000
+
+kdepimlibs (4:3.97.0-1ubuntu2) hardy; urgency=low
+
+  * Add epoch to kdelibs build-dep version
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2007 11:29:42 +0000
+
+kdepimlibs (4:3.97.0-1ubuntu1) hardy; urgency=low
+
+  * New upstream release
+  * Merge with Debian
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Dec 2007 12:16:31 +0000
+
+kdepimlibs (4:3.97.0-1) experimental; urgency=low
+
+  * New upstream release:
+    - Build depend on kdelibs5-dev >= 4:3.97.0.
+    - Update *.install files.
+  * Update Standards-Version to 3.7.3.
+  * Update descriptions, remove referencies to beta status.
+  * Remove README about beta packages, they are supposed to be stable now.
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 07 Dec 2007 16:53:38 +0100
+
+kdepimlibs (4:3.96.0-1ubuntu1) hardy; urgency=low
+
+  * Sync with Debian
+  * Use modified kde.mk
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 Nov 2007 13:41:45 +0000
+
+kdepimlibs (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Build depend on kdelibs5-dev >= 4:3.96.0-1.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 14 Nov 2007 19:36:31 +0100
+
+kdepimlibs (3.95.0-1) experimental; urgency=low
+
+  * New upstream release: KDE4 beta 4.
+
+  +++ Changes by Armin Berres:
+
+  * Build depend on kdelibs5-dev >= 4:3.95.0-1.
+  * Update kdepimlibs5-dev.install.
+
+  +++ Changes by Sune Vuorela
+
+  * More leet shlibs hacking. Preprocess the kdelibs5 shlibs file and sed it a
+    bit.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Oct 2007 16:11:45 +0100
+
+kdepimlibs (3.94.0-2) experimental; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * svn branch pull to r726760.
+
+  +++ Changes by Armin Berres:
+
+  * Add debug package.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 22:29:40 +0200
+
+kdepimlibs (3.94.0-1) experimental; urgency=low
+
+  * KDE4 beta 3.
+
+  +++ Changes by Armin Berres:
+
+  * Update *.install files.
+
+  +++ Changes by Fathi Boudra:
+
+  * Remove libkleopatra1 conflict with kdepimlibs5. They contains
+    libraries with different soname and can be coinstallable.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Oct 2007 00:25:23 +0200
+
+kdepimlibs (3.93.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update *.install files.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 31 Aug 2007 10:15:11 +0200
+
+kdepimlibs (3.92.0-1) experimental; urgency=low
+
+  * KDE4 beta 1, first upload to the Debian archive.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update *.install files.
+  * Add build depends on libgpgme11-dev
+  * Add warning about experimental packages in README.Debian.
+
+  +++ Changes by Fathi Boudra:
+
+  * Remove kdepimlibs epoch.
+  * Add debian/docs to kdepimlibs.
+  * Remove kdepimlibs meta package.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Aug 2007 13:47:49 +0200
+

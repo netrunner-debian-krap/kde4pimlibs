@@ -1,0 +1,2 @@
+libkimap4: symbols-declares-dependency-on-other-package kdepim-runtime*
+libkimap4: hardening-no-fortify-functions usr/lib/libkimap.so.4.*

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/KDE/Akonadi/Notes
+    /usr/include/akonadi/notes
+</headers>
+
+<libs>
+    /usr/lib/libakonadi-notes.so
+</libs>
+
+</descriptor>

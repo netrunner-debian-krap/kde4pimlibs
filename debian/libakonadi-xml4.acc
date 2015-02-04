@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.12.2
+</version>
+
+<headers>
+    /usr/include/akonadi/xml
+</headers>
+
+<libs>
+    /usr/lib/libakonadi-kcal.so
+</libs>
+
+</descriptor>

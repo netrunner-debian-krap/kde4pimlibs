@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/KDE/KAlarmCal
+    /usr/include/kalarmcal
+</headers>
+
+<gcc_options>
+    -I/usr/include/kcalcore
+</gcc_options>
+
+<libs>
+    /usr/lib/libkalarmcal.so
+</libs>
+
+</descriptor>

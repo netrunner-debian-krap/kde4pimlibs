@@ -1,0 +1,31 @@
+Index: kdepimlibs/akonadi/xml/CMakeLists.txt
+===================================================================
+--- kdepimlibs.orig/akonadi/xml/CMakeLists.txt	2014-02-11 23:57:54.401487183 +0100
++++ kdepimlibs/akonadi/xml/CMakeLists.txt	2014-02-12 16:37:23.566636720 +0100
+@@ -36,10 +36,12 @@
+ )
+ 
+ set_target_properties(akonadi-xml PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
++set_target_properties(akonadi-xml PROPERTIES COMPILE_DEFINITIONS
++    SOVERSION="${GENERIC_LIB_SOVERSION}")
+ 
+ install(TARGETS akonadi-xml EXPORT kdepimlibsLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(FILES ${akonadixml_HDRS} DESTINATION ${INCLUDE_INSTALL_DIR}/akonadi/xml COMPONENT Devel)
+-install(FILES akonadi-xml.xsd DESTINATION ${DATA_INSTALL_DIR}/akonadi/)
++install(FILES akonadi-xml.xsd DESTINATION ${DATA_INSTALL_DIR}/akonadi RENAME akonadi-xml${GENERIC_LIB_SOVERSION}.xsd)
+ 
+ kde4_add_executable(akonadi2xml akonadi2xml.cpp)
+ target_link_libraries(akonadi2xml
+Index: kdepimlibs/akonadi/xml/xmldocument.cpp
+===================================================================
+--- kdepimlibs.orig/akonadi/xml/xmldocument.cpp	2014-02-11 23:57:54.401487183 +0100
++++ kdepimlibs/akonadi/xml/xmldocument.cpp	2014-02-12 15:33:03.126550050 +0100
+@@ -154,7 +154,7 @@
+     return false;
+   }
+ 
+-  const QString &schemaFileName = KGlobal::dirs()->findResource( "data", QLatin1String("akonadi/akonadi-xml.xsd") );
++  const QString &schemaFileName = KGlobal::dirs()->findResource( "data", QLatin1String("akonadi/akonadi-xml" SOVERSION ".xsd") );
+   XmlPtr<xmlDocPtr, xmlFreeDoc> schemaDoc( xmlReadFile( schemaFileName.toLocal8Bit(), 0, XML_PARSE_NONET ) );
+   if ( !schemaDoc ) {
+     d->lastError = i18n( "Schema definition could not be loaded and parsed." );

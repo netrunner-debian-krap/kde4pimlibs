@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.95 amd64
+# SymbolsHelper-Confirmed: 4:14.12.2 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -464,6 +464,17 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC3KeyD1Ev@Base 4:4.3.4
  _ZN4KABC3KeyD2Ev@Base 4:4.3.4
  _ZN4KABC3KeyaSERKS0_@Base 4:4.3.4
+ _ZN4KABC4Lang11setLanguageERK7QString@Base 4:14.12.2
+ _ZN4KABC4Lang13setParametersERK4QMapI7QString11QStringListE@Base 4:14.12.2
+ _ZN4KABC4LangC1ERK7QString@Base 4:14.12.2
+ _ZN4KABC4LangC1ERKS0_@Base 4:14.12.2
+ _ZN4KABC4LangC1Ev@Base 4:14.12.2
+ _ZN4KABC4LangC2ERK7QString@Base 4:14.12.2
+ _ZN4KABC4LangC2ERKS0_@Base 4:14.12.2
+ _ZN4KABC4LangC2Ev@Base 4:14.12.2
+ _ZN4KABC4LangD1Ev@Base 4:14.12.2
+ _ZN4KABC4LangD2Ev@Base 4:14.12.2
+ _ZN4KABC4LangaSERKS0_@Base 4:14.12.2
  _ZN4KABC4Lock11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN4KABC4Lock11qt_metacastEPKc@Base 4:4.3.4
  _ZN4KABC4Lock12readLockFileERK7QStringRiRS1_@Base 4:4.3.4
@@ -479,6 +490,17 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC4LockD0Ev@Base 4:4.3.4
  _ZN4KABC4LockD1Ev@Base 4:4.3.4
  _ZN4KABC4LockD2Ev@Base 4:4.3.4
+ _ZN4KABC5Email13setParametersERK4QMapI7QString11QStringListE@Base 4:14.12.2
+ _ZN4KABC5Email8setEmailERK7QString@Base 4:14.12.2
+ _ZN4KABC5EmailC1ERK7QString@Base 4:14.12.2
+ _ZN4KABC5EmailC1ERKS0_@Base 4:14.12.2
+ _ZN4KABC5EmailC1Ev@Base 4:14.12.2
+ _ZN4KABC5EmailC2ERK7QString@Base 4:14.12.2
+ _ZN4KABC5EmailC2ERKS0_@Base 4:14.12.2
+ _ZN4KABC5EmailC2Ev@Base 4:14.12.2
+ _ZN4KABC5EmailD1Ev@Base 4:14.12.2
+ _ZN4KABC5EmailD2Ev@Base 4:14.12.2
+ _ZN4KABC5EmailaSERKS0_@Base 4:14.12.2
  _ZN4KABC5Field10saveFieldsER12KConfigGroupRK7QStringRK5QListIPS0_E@Base 4:4.3.4
  _ZN4KABC5Field10saveFieldsERK7QStringRK5QListIPS0_E@Base 4:4.3.4
  _ZN4KABC5Field11createFieldEii@Base 4:4.3.4
@@ -518,6 +540,17 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC5SoundD1Ev@Base 4:4.3.4
  _ZN4KABC5SoundD2Ev@Base 4:4.3.4
  _ZN4KABC5SoundaSERKS0_@Base 4:4.3.4
+ _ZN4KABC6Gender10setCommentERK7QString@Base 4:14.12.2
+ _ZN4KABC6Gender9setGenderERK7QString@Base 4:14.12.2
+ _ZN4KABC6GenderC1ERK7QString@Base 4:14.12.2
+ _ZN4KABC6GenderC1ERKS0_@Base 4:14.12.2
+ _ZN4KABC6GenderC1Ev@Base 4:14.12.2
+ _ZN4KABC6GenderC2ERK7QString@Base 4:14.12.2
+ _ZN4KABC6GenderC2ERKS0_@Base 4:14.12.2
+ _ZN4KABC6GenderC2Ev@Base 4:14.12.2
+ _ZN4KABC6GenderD1Ev@Base 4:14.12.2
+ _ZN4KABC6GenderD2Ev@Base 4:14.12.2
+ _ZN4KABC6GenderaSERKS0_@Base 4:14.12.2
  _ZN4KABC6Plugin12setNameLabelERK7QString@Base 4:4.3.4
  _ZN4KABC6Plugin19setDescriptionLabelERK7QString@Base 4:4.3.4
  _ZN4KABC6Plugin7setTypeERK7QString@Base 4:4.3.4
@@ -671,14 +704,17 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC8TimeZoneD2Ev@Base 4:4.3.4
  _ZN4KABC8TimeZoneaSERKS0_@Base 4:4.3.4
  _ZN4KABC9Addressee10emailLabelEv@Base 4:4.3.4
+ _ZN4KABC9Addressee10insertLangERKNS_4LangE@Base 4:14.12.2
  _ZN4KABC9Addressee10pagerLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee10photoLabelEv@Base 4:4.3.4
+ _ZN4KABC9Addressee10removeLangERK7QString@Base 4:14.12.2
  _ZN4KABC9Addressee10setChangedEb@Base 4:4.3.4
  _ZN4KABC9Addressee10setCustomsERK11QStringList@Base 4:4.3.4
  _ZN4KABC9Addressee10setSecrecyERKNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABC9Addressee10soundLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee10titleLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee11insertEmailERK7QStringb@Base 4:4.3.4
+ _ZN4KABC9Addressee11insertEmailERK7QStringbRK4QMapIS1_11QStringListE@Base 4:14.12.2
  _ZN4KABC9Addressee11mailerLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee11prefixLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee11removeEmailERK7QString@Base 4:4.3.4
@@ -693,6 +729,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9Addressee12insertCustomERK7QStringS3_S3_@Base 4:4.3.4
  _ZN4KABC9Addressee12removeCustomERK7QStringS3_@Base 4:4.3.4
  _ZN4KABC9Addressee12secrecyLabelEv@Base 4:4.3.4
+ _ZN4KABC9Addressee12setEmailListERK5QListINS_5EmailEE@Base 4:14.12.2
  _ZN4KABC9Addressee12setGivenNameERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee12setProductIdERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee13birthdayLabelEv@Base 4:4.3.4
@@ -746,6 +783,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9Addressee6setUrlERK4KUrl@Base 4:4.3.4
  _ZN4KABC9Addressee7Private9mSortModeE@Base 4:4.3.4
  _ZN4KABC9Addressee7setKeysERK5QListINS_3KeyEE@Base 4:4.3.4
+ _ZN4KABC9Addressee7setKindERK7QString@Base 4:14.12.2
  _ZN4KABC9Addressee7setLogoERKNS_7PictureE@Base 4:4.3.4
  _ZN4KABC9Addressee7setNameERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee7setNoteERK7QString@Base 4:4.3.4
@@ -765,6 +803,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9Addressee9removeKeyERKNS_3KeyE@Base 4:4.3.4
  _ZN4KABC9Addressee9roleLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee9setEmailsERK11QStringList@Base 4:4.3.4
+ _ZN4KABC9Addressee9setGenderERKNS_6GenderE@Base 4:14.12.2
  _ZN4KABC9Addressee9setMailerERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee9setPrefixERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee9setSuffixERK7QString@Base 4:4.3.4
@@ -788,7 +827,10 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABClsER11QDataStreamRKNS_11PhoneNumberE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_3GeoE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_3KeyE@Base 4:4.3.4
+ _ZN4KABClsER11QDataStreamRKNS_4LangE@Base 4:14.12.2
+ _ZN4KABClsER11QDataStreamRKNS_5EmailE@Base 4:14.12.2
  _ZN4KABClsER11QDataStreamRKNS_5SoundE@Base 4:4.3.4
+ _ZN4KABClsER11QDataStreamRKNS_6GenderE@Base 4:14.12.2
  _ZN4KABClsER11QDataStreamRKNS_7AddressE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_7PictureE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_7SecrecyE@Base 4:4.3.4
@@ -798,7 +840,10 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABCrsER11QDataStreamRNS_11PhoneNumberE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_3GeoE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_3KeyE@Base 4:4.3.4
+ _ZN4KABCrsER11QDataStreamRNS_4LangE@Base 4:14.12.2
+ _ZN4KABCrsER11QDataStreamRNS_5EmailE@Base 4:14.12.2
  _ZN4KABCrsER11QDataStreamRNS_5SoundE@Base 4:4.3.4
+ _ZN4KABCrsER11QDataStreamRNS_6GenderE@Base 4:14.12.2
  _ZN4KABCrsER11QDataStreamRNS_7AddressE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_7PictureE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_7SecrecyE@Base 4:4.3.4
@@ -920,9 +965,21 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC3Key8toStringEv@Base 4:4.3.4
  _ZNK4KABC3KeyeqERKS0_@Base 4:4.3.4
  _ZNK4KABC3KeyneERKS0_@Base 4:4.3.4
+ _ZNK4KABC4Lang10parametersEv@Base 4:14.12.2
+ _ZNK4KABC4Lang7isValidEv@Base 4:14.12.2
+ _ZNK4KABC4Lang8languageEv@Base 4:14.12.2
+ _ZNK4KABC4Lang8toStringEv@Base 4:14.12.2
+ _ZNK4KABC4LangeqERKS0_@Base 4:14.12.2
+ _ZNK4KABC4LangneERKS0_@Base 4:14.12.2
  _ZNK4KABC4Lock10metaObjectEv@Base 4:4.3.4
  _ZNK4KABC4Lock12lockFileNameEv@Base 4:4.3.4
  _ZNK4KABC4Lock5errorEv@Base 4:4.3.4
+ _ZNK4KABC5Email10parametersEv@Base 4:14.12.2
+ _ZNK4KABC5Email4mailEv@Base 4:14.12.2
+ _ZNK4KABC5Email7isValidEv@Base 4:14.12.2
+ _ZNK4KABC5Email8toStringEv@Base 4:14.12.2
+ _ZNK4KABC5EmaileqERKS0_@Base 4:14.12.2
+ _ZNK4KABC5EmailneERKS0_@Base 4:14.12.2
  _ZNK4KABC5Sound3urlEv@Base 4:4.3.4
  _ZNK4KABC5Sound4dataEv@Base 4:4.3.4
  _ZNK4KABC5Sound7isEmptyEv@Base 4:4.3.4
@@ -930,6 +987,12 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC5Sound8toStringEv@Base 4:4.3.4
  _ZNK4KABC5SoundeqERKS0_@Base 4:4.3.4
  _ZNK4KABC5SoundneERKS0_@Base 4:4.3.4
+ _ZNK4KABC6Gender6genderEv@Base 4:14.12.2
+ _ZNK4KABC6Gender7commentEv@Base 4:14.12.2
+ _ZNK4KABC6Gender7isValidEv@Base 4:14.12.2
+ _ZNK4KABC6Gender8toStringEv@Base 4:14.12.2
+ _ZNK4KABC6GendereqERKS0_@Base 4:14.12.2
+ _ZNK4KABC6GenderneERKS0_@Base 4:14.12.2
  _ZNK4KABC6Plugin16descriptionLabelEv@Base 4:4.3.4
  _ZNK4KABC6Plugin4typeEv@Base 4:4.3.4
  _ZNK4KABC6Plugin9nameLabelEv@Base 4:4.3.4
@@ -1000,15 +1063,18 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9Addressee3urlEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4keysENS_3Key4TypeE7QString@Base 4:4.9.80
  _ZNK4KABC9Addressee4keysEv@Base 4:4.3.4
+ _ZNK4KABC9Addressee4kindEv@Base 4:14.12.2
  _ZNK4KABC9Addressee4logoEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4nameEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4noteEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4roleEv@Base 4:4.3.4
+ _ZNK4KABC9Addressee5langsEv@Base 4:14.12.2
  _ZNK4KABC9Addressee5photoEv@Base 4:4.3.4
  _ZNK4KABC9Addressee5soundEv@Base 4:4.3.4
  _ZNK4KABC9Addressee5titleEv@Base 4:4.3.4
  _ZNK4KABC9Addressee6customERK7QStringS3_@Base 4:4.3.4
  _ZNK4KABC9Addressee6emailsEv@Base 4:4.3.4
+ _ZNK4KABC9Addressee6genderEv@Base 4:14.12.2
  _ZNK4KABC9Addressee6mailerEv@Base 4:4.3.4
  _ZNK4KABC9Addressee6prefixEv@Base 4:4.3.4
  _ZNK4KABC9Addressee6suffixEv@Base 4:4.3.4
@@ -1027,6 +1093,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9Addressee8toStringEv@Base 4:4.3.4
  _ZNK4KABC9Addressee9addressesE6QFlagsINS_7Address8TypeFlagEE@Base 4:4.3.4
  _ZNK4KABC9Addressee9addressesEv@Base 4:4.3.4
+ _ZNK4KABC9Addressee9emailListEv@Base 4:14.12.2
  _ZNK4KABC9Addressee9fullEmailERK7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee9givenNameEv@Base 4:4.3.4
  _ZNK4KABC9Addressee9productIdEv@Base 4:4.3.4
@@ -1034,7 +1101,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9AddresseeltERKS0_@Base 4:4.3.4
  _ZNK4KABC9AddresseeneERKS0_@Base 4:4.3.4
  _ZNK4KABC9VCardTool10parseSoundERKNS_9VCardLineE@Base 4:4.3.4
- _ZNK4KABC9VCardTool11createSoundERKNS_5SoundE@Base 4:4.3.4
+ _ZNK4KABC9VCardTool11createSoundERKNS_5SoundENS_5VCard7VersionE@Base 4:14.12.2
  _ZNK4KABC9VCardTool11parseVCardsERK10QByteArray@Base 4:4.3.4
  _ZNK4KABC9VCardTool11splitStringERK5QCharRK7QString@Base 4:4.3.4
  _ZNK4KABC9VCardTool12createVCardsERKNS_13AddresseeListENS_5VCard7VersionE@Base 4:4.3.4
@@ -1042,12 +1109,12 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9VCardTool12exportVCardsERKNS_13AddresseeListENS_5VCard7VersionE@Base 4:4.9.1
  _ZNK4KABC9VCardTool12parsePictureERKNS_9VCardLineE@Base 4:4.3.4
  _ZNK4KABC9VCardTool12parseSecrecyERKNS_9VCardLineE@Base 4:4.3.4
- _ZNK4KABC9VCardTool13createPictureERK7QStringRKNS_7PictureE@Base 4:4.3.4
+ _ZNK4KABC9VCardTool13createPictureERK7QStringRKNS_7PictureENS_5VCard7VersionE@Base 4:14.12.2
  _ZNK4KABC9VCardTool13createSecrecyERKNS_7SecrecyE@Base 4:4.3.4
  _ZNK4KABC9VCardTool13parseDateTimeERK7QString@Base 4:4.3.4
  _ZNK4KABC9VCardTool14createDateTimeERK9QDateTime@Base 4:4.3.4
  _ZNK4KABC9VCardTool8parseKeyERKNS_9VCardLineE@Base 4:4.3.4
- _ZNK4KABC9VCardTool9createKeyERKNS_3KeyE@Base 4:4.3.4
+ _ZNK4KABC9VCardTool9createKeyERKNS_3KeyENS_5VCard7VersionE@Base 4:14.12.2
  _ZTIN4KABC11AddressBookE@Base 4:4.3.4
  _ZTIN4KABC11ResourceABCE@Base 4:4.3.4
  _ZTIN4KABC11VCardFormatE@Base 4:4.3.4

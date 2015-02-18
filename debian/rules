@@ -13,7 +13,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 override_dh_auto_configure:
 	$(overridden_command) -- -DKDE4_BUILD_TESTS=false
 
-.PHONY: override_dh_auto_test
+override_dh_auto_test:
+	# Disable dh_auto_test at build time
 
 # Get rid of the dependency on kde{base,pim}-runtime
 override_dh_shlibdeps:

@@ -1,18 +1,22 @@
 # SymbolsHelper-Confirmed: 4:14.12.2 amd64
-libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
+libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
- _ZGVZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.97
+ _ZGVZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.1
  _ZN11IMProtocols4selfEv@Base 4:4.11.80
  _ZN11IMProtocols5mSelfE@Base 4:4.11.80
  _ZN11IMProtocolsC1Ev@Base 4:4.11.80
  _ZN11IMProtocolsC2Ev@Base 4:4.11.80
  _ZN11IMProtocolsD1Ev@Base 4:4.11.80
  _ZN11IMProtocolsD2Ev@Base 4:4.11.80
+ (optional=external|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.7.4
+ (optional=external|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.7.4
  _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
  _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
  _ZN5KMime5Types7MailboxD1Ev@Base 4:4.6.5
  _ZN5KMime5Types7MailboxD2Ev@Base 4:4.6.5
+ (optional=external|arch=!ia64)_ZN5KMime5Types7MailboxD1Ev@Base 4:4.7.4
+ (optional=external|arch=!ia64)_ZN5KMime5Types7MailboxD2Ev@Base 4:4.7.4
  _ZN7Akonadi13ContactEditor11loadContactERKNS_4ItemE@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacastEPKc@Base 4:4.4.0
@@ -390,7 +394,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.5.86
-#MISSING: 4:14.12.2# (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.13.97
+ (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.13.1
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC12ContactGroupEEET_v@Base 4:4.4.0
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC9AddresseeEEET_v@Base 4:4.4.0
  _ZTIN7Akonadi13ContactEditorE@Base 4:4.4.0
@@ -463,7 +467,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime
  _ZTVN7Akonadi29StandardContactGroupFormatterE@Base 4:4.5.86
  _ZTVN7Akonadi34RecentContactsCollectionRequestJobE@Base 4:4.4.0
  _ZZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
- _ZZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.97
+ (optional=private)_ZZN7Akonadi18ContactGroupViewer7PrivateC4EPS0_E11groupPixmap@Base 4:4.13.1
  (c++)"non-virtual thunk to Akonadi::ContactEditor::~ContactEditor()@Base" 4:4.4.0
  (c++)"non-virtual thunk to Akonadi::ContactEditorDialog::~ContactEditorDialog()@Base" 4:4.4.0
  (c++)"non-virtual thunk to Akonadi::ContactGroupEditor::~ContactGroupEditor()@Base" 4:4.4.0

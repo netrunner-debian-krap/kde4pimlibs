@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.80 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN12KPIMTextEdit15HtmlHighlighter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.9.90

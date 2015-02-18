@@ -1,18 +1,28 @@
 kdepimlibs (4:4.14.5-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Fix watch file. 
-  * Add missing files to kdepimlibs-dev 
-  * batchpatch symbols and removed 3 Missing per Riddell. 
+  * Fix watch file.
+  * Add missing files to kdepimlibs-dev
+  * batchpatch symbols and removed 3 Missing per Riddell.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:27:38 -0800
 
-kdepimlibs (4:4.14.4-0ubuntu2) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.2-2) unstable; urgency=medium
 
-  * New upstream release. 
-  * Fix watch file to match new applications location. 
+  * Team upload.
+  * Add new error code for ERR_SSL_FAILED to support fixing issue where
+    connection via SSL using an unknown certificate could not be rejected
+    (Closes: #769852)
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Feb 2015 18:08:02 +0000
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 16 Nov 2014 22:35:39 -0500
+
+kdepimlibs (4:4.14.2-1) unstable; urgency=medium
+
+  * New upstream release (4.14.2).
+  * Update symbols files from buildds logs (4:4.14.1-1).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 20 Oct 2014 17:13:26 +0200
 
 kdepimlibs (4:4.14.2-0ubuntu2) vivid; urgency=medium
 
@@ -24,15 +34,33 @@ kdepimlibs (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Batchpatch symbols. New symbols.
- 
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 14:03:10 -0700
+
+kdepimlibs (4:4.14.1-1) unstable; urgency=medium
+
+  * New upstream release (4.14.1).
+  * Update symbols files from buildds logs (4:4.14.0-1).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Sep 2014 19:01:01 +0200
 
 kdepimlibs (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Batchpatch new symbols. 
+  * Batchpatch new symbols.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:47:36 +0200
+
+kdepimlibs (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove upstream applied patches: ship_akonaditest and ship_knut
+  * Update build dependencies.
+  * Update symbols file with 4:4.13.3-2 buildds logs.
+  * Update symbols file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 04:39:44 +0200
 
 kdepimlibs (4:4.14.0-0ubuntu1) utopic; urgency=medium
 
@@ -69,6 +97,21 @@ kdepimlibs (4:4.13.90-0ubuntu1) utopic; urgency=medium
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 17 Jul 2014 14:25:54 -0700
 
+kdepimlibs (4:4.13.3-2) unstable; urgency=medium
+
+  * Rename libkontactinterface4 to libkontactinterface4a, due to abi
+    breakage. (Closes: #756376) Thanks to Thorsten Glaser
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 30 Jul 2014 12:32:30 +0200
+
+kdepimlibs (4:4.13.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update symbols with the buildds logs.
+  * Update symbols files. (Closes: #746864, #746275)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Jul 2014 19:31:38 +0200
+
 kdepimlibs (4:4.13.2-0ubuntu1) utopic; urgency=medium
 
   * new upstream release
@@ -90,7 +133,7 @@ kdepimlibs (4:4.13.1-1ubuntu1) utopic; urgency=medium
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 21 May 2014 16:42:11 +0200
 
-kdepimlibs (4:4.13.1-1) unstable; urgency=medium
+kdepimlibs (4:4.13.1-1) experimental; urgency=medium
 
   [ Pino Toscano ]
   * Make kdepimlibs5-dev break/replace kdepim-runtime < 4.12, since files
@@ -128,7 +171,7 @@ kdepimlibs (4:4.12.95-0ubuntu1) trusty; urgency=medium
 
   [ Philip Muškovac ]
   * Update symbols
-  * libakonadi-xml4 breaks/replaces kdepim-runtime << 4:4.11.80 (LP: #1262748) 
+  * libakonadi-xml4 breaks/replaces kdepim-runtime << 4:4.11.80 (LP: #1262748)
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:09:21 +0100
 
@@ -370,9 +413,9 @@ kdepimlibs (4:4.10.90-0ubuntu1) saucy; urgency=low
 kdepimlibs (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   [ Philip Muškovac ]
-  * New upstream beta release 
-  * Update symbols 
-  * Update install files 
+  * New upstream beta release
+  * Update symbols
+  * Update install files
   * Add nepomuk-core-dev to kdepimlibs5-dev depends as the kdepimlibs cmake
     config file expects it to be there
   * Add libgpgme11-dev to kdepimlibs5-dev depends. Needed by QGpgME
@@ -561,7 +604,7 @@ kdepimlibs (4:4.9.80-0ubuntu1) raring; urgency=low
     - Add to debian/control
     - Add to kdepimlibs metapackage depends
     - Add debian/libakonadi-socialutils4.install
-    - Add debian/libakonadi-socialutils4.symbols 
+    - Add debian/libakonadi-socialutils4.symbols
   * Update kdepimlibs5-dev.install for new headers for 4.10
   * Add googletalkprotocol.desktop to debian/libakonadi-contact4.install
   * Add missing symbols files for libakonadi-notes4 and libkalarmcal2
@@ -591,7 +634,7 @@ kdepimlibs (4:4.9.1-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * update install files 
+  * update install files
   * add new symbols to libakonadi-kde4.symbols and libkabc4.symbols
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:24:58 +0530
@@ -727,7 +770,7 @@ kdepimlibs (4:4.8.2-0ubuntu2) precise-proposed; urgency=low
 kdepimlibs (4:4.8.2-0ubuntu1) precise; urgency=low
 
   * New upstream release
-    - Add new symbol to libakonadi-contact4.symbols 
+    - Add new symbol to libakonadi-contact4.symbols
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 30 Mar 2012 19:51:53 +0200
 
@@ -888,6 +931,24 @@ kdepimlibs (4:4.7.2+git111007-0ubuntu1) oneiric; urgency=low
 
  -- Scott Kitterman <scott@kitterman.com>  Fri, 07 Oct 2011 15:54:16 -0500
 
+kdepimlibs (4:4.7.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
+  * Bump build dependency on kdelibs5-dev to version 4:4.7.
+  * Bump build dependency on libakonadi-dev to version 1.5.52.
+  * Add libprison-dev to Build-Depends.
+  * Update installed files.
+  * Update symbols files.
+  * Exclude kde-runtime from dh_shlibdeps results.
+
+  [ Pino Toscano ]
+  * Add ${misc:Depends} where missing.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:46:00 -0300
+
 kdepimlibs (4:4.7.2-0ubuntu1) oneiric; urgency=low
 
   * New upstream bugfix release
@@ -957,6 +1018,28 @@ kdepimlibs (4:4.6.90-0ubuntu1) oneiric; urgency=low
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 00:32:40 +0200
 
+kdepimlibs (4:4.6.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
+  * Update symbols files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:59 +0300
+
+kdepimlibs (4:4.6.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Modestas Vainius ]
+  * Update symbol files.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jun 2011 13:05:00 +0300
+
 kdepimlibs (4:4.6.3-1ubuntu2) oneiric; urgency=low
 
   * Reduce breaks/replaces version on kdepim-runtime to << 4:4.4.0.
@@ -1011,7 +1094,7 @@ kdepimlibs (4:4.6.2-1) experimental; urgency=low
   [ José Manuel Santamaría Lema ]
   * Remove 04_backport_fix_abnormal_pop3_aborting.diff, no longer needed.
   * Add xsltproc to Build-Depends.
-  * Add packages libkcalcore4, libkcalutils4, libkmbox4 and 
+  * Add packages libkcalcore4, libkcalutils4, libkmbox4 and
     libakonadi-calendar4.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump S-V to 3.9.1: add breaks next to replaces and replace conflicts with
@@ -1047,7 +1130,7 @@ kdepimlibs (4:4.6.2-0ubuntu1) natty; urgency=low
 
 kdepimlibs (4:4.6.1-0ubuntu1) natty; urgency=low
 
-  * New upstream release 
+  * New upstream release
   * Update kde-sc-dev-latest version
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 26 Feb 2011 22:08:51 +0100

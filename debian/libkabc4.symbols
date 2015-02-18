@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.13.3 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -599,7 +599,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC7Picture10setRawDataERK10QByteArrayRK7QString@Base 4:4.9.80
  _ZN4KABC7Picture6setUrlERK7QString@Base 4:4.3.4
  _ZN4KABC7Picture6setUrlERK7QStringS3_@Base 4:4.9.80
- _ZN4KABC7Picture7setDataERK6QImage@Base 4:4.3.4
  _ZN4KABC7Picture7setTypeERK7QString@Base 4:4.3.4
  _ZN4KABC7PictureC1ERK6QImage@Base 4:4.3.4
  _ZN4KABC7PictureC1ERK7QString@Base 4:4.3.4
@@ -849,7 +848,6 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABCrsER11QDataStreamRNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_8TimeZoneE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_9AddresseeE@Base 4:4.3.4
- (optional=templinst|arch=hppa sparc)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.2
  _ZNK4KABC11AddressBook10findByNameERK7QString@Base 4:4.3.4
  _ZNK4KABC11AddressBook10identifierEv@Base 4:4.3.4
  _ZNK4KABC11AddressBook10metaObjectEv@Base 4:4.3.4
@@ -1058,10 +1056,10 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9Addressee14preferredEmailEv@Base 4:4.3.4
  _ZNK4KABC9Addressee15findPhoneNumberERK7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee3geoEv@Base 4:4.3.4
- _ZNK4KABC9Addressee3keyENS_3Key4TypeE7QString@Base 4:4.9.80
+ _ZNK4KABC9Addressee3keyENS_3Key4TypeE7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee3uidEv@Base 4:4.3.4
  _ZNK4KABC9Addressee3urlEv@Base 4:4.3.4
- _ZNK4KABC9Addressee4keysENS_3Key4TypeE7QString@Base 4:4.9.80
+ _ZNK4KABC9Addressee4keysENS_3Key4TypeE7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee4keysEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4kindEv@Base 4:14.12.2
  _ZNK4KABC9Addressee4logoEv@Base 4:4.3.4

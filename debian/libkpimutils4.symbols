@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.80 i386
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libkpimutils.so.4 libkpimutils4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KPIMUtils11LinkLocator12pngToDataUrlERK7QString@Base 4:4.3.4

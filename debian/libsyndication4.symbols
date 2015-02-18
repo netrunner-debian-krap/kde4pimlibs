@@ -94,7 +94,8 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZN11Syndication16SpecificDocumentD1Ev@Base 4:4.3.4
  _ZN11Syndication16SpecificDocumentD2Ev@Base 4:4.3.4
  _ZN11Syndication16contentNameSpaceEv@Base 4:4.3.4
- _ZN11Syndication16dateTimeToStringEl@Base 4:4.3.4
+ (arch=!x32)_ZN11Syndication16dateTimeToStringEl@Base 4:4.11.5
+ (arch=x32)_ZN11Syndication16dateTimeToStringEx@Base 4:4.11.5
  _ZN11Syndication16parserCollectionEv@Base 4:4.3.4
  _ZN11Syndication16personFromStringERK7QString@Base 4:4.3.4
  _ZN11Syndication19SpecificItemVisitor12visitRDFItemEPNS_3RDF4ItemE@Base 4:4.3.4
@@ -109,9 +110,11 @@ libsyndication.so.4 libsyndication4 #MINVER#
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEE12changeMapperERK7QStringPNS_6MapperIS1_EE@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEE14registerParserEPNS_14AbstractParserEPNS_6MapperIS1_EE@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEE5parseERKNS_14DocumentSourceERK7QString@Base 4:4.3.4
+ (optional=templinst|arch=armel mips mipsel)_ZN11Syndication20ParserCollectionImplINS_4FeedEEC1Ev@Base 4:4.6.3
+ (optional=templinst|arch=armel mips mipsel)_ZN11Syndication20ParserCollectionImplINS_4FeedEEC2Ev@Base 4:4.6.3
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEED0Ev@Base 4:4.3.4
  (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEED1Ev@Base 4:4.3.4
- (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN11Syndication20ParserCollectionImplINS_4FeedEED2Ev@Base 4:4.6.1
+ (optional=templinst)_ZN11Syndication20ParserCollectionImplINS_4FeedEED2Ev@Base 4:4.6.1
  _ZN11Syndication20stringContainsMarkupERK7QString@Base 4:4.3.4
  _ZN11Syndication23escapeSpecialCharactersERK7QString@Base 4:4.3.4
  _ZN11Syndication3RDF10DublinCoreC1EN5boost10shared_ptrINS0_8ResourceEEE@Base 4:4.3.4
@@ -929,7 +932,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTIN11Syndication8CategoryE@Base 4:4.3.4
  _ZTIN11Syndication9EnclosureE@Base 4:4.3.4
  _ZTIN5boost16exception_detail10clone_baseE@Base 4:4.10.3
- _ZTIN5boost9exceptionE@Base 4:4.8.3
+ (optional=external)_ZTIN5boost9exceptionE@Base 4:4.7.4
  _ZTSN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTSN11Syndication12SpecificItemE@Base 4:4.3.4
  _ZTSN11Syndication13DataRetrieverE@Base 4:4.3.4
@@ -987,7 +990,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTSN11Syndication8CategoryE@Base 4:4.3.4
  _ZTSN11Syndication9EnclosureE@Base 4:4.3.4
  _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.10.3
- _ZTSN5boost9exceptionE@Base 4:4.8.3
+ (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTVN11Syndication10PersonImplE@Base 4:4.3.4
  _ZTVN11Syndication12SpecificItemE@Base 4:4.3.4
  _ZTVN11Syndication13DataRetrieverE@Base 4:4.3.4
@@ -1045,7 +1048,7 @@ libsyndication.so.4 libsyndication4 #MINVER#
  _ZTVN11Syndication8CategoryE@Base 4:4.3.4
  _ZTVN11Syndication9EnclosureE@Base 4:4.3.4
  _ZTVN5boost16exception_detail10clone_baseE@Base 4:4.10.3
- _ZTVN5boost9exceptionE@Base 4:4.8.3
+ (optional=external)_ZTVN5boost9exceptionE@Base 4:4.7.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::accept(Syndication::SpecificItemVisitor*)@Base" 4:4.3.4
  (c++)"non-virtual thunk to Syndication::Atom::Entry::~Entry()@Base" 4:4.6.5
  (c++)"non-virtual thunk to Syndication::Atom::EntryDocument::~EntryDocument()@Base" 4:4.6.5

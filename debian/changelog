@@ -1,3 +1,10 @@
+kdepimlibs (4:4.14.6-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Update watch file 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Mar 2015 08:00:15 -0700
+
 kdepimlibs (4:4.14.5-0ubuntu1) vivid; urgency=medium
 
   * New upstream release

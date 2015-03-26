@@ -634,12 +634,14 @@ usr/include/akonadi/tag.h
 usr/include/akonadi/tagattribute.h
 usr/include/akonadi/tagcreatejob.h
 usr/include/akonadi/tagdeletejob.h
+usr/include/akonadi/tageditwidget.h
 usr/include/akonadi/tagfetchjob.h
 usr/include/akonadi/tagfetchscope.h
 usr/include/akonadi/tagmanagementdialog.h
 usr/include/akonadi/tagmodel.h
 usr/include/akonadi/tagmodifyjob.h
 usr/include/akonadi/tagselectiondialog.h
+usr/include/akonadi/tagselectwidget.h
 usr/include/akonadi/tagwidget.h
 usr/include/akonadi/transactionjobs.h
 usr/include/akonadi/transactionsequence.h
@@ -695,6 +697,7 @@ usr/include/kabc/addressee.h
 usr/include/kabc/addresseedialog.h
 usr/include/kabc/addresseelist.h
 usr/include/kabc/addresslineedit.h
+usr/include/kabc/calendarurl.h
 usr/include/kabc/contactgroup.h
 usr/include/kabc/contactgrouptool.h
 usr/include/kabc/distributionlist.h
@@ -707,6 +710,7 @@ usr/include/kabc/format.h
 usr/include/kabc/formatfactory.h
 usr/include/kabc/gender.h
 usr/include/kabc/geo.h
+usr/include/kabc/impp.h
 usr/include/kabc/kabc_export.h
 usr/include/kabc/key.h
 usr/include/kabc/lang.h

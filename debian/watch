@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/stable/applications/1([\d.]+)/src/kdepimlibs-([\d.]+).tar.xz
+http://download.kde.org/stable/applications/([\d.]+)/src/kdepimlibs-([\d.]+).tar.xz

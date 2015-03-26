@@ -4,6 +4,14 @@ kdepimlibs (4:4.14.6-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 13:18:05 +0100
 
+kdepimlibs (4:4.14.6-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Update watch file
+  * Add missing files to -dev / wrap-and-sort.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 15:04:47 -0700
+
 kdepimlibs (4:4.14.5-1) experimental; urgency=medium
 
   * Prepare Debian release.
@@ -2504,4 +2512,3 @@ kdepimlibs (3.92.0-1) experimental; urgency=low
   * Remove kdepimlibs meta package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Aug 2007 13:47:49 +0200
-

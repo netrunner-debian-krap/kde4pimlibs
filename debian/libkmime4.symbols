@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.95 amd64
+# SymbolsHelper-Confirmed: 4:4.14.6 amd64
 libkmime.so.4 libkmime4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN5KMime12ContentIndexE@Base 4:4.3.4
@@ -79,6 +79,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime13cachedCharsetERK10QByteArray@Base 4:4.3.4
  _ZN5KMime13extractHeaderERK10QByteArrayS2_@Base 4:4.3.4
  _ZN5KMime13hasAttachmentEPNS_7ContentE@Base 4:4.5.86
+ _ZN5KMime13hasInvitationEPNS_7ContentE@Base 4:4.14.6
  _ZN5KMime14cachedLanguageERK10QByteArray@Base 4:4.3.4
  _ZN5KMime14extractHeadersERK10QByteArrayS2_@Base 4:4.3.4
  _ZN5KMime15nameForEncodingENS_7Headers15contentEncodingE@Base 4:4.4.0
@@ -138,6 +139,7 @@ libkmime.so.4 libkmime4 #MINVER#
  _ZN5KMime7Content14changeEncodingENS_7Headers15contentEncodingE@Base 4:4.3.4
  _ZN5KMime7Content14decodedContentEv@Base 4:4.3.4
  _ZN5KMime7Content14encodedContentEb@Base 4:4.3.4
+ _ZN5KMime7Content14replaceContentEPS0_S1_@Base 4:4.14.6
  _ZN5KMime7Content15assembleHeadersEv@Base 4:4.3.4
  _ZN5KMime7Content15contentLocationEb@Base 4:4.3.4
  _ZN5KMime7Content15getHeaderByTypeEPKc@Base 4:4.3.4

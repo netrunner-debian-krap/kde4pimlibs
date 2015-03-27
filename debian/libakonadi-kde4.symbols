@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.4 amd64
+# SymbolsHelper-Confirmed: 4:4.14.6 amd64
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -377,6 +377,32 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi13ServerManagerD0Ev@Base 4:4.6.5
  _ZN7Akonadi13ServerManagerD1Ev@Base 4:4.6.5
  _ZN7Akonadi13ServerManagerD2Ev@Base 4:4.6.5
+ _ZN7Akonadi13TagEditWidget11eventFilterEP7QObjectP6QEvent@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget11qt_metacastEPKc@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget12setSelectionERK5QListINS_3TagEE@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget16staticMetaObjectE@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private11qt_metacastEPKc@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private13slotCreateTagEv@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private14onRowsInsertedERK11QModelIndexii@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private14slotTextEditedERK7QString@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private15slotItemEnteredERK11QModelIndex@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private16showDeleteButtonEv@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private16staticMetaObjectE@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private21slotCreateTagFinishedEP4KJob@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private6selectERK11QModelIndexiiN19QItemSelectionModel13SelectionFlagE@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7Private9deleteTagEv@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7PrivateC1EPNS_8TagModelEP7QWidget@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7PrivateC2EPNS_8TagModelEP7QWidget@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7PrivateD0Ev@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7PrivateD1Ev@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidget7PrivateD2Ev@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidgetC1EPNS_8TagModelEP7QWidgetb@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidgetC2EPNS_8TagModelEP7QWidgetb@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidgetD0Ev@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidgetD1Ev@Base 4:4.14.6
+ _ZN7Akonadi13TagEditWidgetD2Ev@Base 4:4.14.6
  _ZN7Akonadi13TagFetchScope14fetchAttributeERK10QByteArrayb@Base 4:4.12.80
  _ZN7Akonadi13TagFetchScope14setFetchIdOnlyEb@Base 4:4.14.1
  _ZN7Akonadi13TagFetchScopeC1ERKS0_@Base 4:4.12.80
@@ -660,6 +686,17 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi15SubscriptionJobD0Ev@Base 4:4.3.4
  _ZN7Akonadi15SubscriptionJobD1Ev@Base 4:4.3.4
  _ZN7Akonadi15SubscriptionJobD2Ev@Base 4:4.3.4
+ _ZN7Akonadi15TagSelectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidget11qt_metacastEPKc@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidget12setSelectionERK5QListINS_3TagEE@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidget16staticMetaObjectE@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidget26setSelectionFromStringListERK11QStringList@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidget7Private4initEv@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidgetC1EP7QWidget@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidgetC2EP7QWidget@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidgetD0Ev@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidgetD1Ev@Base 4:4.14.6
+ _ZN7Akonadi15TagSelectWidgetD2Ev@Base 4:4.14.6
  _ZN7Akonadi15TrashRestoreJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.90
  _ZN7Akonadi15TrashRestoreJob11qt_metacastEPKc@Base 4:4.7.90
  _ZN7Akonadi15TrashRestoreJob16staticMetaObjectE@Base 4:4.7.90
@@ -705,6 +742,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi16CollectionDialog16setSelectionModeEN17QAbstractItemView13SelectionModeE@Base 4:4.3.4
  _ZN7Akonadi16CollectionDialog16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi16CollectionDialog17setMimeTypeFilterERK11QStringList@Base 4:4.3.4
+ _ZN7Akonadi16CollectionDialog19setContentMimeTypesERK11QStringList@Base 4:4.14.6
  _ZN7Akonadi16CollectionDialog20setDefaultCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi16CollectionDialog21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 4:4.4.0
  _ZN7Akonadi16CollectionDialog21setUseFolderByDefaultEb@Base 4:4.12.80
@@ -940,6 +978,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi19CollectionRequester16staticMetaObjectE@Base 4:4.3.4
  _ZN7Akonadi19CollectionRequester17collectionChangedERKNS_10CollectionE@Base 4:4.5.0
  _ZN7Akonadi19CollectionRequester17setMimeTypeFilterERK11QStringList@Base 4:4.3.4
+ _ZN7Akonadi19CollectionRequester19setContentMimeTypesERK11QStringList@Base 4:4.14.6
  _ZN7Akonadi19CollectionRequester21setAccessRightsFilterE6QFlagsINS_10Collection5RightEE@Base 4:4.4.0
  _ZN7Akonadi19CollectionRequester29changeCollectionDialogOptionsE6QFlagsINS_16CollectionDialog22CollectionDialogOptionEE@Base 4:4.5.86
  _ZN7Akonadi19CollectionRequester7Private15fetchCollectionERKNS_10CollectionE@Base 4:4.12.3
@@ -1970,6 +2009,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi13ItemSearchJob5itemsEv@Base 4:4.4.0
  _ZNK7Akonadi13ItemSearchJob9mimeTypesEv@Base 4:4.12.80
  _ZNK7Akonadi13ServerManager10metaObjectEv@Base 4:4.3.4
+ _ZNK7Akonadi13TagEditWidget10metaObjectEv@Base 4:4.14.6
+ _ZNK7Akonadi13TagEditWidget7Private10metaObjectEv@Base 4:4.14.6
+ _ZNK7Akonadi13TagEditWidget9selectionEv@Base 4:4.14.6
  _ZNK7Akonadi13TagFetchScope10attributesEv@Base 4:4.12.80
  _ZNK7Akonadi13TagFetchScope11fetchIdOnlyEv@Base 4:4.14.1
  _ZNK7Akonadi14AgentTypeModel10metaObjectEv@Base 4:4.3.4
@@ -2072,6 +2114,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi15SearchCreateJob17searchCollectionsEv@Base 4:4.12.80
  _ZNK7Akonadi15SearchCreateJob21isRemoteSearchEnabledEv@Base 4:4.12.80
  _ZNK7Akonadi15SubscriptionJob10metaObjectEv@Base 4:4.3.4
+ _ZNK7Akonadi15TagSelectWidget10metaObjectEv@Base 4:4.14.6
+ _ZNK7Akonadi15TagSelectWidget15tagToStringListEv@Base 4:4.14.6
+ _ZNK7Akonadi15TagSelectWidget9selectionEv@Base 4:4.14.6
  _ZNK7Akonadi15TrashRestoreJob10metaObjectEv@Base 4:4.7.90
  _ZNK7Akonadi15TrashRestoreJob5itemsEv@Base 4:4.7.90
  _ZNK7Akonadi16AgentFactoryBase10metaObjectEv@Base 4:4.5.86
@@ -2438,6 +2483,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTIN7Akonadi13ItemModifyJobE@Base 4:4.3.4
  _ZTIN7Akonadi13ItemSearchJobE@Base 4:4.4.0
  _ZTIN7Akonadi13ServerManagerE@Base 4:4.3.4
+ _ZTIN7Akonadi13TagEditWidget7PrivateE@Base 4:4.14.6
+ _ZTIN7Akonadi13TagEditWidgetE@Base 4:4.14.6
  _ZTIN7Akonadi14AgentTypeModelE@Base 4:4.3.4
  _ZTIN7Akonadi14ChangeRecorderE@Base 4:4.3.4
  _ZTIN7Akonadi14CollectionViewE@Base 4:4.3.4
@@ -2451,6 +2498,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTIN7Akonadi15EntityTreeModelE@Base 4:4.4.0
  _ZTIN7Akonadi15SearchCreateJobE@Base 4:4.3.4
  _ZTIN7Akonadi15SubscriptionJobE@Base 4:4.3.4
+ _ZTIN7Akonadi15TagSelectWidgetE@Base 4:4.14.6
  _ZTIN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.7.90
  _ZTIN7Akonadi15TrashRestoreJobE@Base 4:4.7.90
  _ZTIN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
@@ -2559,6 +2607,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTSN7Akonadi13ItemModifyJobE@Base 4:4.3.4
  _ZTSN7Akonadi13ItemSearchJobE@Base 4:4.4.0
  _ZTSN7Akonadi13ServerManagerE@Base 4:4.3.4
+ _ZTSN7Akonadi13TagEditWidget7PrivateE@Base 4:4.14.6
+ _ZTSN7Akonadi13TagEditWidgetE@Base 4:4.14.6
  _ZTSN7Akonadi14AgentTypeModelE@Base 4:4.3.4
  _ZTSN7Akonadi14ChangeRecorderE@Base 4:4.3.4
  _ZTSN7Akonadi14CollectionViewE@Base 4:4.3.4
@@ -2572,6 +2622,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTSN7Akonadi15EntityTreeModelE@Base 4:4.4.0
  _ZTSN7Akonadi15SearchCreateJobE@Base 4:4.3.4
  _ZTSN7Akonadi15SubscriptionJobE@Base 4:4.3.4
+ _ZTSN7Akonadi15TagSelectWidgetE@Base 4:4.14.6
  _ZTSN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.7.90
  _ZTSN7Akonadi15TrashRestoreJobE@Base 4:4.7.90
  _ZTSN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
@@ -2680,6 +2731,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTVN7Akonadi13ItemModifyJobE@Base 4:4.3.4
  _ZTVN7Akonadi13ItemSearchJobE@Base 4:4.4.0
  _ZTVN7Akonadi13ServerManagerE@Base 4:4.3.4
+ _ZTVN7Akonadi13TagEditWidget7PrivateE@Base 4:4.14.6
+ _ZTVN7Akonadi13TagEditWidgetE@Base 4:4.14.6
  _ZTVN7Akonadi14AgentTypeModelE@Base 4:4.3.4
  _ZTVN7Akonadi14ChangeRecorderE@Base 4:4.3.4
  _ZTVN7Akonadi14CollectionViewE@Base 4:4.3.4
@@ -2693,6 +2746,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZTVN7Akonadi15EntityTreeModelE@Base 4:4.4.0
  _ZTVN7Akonadi15SearchCreateJobE@Base 4:4.3.4
  _ZTVN7Akonadi15SubscriptionJobE@Base 4:4.3.4
+ _ZTVN7Akonadi15TagSelectWidgetE@Base 4:4.14.6
  _ZTVN7Akonadi15TrashRestoreJob22TrashRestoreJobPrivateE@Base 4:4.7.90
  _ZTVN7Akonadi15TrashRestoreJobE@Base 4:4.7.90
  _ZTVN7Akonadi16AgentFactoryBaseE@Base 4:4.5.86
@@ -2799,6 +2853,8 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (c++)"non-virtual thunk to Akonadi::EntityTreeView::~EntityTreeView()@Base" 4:4.4.0
  (c++)"non-virtual thunk to Akonadi::ItemView::~ItemView()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Akonadi::SubscriptionDialog::~SubscriptionDialog()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to Akonadi::TagEditWidget::~TagEditWidget()@Base" 4:4.14.6
  (c++)"non-virtual thunk to Akonadi::TagManagementDialog::~TagManagementDialog()@Base" 4:4.12.80
+ (c++)"non-virtual thunk to Akonadi::TagSelectWidget::~TagSelectWidget()@Base" 4:4.14.6
  (c++)"non-virtual thunk to Akonadi::TagSelectionDialog::~TagSelectionDialog()@Base" 4:4.12.80
  (c++)"non-virtual thunk to Akonadi::TagWidget::~TagWidget()@Base" 4:4.12.80

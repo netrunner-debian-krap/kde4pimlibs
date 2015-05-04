@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.5.86 amd64
+# SymbolsHelper-Confirmed: 4:4.14.7 amd64 i386
 libkmbox.so.4 libkmbox4 #MINVER#
  _ZN5KMBox4MBox11readMessageERKNS_9MBoxEntryE@Base 4:4.5.86
  _ZN5KMBox4MBox11setLockFileERK7QString@Base 4:4.5.86
  _ZN5KMBox4MBox11setLockTypeENS0_8LockTypeE@Base 4:4.5.86
+ _ZN5KMBox4MBox11setReadOnlyEb@Base 4:4.14.7
  _ZN5KMBox4MBox13appendMessageERKN5boost10shared_ptrIN5KMime7MessageEEE@Base 4:4.5.86
  _ZN5KMBox4MBox14readRawMessageERKNS_9MBoxEntryE@Base 4:4.5.86
  _ZN5KMBox4MBox16setUnlockTimeoutEi@Base 4:4.5.86
@@ -25,6 +26,7 @@ libkmbox.so.4 libkmbox4 #MINVER#
  _ZN5KMBox9MBoxEntryD1Ev@Base 4:4.5.86
  _ZN5KMBox9MBoxEntryD2Ev@Base 4:4.5.86
  _ZN5KMBox9MBoxEntryaSERKS0_@Base 4:4.5.86
+ _ZNK5KMBox4MBox10isReadOnlyEv@Base 4:4.14.7
  _ZNK5KMBox4MBox6lockedEv@Base 4:4.5.86
  _ZNK5KMBox4MBox7entriesERK5QListINS_9MBoxEntryEE@Base 4:4.5.86
  _ZNK5KMBox4MBox8fileNameEv@Base 4:4.5.86

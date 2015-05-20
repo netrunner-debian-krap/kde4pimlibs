@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.1 amd64
+# SymbolsHelper-Confirmed: 4:4.14.6 hppa
 libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
@@ -11,12 +11,10 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN11IMProtocolsD2Ev@Base 4:4.11.80
  (optional=external|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.7.4
  (optional=external|arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.7.4
- _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
- _ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
- _ZN5KMime5Types7MailboxD1Ev@Base 4:4.6.5
- _ZN5KMime5Types7MailboxD2Ev@Base 4:4.6.5
- (optional=external|arch=!ia64)_ZN5KMime5Types7MailboxD1Ev@Base 4:4.7.4
- (optional=external|arch=!ia64)_ZN5KMime5Types7MailboxD2Ev@Base 4:4.7.4
+ (optional=gccinternal|arch=!hppa)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!hppa)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
+ (optional=external|arch=!ia64 !hppa)_ZN5KMime5Types7MailboxD1Ev@Base 4:4.7.4
+ (optional=external|arch=!ia64 !hppa)_ZN5KMime5Types7MailboxD2Ev@Base 4:4.7.4
  _ZN7Akonadi13ContactEditor11loadContactERKNS_4ItemE@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN7Akonadi13ContactEditor11qt_metacastEPKc@Base 4:4.4.0
@@ -250,9 +248,9 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi25RecentContactsCollections4selfEv@Base 4:4.4.0
  _ZN7Akonadi25RecentContactsCollectionsC1EPNS_32RecentContactsCollectionsPrivateE@Base 4:4.4.0
  _ZN7Akonadi25RecentContactsCollectionsC2EPNS_32RecentContactsCollectionsPrivateE@Base 4:4.4.0
- _ZN7Akonadi25RecentContactsCollectionsD0Ev@Base 4:4.6.5
- _ZN7Akonadi25RecentContactsCollectionsD1Ev@Base 4:4.6.5
- _ZN7Akonadi25RecentContactsCollectionsD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!hppa)_ZN7Akonadi25RecentContactsCollectionsD0Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!hppa)_ZN7Akonadi25RecentContactsCollectionsD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!hppa)_ZN7Akonadi25RecentContactsCollectionsD2Ev@Base 4:4.6.5
  _ZN7Akonadi27EmailAddressSelectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionDialog11qt_metacastEPKc@Base 4:4.5.0
  _ZN7Akonadi27EmailAddressSelectionDialog16staticMetaObjectE@Base 4:4.5.0
@@ -394,7 +392,7 @@ libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES8_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC12ContactGroupEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.5.86
- (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.13.1
+ (optional=templinst|arch=!hppa)_ZNK7Akonadi4Item14hasPayloadImplIN4KABC9AddresseeEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.13.1
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC12ContactGroupEEET_v@Base 4:4.4.0
  (optional=templinst)_ZNK7Akonadi4Item7payloadIN4KABC9AddresseeEEET_v@Base 4:4.4.0
  _ZTIN7Akonadi13ContactEditorE@Base 4:4.4.0

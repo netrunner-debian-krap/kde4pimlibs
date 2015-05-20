@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.6 amd64
+# SymbolsHelper-Confirmed: 4:4.14.6 alpha amd64 armel armhf hurd-i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sparc x32
 libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
@@ -730,7 +730,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi16AgentFactoryBaseD2Ev@Base 4:4.6.5
  _ZN7Akonadi16AttributeFactory15createAttributeERK10QByteArray@Base 4:4.3.4
  _ZN7Akonadi16AttributeFactory17registerAttributeEPNS_9AttributeE@Base 4:4.3.4
- (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZN7Akonadi16AttributeFactory17registerAttributeINS_26SpecialCollectionAttributeEEEvv@Base 4:4.6.3
+ (optional=templinst)_ZN7Akonadi16AttributeFactory17registerAttributeINS_26SpecialCollectionAttributeEEEvv@Base 4:4.6.3
  _ZN7Akonadi16AttributeFactory4selfEv@Base 4:4.3.4
  _ZN7Akonadi16AttributeFactoryC1Ev@Base 4:4.3.4
  _ZN7Akonadi16AttributeFactoryC2Ev@Base 4:4.3.4
@@ -1567,7 +1567,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi6Entity19setParentCollectionERKNS_10CollectionE@Base 4:4.4.0
  _ZN7Akonadi6Entity5setIdEx@Base 4:4.3.4
  _ZN7Akonadi6Entity6d_funcEv@Base 4:4.3.4
- (optional=templinst|arch=amd64 arm64 i386)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
+ (optional=templinst)_ZN7Akonadi6Entity9attributeINS_22EntityDisplayAttributeEEEPT_NS0_12CreateOptionE@Base 4:4.6.2
  _ZN7Akonadi6EntityC1EPNS_13EntityPrivateE@Base 4:4.3.4
  _ZN7Akonadi6EntityC1ERKS0_@Base 4:4.3.4
  _ZN7Akonadi6EntityC2EPNS_13EntityPrivateE@Base 4:4.3.4
@@ -2376,7 +2376,7 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZNK7Akonadi4Item8revisionEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity10attributesEv@Base 4:4.3.4
  _ZNK7Akonadi6Entity12hasAttributeERK10QByteArray@Base 4:4.3.4
- (optional=templinst|arch=armel sparc)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.14.0
+ (optional=templinst|arch=armel)_ZNK7Akonadi6Entity12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:4.14.0
  _ZNK7Akonadi6Entity14remoteRevisionEv@Base 4:4.5.0
  _ZNK7Akonadi6Entity16parentCollectionEv@Base 4:4.4.0
  _ZNK7Akonadi6Entity2idEv@Base 4:4.3.4

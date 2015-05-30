@@ -1,8 +1,15 @@
-kdepimlibs (4:4.14.7-0ubuntu1.1) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.8-0ubuntu2) UNRELEASED; urgency=medium
 
   * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 30 May 2015 07:02:42 -0700
+
+kdepimlibs (4:4.14.8-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Batchpatch symbols. No missing. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 07:21:55 -0700
 
 kdepimlibs (4:4.14.7-0ubuntu1) UNRELEASED; urgency=medium
 

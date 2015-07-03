@@ -1,12 +1,13 @@
-kdepimlibs (4:4.14.9-1~) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.10-1~) UNRELEASED; urgency=medium
 
   * New upstream release (4.14.7).
   * Update copyright information.
   * New upstream release (4.14.8).
   * Update symbols files from buildds logs (4:4.14.6-1).
   * New upstream release (4.14.9).
+  * New upstream release (4.14.10).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:28:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:43:55 +0200
 
 kdepimlibs (4:4.14.6-1) experimental; urgency=medium
 

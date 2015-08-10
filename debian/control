@@ -159,11 +159,11 @@ Description: c++ wrapper library for gpgme
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
-Package: libkabc4v5
+Package: libkabc4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0), libkabc4
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0), libkabc4
+Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
 Description: library for handling address book data
  This library provides an API for address book data. It includes features
  such as:

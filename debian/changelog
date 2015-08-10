@@ -6,7 +6,7 @@ kdepimlibs (4:4.14.10-1) unstable; urgency=medium
   * Update symbols files from buildds logs (4:4.14.6-1).
   * New upstream release (4.14.9).
   * New upstream release (4.14.10).
-  * Update symbols files.
+  * Update symbols files. (Closes: #777926)
   * Rename libgpgme++2 to v5 due to gcc5 transition.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 15:02:33 +0200

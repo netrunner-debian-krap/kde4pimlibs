@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libkpimutils.so.4 libkpimutils4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KPIMUtils11LinkLocator12pngToDataUrlERK7QString@Base 4:4.3.4
@@ -17,9 +17,9 @@ libkpimutils.so.4 libkpimutils4 #MINVER#
  _ZN9KPIMUtils12splitAddressERK7QStringRS0_S3_S3_@Base 4:4.3.4
  _ZN9KPIMUtils14EmailValidatorC1EP7QObject@Base 4:4.5.86
  _ZN9KPIMUtils14EmailValidatorC2EP7QObject@Base 4:4.5.86
- _ZN9KPIMUtils14EmailValidatorD0Ev@Base 4:4.6.5
- _ZN9KPIMUtils14EmailValidatorD1Ev@Base 4:4.6.5
- _ZN9KPIMUtils14EmailValidatorD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN9KPIMUtils14EmailValidatorD0Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN9KPIMUtils14EmailValidatorD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN9KPIMUtils14EmailValidatorD2Ev@Base 4:4.6.5
  _ZN9KPIMUtils14SpellingFilter10TextCensor10censorUrlsEv@Base 4:4.3.4
  _ZN9KPIMUtils14SpellingFilter10TextCensor12censorStringERK7QString@Base 4:4.3.4
  _ZN9KPIMUtils14SpellingFilter10TextCensor13findQuotationERK7QString@Base 4:4.3.4

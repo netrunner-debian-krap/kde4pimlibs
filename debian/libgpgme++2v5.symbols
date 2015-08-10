@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4:4.14.6 alpha armel armhf hurd-i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sparc x32
-libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
+libgpgme++-pthread.so.2 libgpgme++2v5 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5GpgME10EngineInfoC1EP18_gpgme_engine_info@Base 4:4.3.4
  _ZN5GpgME10EngineInfoC1Ev@Base 4:4.3.4
@@ -59,8 +59,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME13KeyListResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME13KeyListResultC2ERKNS_5ErrorERK24_gpgme_op_keylist_result@Base 4:4.3.4
  _ZN5GpgME13KeyListResultC2Ev@Base 4:4.3.4
- _ZN5GpgME13KeyListResultD1Ev@Base 4:4.6.5
- _ZN5GpgME13KeyListResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13KeyListResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13KeyListResultD2Ev@Base 4:4.6.5
  _ZN5GpgME13SigningResult4initEP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME13SigningResultC1EP13gpgme_contextRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME13SigningResultC1EP13gpgme_contexti@Base 4:4.3.4
@@ -70,8 +70,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME13SigningResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME13SigningResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME13SigningResultC2Ev@Base 4:4.3.4
- _ZN5GpgME13SigningResultD1Ev@Base 4:4.6.5
- _ZN5GpgME13SigningResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13SigningResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13SigningResultD2Ev@Base 4:4.6.5
  _ZN5GpgME13getGIOChannelEi@Base 4:4.3.4
  _ZN5GpgME14EditInteractor15setDebugChannelEP8_IO_FILE@Base 4:4.3.4
  _ZN5GpgME14EditInteractor7PrivateC1EPS0_@Base 4:4.3.4
@@ -107,8 +107,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME16DecryptionResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME16DecryptionResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME16DecryptionResultC2Ev@Base 4:4.3.4
- _ZN5GpgME16DecryptionResultD1Ev@Base 4:4.6.5
- _ZN5GpgME16DecryptionResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16DecryptionResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16DecryptionResultD2Ev@Base 4:4.6.5
  _ZN5GpgME16EncryptionResult4initEP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC1EP13gpgme_contextRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC1EP13gpgme_contexti@Base 4:4.3.4
@@ -118,8 +118,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME16EncryptionResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC2Ev@Base 4:4.3.4
- _ZN5GpgME16EncryptionResultD1Ev@Base 4:4.6.5
- _ZN5GpgME16EncryptionResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16EncryptionResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16EncryptionResultD2Ev@Base 4:4.6.5
  _ZN5GpgME16InvalidRecipientC1ERKN5boost10shared_ptrINS_16EncryptionResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME16InvalidRecipientC1Ev@Base 4:4.3.4
  _ZN5GpgME16InvalidRecipientC2ERKN5boost10shared_ptrINS_16EncryptionResult7PrivateEEEj@Base 4:4.3.4
@@ -140,8 +140,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME18VerificationResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME18VerificationResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME18VerificationResultC2Ev@Base 4:4.3.4
- _ZN5GpgME18VerificationResultD1Ev@Base 4:4.6.5
- _ZN5GpgME18VerificationResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME18VerificationResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME18VerificationResultD2Ev@Base 4:4.6.5
  _ZN5GpgME19EventLoopInteractor5actOnEiNS0_9DirectionE@Base 4:4.3.4
  _ZN5GpgME19EventLoopInteractor5mSelfE@Base 4:4.3.4
  _ZN5GpgME19EventLoopInteractor6manageEPNS_7ContextE@Base 4:4.3.4
@@ -182,9 +182,9 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME24GpgSignKeyEditInteractorD0Ev@Base 4:4.3.4
  _ZN5GpgME24GpgSignKeyEditInteractorD1Ev@Base 4:4.3.4
  _ZN5GpgME24GpgSignKeyEditInteractorD2Ev@Base 4:4.3.4
- _ZN5GpgME26GpgAddUserIDEditInteractor11setNameUtf8ERKSs@Base 4:4.3.4
- _ZN5GpgME26GpgAddUserIDEditInteractor12setEmailUtf8ERKSs@Base 4:4.3.4
- _ZN5GpgME26GpgAddUserIDEditInteractor14setCommentUtf8ERKSs@Base 4:4.3.4
+ _ZN5GpgME26GpgAddUserIDEditInteractor11setNameUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME26GpgAddUserIDEditInteractor12setEmailUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME26GpgAddUserIDEditInteractor14setCommentUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
  _ZN5GpgME26GpgAddUserIDEditInteractorC1Ev@Base 4:4.3.4
  _ZN5GpgME26GpgAddUserIDEditInteractorC2Ev@Base 4:4.3.4
  _ZN5GpgME26GpgAddUserIDEditInteractorD0Ev@Base 4:4.3.4
@@ -198,8 +198,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME27ScdGetInfoAssuanTransactionD0Ev@Base 4:4.4.0
  _ZN5GpgME27ScdGetInfoAssuanTransactionD1Ev@Base 4:4.4.0
  _ZN5GpgME27ScdGetInfoAssuanTransactionD2Ev@Base 4:4.4.0
- _ZN5GpgME30GpgSetExpiryTimeEditInteractorC1ERKSs@Base 4:4.3.4
- _ZN5GpgME30GpgSetExpiryTimeEditInteractorC2ERKSs@Base 4:4.3.4
+ _ZN5GpgME30GpgSetExpiryTimeEditInteractorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME30GpgSetExpiryTimeEditInteractorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD0Ev@Base 4:4.3.4
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD1Ev@Base 4:4.3.4
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD2Ev@Base 4:4.3.4
@@ -262,8 +262,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME5Error8fromCodeEjj@Base 4:4.5.86
  _ZN5GpgME5Error8setErrnoEi@Base 4:4.5.86
  _ZN5GpgME5Error9fromErrnoEij@Base 4:4.5.86
- _ZN5GpgME5ErrorD1Ev@Base 4:4.6.5
- _ZN5GpgME5ErrorD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME5ErrorD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME5ErrorD2Ev@Base 4:4.6.5
  _ZN5GpgME6ImportC1ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME6ImportC1Ev@Base 4:4.3.4
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
@@ -376,8 +376,8 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME8NotationC2EP19_gpgme_sig_notation@Base 4:4.3.4
  _ZN5GpgME8NotationC2ERKN5boost10shared_ptrINS_18VerificationResult7PrivateEEEjj@Base 4:4.3.4
  _ZN5GpgME8NotationC2Ev@Base 4:4.3.4
- _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSs@Base 4:4.3.4
- _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSsNS0_7OptionsE@Base 4:4.5.0
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_7OptionsE@Base 4:4.14.10
  _ZN5GpgME9ExceptionD0Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD1Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD2Ev@Base 4:4.3.4
@@ -415,6 +415,9 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZN5GpgMElsERSoRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_8NotationE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_9SignatureE@Base 4:4.3.4
+ _ZN5boost9exceptionD0Ev@Base 4:4.14.10
+ _ZN5boost9exceptionD1Ev@Base 4:4.14.10
+ _ZN5boost9exceptionD2Ev@Base 4:4.14.10
  _ZNK5GpgME10EngineInfo13homeDirectoryEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo15requiredVersionEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo6isNullEv@Base 4:4.3.4
@@ -451,13 +454,13 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME13Configuration6Option18createUIntArgumentEj@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option18defaultDescriptionEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option20createStringArgumentEPKc@Base 4:4.5.86
- _ZNK5GpgME13Configuration6Option20createStringArgumentERKSs@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
  _ZNK5GpgME13Configuration6Option21createIntListArgumentERKSt6vectorIiSaIiEE@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option21noArgumentDescriptionEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option22createNoneListArgumentEj@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option22createUIntListArgumentERKSt6vectorIjSaIjEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS8_EE@Base 4:4.14.10
  _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorIPKcSaIS4_EE@Base 4:4.5.86
- _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorISsSaISsEE@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option3setEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option4nameEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option4typeEv@Base 4:4.5.86
@@ -537,30 +540,30 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME19KeyGenerationResult17isSubkeyGeneratedEv@Base 4:4.3.4
  _ZNK5GpgME19KeyGenerationResult21isPrimaryKeyGeneratedEv@Base 4:4.3.4
  _ZNK5GpgME19KeyGenerationResult6isNullEv@Base 4:4.3.4
- _ZNK5GpgME24DefaultAssuanTransaction10statusLineEPKc@Base 4:4.4.0
- _ZNK5GpgME24DefaultAssuanTransaction15firstStatusLineEPKc@Base 4:4.4.0
+ _ZNK5GpgME24DefaultAssuanTransaction10statusLineB5cxx11EPKc@Base 4:4.14.10
+ _ZNK5GpgME24DefaultAssuanTransaction15firstStatusLineB5cxx11EPKc@Base 4:4.14.10
  _ZNK5GpgME24GpgSignKeyEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME24GpgSignKeyEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME26GpgAddUserIDEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME26GpgAddUserIDEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
- _ZNK5GpgME27ScdGetInfoAssuanTransaction10readerListEv@Base 4:4.4.0
- _ZNK5GpgME27ScdGetInfoAssuanTransaction10socketNameEv@Base 4:4.4.0
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction10readerListB5cxx11Ev@Base 4:4.14.10
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction10socketNameB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME27ScdGetInfoAssuanTransaction11makeCommandEv@Base 4:4.4.0
- _ZNK5GpgME27ScdGetInfoAssuanTransaction15applicationListEv@Base 4:4.4.0
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction15applicationListB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME27ScdGetInfoAssuanTransaction3pidEv@Base 4:4.4.0
  _ZNK5GpgME27ScdGetInfoAssuanTransaction6statusEv@Base 4:4.4.0
  _ZNK5GpgME27ScdGetInfoAssuanTransaction7commandEv@Base 4:4.4.0
- _ZNK5GpgME27ScdGetInfoAssuanTransaction7versionEv@Base 4:4.4.0
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction7versionB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME30GpgSetExpiryTimeEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME30GpgSetExpiryTimeEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME30GpgSetOwnerTrustEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME30GpgSetOwnerTrustEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction10socketNameEv@Base 4:4.4.0
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction10socketNameB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction11makeCommandEv@Base 4:4.4.0
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction13sshSocketNameEv@Base 4:4.4.0
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction13sshSocketNameB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction3pidEv@Base 4:4.4.0
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7commandEv@Base 4:4.4.0
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7versionEv@Base 4:4.4.0
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7versionB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME3Key10canCertifyEv@Base 4:4.3.4
  _ZNK5GpgME3Key10canEncryptEv@Base 4:4.3.4
  _ZNK5GpgME3Key10isDisabledEv@Base 4:4.3.4
@@ -644,7 +647,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME6UserID9Signature12signerUserIDEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature13signerCommentEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature14expirationTimeEv@Base 4:4.3.4
- _ZNK5GpgME6UserID9Signature14statusAsStringEv@Base 4:4.3.4
+ _ZNK5GpgME6UserID9Signature14statusAsStringB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME6UserID9Signature17algorithmAsStringEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature6parentEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature6statusEv@Base 4:4.3.4
@@ -774,6 +777,9 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst|arch=!powerpc !powerpcspe !ppc64 !ppc64el)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 4:4.6.1
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.14.10
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 4:4.14.10
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 4:4.14.10
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
@@ -781,6 +787,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED2Ev@Base 4:4.6.1
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS7_S9_EERKS7_@Base 4:4.14.10
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.86
@@ -817,7 +824,7 @@ libgpgme++-pthread.so.2 libgpgme++2 #MINVER#
  _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.10.3
  (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTVN5GpgME14EditInteractorE@Base 4:4.3.4
- _ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
+ (optional=gccinternal)_ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTVN5GpgME19EventLoopInteractorE@Base 4:4.3.4
  _ZTVN5GpgME24DefaultAssuanTransactionE@Base 4:4.4.0
  _ZTVN5GpgME24GpgSignKeyEditInteractorE@Base 4:4.3.4
@@ -891,8 +898,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME13KeyListResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME13KeyListResultC2ERKNS_5ErrorERK24_gpgme_op_keylist_result@Base 4:4.3.4
  _ZN5GpgME13KeyListResultC2Ev@Base 4:4.3.4
- _ZN5GpgME13KeyListResultD1Ev@Base 4:4.6.5
- _ZN5GpgME13KeyListResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13KeyListResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13KeyListResultD2Ev@Base 4:4.6.5
  _ZN5GpgME13SigningResult4initEP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME13SigningResultC1EP13gpgme_contextRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME13SigningResultC1EP13gpgme_contexti@Base 4:4.3.4
@@ -902,8 +909,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME13SigningResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME13SigningResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME13SigningResultC2Ev@Base 4:4.3.4
- _ZN5GpgME13SigningResultD1Ev@Base 4:4.6.5
- _ZN5GpgME13SigningResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13SigningResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME13SigningResultD2Ev@Base 4:4.6.5
  _ZN5GpgME13getGIOChannelEi@Base 4:4.3.4
  _ZN5GpgME14EditInteractor15setDebugChannelEP8_IO_FILE@Base 4:4.3.4
  _ZN5GpgME14EditInteractor7PrivateC1EPS0_@Base 4:4.3.4
@@ -939,8 +946,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME16DecryptionResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME16DecryptionResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME16DecryptionResultC2Ev@Base 4:4.3.4
- _ZN5GpgME16DecryptionResultD1Ev@Base 4:4.6.5
- _ZN5GpgME16DecryptionResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16DecryptionResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16DecryptionResultD2Ev@Base 4:4.6.5
  _ZN5GpgME16EncryptionResult4initEP13gpgme_context@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC1EP13gpgme_contextRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC1EP13gpgme_contexti@Base 4:4.3.4
@@ -950,8 +957,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME16EncryptionResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME16EncryptionResultC2Ev@Base 4:4.3.4
- _ZN5GpgME16EncryptionResultD1Ev@Base 4:4.6.5
- _ZN5GpgME16EncryptionResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16EncryptionResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME16EncryptionResultD2Ev@Base 4:4.6.5
  _ZN5GpgME16InvalidRecipientC1ERKN5boost10shared_ptrINS_16EncryptionResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME16InvalidRecipientC1Ev@Base 4:4.3.4
  _ZN5GpgME16InvalidRecipientC2ERKN5boost10shared_ptrINS_16EncryptionResult7PrivateEEEj@Base 4:4.3.4
@@ -972,8 +979,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME18VerificationResultC2EP13gpgme_contexti@Base 4:4.3.4
  _ZN5GpgME18VerificationResultC2ERKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgME18VerificationResultC2Ev@Base 4:4.3.4
- _ZN5GpgME18VerificationResultD1Ev@Base 4:4.6.5
- _ZN5GpgME18VerificationResultD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME18VerificationResultD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME18VerificationResultD2Ev@Base 4:4.6.5
  _ZN5GpgME19EventLoopInteractor5actOnEiNS0_9DirectionE@Base 4:4.3.4
  _ZN5GpgME19EventLoopInteractor5mSelfE@Base 4:4.3.4
  _ZN5GpgME19EventLoopInteractor6manageEPNS_7ContextE@Base 4:4.3.4
@@ -1014,9 +1021,9 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME24GpgSignKeyEditInteractorD0Ev@Base 4:4.3.4
  _ZN5GpgME24GpgSignKeyEditInteractorD1Ev@Base 4:4.3.4
  _ZN5GpgME24GpgSignKeyEditInteractorD2Ev@Base 4:4.3.4
- _ZN5GpgME26GpgAddUserIDEditInteractor11setNameUtf8ERKSs@Base 4:4.3.4
- _ZN5GpgME26GpgAddUserIDEditInteractor12setEmailUtf8ERKSs@Base 4:4.3.4
- _ZN5GpgME26GpgAddUserIDEditInteractor14setCommentUtf8ERKSs@Base 4:4.3.4
+ _ZN5GpgME26GpgAddUserIDEditInteractor11setNameUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME26GpgAddUserIDEditInteractor12setEmailUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME26GpgAddUserIDEditInteractor14setCommentUtf8ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
  _ZN5GpgME26GpgAddUserIDEditInteractorC1Ev@Base 4:4.3.4
  _ZN5GpgME26GpgAddUserIDEditInteractorC2Ev@Base 4:4.3.4
  _ZN5GpgME26GpgAddUserIDEditInteractorD0Ev@Base 4:4.3.4
@@ -1030,8 +1037,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME27ScdGetInfoAssuanTransactionD0Ev@Base 4:4.4.0
  _ZN5GpgME27ScdGetInfoAssuanTransactionD1Ev@Base 4:4.4.0
  _ZN5GpgME27ScdGetInfoAssuanTransactionD2Ev@Base 4:4.4.0
- _ZN5GpgME30GpgSetExpiryTimeEditInteractorC1ERKSs@Base 4:4.3.4
- _ZN5GpgME30GpgSetExpiryTimeEditInteractorC2ERKSs@Base 4:4.3.4
+ _ZN5GpgME30GpgSetExpiryTimeEditInteractorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME30GpgSetExpiryTimeEditInteractorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD0Ev@Base 4:4.3.4
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD1Ev@Base 4:4.3.4
  _ZN5GpgME30GpgSetExpiryTimeEditInteractorD2Ev@Base 4:4.3.4
@@ -1094,8 +1101,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME5Error8fromCodeEjj@Base 4:4.5.86
  _ZN5GpgME5Error8setErrnoEi@Base 4:4.5.86
  _ZN5GpgME5Error9fromErrnoEij@Base 4:4.5.86
- _ZN5GpgME5ErrorD1Ev@Base 4:4.6.5
- _ZN5GpgME5ErrorD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME5ErrorD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN5GpgME5ErrorD2Ev@Base 4:4.6.5
  _ZN5GpgME6ImportC1ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
  _ZN5GpgME6ImportC1Ev@Base 4:4.3.4
  _ZN5GpgME6ImportC2ERKN5boost10shared_ptrINS_12ImportResult7PrivateEEEj@Base 4:4.3.4
@@ -1208,8 +1215,8 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgME8NotationC2EP19_gpgme_sig_notation@Base 4:4.3.4
  _ZN5GpgME8NotationC2ERKN5boost10shared_ptrINS_18VerificationResult7PrivateEEEjj@Base 4:4.3.4
  _ZN5GpgME8NotationC2Ev@Base 4:4.3.4
- _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSs@Base 4:4.3.4
- _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKSsNS0_7OptionsE@Base 4:4.5.0
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
+ _ZN5GpgME9Exception12make_messageERKNS_5ErrorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_7OptionsE@Base 4:4.14.10
  _ZN5GpgME9ExceptionD0Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD1Ev@Base 4:4.3.4
  _ZN5GpgME9ExceptionD2Ev@Base 4:4.3.4
@@ -1247,6 +1254,9 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZN5GpgMElsERSoRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_8NotationE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_9SignatureE@Base 4:4.3.4
+ _ZN5boost9exceptionD0Ev@Base 4:4.14.10
+ _ZN5boost9exceptionD1Ev@Base 4:4.14.10
+ _ZN5boost9exceptionD2Ev@Base 4:4.14.10
  _ZNK5GpgME10EngineInfo13homeDirectoryEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo15requiredVersionEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo6isNullEv@Base 4:4.3.4
@@ -1283,13 +1293,13 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME13Configuration6Option18createUIntArgumentEj@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option18defaultDescriptionEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option20createStringArgumentEPKc@Base 4:4.5.86
- _ZNK5GpgME13Configuration6Option20createStringArgumentERKSs@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option20createStringArgumentERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:4.14.10
  _ZNK5GpgME13Configuration6Option21createIntListArgumentERKSt6vectorIiSaIiEE@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option21noArgumentDescriptionEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option22createNoneListArgumentEj@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option22createUIntListArgumentERKSt6vectorIjSaIjEE@Base 4:4.5.86
+ _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS8_EE@Base 4:4.14.10
  _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorIPKcSaIS4_EE@Base 4:4.5.86
- _ZNK5GpgME13Configuration6Option24createStringListArgumentERKSt6vectorISsSaISsEE@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option3setEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option4nameEv@Base 4:4.5.86
  _ZNK5GpgME13Configuration6Option4typeEv@Base 4:4.5.86
@@ -1369,30 +1379,30 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME19KeyGenerationResult17isSubkeyGeneratedEv@Base 4:4.3.4
  _ZNK5GpgME19KeyGenerationResult21isPrimaryKeyGeneratedEv@Base 4:4.3.4
  _ZNK5GpgME19KeyGenerationResult6isNullEv@Base 4:4.3.4
- _ZNK5GpgME24DefaultAssuanTransaction10statusLineEPKc@Base 4:4.4.0
- _ZNK5GpgME24DefaultAssuanTransaction15firstStatusLineEPKc@Base 4:4.4.0
+ _ZNK5GpgME24DefaultAssuanTransaction10statusLineB5cxx11EPKc@Base 4:4.14.10
+ _ZNK5GpgME24DefaultAssuanTransaction15firstStatusLineB5cxx11EPKc@Base 4:4.14.10
  _ZNK5GpgME24GpgSignKeyEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME24GpgSignKeyEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME26GpgAddUserIDEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME26GpgAddUserIDEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
- _ZNK5GpgME27ScdGetInfoAssuanTransaction10readerListEv@Base 4:4.4.0
- _ZNK5GpgME27ScdGetInfoAssuanTransaction10socketNameEv@Base 4:4.4.0
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction10readerListB5cxx11Ev@Base 4:4.14.10
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction10socketNameB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME27ScdGetInfoAssuanTransaction11makeCommandEv@Base 4:4.4.0
- _ZNK5GpgME27ScdGetInfoAssuanTransaction15applicationListEv@Base 4:4.4.0
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction15applicationListB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME27ScdGetInfoAssuanTransaction3pidEv@Base 4:4.4.0
  _ZNK5GpgME27ScdGetInfoAssuanTransaction6statusEv@Base 4:4.4.0
  _ZNK5GpgME27ScdGetInfoAssuanTransaction7commandEv@Base 4:4.4.0
- _ZNK5GpgME27ScdGetInfoAssuanTransaction7versionEv@Base 4:4.4.0
+ _ZNK5GpgME27ScdGetInfoAssuanTransaction7versionB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME30GpgSetExpiryTimeEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME30GpgSetExpiryTimeEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME30GpgSetOwnerTrustEditInteractor6actionERNS_5ErrorE@Base 4:4.3.4
  _ZNK5GpgME30GpgSetOwnerTrustEditInteractor9nextStateEjPKcRNS_5ErrorE@Base 4:4.3.4
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction10socketNameEv@Base 4:4.4.0
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction10socketNameB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction11makeCommandEv@Base 4:4.4.0
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction13sshSocketNameEv@Base 4:4.4.0
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction13sshSocketNameB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction3pidEv@Base 4:4.4.0
  _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7commandEv@Base 4:4.4.0
- _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7versionEv@Base 4:4.4.0
+ _ZNK5GpgME32GpgAgentGetInfoAssuanTransaction7versionB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME3Key10canCertifyEv@Base 4:4.3.4
  _ZNK5GpgME3Key10canEncryptEv@Base 4:4.3.4
  _ZNK5GpgME3Key10isDisabledEv@Base 4:4.3.4
@@ -1476,7 +1486,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZNK5GpgME6UserID9Signature12signerUserIDEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature13signerCommentEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature14expirationTimeEv@Base 4:4.3.4
- _ZNK5GpgME6UserID9Signature14statusAsStringEv@Base 4:4.3.4
+ _ZNK5GpgME6UserID9Signature14statusAsStringB5cxx11Ev@Base 4:4.14.10
  _ZNK5GpgME6UserID9Signature17algorithmAsStringEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature6parentEv@Base 4:4.3.4
  _ZNK5GpgME6UserID9Signature6statusEv@Base 4:4.3.4
@@ -1606,6 +1616,9 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst|subst|arch=!powerpc !powerpcspe !ppc64 !ppc64el)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EE7reserveE{size_t}@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 4:4.6.1
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS5_S7_EERKS5_@Base 4:4.14.10
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 4:4.14.10
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 4:4.14.10
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorIPN5GpgME19EventLoopInteractor7Private5OneFDESaIS4_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS4_S6_EERKS4_@Base 4:4.3.4
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_@Base 4:4.3.4
@@ -1613,6 +1626,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  (optional=templinst)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorISsSaISsEED2Ev@Base 4:4.6.1
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS7_S9_EERKS7_@Base 4:4.14.10
  (optional=templinst)_ZNSt6vectorISt4pairISsSsESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 4:4.4.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPiS1_EERKi@Base 4:4.5.86
  (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.86
@@ -1649,7 +1663,7 @@ libgpgme++.so.2 libgpgme++2 #MINVER#
  _ZTSN5boost16exception_detail10clone_baseE@Base 4:4.10.3
  (optional=external)_ZTSN5boost9exceptionE@Base 4:4.7.4
  _ZTVN5GpgME14EditInteractorE@Base 4:4.3.4
- _ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
+ (optional=gccinternal)_ZTVN5GpgME17AssuanTransactionE@Base 4:4.4.0
  _ZTVN5GpgME19EventLoopInteractorE@Base 4:4.3.4
  _ZTVN5GpgME24DefaultAssuanTransactionE@Base 4:4.4.0
  _ZTVN5GpgME24GpgSignKeyEditInteractorE@Base 4:4.3.4

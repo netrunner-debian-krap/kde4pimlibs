@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4:4.14.6 amd64
-libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
+libkabc.so.4 libkabc4v5 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
  _ZN4KABC11AddressBook11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -238,10 +238,14 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC13FormatFactoryC2Ev@Base 4:4.3.4
  _ZN4KABC13FormatFactoryD1Ev@Base 4:4.3.4
  _ZN4KABC13FormatFactoryD2Ev@Base 4:4.3.4
- _ZN4KABC13LDIFConverter12evaluatePairERNS_9AddresseeERNS_7AddressES4_R7QStringS6_RiS7_S7_@Base 4:4.8.0
+ _ZN4KABC13LDIFConverter12evaluatePairERNS_9AddresseeERNS_7AddressES4_R7QStringS6_RiS7_S7_RNS_12ContactGroupE@Base 4:4.14.10
+ _ZN4KABC13LDIFConverter15LDIFToAddresseeERK7QStringRNS_13AddresseeListER5QListINS_12ContactGroupEERK9QDateTime@Base 4:4.14.10
  _ZN4KABC13LDIFConverter15LDIFToAddresseeERK7QStringRNS_13AddresseeListERK9QDateTime@Base 4:4.3.4
  _ZN4KABC13LDIFConverter15addresseeToLDIFERKNS_13AddresseeListER7QString@Base 4:4.3.4
  _ZN4KABC13LDIFConverter15addresseeToLDIFERKNS_9AddresseeER7QString@Base 4:4.3.4
+ _ZN4KABC13LDIFConverter18contactGroupToLDIFERK5QListINS_12ContactGroupEER7QString@Base 4:4.14.10
+ _ZN4KABC13LDIFConverter18contactGroupToLDIFERKNS_12ContactGroupER7QString@Base 4:4.14.10
+ _ZN4KABC13LDIFConverter30addresseeAndContactGroupToLDIFERKNS_13AddresseeListERK5QListINS_12ContactGroupEER7QString@Base 4:4.14.10
  _ZN4KABC13SortingTraits10FamilyName2eqERKNS_9AddresseeES4_@Base 4:4.3.4
  _ZN4KABC13SortingTraits10FamilyName2ltERKNS_9AddresseeES4_@Base 4:4.3.4
  _ZN4KABC13SortingTraits10FamilyNameC1Ev@Base 4:4.3.4
@@ -373,9 +377,9 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC15AddresseeHelper8addToSetERK11QStringListR4QSetI7QStringE@Base 4:4.3.4
  _ZN4KABC15AddresseeHelperC1Ev@Base 4:4.3.4
  _ZN4KABC15AddresseeHelperC2Ev@Base 4:4.3.4
- _ZN4KABC15AddresseeHelperD0Ev@Base 4:4.6.5
- _ZN4KABC15AddresseeHelperD1Ev@Base 4:4.6.5
- _ZN4KABC15AddresseeHelperD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC15AddresseeHelperD0Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC15AddresseeHelperD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC15AddresseeHelperD2Ev@Base 4:4.6.5
  _ZN4KABC15GuiErrorHandler5errorERK7QString@Base 4:4.3.4
  _ZN4KABC15GuiErrorHandlerC1EP7QWidget@Base 4:4.3.4
  _ZN4KABC15GuiErrorHandlerC2EP7QWidget@Base 4:4.3.4
@@ -1311,9 +1315,9 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZN4KABC18ResourceFileConfig20checkFilePermissionsERK7QString@Base 4:4.3.4
  _ZN4KABC18ResourceFileConfigC1EP7QWidget@Base 4:4.3.4
  _ZN4KABC18ResourceFileConfigC2EP7QWidget@Base 4:4.3.4
- _ZN4KABC18ResourceFileConfigD0Ev@Base 4:4.6.5
- _ZN4KABC18ResourceFileConfigD1Ev@Base 4:4.6.5
- _ZN4KABC18ResourceFileConfigD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC18ResourceFileConfigD0Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC18ResourceFileConfigD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC18ResourceFileConfigD2Ev@Base 4:4.6.5
  _ZNK4KABC12ResourceFile10metaObjectEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile6formatEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile8fileNameEv@Base 4:4.3.4
@@ -1324,4 +1328,4 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZTSN4KABC18ResourceFileConfigE@Base 4:4.3.4
  _ZTVN4KABC12ResourceFileE@Base 4:4.3.4
  _ZTVN4KABC18ResourceFileConfigE@Base 4:4.3.4
- (c++)"non-virtual thunk to KABC::ResourceFileConfig::~ResourceFileConfig()@Base" 4:4.6.5
+ (optional=gccinternal|c++)"non-virtual thunk to KABC::ResourceFileConfig::~ResourceFileConfig()@Base" 4:4.6.5

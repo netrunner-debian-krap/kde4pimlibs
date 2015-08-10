@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.6 amd64
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime (>> 4:4.10)
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN7Akonadi11MessagePart4BodyE@Base 4:4.3.4
@@ -118,9 +118,9 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi22SpecialMailCollections4selfEv@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollectionsC1EPNS_29SpecialMailCollectionsPrivateE@Base 4:4.4.0
  _ZN7Akonadi22SpecialMailCollectionsC2EPNS_29SpecialMailCollectionsPrivateE@Base 4:4.4.0
- _ZN7Akonadi22SpecialMailCollectionsD0Ev@Base 4:4.6.5
- _ZN7Akonadi22SpecialMailCollectionsD1Ev@Base 4:4.6.5
- _ZN7Akonadi22SpecialMailCollectionsD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN7Akonadi22SpecialMailCollectionsD0Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN7Akonadi22SpecialMailCollectionsD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN7Akonadi22SpecialMailCollectionsD2Ev@Base 4:4.6.5
  _ZN7Akonadi25MessageThreaderProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN7Akonadi25MessageThreaderProxyModel11qt_metacastEPKc@Base 4:4.3.4
  _ZN7Akonadi25MessageThreaderProxyModel14setSourceModelEP18QAbstractItemModel@Base 4:4.3.4
@@ -176,9 +176,9 @@ libakonadi-kmime.so.4 libakonadi-kmime4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _ZN7Akonadi34SpecialMailCollectionsDiscoveryJob16staticMetaObjectE@Base 4:4.10.80
  _ZN7Akonadi34SpecialMailCollectionsDiscoveryJobC1EP7QObject@Base 4:4.10.80
  _ZN7Akonadi34SpecialMailCollectionsDiscoveryJobC2EP7QObject@Base 4:4.10.80
- _ZN7Akonadi34SpecialMailCollectionsDiscoveryJobD0Ev@Base 4:4.10.80
- _ZN7Akonadi34SpecialMailCollectionsDiscoveryJobD1Ev@Base 4:4.10.80
- _ZN7Akonadi34SpecialMailCollectionsDiscoveryJobD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi34SpecialMailCollectionsDiscoveryJobD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi34SpecialMailCollectionsDiscoveryJobD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi34SpecialMailCollectionsDiscoveryJobD2Ev@Base 4:4.10.80
  _ZNK7Akonadi12MessageModel10headerDataEiN2Qt11OrientationEi@Base 4:4.3.4
  _ZNK7Akonadi12MessageModel10metaObjectEv@Base 4:4.3.4
  _ZNK7Akonadi12MessageModel11columnCountERK11QModelIndex@Base 4:4.3.4

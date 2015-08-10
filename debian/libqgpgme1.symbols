@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libqgpgme.so.1 libqgpgme1 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN6QGpgME19EventLoopInteractor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -54,7 +54,7 @@ libqgpgme.so.1 libqgpgme1 #MINVER#
  _ZTSN6QGpgME19EventLoopInteractorE@Base 4:4.3.4
  _ZTSN6QGpgME21QIODeviceDataProviderE@Base 4:4.3.4
  _ZTSN6QGpgME22QByteArrayDataProviderE@Base 4:4.3.4
- _ZTVN5GpgME12DataProviderE@Base 4:4.3.4
+ (optional=gccinternal)_ZTVN5GpgME12DataProviderE@Base 4:4.3.4
  _ZTVN6QGpgME19EventLoopInteractorE@Base 4:4.3.4
  _ZTVN6QGpgME21QIODeviceDataProviderE@Base 4:4.3.4
  _ZTVN6QGpgME22QByteArrayDataProviderE@Base 4:4.3.4

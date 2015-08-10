@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.14.6 alpha armel armhf mips mipsel s390x sparc
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.10)
- _ZN5KMime5Types7MailboxD1Ev@Base 4:4.10.80
- _ZN5KMime5Types7MailboxD2Ev@Base 4:4.10.80
- _ZN5KMime5Types8AddrSpecD1Ev@Base 4:4.14.6
- _ZN5KMime5Types8AddrSpecD2Ev@Base 4:4.14.6
+ (optional=gccinternal)_ZN5KMime5Types7MailboxD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN5KMime5Types7MailboxD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN5KMime5Types8AddrSpecD1Ev@Base 4:4.14.6
+ (optional=gccinternal)_ZN5KMime5Types8AddrSpecD2Ev@Base 4:4.14.6
  _ZN7Akonadi10TodoPurger11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger11qt_metacastEPKc@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger11setCalendarERK14QSharedPointerINS_12CalendarBaseEE@Base 4:4.11.80
@@ -20,9 +20,9 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi10TodoPurger7Private16staticMetaObjectE@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger7PrivateC1EPS0_@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger7PrivateC2EPS0_@Base 4:4.11.80
- _ZN7Akonadi10TodoPurger7PrivateD0Ev@Base 4:4.11.80
- _ZN7Akonadi10TodoPurger7PrivateD1Ev@Base 4:4.11.80
- _ZN7Akonadi10TodoPurger7PrivateD2Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi10TodoPurger7PrivateD0Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi10TodoPurger7PrivateD1Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi10TodoPurger7PrivateD2Ev@Base 4:4.11.80
  _ZN7Akonadi10TodoPurgerC1EP7QObject@Base 4:4.11.80
  _ZN7Akonadi10TodoPurgerC2EP7QObject@Base 4:4.11.80
  _ZN7Akonadi10TodoPurgerD0Ev@Base 4:4.11.80
@@ -74,9 +74,9 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi11ITIPHandler7Private8isLoadedEv@Base 4:4.10.95
  _ZN7Akonadi11ITIPHandler7PrivateC1EPS0_@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandler7PrivateC2EPS0_@Base 4:4.10.80
- _ZN7Akonadi11ITIPHandler7PrivateD0Ev@Base 4:4.10.80
- _ZN7Akonadi11ITIPHandler7PrivateD1Ev@Base 4:4.10.80
- _ZN7Akonadi11ITIPHandler7PrivateD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi11ITIPHandler7PrivateD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi11ITIPHandler7PrivateD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi11ITIPHandler7PrivateD2Ev@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandlerC1EP7QObject@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandlerC2EP7QObject@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandlerD0Ev@Base 4:4.10.80
@@ -131,9 +131,9 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi12ICalImporter7PrivateD2Ev@Base 4:4.11.80
  _ZN7Akonadi12ICalImporterC1EPNS_16IncidenceChangerEP7QObject@Base 4:4.11.80
  _ZN7Akonadi12ICalImporterC2EPNS_16IncidenceChangerEP7QObject@Base 4:4.11.80
- _ZN7Akonadi12ICalImporterD0Ev@Base 4:4.11.80
- _ZN7Akonadi12ICalImporterD1Ev@Base 4:4.11.80
- _ZN7Akonadi12ICalImporterD2Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi12ICalImporterD0Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi12ICalImporterD1Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi12ICalImporterD2Ev@Base 4:4.11.80
  _ZN7Akonadi13PublishDialog11addAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog11qt_metacastEPKc@Base 4:4.10.80
@@ -148,9 +148,9 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.1
  _ZN7Akonadi13PublishDialog7Private7addItemEv@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog7PrivateC1EPS0_@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog7PrivateC2EPS0_@Base 4:4.10.80
- _ZN7Akonadi13PublishDialog7PrivateD0Ev@Base 4:4.10.80
- _ZN7Akonadi13PublishDialog7PrivateD1Ev@Base 4:4.10.80
- _ZN7Akonadi13PublishDialog7PrivateD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi13PublishDialog7PrivateD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi13PublishDialog7PrivateD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi13PublishDialog7PrivateD2Ev@Base 4:4.10.80
  _ZN7Akonadi13PublishDialogC1EP7QWidget@Base 4:4.10.80
  _ZN7Akonadi13PublishDialogC2EP7QWidget@Base 4:4.10.80
  _ZN7Akonadi13PublishDialogD0Ev@Base 4:4.10.80

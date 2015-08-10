@@ -148,22 +148,22 @@ Description: Akonadi XML helper library
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
-Package: libgpgme++2
+Package: libgpgme++2v5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs5 (<< 4:4.4.0), libgpgme++2
+Breaks: kdepimlibs5 (<< 4:4.4.0), libgpgme++2
 Description: c++ wrapper library for gpgme
  GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
  (GnuPG Made Easy) library.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
-Package: libkabc4
+Package: libkabc4v5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0), libkabc4
+Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0), libkabc4
 Description: library for handling address book data
  This library provides an API for address book data. It includes features
  such as:

@@ -1272,7 +1272,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  (c++)"non-virtual thunk to KABC::DistributionListEditorWidget::~DistributionListEditorWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KABC::EmailSelectDialog::~EmailSelectDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to KABC::EmailSelector::~EmailSelector()@Base" 4:4.3.4
-libkabc_file_core.so.4 libkabc4v5 #MINVER#
+libkabc_file_core.so.4 libkabc4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC12ResourceFile10saveToFileEP5QFile@Base 4:4.3.4
  _ZN4KABC12ResourceFile11fileChangedERK7QString@Base 4:4.3.4

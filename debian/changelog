@@ -9,6 +9,8 @@ kde4pimlibs (4:4.14.8-0ubuntu1) UNRELEASED; urgency=medium
   * Adjust VCS fields
   * Make sure all breaks and replaces on kdepimlibs-data have a version
     it made a return in the kf5 packaging.
+  * Rename packages to unconflict with kf5 version:
+    + kdepimlibs-kio-plugins to kde4pimlibs-kio-plugins
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 07:21:55 -0700
 

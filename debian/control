@@ -57,7 +57,7 @@ Description: development files for the KDE Development Platform PIM libraries
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
-Package: kdepimlibs-kio-plugins
+Package: kde4pimlibs-kio-plugins
 Architecture: any
 Depends: libsasl2-modules, ${misc:Depends}, ${shlibs:Depends}
 Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
@@ -450,7 +450,7 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: kdelibs5-dbg, libc6-dbg [amd64], ${allLibraries}, ${misc:Depends}
-Recommends: kdepimlibs-kio-plugins (= ${binary:Version})
+Recommends: kde4pimlibs-kio-plugins (= ${binary:Version})
 Description: debugging symbols for the KDE Development Platform PIM libraries
  This package contains debugging files used to investigate problems with
  binaries included in the KDE Development Platform PIM libraries module.

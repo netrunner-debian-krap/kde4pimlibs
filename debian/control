@@ -445,7 +445,7 @@ Description: parser library for RSS and Atom feeds
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
-Package: kdepimlibs-dbg
+Package: kde4pimlibs-dbg
 Section: debug
 Architecture: any
 Priority: extra

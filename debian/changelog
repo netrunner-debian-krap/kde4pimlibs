@@ -4,6 +4,20 @@ kdepimlibs (4:4.14.8-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 07:21:55 -0700
 
+kdepimlibs (4:4.14.6-0ubuntu6) wily; urgency=medium
+
+  * Update symbols files for GCC 5.
+  * Don't let dh_makeshlibs fail on the first symbols mismatch, but
+    run it for all packages, and then fail on mismatch.
+
+ -- Matthias Klose <doko@ubuntu.com>  Sat, 08 Aug 2015 15:29:10 +0000
+
+kdepimlibs (4:4.14.6-0ubuntu2) wily; urgency=medium
+
+  * Unversioned boost build dependency
+
+ -- Matthias Klose <doko@ubuntu.com>  Sat, 08 Aug 2015 15:07:02 +0000
+
 kdepimlibs (4:4.14.6-0ubuntu1) vivid; urgency=medium
 
   * New upstream release

@@ -15,6 +15,15 @@ override_dh_auto_configure:
 
 .PHONY: override_dh_auto_test
 
+override_dh_makeshlibs:
+	for p in $$(dh_listpackages -s); do \
+	  echo dh_makeshlibs -p$$p; \
+	  if ! dh_makeshlibs -p$$p; then \
+	    fail=42; \
+	  fi; \
+	done; \
+	exit $$fail
+
 # Get rid of the dependency on kde{base,pim}-runtime
 override_dh_shlibdeps:
 	$(overridden_command) -- -xkdebase-runtime -xkde-runtime \

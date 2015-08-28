@@ -1,665 +1,776 @@
-This package was debianized by the Debian Qt/KDE Maintainers on
-Fri, 11 May 2007 17:23:33 +0200.
-
-This package is fetched from ftp://ftp.kde.org/pub/kde/stable/
-
-Upstream Author: The KDE development team <kde-core-devel@kde.org>
-Numerous people, too many to count, have contributed to kdepimlibs as a
-whole. The KDE project tries to make an extensive list of people who contributed
-to KDE at http://www.kde.org/people/credits/
-
-Unless something else is mentioned, copyright is
-Copyright © 1996-2010, The KDE project http://www.kde.org
-
-
-License:
-
-    The libraries themselves are covered by the GNU Library General Public
-    License (LGPL). Any other programs (such as the examples) are covered
-    by the GNU General Public License (GPL). All the gory details for the
-    LGPL reside in COPYING.LIB, and for the GPL reside in COPYING.
-
-    On Debian systems, the complete text of the
-    GNU Library General Public License version 2 can be found in
-    /usr/share/common-licenses/LGPL-2
-
-    The complete text of the GNU General Public License version 2 can
-    be found in /usr/share/common-licenses/GPL-2
-
-
-Files under akonadi/
-
-    Copyright: © 2006-2009 Volker Krause <vkrause@kde.org>
-    Copyright: © 2006-2009 Tobias Koenig <tokoe@kde.org>
-    Copyright: © 2008-2009 Stephen Kelly <steveire@gmail.com>
-    Copyright: © 2009 Constantin Berzan <exit3219@gmail.com>
-    Copyright: © 2008-2009 Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
-    Copyright: © 2007,2009 Robert Zwerus <arzie@dds.nl>
-    Copyright: © 2008-2009 Kevin Krammer <kevin.krammer@gmx.at>
-    Copyright: © 2006-2007 Till Adam <adam@kde.org>
-    Copyright: © 2009 Kevin Ottens <ervin@kde.org>
-    Copyright: © 2007 Bruno Virlet <bruno.virlet@gmail.com>
-    Copyright: © 2006-2007 David Faure <faure@kde.org>
-    Copyright: © 2008-2009 Thomas McGuire <thomas.mcguire@gmx.net> <mcguire@kde.org>
-    Copyright: © 2008 Omat Holding B.V. <info@omat.nl>
-    Copyright: © 2009 Szymon Stefanek <s.stefanek@gmail.com>
-    Copyright: © 2008 Ingo Klöcker <kloecker@kde.org>
-    Copyright: © 2006 Marc Mutz <mutz@kde.org>
-    Copyright: © 2004 Bram Schoenmakers <bramschoenmakers@kde.nl>
-    Copyright: © 2009 David Jarvie <djarvie@kde.org>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the licenses specified below:
-
-    Under the GPL v2 or later:
-
-     - tests/fakeserver.cpp
-     - tests/fakeserver.h
-
-    Under the LGPL v2.1 or later:
-
-     - agenttypedialog.cpp
-     - agenttypedialog.h
-     - resourcesynchronizationjob.cpp
-     - resourcesynchronizationjob.h
-     - tests/testrunner/*
-
-    On Debian systems, the complete text of the
-    GNU Lesser General Public License version 2.1 can be found in
-    /usr/share/common-licenses/LGPL-2.1
-
-    Under the LGPL v2:
-
-     - qtest_akonadi.h
-
-
-Files under cmake/
-
-    Copyright: © 2008 Allen Winter <winter@kde.org>
-    Copyright: © 2009 Christophe Giboudeaux <cgiboudeaux@gmail.com>
-
-    | Redistribution and use in source and binary forms, with or without
-    | modification, are permitted provided that the following conditions
-    | are met:
-    |
-    | 1. Redistributions of source code must retain the copyright
-    |    notice, this list of conditions and the following disclaimer.
-    | 2. Redistributions in binary form must reproduce the copyright
-    |    notice, this list of conditions and the following disclaimer in the
-    |    documentation and/or other materials provided with the distribution.
-    | 3. The name of the author may not be used to endorse or promote products
-    |    derived from this software without specific prior written permission.
-    |
-    | THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
-    | IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
-    | OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-    | IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
-    | INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
-    | NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-    | DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-    | THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-    | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-    | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Files under doc/
-
-    Without explicit license.
-
-
-Files under gpgme++/
-
-    Copyright: © 2003-2005, 2007-2009 Klarälvdalens Datakonsult AB <info@kdab.com>
-    Copyright: © 2007 David Faure <faure@kde.org>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under kabc/
-
-    Copyright: © 2002-2004, 2007-2008 Tobias Koenig <tokoe@kde.org>
-    Copyright: © 2001-2003 Cornelius Schumacher <schumacher@kde.org>
-    Copyright: © 2001, 2003 Carsten Pfeiffer <pfeiffer@kde.org>
-    Copyright: © 2002-2003 Helge Deller <deller@gmx.de> <deller@kde.org>
-    Copyright: © 2008 Kevin Krammer <kevin.krammer@gmx.at>
-    Copyright: © 2004 Bo Thorsen <bo@sonofthor.dk>
-    Copyright: © 2002 Lubos Lunak <llunak@suse.cz>
-    Copyright: © 2004 Szombathelyi György <gyurco@freemail.hu>
-    Copyright: © 2002 Jost Schenck <jost@schenck.de>
-    Copyright: © 2006-2007 Allen Winter <winter@kde.org>
-    Copyright: © 2005 Ingo Kloecker <kloecker@kde.org>
-    Copyright: © 2001 Waldo Bastian <bastian@kde.org>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the LGPL v2:
-
-     - addresseehelper.cpp
-     - addresseehelper.h
-     - ldifconverter.h
-
-
-Files under kblog/
-
-    Copyright: © 2006-2009 Christian Weilbach <christian_weilbach@web.de>
-    Copyright: © 2007-2008 Mike Arthur <mike@mikearthur.co.uk>
-    Copyright: © 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under kcal/
-
-    Copyright: © 2000-2005 Cornelius Schumacher <schumacher@kde.org>
-    Copyright: © 2003-2005 Reinhold Kainhofer <reinhold@kainhofer.com> <kainhofer@kde.org> <reinhold@kainhofe.com>
-    Copyright: © 2006-2009 Allen Winter <winter@kde.org>
-    Copyright: © 2002-2003, 2005-2008 David Jarvie <software@astrojar.org.uk> <djarvie@kde.org>
-    Copyright: © 1998 Preston Brown <pbrown@kde.org>
-    Copyright: © 2002 Jan-Pascal van Best <janpascal@vanbest.org>
-    Copyright: © 1996 Apple Computer
-    Copyright: © 1996 AT&T Corp.
-    Copyright: © 1996 International Business Machines Corporation
-    Copyright: © 1996 Siemens Rolm Communications Inc.
-    Copyright: © 2009 KDAB Group <info@kdab.net>
-    Copyright: © 2002 Tobias Koenig <tokoe@kde.org>
-    Copyright: © 2009 Kevin Krammer <kevin.krammer@gmx.at>
-    Copyright: © 2009 Ingo Klöcker <kloecker@kde.org>
-    Copyright: © 2005 Rafal Rzepecki <divide@users.sourceforge.net>
-    Copyright: © 2004 Till Adam <adam@kde.org>
-    Copyright: © 2002 Michael Brade <brade@kde.org>
-    Copyright: © 2008 Thomas Thrainer <tom_t@gmx.at>
-    Copyright: © 2006 Narayan Newton <narayannewton@gmail.com>
-    Copyright: © 2009 Klarälvdalens Datakonsult AB
-    Copyright: © 2009 Thomas McGuire <mcguire@kde.org>
-    Copyright: © 2004 Dirk Mueller <mueller@kde.org>
-    Copyright: © 2005 Adriaan de Groot <groot@kde.org>
-    Copyright: © 2009 Sergio Martins <iamsergio@gmail.com>
-    Copyright: © 2004 Bram Schoenmakers <bramschoenmakers@kde.nl>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the licenses specified below:
-
-    Under the LGPL v2:
-
-     - tests/testincidencegenerator.h
-     - tests/testresource.cpp
-     - tests/testresource.h
-
-    Into the public domain:
-
-     - tests/createtestcases.pl
-
-    Under the following license all the files in versit/:
-
-    | (C) Copyright 1996 Apple Computer, Inc., AT&T Corp., International
-    | Business Machines Corporation and Siemens Rolm Communications Inc.
-    |
-    | For purposes of this license notice, the term Licensors shall mean,
-    | collectively, Apple Computer, Inc., AT&T Corp., International
-    | Business Machines Corporation and Siemens Rolm Communications Inc.
-    | The term Licensor shall mean any of the Licensors.
-    |
-    | Subject to acceptance of the following conditions, permission is hereby
-    | granted by Licensors without the need for written agreement and without
-    | license or royalty fees, to use, copy, modify and distribute this
-    | software for any purpose.
-    |
-    | The above copyright notice and the following four paragraphs must be
-    | reproduced in all copies of this software and any software including
-    | this software.
-    |
-    | THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS AND NO LICENSOR SHALL HAVE
-    | ANY OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR
-    | MODIFICATIONS.
-    |
-    | IN NO EVENT SHALL ANY LICENSOR BE LIABLE TO ANY PARTY FOR DIRECT,
-    | INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES OR LOST PROFITS ARISING OUT
-    | OF THE USE OF THIS SOFTWARE EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-    | DAMAGE.
-    |
-    | EACH LICENSOR SPECIFICALLY DISCLAIMS ANY WARRANTIES, EXPRESS OR IMPLIED,
-    | INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF NONINFRINGEMENT OR THE
-    | IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-    | PURPOSE.
-    |
-    | The software is provided with RESTRICTED RIGHTS.  Use, duplication, or
-    | disclosure by the government are subject to restrictions set forth in
-    | DFARS 252.227-7013 or 48 CFR 52.227-19, as applicable.
-
-
-Files under kholidays/
-
-    Copyright: © 2004-2007, 2009, 3009 Allen Winter <winter@kde.org>
-    Copyright: © 2001 Cornelius Schumacher <schumacher@kde.org>
-    Copyright: © 2008 David Jarvie <djarvie@kde.org>
-    Copyright: © 2007 David Faure <faure@kde.org>
-    Copyright: © 1989, 1993 The Regents of the University of California
-    Copyright: ©  Thomas Driemeyer <thomas@bitrot.de>
-    Copyright: ©  Preston Brown <pbrown@kde.org>
-    Copyright: ©  Reinhold Kainhofer <reinhold@kainhofer.com>
-    Copyright: ©  Peter Littlefield <plittle@sofkin.ca>
-    Copyright: ©  Hugo Achermann <acherman@inf.ethz.ch>
-    Copyright: ©  Armin Liebl <liebla@informatik.tu-muenchen.de>
-    Copyright: ©  Efthimios Mavrogeorgiadis <emav@enl.auth.gr>
-
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under kimap/
-
-    Copyright: © 2009 Andras Mantia <amantia@kde.org>
-    Copyright: © 2008-2009 Kevin Ottens <ervin@kde.org>
-    Copyright: © 2006-2007 Volker Krause <vkrause@kde.org>
-    Copyright: © 2007 Allen Winter <winter@kde.org>
-    Copyright: © 2008 Omat Holding B.V. <info@omat.nl>
-    Copyright: © 2000 Sven Carstens <s.carstens@gmx.de>
-    Copyright: © 2007 Tom Albers <tomalbers@kde.nl>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the licenses specified below:
-
-    Under the GPL v2 or later:
-
-     - tests/logoutjobtest.cpp
-     - tests/subscribejobtest.cpp
-     - tests/listjobtest.cpp
-     - tests/loginjobtest.cpp
-     - tests/imapsettest.cpp
-     - tests/storejobtest.cpp
-     - tests/renamejobtest.cpp
-     - tests/deletejobtest.cpp
-     - tests/createjobtest.cpp
-     - tests/fakeserver.cpp
-     - tests/unsubscribejobtest.cpp
-     - tests/selectjobtest.cpp
-     - tests/fakeserver.h
-     - tests/capabilitiesjobtest.cpp
-
-    Under the LGPL v2:
-
-     - tests/testrfccodecs.cpp
-
-
-Files under kioslave/
-
-    Copyright: © 2000 Sven Carstens <s.carstens@gmx.de>
-    Copyright: © 2003-2004 Marc Mutz <mutz@kde.org>
-    Copyright: © 2004 Mart Kelder <mart.kde@hccnet.nl>
-    Copyright: © 1999-2001 Alex Zepeda <zipzippy@sonic.net> <jazepeda@pacbell.net>
-    Copyright: © 1999-2003 All Rights Reserved.
-    Copyright: © 2001-2002 Michael Haeckel <haeckel@kde.org>
-    Copyright: © 2005-2006 Volker Krause <vkrause@kde.org>
-    Copyright: © 1999 John Corey <jcorey@fruity.ath.cx>
-    Copyright: © 2000 Wolfram Diestel <wolfram@steloj.de>
-    Copyright: © 2004-2007 Szombathelyi György <gyurco@freemail.hu>
-    Copyright: © 2001 Hamish Rodda <meddie@yoyo.cc.monash.edu.au>
-    Copyright: © 2005 Tim Way <tim@way.hrcoxmail.com>
-    Copyright: © 2008 Jarosław Staniek <staniek@kde.org>
-    Copyright: © 2002 Aaron J. Seigo <aseigo@olympusproject.org>
-    Copyright: © 2001 Michael Häckel <Michael@Haeckel.Net>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the licenses specified below:
-
-    Files under imap4/:
-    These files are licensed under the GPL v2 or later.
-
-    Files under ldap/:
-    These files are licensed under the following MIT-like License (MIT):
-
-    | Permission is hereby granted, free of charge, to any person
-    | obtaining a copy of this software and associated documentation
-    | files (the "Software"), to deal in the Software without
-    | restriction, including without limitation the rights to use,
-    | copy, modify, merge, publish, distribute, sublicense, and/or sell
-    | copies of the Software, and to permit persons to whom the
-    | Software is furnished to do so, subject to the following
-    | conditions:
-    |
-    | The above copyright notice and this permission notice shall be
-    | included in all copies or substantial portions of the Software.
-    |
-    | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-    | EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-    | OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-    | NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-    | HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-    | WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-    | FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-    | OTHER DEALINGS IN THE SOFTWARE.
-
-    Files under nntp/:
-    These files are licensed under the LGPL v2.
-
-    Files under sieve/:
-    These files are licensed under the GPL v2.
-
-    Files under pop3/:
-    These files are licensed under the following BSD-like License:
-
-    | Redistribution and use in source and binary forms, with or without
-    | modification, are permitted provided that the following conditions
-    | are met:
-    | 1. Redistributions of source code must retain the above copyright
-    |    notice, this list of conditions and the following disclaimer.
-    | 2. Redistributions in binary form must reproduce the above copyright
-    |    notice, this list of conditions and the following disclaimer in the
-    |    documentation and/or other materials provided with the distribution.
-    |
-    | THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
-    | ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    | IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    | ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
-    | FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    | DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-    | OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-    | HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-    | LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-    | OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-    | SUCH DAMAGE.
-
-    Files under smtp/:
-    These files are licensed under the GPL v2 or later, except:
-
-     - smtp/tests/test_responseparser.h, which is under the LGPL v2 or later
-     - smtp/smtp.{h, cpp}, which are under the above BSD-like license.
-
-
-Files under kldap/
-
-    Copyright: © 2004-2006 Szombathelyi György <gyurco@freemail.hu>
-    Copyright: © 2006 Sean Harmer <sh@theharmers.co.uk>
-    Copyright: © 2004 Tobias Koenig <tokoe@kde.org>
-    Copyright: © 2006 Volker Krause <vkrause@kde.org>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under kmime/
-
-    Copyright: © 2006-2007 Volker Krause <vkrause@kde.org>
-    Copyright: © 2001-2002, 2004 Marc Mutz <mutz@kde.org>
-    Copyright: © 2009 Constantin Berzan <exit3219@gmail.com>
-    Copyright: © 2005 Ingo Kloecker <kloecker@kde.org>
-    Copyright: © 2009 Thomas McGuire <mcguire@kde.org>
-    Copyright: © 2006 Allen Winter <winter@kde.org>
-    Copyright: © 2001-2002 the KMime authors. See AUTHORS below.
-
-    AUTHORS:
-
-    | Developers:
-    | * Marc Mutz <mutz@kde.org>
-    | Current maintainer
-    |
-    | * Christian Thurner <cthurner@freepage.de>
-    | Original author of KNode
-    |
-    | * Christian Gebauer
-    | Original author
-    |
-    | Current Contributers:
-    | * Tom Albers <tomalbers@kde.nl>
-    |
-    | Developers, which may have contributed code:
-    | * Mathias Waack <mathias@atoll-net.de>
-    | * Dirk Mueller <mueller@kde.org>
-    | * Matthias Kalle Dalheimer <kalle@kde.org>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the LGPL v2:
-
-     - tests/kmime_util_test.cpp
-     - tests/kmime_util_test.h
-     - tests/rfc2047test.cpp
-     - tests/rfc2047test.h
-
-
-Files under kontactinterface/
-
-    Copyright: © 2003, 2007-2008 David Faure <faure@kde.org>
-    Copyright: © 2002-2003 Daniel Molkentin <molkentin@kde.org>
-    Copyright: © 2003 Cornelius Schumacher <schumacher@kde.org>
-    Copyright: © 2001 Matthias Hoelzer-Kluepfel <mhk@kde.org>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under kpimidentities/
-
-    Copyright: © 2002-2004 Marc Mutz <mutz@kde.org>
-    Copyright: © 2008, 20089, 2009 Thomas McGuire <mcguire@kde.org> <Thomas.McGuire@gmx.net>
-    Copyright: © 2007-2008 Tom Albers <tomalbers@kde.nl>
-    Copyright: © 2008 Edwin Schepers <yez@familieschepers.nl>
-    Copyright: ©  Stefan Taferner <taferner@kde.org>
-    Copyright: © 2007 David Faure <faure@kde.org>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the LGPL v2.1 or later:
-
-     - signatureconfigurator.cpp
-     - signatureconfigurator.h
-
-
-Files under kpimtextedit/
-
-    Copyright: © 2008 Stephen Kelly <steveire@gmail.com>
-    Copyright: © 2008-2009 Thomas McGuire <mcguire@kde.org>
-    Copyright: © 2006-2007 Laurent Montel <montel@kde.org>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the LGPL v2.1 or later:
-
-     - emailquotehighlighter.cpp
-     - emailquotehighlighter.h
-     - richtextbuilders/testapp/*
-
-
-Files under kpimutils/
-
-    Copyright: © 2002 Dave Corrie <kde@davecorrie.com>
-    Copyright: © 2006-2007 Allen Winter <winter@kde.org>
-    Copyright: © 2008 Jarosław Staniek <staniek@kde.org>
-    Copyright: © 2004 David Faure <faure@kde.org>
-    Copyright: © 2005 Tom Albers <tomalbers@kde.nl>
-    Copyright: © 2009 Thomas McGuire <mcguire@kde.org>
-    Copyright: © 2004 Matt Douhan <matt@fruitsalad.org>
-    Copyright: © 1997-1999 Stefan Taferner <taferner@kde.org>
-    Copyright: © 2005 Ingo Kloecker <kloecker@kde.org>
-    Copyright: © 2009 Volker Krause <vkrause@kde.org>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the licenses specified below:
-
-    Under the LGPL v2.1 or later:
-
-     - processes.cpp
-     - processes.h
-
-    Under the LGPL v2:
-
-     - tests/testemail.cpp
-     - tests/testemail.h
-     - tests/testlinklocator.cpp
-
-
-Files under kresources/
-
-    Copyright: © 2002-2004 Tobias Koenig <tokoe@kde.org>
-    Copyright: © 2001-2004 Cornelius Schumacher <schumacher@kde.org>
-    Copyright: © 2002 Jan-Pascal van Best <janpascal@vanbest.org>
-    Copyright: © 2006 Allen Winter <winter@kde.org>
-    Copyright: © 2006 Volker Krause <vkrause@kde.org>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under ktnef/
-
-    Copyright: © 2002-2003 Michael Goffioul <kdeprint@swing.be>
-    Copyright: © 2004 Reinhold Kainhofer <reinhold@kainhofer.com>
-    Copyright: © 2001-2003 Cornelius Schumacher <schumacher@kde.org>
-    Copyright: © 2002 Bo Thorsen <bo@sonofthor.dk>
-    Copyright: © 2007 Volker Krause <vkrause@kde.org>
-    Copyright: © 2006 Allen Winter <winter@kde.org>
-    Copyright: © 2005 Rafal Rzepecki <divide@users.sourceforge.net>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under kxmlrpcclient/
-
-    Copyright: © 2006 Narayan Newton <narayannewton@gmail.com>
-    Copyright: © 2003-2004 Tobias Koenig <tokoe@kde.org>
-    Copyright: © 2003-2004 Frerich Raabe <raabe@kde.org>
-
-    These files are licensed under the following BSD-like License:
-
-    | Redistribution and use in source and binary forms, with or without
-    | modification, are permitted provided that the following conditions
-    | are met:
-    | 1. Redistributions of source code must retain the above copyright
-    |    notice, this list of conditions and the following disclaimer.
-    | 2. Redistributions in binary form must reproduce the above copyright
-    |    notice, this list of conditions and the following disclaimer in the
-    |    documentation and/or other materials provided with the distribution.
-    |
-    | THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
-    | ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    | IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    | ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
-    | FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    | DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-    | OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-    | HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-    | LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-    | OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-    | SUCH DAMAGE.
-
-    except the files under test/, which are under the LGPL v2 or later.
-
-
-Files under mailtransport/
-
-    Copyright: © 2009 Constantin Berzan <exit3219@gmail.com>
-    Copyright: © 2006-2008 Volker Krause <vkrause@kde.org>
-    Copyright: © 2006-2007 KovoKs <kovoks@kovoks.nl> <info@kovoks.nl>
-    Copyright: © 2000-2002 Michael Haeckel <haeckel@kde.org>
-    Copyright: © 1996-1998 Stefan Taferner <taferner@kde.org>
-    Copyright: © 2001-2003 Marc Mutz <mutz@kde.org>
-    Copyright: © 2008 Thomas McGuire <thomas.mcguire@gmx.net>
-    Copyright: © 2006 David Faure <faure@kde.org>
-    Copyright: © 2007 Mathias Soeken <msoeken@tzi.de>
-
-    These files are licensed under the LGPL v2 or later, except
-    kconf_update/migrate-transports.pl which is licensed under the GPL v2 or later.
-
-
-Files under microblog/
-
-    Copyright: © 2009 Omat Holding B.V. <info@omat.nl>
-    Copyright: © 2006 Allen Winter <winter@kde.org>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under qgpgme/
-
-    Copyright: © 2003-2004, 2007-2008 Klarälvdalens Datakonsult AB
-    Copyright: © 2007 David Faure <faure@kde.org>
-
-    These files are licensed under the LGPL v2 or later.
-
-
-Files under syndication/
-
-    Copyright: © 2005-2006 Frank Osterfeld <osterfeld@kde.org>
-    Copyright: © 2001-2003 Frerich Raabe <raabe@kde.org>
-
-    These files are licensed under the LGPL v2 or later, except the
-    following files that are under the licenses specified below:
-
-    Under the GPL v2 or later:
-
-     - tests/benchmark.cpp
-     - tests/testlibsyndication.cpp
-     - tests/testloader.cpp
-
-    The unit tests are partially based on the feedparser test suite by Mark Pilgrim.
-    In these test files, the copyright holder is mentioned as
-
-    "Copyright: Mark Pilgrim (feed parser test suite)".
-
-    The following copyright and license block applies:
-
-    ----- begin license block -----
-
-    Copyright (c) 2002-2005, Mark Pilgrim
-    All rights reserved.
-
-    Redistribution and use in source and binary forms, with or without modification,
-    are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright notice,
-    this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation
-    and/or other materials provided with the distribution.
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-    POSSIBILITY OF SUCH DAMAGE.
-
-    ----- end license block -----
-
-    For test cases with copyright header
-
-    "Copyright: Frank Osterfeld (libsyndication)"
-
-    the following license applies:
-
-    ----- begin license block -----
-
-    Copyright (c) 2006, Frank Osterfeld
-    All rights reserved.
-
-    Redistribution and use in source and binary forms, with or without modification,
-    are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright notice,
-    this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation
-    and/or other materials provided with the distribution.
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-    POSSIBILITY OF SUCH DAMAGE.
-
-    ----- end license block -----
-
-    For all other unit tests without explicit copyright headers,
-    where the content is taken from real-world feeds,
-    the copyright holders are the respective feed authors.
-    See the respective <copyright>, <rights> and <dc:rights> tags for details.
-
-    Source code is licensed LGPLv2h. Other files as build system and others
-    are unspecified.
-
-
-The Debian packaging is Copyright © 2007-2010, Debian Qt/KDE Maintainers and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL-2'.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kdepimlibs
+Source: git://anongit.kde.org/kdepimlibs
+Comment: Numerous people, too many to count, have contributed to kdepimlibs as
+ a whole. The KDE project tries to make an extensive list of people who
+ contributed to KDE at http://www.kde.org/people/credits/
+ .
+ Unless something else is mentioned, copyright is
+ Copyright: 1996-2015, The KDE project http://www.kde.org
+
+Files: *
+Copyright: 2005, Adriaan de Groot <groot@kde.org>
+           2004-3009, Allen Winter <winter@kde.org>
+           2009, Andras Mantia <amantia@kde.org>
+           2010, Andras Mantia <andras@kdab.com>
+           2010, Andre Heinecke <aheinecke@intevation.de>
+           2013, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+           2003-2005, Andreas Gungl <a.gungl@gmx.de>
+           1998, Barry D Benowitz <b.benowitz@telesciences.com>
+           2009-2010, Bertjan Broeksema <broeksema@kde.org>
+           2002-2004, Bo Thorsen <bo@sonofthor.dk>
+           2004, Bram Schoenmakers <bramschoenmakers@kde.nl>
+           2007, Bruno Virlet <bruno.virlet@gmail.com>
+           2008, Bruno Virlet <bvirlet@kdemail.net>
+           2003, Carsten Pfeiffer <pfeiffer@kde.org>
+           2010, Casey Link <unnamedrambler@gmail.com>
+           2011, Christian Mollekopf <chrigi_1@fastmail.fm>
+           2012-2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2006-2009, Christian Weilbach <christian_weilbach@web.de>
+           2011, Christophe Giboudeaux <cgiboudeaux@gmx.com>
+           2009, Constantin Berzan <exit3219@gmail.com>
+           2000-2005, Cornelius Schumacher <schumacher@kde.org>
+           2002-2003, Daniel Molkentin <molkentin@kde.org>
+           2013-2014, Daniel Vrátil <dvratil@redhat.com>
+           2002, Dave Corrie <kde@davecorrie.com>
+           2003-2013, David Faure <faure@kde.org>
+           2001-2013, David Jarvie <djarvie@kde.org>
+           2002-2007, David Jarvie <software@astrojar.org.uk>
+           2010, Felix Mauch <felix_mauch@web.de>
+           2005-2006, Frank Osterfeld <osterfeld@kde.org>
+           1991, Free Software Foundation, Inc
+           2011, Grégory Oestreicher <greg@kamago.net>
+           2002, Helge Deller <deller@gmx.de>
+           2003, Helge Deller <deller@kde.org>
+           2009, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
+           2005-2009, Ingo Klöcker <kloecker@kde.org>
+           2002, Jan-Pascal van Best <janpascal@vanbest.org>
+           2008, Jarosław Staniek <staniek@kde.org>
+           2010, John Layt <john@layt.net>
+           2002, Jost Schenck <jost@schenck.de>
+           2010, KDAB
+           2007, KDE-PIM team <kde-pim@kde.org>
+           2010, Kevin Funk <kevin.funk@kdab.com>
+           2008-2009, Kevin Krammer <kevin.krammer@gmx.at>
+           2012, Kevin Krammer <krammer@kde.org>
+           2008-2009, Kevin Ottens <ervin@kde.org>
+           2009-2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2010, Klarälvdalens Datakonsult AB
+           2002-2011, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2004, Klar�vdalens Datakonsult AB
+           2006-2007, KovoKs <info@kovoks.nl>
+           2007, KovoKs <kovoks@kovoks.nl>
+           2007-2015, Laurent Montel <montel@kde.org>
+           2010, Leo Franchi <lfranchi@kde.org>
+           2001-2004, Marc Mutz <mutz@kde.org>
+           2004, Mart Kelder <mart.kde@hccnet.nl>
+           2007, Mathias Soeken <msoeken@tzi.de>
+           2004, Matt Douhan <matt@fruitsalad.org>
+           2001, Matthias Hoelzer-Kluepfel <mhk@kde.org>
+           2002, Michael Brade <brade@kde.org>
+           2002-2003, Michael Goffioul <kdeprint@swing.be>
+           2000-2002, Michael Haeckel <haeckel@kde.org>
+           2007-2008, Mike McQuaid <mike@mikemcquaid.com>
+           2006, Narayan Newton <narayannewton@gmail.com>
+           2009, Nokia Corporation and/or its subsidiary(-ies)
+           2008-2009, Omat Holding B.V <info@omat.nl>
+           1998, Preston Brown <pbrown@kde.org>
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2005, Reinhold Kainhofer <kainhofer@kde.org>
+           2005, Reinhold Kainhofer <reinhold@kainhofe.com>
+           2003-2005, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2007, Robert Zwerus <arzie@dds.nl>
+           2006, Sean Harmer <sh@theharmers.co.uk>
+           2010, Sebastian Trueg <trueg@kde.org>
+           1996-1999, Stefan Taferner <taferner@kde.org>
+           2008-2011, Stephen Kelly <steveire@gmail.com>
+           2004-2006, Szombathelyi György <gyurco@freemail.hu>
+           2009, Szymon Stefanek <s.stefanek@gmail.com>
+           2009-2013, Sérgio Martins <iamsergio@gmail.com>
+           2011, Sérgio Martins <sergio.martins@kdab.com>
+           2008-20089, Thomas McGuire <mcguire@kde.org>
+           2008, Thomas McGuire <thomas.mcguire@gmx.net>
+           2008, Thomas Thrainer <tom_t@gmx.at>
+           2006-2010, Till Adam <adam@kde.org>
+           2010, Till Adam <till@kdab.com>
+           2002-2011, Tobias Koenig <tokoe@kde.org>
+           2005-2007, Tom Albers <tomalbers@kde.nl>
+           2006-20089, Volker Krause <vkrause@kde.org>
+           2010, Will Stephenson <wstephenson@kde.org>
+           2000, s.carstens@gmx.de
+           2001, the KMime authors
+License: LGPL-2+
+
+Files: COPYING
+       akonadi/tests/fakeakonadiservercommand.cpp
+       akonadi/tests/fakeakonadiservercommand.h
+       akonadi/tests/fakeserverdata.cpp
+       akonadi/tests/fakeserverdata.h
+       kimap/tests/appendjobtest.cpp
+       kimap/tests/capabilitiesjobtest.cpp
+       kimap/tests/createjobtest.cpp
+       kimap/tests/deletejobtest.cpp
+       kimap/tests/fakeservertest.cpp
+       kimap/tests/fetchjobtest.cpp
+       kimap/tests/getmetadatajobtest.cpp
+       kimap/tests/idlejobtest.cpp
+       kimap/tests/imapsettest.cpp
+       kimap/tests/kimaptest/fakeserver.cpp
+       kimap/tests/kimaptest/fakeserver.h
+       kimap/tests/kimaptest/sslserver.cpp
+       kimap/tests/kimaptest/sslserver.h
+       kimap/tests/listjobtest.cpp
+       kimap/tests/loginjobtest.cpp
+       kimap/tests/logoutjobtest.cpp
+       kimap/tests/quotarootjobtest.cpp
+       kimap/tests/renamejobtest.cpp
+       kimap/tests/searchjobtest.cpp
+       kimap/tests/selectjobtest.cpp
+       kimap/tests/setmetadatajobtest.cpp
+       kimap/tests/storejobtest.cpp
+       kimap/tests/streamparsertest.cpp
+       kimap/tests/subscribejobtest.cpp
+       kimap/tests/unsubscribejobtest.cpp
+       kioslave/imap4/imap4.cpp
+       kioslave/imap4/imap4.h
+       kioslave/imap4/imapcommand.cpp
+       kioslave/imap4/imapcommand.h
+       kioslave/imap4/imapinfo.cpp
+       kioslave/imap4/imapinfo.h
+       kioslave/imap4/imaplist.cpp
+       kioslave/imap4/imaplist.h
+       kioslave/imap4/imapparser.cpp
+       kioslave/imap4/imapparser.h
+       kioslave/imap4/mailaddress.cpp
+       kioslave/imap4/mailaddress.h
+       kioslave/imap4/mailheader.cpp
+       kioslave/imap4/mailheader.h
+       kioslave/imap4/mimehdrline.cpp
+       kioslave/imap4/mimehdrline.h
+       kioslave/imap4/mimeheader.cpp
+       kioslave/imap4/mimeheader.h
+       kioslave/imap4/mimeio.cpp
+       kioslave/imap4/mimeio.h
+       kioslave/imap4/selectinfo.h
+       mailtransport/kconf_update/migrate-transports.pl
+       syndication/tests/benchmark.cpp
+       syndication/tests/testlibsyndication.cpp
+       syndication/tests/testloader.cpp
+Copyright: 2009-2011, Andras Mantia <amantia@kde.org>
+           2013, Christian Mollekopf <mollekopf@kolabsys.com>
+           2013, Daniel Vrátil <dvratil@redhat.com>
+           2005-2006, Frank Osterfeld <osterfeld@kde.org>
+           2006, Frank Osterfeld" << std::endl
+           1989-1991, Free Software Foundation, Inc
+           1999, John Corey <jcorey@fruity.ath.cx>
+           2009, Kevin Ottens <ervin@kde.org>
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2001-2002, Michael Haeckel <haeckel@kde.org>
+           2008, Omat Holding B.V <info@omat.nl>
+           2009, Stephen Kelly <steveire@gmail.com>
+           2000, Sven Carstens
+           2000, Sven Carstens <s.carstens@gmx.de>
+           2006, Volker Krause <vkrause@kde.org>
+License: GPL-2+
+
+Files: COPYING.LIB
+       akonadi/agenttypedialog.cpp
+       akonadi/agenttypedialog.h
+       akonadi/calendar/kcolumnfilterproxymodel.cpp
+       akonadi/calendar/kcolumnfilterproxymodel_p.h
+       akonadi/collectionattributessynchronizationjob.cpp
+       akonadi/collectionattributessynchronizationjob.h
+       akonadi/kmime/commandbase.cpp
+       akonadi/kmime/commandbase_p.h
+       akonadi/kmime/emptytrashcommand.cpp
+       akonadi/kmime/emptytrashcommand_p.h
+       akonadi/kmime/markascommand.cpp
+       akonadi/kmime/markascommand_p.h
+       akonadi/kmime/movecommand.cpp
+       akonadi/kmime/movecommand_p.h
+       akonadi/kmime/movetotrashcommand.cpp
+       akonadi/kmime/movetotrashcommand_p.h
+       akonadi/kmime/removeduplicatesjob.cpp
+       akonadi/kmime/removeduplicatesjob.h
+       akonadi/kmime/util.cpp
+       akonadi/kmime/util_p.h
+       akonadi/resourcesynchronizationjob.cpp
+       akonadi/resourcesynchronizationjob.h
+       akonadi/socialutils/imageprovider.cpp
+       akonadi/socialutils/imageprovider.h
+       akonadi/socialutils/serializer/akonadi_serializer_socialfeeditem.cpp
+       akonadi/socialutils/serializer/akonadi_serializer_socialfeeditem.h
+       akonadi/socialutils/socialfeeditem.cpp
+       akonadi/socialutils/socialfeeditem.h
+       akonadi/socialutils/socialfeeditem_p.h
+       akonadi/socialutils/socialnetworkattributes.cpp
+       akonadi/socialutils/socialnetworkattributes.h
+       akonadi/socialutils/tests/image-provider-tests.cpp
+       akonadi/socialutils/tests/image-provider-tests.h
+       akonadi/tests/testrunner/config.cpp
+       akonadi/tests/testrunner/config.h
+       akonadi/tests/testrunner/main.cpp
+       akonadi/tests/testrunner/setup.cpp
+       akonadi/tests/testrunner/setup.h
+       akonadi/tests/testrunner/shellscript.cpp
+       akonadi/tests/testrunner/shellscript.h
+       akonadi/tests/testrunner/testrunner.cpp
+       akonadi/tests/testrunner/testrunner.h
+       kpimidentities/signatureconfigurator.cpp
+       kpimidentities/signatureconfigurator.h
+       kpimtextedit/emailquotehighlighter.cpp
+       kpimtextedit/emailquotehighlighter.h
+       kpimutils/processes.cpp
+       kpimutils/processes.h
+Copyright: 2008, Aaron Seigo <aseigo@kde.org>
+           2010, Andras Mantia <andras@kdab.com>
+           2012, Andre Heinecke <aheinecke@intevation.de>
+           2012, Dan Vrátil <dvratil@redhat.com>
+           2008, Edwin Schepers <yez@familieschepers.nl>
+           1991-1999, Free Software Foundation, Inc
+           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
+           2008, Jarosław Staniek <staniek@kde.org>
+           2010, Klarälvdalens Datakonsult AB
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2006, Laurent Montel <montel@kde.org>
+           2004, Marc Mutz <mutz@kde.org>
+           2012, Martin Klapetek <martin.klapetek@gmail.com>
+           2008, Omat Holding B.V <info@omat.nl>
+           2008, Thomas McGuire <Thomas.McGuire@gmx.net>
+           2008, Thomas McGuire <mcguire@kde.org>
+           2006, Tobias Koenig <tokoe@kde.org>
+           2008, Tom Albers <tomalbers@kde.nl>
+           2009-2013, Volker Krause <vkrause@kde.org>
+License: LGPL-2.1+
+
+Files: akonadi/qtest_akonadi.h
+       akonadi/xml/tests/collection.h
+       kabc/addresseehelper.cpp
+       kabc/addresseehelper.h
+       kabc/ldifconverter.h
+       kcal/tests/testincidencegenerator.h
+       kcal/tests/testresource.cpp
+       kcal/tests/testresource.h
+       kcalcore/tests/testincidencegenerator.h
+       kimap/tests/testrfccodecs.cpp
+       kioslave/nntp/nntp.cpp
+       kioslave/nntp/nntp.h
+       kmbox/tests/mboxtest.cpp
+       kmime/tests/auto/rfc2047test.cpp
+       kmime/tests/auto/rfc2047test.h
+       kmime/tests/auto/rfc2231test.cpp
+       kmime/tests/auto/rfc2231test.h
+       kmime/tests/auto/utiltest.cpp
+       kmime/tests/auto/utiltest.h
+       kpimutils/tests/testemail.cpp
+       kpimutils/tests/testemail.h
+       kpimutils/tests/testlinklocator.cpp
+Copyright: 2007, Allen Winter <winter@kde.org>
+           2009, Bertjan Broeksema <broeksema@kde.org>
+           2003, Carsten Pfeiffer <pfeiffer@kde.org>
+           2004-2006, David Faure <faure@kde.org>
+           2003, Helge Deller <deller@kde.org>
+           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
+           2005, Ingo Kloecker <kloecker@kde.org>
+           2010, Leo Franchi <lfranchi@kde.org>
+           2009, Thomas McGuire <mcguire@kde.org>
+           2004, Till Adam <adam@kde.org>
+           2005, Tim Way <tim@way.hrcoxmail.com>
+           2007, Tom Albers <tomalbers@kde.nl>
+           2005-2009, Volker Krause <vkrause@kde.org>
+           2000, Wolfram Diestel <wolfram@steloj.de>
+License: LGPL-2
+
+Files: akonadi/tagselectwidget.cpp
+       akonadi/tagselectwidget.h
+       akonadi/tests/tagselectwidgettest.cpp
+       akonadi/tests/tagselectwidgettest.h
+       kioslave/sieve/sieve.cpp
+       kioslave/sieve/sieve.h
+       kioslave/smtp/capabilities.cpp
+       kioslave/smtp/capabilities.h
+       kioslave/smtp/command.cpp
+       kioslave/smtp/command.h
+       kioslave/smtp/request.cpp
+       kioslave/smtp/request.h
+       kioslave/smtp/response.cpp
+       kioslave/smtp/response.h
+       kioslave/smtp/tests/interactivesmtpserver.cpp
+       kioslave/smtp/tests/interactivesmtpserver.h
+       kioslave/smtp/tests/requesttest.cpp
+       kioslave/smtp/tests/requesttest.h
+       kioslave/smtp/transactionstate.cpp
+       kioslave/smtp/transactionstate.h
+Copyright: 2000-2001, Alex Zepeda <jazepeda@pacbell.net>
+           2001, Hamish Rodda
+           2003-2004, Marc Mutz <mutz@kde.org>
+           2001, Michael Häckel <Michael@Haeckel.Net>
+           2014-2015, Montel Laurent <montel@kde.org>
+License: GPL-2
+
+Files: kcal/versit/port.h
+       kcal/versit/vcc.h
+       kcal/versit/vcc.y
+       kcal/versit/vobject.c
+       kcal/versit/vobject.h
+       kcalcore/versit/port.h
+       kcalcore/versit/vcc.h
+       kcalcore/versit/vcc.y
+       kcalcore/versit/vobject.c
+       kcalcore/versit/vobject.h
+Copyright: 1996, Apple Computer, Inc.
+           1996, AT&T Corp.
+           1996, International Business Machines Corporation
+           1996, Siemens Rolm Communications Inc.
+License: MIT_versit
+
+Files: kcalcore/tests/testcreateddatecompat.cpp
+       kcalcore/tests/testcreateddatecompat.h
+       kcalcore/tests/testoccurrenceiterator.cpp
+       kcalcore/tests/testoccurrenceiterator.h
+       kcalcore/tests/testreadrecurrenceid.cpp
+       kcalcore/tests/testreadrecurrenceid.h
+       kcalcore/tests/testrecurrenceexception.cpp
+       kcalcore/tests/testrecurrenceexception.h
+Copyright: 2012-2013, Christian Mollekopf <mollekopf@kolabsys.com>
+License: LGPL-3+
+
+Files: COPYING.BSD
+       kioslave/pop3/pop3.cpp
+       kioslave/pop3/pop3.h
+       kioslave/smtp/smtp.cpp
+       kioslave/smtp/smtp.h
+       kxmlrpcclient/README
+       syndication/tests/LICENSE.UNITTESTS
+Copyright: 2002, Aaron J. Seigo <aseigo@olympusproject.org>
+           1999-2001, Alex Zepeda <zipzippy@sonic.net>
+           2006, Frank Osterfeld
+           2003, Marc Mutz <mutz@kde.org>
+           2002-2005, Mark Pilgrim
+           2001-2002, Michael Haeckel <haeckel@kde.org>
+           2001, Michael H�kel <Michael@Haeckel.Net>
+License: BSD-2-clause
+
+Files: cmake/modules/CMakeLists.txt
+       cmake/modules/CheckTimezone.cmake
+       cmake/modules/FindGpgme.cmake
+       cmake/modules/FindLdap.cmake
+       cmake/modules/FindQGpgme.cmake
+       cmake/modules/FindXsltproc.cmake
+License: BSD-3-clause
+Comment: No explicit license found, using license(s) from:
+ cmake/modules/COPYING-CMAKE-SCRIPTS
+
+Files: kholidays/parsers/plan2/holidayparserplan.cpp
+       kholidays/parsers/plan2/holidayparserplan.hpp
+       kholidays/parsers/plan2/location.hh
+       kholidays/parsers/plan2/position.hh
+       kholidays/parsers/plan2/stack.hh
+Copyright: 2002-2008, Free Software
+           2002-2006, Free Software Foundation, Inc
+License: GPL-3+_BisonException
+
+Files: kioslave/nntp/CMakeLists.txt
+       kioslave/nntp/Mainpage.dox
+       kioslave/nntp/Messages.sh
+       kioslave/nntp/nntp.protocol
+       kioslave/nntp/nntps.protocol
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ kioslave/nntp/LICENSE
+
+Files: cmake/modules/COPYING-CMAKE-SCRIPTS
+       cmake/modules/FindLibical.cmake
+       cmake/modules/FindQJSON.cmake
+       cmake/modules/FindQtOAuth.cmake
+Copyright: 2008-2010, Allen Winter <winter@kde.org>
+           2010, Harald Sitter <apachelogger@ubuntu.com>
+           2010, Mehrdad Momeny <mehrdad.momeny@gmail.com>
+           2012, Raphael Kubo da Costa <rakuco@FreeBSD.org>
+License: BSD-3-clause
+
+Files: akonadi/kmime/metatype.h
+       kontactinterface/pimuniqueapplication.cpp
+       kontactinterface/pimuniqueapplication.h
+       kpimtextedit/tests/textutilstest.cpp
+Copyright: 2008, David Faure <faure@kde.org>
+           2009, Thomas McGuire <mcguire@kde.org>
+           2011, Torgny Nyblom <nyblom@kde.org>
+License: LGPL-2+3+KDEeV
+
+Files: akonadi/contact/editor/im/imeditordialog.cpp
+       akonadi/contact/editor/im/imeditordialog.h
+       akonadi/contact/editor/im/imitemdialog.cpp
+       akonadi/contact/editor/im/imitemdialog.h
+Copyright: 2012, Jonathan Marten <jjm@keelhaul.me.uk>
+           2004-2010, Will Stephenson <wstephenson@kde.org>
+License: LGPL-2.1+3+KDEeV
+
+Files: kioslave/ldap/kio_ldap.cpp
+       kioslave/ldap/kio_ldap.h
+       kioslave/nntp/LICENSE
+Copyright: 2004-2007, Szombathelyi György <gyurco@freemail.hu>
+License: Expat
+
+Files: akonadi/contact/editor/data/zone.tab
+       kcal/tests/createtestcases.pl
+       kcalcore/tests/createtestcases.pl
+License: public-domain
+ akonadi/contact/editor/data/zone.tab:
+ # This file is in the public domain, so clarified as of 2009-05-17 by Arthur
+ # David Olson.
+ .
+ kcal/tests/createtestcases.pl and kcalcore/tests/createtestcases.pl:
+ # This file is put into the public domain, I claim no copyright on that code
+
+Files: kcal/versit/vcc.c
+Copyright: 1996, Apple Computer, Inc., AT&T Corp., International
+           1984-2002, Free Software Foundation, Inc
+License: GPL-2+ or MIT_versit
+
+Files: kholidays/lunarphase.cpp
+Copyright: 2004-2009, Allen Winter <winter@kde.org>
+           1989-1993, The Regents of the University of California
+License: BSD-4-clause or LGPL-2+
+
+Files: kpimtextedit/tests/textutilstest.h
+Copyright: 2011, Torgny Nyblom <nyblom@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: kcalcore/versit/vcc.c
+Copyright: 1996, Apple Computer, Inc., AT&T Corp., International
+License: GPL-3+_BisonException or MIT_versit
+
+Files: debian/*
+Copyright: 2007-2015, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-4-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+      This product includes software developed by the University of
+      California, Berkeley and its contributors.
+ 4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License, version 2, as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: GPL-3+_BisonException
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, you may create a larger work that contains
+ part or all of the Bison parser skeleton and distribute that work
+ under terms of your choice, so long as that work isn't itself a
+ parser generator using the skeleton or a modified version thereof
+ as a parser skeleton.  Alternatively, if you modify or redistribute
+ the parser skeleton itself, you may (at your option) remove this
+ special exception, which will cause the skeleton and the resulting
+ Bison output files to be licensed under the GNU General Public
+ License without this special exception.
+ .
+ This special exception was added by the Free Software Foundation in
+ version 2.2 of Bison.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to the
+ Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2 of the License or
+ ( at your option ) version 3 or, at the discretion of KDE e.V.
+ ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2',
+ likewise, the complete text of the GNU Lesser General Public License version
+ 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1',
+ likewise, the complete text of the GNU Lesser General Public
+ License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: MIT_versit
+ For purposes of this license notice, the term Licensors shall mean,
+ collectively, Apple Computer, Inc., AT&T Corp., International
+ Business Machines Corporation and Siemens Rolm Communications Inc.
+ The term Licensor shall mean any of the Licensors.
+ .
+ Subject to acceptance of the following conditions, permission is hereby
+ granted by Licensors without the need for written agreement and without
+ license or royalty fees, to use, copy, modify and distribute this
+ software for any purpose.
+ .
+ The above copyright notice and the following four paragraphs must be
+ reproduced in all copies of this software and any software including
+ this software.
+ .
+ THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS AND NO LICENSOR SHALL HAVE
+ ANY OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR
+ MODIFICATIONS.
+ .
+ IN NO EVENT SHALL ANY LICENSOR BE LIABLE TO ANY PARTY FOR DIRECT,
+ INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES OR LOST PROFITS ARISING OUT
+ OF THE USE OF THIS SOFTWARE EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+ DAMAGE.
+ .
+ EACH LICENSOR SPECIFICALLY DISCLAIMS ANY WARRANTIES, EXPRESS OR IMPLIED,
+ INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF NONINFRINGEMENT OR THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
+ .
+ The software is provided with RESTRICTED RIGHTS.  Use, duplication, or
+ disclosure by the government are subject to restrictions set forth in
+ DFARS 252.227-7013 or 48 CFR 52.227-19, as applicable.

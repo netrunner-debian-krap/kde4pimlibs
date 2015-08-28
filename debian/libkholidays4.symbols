@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.3 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.14.0 arm64 armel armhf powerpc sparc x32
 libkholidays.so.4 libkholidays4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 4:4.3.4
@@ -108,50 +108,17 @@ libkholidays.so.4 libkholidays4 #MINVER#
  _ZNK9KHolidays7Holiday9shortTextEv@Base 4:4.3.4
  _ZNK9KHolidays7HolidaygtERKS0_@Base 4:4.5.0
  _ZNK9KHolidays7HolidayltERKS0_@Base 4:4.5.0
- (optional=templinst|arch=hurd-i386 sparc)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EplEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNKSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EplEl@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 sparc)_ZNKSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EplEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNKSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EplEl@Base 4:4.6.2
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EED1Ev@Base 4:4.6.3
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt11_Deque_baseIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EED2Ev@Base 4:4.6.3
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EED1Ev@Base 4:4.6.3
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt11_Deque_baseIN9KHolidays8locationESaIS1_EED2Ev@Base 4:4.6.3
- (optional=templinst|subst|arch=!hurd-i386 !ia64 !sparc)_ZNSt11_Deque_baseIiSaIiEE17_M_initialize_mapE{size_t}@Base 4:4.6.1
- (optional=templinst|arch=amd64 arm64 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt11_Deque_baseIiSaIiEED1Ev@Base 4:4.6.3
- (optional=templinst|arch=amd64 arm64 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt11_Deque_baseIiSaIiEED2Ev@Base 4:4.6.3
- (optional=templinst|arch=hurd-i386 sparc)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS2_PS3_EpLEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS2_PS3_EpLEl@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 sparc)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EpLEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_EpLEl@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 sparc)_ZNSt15_Deque_iteratorIN9KHolidays8locationERKS1_PS2_EpLEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIN9KHolidays8locationERKS1_PS2_EpLEl@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 sparc)_ZNSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EpLEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIN9KHolidays8locationERS1_PS1_EpLEl@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 sparc)_ZNSt15_Deque_iteratorIiRKiPS0_EpLEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIiRKiPS0_EpLEl@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 sparc)_ZNSt15_Deque_iteratorIiRiPiEpLEi@Base 4:4.6.2
- (optional=templinst|arch=ia64)_ZNSt15_Deque_iteratorIiRiPiEpLEl@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE27_M_reserve_elements_at_backE{size_t}@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc|subst)_ZNSt5dequeIN9KHolidays17HolidayParserPlan13semantic_typeESaIS2_EE28_M_reserve_elements_at_frontE{size_t}@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE27_M_reserve_elements_at_backE{size_t}@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc|subst)_ZNSt5dequeIN9KHolidays8locationESaIS1_EE28_M_reserve_elements_at_frontE{size_t}@Base 4:4.6.2
+ (optional=templinst|subst)_ZNSt11_Deque_baseIiSaIiEE17_M_initialize_mapE{size_t}@Base 4:4.6.1
+ (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED1Ev@Base 4:4.6.3
+ (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED2Ev@Base 4:4.6.3
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE13_M_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_{size_t}@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE17_M_reallocate_mapE{size_t}b@Base 4:4.5.0
- (optional=templinst|subst)_ZNSt5dequeIiSaIiEE23_M_new_elements_at_backE{size_t}@Base 4:4.12.3
+ (optional=templinst|arch=arm64 sparc x32)_ZNSt5dequeIiSaIiEE18_M_fill_initializeERKi@Base 4:4.14.0
+ (optional=templinst|arch=hppa)_ZNSt5dequeIiSaIiEE19_M_range_insert_auxISt15_Deque_iteratorIiRKiPS4_EEEvS3_IiRiPiET_SB_St20forward_iterator_tag@Base 4:4.13.3
+ (optional=templinst|subst|arch=!arm64 !hppa !sparc !x32)_ZNSt5dequeIiSaIiEE23_M_new_elements_at_backE{size_t}@Base 4:4.5.0
  (optional=templinst|subst)_ZNSt5dequeIiSaIiEE24_M_new_elements_at_frontE{size_t}@Base 4:4.5.0
- (optional=templinst|arch=hurd-i386 ia64 sparc|subst)_ZNSt5dequeIiSaIiEE27_M_reserve_elements_at_backE{size_t}@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc|subst)_ZNSt5dequeIiSaIiEE28_M_reserve_elements_at_frontE{size_t}@Base 4:4.6.2
  (optional=templinst)_ZNSt5dequeIiSaIiEEaSERKS1_@Base 4:4.5.0
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS3_PS4_ES0_IS3_RS3_PS3_ES3_ET0_T_SC_SB_RSaIT1_E@Base 4:4.6.2
- (optional=templinst|arch=sparc)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIN9KHolidays8locationERKS2_PS3_ES0_IS2_RS2_PS2_ES2_ET0_T_SB_SA_RSaIT1_E@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIiRKiPS1_ES0_IiRiPiEiET0_T_S9_S8_RSaIT1_E@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZSt4copyISt15_Deque_iteratorIN9KHolidays17HolidayParserPlan13semantic_typeERKS3_PS4_ES0_IS3_RS3_PS3_EET0_T_SC_SB_@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZSt4copyISt15_Deque_iteratorIN9KHolidays8locationERKS2_PS3_ES0_IS2_RS2_PS2_EET0_T_SB_SA_@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZSt4copyISt15_Deque_iteratorIiRKiPS1_ES0_IiRiPiEET0_T_S9_S8_@Base 4:4.6.2
- (optional=templinst|arch=!hurd-i386 !ia64 !sparc)_ZSt4copyIiESt15_Deque_iteratorIT_RS1_PS1_ES0_IS1_RKS1_PS5_ES8_S4_@Base 4:4.6.1
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZStmiIN9KHolidays17HolidayParserPlan13semantic_typeERS2_PS2_ENSt15_Deque_iteratorIT_T0_T1_E15difference_typeERKS9_SC_@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZStmiIN9KHolidays8locationERS1_PS1_ENSt15_Deque_iteratorIT_T0_T1_E15difference_typeERKS8_SB_@Base 4:4.6.2
- (optional=templinst|arch=hurd-i386 ia64 sparc)_ZStmiIiRiPiENSt15_Deque_iteratorIT_T0_T1_E15difference_typeERKS6_S9_@Base 4:4.6.2
+ (optional=templinst)_ZSt4copyIiESt15_Deque_iteratorIT_RS1_PS1_ES0_IS1_RKS1_PS5_ES8_S4_@Base 4:4.6.1
  _ZTIN9KHolidays21HolidayRegionSelectorE@Base 4:4.5.86
  _ZTSN9KHolidays21HolidayRegionSelectorE@Base 4:4.5.86
  _ZTVN9KHolidays21HolidayRegionSelectorE@Base 4:4.5.86

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.80 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.14.6 kfreebsd-amd64 kfreebsd-i386
 libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN12KPIMTextEdit15HtmlHighlighter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.9.90
@@ -211,8 +211,6 @@ libkpimtextedit.so.4 libkpimtextedit4 #MINVER#
  _ZNK12KPIMTextEdit8TextEdit25isEnableInsertHtmlActionsEv@Base 4:4.9.80
  _ZNK12KPIMTextEdit8TextEdit25shouldBlockBeSpellCheckedERK7QString@Base 4:4.3.4
  _ZNK12KPIMTextEdit8TextEdit26isEnableInsertTableActionsEv@Base 4:4.9.80
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED1Ev@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNSt8auto_ptrIN12KPIMTextEdit15TextEditPrivateEED2Ev@Base 4:4.6.2
  _ZTIN12KPIMTextEdit15HtmlHighlighterE@Base 4:4.9.90
  _ZTIN12KPIMTextEdit16InsertHtmlDialogE@Base 4:4.9.90
  _ZTIN12KPIMTextEdit17InsertImageDialogE@Base 4:4.9.90

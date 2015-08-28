@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  Parse_MIME@Base 4:4.3.4
@@ -585,9 +585,9 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZN4KCal16ResourceLocalDir7Private25updateIncidenceInCalendarERK7QString@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDir7Private27deleteIncidenceFromCalendarERK7QString@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDir7Private4initEv@Base 4:4.3.4
- _ZN4KCal16ResourceLocalDir7PrivateD0Ev@Base 4:4.6.5
- _ZN4KCal16ResourceLocalDir7PrivateD1Ev@Base 4:4.6.5
- _ZN4KCal16ResourceLocalDir7PrivateD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KCal16ResourceLocalDir7PrivateD0Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KCal16ResourceLocalDir7PrivateD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KCal16ResourceLocalDir7PrivateD2Ev@Base 4:4.6.5
  _ZN4KCal16ResourceLocalDirC1ERK12KConfigGroup@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDirC1ERK7QString@Base 4:4.3.4
  _ZN4KCal16ResourceLocalDirC1Ev@Base 4:4.3.4
@@ -1613,7 +1613,6 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZTIN4KCal9Incidence13DeleteVisitorINS_8CalendarEEE@Base 4:4.3.4
  _ZTIN4KCal9IncidenceE@Base 4:4.3.4
  _ZTIN4KCal9SchedulerE@Base 4:4.3.4
- (optional=gcc4.4|arch=hurd-i386 ia64 sparc)_ZTIPN4KCal9CalFormatE@Base 4:4.6.3
  _ZTSN4KCal10CalStorageE@Base 4:4.3.4
  _ZTSN4KCal10HtmlExportE@Base 4:4.3.4
  _ZTSN4KCal10ICalFormatE@Base 4:4.3.4
@@ -1671,7 +1670,7 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZTVN4KCal10CalStorageE@Base 4:4.3.4
  _ZTVN4KCal10HtmlExportE@Base 4:4.3.4
  _ZTVN4KCal10ICalFormatE@Base 4:4.3.4
- _ZTVN4KCal10Recurrence18RecurrenceObserverE@Base 4:4.3.4
+ (optional=gccinternal)_ZTVN4KCal10Recurrence18RecurrenceObserverE@Base 4:4.3.4
  _ZTVN4KCal10RecurrenceE@Base 4:4.3.4
  _ZTVN4KCal10VCalFormatE@Base 4:4.3.4
  _ZTVN4KCal11ErrorFormatE@Base 4:4.3.4
@@ -1681,11 +1680,11 @@ libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
  _ZTVN4KCal12QtopiaFormatE@Base 4:4.3.4
  _ZTVN4KCal13CalendarLocalE@Base 4:4.3.4
  _ZTVN4KCal13IMIPSchedulerE@Base 4:4.3.4
- _ZTVN4KCal13IncidenceBase17IncidenceObserverE@Base 4:4.3.4
+ (optional=gccinternal)_ZTVN4KCal13IncidenceBase17IncidenceObserverE@Base 4:4.3.4
  _ZTVN4KCal13IncidenceBase7VisitorE@Base 4:4.3.4
  _ZTVN4KCal13IncidenceBaseE@Base 4:4.3.4
  _ZTVN4KCal13ResourceLocalE@Base 4:4.3.4
- _ZTVN4KCal14RecurrenceRule12RuleObserverE@Base 4:4.3.4
+ (optional=gccinternal)_ZTVN4KCal14RecurrenceRule12RuleObserverE@Base 4:4.3.4
  _ZTVN4KCal14ResourceCachedE@Base 4:4.3.4
  _ZTVN4KCal16CustomPropertiesE@Base 4:4.3.4
  _ZTVN4KCal16ICalTimeZoneDataE@Base 4:4.3.4

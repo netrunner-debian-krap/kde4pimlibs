@@ -1,0 +1,42 @@
+Description: Add SSL specific error type on SSL error
+ Add debian/patches/tlscancelled.patch to fix issue with inability to
+ cancel connections using unknown SSL certificates (Closes: #769852)
+Origin: vendor
+Author: Jim Scadden <jims@silentasylum.co.uk>
+Bug-Debian: http://bugs.debian.org/769852
+Bug: https://bugs.kde.org/show_bug.cgi?id=335994
+Forwarded: https://bugs.kde.org/show_bug.cgi?id=335994
+Reviewed-By: Scott Kitterman <scott@kitterman.com>
+Last-Update: 2014-11-16
+
+--- kdepimlibs-4.14.2.orig/kimap/loginjob.cpp
++++ kdepimlibs-4.14.2/kimap/loginjob.cpp
+@@ -535,7 +535,7 @@ void LoginJobPrivate::sslResponse(bool r
+     authState = LoginJobPrivate::Capability;
+     tags << sessionInternal()->sendCommand( "CAPABILITY" );
+   } else {
+-    q->setError( LoginJob::UserDefinedError );
++    q->setError( LoginJob::ERR_SSL_FAILED );
+     q->setErrorText( i18n( "Login failed, TLS negotiation failed." ) );
+     encryptionMode = LoginJob::Unencrypted;
+     q->emitResult();
+@@ -597,7 +597,6 @@ void LoginJob::connectionLost()
+       emitResult();
+     }
+   }
+-
+ }
+ 
+ void LoginJobPrivate::saveServerGreeting(const Message &response)
+--- kdepimlibs-4.14.2.orig/kimap/loginjob.h
++++ kdepimlibs-4.14.2/kimap/loginjob.h
+@@ -61,7 +61,8 @@ class KIMAP_EXPORT LoginJob : public Job
+     };
+ 
+     enum ErrorCode {
+-      ERR_COULD_NOT_CONNECT = KJob::UserDefinedError + 23 // same as in kio
++      ERR_COULD_NOT_CONNECT = KJob::UserDefinedError + 23, // same as in kio
++      ERR_SSL_FAILED = KJob::UserDefinedError + 128,  // outside of values used by kio
+     };
+ 
+     explicit LoginJob( Session *session );

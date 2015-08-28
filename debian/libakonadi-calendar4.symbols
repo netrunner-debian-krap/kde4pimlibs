@@ -1,7 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.13.90 amd64
-libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
- _ZN5KMime5Types7MailboxD1Ev@Base 4:4.10.80
- _ZN5KMime5Types7MailboxD2Ev@Base 4:4.10.80
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
+libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.10)
+ (optional=gccinternal)_ZN5KMime5Types7MailboxD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN5KMime5Types7MailboxD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN5KMime5Types8AddrSpecD1Ev@Base 4:4.14.6
+ (optional=gccinternal)_ZN5KMime5Types8AddrSpecD2Ev@Base 4:4.14.6
  _ZN7Akonadi10TodoPurger11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger11qt_metacastEPKc@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger11setCalendarERK14QSharedPointerINS_12CalendarBaseEE@Base 4:4.11.80
@@ -18,9 +20,9 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  _ZN7Akonadi10TodoPurger7Private16staticMetaObjectE@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger7PrivateC1EPS0_@Base 4:4.11.80
  _ZN7Akonadi10TodoPurger7PrivateC2EPS0_@Base 4:4.11.80
- _ZN7Akonadi10TodoPurger7PrivateD0Ev@Base 4:4.11.80
- _ZN7Akonadi10TodoPurger7PrivateD1Ev@Base 4:4.11.80
- _ZN7Akonadi10TodoPurger7PrivateD2Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi10TodoPurger7PrivateD0Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi10TodoPurger7PrivateD1Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi10TodoPurger7PrivateD2Ev@Base 4:4.11.80
  _ZN7Akonadi10TodoPurgerC1EP7QObject@Base 4:4.11.80
  _ZN7Akonadi10TodoPurgerC2EP7QObject@Base 4:4.11.80
  _ZN7Akonadi10TodoPurgerD0Ev@Base 4:4.11.80
@@ -67,14 +69,14 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  _ZN7Akonadi11ITIPHandler7Private21finishSendiTIPMessageENS_9Scheduler6ResultERK7QString@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandler7Private24finishProcessiTIPMessageENS_9Scheduler6ResultERK7QString@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandler7Private24finishPublishInformationENS_9Scheduler6ResultERK7QString@Base 4:4.10.80
- _ZN7Akonadi11ITIPHandler7Private33onCounterProposalDelegateFinishedEbRK7QString@Base 4:4.11.80
+ _ZN7Akonadi11ITIPHandler7Private33onCounterProposalDelegateFinishedEbRK7QString@Base 4:4.11.3
  _ZN7Akonadi11ITIPHandler7Private8calendarEv@Base 4:4.10.95
  _ZN7Akonadi11ITIPHandler7Private8isLoadedEv@Base 4:4.10.95
  _ZN7Akonadi11ITIPHandler7PrivateC1EPS0_@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandler7PrivateC2EPS0_@Base 4:4.10.80
- _ZN7Akonadi11ITIPHandler7PrivateD0Ev@Base 4:4.10.80
- _ZN7Akonadi11ITIPHandler7PrivateD1Ev@Base 4:4.10.80
- _ZN7Akonadi11ITIPHandler7PrivateD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi11ITIPHandler7PrivateD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi11ITIPHandler7PrivateD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi11ITIPHandler7PrivateD2Ev@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandlerC1EP7QObject@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandlerC2EP7QObject@Base 4:4.10.80
  _ZN7Akonadi11ITIPHandlerD0Ev@Base 4:4.10.80
@@ -129,9 +131,9 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  _ZN7Akonadi12ICalImporter7PrivateD2Ev@Base 4:4.11.80
  _ZN7Akonadi12ICalImporterC1EPNS_16IncidenceChangerEP7QObject@Base 4:4.11.80
  _ZN7Akonadi12ICalImporterC2EPNS_16IncidenceChangerEP7QObject@Base 4:4.11.80
- _ZN7Akonadi12ICalImporterD0Ev@Base 4:4.11.80
- _ZN7Akonadi12ICalImporterD1Ev@Base 4:4.11.80
- _ZN7Akonadi12ICalImporterD2Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi12ICalImporterD0Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi12ICalImporterD1Ev@Base 4:4.11.80
+ (optional=gccinternal)_ZN7Akonadi12ICalImporterD2Ev@Base 4:4.11.80
  _ZN7Akonadi13PublishDialog11addAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog11qt_metacastEPKc@Base 4:4.10.80
@@ -146,9 +148,9 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  _ZN7Akonadi13PublishDialog7Private7addItemEv@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog7PrivateC1EPS0_@Base 4:4.10.80
  _ZN7Akonadi13PublishDialog7PrivateC2EPS0_@Base 4:4.10.80
- _ZN7Akonadi13PublishDialog7PrivateD0Ev@Base 4:4.10.80
- _ZN7Akonadi13PublishDialog7PrivateD1Ev@Base 4:4.10.80
- _ZN7Akonadi13PublishDialog7PrivateD2Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi13PublishDialog7PrivateD0Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi13PublishDialog7PrivateD1Ev@Base 4:4.10.80
+ (optional=gccinternal)_ZN7Akonadi13PublishDialog7PrivateD2Ev@Base 4:4.10.80
  _ZN7Akonadi13PublishDialogC1EP7QWidget@Base 4:4.10.80
  _ZN7Akonadi13PublishDialogC2EP7QWidget@Base 4:4.10.80
  _ZN7Akonadi13PublishDialogD0Ev@Base 4:4.10.80
@@ -407,11 +409,13 @@ libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  _ZNK7Akonadi29StandardCalendarActionManager19selectedCollectionsEv@Base 4:4.5.86
  _ZNK7Akonadi29StandardCalendarActionManager6actionENS0_4TypeE@Base 4:4.5.86
  _ZNK7Akonadi29StandardCalendarActionManager6actionENS_21StandardActionManager4TypeE@Base 4:4.5.86
+ (optional=templinst|arch=alpha armhf mips mipsel powerpc powerpcspe)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN8KCalCore4TodoEEEEbv@Base 4:4.11.5
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN8KCalCore9IncidenceEEEEbv@Base 4:4.10.80
  (optional=templinst)_ZNK7Akonadi4Item10tryToCloneI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost9enable_ifINS_8Internal17is_shared_pointerIT_EEbE4typeEPSA_PKi@Base 4:4.5.86
+ (optional=templinst|arch=ia64)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore4TodoEEEEN5boost11enable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEPKi@Base 4:4.11.5
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESA_E4typeEv@Base 4:4.5.86
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore4TodoEEEEN5boost11enable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEPKi@Base 4:4.6.2
- (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.10.80
+ (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEEN5boost12disable_if_cIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:4.7.4
  (optional=templinst)_ZNK7Akonadi4Item7payloadI14QSharedPointerIN8KCalCore9IncidenceEEEET_v@Base 4:4.10.80
  _ZNK7Akonadi7History10metaObjectEv@Base 4:4.10.80
  _ZNK7Akonadi7History13redoAvailableEv@Base 4:4.10.80

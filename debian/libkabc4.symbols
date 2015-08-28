@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.04.1 amd64
+# SymbolsHelper-Confirmed: 4:4.14.10 amd64
 libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
@@ -71,19 +71,19 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC11AddressBookD0Ev@Base 4:4.3.4
  _ZN4KABC11AddressBookD1Ev@Base 4:4.3.4
  _ZN4KABC11AddressBookD2Ev@Base 4:4.3.4
- _ZN4KABC11CalendarUrl13setParametersERK4QMapI7QString11QStringListE@Base 4:4.14.7
- _ZN4KABC11CalendarUrl6setUrlERK4QUrl@Base 4:4.14.7
- _ZN4KABC11CalendarUrl7Private12typeToStringENS0_12CalendarTypeE@Base 4:4.14.7
- _ZN4KABC11CalendarUrl7setTypeENS0_12CalendarTypeE@Base 4:4.14.7
- _ZN4KABC11CalendarUrlC1ENS0_12CalendarTypeE@Base 4:4.14.7
- _ZN4KABC11CalendarUrlC1ERKS0_@Base 4:4.14.7
- _ZN4KABC11CalendarUrlC1Ev@Base 4:4.14.7
- _ZN4KABC11CalendarUrlC2ENS0_12CalendarTypeE@Base 4:4.14.7
- _ZN4KABC11CalendarUrlC2ERKS0_@Base 4:4.14.7
- _ZN4KABC11CalendarUrlC2Ev@Base 4:4.14.7
- _ZN4KABC11CalendarUrlD1Ev@Base 4:4.14.7
- _ZN4KABC11CalendarUrlD2Ev@Base 4:4.14.7
- _ZN4KABC11CalendarUrlaSERKS0_@Base 4:4.14.7
+ _ZN4KABC11CalendarUrl13setParametersERK4QMapI7QString11QStringListE@Base 4:4.14.6
+ _ZN4KABC11CalendarUrl6setUrlERK4QUrl@Base 4:4.14.6
+ _ZN4KABC11CalendarUrl7Private12typeToStringENS0_12CalendarTypeE@Base 4:4.14.6
+ _ZN4KABC11CalendarUrl7setTypeENS0_12CalendarTypeE@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlC1ENS0_12CalendarTypeE@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlC1ERKS0_@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlC1Ev@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlC2ENS0_12CalendarTypeE@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlC2ERKS0_@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlC2Ev@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlD1Ev@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlD2Ev@Base 4:4.14.6
+ _ZN4KABC11CalendarUrlaSERKS0_@Base 4:4.14.6
  _ZN4KABC11PhoneNumber13typeFlagLabelENS0_8TypeFlagE@Base 4:4.5.0
  _ZN4KABC11PhoneNumber5setIdERK7QString@Base 4:4.3.4
  _ZN4KABC11PhoneNumber7setTypeE6QFlagsINS0_8TypeFlagEE@Base 4:4.3.4
@@ -238,14 +238,14 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC13FormatFactoryC2Ev@Base 4:4.3.4
  _ZN4KABC13FormatFactoryD1Ev@Base 4:4.3.4
  _ZN4KABC13FormatFactoryD2Ev@Base 4:4.3.4
- _ZN4KABC13LDIFConverter12evaluatePairERNS_9AddresseeERNS_7AddressES4_R7QStringS6_RiS7_S7_RNS_12ContactGroupE@Base 4:4.14.7
- _ZN4KABC13LDIFConverter15LDIFToAddresseeERK7QStringRNS_13AddresseeListER5QListINS_12ContactGroupEERK9QDateTime@Base 4:4.14.7
+ _ZN4KABC13LDIFConverter12evaluatePairERNS_9AddresseeERNS_7AddressES4_R7QStringS6_RiS7_S7_RNS_12ContactGroupE@Base 4:4.14.10
+ _ZN4KABC13LDIFConverter15LDIFToAddresseeERK7QStringRNS_13AddresseeListER5QListINS_12ContactGroupEERK9QDateTime@Base 4:4.14.10
  _ZN4KABC13LDIFConverter15LDIFToAddresseeERK7QStringRNS_13AddresseeListERK9QDateTime@Base 4:4.3.4
  _ZN4KABC13LDIFConverter15addresseeToLDIFERKNS_13AddresseeListER7QString@Base 4:4.3.4
  _ZN4KABC13LDIFConverter15addresseeToLDIFERKNS_9AddresseeER7QString@Base 4:4.3.4
- _ZN4KABC13LDIFConverter18contactGroupToLDIFERK5QListINS_12ContactGroupEER7QString@Base 4:4.14.7
- _ZN4KABC13LDIFConverter18contactGroupToLDIFERKNS_12ContactGroupER7QString@Base 4:4.14.7
- _ZN4KABC13LDIFConverter30addresseeAndContactGroupToLDIFERKNS_13AddresseeListERK5QListINS_12ContactGroupEER7QString@Base 4:4.14.7
+ _ZN4KABC13LDIFConverter18contactGroupToLDIFERK5QListINS_12ContactGroupEER7QString@Base 4:4.14.10
+ _ZN4KABC13LDIFConverter18contactGroupToLDIFERKNS_12ContactGroupER7QString@Base 4:4.14.10
+ _ZN4KABC13LDIFConverter30addresseeAndContactGroupToLDIFERKNS_13AddresseeListERK5QListINS_12ContactGroupEER7QString@Base 4:4.14.10
  _ZN4KABC13SortingTraits10FamilyName2eqERKNS_9AddresseeES4_@Base 4:4.3.4
  _ZN4KABC13SortingTraits10FamilyName2ltERKNS_9AddresseeES4_@Base 4:4.3.4
  _ZN4KABC13SortingTraits10FamilyNameC1Ev@Base 4:4.3.4
@@ -377,9 +377,9 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC15AddresseeHelper8addToSetERK11QStringListR4QSetI7QStringE@Base 4:4.3.4
  _ZN4KABC15AddresseeHelperC1Ev@Base 4:4.3.4
  _ZN4KABC15AddresseeHelperC2Ev@Base 4:4.3.4
- _ZN4KABC15AddresseeHelperD0Ev@Base 4:4.6.5
- _ZN4KABC15AddresseeHelperD1Ev@Base 4:4.6.5
- _ZN4KABC15AddresseeHelperD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC15AddresseeHelperD0Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC15AddresseeHelperD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC15AddresseeHelperD2Ev@Base 4:4.6.5
  _ZN4KABC15GuiErrorHandler5errorERK7QString@Base 4:4.3.4
  _ZN4KABC15GuiErrorHandlerC1EP7QWidget@Base 4:4.3.4
  _ZN4KABC15GuiErrorHandlerC2EP7QWidget@Base 4:4.3.4
@@ -481,29 +481,29 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC3KeyD1Ev@Base 4:4.3.4
  _ZN4KABC3KeyD2Ev@Base 4:4.3.4
  _ZN4KABC3KeyaSERKS0_@Base 4:4.3.4
- _ZN4KABC4Impp10setAddressERK7QString@Base 4:4.14.7
- _ZN4KABC4Impp13setParametersERK4QMapI7QString11QStringListE@Base 4:4.14.7
- _ZN4KABC4Impp9setIMTypeERK7QString@Base 4:4.14.7
- _ZN4KABC4ImppC1ERK7QString@Base 4:4.14.7
- _ZN4KABC4ImppC1ERKS0_@Base 4:4.14.7
- _ZN4KABC4ImppC1Ev@Base 4:4.14.7
- _ZN4KABC4ImppC2ERK7QString@Base 4:4.14.7
- _ZN4KABC4ImppC2ERKS0_@Base 4:4.14.7
- _ZN4KABC4ImppC2Ev@Base 4:4.14.7
- _ZN4KABC4ImppD1Ev@Base 4:4.14.7
- _ZN4KABC4ImppD2Ev@Base 4:4.14.7
- _ZN4KABC4ImppaSERKS0_@Base 4:4.14.7
- _ZN4KABC4Lang11setLanguageERK7QString@Base 4:14.12.2
- _ZN4KABC4Lang13setParametersERK4QMapI7QString11QStringListE@Base 4:14.12.2
- _ZN4KABC4LangC1ERK7QString@Base 4:14.12.2
- _ZN4KABC4LangC1ERKS0_@Base 4:14.12.2
- _ZN4KABC4LangC1Ev@Base 4:14.12.2
- _ZN4KABC4LangC2ERK7QString@Base 4:14.12.2
- _ZN4KABC4LangC2ERKS0_@Base 4:14.12.2
- _ZN4KABC4LangC2Ev@Base 4:14.12.2
- _ZN4KABC4LangD1Ev@Base 4:14.12.2
- _ZN4KABC4LangD2Ev@Base 4:14.12.2
- _ZN4KABC4LangaSERKS0_@Base 4:14.12.2
+ _ZN4KABC4Impp10setAddressERK7QString@Base 4:4.14.6
+ _ZN4KABC4Impp13setParametersERK4QMapI7QString11QStringListE@Base 4:4.14.6
+ _ZN4KABC4Impp9setIMTypeERK7QString@Base 4:4.14.6
+ _ZN4KABC4ImppC1ERK7QString@Base 4:4.14.6
+ _ZN4KABC4ImppC1ERKS0_@Base 4:4.14.6
+ _ZN4KABC4ImppC1Ev@Base 4:4.14.6
+ _ZN4KABC4ImppC2ERK7QString@Base 4:4.14.6
+ _ZN4KABC4ImppC2ERKS0_@Base 4:4.14.6
+ _ZN4KABC4ImppC2Ev@Base 4:4.14.6
+ _ZN4KABC4ImppD1Ev@Base 4:4.14.6
+ _ZN4KABC4ImppD2Ev@Base 4:4.14.6
+ _ZN4KABC4ImppaSERKS0_@Base 4:4.14.6
+ _ZN4KABC4Lang11setLanguageERK7QString@Base 4:4.14.5
+ _ZN4KABC4Lang13setParametersERK4QMapI7QString11QStringListE@Base 4:4.14.5
+ _ZN4KABC4LangC1ERK7QString@Base 4:4.14.5
+ _ZN4KABC4LangC1ERKS0_@Base 4:4.14.5
+ _ZN4KABC4LangC1Ev@Base 4:4.14.5
+ _ZN4KABC4LangC2ERK7QString@Base 4:4.14.5
+ _ZN4KABC4LangC2ERKS0_@Base 4:4.14.5
+ _ZN4KABC4LangC2Ev@Base 4:4.14.5
+ _ZN4KABC4LangD1Ev@Base 4:4.14.5
+ _ZN4KABC4LangD2Ev@Base 4:4.14.5
+ _ZN4KABC4LangaSERKS0_@Base 4:4.14.5
  _ZN4KABC4Lock11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN4KABC4Lock11qt_metacastEPKc@Base 4:4.3.4
  _ZN4KABC4Lock12readLockFileERK7QStringRiRS1_@Base 4:4.3.4
@@ -519,17 +519,17 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC4LockD0Ev@Base 4:4.3.4
  _ZN4KABC4LockD1Ev@Base 4:4.3.4
  _ZN4KABC4LockD2Ev@Base 4:4.3.4
- _ZN4KABC5Email13setParametersERK4QMapI7QString11QStringListE@Base 4:14.12.2
- _ZN4KABC5Email8setEmailERK7QString@Base 4:14.12.2
- _ZN4KABC5EmailC1ERK7QString@Base 4:14.12.2
- _ZN4KABC5EmailC1ERKS0_@Base 4:14.12.2
- _ZN4KABC5EmailC1Ev@Base 4:14.12.2
- _ZN4KABC5EmailC2ERK7QString@Base 4:14.12.2
- _ZN4KABC5EmailC2ERKS0_@Base 4:14.12.2
- _ZN4KABC5EmailC2Ev@Base 4:14.12.2
- _ZN4KABC5EmailD1Ev@Base 4:14.12.2
- _ZN4KABC5EmailD2Ev@Base 4:14.12.2
- _ZN4KABC5EmailaSERKS0_@Base 4:14.12.2
+ _ZN4KABC5Email13setParametersERK4QMapI7QString11QStringListE@Base 4:4.14.5
+ _ZN4KABC5Email8setEmailERK7QString@Base 4:4.14.5
+ _ZN4KABC5EmailC1ERK7QString@Base 4:4.14.5
+ _ZN4KABC5EmailC1ERKS0_@Base 4:4.14.5
+ _ZN4KABC5EmailC1Ev@Base 4:4.14.5
+ _ZN4KABC5EmailC2ERK7QString@Base 4:4.14.5
+ _ZN4KABC5EmailC2ERKS0_@Base 4:4.14.5
+ _ZN4KABC5EmailC2Ev@Base 4:4.14.5
+ _ZN4KABC5EmailD1Ev@Base 4:4.14.5
+ _ZN4KABC5EmailD2Ev@Base 4:4.14.5
+ _ZN4KABC5EmailaSERKS0_@Base 4:4.14.5
  _ZN4KABC5Field10saveFieldsER12KConfigGroupRK7QStringRK5QListIPS0_E@Base 4:4.3.4
  _ZN4KABC5Field10saveFieldsERK7QStringRK5QListIPS0_E@Base 4:4.3.4
  _ZN4KABC5Field11createFieldEii@Base 4:4.3.4
@@ -569,17 +569,17 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC5SoundD1Ev@Base 4:4.3.4
  _ZN4KABC5SoundD2Ev@Base 4:4.3.4
  _ZN4KABC5SoundaSERKS0_@Base 4:4.3.4
- _ZN4KABC6Gender10setCommentERK7QString@Base 4:14.12.2
- _ZN4KABC6Gender9setGenderERK7QString@Base 4:14.12.2
- _ZN4KABC6GenderC1ERK7QString@Base 4:14.12.2
- _ZN4KABC6GenderC1ERKS0_@Base 4:14.12.2
- _ZN4KABC6GenderC1Ev@Base 4:14.12.2
- _ZN4KABC6GenderC2ERK7QString@Base 4:14.12.2
- _ZN4KABC6GenderC2ERKS0_@Base 4:14.12.2
- _ZN4KABC6GenderC2Ev@Base 4:14.12.2
- _ZN4KABC6GenderD1Ev@Base 4:14.12.2
- _ZN4KABC6GenderD2Ev@Base 4:14.12.2
- _ZN4KABC6GenderaSERKS0_@Base 4:14.12.2
+ _ZN4KABC6Gender10setCommentERK7QString@Base 4:4.14.5
+ _ZN4KABC6Gender9setGenderERK7QString@Base 4:4.14.5
+ _ZN4KABC6GenderC1ERK7QString@Base 4:4.14.5
+ _ZN4KABC6GenderC1ERKS0_@Base 4:4.14.5
+ _ZN4KABC6GenderC1Ev@Base 4:4.14.5
+ _ZN4KABC6GenderC2ERK7QString@Base 4:4.14.5
+ _ZN4KABC6GenderC2ERKS0_@Base 4:4.14.5
+ _ZN4KABC6GenderC2Ev@Base 4:4.14.5
+ _ZN4KABC6GenderD1Ev@Base 4:4.14.5
+ _ZN4KABC6GenderD2Ev@Base 4:4.14.5
+ _ZN4KABC6GenderaSERKS0_@Base 4:4.14.5
  _ZN4KABC6Plugin12setNameLabelERK7QString@Base 4:4.3.4
  _ZN4KABC6Plugin19setDescriptionLabelERK7QString@Base 4:4.3.4
  _ZN4KABC6Plugin7setTypeERK7QString@Base 4:4.3.4
@@ -628,7 +628,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC7Picture10setRawDataERK10QByteArrayRK7QString@Base 4:4.9.80
  _ZN4KABC7Picture6setUrlERK7QString@Base 4:4.3.4
  _ZN4KABC7Picture6setUrlERK7QStringS3_@Base 4:4.9.80
- _ZN4KABC7Picture7setDataERK6QImage@Base 4:4.3.4
+ _ZN4KABC7Picture7setDataERK6QImage@Base 4:4.14.5
  _ZN4KABC7Picture7setTypeERK7QString@Base 4:4.3.4
  _ZN4KABC7PictureC1ERK6QImage@Base 4:4.3.4
  _ZN4KABC7PictureC1ERK7QString@Base 4:4.3.4
@@ -733,18 +733,18 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC8TimeZoneD2Ev@Base 4:4.3.4
  _ZN4KABC8TimeZoneaSERKS0_@Base 4:4.3.4
  _ZN4KABC9Addressee10emailLabelEv@Base 4:4.3.4
- _ZN4KABC9Addressee10insertLangERKNS_4LangE@Base 4:14.12.2
+ _ZN4KABC9Addressee10insertLangERKNS_4LangE@Base 4:4.14.5
  _ZN4KABC9Addressee10pagerLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee10photoLabelEv@Base 4:4.3.4
- _ZN4KABC9Addressee10removeLangERK7QString@Base 4:14.12.2
+ _ZN4KABC9Addressee10removeLangERK7QString@Base 4:4.14.5
  _ZN4KABC9Addressee10setChangedEb@Base 4:4.3.4
  _ZN4KABC9Addressee10setCustomsERK11QStringList@Base 4:4.3.4
- _ZN4KABC9Addressee10setMembersERK11QStringList@Base 4:4.14.7
+ _ZN4KABC9Addressee10setMembersERK11QStringList@Base 4:4.14.6
  _ZN4KABC9Addressee10setSecrecyERKNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABC9Addressee10soundLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee10titleLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee11insertEmailERK7QStringb@Base 4:4.3.4
- _ZN4KABC9Addressee11insertEmailERK7QStringbRK4QMapIS1_11QStringListE@Base 4:14.12.2
+ _ZN4KABC9Addressee11insertEmailERK7QStringbRK4QMapIS1_11QStringListE@Base 4:4.14.5
  _ZN4KABC9Addressee11mailerLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee11prefixLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee11removeEmailERK7QString@Base 4:4.3.4
@@ -757,10 +757,10 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9Addressee11suffixLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee12homeFaxLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee12insertCustomERK7QStringS3_S3_@Base 4:4.3.4
- _ZN4KABC9Addressee12insertMemberERK7QString@Base 4:4.14.7
+ _ZN4KABC9Addressee12insertMemberERK7QString@Base 4:4.14.6
  _ZN4KABC9Addressee12removeCustomERK7QStringS3_@Base 4:4.3.4
  _ZN4KABC9Addressee12secrecyLabelEv@Base 4:4.3.4
- _ZN4KABC9Addressee12setEmailListERK5QListINS_5EmailEE@Base 4:14.12.2
+ _ZN4KABC9Addressee12setEmailListERK5QListINS_5EmailEE@Base 4:4.14.5
  _ZN4KABC9Addressee12setGivenNameERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee12setProductIdERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee13birthdayLabelEv@Base 4:4.3.4
@@ -777,36 +777,36 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9Addressee14givenNameLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee14homePhoneLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee14insertCategoryERK7QString@Base 4:4.3.4
- _ZN4KABC9Addressee14insertExtraUrlERK4KUrl@Base 4:4.14.7
+ _ZN4KABC9Addressee14insertExtraUrlERK4KUrl@Base 4:4.14.6
  _ZN4KABC9Addressee14productIdLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee14removeCategoryERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee15departmentLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee15familyNameLabelEv@Base 4:4.3.4
- _ZN4KABC9Addressee15insertExtraLogoERKNS_7PictureE@Base 4:4.14.7
- _ZN4KABC9Addressee15insertSourceUrlERK4KUrl@Base 4:4.14.7
- _ZN4KABC9Addressee15setExtraUrlListERK5QListI4KUrlE@Base 4:4.14.7
+ _ZN4KABC9Addressee15insertExtraLogoERKNS_7PictureE@Base 4:4.14.6
+ _ZN4KABC9Addressee15insertSourceUrlERK4KUrl@Base 4:4.14.6
+ _ZN4KABC9Addressee15setExtraUrlListERK5QListI4KUrlE@Base 4:4.14.6
  _ZN4KABC9Addressee15setOrganizationERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee15sortStringLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee16businessFaxLabelEv@Base 4:4.3.4
- _ZN4KABC9Addressee16insertExtraPhotoERKNS_7PictureE@Base 4:4.14.7
- _ZN4KABC9Addressee16insertExtraSoundERKNS_5SoundE@Base 4:4.14.7
+ _ZN4KABC9Addressee16insertExtraPhotoERKNS_7PictureE@Base 4:4.14.6
+ _ZN4KABC9Addressee16insertExtraSoundERKNS_5SoundE@Base 4:4.14.6
  _ZN4KABC9Addressee16mobilePhoneLabelEv@Base 4:4.3.4
- _ZN4KABC9Addressee16setExtraLogoListERK5QListINS_7PictureEE@Base 4:4.14.7
+ _ZN4KABC9Addressee16setExtraLogoListERK5QListINS_7PictureEE@Base 4:4.14.6
  _ZN4KABC9Addressee16setFormattedNameERK7QString@Base 4:4.3.4
- _ZN4KABC9Addressee16setRelationShipsERK11QStringList@Base 4:4.14.7
- _ZN4KABC9Addressee17insertCalendarUrlERKNS_11CalendarUrlE@Base 4:4.14.7
+ _ZN4KABC9Addressee16setRelationShipsERK11QStringList@Base 4:4.14.6
+ _ZN4KABC9Addressee17insertCalendarUrlERKNS_11CalendarUrlE@Base 4:4.14.6
  _ZN4KABC9Addressee17insertPhoneNumberERKNS_11PhoneNumberE@Base 4:4.3.4
  _ZN4KABC9Addressee17organizationLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee17parseEmailAddressERK7QStringRS1_S4_@Base 4:4.3.4
  _ZN4KABC9Addressee17removePhoneNumberERKNS_11PhoneNumberE@Base 4:4.3.4
  _ZN4KABC9Addressee17setAdditionalNameERK7QString@Base 4:4.3.4
- _ZN4KABC9Addressee17setExtraPhotoListERK5QListINS_7PictureEE@Base 4:4.14.7
- _ZN4KABC9Addressee17setExtraSoundListERK5QListINS_5SoundEE@Base 4:4.14.7
+ _ZN4KABC9Addressee17setExtraPhotoListERK5QListINS_7PictureEE@Base 4:4.14.6
+ _ZN4KABC9Addressee17setExtraSoundListERK5QListINS_5SoundEE@Base 4:4.14.6
  _ZN4KABC9Addressee17setNameFromStringERK7QString@Base 4:4.3.4
- _ZN4KABC9Addressee17setSourcesUrlListERK5QListI4KUrlE@Base 4:4.14.7
+ _ZN4KABC9Addressee17setSourcesUrlListERK5QListI4KUrlE@Base 4:4.14.6
  _ZN4KABC9Addressee18businessPhoneLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee18formattedNameLabelEv@Base 4:4.3.4
- _ZN4KABC9Addressee18insertRelationShipERK7QString@Base 4:4.14.7
+ _ZN4KABC9Addressee18insertRelationShipERK7QString@Base 4:4.14.6
  _ZN4KABC9Addressee19additionalNameLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee21homeAddressLabelLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee22homeAddressRegionLabelEv@Base 4:4.3.4
@@ -827,14 +827,14 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9Addressee6setUrlERK4KUrl@Base 4:4.3.4
  _ZN4KABC9Addressee7Private9mSortModeE@Base 4:4.3.4
  _ZN4KABC9Addressee7setKeysERK5QListINS_3KeyEE@Base 4:4.3.4
- _ZN4KABC9Addressee7setKindERK7QString@Base 4:14.12.2
+ _ZN4KABC9Addressee7setKindERK7QString@Base 4:4.14.5
  _ZN4KABC9Addressee7setLogoERKNS_7PictureE@Base 4:4.3.4
  _ZN4KABC9Addressee7setNameERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee7setNoteERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee7setRoleERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee8geoLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee8mimeTypeEv@Base 4:4.3.4
- _ZN4KABC9Addressee8setLangsERK5QListINS_4LangEE@Base 4:4.14.7
+ _ZN4KABC9Addressee8setLangsERK5QListINS_4LangEE@Base 4:4.14.6
  _ZN4KABC9Addressee8setPhotoERKNS_7PictureE@Base 4:4.3.4
  _ZN4KABC9Addressee8setSoundERKNS_5SoundE@Base 4:4.3.4
  _ZN4KABC9Addressee8setTitleERK7QString@Base 4:4.3.4
@@ -848,7 +848,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9Addressee9removeKeyERKNS_3KeyE@Base 4:4.3.4
  _ZN4KABC9Addressee9roleLabelEv@Base 4:4.3.4
  _ZN4KABC9Addressee9setEmailsERK11QStringList@Base 4:4.3.4
- _ZN4KABC9Addressee9setGenderERKNS_6GenderE@Base 4:14.12.2
+ _ZN4KABC9Addressee9setGenderERKNS_6GenderE@Base 4:4.14.5
  _ZN4KABC9Addressee9setMailerERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee9setPrefixERK7QString@Base 4:4.3.4
  _ZN4KABC9Addressee9setSuffixERK7QString@Base 4:4.3.4
@@ -869,36 +869,35 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZN4KABC9VCardToolD1Ev@Base 4:4.3.4
  _ZN4KABC9VCardToolD2Ev@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_11AddressBookE@Base 4:4.3.4
- _ZN4KABClsER11QDataStreamRKNS_11CalendarUrlE@Base 4:4.14.7
+ _ZN4KABClsER11QDataStreamRKNS_11CalendarUrlE@Base 4:4.14.6
  _ZN4KABClsER11QDataStreamRKNS_11PhoneNumberE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_3GeoE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_3KeyE@Base 4:4.3.4
- _ZN4KABClsER11QDataStreamRKNS_4ImppE@Base 4:4.14.7
- _ZN4KABClsER11QDataStreamRKNS_4LangE@Base 4:14.12.2
- _ZN4KABClsER11QDataStreamRKNS_5EmailE@Base 4:14.12.2
+ _ZN4KABClsER11QDataStreamRKNS_4ImppE@Base 4:4.14.6
+ _ZN4KABClsER11QDataStreamRKNS_4LangE@Base 4:4.14.5
+ _ZN4KABClsER11QDataStreamRKNS_5EmailE@Base 4:4.14.5
  _ZN4KABClsER11QDataStreamRKNS_5SoundE@Base 4:4.3.4
- _ZN4KABClsER11QDataStreamRKNS_6GenderE@Base 4:14.12.2
+ _ZN4KABClsER11QDataStreamRKNS_6GenderE@Base 4:4.14.5
  _ZN4KABClsER11QDataStreamRKNS_7AddressE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_7PictureE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_8TimeZoneE@Base 4:4.3.4
  _ZN4KABClsER11QDataStreamRKNS_9AddresseeE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_11AddressBookE@Base 4:4.3.4
- _ZN4KABCrsER11QDataStreamRNS_11CalendarUrlE@Base 4:4.14.7
+ _ZN4KABCrsER11QDataStreamRNS_11CalendarUrlE@Base 4:4.14.6
  _ZN4KABCrsER11QDataStreamRNS_11PhoneNumberE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_3GeoE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_3KeyE@Base 4:4.3.4
- _ZN4KABCrsER11QDataStreamRNS_4ImppE@Base 4:4.14.7
- _ZN4KABCrsER11QDataStreamRNS_4LangE@Base 4:14.12.2
- _ZN4KABCrsER11QDataStreamRNS_5EmailE@Base 4:14.12.2
+ _ZN4KABCrsER11QDataStreamRNS_4ImppE@Base 4:4.14.6
+ _ZN4KABCrsER11QDataStreamRNS_4LangE@Base 4:4.14.5
+ _ZN4KABCrsER11QDataStreamRNS_5EmailE@Base 4:4.14.5
  _ZN4KABCrsER11QDataStreamRNS_5SoundE@Base 4:4.3.4
- _ZN4KABCrsER11QDataStreamRNS_6GenderE@Base 4:14.12.2
+ _ZN4KABCrsER11QDataStreamRNS_6GenderE@Base 4:4.14.5
  _ZN4KABCrsER11QDataStreamRNS_7AddressE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_7PictureE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_7SecrecyE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_8TimeZoneE@Base 4:4.3.4
  _ZN4KABCrsER11QDataStreamRNS_9AddresseeE@Base 4:4.3.4
- (optional=templinst|arch=hppa sparc)_ZNK12KConfigGroup9readEntryIiEE5QListIT_ERK7QStringRKS3_@Base 4:4.4.2
  _ZNK4KABC11AddressBook10findByNameERK7QString@Base 4:4.3.4
  _ZNK4KABC11AddressBook10identifierEv@Base 4:4.3.4
  _ZNK4KABC11AddressBook10metaObjectEv@Base 4:4.3.4
@@ -922,13 +921,13 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC11AddressBook8IteratorneERKS1_@Base 4:4.3.4
  _ZNK4KABC11AddressBook9findByUidERK7QString@Base 4:4.3.4
  _ZNK4KABC11AddressBook9resourcesEv@Base 4:4.3.4
- _ZNK4KABC11CalendarUrl10parametersEv@Base 4:4.14.7
- _ZNK4KABC11CalendarUrl3urlEv@Base 4:4.14.7
- _ZNK4KABC11CalendarUrl4typeEv@Base 4:4.14.7
- _ZNK4KABC11CalendarUrl7isValidEv@Base 4:4.14.7
- _ZNK4KABC11CalendarUrl8toStringEv@Base 4:4.14.7
- _ZNK4KABC11CalendarUrleqERKS0_@Base 4:4.14.7
- _ZNK4KABC11CalendarUrlneERKS0_@Base 4:4.14.7
+ _ZNK4KABC11CalendarUrl10parametersEv@Base 4:4.14.6
+ _ZNK4KABC11CalendarUrl3urlEv@Base 4:4.14.6
+ _ZNK4KABC11CalendarUrl4typeEv@Base 4:4.14.6
+ _ZNK4KABC11CalendarUrl7isValidEv@Base 4:4.14.6
+ _ZNK4KABC11CalendarUrl8toStringEv@Base 4:4.14.6
+ _ZNK4KABC11CalendarUrleqERKS0_@Base 4:4.14.6
+ _ZNK4KABC11CalendarUrlneERKS0_@Base 4:4.14.6
  _ZNK4KABC11PhoneNumber2idEv@Base 4:4.3.4
  _ZNK4KABC11PhoneNumber4typeEv@Base 4:4.3.4
  _ZNK4KABC11PhoneNumber6numberEv@Base 4:4.3.4
@@ -1021,28 +1020,28 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC3Key8toStringEv@Base 4:4.3.4
  _ZNK4KABC3KeyeqERKS0_@Base 4:4.3.4
  _ZNK4KABC3KeyneERKS0_@Base 4:4.3.4
- _ZNK4KABC4Impp10parametersEv@Base 4:4.14.7
- _ZNK4KABC4Impp6imTypeEv@Base 4:4.14.7
- _ZNK4KABC4Impp7addressEv@Base 4:4.14.7
- _ZNK4KABC4Impp7isValidEv@Base 4:4.14.7
- _ZNK4KABC4Impp8toStringEv@Base 4:4.14.7
- _ZNK4KABC4ImppeqERKS0_@Base 4:4.14.7
- _ZNK4KABC4ImppneERKS0_@Base 4:4.14.7
- _ZNK4KABC4Lang10parametersEv@Base 4:14.12.2
- _ZNK4KABC4Lang7isValidEv@Base 4:14.12.2
- _ZNK4KABC4Lang8languageEv@Base 4:14.12.2
- _ZNK4KABC4Lang8toStringEv@Base 4:14.12.2
- _ZNK4KABC4LangeqERKS0_@Base 4:14.12.2
- _ZNK4KABC4LangneERKS0_@Base 4:14.12.2
+ _ZNK4KABC4Impp10parametersEv@Base 4:4.14.6
+ _ZNK4KABC4Impp6imTypeEv@Base 4:4.14.6
+ _ZNK4KABC4Impp7addressEv@Base 4:4.14.6
+ _ZNK4KABC4Impp7isValidEv@Base 4:4.14.6
+ _ZNK4KABC4Impp8toStringEv@Base 4:4.14.6
+ _ZNK4KABC4ImppeqERKS0_@Base 4:4.14.6
+ _ZNK4KABC4ImppneERKS0_@Base 4:4.14.6
+ _ZNK4KABC4Lang10parametersEv@Base 4:4.14.5
+ _ZNK4KABC4Lang7isValidEv@Base 4:4.14.5
+ _ZNK4KABC4Lang8languageEv@Base 4:4.14.5
+ _ZNK4KABC4Lang8toStringEv@Base 4:4.14.5
+ _ZNK4KABC4LangeqERKS0_@Base 4:4.14.5
+ _ZNK4KABC4LangneERKS0_@Base 4:4.14.5
  _ZNK4KABC4Lock10metaObjectEv@Base 4:4.3.4
  _ZNK4KABC4Lock12lockFileNameEv@Base 4:4.3.4
  _ZNK4KABC4Lock5errorEv@Base 4:4.3.4
- _ZNK4KABC5Email10parametersEv@Base 4:14.12.2
- _ZNK4KABC5Email4mailEv@Base 4:14.12.2
- _ZNK4KABC5Email7isValidEv@Base 4:14.12.2
- _ZNK4KABC5Email8toStringEv@Base 4:14.12.2
- _ZNK4KABC5EmaileqERKS0_@Base 4:14.12.2
- _ZNK4KABC5EmailneERKS0_@Base 4:14.12.2
+ _ZNK4KABC5Email10parametersEv@Base 4:4.14.5
+ _ZNK4KABC5Email4mailEv@Base 4:4.14.5
+ _ZNK4KABC5Email7isValidEv@Base 4:4.14.5
+ _ZNK4KABC5Email8toStringEv@Base 4:4.14.5
+ _ZNK4KABC5EmaileqERKS0_@Base 4:4.14.5
+ _ZNK4KABC5EmailneERKS0_@Base 4:4.14.5
  _ZNK4KABC5Sound3urlEv@Base 4:4.3.4
  _ZNK4KABC5Sound4dataEv@Base 4:4.3.4
  _ZNK4KABC5Sound7isEmptyEv@Base 4:4.3.4
@@ -1050,12 +1049,12 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC5Sound8toStringEv@Base 4:4.3.4
  _ZNK4KABC5SoundeqERKS0_@Base 4:4.3.4
  _ZNK4KABC5SoundneERKS0_@Base 4:4.3.4
- _ZNK4KABC6Gender6genderEv@Base 4:14.12.2
- _ZNK4KABC6Gender7commentEv@Base 4:14.12.2
- _ZNK4KABC6Gender7isValidEv@Base 4:14.12.2
- _ZNK4KABC6Gender8toStringEv@Base 4:14.12.2
- _ZNK4KABC6GendereqERKS0_@Base 4:14.12.2
- _ZNK4KABC6GenderneERKS0_@Base 4:14.12.2
+ _ZNK4KABC6Gender6genderEv@Base 4:4.14.5
+ _ZNK4KABC6Gender7commentEv@Base 4:4.14.5
+ _ZNK4KABC6Gender7isValidEv@Base 4:4.14.5
+ _ZNK4KABC6Gender8toStringEv@Base 4:4.14.5
+ _ZNK4KABC6GendereqERKS0_@Base 4:4.14.5
+ _ZNK4KABC6GenderneERKS0_@Base 4:4.14.5
  _ZNK4KABC6Plugin16descriptionLabelEv@Base 4:4.3.4
  _ZNK4KABC6Plugin4typeEv@Base 4:4.3.4
  _ZNK4KABC6Plugin9nameLabelEv@Base 4:4.3.4
@@ -1112,38 +1111,38 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9Addressee11findAddressERK7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee11hasCategoryERK7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee11phoneNumberE6QFlagsINS_11PhoneNumber8TypeFlagEE@Base 4:4.3.4
- _ZNK4KABC9Addressee12extraUrlListEv@Base 4:4.14.7
+ _ZNK4KABC9Addressee12extraUrlListEv@Base 4:4.14.6
  _ZNK4KABC9Addressee12organizationEv@Base 4:4.3.4
  _ZNK4KABC9Addressee12phoneNumbersE6QFlagsINS_11PhoneNumber8TypeFlagEE@Base 4:4.3.4
  _ZNK4KABC9Addressee12phoneNumbersEv@Base 4:4.3.4
  _ZNK4KABC9Addressee13assembledNameEv@Base 4:4.3.4
- _ZNK4KABC9Addressee13extraLogoListEv@Base 4:4.14.7
+ _ZNK4KABC9Addressee13extraLogoListEv@Base 4:4.14.6
  _ZNK4KABC9Addressee13formattedNameEv@Base 4:4.3.4
- _ZNK4KABC9Addressee13relationShipsEv@Base 4:4.14.7
+ _ZNK4KABC9Addressee13relationShipsEv@Base 4:4.14.6
  _ZNK4KABC9Addressee14additionalNameEv@Base 4:4.3.4
- _ZNK4KABC9Addressee14extraPhotoListEv@Base 4:4.14.7
- _ZNK4KABC9Addressee14extraSoundListEv@Base 4:4.14.7
+ _ZNK4KABC9Addressee14extraPhotoListEv@Base 4:4.14.6
+ _ZNK4KABC9Addressee14extraSoundListEv@Base 4:4.14.6
  _ZNK4KABC9Addressee14preferredEmailEv@Base 4:4.3.4
- _ZNK4KABC9Addressee14sourcesUrlListEv@Base 4:4.14.7
+ _ZNK4KABC9Addressee14sourcesUrlListEv@Base 4:4.14.6
  _ZNK4KABC9Addressee15findPhoneNumberERK7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee3geoEv@Base 4:4.3.4
- _ZNK4KABC9Addressee3keyENS_3Key4TypeE7QString@Base 4:4.9.80
+ _ZNK4KABC9Addressee3keyENS_3Key4TypeE7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee3uidEv@Base 4:4.3.4
  _ZNK4KABC9Addressee3urlEv@Base 4:4.3.4
- _ZNK4KABC9Addressee4keysENS_3Key4TypeE7QString@Base 4:4.9.80
+ _ZNK4KABC9Addressee4keysENS_3Key4TypeE7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee4keysEv@Base 4:4.3.4
- _ZNK4KABC9Addressee4kindEv@Base 4:14.12.2
+ _ZNK4KABC9Addressee4kindEv@Base 4:4.14.5
  _ZNK4KABC9Addressee4logoEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4nameEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4noteEv@Base 4:4.3.4
  _ZNK4KABC9Addressee4roleEv@Base 4:4.3.4
- _ZNK4KABC9Addressee5langsEv@Base 4:14.12.2
+ _ZNK4KABC9Addressee5langsEv@Base 4:4.14.5
  _ZNK4KABC9Addressee5photoEv@Base 4:4.3.4
  _ZNK4KABC9Addressee5soundEv@Base 4:4.3.4
  _ZNK4KABC9Addressee5titleEv@Base 4:4.3.4
  _ZNK4KABC9Addressee6customERK7QStringS3_@Base 4:4.3.4
  _ZNK4KABC9Addressee6emailsEv@Base 4:4.3.4
- _ZNK4KABC9Addressee6genderEv@Base 4:14.12.2
+ _ZNK4KABC9Addressee6genderEv@Base 4:4.14.5
  _ZNK4KABC9Addressee6mailerEv@Base 4:4.3.4
  _ZNK4KABC9Addressee6prefixEv@Base 4:4.3.4
  _ZNK4KABC9Addressee6suffixEv@Base 4:4.3.4
@@ -1152,7 +1151,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9Addressee7customsEv@Base 4:4.3.4
  _ZNK4KABC9Addressee7findKeyERK7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee7isEmptyEv@Base 4:4.3.4
- _ZNK4KABC9Addressee7membersEv@Base 4:4.14.7
+ _ZNK4KABC9Addressee7membersEv@Base 4:4.14.6
  _ZNK4KABC9Addressee7secrecyEv@Base 4:4.3.4
  _ZNK4KABC9Addressee8birthdayEv@Base 4:4.3.4
  _ZNK4KABC9Addressee8nickNameEv@Base 4:4.3.4
@@ -1163,7 +1162,7 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9Addressee8toStringEv@Base 4:4.3.4
  _ZNK4KABC9Addressee9addressesE6QFlagsINS_7Address8TypeFlagEE@Base 4:4.3.4
  _ZNK4KABC9Addressee9addressesEv@Base 4:4.3.4
- _ZNK4KABC9Addressee9emailListEv@Base 4:14.12.2
+ _ZNK4KABC9Addressee9emailListEv@Base 4:4.14.5
  _ZNK4KABC9Addressee9fullEmailERK7QString@Base 4:4.3.4
  _ZNK4KABC9Addressee9givenNameEv@Base 4:4.3.4
  _ZNK4KABC9Addressee9productIdEv@Base 4:4.3.4
@@ -1171,21 +1170,21 @@ libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
  _ZNK4KABC9AddresseeltERKS0_@Base 4:4.3.4
  _ZNK4KABC9AddresseeneERKS0_@Base 4:4.3.4
  _ZNK4KABC9VCardTool10parseSoundERKNS_9VCardLineE@Base 4:4.3.4
- _ZNK4KABC9VCardTool11createSoundERKNS_5SoundENS_5VCard7VersionE@Base 4:14.12.2
+ _ZNK4KABC9VCardTool11createSoundERKNS_5SoundENS_5VCard7VersionE@Base 4:4.14.5
  _ZNK4KABC9VCardTool11parseVCardsERK10QByteArray@Base 4:4.3.4
  _ZNK4KABC9VCardTool11splitStringERK5QCharRK7QString@Base 4:4.3.4
- _ZNK4KABC9VCardTool12addParameterERNS_9VCardLineENS_5VCard7VersionERK7QStringRK11QStringList@Base 4:4.14.7
+ _ZNK4KABC9VCardTool12addParameterERNS_9VCardLineENS_5VCard7VersionERK7QStringRK11QStringList@Base 4:4.14.6
  _ZNK4KABC9VCardTool12createVCardsERKNS_13AddresseeListENS_5VCard7VersionE@Base 4:4.3.4
  _ZNK4KABC9VCardTool12createVCardsERKNS_13AddresseeListENS_5VCard7VersionEb@Base 4:4.9.1
  _ZNK4KABC9VCardTool12exportVCardsERKNS_13AddresseeListENS_5VCard7VersionE@Base 4:4.9.1
  _ZNK4KABC9VCardTool12parsePictureERKNS_9VCardLineE@Base 4:4.3.4
  _ZNK4KABC9VCardTool12parseSecrecyERKNS_9VCardLineE@Base 4:4.3.4
- _ZNK4KABC9VCardTool13createPictureERK7QStringRKNS_7PictureENS_5VCard7VersionE@Base 4:14.12.2
+ _ZNK4KABC9VCardTool13createPictureERK7QStringRKNS_7PictureENS_5VCard7VersionE@Base 4:4.14.5
  _ZNK4KABC9VCardTool13createSecrecyERKNS_7SecrecyE@Base 4:4.3.4
  _ZNK4KABC9VCardTool13parseDateTimeERK7QString@Base 4:4.3.4
  _ZNK4KABC9VCardTool14createDateTimeERK9QDateTime@Base 4:4.3.4
  _ZNK4KABC9VCardTool8parseKeyERKNS_9VCardLineE@Base 4:4.3.4
- _ZNK4KABC9VCardTool9createKeyERKNS_3KeyENS_5VCard7VersionE@Base 4:14.12.2
+ _ZNK4KABC9VCardTool9createKeyERKNS_3KeyENS_5VCard7VersionE@Base 4:4.14.5
  _ZTIN4KABC11AddressBookE@Base 4:4.3.4
  _ZTIN4KABC11ResourceABCE@Base 4:4.3.4
  _ZTIN4KABC11VCardFormatE@Base 4:4.3.4
@@ -1316,9 +1315,9 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZN4KABC18ResourceFileConfig20checkFilePermissionsERK7QString@Base 4:4.3.4
  _ZN4KABC18ResourceFileConfigC1EP7QWidget@Base 4:4.3.4
  _ZN4KABC18ResourceFileConfigC2EP7QWidget@Base 4:4.3.4
- _ZN4KABC18ResourceFileConfigD0Ev@Base 4:4.6.5
- _ZN4KABC18ResourceFileConfigD1Ev@Base 4:4.6.5
- _ZN4KABC18ResourceFileConfigD2Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC18ResourceFileConfigD0Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC18ResourceFileConfigD1Ev@Base 4:4.6.5
+ (optional=gccinternal)_ZN4KABC18ResourceFileConfigD2Ev@Base 4:4.6.5
  _ZNK4KABC12ResourceFile10metaObjectEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile6formatEv@Base 4:4.3.4
  _ZNK4KABC12ResourceFile8fileNameEv@Base 4:4.3.4
@@ -1329,4 +1328,4 @@ libkabc_file_core.so.4 libkabc4 #MINVER#
  _ZTSN4KABC18ResourceFileConfigE@Base 4:4.3.4
  _ZTVN4KABC12ResourceFileE@Base 4:4.3.4
  _ZTVN4KABC18ResourceFileConfigE@Base 4:4.3.4
- (c++)"non-virtual thunk to KABC::ResourceFileConfig::~ResourceFileConfig()@Base" 4:4.6.5
+ (optional=gccinternal|c++)"non-virtual thunk to KABC::ResourceFileConfig::~ResourceFileConfig()@Base" 4:4.6.5

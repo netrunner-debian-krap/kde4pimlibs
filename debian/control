@@ -60,8 +60,8 @@ Description: development files for the KDE Development Platform PIM libraries
 Package: kdepimlibs-kio-plugins
 Architecture: any
 Depends: libsasl2-modules, ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: kio slaves used by KDE PIM applications
  This package contains the imap4, ldap, mbox, nntp, pop3, sieve and smtp kio
  slaves.
@@ -104,8 +104,8 @@ Description: Akonadi calendar access library
 Package: libakonadi-kde4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: library for using the Akonadi PIM data server
  This is the client access library for using the Akonadi PIM data server.
  .
@@ -114,8 +114,8 @@ Description: library for using the Akonadi PIM data server
 Package: libakonadi-kmime4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: Akonadi MIME handling library
  This library provides MIME handling helpers using the
  Akonadi PIM data server.
@@ -163,8 +163,8 @@ Description: c++ wrapper library for gpgme
 Package: libkabc4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: library for handling address book data
  This library provides an API for address book data. It includes features
  such as:
@@ -209,8 +209,8 @@ Description: library for handling kalarm calendar data
 Package: libkcal4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: library for handling calendar data
  This library provides access to and handling of calendar data. It supports
  the standard formats iCalendar and vCalendar and the group scheduling
@@ -243,8 +243,8 @@ Description: library with utility functions for the handling of calendar data
 Package: libkholidays4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: holidays calculation library
  This library provides a C++ API that determines holiday and other special
  events for a geographical region.
@@ -360,8 +360,8 @@ Description: library for dealing with email addresses
 Package: libkresources4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: KDE Resource framework library
  This library provides a framework for managing resources of different types,
  organized in families. The Resource framework is for example used for
@@ -397,8 +397,8 @@ Description: simple XML-RPC client library
 Package: libmailtransport4
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data, kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
 Description: mail transport service library
  Mailtransport is a library that provides the following functionality:
  .

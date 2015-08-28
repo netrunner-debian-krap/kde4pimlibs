@@ -7,6 +7,8 @@ kde4pimlibs (4:4.14.8-0ubuntu1) UNRELEASED; urgency=medium
   * Rename source from kdepimlibs to kde4pimlibs for compatibility purposes we
     need the legacy kde4 version and the new kf5 version in the archive.
   * Adjust VCS fields
+  * Make sure all breaks and replaces on kdepimlibs-data have a version
+    it made a return in the kf5 packaging.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 07:21:55 -0700
 

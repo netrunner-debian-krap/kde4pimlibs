@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.14.10 amd64
-libakonadi-contact.so.4 libakonadi-contact4 #MINVER#, kdepim-runtime (>> 4:4.10)
+libakonadi-contact.so.4 libakonadi-contact4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE13defaultPixmap@Base 4:4.5.0
  _ZGVZN7Akonadi13ContactViewer7Private10updateViewERK5QListI8QVariantERK7QStringE16defaultMapPixmap@Base 4:4.14.10

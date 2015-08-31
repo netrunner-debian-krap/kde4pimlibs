@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64
-libkblog.so.4 libkblog4 #MINVER#,, kdepim-runtime
+libkblog.so.4 libkblog4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KBlog10MetaWeblog11createMediaEPNS_9BlogMediaE@Base 4:4.3.4
  _ZN5KBlog10MetaWeblog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4

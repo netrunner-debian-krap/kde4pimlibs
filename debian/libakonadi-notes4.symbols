@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.9.80 i386
-libakonadi-notes.so.4 libakonadi-notes4 #MINVER#, kdepim-runtime (>> 4:4.10)
+libakonadi-notes.so.4 libakonadi-notes4 #MINVER#
  _ZN7Akonadi9NoteUtils10Attachment8setLabelERK7QString@Base 4:4.9.3
  _ZN7Akonadi9NoteUtils10AttachmentC1ERK10QByteArrayRK7QString@Base 4:4.9.3
  _ZN7Akonadi9NoteUtils10AttachmentC1ERK4QUrlRK7QString@Base 4:4.9.3

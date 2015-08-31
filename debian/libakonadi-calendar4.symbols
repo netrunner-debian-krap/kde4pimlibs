@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.14.10 amd64
-libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#, kdepim-runtime (>> 4:4.10)
+libakonadi-calendar.so.4 libakonadi-calendar4 #MINVER#
  (optional=gccinternal)_ZN5KMime5Types7MailboxD1Ev@Base 4:4.10.80
  (optional=gccinternal)_ZN5KMime5Types7MailboxD2Ev@Base 4:4.10.80
  (optional=gccinternal)_ZN5KMime5Types8AddrSpecD1Ev@Base 4:4.14.6

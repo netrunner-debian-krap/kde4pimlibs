@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.14.10 amd64
-libkcal.so.4 libkcal4 #MINVER#, kdepim-runtime
+libkcal.so.4 libkcal4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  Parse_MIME@Base 4:4.3.4
  Parse_MIME_FromFile@Base 4:4.3.4

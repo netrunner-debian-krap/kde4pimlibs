@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.14.10 amd64
-libkabc.so.4 libkabc4 #MINVER#, kdepim-runtime
+libkabc.so.4 libkabc4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KABC11AddressBook11addResourceEPNS_8ResourceE@Base 4:4.3.4
  _ZN4KABC11AddressBook11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4

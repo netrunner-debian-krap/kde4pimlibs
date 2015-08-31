@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.13.95 amd64
-libkresources.so.4 libkresources4 #MINVER#, kdepim-runtime
+libkresources.so.4 libkresources4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN4KRES10ConfigPage10slotRemoveEv@Base 4:4.3.4
  _ZN4KRES10ConfigPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4

@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.14.0 amd64
-libkimap.so.4 libkimap4 #MINVER#, kdepim-runtime
+libkimap.so.4 libkimap4 #MINVER#
 * Build-Depends-Package: kdepimlibs5-dev
  _ZN5KIMAP10AclJobBase10setMailBoxERK7QString@Base 4:4.3.4
  _ZN5KIMAP10AclJobBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4

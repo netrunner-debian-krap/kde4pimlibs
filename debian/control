@@ -60,8 +60,12 @@ Description: development files for the KDE Development Platform PIM libraries
 Package: kde4pimlibs-kio-plugins
 Architecture: any
 Depends: libsasl2-modules, ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
-Breaks: kdepimlibs-data (<< 4:4.14.8), kdepimlibs5 (<< 4:4.4.0)
+Replaces: kdepimlibs-data (<< 4:4.14.8),
+          kdepimlibs-kio-plugins (<< 4:4.14.10),
+          kdepimlibs5 (<< 4:4.4.0)
+Breaks: kdepimlibs-data (<< 4:4.14.8),
+        kdepimlibs-kio-plugins (<< 4:4.14.10),
+        kdepimlibs5 (<< 4:4.4.0)
 Description: kio slaves used by KDE PIM applications
  This package contains the imap4, ldap, mbox, nntp, pop3, sieve and smtp kio
  slaves.
@@ -451,6 +455,8 @@ Architecture: any
 Priority: extra
 Depends: kdelibs5-dbg, libc6-dbg [amd64], ${allLibraries}, ${misc:Depends}
 Recommends: kde4pimlibs-kio-plugins (= ${binary:Version})
+Replaces: kdepimlibs-dbg (<< 4:4.14.10)
+Breaks: kdepimlibs-dbg (<< 4:4.14.10)
 Description: debugging symbols for the KDE Development Platform PIM libraries
  This package contains debugging files used to investigate problems with
  binaries included in the KDE Development Platform PIM libraries module.

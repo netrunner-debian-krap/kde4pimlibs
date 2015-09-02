@@ -1,3 +1,12 @@
+kde4pimlibs (4:4.14.10-1ubuntu2) wily; urgency=medium
+
+  * Rip out akonadi files that conflict with the kf5 version of kdepimlibs
+    + These are runtime things that depend on a working akonadi stack which is
+    no longer available since the entie shebang moved to kf5 and the wire
+    format of akonadi changed as part of this.
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 02 Sep 2015 09:13:25 +0200
+
 kde4pimlibs (4:4.14.10-1ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]

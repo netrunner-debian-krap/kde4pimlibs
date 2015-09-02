@@ -1,5 +1,3 @@
-usr/bin/akonadi2xml
-usr/bin/akonaditest
 usr/include/KDE/Akonadi/AgentBase
 usr/include/KDE/Akonadi/AgentFactory
 usr/include/KDE/Akonadi/AgentFilterProxyModel
@@ -1127,7 +1125,6 @@ usr/lib/libmailtransport.so
 usr/lib/libmicroblog.so
 usr/lib/libqgpgme.so
 usr/lib/libsyndication.so
-usr/share/akonadi/agents/knutresource.desktop
 usr/share/dbus-1/interfaces/org.kde.KResourcesManager.xml
 usr/share/dbus-1/interfaces/org.kde.pim.IdentityManager.xml
 usr/share/kde4/apps/akonadi_knut_resource/knut-template.xml

@@ -2,3 +2,9 @@
 -./usr/include/kimaptest/fakeserver.h
 -./usr/include/kimaptest/mockjob.h
 -./usr/lib/libkimaptest.a
+
+# Runtime bits don't work with the now broken akonadi stack and they conflict
+# with kf5...
+./usr/bin/akonadi2xml
+./usr/bin/akonaditest
+./usr/share/akonadi/agents/knutresource.desktop
